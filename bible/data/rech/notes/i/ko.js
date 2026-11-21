@@ -1,0 +1,1 @@
+window.__RI={"koper":[631],"kokheba":[3198],"konen":[3530],"kohi":[3947],"kor":[6993],"kos":[7737],"korban":[8086,248],"kophos":[8421],"koilia":[8801],"kolpon":[8909],"kolpo":[8909],"koinonia":[9750],"kosmos":[10538]};

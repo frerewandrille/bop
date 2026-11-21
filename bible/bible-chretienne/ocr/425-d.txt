@@ -1,0 +1,58 @@
+TABLE GÉNÉRALE
+
+On ne s’étonnera pas que la pagination (dans la colonne la plus à gauche), ne
+forme pas une série ascendante régulière : c’est que le même passage des Évangiles
+pouvant être situé par Mt, Mc, Le ou Jn à des paragraphes différents, les chiffres
+renvoient à la page où il se trouve effectivement commenté, et non à celle où figure
+seulement le titre du paragraphe, renvoyant lui-même à la page du commentaire.
+Par exemple pour les $ 90-93, relatifs à Mt 9,1-17 (qui viennent à la page 316
+seulement), nous référons aux pages 190-204 où ces mêmes épisodes sont ra-
+contés par Mc et Le ($ 40-43), et où nous les avons commentés.
+
+PAGE Mt Mc Ec
+
+IX Introduction générale à Bible
+chrétienne 11
+
+I. PRELUDES:
+SECTION 1, LES DEUX PROLOGUES ($ 1-2)
+3 1. Prologue de Saint-Jean
+32 2. Prologue de Saint-Luc 1,1-4
+
+SECTION 2, L'ENFANCE DE JÉSUS ($ 3-18)
+
+35 3. L’Annonce à Zacharie 1,5-25
+40 4. L'Annonciation 1,26-38
+54 5. La Visitation 1,39-45
+S7 6. Le Magnificat 1,46-56
+65 7. Nativité de Jean-Baptiste 1,57-67
+66 8. Le Benedictus 1,68-80
+70 9. Naissance de Jésus 2,1-7
+76 10. L’Annonce aux bergers 2,8-20
+87 11. Circoncision et Présentation 2,21-40
+97 12. Généalogie de Jésus 1,1-17
+99 13. L’Annonce à Joseph 1,18-25
+
+105 14. L'Adoration des Mages 2,1-12
+
+109 15-17. De Bethléem à Nazareth 2,13-23
+
+116 18. Jésus retrouvé au Temple 2,41-52
+
+SECTION 3, BAPTÊME ET TENTATION ($ 19-27)
+
+123 19. Le Précurseur 3,1-6 1,1-6 3,1-6
+
+128 20-23. La Prédication de Jean-Baptiste  3,7-12 1,7-8 3,7-20
+
+134 24. Le Baptême de Jésus 3,13-17 1,9-11 3,21-22
+
+148 25. Premières vocations des Apôtres
+
+153 26. Généalogie selon Saint-Luc 3,23-38
+
+154 27. Les tentations du désert 4,1-11 1,12-13 4,1-13
+
+Jn
+
+1,1-18

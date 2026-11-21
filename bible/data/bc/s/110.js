@@ -1,0 +1,1 @@
+window.__BC={"n":"112","titre":"Les épis arrachés","page":"340","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 12,1-8","refs":[["MAT",12,1,12,8]],"paras":[{"t":"Voir au 8 44*.","page":"340","k":"texte"}],"i":"110"};

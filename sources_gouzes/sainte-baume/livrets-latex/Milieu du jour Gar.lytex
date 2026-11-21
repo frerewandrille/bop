@@ -1,0 +1,549 @@
+%!TEX TS-program = lualatex
+
+\documentclass[10pt, a4paper, twoside]{article}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titlepic}
+\usepackage{xcolor}
+\usepackage{array, multirow}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+%\usepackage[autocompile]{gregoriotex}
+
+\geometry{a5paper, margin = 0.04\paperwidth, bottom = 0.08\paperwidth, top = 0.08\paperwidth}
+
+%\input{Psautier/Psautier-format-5.tex} \formatPDT
+%\input{Psautier/PsautierPDT-texte-5.tex}\MixteB
+\setlength{\postStrophe}{1ex plus 1ex}
+
+\renewcommand{\CtTitre}[3]{\subsection{#2 (Ct #3)}}
+\renewcommand{\finPsaume}{}
+\renewcommand{\refrain}[1]{\enRetrait{\textcolor{ruber}{\Rbar\scriptsize#1}}{1em}}
+\renewcommand{\heb}[1]{}
+\renewcommand{\PsParTitre}[2]{\subsubsection{\textcolor{ruber}{#1}}}
+\newcommand{\sTitre}{\renewcommand{\PsParTitre}[2]{\PsTitre{##2 --- \textsc{\lowercase{##1}}}}}
+\newcommand{\nsTitre}{\renewcommand{\PsParTitre}[2]{\subsubsection{\textcolor{ruber}{##1}}}}
+\newcommand{\jour}[1]{\section{#1}}
+
+\pagestyle{fancy}
+\fancyfoot{}
+\renewcommand{\partmark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\subsectionmark}[1]{}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[RE]{\scshape\leftmark}
+
+\setmainfont{EBGaramond}%
+[Extension = .otf,
+UprightFont       = *-Regular,
+ItalicFont        = *-Italic,
+BoldFont          = *-Bold,
+BoldItalicFont    = *-BoldItalic,
+Numbers = Lowercase,
+Numbers = Proportional,
+Ligatures = Discretionary,   % ou RawFeature = +dlig, (ct, st)
+]
+
+\newcommand{\rubrique}[1]{\smallskip\textcolor{ruber}{{\small\itshape#1}}}
+\renewcommand{\rubrique}[1]{\smallskip\textcolor{ruber}{{\itshape#1}}}
+\definecolor{ruber}{RGB}{219, 23, 2}
+
+\title{\sffamily\Huge\bfseries\uppercase {\fontsize{40pt}{45pt}\selectfont Office du \mbox{milieu du jour}}}
+\author{}
+\date{}
+
+\parindent= 0pt
+
+\titleformat{\part}[hang]{\huge\sffamily\centering\uppercase}{}{0pt}{}{}
+\titleformat{\section}[hang]{\Large\scshape\centering}{}{0pt}{}{}
+\titleformat{\subsection}[hang]{\bfseries\centering}{}{0pt}{}{}
+\titleformat{\subsubsection}[hang]{\centering\normalsize}{}{0pt}{}{}
+\titlespacing{\subsubsection}{0pt}{1ex}{1ex}
+
+\def\preLilyPondExample{\par\hspace*{-3mm}}
+\newcommand{\betweenLilyPondSystem}[1]{\newline\hspace*{-3mm}}
+\newcommand{\postLilyPondExample}{\smallskip\par}
+
+\newcommand{\dstr}{\begin{minipage}{\linewidth}\begin{hangparas}{1em}{1}\raggedright\strut}
+\newcommand{\fstr}{\strut\end{hangparas}\end{minipage}\vspace{2ex}\par}
+
+\ifx\Vbar\undefined \newcommand{\Vbar}{V/}\fi
+\newcommand{\versLect}[2]{\par\null\begin{minipage}{\linewidth}\enRetrait{\textcolor{ruber}{\Vbar}}{1ex}#1\\#2\end{minipage}\par\null}
+\raggedcolumns
+\setlength{\multicolsep}{0ex}
+\setlength{\columnsep}{4ex}
+\setlength{\postCol}{0ex}
+
+
+
+
+\begin{document}
+	
+	\setcounter{page}{3}
+%	\fontsize{14pt}{15pt}\selectfont
+	
+	
+
+	\part{Hymnes}\label{HyDeb}
+	\begin{multicols}{2}
+		\dstr
+		Le jour est dans tout son éclat,\\
+		La terre est pleine de ta gloire,\\
+		Nous t'adorons, ô Dieu puissant,\\
+		Dans la splendeur de ta lumière.
+		\fstr\dstr
+		Éteins la flamme du péché\\
+		Et les ardeurs de la colère;\\
+		Emplis nos cœurs de ton amour,\\
+		Et que ta paix nous réunisse.
+		\fstr\dstr
+		Exauce-nous, ô Tout-Puissant,\\
+		Par Jésus Christ ton Fils unique\\
+		Qui règne avec le Saint-Esprit\\
+		Depuis toujours et dans les siècles.
+		\fstr
+	\end{multicols}\smallskip\smallskip
+	
+	\rubrique{ou bien}\smallskip
+	
+	\begin{multicols}{2}
+		\dstr
+		Rector potens verax Deus,\\
+		Qui temperas rerum vices,\\
+		Splendore mane instruis\\
+		Et ignibus meridiem.
+		\fstr\dstr
+		Extingue flammas litium,\\
+		Aufer calorem noxium,\\
+		Confer salutem corporum,\\
+		Veramque pacem cordium.
+		\fstr\dstr
+		Præsta, Pater piissime,\\
+		Patrique compar Unice,\\
+		Cum Spiritu Paraclito,\\
+		Regnans per omne sæculum. 
+		\fstr
+		\dstr
+		Maître puissant, Dieu Vérité,\\
+		Tu règles la marche du temps,\\
+		Tu formes l'aube en sa clarté,\\
+		Au midi tu donnes ses flammes.
+		\fstr\dstr
+		Éteins le feu des dissensions,\\
+		Calme la fièvre du péché,\\
+		Apporte à nos corps la santé,\\
+		À nos cœurs, la paix véritable.
+		\fstr\dstr
+		Exauce-nous, Père très bon,\\
+		Et toi, le Fils égal au Père,\\
+		Avec l'Esprit Consolateur,\\
+		Régnant pour les siècles des siècles.
+		\fstr\label{HyFin}
+	\end{multicols}\null
+	
+	
+	\part{Propre du Temps}
+	
+	\section{Avent}
+	%\rubrique{Hymne ci-dessus.} %p. \pageref{HyDeb}.}
+	
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Sois sans crainte S222.ly" 
+	\end{lilypond}
+	
+	\versLect{Le Seigneur apparaîtra dans sa gloire: }{ le peuple nouveau chantera son Dieu.}
+	
+	\section{Nativité}
+	%\rubrique{Hymne p. \pageref{HyDeb}.}
+	\rubrique{Avant l'Épiphanie}
+	
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Toi le buisson H811.ly" 
+	\end{lilypond}
+
+	\versLect{Tous les confins de la terre ont vu, alléluia,}{ le salut de notre Dieu, alléluia.}
+	
+	\rubrique{À partir de l'Épiphanie}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/En ces jours-là H037.ly"
+\end{lilypond}
+
+	\versLect{Les nations verront ta justice,}{ tous les rois verront ta gloire.}
+
+	
+	
+	\begin{multicols}{2}[\section{Carême}]
+		\dstr
+		Voici l’heure où le Christ eut soif,\\
+		L'heure où il monta sur la croix;\\
+		Qu'il donne soif de la justice\\
+		À ceux qui le chantent à cette heure.
+		\fstr\dstr
+		Qu'ils ressentent aussi cette faim\\
+		Que lui seul peut rassasier;\\
+		Que le péché leur soit dégoût\\
+		Et la vertu, tout leur désir.
+		\fstr
+		\dstr
+		Qu’il répande sur ceux qui chantent\\
+		Le don du Saint Esprit de Dieu,\\
+		Tempérant l’ardeur de la chair,\\
+		Réchauffant la froideur de l’âme.
+		\fstr\dstr
+		Implorons le Christ et le Père\\
+		Et l’Esprit du Père et du Christ:\\
+		Ô Trinité, une et puissante,\\
+		Daigne écouter ceux qui te prient.
+		\fstr
+	\end{multicols}\null\smallskip
+	
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Je suis le Dieu vivant K653.ly" 
+	\end{lilypond}
+	
+	\begin{multicols}{2}
+		\rubrique{Avant les Rameaux}
+		
+		\versLect{Détourne ta face de mes fautes}{ enlève tous mes péchés.}
+		
+		\rubrique{Le 5\up{e} dimanche \mbox{et pendant la Semaine Sainte}}
+		
+		\versLect{Ce sont nos souffrances qu'il a portées, }{ nos douleurs qu'il a supportées.}
+	\end{multicols}\null
+	
+	
+	\begin{multicols}{2}[\section{Temps pascal}]
+		\dstr
+		Venez, serviteurs, suppliez,\\
+		Célébrez du cœur et des lèvres\\
+		Par vos louanges, vos cantiques,\\
+		Le nom béni de notre Dieu.
+		\fstr\dstr
+		Car voici revenu le temps\\
+		Où, par une injuste sentence,\\
+		Les mortels livrent à la mort\\
+		Celui qui doit juger les siècles.
+		\fstr\dstr
+		Nous, qui lui devons notre amour,\\
+		L'hommage d'une juste crainte,\\
+		Pour tenir contre les assauts\\
+		De notre cruel ennemi,
+		\fstr\dstr
+		Supplions l'Unique: le Père,\\
+		Le Fils, qui est Dieu et qui règne,\\
+		Avec eux aussi, l'Esprit Saint;\\
+		En sa Trinité, le Seigneur.
+		\fstr
+	\end{multicols}\null\bigskip
+	
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Alléluia N070.ly" 
+	\end{lilypond}
+	
+	\begin{multicols}{2}
+		\rubrique{Pendant l'Octave}
+		
+		\versLect{Voici le jour que fit le Seigneur, }{ jour de fête et de joie, alléluia!}
+		
+		\rubrique{Après l'Octave}
+		
+		\versLect{Les disciples furent remplis de joie, alléluia, }{ à la vue du Seigneur, alléluia.}
+	\end{multicols}\null
+	
+	
+	\renewcommand{\versLect}[2]{\par\null\begin{minipage}{\linewidth}\smallskip\hrule width4cm \smallskip\enRetrait{\textcolor{ruber}{\Vbar}}{1ex}#1\\#2\end{minipage}\par\null}
+	
+	
+	\part{Semaine I}
+	
+	\jour{Dimanche}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Voici le jour.ly" 
+	\end{lilypond}
+	\PsaumeCXVII{*}{2}
+	
+	\versLect{Pour toujours, ta parole, Seigneur,}{ta fidélité demeure d'âge en âge. }
+	
+	\jour{Lundi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Fais-moi connaître F245.ly" 
+	\end{lilypond}
+	\PsaumeXVIIIb{*}{2}
+	\PsaumeVII{*}{2}
+	
+	\versLect{Ne m'abandonne pas, Dieu mon salut,}{tu restes mon secours. }
+	
+	\jour{Mardi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Heureux ceux qui cherchent F211.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpI{*}{2}\nsTitre
+	\PsaumeXII{*}{}
+	\PsaumeXIII{*}{2}
+	
+	\versLect{Seigneur, tu veux au fond de moi la vérité;}{dans le secret, tu m’apprends la sagesse. }
+	
+	\jour{Mercredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Béni sois-tu, Seigneur F212.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpII{*}{2}\nsTitre
+	\PsaumeXVI{*}{2}
+	
+	\versLect{Je vêtirai de gloire mes prêtres,}{ses fidèles crieront de joie.}
+	
+	\jour{Jeudi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Ouvre mes yeux F213.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpIII{*}{2}\nsTitre
+	\PsaumeXXIV{*}{2}
+	
+	\versLect{Devant lui, splendeur et majesté,}{dans son sanctuaire, puissance et beauté. }
+	
+	\jour{Vendredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Sur les chemins F214.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpIV{*}{2}\nsTitre
+	\PsaumeXXV{*}{2}
+	\PsaumeXXVII{*}{2}
+	
+	\versLect{Mon âme est collée à la poussière;}{fais-moi vivre selon ta parole.}
+	
+	\jour{Samedi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Incline mon coeur F215.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpV{*}{2}\nsTitre
+	\PsaumeXXXIII{*}{2}
+	
+	\versLect{Je suis à toi, sauve-moi,}{fais-moi vivre selon ton amour. }
+	
+	%\newpage
+	\part{Semaine II}
+	
+	\jour{Dimanche}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Le Seigneur s'est levé, lumière C209.ly" 
+	\end{lilypond}
+	\PsaumeXXII{*}{2}
+	
+	\PsaumeLXXV{*}{2}
+	
+	\versLect{Que mon cri parvienne devant toi, Seigneur,}{éclaire-moi selon ta parole. }
+	
+	\jour{Lundi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Oui, je lève mes mains F216.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpVI{*}{2}\nsTitre
+	\PsaumeXXXIX{*}{2}
+	
+	\versLect{Mon salut et ma gloire se trouvent près de Dieu,}{chez Dieu mon refuge. }
+	
+	\jour{Mardi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Un cantique F221.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpVII{*}{2}\nsTitre
+	\PsaumeLII{*}{2}
+	\PsaumeLIII{*}{2}
+	
+	\versLect{Père saint, garde-nous fidèles à ton nom:}{que notre unité soit parfaite. }
+	
+	
+	\jour{Mercredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/De ta miséricorde F222.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpVIII{*}{2}\nsTitre
+	\PsaumeLIV{*}{2}
+	
+	\versLect{Seigneur, Dieu de l’univers, qui est comme toi?}{Seigneur puissant, que ta fidélité environne. }
+	
+	\jour{Jeudi}\vspace{-1em}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Dans ta bonté F223.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpIX{*}{2}\nsTitre
+	\PsaumeLV{*}{2}
+	\PsaumeLVI{*}{2}
+	
+	\versLect{Toi, tu es bon, Seigneur, tu fais du bien.}{Apprends-moi tes commandements. }
+	
+	
+	\jour{Vendredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Tes mains m'ont façonné F224.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpX{*}{2}\nsTitre
+	\PsaumeLVIII{*}{2}
+	\PsaumeLIX{*}{2}
+	
+	\versLect{Près du Seigneur est l’amour,}{près de lui abonde le rachat. }
+	
+	\jour{Samedi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Sans fin, je cherche F225.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXI{*}{2}\nsTitre
+	\PsaumeLX{*}{2}
+	\PsaumeLXIII{*}{2}
+	
+	\versLect{Guide-moi, Seigneur, sur la voie de tes volontés,}{ta loi fais mon plaisir. }
+	
+	%\newpage
+	\part{Semaine III}
+	
+	\jour{Dimanche}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Voici le jour.ly" 
+	\end{lilypond}
+	
+	\PsaumeCXVII{*}{2}
+	
+	\versLect{Bénis le Seigneur, ô mon âme,}{il rachète ta vie à la mort. }
+	
+	\jour{Lundi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Pour toujours F226.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXII{*}{2}\nsTitre
+	\PsaumeLXX{*}{2}
+	
+	\versLect{Ne suis-je pas, Seigneur, ton serviteur?}{Moi, dont tu brises les chaînes? }
+	
+	
+	\jour{Mardi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/De mes pères F231.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXIII{*}{2}\nsTitre
+	\PsaumeLXXIII{*}{2}
+	
+	\versLect{Le Seigneur délivrera le pauvre qui l’appelle,}{le pauvre dont il sauve la vie. }
+	
+	\jour{Mercredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Lumière sur ma route F232.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXIV{*}{2}\nsTitre
+	\PsaumeLXIX{*}{2}
+	\PsaumeLXXIV{*}{2}
+	
+	\versLect{Que ton amour, Seigneur, soit sur nous,}{comme notre espoir est en toi. }
+	
+	\jour{Jeudi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Par ta Parole F233.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXV{*}{2}\nsTitre
+	\PsaumeLXXVIII{*}{2}
+	\PsaumeLXXIX{*}{2}
+	
+	\versLect{Le Seigneur est proche de ceux qui l’invoquent,}{il écoute leur cri, il les sauve. }
+	
+	\jour{Vendredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Mon Dieu, mon Dieu K751.ly" 
+	\end{lilypond}
+	\PsaumeXXI{*}{2}
+	
+	\versLect{La loi du Seigneur est parfaite, qui redonne vie:}{ses décisions sont justes et vraiment équitables.}
+	
+	\jour{Samedi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Seigneur, je suis ton serviteur, de ta Parole F234.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXVI{*}{2}\nsTitre
+	\PsaumeXXXIII{*}{2}
+	
+	\versLect{Qu’il est bon, qu’il est doux pour des frères,}{de vivre ensemble et d’être unis. }
+	
+	%\newpage
+	\part{Semaine IV}
+	
+	\jour{Dimanche}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Le Seigneur s'est levé, lumière C209.ly" 
+	\end{lilypond}
+	\PsaumeXXII{*}{2}
+	
+	\PsaumeLXXV{*}{2}
+	
+	\versLect{De tout mon cœur, je te cherche, Seigneur;}{garde-moi de fuir tes volontés. }
+	
+	\jour{Lundi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Tu as révélé ta Parole F235.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXVII{*}{2}\nsTitre
+	%\begin{minipage}{\linewidth}
+	\PsaumeLXXXI{*}{2}
+	\PsaumeCXIX{*}{2}
+	%\end{minipage}
+	
+	\versLect{Tu es Dieu de tendresse et de pitié,}{lent à la colère, plein d’amour et de vérité. }
+	
+	\jour{Mardi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Brûlante est ta parole F236.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXVIII{*}{2}\nsTitre
+	\PsaumeLXXXVII{*}{2}
+	
+	\versLect{Ta parole, Seigneur, est la lumière de mes pas,}{la lampe de ma route. }
+	
+	\jour{Mercredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Tu es proche F241.ly" 
+	\end{lilypond}
+	
+	\sTitre\PsaumeCXVIIIpXIX{*}{2}\nsTitre
+	\PsaumeXCIII{*}{2}
+	
+	\versLect{Je t’offrirai, Seigneur, le sacrifice d’action de grâce,}{j’invoquerai le nom du Seigneur. }
+	
+	\jour{Jeudi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Seigneur, nombreuses F242.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXX{*}{2}\nsTitre
+	\PsaumeCXXVII{*}{2}
+	\PsaumeCXXVIII{*}{2}
+	
+	\versLect{Fais confiance au Seigneur, agis bien,}{habite la terre et reste fidèle. }
+	
+	\jour{Vendredi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Donne la paix F243.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXXI{*}{2}\nsTitre
+	\PsaumeCXXXII{*}{2}
+	\PsaumeCXXXIX{*}{2}
+	
+	\versLect{Rendez grâce au Seigneur, il est bon!}{éternel est son amour. }
+	
+	\jour{Samedi}
+	\begin{lilypond}
+		\include "Ft_Gar_10pt_t.ly" \include "Antiennes/Que vive mon âme F244.ly" 
+	\end{lilypond}
+	\sTitre\PsaumeCXVIIIpXXII{*}{2}\nsTitre
+	\PsaumeXLIV{*}{2}
+	
+	\versLect{Le Seigneur aime son peuple,}{il donne aux humbles l’éclat de la victoire. }
+	
+	\newpage
+	\part{Psaumes graduels}
+	\PsaumeCXXII{*}{2}
+	\PsaumeCXXIII{*}{2}
+	\PsaumeCXXIV{*}{2}
+	
+	
+\end{document}

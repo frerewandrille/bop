@@ -1,0 +1,1 @@
+window.__BC={"n":"88-89","titre":"Tempête apaisée, démoniaques gadaréniens","page":"316","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 8,23-34","refs":[["MAT",8,23,8,34]],"paras":[{"t":"Voir aux § 141-142*.","page":"316","k":"texte"}],"i":"087"};

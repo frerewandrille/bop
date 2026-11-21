@@ -1,0 +1,370 @@
+/* Même habit que le bréviaire (psautier/site/css/office.css) : couleurs, polices Kepler. */
+:root {
+  --bg: #fbf8f2; --paper: #fffdf9; --bar: #f2ece1; --ink: #241f1a; --muted: #6b6157; --line: #ddd3c3;
+  --accent: #7a1f1f; --rouge: #a3201c; --gloss: #a3201c; --lsg: #1f4f8a; --strong: #6b7d3a; --hl: #f6e3a8; --gold: #a3201c;
+  --fs: 19px;
+  --heb: "Ezra SIL", "SBL Hebrew", "Noto Serif Hebrew", "Times New Roman", serif;
+  --grk: "Gentium Book Plus", "Gentium Plus", "SBL Greek", "Times New Roman", serif;
+  --fr: "Kepler Texte", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --legende: "Kepler Legende", "Kepler Texte", "Iowan Old Style", Palatino, Georgia, serif;
+  --titre: "Kepler Titre", "Kepler Soustitre", "Iowan Old Style", Palatino, Georgia, serif;
+  --ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --sb: env(safe-area-inset-bottom, 0px);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1a1714; --paper: #211d19; --bar: #24201c; --ink: #ece4d8; --muted: #a89c8e; --line: #3a332c;
+    --accent: #e0716a; --rouge: #e0716a; --gloss: #ef8a7c; --lsg: #8fb5ea; --strong: #b4c77e; --hl: #4b3f1c; --gold: #e0716a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1a1714; --paper: #211d19; --bar: #24201c; --ink: #ece4d8; --muted: #a89c8e; --line: #3a332c;
+  --accent: #e0716a; --rouge: #e0716a; --gloss: #ef8a7c; --lsg: #8fb5ea; --strong: #b4c77e; --hl: #4b3f1c; --gold: #e0716a; color-scheme: dark;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); }
+body { font-family: var(--fr); font-size: var(--fs); line-height: 1.55; -webkit-text-size-adjust: 100%; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; padding: 0; }
+
+/* ------------------------------------------------------------------ chrome */
+#top {
+  position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 6px;
+  padding: calc(env(safe-area-inset-top, 0px) + 6px) 10px 6px; background: var(--bar); border-bottom: 1px solid var(--line);
+}
+#title { flex: 1; min-width: 0; text-align: center; font-family: var(--titre); font-size: 19px; font-weight: 500; color: var(--rouge); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#title small { display: block; font-family: var(--ui); font-size: 11px; font-weight: 400; color: var(--muted); }
+.icon { width: 40px; height: 40px; border-radius: 20px; font-size: 26px; line-height: 40px; color: var(--accent); }
+.icon:active { background: var(--line); }
+#back[hidden] { visibility: hidden; display: block; }
+main { max-width: 680px; margin: 0 auto; padding: 8px 18px calc(110px + var(--sb)); }
+
+nav#tabs, nav#steps, nav#onglets {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: flex; justify-content: center;
+  background: var(--bar); border-top: 1px solid var(--line); padding-bottom: var(--sb);
+}
+nav button { flex: 1; max-width: 170px; padding: 7px 2px 8px; display: flex; flex-direction: column; align-items: center; color: var(--muted); }
+nav button b { font-family: var(--fr); font-size: clamp(14px, 4.1vw, 17px); font-weight: 600; }
+nav#tabs button b { font-size: 21px; font-weight: 400; line-height: 1.1; }
+nav button span { font-family: var(--ui); font-size: 10.5px; letter-spacing: .02em; }
+nav button.on { color: var(--accent); }
+nav#steps button.on b, nav#onglets button.on b { text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; }
+nav[hidden] { display: none !important; }
+
+/* ------------------------------------------------------------------ accueil */
+.date { font-family: var(--ui); font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 14px 0 2px; display: flex; align-items: center; gap: 8px; }
+.date button { font-size: 20px; color: var(--accent); padding: 0 8px; }
+.date .d { flex: 1; text-align: center; }
+.periode { text-align: center; font-style: italic; color: var(--gold); margin-bottom: 14px; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin: 12px 0; }
+.card h2 { font-family: var(--ui); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
+.card .big { font-size: 1.45em; color: var(--accent); line-height: 1.25; }
+.card .sub2 { font-style: italic; color: var(--muted); margin-top: 2px; }
+.btn { display: inline-block; margin-top: 12px; background: var(--accent); color: var(--paper); border-radius: 22px; padding: 9px 20px; font-family: var(--ui); font-size: 15px; font-weight: 600; text-decoration: none; }
+.btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.chip { font-family: var(--ui); font-size: 14px; border: 1px solid var(--line); background: var(--bg); border-radius: 16px; padding: 5px 12px; color: var(--ink); text-decoration: none; }
+.chip.on { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+.chip small { color: var(--muted); }
+.chip.on small { color: inherit; opacity: .8; }
+
+/* ------------------------------------------------------------------ choix d'un passage */
+.seg { display: flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin: 12px 0; font-family: var(--ui); font-size: 14px; }
+.seg button { flex: 1; padding: 8px 4px; background: var(--paper); }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button.on { background: var(--accent); color: var(--paper); }
+.books { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 6px; }
+.books a { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; color: var(--ink); text-decoration: none; font-size: .9em; }
+.books a small { display: block; font-family: var(--ui); font-size: 11px; color: var(--muted); }
+.books a.peres::after { content: " ✠"; color: var(--gold); font-size: .8em; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); gap: 6px; }
+.grid a { text-align: center; padding: 10px 0; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; color: var(--ink); text-decoration: none; font-family: var(--ui); font-size: 15px; }
+.peri { list-style: none; padding: 0; margin: 8px 0; }
+.peri li a { display: flex; gap: 12px; align-items: baseline; padding: 11px 4px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.peri li a span { font-family: var(--ui); font-size: 13px; color: var(--accent); min-width: 3.6em; }
+h1.sect { font-size: 1.3em; color: var(--accent); font-weight: 500; margin: 18px 0 6px; }
+
+/* ------------------------------------------------------------------ lecture */
+.ref-h { text-align: center; margin: 14px 0 4px; font-family: var(--ui); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.heads { margin: 22px 0 8px; text-align: center; }
+.heads .h1 { font-size: 1.2em; color: var(--accent); text-transform: none; }
+.heads .h2 { font-style: italic; color: var(--accent); }
+.heads .h3 { font-weight: 600; font-size: 1.02em; }
+.heads .h4 { font-style: italic; }
+.heads sup.nn, .heads .nn { display: none; }
+.v { margin: 0; padding: 4px 0; border-radius: 8px; transition: background .2s; }
+.v.open { background: var(--paper); box-shadow: 0 0 0 8px var(--paper); margin: 10px 0; }
+.v .txt { cursor: pointer; }
+.v.kept .txt { background: linear-gradient(transparent 62%, var(--hl) 62%); }
+.vn { font-family: var(--ui); font-size: .55em; font-weight: 700; color: var(--accent); vertical-align: super; margin-right: 3px; }
+sup.nn { font-family: var(--ui); font-size: .55em; color: var(--accent); padding: 0 2px; cursor: pointer; }
+body.no-notes sup.nn { display: none; }
+.v .under { display: block; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.acts { display: flex; font-size: 1rem; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.acts .chip.kept { background: var(--hl); border-color: var(--gold); }
+.pere-mark { font-size: .7em; color: var(--gold); margin-left: 3px; vertical-align: super; }
+
+/* interlinéaire compact */
+.words { display: flex; flex-wrap: wrap; gap: 4px 2px; }
+.words.rtl { direction: rtl; }
+.w { display: inline-flex; flex-direction: column; align-items: center; padding: 2px 4px; border-radius: 6px; min-width: 1.8em; max-width: 9em; text-align: center; cursor: pointer; }
+.w:active, .w.sel { background: var(--hl); }
+.w > span { direction: ltr; unicode-bidi: isolate; line-height: 1.2; }
+.w .orig { font-size: 1.15em; }
+.w .orig.heb { font-family: var(--heb); direction: rtl; font-size: 1.3em; line-height: 1.4; }
+.w .orig.grk { font-family: var(--grk); }
+.w .tr, .w .st, .w .mo { font-family: var(--ui); font-size: 10px; color: var(--muted); }
+.w .st { color: var(--strong); }
+.w .gl { color: var(--gloss); font-size: .66em; }
+.w .sg { color: var(--lsg); font-size: .66em; }
+.w .gl:empty, .w .sg:empty { display: none; }
+body:not(.tr) .w .tr, body:not(.st) .w .st, body:not(.mo) .w .mo { display: none; }
+body.gloss-lit .w .sg, body.gloss-lsg .w .gl { display: none; }
+.lat { font-style: italic; color: var(--muted); margin-top: 6px; }
+.lat .lbl, .lxx .lbl { font-family: var(--ui); font-style: normal; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; margin-right: 6px; }
+.lxx { font-family: var(--grk); }
+.missing { font-family: var(--ui); font-size: 13px; color: var(--muted); font-style: italic; }
+.pager { display: flex; justify-content: space-between; gap: 10px; margin: 28px 0 8px; }
+.pager a { font-family: var(--ui); font-size: 14px; color: var(--accent); text-decoration: none; max-width: 48%; }
+.pager a.next { text-align: right; margin-left: auto; }
+.pager a small { display: block; color: var(--muted); font-size: 12px; }
+
+/* ------------------------------------------------------------------ méditation */
+.prompt { font-style: italic; color: var(--muted); text-align: center; margin: 16px 8px; }
+.kept-list blockquote { margin: 8px 0; padding: 8px 14px; border-left: 3px solid var(--gold); background: var(--paper); border-radius: 0 10px 10px 0; }
+.kept-list blockquote cite { display: block; font-family: var(--ui); font-style: normal; font-size: 12px; color: var(--muted); margin-top: 4px; }
+.authors { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0 8px; margin: 0 -18px; padding-left: 18px; scrollbar-width: none; }
+.authors::-webkit-scrollbar { display: none; }
+.authors .chip { white-space: nowrap; }
+.sec-h { font-family: var(--ui); font-size: 12px; color: var(--accent); font-weight: 700; margin: 22px 0 4px; letter-spacing: .04em; }
+.sec-q { font-style: italic; color: var(--muted); margin-bottom: 6px; }
+.ex { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin: 10px 0; }
+.ex .who { font-weight: 600; color: var(--accent); }
+.ex .src { font-family: var(--ui); font-size: 12px; color: var(--muted); font-style: italic; }
+.ex .t { margin-top: 6px; }
+.ex.short .t { display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; overflow: hidden; }
+.ex .more { font-family: var(--ui); font-size: 13px; color: var(--accent); margin-top: 4px; }
+.note { font-size: .88em; margin: 8px 0; }
+.note b.k { font-family: var(--ui); color: var(--accent); margin-right: 6px; }
+a.ref { color: var(--lsg); text-decoration: none; border-bottom: 1px dotted; cursor: pointer; }
+
+/* ------------------------------------------------------------------ oraison */
+textarea { width: 100%; min-height: 40vh; font: inherit; font-size: .95em; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 14px; line-height: 1.5; resize: vertical; }
+textarea:focus { outline: 2px solid var(--gold); }
+.saved { font-family: var(--ui); font-size: 12px; color: var(--muted); text-align: right; min-height: 1.2em; }
+
+/* ------------------------------------------------------------------ contemplation */
+.contemplatio { min-height: calc(100vh - 200px); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 22px; }
+.contemplatio .word { font-size: 1.5em; font-style: italic; line-height: 1.45; max-width: 26ch; }
+.contemplatio .word cite { display: block; font-family: var(--ui); font-style: normal; font-size: 12px; color: var(--muted); margin-top: 12px; letter-spacing: .06em; }
+.timer { font-family: var(--ui); color: var(--muted); }
+.timer .t { font-size: 34px; font-weight: 300; color: var(--ink); font-variant-numeric: tabular-nums; }
+body.calm #top, body.calm nav { opacity: 0; pointer-events: none; transition: opacity 1.5s; }
+body.calm { background: #0f0d0b; color: #d9cfbf; }
+
+/* ------------------------------------------------------------------ carnet */
+.entry { display: block; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; margin: 10px 0; color: var(--ink); text-decoration: none; }
+.entry .d { font-family: var(--ui); font-size: 12px; color: var(--muted); }
+.entry .l { color: var(--accent); font-weight: 600; }
+.entry .k { font-style: italic; }
+.entry .p { color: var(--muted); font-size: .9em; white-space: pre-wrap; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* ------------------------------------------------------------------ feuille (bas d'écran) */
+#veil { position: fixed; inset: 0; background: rgba(0, 0, 0, .35); z-index: 40; }
+#sheet {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; max-height: 82vh; overflow-y: auto; -webkit-overflow-scrolling: touch;
+  background: var(--paper); border-radius: 18px 18px 0 0; box-shadow: 0 -8px 30px rgba(0, 0, 0, .25);
+  padding: 6px 20px calc(24px + var(--sb)); max-width: 720px; margin: 0 auto; font-size: .92em;
+}
+#sheet .grip { width: 40px; height: 5px; border-radius: 3px; background: var(--line); margin: 4px auto 10px; }
+#sheet h3 { font-family: var(--ui); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 18px 0 6px; }
+#sheet .bigw { font-size: 2.2em; text-align: center; line-height: 1.3; }
+#sheet .bigw.heb { font-family: var(--heb); direction: rtl; }
+#sheet .bigw.grk { font-family: var(--grk); }
+#sheet dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 8px 0; }
+#sheet dt { font-family: var(--ui); font-size: 11px; color: var(--muted); text-transform: uppercase; padding-top: 4px; }
+#sheet dd { margin: 0; }
+#sheet .row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); gap: 12px; }
+#sheet .row > span { font-family: var(--ui); font-size: 14px; }
+#sheet .seg { margin: 0; min-width: 55%; font-size: 13px; }
+.lex h1 { font-size: 1.3em; color: var(--accent); text-align: center; }
+.lex > p { text-align: center; color: var(--muted); font-size: .9em; }
+.lex table.border { width: 100%; border: 1px solid var(--line); border-radius: 10px; margin: 10px 0; border-collapse: separate; }
+.lex td { padding: 4px 8px; vertical-align: top; }
+.lex td.strong { background: var(--bg); color: var(--accent); font-family: var(--ui); font-size: 12px; }
+.lex td.strong big { font-size: 1em; font-weight: 600; }
+.lex ol, .lex ul { padding-left: 1.3em; }
+.lex font[color] { color: inherit; }
+.lex .rehaut { display: none; }
+.conc p { margin: 4px 0; line-height: 1.8; font-size: .9em; }
+.conc a.ref { font-family: var(--ui); font-size: 13px; border: 0; }
+
+/* dictionnaires */
+#dq { width: 100%; font: inherit; font-size: 17px; padding: 10px 14px; margin-top: 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); -webkit-appearance: none; }
+details.dico { margin: 10px 0; }
+details.dico summary { font-family: var(--ui); font-size: 14px; color: var(--accent); cursor: pointer; padding: 4px 0; }
+.art-t { text-align: center; color: var(--accent); font-weight: 500; margin: 4px 0 10px; }
+.art h1 { display: none; }
+.art p { margin: .6em 0; }
+a.dlink { color: var(--accent); border-bottom: 1px dotted; cursor: pointer; }
+.entry .d { margin-left: 6px; }
+.lex.art > p { text-align: left; color: var(--ink); font-size: 1em; }
+
+/* ------------------------------------------------------------------ passage vers le bréviaire */
+.passe { flex: none; display: inline-flex; align-items: center; gap: 5px; height: 34px; padding: 0 10px; border: 1px solid var(--line);
+  border-radius: 8px; background: var(--bg); color: var(--ink); font-family: var(--ui); font-size: 14px; text-decoration: none; }
+.passe b { color: var(--rouge); font-weight: 400; font-size: 16px; }
+.passe:active { border-color: var(--muted); }
+.icon { color: var(--rouge); }
+.card h2, .ref-h, #sheet h3, .sec-h { font-family: var(--legende); letter-spacing: .12em; text-transform: uppercase; color: var(--rouge); font-weight: 600; font-size: 12px; }
+.heads .h1, h1.sect, .art-t, .lex h1 { font-family: var(--titre); color: var(--rouge); }
+.vn { font-family: var(--legende); font-weight: 500; color: var(--rouge); }
+.passe[hidden] { display: none; }
+.heads .h1 { font-family: var(--legende); font-size: .72em; letter-spacing: .1em; text-transform: uppercase; color: var(--rouge); font-weight: 600; }
+.heads .h2, .heads .h3 { font-family: var(--titre); font-weight: 500; font-style: normal; color: var(--rouge); font-size: 1.15em; }
+.heads b, .heads strong { font-weight: inherit; }
+nav#steps button b, nav#onglets button b { font-size: clamp(13px, 3.8vw, 17px); }
+
+/* plan de lecture : un lien discret en bas de l'accueil */
+.plan-lien { text-align: center; margin: 28px 0 4px; }
+.plan-lien button { font-family: var(--ui); font-size: 12.5px; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line); }
+.card.plan h2 { display: flex; justify-content: space-between; align-items: center; }
+.plan-x { font-size: 20px; line-height: 1; color: var(--muted); padding: 0 4px; }
+/* plan déployé : aussi discret que le lien — petits caractères, gris, sans cadre */
+.card.plan { background: none; border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 12px 4px 4px; margin-top: 24px;
+  font-family: var(--ui); font-size: 13px; line-height: 1.5; color: var(--muted); }
+.card.plan h2 { font-family: var(--ui); font-size: 11px; font-weight: 500; letter-spacing: .06em; color: var(--muted); }
+.card.plan .date { font-size: 11px; margin: 4px 0 2px; }
+.card.plan .date button { font-size: 16px; color: var(--muted); }
+.card.plan .periode { font-family: var(--ui); font-size: 12px; font-style: normal; color: var(--muted); margin-bottom: 8px; }
+.card.plan b { font-weight: 500; color: var(--ink); }
+.card.plan .chip { font-size: 12px; padding: 2px 9px; color: var(--muted); background: none; }
+.card.plan .missing { font-size: 12px; }
+.card.plan .plan-x { font-size: 17px; font-weight: 300; color: var(--muted); opacity: .8; }
+
+/* mots latins touchables */
+.lw { cursor: pointer; border-radius: 4px; }
+.lw:active, .lw.sel { background: var(--hl); }
+#sheet .bigw.lat-w { font-style: italic; }
+#sheet dl.lat-dl dt { text-transform: none; font-family: var(--fr); font-size: 1em; color: var(--rouge); font-weight: 600; padding-top: 0; }
+.lat-an { font-family: var(--ui); font-size: 12px; color: var(--muted); margin-top: 2px; }
+.aide-lat { font-family: var(--ui); font-size: 11.5px; color: var(--muted); margin: 10px 0 0; }
+
+/* Bible chrétienne (commentaire des Évangiles par §) */
+.bc-marks { margin: 14px 0 6px; display: flex; flex-direction: column; gap: 4px; }
+.bc-mark { display: block; font-family: var(--ui); font-size: 13px; line-height: 1.35; color: var(--ink); text-decoration: none; border-left: 3px solid var(--rouge); background: var(--paper); border-radius: 0 8px 8px 0; padding: 6px 10px; }
+.bc-mark b { color: var(--rouge); font-weight: 700; margin-right: 4px; }
+.bc-mark span { display: block; font-size: 11px; color: var(--muted); letter-spacing: .02em; }
+.bc-chip { border-color: var(--rouge); }
+.bc-card { display: block; text-decoration: none; color: inherit; margin-top: 14px; }
+.bc-head { margin: 16px 0 6px; }
+.bc-t { font-size: 1.45em; font-weight: 500; color: var(--accent); margin: 0 0 10px; line-height: 1.2; }
+.bc-head .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+p.bc { margin: 0 0 .8em; line-height: 1.5; }
+.bc-v .bc-r { font-family: var(--ui); font-size: .82em; color: var(--rouge); }
+.bc-at { padding-left: 12px; border-left: 2px solid var(--line); color: var(--ink); }
+.bc-sig { color: var(--rouge); }
+a.bc-l { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+.bc-page { font-family: var(--ui); font-size: 10.5px; color: var(--muted); text-align: right; margin: 6px 0 2px; letter-spacing: .04em; }
+.bc-src { margin-top: 22px; }
+.bc-ex .src { margin-top: 2px; }
+.bc-ex a.more { display: inline-block; margin-top: 6px; text-decoration: none; }
+details.bc-sec { margin: 4px 0; }
+details.bc-sec summary { font-family: var(--ui); font-size: 14px; padding: 9px 2px; cursor: pointer; color: var(--ink); border-bottom: 1px solid var(--line); }
+.peri li a.bc-groupe { font-style: italic; color: var(--muted); }
+.peri li a span { white-space: nowrap; }
+
+/* Bible chrétienne : liens commentaire / synopse */
+.bc-mark a { color: inherit; text-decoration: none; }
+.bc-mark span a { color: var(--accent); font-weight: 600; }
+.bc-vers { margin-top: 8px; }
+.bct-seg { margin: 14px 0 4px; }
+.bct-v a.vn { text-decoration: none; }
+.bc-ex a.bc-syn { margin-left: 14px; }
+
+/* Bible chrétienne : la page d'un § (onglets Synopse / Mis en regard / Commentaire) */
+.bc-ou { font-family: var(--ui); font-size: 12px; color: var(--muted); margin: -4px 0 10px; }
+.bc-renvoi { border-style: dashed; color: var(--muted); }
+.bc-renv { font-family: var(--ui); font-size: 11px; font-weight: 400; color: var(--muted); letter-spacing: 0; text-transform: none; }
+.bct-seg button.renv { font-style: italic; }
+.bc-theme { color: var(--rouge); font-style: italic; }
+.bct-par .src { margin-top: 4px; }
+.bc-evs { font-family: var(--ui); font-style: normal; font-size: 11px; color: var(--muted); margin-left: 6px; white-space: nowrap; }
+main.syn-large { max-width: 1240px; }
+.syn-cols { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 0 26px; margin-top: 14px; }
+.syn-col + .syn-col { border-left: 1px solid var(--line); padding-left: 26px; }
+.syn-col .ref-h { position: sticky; top: 0; background: var(--bg); padding: 4px 0; }
+.syn-cols .bct-v { font-size: .92em; }
+
+/* titre de péricope = lien vers le passage seul (simple hyperlien) */
+a.peri-l { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; cursor: pointer; }
+a.peri-l:hover, a.peri-l:active { text-decoration-color: currentColor; }
+
+/* Psaumes : choix du texte, Psautier du bréviaire (stiques, strophes, inflexions en gras) */
+#testament button { font-size: 13.5px; }
+.ps-ed { display: flex; align-items: center; gap: 8px; margin: -4px 0 6px; font-family: var(--ui); font-size: 13px; color: var(--muted); }
+.ps-ed .seg { flex: 1; margin: 0; font-size: 13px; }
+.ps-note { font-family: var(--ui); font-size: 12px; color: var(--muted); margin: 4px 0 10px; }
+.ps-grid a { font-size: 14px; padding: 10px 0; }
+.ps-cant { margin: 18px 0; }
+.ps-cant summary { font-family: var(--ui); font-size: 14px; color: var(--accent); cursor: pointer; }
+.ps-cant small { color: var(--muted); font-family: var(--ui); font-size: 12px; }
+.psaume-pt { margin: 14px 0; }
+.psaume-pt .strophe { margin: 0 0 1em; }
+.psaume-pt p.stique { margin: 0; padding-left: 1.5em; text-indent: -1.5em; line-height: 1.45; }
+.psaume-pt p.stique.r1 { margin-left: 1.25em; } .psaume-pt p.stique.r2 { margin-left: 2.5em; } .psaume-pt p.stique.r3 { margin-left: 3.75em; }
+.psaume-pt b { font-weight: 700; }
+.psaume-pt sup.vs { color: var(--rouge); font-family: var(--legende); font-size: .6em; margin-right: .2em; }
+.psaume-pt .lettre-hebraique { color: var(--rouge); font-family: var(--heb); font-size: 1.2em; margin: .3em 0 .1em; }
+.psaume-pt .priere-psalmique { margin-top: 1em; padding: .5em .8em; border-left: 2px solid var(--line); font-size: .92em; }
+.psaume-pt .priere-psalmique summary { font-family: var(--ui); font-size: 13px; color: var(--rouge); cursor: pointer; }
+.ps-bj { font-family: var(--ui); font-size: 14px; }
+.ps-bj a { color: var(--accent); }
+
+/* Synopse : côte à côte (3 ou 4 colonnes, plus « En regard »), défilement horizontal sur téléphone */
+.syn-outils { display: flex; align-items: center; gap: 8px; margin: 12px 0 4px; }
+.syn-outils .seg { margin: 0; flex: 0 1 auto; font-size: 13px; }
+.syn-outils .seg button { padding: 6px 12px; }
+.syn-cols { gap: 0 22px; }
+.syn-col + .syn-col { padding-left: 22px; }
+.syn-defile { overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; padding-bottom: 6px;
+  grid-template-columns: repeat(var(--n), minmax(min(78vw, 300px), 1fr)); }
+.syn-defile .syn-col { scroll-snap-align: start; }
+.syn-col .ref-h { text-align: left; margin-top: 0; }
+.syn-col-regard { font-size: .88em; }
+.syn-col-regard .ref-h, .syn-regard-bas .ref-h { color: var(--rouge); }
+.syn-par { margin: 0 0 .7em; line-height: 1.45; }
+.syn-par b { font-family: var(--ui); font-size: 12px; font-weight: 600; margin-right: 4px; }
+.syn-par .t { color: var(--ink); }
+.syn-th { font-style: italic; color: var(--rouge); font-size: .95em; margin: .9em 0 .3em; }
+.syn-regard-bas { margin-top: 22px; padding-top: 10px; border-top: 1px solid var(--line); font-size: .92em; }
+@media (min-width: 900px) { .syn-defile { overflow-x: visible; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); } }
+@media (max-width: 899px) { .syn-defile { grid-template-columns: repeat(var(--n), minmax(min(70vw, 300px), 1fr)); } .syn-defile .bct-v { font-size: .86em; } }
+
+/* Commentaires : Bible chrétienne ou Chaîne d'or, au choix */
+.com-seg { margin: 6px 0 10px; }
+.com-src { margin: 4px 0 10px; font-size: 13px; }
+
+/* Lecture hors connexion */
+.hl-intro { margin: 16px 0 10px; line-height: 1.45; }
+.hl-presets { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 8px 0 14px; font-family: var(--ui); font-size: 13px; color: var(--muted); }
+.hl-liste { display: flex; flex-direction: column; gap: 8px; }
+.hl-paquet { display: flex; gap: 12px; align-items: flex-start; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); cursor: pointer; }
+.hl-paquet.choisi { border-color: var(--accent); }
+.hl-paquet input { margin-top: 4px; width: 20px; height: 20px; accent-color: var(--accent); flex: none; }
+.hl-txt { font-family: var(--ui); font-size: 14px; line-height: 1.4; }
+.hl-taille { color: var(--muted); font-weight: 400; margin-left: 4px; }
+.hl-desc { color: var(--muted); font-size: 13px; }
+.hl-ok { color: var(--accent); font-size: 12.5px; }
+.hl-non { color: var(--muted); font-size: 12.5px; }
+.hl-resume { font-family: var(--ui); font-size: 14px; margin: 14px 0 6px; }
+#hl-progres { width: 100%; height: 10px; }
+.hl-boutons { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; }
+.bouton-hl { font-family: var(--ui); font-size: 15px; padding: 9px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+.bouton-hl.principal { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+.bouton-hl:disabled { opacity: .45; }
+.hl-notes { font-family: var(--ui); font-size: 13px; color: var(--muted); line-height: 1.45; border-top: 1px solid var(--line); padding-top: 10px; }
+.hl-notes p { margin: 0 0 8px; }
+.hl-reglage { margin: 0 0 6px; }
+.hl-lien { margin-top: 6px; }
+.hl-lien a { font-family: var(--ui); font-size: 12.5px; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line); }

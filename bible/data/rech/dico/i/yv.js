@@ -1,0 +1,1 @@
+window.__RI={"yvleam":[4994],"yvneya":[4995],"yvsam":[4997],"yvart":[12872],"yvoire":[12900,2706],"yvraie":[12901,2706],"yvresse":[12902,2706],"yvre":[12902,2706],"yvrogne":[12902,2706],"yvroie":[15607]};

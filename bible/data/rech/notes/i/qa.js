@@ -1,0 +1,1 @@
+window.__RI={"qayn":[41],"qanah":[41],"qantir":[333,41],"qaran":[619],"qayin":[899],"qadmonites":[899],"qahal":[979,3752],"qadesh":[1894,1],"qarnayim":[3142,4329],"qatra":[3304,3],"qanani":[4598],"qayic":[7487],"qaba":[7895],"qan":[8016],"qal":[8794]};

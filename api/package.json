@@ -1,0 +1,6 @@
+{
+  "name": "breviaire-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Réception des signalements d'erreurs du bréviaire (aucune dépendance)"
+}

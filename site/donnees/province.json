@@ -1,0 +1,1531 @@
+[
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 091",
+"K 726"
+],
+"titre": "Laudes - Mercredi des Cendres"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mercredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 746",
+"K 412"
+],
+"nt": "X",
+"titre": "Vêpres - Mercredi des Cendres"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 652",
+"K 644"
+],
+"titre": "Laudes - Jeudi des Cendres"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"jeudi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 632",
+"K 756"
+],
+"nt": "V",
+"titre": "Vêpres - Jeudi des Cendres"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 635",
+"K 735"
+],
+"titre": "Laudes - Vendredi des Cendres"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"vendredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 714",
+"K 051"
+],
+"nt": "X",
+"titre": "Vêpres - Vendredi des Cendres"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"samedi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 311",
+"K 626"
+],
+"titre": "Laudes - Samedi des Cendres"
+},
+{
+"carnet": "careme",
+"office": "vepres1",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 615",
+"K 764"
+],
+"nt": "IV",
+"titre": "1ères Vêpres - Dimanche I"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 111",
+"K 112"
+],
+"titre": "Vigiles - Dimanche I"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 312",
+"K 053"
+],
+"titre": "Laudes - Dimanche I"
+},
+{
+"carnet": "careme",
+"office": "vepres2",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 112",
+"K 653"
+],
+"nt": "X",
+"titre": "2èmes Vêpres - Dimanche I"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 731",
+"K 212"
+],
+"titre": "Laudes - Lundi I"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 652",
+"K 655"
+],
+"nt": "V",
+"titre": "Vêpres - Lundi I"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 614",
+"K 511"
+],
+"titre": "Laudes - Mardi I"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 755",
+"K 626"
+],
+"nt": "IV",
+"titre": "Vêpres - Mardi I"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 654",
+"K 111"
+],
+"titre": "Laudes - Mercredi I"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 211",
+"K 093"
+],
+"nt": "X",
+"titre": "Vêpres - Mercredi I"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 632"
+],
+"titre": "Laudes - Jeudi I"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 513",
+"K 624"
+],
+"nt": "V",
+"titre": "Vêpres - Jeudi I"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 664",
+"K 016"
+],
+"titre": "Laudes - Vendredi I"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 644",
+"K 092"
+],
+"nt": "X",
+"titre": "Vêpres - Vendredi I"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"samedi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 756",
+"K 734"
+],
+"titre": "Laudes - Samedi I"
+},
+{
+"carnet": "careme",
+"office": "vepres1",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 754",
+"K 212"
+],
+"nt": "IV",
+"titre": "1ères Vêpres - Dimanche II"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 412",
+"K 213"
+],
+"titre": "Vigiles - Dimanche II"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 093",
+"K 616"
+],
+"titre": "Laudes - Dimanche II"
+},
+{
+"carnet": "careme",
+"office": "vepres2",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 716",
+"K 053"
+],
+"nt": "X",
+"titre": "2èmes Vêpres - Dimanche II"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 312",
+"K 733"
+],
+"titre": "Laudes - Lundi II"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 092",
+"K 633"
+],
+"nt": "V",
+"titre": "Vêpres - Lundi II"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 651",
+"K 313"
+],
+"titre": "Laudes - Mardi II"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 635",
+"K 636"
+],
+"nt": "IV",
+"titre": "Vêpres - Mardi II"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 512",
+"K 012"
+],
+"titre": "Laudes - Mercredi II"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 734",
+"K 212"
+],
+"nt": "X",
+"titre": "Vêpres - Mercredi II"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 091",
+"K 724"
+],
+"titre": "Laudes - Jeudi II"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 733",
+"K 625"
+],
+"nt": "V",
+"titre": "Vêpres - Jeudi II"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 624",
+"K 311"
+],
+"titre": "Laudes - Vendredi II"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 632",
+"K 013"
+],
+"nt": "X",
+"titre": "Vêpres - Vendredi II"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"samedi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 753",
+"K 113"
+],
+"titre": "Laudes - Samedi II"
+},
+{
+"carnet": "careme",
+"office": "vepres1",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 513",
+"K 732"
+],
+"nt": "IV",
+"titre": "1ères Vêpres - Dimanche III"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "A",
+"cotes": [
+"K 311",
+"K 312",
+"K 313"
+],
+"titre": "Vigiles - Dimanche III année A"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "B",
+"cotes": [
+"K 735",
+"K 724",
+"K 716"
+],
+"titre": "Vigiles - Dimanche III année B"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "C",
+"cotes": [
+"K 654",
+"K 625",
+"K 655"
+],
+"titre": "Vigiles - Dimanche III année C"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 053",
+"K 113"
+],
+"titre": "Laudes - Dimanche III"
+},
+{
+"carnet": "careme",
+"office": "vepres2",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 016",
+"K 616"
+],
+"nt": "X",
+"titre": "2èmes Vêpres - Dimanche III"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 725",
+"K 636"
+],
+"titre": "Laudes - Lundi III"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 092",
+"K 744"
+],
+"nt": "V",
+"titre": "Vêpres - Lundi III"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 755",
+"K 211"
+],
+"titre": "Laudes - Mardi III"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 734",
+"K 631"
+],
+"nt": "IV",
+"titre": "Vêpres - Mardi III"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 714",
+"K 656"
+],
+"titre": "Laudes - Mercredi III"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 634",
+"K 744"
+],
+"nt": "X",
+"titre": "Vêpres - Mercredi III"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 745",
+"K 213"
+],
+"titre": "Laudes - Jeudi III"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 752",
+"K 011"
+],
+"nt": "V",
+"titre": "Vêpres - Jeudi III"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 615",
+"K 753"
+],
+"titre": "Laudes - Vendredi III"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 511",
+"K 636"
+],
+"nt": "X",
+"titre": "Vêpres - Vendredi III"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"samedi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 646",
+"K 756"
+],
+"titre": "Laudes - Samedi III"
+},
+{
+"carnet": "careme",
+"office": "vepres1",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 015",
+"K 513"
+],
+"nt": "IV",
+"titre": "1ères Vêpres - Dimanche IV"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "A",
+"cotes": [
+"K 411",
+"K 412",
+"K 413"
+],
+"titre": "Vigiles - Dimanche IV année A"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "B",
+"cotes": [
+"K 726",
+"K 734",
+"K 656"
+],
+"titre": "Vigiles - Dimanche IV année B"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "C",
+"cotes": [
+"K 715",
+"K 714",
+"K 625"
+],
+"titre": "Vigiles - Dimanche IV année C"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 093",
+"K 616"
+],
+"titre": "Laudes - Dimanche IV"
+},
+{
+"carnet": "careme",
+"office": "vepres2",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 716",
+"K 726"
+],
+"nt": "X",
+"titre": "2èmes Vêpres - Dimanche IV"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 411",
+"K 655"
+],
+"titre": "Laudes - Lundi IV"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 092",
+"K 012"
+],
+"nt": "V",
+"titre": "Vêpres - Lundi IV"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 112",
+"K 043"
+],
+"titre": "Laudes - Mardi IV"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 654",
+"K 656"
+],
+"nt": "IV",
+"titre": "Vêpres - Mardi IV"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 211",
+"K 726"
+],
+"titre": "Laudes - Mercredi IV"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 645",
+"K 512"
+],
+"nt": "X",
+"titre": "Vêpres - Mercredi IV"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 652",
+"K 764"
+],
+"titre": "Laudes - Jeudi IV"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 632",
+"K 756"
+],
+"nt": "V",
+"titre": "Vêpres - Jeudi IV"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 635",
+"K 735"
+],
+"titre": "Laudes - Vendredi IV"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 714",
+"K 311"
+],
+"nt": "X",
+"titre": "Vêpres - Vendredi IV"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"samedi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 653",
+"K 626"
+],
+"titre": "Laudes - Samedi IV"
+},
+{
+"carnet": "careme",
+"office": "vepres1",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 733",
+"K 412"
+],
+"nt": "IV",
+"titre": "1ères Vêpres - Dimanche V"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "A",
+"cotes": [
+"K 511",
+"K 512",
+"K 513"
+],
+"titre": "Vigiles - Dimanche V année A"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "B",
+"cotes": [
+"K 754",
+"K 724",
+"K 653"
+],
+"titre": "Vigiles - Dimanche V année B"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "C",
+"cotes": [
+"K 644",
+"K 645"
+],
+"titre": "Vigiles - Dimanche V année C"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 312",
+"K 015"
+],
+"titre": "Laudes - Dimanche V"
+},
+{
+"carnet": "careme",
+"office": "vepres2",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 752",
+"K 736"
+],
+"nt": "X",
+"titre": "2èmes Vêpres - Dimanche V"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"lundi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 731",
+"K 212"
+],
+"titre": "Laudes - Lundi V"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"lundi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 725",
+"K 733"
+],
+"nt": "V",
+"titre": "Vêpres - Lundi V"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mardi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 614",
+"K 511"
+],
+"titre": "Laudes - Mardi V"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mardi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 752",
+"K 097"
+],
+"nt": "IV",
+"titre": "Vêpres - Mardi V"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 745",
+"K 715"
+],
+"titre": "Laudes - Mercredi V"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mercredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 211",
+"K 093"
+],
+"nt": "X",
+"titre": "Vêpres - Mercredi V"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 411",
+"K 735"
+],
+"titre": "Laudes - Jeudi V"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"jeudi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 715",
+"K 633"
+],
+"nt": "V",
+"titre": "Vêpres - Jeudi V"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 754",
+"K 413"
+],
+"titre": "Laudes - Vendredi V"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"vendredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 633",
+"K 311"
+],
+"nt": "X",
+"titre": "Vêpres - Vendredi V"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"samedi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 111",
+"K 653"
+],
+"titre": "Laudes - Samedi V"
+},
+{
+"carnet": "careme",
+"office": "vepres1",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"K 013",
+"K 014"
+],
+"nt": "IV",
+"titre": "1ères Vêpres - Dimanche des Rameaux"
+},
+{
+"carnet": "careme",
+"office": "lectures",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 041",
+"L 043"
+],
+"titre": "Vigiles - Dimanche des Rameaux"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 061",
+"L 041"
+],
+"titre": "Laudes - Dimanche des Rameaux"
+},
+{
+"carnet": "careme",
+"office": "vepres2",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 081",
+"L 232"
+],
+"nt": "X",
+"titre": "2èmes Vêpres - Dimanche des Rameaux"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"lundi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 042",
+"L 212"
+],
+"titre": "Laudes - Lundi Saint"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"lundi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 331",
+"L 341"
+],
+"nt": "V",
+"titre": "Vêpres - Lundi Saint"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mardi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 242",
+"L 441"
+],
+"titre": "Laudes - Mardi Saint"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mardi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 312",
+"L 431"
+],
+"nt": "IV",
+"titre": "Vêpres - Mardi Saint"
+},
+{
+"carnet": "careme",
+"office": "laudes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 411",
+"L 413"
+],
+"titre": "Laudes - Mercredi Saint"
+},
+{
+"carnet": "careme",
+"office": "vepres",
+"jours": [
+"mercredi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 412",
+"L 231"
+],
+"nt": "X",
+"titre": "Vêpres - Mercredi Saint"
+}
+]

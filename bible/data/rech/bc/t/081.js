@@ -1,0 +1,1 @@
+window.__RT={"3286":"La plupart de ces paragraphes viennent de ce que Mt place après le Sermon sur la Montagne (§ 50-76) les mêmes miracles et controverses rapportés par Mc et Lc auparavant (§ 31-47). C'est là qu'on en trouvera notes et commentaires."};

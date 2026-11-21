@@ -1,0 +1,1 @@
+window.__BC={"n":"94","titre":"L’hémorroïsse et la fille de Jaïre","page":"316","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 9,18-26","refs":[["MAT",9,18,9,26]],"paras":[{"t":"Voir au § 143*,","page":"316","k":"texte"}],"i":"090"};

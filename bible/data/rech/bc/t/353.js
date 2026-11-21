@@ -1,0 +1,1 @@
+window.__RT={"7478":"15 ▸ Ps 64,6-9.11 — Complète le § 358, en opposant l'impuissance et le mensonge des adversaires du Christ à la fidélité des saintes femmes, comblée au-delà de toute attente. L'application du Ps 64 à cet épisode par saint Augustin a été retenue par la liturgie (Office des Vigiles du Samedi-Saint)."};

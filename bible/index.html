@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- Bible, vue téléphone (et page d'accueil de la Bible) : lecture BJ, original au toucher, Pères, dictionnaires,
+     recherche, lecture hors connexion. Servie sous /bible/ du site du bréviaire. Logique : lectio.js, recherche.js ;
+     données : bible/data/ (fabriquées par bible/extract.py et les autres programmes Python de bible/, voir LISEZMOI.md). -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="fichiers" content="">
+<meta name="fichiers-cle" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f2ece1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bible BJ">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="lectio.webmanifest">
+<link rel="apple-touch-icon" href="icone-180.png">
+<title>Bible BJ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Noto+Serif+Hebrew:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="polices.css">
+<link rel="stylesheet" href="lectio.css?v=9">
+<link rel="stylesheet" href="recherche.css?v=1">
+<link rel="stylesheet" href="../css/menu.css?v=9">
+</head>
+<body>
+<script src="../js/menu.js?v=8"></script>
+<header id="top">
+  <button id="back" class="icon" aria-label="Retour">‹</button>
+  <div id="title"></div>
+  <a id="vers-breviaire" class="passe" hidden title="Ouvrir le bréviaire"><b>✠</b>Bréviaire</a>
+  <button id="gear" class="icon" aria-label="Réglages">⚙︎</button>
+</header>
+<main id="view"></main>
+<nav id="steps" hidden>
+  <button data-step="lectio"><b>Texte</b><span>le passage</span></button>
+  <button data-step="meditatio"><b>Éclairages</b><span>Commentaire, Pères, notes</span></button>
+</nav>
+<nav id="onglets" hidden></nav>
+<nav id="tabs">
+  <button data-go="#/"><b>✚</b><span>Bible</span></button>
+  <button data-go="#/r"><b>⌕</b><span>Recherche</span></button>
+  <button data-go="#/dico"><b>❦</b><span>Dictionnaires</span></button>
+  <button data-go="#/carnet"><b>✎</b><span>Carnet</span></button>
+</nav>
+<div id="veil" hidden></div>
+<section id="sheet" hidden><div class="grip"></div><div class="body"></div></section>
+<script src="../js/cle-fichiers.js?v=1"></script>
+<script src="liens.js"></script>
+<script src="data/books.js"></script>
+<script src="recherche.js?v=2"></script>
+<script src="lectio.js?v=13"></script>
+</body>
+</html>

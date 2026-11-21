@@ -1,0 +1,1171 @@
+%!TEX TS-program = lualatex
+
+\documentclass[12pt, openany]{book}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titlepic}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{emptypage}
+\usepackage{changepage}
+\usepackage{bbding}
+%\usepackage[autocompile]{gregoriotex}
+
+\geometry{a5paper, margin = 0.04\paperwidth, inner = 0.07\paperwidth, bottom = 0.13\paperwidth, top = 0.08\paperwidth}
+
+
+%\input{Psautier/Psautier-format-5.tex}\formatPDT\MixteB
+%\input{Psautier/PsautierPDT-texte-5.tex}
+\setlength{\postStrophe}{1ex plus 1ex}
+
+\title{\bfseries\sffamily\LARGE  Vêpres \\ du Carême}
+\author{}
+\date{}
+
+\setmainfont[Numbers={Lowercase, Proportional, OldStyle}, Ligatures={Common,Rare,Historic}]{EB Garamond}
+\newfontfamily\Garamond{EB Garamond}
+
+
+\fancypagestyle{plain}{%
+	\fancyhf{}%
+	\fancyfoot[C]{\color{gray}\huge\thepage}%
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\headrule}{}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrule}{\color{gray}\vspace{-1.75ex}\hrulefill}
+\renewcommand{\partmark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{}
+\renewcommand{\chaptermark}[1]{\markright{#1}}
+\fancyhead[EL]{\color{gray}\large\nouppercase{\itshape\rightmark}}
+\fancyhead[OR]{\color{gray}\large\uppercase{\scshape\leftmark}}
+\fancyfoot[C]{\color{gray}\huge\thepage}
+\strictpagecheck
+
+
+\titleformat{\part}[hang]{\itshape\color{gray}\car{6em}}{}{0pt}{\centering}{}
+\titleformat{\chapter}[hang]{\itshape\color{gray}\Huge}{}{0pt}{\centering}{}
+\titlespacing{\chapter}{0pt}{-1.5em}{2em}
+\titleformat{\section}[hang]{\itshape\color{gray}\Large}{}{0pt}{\centering}{}
+\titleformat{\subsection}[hang]{\itshape\huge}{}{0pt}{}{}
+\titleformat{\subsubsection}[hang]{\color{ruber}}{}{0pt}{\centering}{}
+
+
+\definecolor{ruber}{RGB}{219, 23, 2}
+\renewcommand{\finPsaume}{\hfill \textit{\footnotesize[Gl.]}\hspace{2em}\null}
+\renewcommand{\finPsaume}{\finPsaumeEtFinPage}
+\renewcommand{\Alleluia}{}
+\renewcommand{\AlleluiaG}{}
+\renewcommand{\PsParTitre}[2]{\def\CXVIII{118}\def\numero{#2}
+	\ifx\CXVIII\numero \subsection{Psaume #2 --- #1}%
+	\else\subsubsection{#1}\fi
+}
+\renewcommand{\CtTitre}[3]{\subsection{#1}}
+\renewcommand{\heb}[1]{}
+
+\def\preLilyPondExample{\hspace*{-3mm}}
+\def\postLilyPondExample{\par}
+\newcommand{\betweenLilyPondSystem}[1]{\par\hspace*{-3mm}}
+\ifx\gregorioscore\undefined \newcommand{\Vbar}{V/}\newcommand{\gregorioscore}[1]{} \fi
+
+
+\makeatletter
+\newcommand{\partie}[1]{\cleardoublepage\begingroup\let\ps@plain\ps@empty\part{#1}\endgroup}
+\makeatother
+\newcounter{cptr}\newcounter{cptrII}
+\newcommand{\Semaine}[1]{\partie{Semaine #1}}
+\newcommand{\jour}[1]{\chapter{#1} \stepcounter{cptr}\label{\thecptr}}
+\newcommand{\jourHy}[1]{\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}\section{#1}\Gloire}
+\newcommand{\Lectures}{\section{Office des Lectures}}
+\newcommand{\Laudes}{\vspace{1em}\section{Laudes}}
+\newcommand{\ReponsDiSs}[4]{{\color{ruber}\itshape\vspace{4ex}
+		\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Le dimanche #1, répons p. \pageref{Repons#2}\fi
+		\ifx\relax#3\relax.\else; le dimanche #3, répons p. \pageref{Repons#4}.\fi\par
+}}
+\newcommand{\ReponsDi}[4]{{\color{ruber}\itshape\vspace{4ex}
+		\begin{minipage}{\linewidth}
+			\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Le dimanche #1, répons p. \pageref{Repons#2}\fi
+			\ifx\relax#3\relax.\else.\par Le dimanche #3, répons p. \pageref{Repons#4}.\fi\par
+		\end{minipage}\par
+}}
+\newcommand{\ReponsSs}[4]{{\color{ruber}\itshape\vspace{4ex}
+		\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Pendant la semaine #1, répons p. \pageref{Repons#2}\fi
+		\ifx\relax#3\relax.\else; la semaine #3, répons p. \pageref{Repons#4}.\fi\par
+}}
+\newcommand{\Repons}[4]{{\color{ruber}\itshape\vspace{4ex}\null
+		\begin{minipage}{\linewidth}
+			\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Pendant la semaine #1, répons p. \pageref{Repons#2}\fi
+			\ifx\relax#3\relax.\else.\par Pendant la semaine #3, répons p. \pageref{Repons#4}.\fi\par
+		\end{minipage}\par
+}}
+\newcommand{\ReponsG}[4]{{\color{ruber}\itshape\vspace{-10.5ex}
+		\begin{minipage}{0.9\linewidth}\raggedleft
+			\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Pendant la semaine #1,\par répons p. \pageref{Repons#2}\fi
+			\ifx\relax#3\relax.\else.\par Pendant la semaine #3,\par répons p. \pageref{Repons#4}.\fi\par
+		\end{minipage}\par
+}}
+%\newcommand{\rubrique}[3]{\par\ifx\relax#2\relax\def\espace{\vfill}\else\def\espace{\vspace{#2}}\fi
+	%{\color{ruber}\itshape\espace\espace\hspace{#3}#1\espace}\par
+	%}
+\newcommand{\rubrique}[3]{\par\vspace{#2}\textcolor{ruber}{\itshape#1}\nopagebreak}
+\renewcommand{\rubrique}[1]{\par\vspace{2ex}\textcolor{ruber}{\itshape#1}\nopagebreak}
+\newcommand{\saut}{\vspace{4ex}}
+\newcommand{\versLect}[2]{\par\smallskip\begin{minipage}{\linewidth}\enRetrait{\textcolor{ruber}{\Vbar}}{1ex}#1\\#2\end{minipage}\par}
+\newcommand{\antienne}[1]{Antienne #1\par}
+\renewcommand{\thefootnote}{}
+\newcommand{\Gloire}{\checkoddpage%
+	\ifoddpage\else%
+	\footnote{\includegraphics[width=0.65\linewidth]{0Gloire-à-toi.pdf}}\fi
+}
+\newcommand{\bened}{\saut Au cantique évangélique:}
+\input GotIn.fd
+\newcommand*\initfamily{\usefont{U}{GotIn}{xl}{n}}
+\newcommand{\car}[1]{\fontsize{#1}{#1}\selectfont}
+\renewcommand{\paragraph}[1]{\rubrique{#1}\par\nopagebreak\noindent}
+
+\newcommand{\dstr}{\begin{minipage}{0.9\linewidth}\begin{hangparas}{3em}{1}\raggedright}
+\newcommand{\fstr}{\end{hangparas}\end{minipage}\vspace{2ex}\par}
+\renewcommand{\PsTitre}[1]{\subsection{Psaume #1}}
+
+\renewcommand{\CantiqueGNTX}[2]{\bigskip\rubrique{Cantique p. {\pageref{NTX}}.}\par }
+\renewcommand{\CantiqueGNTIV}[2]{\bigskip\rubrique{Cantique p. {\pageref{NTIV}}.}\par }
+\renewcommand{\CantiqueGNTV}[2]{\bigskip\rubrique{Cantique p. \pageref{NTV}.}\par }
+
+
+\begin{document}
+	
+\null\pagestyle{empty}\cleardoublepage\pagestyle{empty}\setcounter{page}{1}
+{\null\vfill\centering \Garamond
+	\resizebox{0.8\linewidth}{!}{Vêpres} \\
+	\vfill\includegraphics[width=0.8\linewidth]{0onction}\par\vfill
+	\resizebox{0.5\linewidth}{!}{du Carême} \vfill\vfill
+}
+\null
+\null
+
+\cleardoublepage\pagestyle{fancy}
+\null\vfill
+\begin{minipage}{\linewidth}
+	{\initfamily\fontsize{35pt}{25pt}\selectfont D}%
+	\preLilyPondExample\raisebox{-8pt}{\includegraphics{0Dieu,_viens}}
+	\par\includegraphics{0Seigneur,_à_notre}
+	\par\includegraphics{0Gloire_au_Père}
+	\par\includegraphics{0Pour_les_siècles}
+\end{minipage}
+\vfill\vfill\null
+
+\partie{Hymnes}
+\section{Lucernaire}
+\begin{lilypond}
+	\include "FtAnt.ly" \include "Hymnes/Lucernaire Carême K001.ly" 
+\end{lilypond}
+
+
+	\dstr
+	\textbf{1. } Venant au coucher du soleil,\\ 
+	contemplant la lumi\gras{è}re du soir,\\
+	nous chantons le P\gras{è}re,  et le Fils,\\
+	et  le Sa\gras{i}nt-Espr\gras{i}t de  Dieu.
+	\fstr\dstr
+	\textbf{2. } Digne es-tu en tous temps\\
+	d'être lou\gras{é} par de saintes voix,\\
+	Fils de Di\gras{e}u qui donna la vie,\\
+	et  le m\gras{o}nde te  gl\gras{o}rifie.
+	\fstr\dstr
+	\textbf{Lundi } À la chute du jour,\\
+	tu as chassé Ad\gras{a}m du Paradis,\\
+	et tu l'\gras{a}s rouvert pour nous,\\
+	toi qui es venu à la fin des t\gras{e}mps pour no\gras{u}s sauver.
+	\fstr\dstr
+	\textbf{Mardi } Que je consume dans ma lampe\\
+	l'huile des b\gras{o}ns serviteurs,\\
+	Et quand tu reviendr\gras{a}s comme l'Époux,\\
+	je te rencontrera\gras{i} à vis\gras{a}ge découvert.
+	\fstr\dstr
+	\textbf{Mercredi } Par ta mort sur la croix,\\
+	prends pitié de no\gras{u}s, Seigneur,\\
+	mainten\gras{a}nt que sur nous descend le soir,\\
+	et que la f\gras{i}n de notre v\gras{i}e approche.
+	\fstr\dstr
+	\textbf{Jeudi } Guéris-moi dès cette terre,\\
+	en ta miséric\gras{o}rde, relève-moi!\\
+	pour que je ne sois pas livr\gras{é} aux ténèbres extérieures,\\	
+	avec ceux qui n'ont pas été jugés d\gras{i}gnes d\gras{u} festin.
+	\fstr\dstr
+	\textbf{Vendredi } Par le sang de ta croix que tu as répandu sur nous,\\
+	délivre-mo\gras{i}, vivifie-moi!\\
+	afin que je garde témoign\gras{a}ge de ta Parole,\\
+	que je vive pour ta glo\gras{i}re et obtienne la jo\gras{i}e de ton Royaume.
+	\fstr\dstr
+	\textbf{1\up{er} dimanche } Après avoir lutté contre toi au désert,\\
+	le Prince des tén\gras{è}bres s'est éloigné de toi,\\
+	et il est revenu au temps marqu\gras{é} pour le combat de la croix.\\
+	Mais tu l'as terrass\gras{é} par la lumière de ta face.
+	\fstr\dstr
+	\textbf{2\up{e} dimanche } En figure de ta Pâque,\\
+	tu t'es vêt\gras{u} d'un manteau de lumière.\\
+	Ton vis\gras{a}ge est notre soleil,\\
+	en ta lumi\gras{è}re, nous avons v\gras{u} la Lumière.
+	\fstr\dstr
+	\textbf{3\up{e} dimanche } Au plein midi de nos jours,\\
+	tu nous as attend\gras{u}s au bord de notre route.\\
+	Voici venu le so\gras{i}r et le temps de la moisson:\\
+	Jésus, fais nous conna\gras{î}tre le d\gras{o}n de Dieu!
+	\fstr\dstr
+	\textbf{4\up{e} dimanche } Ô Christ, lumière de mes yeux,\\
+	tu as changé devant mo\gras{i} les ténèbres en clarté.\\
+	Tu es ven\gras{u} pour que voient les aveugles:\\
+	ne nous abandonne p\gras{a}s quand vi\gras{e}nt le soir!
+	\fstr\dstr
+	\textbf{5\up{e} dimanche } Tu es descendu, Seigneur, ' au Royaume de la mort,\\
+	et tu as enchaîn\gras{é} les puissances des ténèbres\\
+	pour ramener tous tes enf\gras{a}nts à la lumière,\\
+	et qu'ils v\gras{i}vent au séjo\gras{u}r de la paix.
+	\fstr\dstr
+	\textbf{Rameaux } Les enfants d'Israël t'acclament à pleine voix:\\
+	Béni soit celui qui vi\gras{e}nt au nom du Seigneur!\\
+	Sur ton front resplend\gras{i}t la couronne de David.\\
+	Le Père a fait brill\gras{e}r la lumi\gras{è}re de son Christ.
+	\fstr\dstr
+	\textbf{Lundi Saint } Tu es le grand-Prêtre miséricordieux et fidèle,\\
+	Tu t'es fait en to\gras{u}t semblable à tes frères.\\
+	Homme de doule\gras{u}rs, familier de la souffrance,\\
+	tu as goûté la m\gras{o}rt pour nous condu\gras{i}re à la lumière.
+	\fstr\dstr
+	\textbf{Mardi Saint } \\Aux jours de ta chair, ' dans une grande clameur et des larmes,\\
+	tu t'es fait obéiss\gras{a}nt jusqu'à la mort de la croix.\\
+	Par tes épre\gras{u}ves, tu viens en aide à ceux qui sont éprouvés.\\
+	Rendu parfa\gras{i}t, tu nous as acquis une rédempti\gras{o}n éternelle.
+	\fstr\dstr
+	\textbf{Mercredi Saint } Une fois pour toutes, ' sur l'autel de la croix,\\
+	tu t'es offert en sacrif\gras{i}ce pour le salut du monde.\\
+	Tu as scellé par ton s\gras{a}ng une alliance nouvelle,\\
+	Tu fais briller sur no\gras{u}s la lumi\gras{è}re de ta face.
+	\fstr\dstr
+	\textbf{3. } Du haut de ta croix bienheureuse,\\
+	tu es la lumi\gras{è}re du monde.\\
+	Élevé de t\gras{e}rre, tu attires à toi l'univers.\\
+	Voici que tu fa\gras{i}s toutes ch\gras{o}ses nouvelles.
+	\fstr\dstr
+	\textbf{4. } Convertis notre cœur à la vraie pénitence.\\
+	Que ta lumière se lève en no\gras{u}s comme l'aurore!\\
+	Alors notre péch\gras{é} sera bientôt guéri\\
+	et la nuit de nos cœ\gras{u}rs s'illuminer\gras{a} comme le jour.
+	\fstr\dstr
+	\textbf{5. } Que ma prière, vers toi Seigneur,\\
+	s'él\gras{è}ve comme l'encens,\\
+	et mes ma\gras{i}ns,  devant toi,\\
+	comme l'offr\gras{a}nd\gras{e} du soir.
+	\fstr
+	
+\newpage
+\section{Christ serviteur}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 2 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Christ serviteur K009.ly" 
+\end{lilypond}
+
+\section{Créateur et Père très bon}	
+
+\begin{lilypond}
+	\include "FtAnt.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 2 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Créateur et Père.ly" 
+\end{lilypond}
+
+\section{Dieu juste et bon}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Dieu juste et bon.ly" 
+\end{lilypond}
+
+\vspace{5em}\section{Du plus profond}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Du plus profond.ly" 
+\end{lilypond}
+
+\vspace{10em}\pagebreak
+\section{Du cœur de notre misère}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Du coeur de notre misère.ly" 
+\end{lilypond}
+
+\vspace{10em}\pagebreak
+\section{En ta bonté, Seigneur}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/En ta bonté, Seigneur.ly" 
+\end{lilypond}
+
+\vspace{5em}\pagebreak
+\section{En toi, ô Dieu}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/En toi, ô Dieu.ly" 
+\end{lilypond}
+\pagebreak
+
+\section{En toi, Seigneur, notre espérance}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/En toi, Seigneur, notre espérance.ly" 
+\end{lilypond}
+
+\vspace{8em}\pagebreak
+\section{Prends pitié de moi}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Prends pitié de moi.ly" 
+\end{lilypond}
+
+%\vspace{2em}\section{La nuit profonde a disparu}	
+%
+%\begin{lilypond}
+%	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+%	\include "Hymnes/La nuit profonde a disparu.ly" 
+%\end{lilypond}
+
+
+\pagebreak
+\chapter{Passion}
+\rubrique{Semaine Sainte (Ad. lib. les vendredis et la 5\up{e} semaine du Carême)}
+
+\section{Voici que les étendards}	
+
+\begin{lilypond}
+	\include "FtAnt.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Voici que les étendards L009.ly" 
+\end{lilypond}
+
+\newpage
+\section{Mystère du calvaire}	
+
+\begin{lilypond}
+	\include "FtHy.ly" \layout { \context { \Lyrics  \override InstrumentName.X-offset = 1.5 \override InstrumentName.font-size = 0 \override InstrumentName.font-series = #'bold } }
+	\include "Hymnes/Mystère du calvaire.ly" 
+\end{lilypond}
+
+\titleformat{\chapter}[hang]{\itshape\color{gray}\car{5em}}{}{0pt}{}{}
+\titlespacing{\chapter}{0pt}{-5em}{1em}
+\titleformat{\section}[hang]{\itshape\color{gray}\car{3em}}{}{0pt}{}{}
+
+\Semaine{I}
+\jour{Samedi}\rubrique{Le dimanche I}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/C'est la miséricorde K615.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je mettrai ma loi K724.ly" 
+\end{lilypond}\PsaumeCXL{*}{}
+\rubrique{Le dimanche I}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, que ne soient pas K764.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Sans moi, vous ne pouvez C213.ly" 
+\end{lilypond}\PsaumeCXLI{*}{}
+\CantiqueGNTIV{*}{}
+\ReponsDi{I}{DiI}{V}{DiV}
+
+\jour{Dimanche}\rubrique{Le dimanche I}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/J'ai gardé K112.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Quand vous aurez élevé L232.ly" 
+\end{lilypond}\PsaumeCIX{*}{}
+\rubrique{Le dimanche I}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Viens à mon aide B233.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/C'est la miséricorde K615.ly" 
+\end{lilypond}\PsaumeCXIIIa{*}{}
+\CantiqueGNTX{*}{}
+\ReponsDi{I}{DiI}{V}{DiV}
+
+\jour{Lundi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/J'étais comme une agneau K652.ly" 
+\end{lilypond}\PsaumeX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Qui habitera L912.ly" 
+\end{lilypond}\PsaumeXIV{*}{}
+\CantiqueGNTV{*}{}
+\Repons{I}{I}{V}{II}
+
+\jour{Mardi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Seigneur délivre L531.ly" 
+\end{lilypond}\PsaumeXIX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... rachète K626.ly" 
+\end{lilypond}\PsaumeXX{*}{}
+\CantiqueGNTIV{*}{}
+\Repons{I}{I}{V}{II}
+
+\jour{Mercredi}
+\PsTitre{26}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma lumière K211.ly" 
+\end{lilypond}\PsaumeXXVIpI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, relève K093.ly" 
+\end{lilypond}\PsaumeXXVIpII{*}{}
+\CantiqueGNTX{*}{}
+\Repons{I}{I}{V}{II}
+
+\jour{Jeudi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Nous avons péché (R) K811.ly" 
+\end{lilypond}\PsaumeXXIX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Quand vos péchés K624.ly" 
+\end{lilypond}\PsaumeXXXI{*}{}
+\CantiqueGNTV{*}{}
+\Repons{I}{I}{V}{II}
+
+\jour{Vendredi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Guéris-moi K644.ly" 
+\end{lilypond}\PsaumeXL{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Dieu vient à mon secours L951.ly" 
+\end{lilypond}\PsaumeVL{*}{}
+\CantiqueGNTX{*}{}
+\Repons{I}{I}{V}{II}
+
+
+\Semaine{II}
+\jour{Samedi}\rubrique{Le dimanche II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Communions/Jésus prit avec lui T561.ly" 
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Contre moi L713.ly" 
+\end{lilypond}\PsaumeCXVIIIpXIV{*}{}
+\rubrique{Le dimanche II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Fais briller K212.ly" 
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, que ne soient pas K764.ly" 
+\end{lilypond}\PsaumeXV{*}{}
+\CantiqueGNTIV{*}{}
+\ReponsDi{II}{DiII}{des Rameaux et de la Passion}{R}
+
+\jour{Dimanche}\rubrique{Le dimanche II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/C'est dans ta croix K716.ly" 
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Homme de douleur K014.ly" 
+\end{lilypond}\PsaumeCIX{*}{}
+\rubrique{Le dimanche II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, relève K093.ly" 
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Contre moi L713.ly" 
+\end{lilypond}\PsaumeCXIIIb{*}{}
+\CantiqueGNTX{*}{}
+\ReponsDi{I}{DiI}{des Rameaux et de la Passion}{R}
+
+\jour{Lundi}
+\PsTitre{44}
+\rubrique{Le lundi II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... rachète K626.ly" 
+\end{lilypond}
+\rubrique{Le lundi saint}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Les rois de la terre L711.ly" 
+\end{lilypond}\PsaumeXLIVpI{*}{}
+\rubrique{Le lundi II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Que je rende grâce K511.ly" 
+\end{lilypond}
+\rubrique{Le lundi saint}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je vais te conduire K645.ly" 
+\end{lilypond}\PsaumeXLIVpII{*}{}
+\CantiqueGNTV{*}{}
+\Repons{II}{II}{Sainte}{LS}
+
+\jour{Mardi}
+\PsTitre{48}
+\rubrique{Le mardi II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Par ses souffrances K635.ly" 
+\end{lilypond}
+\rubrique{Le mardi saint}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ils ont éprouvé K646.ly" 
+\end{lilypond}\PsaumeVLIIIpI{*}{}
+\rubrique{Le mardi II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Comme le Père K636.ly" 
+\end{lilypond}
+\rubrique{Le mardi saint}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Seigneur délivre L531.ly" 
+\end{lilypond}\PsaumeVLIIIpII{*}{}
+\CantiqueGNTIV{*}{}
+\Repons{II}{II}{Sainte}{MaS}
+
+\jour{Mercredi}\rubrique{Le mercredi II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Si vous gardez K734.ly" 
+\end{lilypond}
+\rubrique{Le mercredi saint}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ils condamnent L753.ly" 
+\end{lilypond}\PsaumeLXI{*}{}
+\rubrique{Le mercredi II}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Fais briller K212.ly" 
+\end{lilypond}
+\rubrique{Le mercredi saint}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Juste qui était K664.ly" 
+\end{lilypond}\PsaumeLXVI{*}{}
+\CantiqueGNTX{*}{}
+\Repons{II}{II}{Sainte}{MeS}
+
+\jour{Jeudi}
+\PsTitre{71}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Cherchez le Seigneur K733.ly" 
+\end{lilypond}\PsaumeLXXIpI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Seigneur délivre L531.ly" 
+\end{lilypond}\PsaumeLXXIpII{*}{}
+\CantiqueGNTV{*}{}
+\Repons{}{II}{}{}
+
+\jour{Vendredi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Sauve-moi K632.ly" 
+\end{lilypond}\PsaumeCXIV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis pauvre L512.ly" 
+\end{lilypond}\PsaumeCXX{*}{}
+\CantiqueGNTX{*}{}
+\Repons{}{II}{}{}
+
+
+\Semaine{III}
+\jour{Samedi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Tu as tiré K513.ly" 
+\end{lilypond}\PsaumeCXII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Il n'y a pas T022.ly" 
+\end{lilypond}\PsaumeCXV{*}{}
+\CantiqueGNTIV{*}{}
+\ReponsDi{}{DiIII}{}{}
+
+\jour{Dimanche}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Maintenant, le prince K016.ly" 
+\end{lilypond}\PsaumeCIX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma louange K616.ly" 
+\end{lilypond}\PsaumeCX{*}{}
+\CantiqueGNTX{*}{}
+\ReponsDi{}{DiIII}{}{}
+
+\jour{Lundi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... dans ta tendresse K092.ly" 
+\end{lilypond}\PsaumeCXXII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Sans moi, vous ne pouvez C213.ly" 
+\end{lilypond}\PsaumeCXXIII{*}{}
+\CantiqueGNTV{*}{}
+\Repons{}{III}{}{}
+
+\jour{Mardi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Jérusalem, que Dieu essuie C403.ly" 
+\end{lilypond}\PsaumeCXXIV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Comme un petit enfant C309.ly" 
+\end{lilypond}\PsaumeCXXX{*}{}
+\CantiqueGNTIV{*}{}
+\Repons{}{III}{}{}
+
+\jour{Mercredi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Celui qui perd K634.ly" 
+\end{lilypond}\PsaumeCXXV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Sans moi, vous ne pouvez C213.ly" 
+\end{lilypond}\PsaumeCXXVI{*}{}
+\CantiqueGNTX{*}{}
+\Repons{}{III}{}{}
+
+\jour{Jeudi}
+\PsTitre{131}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Père, je viens A502.ly" 
+\end{lilypond}\PsaumeCXXXIpI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, que ne soient pas K764.ly" 
+\end{lilypond}\PsaumeCXXXIpII{*}{}
+\CantiqueGNTV{*}{}
+\Repons{}{III}{}{}
+
+\jour{Vendredi}
+\PsTitre{134}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Que je rende grâce K511.ly" 
+\end{lilypond}\PsaumeCXXXIVpI{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/De ton sein K313.ly" 
+\end{lilypond}\PsaumeCXXXIVpII{*}{}
+\CantiqueGNTX{*}{}
+\Repons{}{III}{}{}
+
+
+\Semaine{IV}
+\jour{Samedi}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Il établit sa demeure L952.ly" 
+\end{lilypond}\PsaumeCXXI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Tu as tiré K513.ly" 
+\end{lilypond}\PsaumeCXXIX{*}{}
+\CantiqueGNTIV{*}{}
+\ReponsDi{}{DiIV}{}{}
+
+\jour{Dimanche}\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/C'est dans ta croix K716.ly" 
+\end{lilypond}\PsaumeCIX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Celui qui fait la vérité K726.ly" 
+\end{lilypond}\PsaumeCXI{*}{}
+\CantiqueGNTX{*}{}
+\ReponsDi{}{DiIV}{}{}
+
+\jour{Lundi}
+\PsTitre{135}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Lève-toi... dans ta tendresse K092.ly" 
+\end{lilypond}\PsaumeCXXXVpIb{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Seigneur, relève K093.ly" 
+\end{lilypond}
+\PsaumeCXXXVpIIb{*}{}
+\CantiqueGNTV{*}{}
+\Repons{}{I}{}{}
+
+\jour{Mardi}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Seigneur, ne nous traite pas K654.ly" 
+\end{lilypond}\PsaumeCXXXVI{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Je chanterai K656.ly" 
+\end{lilypond}\PsaumeCXXXVII{*}{}
+\CantiqueGNTIV{*}{}
+\Repons{}{I}{}{}
+
+\jour{Mercredi}
+\PsTitre{138}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Père, je m'éveille C408.ly" 
+\end{lilypond}\PsaumeCXXXVIIIpI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ma vie était au bord K512.ly" 
+\end{lilypond}\PsaumeCXXXVIIIpII{*}{}
+\CantiqueGNTX{*}{}
+\Repons{des Cendres}{MeC}{IV}{I}
+
+\jour{Jeudi}
+\PsTitre{143}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Sauve-moi K632.ly" 
+\end{lilypond}\PsaumeCXLIIIpI{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Celui qui croit K756.ly" 
+\end{lilypond}\PsaumeCXLIIIpII{*}{}
+\CantiqueGNTV{*}{}
+\Repons{des Cendres}{III}{IV}{I}
+
+\jour{Vendredi}
+\PsTitre{144}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Nous étions morts K714.ly" 
+\end{lilypond}\PsaumeCXLIVpI{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Seigneur, en toi est la source K311.ly" 
+\end{lilypond}\PsaumeCXLIVpII{*}{}
+\CantiqueGNTX{*}{}
+\Repons{des Cendres}{III}{IV}{I}
+
+
+
+\partie{Cantiques}
+
+\titleformat{\chapter}[hang]{\itshape\color{gray}\Huge}{}{0pt}{\centering}{}
+\titlespacing{\chapter}{0pt}{-1.5em}{2em}
+\fancyhead[OR]{\color{gray}\large\uppercase{\scshape\leftmark}}
+
+\chapter{Cantique de la 2\up{e} lettre \mbox{aux Corinthiens}}
+\par\label{NTV}\begin{lilypond}
+	\include "FtAnt.ly" \include "Cantiques NT/2Co 5 K023.ly" 
+\end{lilypond}
+\dstr
+ \vers{5,\,17}Si quelqu'un est dans le Christ,\par
+il est une création nouvelle:\par
+ ce qui est ancien a disparu,\par
+un être nouveau est apparu!
+\fstr
+\dstr
+ \vers{18}Et toute chose vient de Dieu,\par
+qui nous a réconciliés avec lui par le Christ;\par
+ et c'est à nous qu'il a confié\par
+le ministère de la réconciliation.
+\fstr
+\dstr
+ \vers{19}C'était Dieu qui, dans le Christ,\par
+se réconciliait l'Univers,\par
+ ne tenant plus compte\par
+des fautes des hommes.
+\fstr
+\dstr
+ Il a mis sur nos lèvres\par
+la Parole de réconciliation:\par
+ \vers{20a}nous sommes en ambassade pour le Christ,\par
+c'est Dieu qui exhorte en nous!
+\fstr
+\dstr
+ \vers{21}Celui qui n'avait pas connu le péché,\par
+Dieu L'a fait péché pour nous\par
+ afin qu'en lui nous devenions\par
+justice de Dieu.
+\fstr
+\newpage
+\chapter{Cantique de la 1\up{re} lettre de s. Pierre}
+\par\label{NTX}\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/1P 2 K021.ly" 
+\end{lilypond}
+
+\chapter{Cantique de la lettre \mbox{aux Romains}}
+\par\label{NTIV}\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/Rm 6 K022.ly" 
+\end{lilypond}
+\dstr
+ \vers{6,\,4}Par le baptême, ' nous avons été ensevelis avec lu\gras{i} dans la Mort,\par
+comme le Christ est ressuscité des morts ' pour la glo\gras{i}re du Père,\par
+nous vivrons, nous auss\gras{i}, dans une Vie nouvelle.
+\fstr
+\dstr
+ \vers{5}C'est un même être que nous sommes deven\gras{u}s avec le Christ,\par
+par une mort sembl\gras{a}ble à la sienne.\par
+Et nous le serons auss\gras{i} par une résurrection semblable à la sienne.
+\fstr
+\dstr
+ \vers{6}Notre vieil homme a été crucifi\gras{é} avec lui,\par
+pour que fut détruit ce c\gras{o}rps de péché,\par
+afin que nous ne soyions plus asserv\gras{i}s au péché.
+\fstr
+\dstr
+ \vers{8}Mais, si nous sommes m\gras{o}rts avec le Christ,\par
+nous croyons que nous vivrons auss\gras{i} avec lui,\par
+car le Christ, ressuscité des m\gras{o}rts, ne meurt plus.
+\fstr
+\dstr
+ \vers{9}La Mort n'a plus d'emp\gras{i}re sur lui:\par
+sa Mort fut une mort au péch\gras{é}, ' une fois pour toutes.\par
+Mais sa Vie est une v\gras{i}e pour Dieu.
+\fstr
+\dstr
+Gloire au Père, et au F\gras{i}ls, et au Saint Esprit,\par
+au Dieu qui est, ' qui éta\gras{i}t, et qui vient,\par
+pour les si\gras{è}cles des siècles. Amen.
+\fstr
+
+\vfill\vfill
+\rubrique{Ad libitum, les cantiques de l'office romain:}\vfill\null
+
+\chapter{Samedi}
+\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/Ph 2 C501.ly"
+\end{lilypond}
+
+\chapter{Lundi}
+\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/Ep 2 C503.ly"
+\end{lilypond}
+
+\chapter{Mardi}
+\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/Ap 4-5 C504.ly"
+\end{lilypond}
+
+\chapter{Mercredi}
+\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/Col 1 C505.ly"
+\end{lilypond}
+
+\chapter{Jeudi}
+\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/Ap 11-12 C506.ly"
+\end{lilypond}
+
+\chapter{Vendredi}
+\begin{lilypond}
+	\include "FtHy.ly" \include "Cantiques NT/Ap 15 C507.ly"
+\end{lilypond}
+
+
+\partie{Répons}
+
+\chapter{Mercredi des Cendres}
+\label{ReponsMeC}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Revenez à moi K094.ly" 
+\end{lilypond}
+\paragraph{1.}Voici maintenant le temps favorable:\\
+Déchirez votre cœ\gras{u}r, et non vos vêtements,\\
+Pour ne pas recevoir en va\gras{i}n la grâce du pardon.\bigskip
+\pagebreak
+\paragraph{2.}Voici maintenant le jour du salut:\\
+Convoquez l'assemblée du pe\gras{u}ple devant le Seigneur.\\
+Qui sait? S'il revenait et nous combla\gras{i}t de sa miséricorde?\bigskip
+\paragraph{Doxologie }Gloire à toi, notre Père, qui nous ouvre un jour nouveau\\
+Pour que nous entrions avec ton F\gras{i}ls au lieu de ton repos\\
+Dans le pardon de l'Espr\gras{i}t qui vient tourner notre cœur vers toi.\bigskip
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Regarde, Seigneur K091.ly" 
+\end{lilypond}
+
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Semaines des Cendres et III}
+\label{ReponsIII}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Si vous avez part K833.ly" 
+\end{lilypond}
+
+\paragraph{Lundi}Je ne veux connaître que Jésus, mon Seigneur,\\
+avec la puissance de sa résurrection ’ et la communion à ses souffrances.\\
+Je veux lui devenir conforme dans la mort\\
+afin de ressusciter avec lui d’entre les morts.\bigskip
+\paragraph{Mardi}Luttez d’un cœur unanime ’ pour la foi de l’Évangile:\\
+La grâce de Dieu vous fera tenir dans le combat,\\
+car il vous a donné ’ non seulement de croire en lui,\\
+mais encore de souffrir pour lui.\bigskip
+\paragraph{Mercredi}Je complète en ma chair\\
+ce qui manque aux souffrances du Christ,\\
+et je trouve ma joie ’ dans les souffrances que j’endure\\
+pour son Corps, qui est l’Église.\bigskip
+\paragraph{Jeudi}Pour moi, ’ que jamais je ne me glorifie,\\
+sinon dans la croix de notre Seigneur Jésus Christ,\\
+qui a fait du monde ’ un crucifié pour moi,\\
+et de moi un crucifié pour le monde.\bigskip
+\paragraph{Vendredi}Le Christ a été crucifié ’ en raison de sa faiblesse,\\
+mais il est vivant ’ de par la puissance de Dieu.\\
+Et nous qui, en lui, sommes faibles,\\
+nous serons vivants avec lui ’ par la puissance de Dieu.\bigskip
+\paragraph{Doxologie}Gloire à toi, Père saint, ’ qui nous invites au Royaume,\\
+gloire à ton Fils, ’ qui souffre et meurt dans notre chair,\\
+gloire à l’Esprit ’ qui nous fait entrer dans sa Pâque\\
+pour que nous mourions en sa mort, ’ et vivions de sa vie.\bigskip
+
+\rubrique{Cantique évangélique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Semaines I et IV}
+\label{ReponsI}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Éveille-toi K831.ly" 
+\end{lilypond}
+\paragraph{Lundi}Si l’Esprit de Dieu habite en vous,\\
+celui qui a ressuscité Jésus d’entre les morts\\
+donnera la vie à vos corps mortels.\bigskip
+\paragraph{Mardi}Toute la création vit dans l’attente\\
+d’être un jour délivrée de la mort\\
+pour entrer dans la liberté de la gloire ’ des enfants de Dieu.\bigskip
+\paragraph{Mercredi}L’Esprit en personne de joint à notre esprit\\
+pour attester que nous sommes enfants de Dieu\\
+et cohéritiers du Christ pour la vie éternelle.\bigskip
+\paragraph{Jeudi}Si tes lèvres confessent que Jésus est Seigneur,\\
+si ton cœur croit que Dieu l’a ressuscité d’entre les morts,\\
+tu seras sauvé par ta foi.\bigskip
+\paragraph{Vendredi}Dans le vie et dans la mort, ’ nous appartenons au Seigneur,\\
+car le Christ est mort et revenu à la vie\\
+pour être le Seigneur des morts et des vivants.\bigskip
+\paragraph{Doxologie}Béni soit le Père ’ qui nous a comblés de toute bénédiction,\\
+béni soit le Fils ’ en qui nous devenons des fils,\\
+béni soit l’Esprit ’ qui ouvre nos cœurs à la vraie vie.\bigskip
+
+\rubrique{Cantique évangélique p. \pageref{NTI}.}%{2ex}{0pt}
+
+
+\chapter{Semaines II et V }
+\label{ReponsII}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Si nous mourrons K832.ly" 
+\end{lilypond}
+
+\paragraph{Lundi}Ma vie présente dans la chair,\\
+je la vis dans la foi au Fils de Dieu
+\pagebreak\\
+qui m’a aimé et s’est livré pour moi:\\
+Ce n’est plus moi qui vis, ’ mais le Christ qui vit en moi!\vspace{1ex}
+\paragraph{Mardi}Le Christ nous a rachetés de la malédiction de la loi:\\
+Il est devenu malédiction pour nous sauver,\\
+afin que tous puissent recevoir en lui\\
+la bénédiction que Dieu avait donnée à Abraham.\vspace{1ex}
+\paragraph{Mercredi}Nous portons en notre corps ’ les souffrances de Jésus\\
+afin que la vie de Jésus ’ soit manifestée dans notre corps.\\
+Quoique vivants, ’ nous sommes livrés à la mort\\
+afin que la vie de jésus ’ fasse son œuvre en tous.\vspace{1ex}
+\paragraph{Jeudi}Que le Christ soit glorifié dans mon corps\\
+soit que je vive, ’ soit que je meure,\\
+car pour moi, ’ vivre c’est le Christ\\
+et mourir représente un gain.\vspace{1ex}
+\paragraph{Vendredi}J’ai accepté de tout perdre ’ pour gagner le Christ\\
+et être justifié en lui par la foi.\\
+Je poursuis la course ’ pour tâcher de le saisir,\\
+ayant été moi-même saisi par le Christ.\vspace{1ex}
+\paragraph{Doxologie}Gloire à toi, notre Père, ’ qui nous établis dans la grâce et la paix,\\
+gloire à toi, Christ Jésus, ’ issu de la chair de David,\\
+gloire à toi, Esprit-Saint, ’ qui l’as établi Fils de Dieu par sa Pâque\\
+et qui nous fais entrer ’ dans sa mort et sa résurrection. %\vspace{1ex}
+
+%\rubrique{Cantique évangélique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Dimanche I}
+\label{ReponsDiI}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Il est vaincu K120.ly" 
+\end{lilypond}
+\pagebreak
+\paragraph{1.}Jésus fut conduit au dés\gras{e}rt ' par l'Esprit Saint\\
+Et pendant quarante jo\gras{u}rs,' il lutta avec le diable.\\
+Il délivre Adam de l'ex\gras{i}l ' et le ramène au paradis:\\
+\og{}Voici. Je t'ai séduit et conduit au désert ' et je parle à ton cœur.\fg{}
+\paragraph{2.}\og{}Adam, je t'app\gras{e}lle: ' Où es-tu?\\
+Tu me rép\gras{o}nds comme aux jours de ta jeunesse:\\
+Je te fiancerai à mo\gras{i} ' dans la fidélité\\
+Et tu connaîtras le n\gras{o}m de ton Seigneur.\fg{}
+\paragraph{Doxologie}Gloire au Père très b\gras{o}n ' qui nous délivre de tout mal.\\
+Gloire au Christ vainque\gras{u}r ' qui a combattu dans le désert.\\
+Gloire à l'Esprit de vérit\gras{é} ' qui triomphe du mensonge.\\
+Que le nom du Dieu très-ha\gras{u}t soit sanctifié.
+\newpage
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Seigneur, ma part K111.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+\newpage\null\thispagestyle{empty}
+\chapter{Dimanche II}
+\label{ReponsDiII}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Louange à toi, Jésus K220.ly" 
+\end{lilypond}
+\pagebreak
+\paragraph{1.}Jésus prit avec lu\gras{i} ' Pierre, Jacques, et Jean son frère,\\
+Il les emmen\gras{a} ' sur une haute montagne,\\
+Et, tandis qu'il priait, ' il fut transfiguré devant eux,\\
+Et ses vêtements devinrent blancs ' comme la neige.
+\paragraph{2.}Dieu, pers\gras{o}nne ne l'a jamais vu,\\
+Mais le Fils qui est dans le sein du P\gras{è}re, ' lui, nous l'a révélé.\\
+Et nous avons vu la gloire qu'il tient de son Père\\
+Comme Fils unique ' plein de grâce et de vérité.
+\paragraph{Doxologie}Gloire à Dieu ' dont la vo\gras{i}x a retenti du haut des cieux.\\
+Gloire au Fils bien-aim\gras{é} ' en qui le Père a mis tout son amour.\\
+Gloire à l'Esprit ' qui prend les apôtres dans une nuée de lumière.\\
+Aux trois, louange et gloire ' pour les siècles sans fin.
+
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma lumière K211.ly" 
+\end{lilypond}
+%\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Dimanche III}
+\label{ReponsDiIII}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Vous tous qui avez soif K320.ly" 
+\end{lilypond}
+\pagebreak
+\paragraph{1.}Si tu savais le don de Dieu\\
+Et quel est celu\gras{i} qui te demande à boire,\\
+C'est toi qui lui aura\gras{i}s demandé,\\
+Et il t'aurait donné de l'eau vive.
+\paragraph{2.}Vous tous qui avez soif, ' venez vers l'eau.\\
+Voici. ' Je répands des fl\gras{o}ts sur le sol assoiffé.\\
+Sur tes enf\gras{a}nts, ' je répands mon Esprit.\\
+Que l'homme de désir boive l'eau de la vie!
+\paragraph{Doxologie}Louange au Dieu unique et trois fois saint!\\
+En vérité, je vous le d\gras{i}s: ' L'heure vient, et nous y sommes,\\
+Où les vrais adorate\gras{u}rs ' adoreront le Père\\
+Dans l'Esprit et la Vérité.
+
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Viens à mon aide B233.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Dimanche IV}
+\label{ReponsDiIV}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Comme l'aveugle K420.ly" 
+\end{lilypond}
+\pagebreak
+\paragraph{1.}Celui qu'on appelle Jésus a fait de la boue,\\
+Il m'a enduit les yeux et m'a dit:\\
+\og{}Va te laver à Siloë, ' à la piscine de l'Envoyé!\fg{}\\
+Alors j'y suis allé, ' je m'y suis lavé, ' et je vois!
+\paragraph{2.}Dieu est lumière. ' En lui, point de ténèbres.\\
+Éveille-toi, ô toi qui dors, ' et le Christ t'illuminera!\\
+Car c'est toi, Seigneur, mon flambeau:\\
+Ô mon Dieu, ' illumine mes ténèbres.
+\paragraph{Doxologie}Gloire au Père des lumières ' de qui vient tout don parfait.\\
+Gloire au Fils de l'homme, ' lumière né de la lumière.\\
+Gloire à l'Esprit ' qui ouvre les yeux de notre cœur\\
+À l'œuvre de salut, ' quand Jésus nous est envoyé.
+
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Qui me suit K413.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Dimanche V}
+\label{ReponsDiV}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Gloire à toi, Christ K520.ly" 
+\end{lilypond}
+\paragraph{1.}Laz\gras{a}re! ' Viens dehors!\\
+Je t'appelle, et to\gras{i}, tu me réponds.\\
+Éveille-toi, ô toi qui dors! ' Relève-to\gras{i} d'entre les morts!\\
+Je suis la résurrecti\gras{o}n et la vie éternelle!
+\pagebreak\paragraph{2.}Toi qui as fait surg\gras{i}r du tombeau\\
+Lazare ensevel\gras{i} depuis quatre jours,\\
+\begin{minipage}{\linewidth}
+	Tu as visit\gras{é} le domaine des morts\\
+	Pour qu'ils voient la lumi\gras{è}re et contemplent ton visage.
+\end{minipage}
+\paragraph{Doxologie}Gloire au Père qui a ressuscité Jés\gras{u}s d'entre les morts\\
+Et qui lui a donn\gras{é} de disposer de la vie.\\
+Gloire au Fils qui ouvre nos tombea\gras{u}x et met en nous son Esprit.\\
+Gloire à l'Esprit qui habite en nos c\gras{o}rps et leur donne la vie.
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Tu as tiré K513.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Dimanche des Rameaux \mbox{et de la Passion}}
+\label{ReponsR}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/O Christ tu t'avances L050.ly" 
+\end{lilypond}
+\paragraph{1.}Réjouis-toi, fille de Sion! ' Exulte de to\gras{u}tes tes forces!\\
+Voici que ton ro\gras{i} s'avance vers toi:\\
+Hosanna au plus haut des cieux!\\
+Béni soit celui qui vi\gras{e}nt, le Seigneur Di\gras{e}u qui nous illumine!
+\paragraph{2.}Formez un cort\gras{è}ge, rameaux en main!\\
+Rendez grâce au Seigne\gras{u}r, car éternel est son amour!\\
+Voici l'Époux qui vient! ' Allons à sa rencontre!\\
+L'Esprit et l'Épouse disent: Vi\gras{e}ns! ' Hosann\gras{a} au fils de David!
+\paragraph{Doxologie}Rendez gloire au Seigneur, car étern\gras{e}l est son amour!\\
+Gloire à Dieu notre P\gras{è}re, qui nous a donné son Fils unique.\\
+Gloire au Fils, qui vient visiter le peuple de l'Alliance.\\
+Gloire à l'Esprit ' qui hab\gras{i}te les lou\gras{a}nges d'Israël.
+\newpage
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Avec les enfants L063.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\newpage\null\thispagestyle{empty}
+\chapter{Lundi Saint}
+\label{ReponsLS}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Pitié pour nous L220.ly" 
+\end{lilypond}
+\paragraph{1.}Ô croix, arbre nouveau du Roya\gras{u}me qui vient\\
+Où viennent s'abrit\gras{e}r les nations dispersées,\\
+En toi, tous sont sauvés\\
+Et tressa\gras{i}llent de joie.
+\pagebreak\paragraph{Doxologie}Gloire au Père, ' au F\gras{i}ls, ' au Saint Esprit,\\
+Comme il éta\gras{i}t au commencement,\\
+Maintenant et toujours,\\
+Dans les si\gras{è}cles des siècles.
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Comme le Père K636.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Mardi Saint}
+\label{ReponsMaS}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Je donne ma vie L320.ly" 
+\end{lilypond}
+\paragraph{1.}Maintenant, le Fils de l'homme ' va entr\gras{e}r dans le royaume de la mort.\\
+La nuit est avancée ' et déj\gras{à} le jour est proche\\
+Où le Seigneur crucifi\gras{é} ' brisera les puissances de l'Enfer.
+\pagebreak
+\paragraph{Doxologie}Maintenant, ô maîtres souverain, ' P\gras{è}re des miséricordes,\\
+Nos yeux ont vu ton salut, ' Jésus ton F\gras{i}ls, mort sur la croix,\\
+Et dans l'Esprit de vie, ' nous célébrons l'amo\gras{u}r du cœur de notre Dieu.
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Père, glorifie C108.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Mercredi Saint}
+\label{ReponsMeS}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Nous annonçons L420.ly" 
+\end{lilypond}
+\paragraph{1.}Je suis crucifi\gras{é} avec le Christ,\\
+Et si je vis, ' ce n'est plus moi qui vis,\\
+Mais c'est le Christ mort et ressuscité\\
+qui v\gras{i}t en moi.
+\pagebreak
+\paragraph{Doxologie}Gloire au Père, ' qui n'a pas abandonné l'h\gras{o}mme à la mort.\\
+Gloire au Fils, sagesse éternelle, ' et source du salut.\\
+Gloire à l'Esprit d'amour\\
+Qui fait de no\gras{u}s des vivants.
+
+\bigskip\rubrique{Antienne du cantique évangélique}%{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Tu n'as voulu B L732.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTI}.}%{2ex}{0pt}
+
+\chapter{Cantique de la Vierge Marie}\pagestyle{plain}
+\label{NTI}\CantiqueGNTI{}{}
+
+
+\chapter{Preces}
+\hspace{0.15\linewidth}\begin{minipage}{0.6\linewidth}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Présidence/Preces interc. ; ton du careme K061.ly" 
+\end{lilypond}
+\end{minipage}
+
+\chapter{Notre Père}
+
+\par\begin{lilypond}
+	\include "FtHy.ly" \include "Ordinaires/Notre Père K062.ly" 
+\end{lilypond}
+
+\vfill
+\par\begin{lilypond}
+	\include "FtAnt.ly" \layout { indent = #40 } \include "Présidence/Bénissons ; ton du careme.ly" 
+\end{lilypond}
+\vspace{5em}
+
+\newpage\null\vfill\parindent=0pt
+\begin{minipage}{\linewidth}
+\tiny\centering 
+Sanctuaire de la Sainte Baume 2022\par Répartition romaine des psaumes\par Musique de la Liturgie chorale du Peuple de Dieu
+\end{minipage}\pagestyle{empty}
+\cleardoublepage\null
+
+
+\end{document}

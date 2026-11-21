@@ -1,0 +1,23 @@
+/* Polices Kepler Std (Adobe, R. Slimbach), en tailles optiques :
+   Texte (Regular, 9-13 pt) pour le corps des offices ; Légende (Caption, 6-8 pt) pour les petits
+   intitulés, références, numéros de verset, tons ; Sous-titre (Subhead, 14-24 pt) ; Titre (Display, > 24 pt).
+   Fichiers : polices/kepler-*.woff2, tirés des .otf de l'utilisateur (outils/polices_kepler.sh). */
+@font-face { font-family: "Kepler Texte"; src: local("KeplerStd-Regular"), url("polices/kepler-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Texte"; src: local("KeplerStd-Italic"), url("polices/kepler-Italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Kepler Texte"; src: local("KeplerStd-Medium"), url("polices/kepler-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Texte"; src: local("KeplerStd-MediumIt"), url("polices/kepler-MediumIt.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Kepler Texte"; src: local("KeplerStd-Bold"), url("polices/kepler-Bold.woff2") format("woff2"); font-weight: 600 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Texte"; src: local("KeplerStd-SemiboldIt"), url("polices/kepler-SemiboldIt.woff2") format("woff2"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "Kepler Texte"; src: local("KeplerStd-BoldIt"), url("polices/kepler-BoldIt.woff2") format("woff2"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Kepler Legende"; src: local("KeplerStd-MediumCapt"), url("polices/kepler-MediumCapt.woff2") format("woff2"); font-weight: 400 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Legende"; src: local("KeplerStd-ItCapt"), url("polices/kepler-ItCapt.woff2") format("woff2"); font-weight: 400 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Kepler Legende"; src: local("KeplerStd-SemiboldCapt"), url("polices/kepler-SemiboldCapt.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Legende"; src: local("KeplerStd-BoldCapt"), url("polices/kepler-BoldCapt.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Soustitre"; src: local("KeplerStd-Subh"), url("polices/kepler-Subh.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Soustitre"; src: local("KeplerStd-ItSubh"), url("polices/kepler-ItSubh.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Kepler Soustitre"; src: local("KeplerStd-MediumSubh"), url("polices/kepler-MediumSubh.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Soustitre"; src: local("KeplerStd-SemiboldSubh"), url("polices/kepler-SemiboldSubh.woff2") format("woff2"); font-weight: 600 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Titre"; src: local("KeplerStd-Disp"), url("polices/kepler-Disp.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Titre"; src: local("KeplerStd-ItDisp"), url("polices/kepler-ItDisp.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Kepler Titre"; src: local("KeplerStd-MediumDisp"), url("polices/kepler-MediumDisp.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Kepler Titre"; src: local("KeplerStd-SemiboldDisp"), url("polices/kepler-SemiboldDisp.woff2") format("woff2"); font-weight: 600 700; font-style: normal; font-display: swap; }

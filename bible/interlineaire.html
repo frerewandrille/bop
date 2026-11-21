@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- Bible, vue ordinateur : interlinéaire (BJ, grec / hébreu, latin, Strong), servie sous /bible/interlineaire.html.
+     Logique : app.js ; données : bible/data/ (bible/extract.py). Voir bible/LISEZMOI.md. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="fichiers" content="">
+<meta name="fichiers-cle" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Interlinéaire BJ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Gentium+Book+Plus:ital@0;1&family=Noto+Serif+Hebrew:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="../css/menu.css?v=9">
+</head>
+<body class="gloss-lit notes-popup">
+<script src="../js/menu.js?v=8"></script>
+<header>
+  <h1>Interlinéaire</h1>
+  <div class="grp">
+    <button id="prev" title="Chapitre précédent (←)">◀</button>
+    <select id="book"></select>
+    <select id="chap"></select>
+    <button id="next" title="Chapitre suivant (→)">▶</button>
+  </div>
+  <div class="grp">
+    <label>Interligne</label>
+    <span class="seg" id="opt-gloss">
+      <button data-v="lit" title="Glose mot à mot de l'interlinéaire (ATI / NTI)">Littérale</button>
+      <button data-v="lsg" title="Segond 1910 alignée par numéros Strong (LSS)">Segond</button>
+      <button data-v="both" title="Les deux gloses superposées">Les deux</button>
+    </span>
+  </div>
+  <div class="grp">
+    <span class="seg">
+      <button id="opt-tr" title="Translittération (AT) / lemme (NT)">Translit.</button>
+      <button id="opt-st" title="Numéros Strong">Strong</button>
+      <button id="opt-mo" title="Analyse grammaticale">Analyse</button>
+    </span>
+  </div>
+  <div class="grp">
+    <label>Sous la BJ</label>
+    <select id="opt-mode">
+      <option value="orig">Grec</option>
+      <option value="lat">Latin</option>
+      <option value="both">Les deux</option>
+    </select>
+    <select id="opt-lat" title="Version latine">
+      <option value="NVU">Nova Vulgata</option>
+      <option value="VUC">Vulgate Clémentine</option>
+    </select>
+  </div>
+  <div class="grp">
+    <label>Notes BJ</label>
+    <select id="opt-notes">
+      <option value="popup">au clic</option>
+      <option value="inline">sous le verset</option>
+      <option value="none">masquées</option>
+    </select>
+  </div>
+  <div class="grp">
+    <span class="seg">
+      <button id="opt-bj" title="Afficher la colonne BJ">BJ</button>
+      <button id="opt-il" title="Afficher la colonne interlinéaire">Interl.</button>
+    </span>
+    <button id="smaller" title="Texte plus petit">A−</button>
+    <button id="bigger" title="Texte plus grand">A+</button>
+    <button id="theme" title="Thème clair / sombre">◐</button>
+    <a href="./" title="Version téléphone : lecture, lectio, Pères, dictionnaires" style="color:var(--accent)">Téléphone ›</a>
+  </div>
+</header>
+<main id="main"><p class="missing">Chargement…</p></main>
+<div id="pop"></div>
+<div id="modal"><div class="box"><button class="x" title="Fermer">×</button><div class="content"></div></div></div>
+<script src="../js/cle-fichiers.js?v=1"></script>
+<script src="data/books.js"></script>
+<script src="app.js?v=6"></script>
+</body>
+</html>

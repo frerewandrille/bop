@@ -1,0 +1,129 @@
+/* Page « Messe » : s'appuie sur office.css (barre, sommaire, en-tête, blocs). Seuls quelques ajouts ici. */
+.page-messe .onglets[hidden] { display: none; }
+.page-messe .signe { color: var(--rouge); font-family: var(--legende); }
+.page-messe .ref-ligne { margin-bottom: .2em; }
+.page-messe .intro-lue { font-style: italic; margin: 0 0 .3em; }
+.page-messe .titre-lecture { font-style: italic; color: var(--doux); margin: 0 0 .6em; }
+.page-messe .missel p { margin: 0 0 .5em; }
+.page-messe .psaume-messe p { margin: 0 0 .7em; }
+.page-messe .antienne .ref { color: var(--doux); font-size: .85em; }
+.page-messe .avertissement { font-family: var(--sans); font-size: 14px; color: var(--doux); border-left: 3px solid var(--trait); padding: 4px 12px; margin: 0 0 20px; }
+.page-messe .avertissement p { margin: 0 0 4px; }
+.page-messe .credit { font-family: var(--legende); font-size: .78em; color: var(--doux); margin-top: 2em; }
+@media print {
+  .page-messe .avertissement, .page-messe .sommaire { display: none !important; }
+}
+.page-messe .missel p { margin: 0 0 .3em; }
+.page-messe .notice-saint { font-style: italic; color: var(--doux); font-size: .92em; margin: -8px 0 20px; }
+.page-messe .choix-office select { max-width: 100%; }
+.page-messe .livret h4 { font-family: var(--legende); font-size: .78em; letter-spacing: .08em; text-transform: uppercase; color: var(--doux); margin: 1.2em 0 .4em; }
+.page-messe .livret p.fort { font-weight: 600; }
+.page-messe .role-passion { margin: 0 0 .45em; padding-left: 1.6em; text-indent: -1.6em; }
+.page-messe .role-passion .sigle { display: inline-block; width: 1.4em; color: var(--rouge); font-family: var(--legende); font-weight: 600; text-indent: 0; }
+.page-messe hr.trait { border: 0; border-top: 1px solid var(--trait); width: 30%; margin: 1em auto; }
+.page-messe .livret-source { margin-bottom: 1.2em; }
+
+/* ── Rubriques et provenance (19/11/2026) : ce qu'on dit en noir ; ce qu'on fait en rouge, groupé sous un filet ;
+      d'où vient le texte, à droite du titre ou en note de fin */
+.page-messe .bloc > h3 { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 2px 12px; }
+.page-messe .bloc > h3 .meta { font-family: var(--legende); font-size: 1.15em; letter-spacing: 0; text-transform: none; font-weight: 400; color: var(--doux); display: inline-flex; gap: 8px; }
+.page-messe .bloc > h3 .provenance { font-style: italic; }
+.page-messe .bloc > h3 .provenance::before { content: "· "; font-style: normal; }
+.page-messe .bloc > h3 .ref + .provenance::before { content: "· "; }
+.page-messe .bloc > h3 .meta > .provenance:first-child::before { content: ""; }
+.page-messe .rubriques { border-left: 2px solid var(--rouge); padding: 1px 0 1px 10px; margin: .4em 0 .7em; }
+.page-messe .rubrique, .page-messe details.rubrique { margin: 0 0 .35em; color: var(--rouge); font-style: italic; font-size: .82em; line-height: 1.4; }
+.page-messe details.rubrique > summary { cursor: pointer; list-style: none; }
+.page-messe details.rubrique > summary::after { content: " …"; font-style: normal; }
+.page-messe details.rubrique[open] > summary::after { content: ""; }
+.page-messe details.rubrique p { margin: .2em 0 0; }
+.page-messe .ou-bien { text-align: center; font-family: var(--legende); font-size: .72em; letter-spacing: .14em; text-transform: uppercase; color: var(--rouge);
+  margin: .8em 0; display: flex; align-items: center; gap: 10px; }
+.page-messe .ou-bien::before, .page-messe .ou-bien::after { content: ""; flex: 1; border-top: 1px solid var(--trait); }
+.page-messe .ou-bien .ref { text-transform: none; letter-spacing: 0; color: var(--doux); }
+.page-messe .rubrique-ligne { display: block; color: var(--rouge); font-style: italic; font-size: .82em; margin: .3em 0; }
+.page-messe .manque { font-family: var(--sans); font-size: 14px; color: var(--doux); margin: 0 0 16px; }
+.page-messe details.notice-saint { margin: -10px 0 18px; font-size: .9em; color: var(--doux); }
+.page-messe details.notice-saint > summary { cursor: pointer; font-family: var(--legende); font-size: .85em; }
+.page-messe details.notice-saint p { font-style: italic; margin: .3em 0 0; }
+.page-messe .notes-messe { margin-top: 2.4em; padding-top: .6em; border-top: 1px solid var(--trait); font-family: var(--legende); font-size: .78em; color: var(--doux); }
+.page-messe .notes-messe .titre-notes { text-transform: uppercase; letter-spacing: .12em; margin: 0 0 .3em; }
+.page-messe .notes-messe p { margin: 0 0 .25em; }
+.page-messe .intro-lue { font-style: italic; margin: 0 0 .2em; }
+@media print {
+  .page-messe .notes-messe { font-size: 7pt; }
+  .page-messe details.rubrique > summary::after { content: ""; }
+}
+@media print { .page-messe details.notice-saint, .page-messe .choix-office { display: none !important; } }
+.page-messe h4.partie { font-family: var(--soustitre); font-size: 1.15em; font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--rouge);
+  text-align: center; margin: 1.6em 0 .8em; padding-bottom: .2em; border-bottom: 1px solid var(--trait); }
+
+/* ── Le Missel à consulter (bouton « Missel », 19/11/2026) */
+.page-messe #ouvrir-missel[aria-pressed="true"] { background: var(--accent, #7a1f1f); color: #fff; border-color: transparent; }
+.page-messe #ouvrir-missel .ico .signet { stroke: var(--rouge); }
+.page-messe #ouvrir-missel[aria-pressed="true"] .ico .signet { stroke: currentColor; }
+.page-messe.mode-missel #onglets { display: none; }
+.page-messe .sommaire a[aria-current="page"] { color: var(--rouge); border-left-color: var(--rouge); }
+.page-messe .sommaire a.retour-jour { margin-top: 12px; border-left-color: transparent; }
+.page-messe .ariane-missel { font-family: var(--sans); font-size: 13px; color: var(--doux); margin: 0 0 10px; overflow-wrap: anywhere; }
+.page-messe .ariane-missel a { color: var(--doux); }
+.page-messe .entete-missel { border-top-color: var(--rouge); }
+.page-messe .recherche-missel { display: flex; gap: 8px; margin: 0 0 22px; }
+.page-messe .recherche-missel input { flex: 1; min-width: 0; font: inherit; font-family: var(--sans); font-size: 15px; padding: 7px 10px;
+  border: 1px solid var(--trait); border-radius: 6px; background: var(--fond, transparent); color: inherit; }
+.page-messe .cartes-missel { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; margin: 0 0 24px; }
+.page-messe .carte-missel { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border: 1px solid var(--trait); border-radius: 8px;
+  text-decoration: none; color: inherit; }
+.page-messe .carte-missel:hover { border-color: var(--rouge); }
+.page-messe .carte-missel .t { font-family: var(--soustitre); font-size: 1.15em; color: var(--rouge); }
+.page-messe .carte-missel .d { font-size: .85em; color: var(--doux); line-height: 1.35; }
+.page-messe .carte-missel .n { font-family: var(--legende); font-size: .75em; color: var(--doux); margin-top: auto; }
+.page-messe .groupes-missel { display: flex; flex-wrap: wrap; gap: 4px 14px; font-family: var(--sans); font-size: 13px; margin: 0 0 18px; }
+.page-messe .groupes-missel a { color: var(--doux); }
+.page-messe .groupe-missel { margin: 0 0 22px; }
+.page-messe .titre-groupe { font-family: var(--soustitre); font-weight: 500; font-size: 1.1em; color: var(--rouge); margin: 0 0 4px;
+  padding-bottom: 3px; border-bottom: 1px solid var(--trait); text-transform: none; letter-spacing: 0; }
+.page-messe .liste-missel { list-style: none; margin: 0; padding: 0; }
+.page-messe .liste-missel a { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding: 5px 0; color: inherit; text-decoration: none;
+  border-bottom: 1px dotted var(--trait); }
+.page-messe .liste-missel a:hover .t { color: var(--rouge); }
+.page-messe .liste-missel .date { font-family: var(--legende); font-size: .85em; color: var(--doux); min-width: 6.5em; }
+.page-messe .liste-missel .s { font-style: italic; font-size: .88em; color: var(--doux); }
+.page-messe .resultats-missel a { flex-direction: column; }
+.page-messe .resultats-missel .ou { font-family: var(--legende); font-size: .78em; color: var(--doux); }
+.page-messe .resultats-missel .extrait { font-size: .85em; color: var(--doux); }
+.page-messe .outils-missel { text-align: right; margin: -8px 0 10px; }
+.page-messe .pages-missel { display: flex; justify-content: space-between; gap: 16px; margin: 2em 0 0; padding-top: .8em; border-top: 1px solid var(--trait);
+  font-family: var(--sans); font-size: 13px; }
+.page-messe .pages-missel a { color: var(--doux); max-width: 48%; }
+.page-messe .pages-missel a[rel="next"] { text-align: right; }
+.page-messe .texte-missel p { margin: 0 0 .55em; }
+.page-messe .texte-missel p.peuple { font-weight: 600; }
+.page-messe .texte-missel p.voix-basse { font-style: italic; color: var(--doux); }
+.page-messe .texte-missel .num { font-style: normal; font-family: var(--legende); }
+.page-messe .texte-missel .tab { display: inline-block; width: 1.2em; }
+.page-messe .texte-missel .rubrique .rubrique-ligne { display: inline; margin: 0; font-size: 1em; }
+.page-messe .intertitre-missel { font-family: var(--legende); font-size: .8em; letter-spacing: .08em; text-transform: uppercase; color: var(--rouge);
+  margin: 1.4em 0 .5em; font-weight: 600; }
+.page-messe .intertitre-missel .ref { text-transform: none; letter-spacing: 0; color: var(--doux); font-weight: 400; margin-left: .5em; }
+.page-messe .theme-preface { font-style: italic; text-align: center; color: var(--doux); margin: -.2em 0 1em; }
+.page-messe .notice-missel { font-style: italic; color: var(--doux); font-size: .92em; }
+.page-messe .bilingue-missel { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
+.page-messe .bilingue-missel [lang="la"] { font-style: italic; }
+@media (max-width: 600px) { .page-messe .bilingue-missel { grid-template-columns: 1fr; } .page-messe .bilingue-missel [lang="la"] { order: 2; margin-top: 1em; } }
+.page-messe .renvois-missel p { margin: 0 0 .35em; font-size: .92em; }
+.page-messe .renvois-missel .lib { font-family: var(--legende); color: var(--doux); }
+.page-messe .renvois-missel a { color: var(--rouge); }
+.page-messe .bloc > h3 .meta a { color: var(--doux); }
+@media (max-width: 600px) { .page-messe .liste-missel .date { flex-basis: 100%; min-width: 0; } }
+@media print { .page-messe .liste-missel a { border-bottom: 0; } }
+
+/* ── Missel de l'Ordre des Prêcheurs (bouton « Missel OP ») — 20/11/2026 */
+.page-messe #ouvrir-missel-op .ico text.ico-op { font: 800 7.6px/1 var(--sans, system-ui, sans-serif); fill: var(--rouge); stroke: none; }
+.page-messe #ouvrir-missel-op[aria-pressed="true"] .ico text.ico-op { fill: currentColor; }
+.page-messe .liste-cal-missel .t.martyrologe { font-style: italic; color: var(--doux); }
+.page-messe .liste-cal-missel .sans-lien { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding: 5px 0; border-bottom: 1px solid var(--trait); }
+.page-messe .theme-preface { font-style: italic; color: var(--doux); margin: 0 0 .5em; }
+.page-messe details.preface-op, .page-messe details.lectures-aelf { margin: 0 0 18px; }
+.page-messe details.lectures-aelf h4 { font-family: var(--legende); font-size: .8em; color: var(--rouge); margin: 1em 0 .3em; }
+@media print { .page-messe details.lectures-aelf { display: none !important; } }

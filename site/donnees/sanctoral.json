@@ -1,0 +1,871 @@
+{
+"01-02": {
+"nom": "S. Basile le Grand et S. Grégoire de Nazianze, évêques et docteurs de l'Église",
+"rang": "mémoire"
+},
+"01-03": {
+"nom": "Ste Geneviève, vierge",
+"rang": "mémoire facultative"
+},
+"01-07": {
+"nom": "S. Raymond de Penyafort, évêque",
+"rang": "mémoire facultative"
+},
+"01-13": {
+"nom": "S. Hilaire, évêque et docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"01-15": {
+"nom": "S. Rémi, évêque",
+"rang": "mémoire facultative"
+},
+"01-17": {
+"nom": "S. Antoine, Abbé",
+"rang": "mémoire"
+},
+"01-20": {
+"nom": "S. Fabien, pape et martyr ; Saint Sébastien, martyr",
+"rang": "mémoire facultative"
+},
+"01-21": {
+"nom": "Ste Agnès, Vierge et martyre",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"01-22": {
+"nom": "S. Vincent, diacre et martyr",
+"rang": "mémoire facultative"
+},
+"01-24": {
+"nom": "S. François de Sales, évêque et docteur de l'Église",
+"rang": "mémoire"
+},
+"01-25": {
+"nom": "Conversion de st Paul, Apôtre",
+"rang": "fête"
+},
+"01-26": {
+"nom": "S. Timothée et S. Tite, évêques",
+"rang": "mémoire"
+},
+"01-27": {
+"nom": "Ste Angèle Merici, vierge",
+"rang": "mémoire facultative"
+},
+"01-28": {
+"nom": "S. Thomas d'Aquin, prêtre et docteur de l'Église",
+"rang": "mémoire"
+},
+"01-31": {
+"nom": "S. Jean Bosco, prêtre",
+"rang": "mémoire"
+},
+"02-02": {
+"nom": "Présentation du Seigneur au Temple",
+"rang": "fête",
+"niveau": 5
+},
+"02-05": {
+"nom": "Ste Agathe, vierge et martyre",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"02-06": {
+"nom": "S. Paul Miki et ses compagnons, martyrs",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"02-08": {
+"nom": "S. Jérôme Émilien, fondateur et Ste Joséphine Bakhita, vierge",
+"rang": "mémoire facultative"
+},
+"02-10": {
+"nom": "Ste Scholastique, vierge",
+"rang": "mémoire"
+},
+"02-11": {
+"nom": "Notre-Dame de Lourdes",
+"rang": "mémoire facultative"
+},
+"02-14": {
+"nom": "S. Cyrille, moine, et Saint Méthode, évêque",
+"rang": "fête"
+},
+"02-17": {
+"nom": "Les sept saints fondateurs des Servîtes de Marie",
+"rang": "mémoire facultative"
+},
+"02-18": {
+"nom": "Ste Bernadette Soubirous, vierge",
+"rang": "mémoire facultative"
+},
+"02-21": {
+"nom": "S. Pierre Damien, docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"02-22": {
+"nom": "La Chaire de Saint Pierre",
+"rang": "fête"
+},
+"02-23": {
+"nom": "S. Polycarpe, évêque et martyr",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"02-27": {
+"nom": "S. Grégoire de Narek, abbé et docteur de l’Église",
+"rang": "mémoire facultative"
+},
+"03-04": {
+"nom": "S. Casimir",
+"rang": "mémoire facultative"
+},
+"03-07": {
+"nom": "Ste Perpétue et Ste Félicité, martyres",
+"rang": "mémoire facultative"
+},
+"03-08": {
+"nom": "S. Jean de Dieu",
+"rang": "mémoire facultative"
+},
+"03-09": {
+"nom": "Ste Françoise Romaine",
+"rang": "mémoire facultative"
+},
+"03-17": {
+"nom": "S. Patrice, évêque",
+"rang": "mémoire facultative"
+},
+"03-18": {
+"nom": "S. Cyrille, évêque, docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"03-19": {
+"nom": "Saint Joseph, époux de la Vierge Marie",
+"rang": "solennité"
+},
+"03-23": {
+"nom": "S. Turibio de Mogrovejo, évêque",
+"rang": "mémoire facultative"
+},
+"03-25": {
+"nom": "Annonciation du Seigneur",
+"rang": "solennité"
+},
+"04-02": {
+"nom": "S. François de Paule, ermite",
+"rang": "mémoire facultative"
+},
+"04-04": {
+"nom": "S. Isidore, évêque, docteur de l'Église, † 636",
+"rang": "mémoire facultative"
+},
+"04-05": {
+"nom": "S. Vincent Ferrier, prêtre",
+"rang": "mémoire facultative"
+},
+"04-07": {
+"nom": "S. Jean-Baptiste de la Salle, prêtre",
+"rang": "mémoire"
+},
+"04-11": {
+"nom": "S. Stanislas, évêque",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"04-13": {
+"nom": "S. Martin Ier, pape, martyr",
+"rang": "mémoire facultative"
+},
+"04-21": {
+"nom": "S. Anselme, évêque et docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"04-23": {
+"nom": "S. Georges, martyr ; S. Adalbert, évêque et martyr",
+"rang": "mémoire facultative"
+},
+"04-24": {
+"nom": "S. Fidèle de Sigmaringen, prêtre et martyr",
+"rang": "mémoire facultative"
+},
+"04-25": {
+"nom": "S. Marc, évangéliste",
+"rang": "fête",
+"couleur": "rouge"
+},
+"04-29": {
+"nom": "Ste Catherine de Sienne, vierge et docteur de l'Église",
+"rang": "fête"
+},
+"04-30": {
+"nom": "S. Pie V, pape",
+"rang": "mémoire facultative"
+},
+"05-01": {
+"nom": "S. Joseph, travailleur",
+"rang": "mémoire facultative"
+},
+"05-02": {
+"nom": "S. Athanase, évêque et docteur de l'Église",
+"rang": "mémoire"
+},
+"05-03": {
+"nom": "S. Philippe et S. Jacques, Apôtres",
+"rang": "fête",
+"couleur": "rouge"
+},
+"05-10": {
+"nom": "S. Jean de Avila, prêtre et docteur de l’Église",
+"rang": "mémoire facultative"
+},
+"05-12": {
+"nom": "S. Nérée et S. Achille, martyrs ; S. Pancrace, martyr",
+"rang": "mémoire facultative"
+},
+"05-13": {
+"nom": "Bienheureuse Vierge Marie de Fatima",
+"rang": "mémoire facultative"
+},
+"05-14": {
+"nom": "S. Matthias, apôtre",
+"rang": "fête",
+"couleur": "rouge"
+},
+"05-18": {
+"nom": "S. Jean Ier, pape et martyr",
+"rang": "mémoire facultative"
+},
+"05-19": {
+"nom": "S. Yves, prêtre",
+"rang": "mémoire facultative"
+},
+"05-20": {
+"nom": "S. Bernardin de Sienne, prêtre",
+"rang": "mémoire facultative"
+},
+"05-21": {
+"nom": "S. Christophe Magallanès, prêtre, et ses compagnons, martyrs",
+"rang": "mémoire facultative"
+},
+"05-22": {
+"nom": "Ste Rita de Cascia, religieuse",
+"rang": "mémoire facultative"
+},
+"05-25": {
+"nom": "S. Bède le Vénérable, prêtre et docteur de l'Église ; S. Grégoire VII, pape ; Ste Marie-Madeleine de Pazzi, vierge",
+"rang": "mémoire facultative"
+},
+"05-26": {
+"nom": "S. Philippe Néri, prêtre",
+"rang": "mémoire"
+},
+"05-27": {
+"nom": "S. Augustin de Cantorbéry, prêtre",
+"rang": "mémoire facultative"
+},
+"05-29": {
+"nom": "S. Paul VI, pape",
+"rang": "mémoire facultative"
+},
+"05-30": {
+"nom": "Ste Jeanne d’Arc, vierge, patronne secondaire de la France",
+"rang": "mémoire"
+},
+"05-31": {
+"nom": "La Visitation de la Vierge Marie",
+"rang": "fête"
+},
+"06-01": {
+"nom": "S. Justin, martyr",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"06-02": {
+"nom": "S. Pothin, évêque de Lyon, Ste Blandine, vierge, et leurs compagnons, martyrs",
+"rang": "mémoire facultative"
+},
+"06-03": {
+"nom": "S. Charles Lwanga et ses compagnons, martyrs",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"06-04": {
+"nom": "Ste Clotilde",
+"rang": "mémoire facultative"
+},
+"06-05": {
+"nom": "S. Boniface, évêque et martyr",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"06-06": {
+"nom": "S. Norbert, évêque",
+"rang": "mémoire facultative"
+},
+"06-09": {
+"nom": "S. Ephrem, diacre et docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"06-11": {
+"nom": "St Barnabé",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"06-13": {
+"nom": "S. Antoine de Padoue, prêtre et docteur de l'Église",
+"rang": "mémoire"
+},
+"06-19": {
+"nom": "S. Romuald",
+"rang": "mémoire facultative"
+},
+"06-21": {
+"nom": "S. Louis de Gonzague",
+"rang": "mémoire"
+},
+"06-24": {
+"nom": "Nativité de Saint Jean Baptiste",
+"rang": "solennité"
+},
+"06-27": {
+"nom": "S. Cyrille d'Alexandrie, évêque et docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"06-28": {
+"nom": "S. Irénée, évêque et martyr",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"06-29": {
+"nom": "Saint Pierre et Saint Paul",
+"rang": "solennité",
+"couleur": "rouge"
+},
+"06-30": {
+"nom": "Ss. Premiers martyrs de l'Église de Rome",
+"rang": "mémoire facultative"
+},
+"07-03": {
+"nom": "Saint Thomas, apôtre",
+"rang": "fête",
+"couleur": "rouge"
+},
+"07-04": {
+"nom": "Ste Elisabeth du Portugal",
+"rang": "mémoire facultative"
+},
+"07-05": {
+"nom": "S. Antoine-Marie Zaccaria, prêtre",
+"rang": "mémoire facultative"
+},
+"07-06": {
+"nom": "Ste Marie Goretti, vierge et martyre",
+"rang": "mémoire facultative"
+},
+"07-09": {
+"nom": "S. Augustin Zhao Rong, prêtre, et ses compagnons, martyrs",
+"rang": "mémoire facultative"
+},
+"07-11": {
+"nom": "S. Benoît, abbé",
+"rang": "fête"
+},
+"07-13": {
+"nom": "S. Henri",
+"rang": "mémoire facultative"
+},
+"07-14": {
+"nom": "S. Camille de Lellis, prêtre",
+"rang": "mémoire facultative"
+},
+"07-15": {
+"nom": "S. Bonaventure, évêque et docteur de l'Église",
+"rang": "mémoire"
+},
+"07-16": {
+"nom": "Notre-Dame du Mont Carmel",
+"rang": "mémoire facultative"
+},
+"07-20": {
+"nom": "S. Apollinaire, évêque et martyr",
+"rang": "mémoire facultative"
+},
+"07-21": {
+"nom": "S. Laurent de Brindisi, prêtre et docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"07-22": {
+"nom": "Ste Marie-Madeleine",
+"rang": "fête"
+},
+"07-23": {
+"nom": "Ste Brigitte, religieuse",
+"rang": "fête"
+},
+"07-24": {
+"nom": "S. Charbel Maklouf, prêtre",
+"rang": "mémoire facultative"
+},
+"07-25": {
+"nom": "Saint Jacques, apôtre",
+"rang": "fête",
+"couleur": "rouge"
+},
+"07-26": {
+"nom": "Ste Anne et S. Joachim, parents de la Vierge Marie Mémoire",
+"rang": "mémoire"
+},
+"07-29": {
+"nom": "Ste Marthe, Marie et S. Lazare",
+"rang": "mémoire"
+},
+"07-30": {
+"nom": "S. Pierre Chrysologue, évêque et docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"07-31": {
+"nom": "S. Ignace de Loyola, prêtre",
+"rang": "mémoire"
+},
+"08-01": {
+"nom": "S. Alphonse de Liguori, évêque et docteur de l'Église",
+"rang": "mémoire"
+},
+"08-02": {
+"nom": "S. Eusèbe, évêque ; S. Pierre-Julien Eymard, prêtre, fondateur des Prêtres du Saint-Sacrement",
+"rang": "mémoire facultative",
+"autres": [
+"S. Pierre-Julien Eymard, prêtre"
+]
+},
+"08-04": {
+"nom": "S. Jean-Marie Vianney, prêtre",
+"rang": "mémoire"
+},
+"08-05": {
+"nom": "Dédicace de la Basilique Sainte-Marie Majeure",
+"rang": "mémoire facultative"
+},
+"08-06": {
+"nom": "Transfiguration du Seigneur",
+"rang": "fête",
+"niveau": 5
+},
+"08-08": {
+"nom": "S. Dominique, prêtre",
+"rang": "mémoire"
+},
+"08-09": {
+"nom": "Ste Thérèse-Bénédicte de la Croix (Edith Stein), martyre",
+"rang": "fête",
+"couleur": "rouge"
+},
+"08-10": {
+"nom": "Saint Laurent, diacre et martyr",
+"rang": "fête",
+"couleur": "rouge"
+},
+"08-11": {
+"nom": "Ste Claire, vierge",
+"rang": "mémoire"
+},
+"08-12": {
+"nom": "Ste Jeanne-Françoise de Chantal, religieuse",
+"rang": "mémoire facultative"
+},
+"08-13": {
+"nom": "S. Pontien, pape, et S. Hippolyte, prêtre, martyrs.",
+"rang": "mémoire facultative"
+},
+"08-14": {
+"nom": "S. Maximilien Kolbe, prêtre et martyr",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"08-15": {
+"nom": "Assomption de la Vierge Marie",
+"rang": "solennité"
+},
+"08-16": {
+"nom": "S. Étienne de Hongrie",
+"rang": "mémoire facultative"
+},
+"08-19": {
+"nom": "S. Jean Eudes, prêtre",
+"rang": "mémoire facultative"
+},
+"08-20": {
+"nom": "S. Bernard, abbé et docteur de l'Église",
+"rang": "mémoire"
+},
+"08-21": {
+"nom": "S.Pie X, pape",
+"rang": "mémoire"
+},
+"08-22": {
+"nom": "La Vierge Marie, Reine",
+"rang": "mémoire"
+},
+"08-23": {
+"nom": "Ste Rose de Lima, vierge",
+"rang": "mémoire facultative"
+},
+"08-24": {
+"nom": "Saint Barthélémy, apôtre",
+"rang": "fête",
+"couleur": "rouge"
+},
+"08-25": {
+"nom": "S. Louis, roi de France",
+"rang": "mémoire",
+"autres": [
+"S. Joseph de Calasanz, prêtre"
+]
+},
+"08-26": {
+"nom": "S. Césaire, évêque d’Arles",
+"rang": "mémoire facultative"
+},
+"08-27": {
+"nom": "Ste Monique",
+"rang": "mémoire"
+},
+"08-28": {
+"nom": "S. Augustin, évêque et docteur de l'Église",
+"rang": "mémoire"
+},
+"08-29": {
+"nom": "Martyre de S. Jean Baptiste",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"09-03": {
+"nom": "S. Grégoire le Grand, pape et docteur de l'Église",
+"rang": "mémoire"
+},
+"09-08": {
+"nom": "Nativité de la Vierge Marie",
+"rang": "fête"
+},
+"09-09": {
+"nom": "S. Pierre Claver, prêtre",
+"rang": "mémoire facultative"
+},
+"09-12": {
+"nom": "Le Saint Nom de Marie",
+"rang": "mémoire facultative"
+},
+"09-13": {
+"nom": "S. Jean Chrysostome, évêque, docteur de l'Église",
+"rang": "mémoire"
+},
+"09-14": {
+"nom": "La Croix glorieuse",
+"rang": "fête",
+"niveau": 5,
+"couleur": "rouge"
+},
+"09-15": {
+"nom": "Notre-Dame des Douleurs",
+"rang": "mémoire"
+},
+"09-16": {
+"nom": "S. Corneille, pape, et S. Cyprien, évêque, martyrs",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"09-17": {
+"nom": "S. Robert Bellarmin, évêque et docteur de l'Église",
+"rang": "mémoire facultative",
+"autres": [
+"Ste Hildegarde de Bingen, vierge et docteur de l’Église"
+]
+},
+"09-19": {
+"nom": "S. Janvier, évêque et martyr",
+"rang": "mémoire facultative"
+},
+"09-20": {
+"nom": "S. André Kim Tae-gon, prêtre, S. Paul Chong Ha-sang, et leurs compagnons, martyrs",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"09-21": {
+"nom": "Saint Matthieu, apôtre et évangéliste",
+"rang": "fête",
+"couleur": "rouge"
+},
+"09-23": {
+"nom": "S. Pio de Pietrelcina (Padre Pio), prêtre",
+"rang": "mémoire"
+},
+"09-26": {
+"nom": "S. Côme et S. Damien, martyrs",
+"rang": "mémoire facultative"
+},
+"09-27": {
+"nom": "S. Vincent de Paul, prêtre",
+"rang": "mémoire"
+},
+"09-28": {
+"nom": "S. Venceslas, martyr ; S. Laurent Ruiz et ses compagnons, martyrs",
+"rang": "mémoire facultative",
+"autres": [
+"S. Laurent Ruiz et ses compagnons, martyrs"
+]
+},
+"09-29": {
+"nom": "Saint Michel, Saint Gabriel et Saint Raphaël, Archanges",
+"rang": "fête"
+},
+"09-30": {
+"nom": "S. Jérôme, prêtre et docteur de l'Église",
+"rang": "mémoire"
+},
+"10-01": {
+"nom": "Ste Thérèse de l'Enfant Jésus, vierge",
+"rang": "mémoire"
+},
+"10-02": {
+"nom": "Ss Anges Gardiens",
+"rang": "mémoire"
+},
+"10-04": {
+"nom": "S. François d'Assise",
+"rang": "mémoire"
+},
+"10-05": {
+"nom": "Ste Faustine Kowalska, vierge",
+"rang": "mémoire facultative"
+},
+"10-06": {
+"nom": "S. Bruno, prêtre",
+"rang": "mémoire facultative"
+},
+"10-07": {
+"nom": "Notre-Dame du Rosaire",
+"rang": "mémoire"
+},
+"10-11": {
+"nom": "S. Jean XXIII, pape",
+"rang": "mémoire facultative"
+},
+"10-14": {
+"nom": "S. Callixte Ier, pape et martyr",
+"rang": "mémoire facultative"
+},
+"10-15": {
+"nom": "Ste Thérèse d'Avila, vierge et docteur de l'Église",
+"rang": "mémoire"
+},
+"10-16": {
+"nom": "Ste Edwige, religieuse ; Ste Marguerite-Marie Alacoque, vierge",
+"rang": "mémoire facultative"
+},
+"10-17": {
+"nom": "S. Ignace d'Antioche, évêque et martyr",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"10-18": {
+"nom": "S. Luc, évangéliste",
+"rang": "fête",
+"couleur": "rouge"
+},
+"10-22": {
+"nom": "S. Jean-Paul II, pape",
+"rang": "mémoire facultative"
+},
+"10-23": {
+"nom": "S. Jean de Capistran, prêtre",
+"rang": "mémoire facultative"
+},
+"10-24": {
+"nom": "S. Antoine-Marie Claret, évêque",
+"rang": "mémoire facultative"
+},
+"10-28": {
+"nom": "Saint Simon et Saint Jude, apôtres",
+"rang": "fête",
+"couleur": "rouge"
+},
+"11-01": {
+"nom": "Tous les Saints",
+"rang": "solennité"
+},
+"11-03": {
+"nom": "S. Martin de Porrès, religieux",
+"rang": "mémoire facultative"
+},
+"11-04": {
+"nom": "S. Charles Borromée, évêque",
+"rang": "mémoire"
+},
+"11-09": {
+"nom": "Dédicace de la basilique du Latran",
+"rang": "fête",
+"niveau": 5
+},
+"11-10": {
+"nom": "S. Léon le Grand, pape et docteur de l'Église",
+"rang": "mémoire"
+},
+"11-11": {
+"nom": "S. Martin de Tours, évêque",
+"rang": "mémoire"
+},
+"11-12": {
+"nom": "S. Josaphat, évêque et martyr",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"11-15": {
+"nom": "S. Albert le Grand, évêque, docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"11-16": {
+"nom": "Ste Marguerite d'Ecosse, Ste Gertrude, vierge",
+"rang": "mémoire facultative"
+},
+"11-17": {
+"nom": "Ste Elisabeth de Hongrie",
+"rang": "mémoire"
+},
+"11-18": {
+"nom": "Dédicace des basiliques de S. Pierre et de S. Paul, apôtres",
+"rang": "mémoire facultative"
+},
+"11-21": {
+"nom": "Présentation de la Vierge Marie",
+"rang": "mémoire"
+},
+"11-22": {
+"nom": "Ste Cécile, vierge et martyre",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"11-24": {
+"nom": "S. André Dung-Lac, prêtre, et ses compagnons, martyrs",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"11-25": {
+"nom": "Ste Catherine d'Alexandrie, vierge et martyre",
+"rang": "mémoire facultative"
+},
+"11-30": {
+"nom": "S. André, Apôtre",
+"rang": "fête",
+"couleur": "rouge"
+},
+"12-03": {
+"nom": "S. François Xavier, prêtre",
+"rang": "mémoire"
+},
+"12-04": {
+"nom": "S. Jean de Damas, prêtre et docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"12-06": {
+"nom": "S. Nicolas, évêque",
+"rang": "mémoire facultative"
+},
+"12-07": {
+"nom": "S. Ambroise, évêque, docteur de l'Église",
+"rang": "mémoire"
+},
+"12-08": {
+"nom": "Immaculée Conception de la Vierge Marie",
+"rang": "solennité"
+},
+"12-09": {
+"nom": "S. Juan Diego Cuauhtlatoatzin",
+"rang": "mémoire facultative"
+},
+"12-10": {
+"nom": "Bienheureuse Vierge Marie de Lorette",
+"rang": "mémoire facultative"
+},
+"12-11": {
+"nom": "S. Damase Ier, pape",
+"rang": "mémoire facultative"
+},
+"12-12": {
+"nom": "Notre-Dame de Guadaloupé",
+"rang": "mémoire facultative"
+},
+"12-13": {
+"nom": "Ste. Lucie, vierge et martyre",
+"rang": "mémoire",
+"couleur": "rouge"
+},
+"12-14": {
+"nom": "S. Jean de la Croix, prêtre,docteur de l'Église",
+"rang": "mémoire"
+},
+"12-21": {
+"nom": "S. Pierre Canisius, prêtre, docteur de l'Église",
+"rang": "mémoire facultative"
+},
+"12-23": {
+"nom": "S. Jean de Kenty, prêtre",
+"rang": "mémoire facultative"
+},
+"12-26": {
+"nom": "Saint Etienne, premier martyr",
+"rang": "fête",
+"couleur": "rouge"
+},
+"12-27": {
+"nom": "Saint Jean, apôtre et évangéliste",
+"rang": "fête"
+},
+"12-28": {
+"nom": "Les Saints Innocents, martyrs",
+"rang": "fête",
+"couleur": "rouge"
+},
+"12-29": {
+"nom": "S. Thomas Becket, évêque, martyr",
+"rang": "mémoire facultative"
+},
+"12-31": {
+"nom": "S. Sylvestre Ier, pape",
+"rang": "mémoire facultative"
+},
+"02-03": {
+"nom": "Saint Anschaire, évêque",
+"rang": "mémoire facultative"
+},
+"08-07": {
+"nom": "S. Gaëtan, prêtre",
+"rang": "mémoire facultative"
+},
+"10-09": {
+"nom": "S. Jean Léonardi, prêtre",
+"rang": "mémoire facultative"
+},
+"10-19": {
+"nom": "S. Paul de la Croix, prêtre",
+"rang": "mémoire facultative"
+},
+"11-23": {
+"nom": "S. Colomban, abbé",
+"rang": "mémoire facultative"
+},
+"04-28": {
+"nom": "S. Louis-Marie Grignon de Montfort, prêtre",
+"rang": "mémoire facultative"
+},
+"06-22": {
+"nom": "S. Jean Fisher, évêque et S. Thomas More, martyrs",
+"rang": "mémoire facultative"
+},
+"11-02": {
+"nom": "Commémoration de tous les fidèles défunts",
+"rang": "solennité",
+"niveau": 3,
+"couleur": "violet"
+}
+}

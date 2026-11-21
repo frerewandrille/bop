@@ -1,0 +1,141 @@
+\documentclass[11pt, openany]{book}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titlepic}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{emptypage}
+\usepackage{changepage}
+\usepackage{lettrine}
+%\usepackage[autocompile]{gregoriotex}\grechangestaffsize{12}\grechangedim{baselineskip}{40pt}{fixed}
+\usepackage{etoolbox}
+
+\geometry{a5paper, margin = 0.04\paperwidth, bottom = 0.08\paperwidth, top = 0.08\paperwidth}
+
+
+
+\title{\bfseries\sffamily\Huge\uppercase{Exsultet}}
+\author{}
+\date{}
+
+%\setmainfont[Numbers={Lowercase, Proportional}, Ligatures=Rare]{Latin Modern Roman}
+%\newfontfamily{\biengras}[UprightFont={* Bold}]{Linux Libertine O}
+\setmainfont[Numbers={Lowercase, Proportional, OldStyle}, Ligatures={Common,Rare,Historic}]{EB Garamond}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\strictpagecheck
+
+\titleformat{\part}[hang]{\Huge\sffamily\bfseries\uppercase}{}{0pt}{\centering}{}
+\titleformat{\chapter}[hang]{\LARGE\sffamily\bfseries\uppercase}{}{0pt}{\centering}{}
+\titleformat{\section}[hang]{\uppercase}{}{0pt}{\centering}{}
+\titleformat{\subsection}[hang]{\bfseries}{}{0pt}{\centering}{}
+\titleformat{\subsubsection}[hang]{\color{ruber}}{}{0pt}{\centering}{}
+
+
+\begin{document}
+	
+\newlength{\hauteur}\setlength{\hauteur}{\textheight}
+
+\makeatletter
+\patchcmd\@outputpage{\textheight}{\ifodd\count\z@ 12.75cm\else \hauteur\fi}{}{}
+\makeatother
+
+\maketitle %\thispagestyle{empty}
+
+\fancyfoot[OC]{}
+\fancyfoot[EL]{\rule{5cm}{0.2pt}\\\smallskip\hspace{1em}\includegraphics[width=0.85\linewidth]{0Le_Christ.pdf}}
+\setlength{\textheight}{5cm}
+
+\begin{lilypond}
+	\layout {
+		\context {
+			\Lyrics
+			\consists "Bar_engraver"
+			\consists "Separating_line_group_engraver"
+			\hide BarLine
+		}
+	}
+	\include "Ft_Gar_12pt_.ly" 
+	\include "Exsultet/Exsultet 2021 Commandes.ly"	
+	\new Staff \with {\remove Time_signature_engraver }
+	<< 
+	\cadenzaOn \key f \major
+	\new Voice = "melodie" \relative c'' { 
+		\musA
+	}	
+	\new Lyrics \with {\override VerticalAxisGroup.staff-affinity = #CENTER }
+	\lyricsto "melodie" {
+		\textA
+	}
+	>>
+\end{lilypond}
+
+
+
+\makeatletter
+\patchcmd\@outputpage{\textheight}{\ifodd\count\z@ 14.5cm\else \hauteur\fi}{}{}
+\makeatother	
+
+\begin{lilypond}
+	\layout {
+		\context {
+			\Lyrics
+			\consists "Bar_engraver"
+			\consists "Separating_line_group_engraver"
+			\hide BarLine
+		}
+	}
+	\include "Ft_Gar_12pt_.ly" 
+	\include "Exsultet/Exsultet 2021 Commandes.ly"	
+	\score {
+		\new Staff \with {\remove Time_signature_engraver }
+		<< 
+		\cadenzaOn \key f \major
+		\new Voice = "melodie" \relative c' { 
+			\musDial
+		}
+		
+		\new Lyrics \with {\override VerticalAxisGroup.staff-affinity = #CENTER }
+		\lyricsto "melodie" {
+			\textDial
+		}
+		>>
+		\layout { indent = #10 }
+	}
+\end{lilypond}
+
+\fancyfoot[OC]{}
+\fancyfoot[EL]{\rule{5cm}{0.2pt}\\\smallskip\hspace{1em}\includegraphics[width=0.65\linewidth]{0Gloire.pdf}}
+
+\begin{lilypond}
+	\layout {
+		\context {
+			\Lyrics
+			\consists "Bar_engraver"
+			\consists "Separating_line_group_engraver"
+			\hide BarLine
+		}
+	}
+	\include "Ft_Gar_12pt_.ly" 
+	\include "Exsultet/Exsultet 2021 Commandes.ly"	
+	\new Staff \with {\remove Time_signature_engraver }
+	<< 
+	\cadenzaOn \key f \major
+	\new Voice = "melodie" \relative c' { 
+		\musBI\break\musBII\break\musBIII
+	}
+	
+	\new Lyrics \with {\override VerticalAxisGroup.staff-affinity = #CENTER }
+	\lyricsto "melodie" {
+		\textBI\textBII\textBIII
+	}
+	>>
+\end{lilypond}
+
+\end{document}

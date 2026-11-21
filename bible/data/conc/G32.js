@@ -1,0 +1,1 @@
+window.__CONC={"G3201":[["ROM9.19","blâme-t-il ? / se plaint-il ?"],["HEB8.8","Blâmant / Se plaignant d'"]],"G3200":[["2TI4.13","parchemins."]],"G3202":[["JUD1.16","qui se plaignent / qui blâment leur sort"]]};

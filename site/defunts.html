@@ -1,0 +1,103 @@
+<!doctype html>
+<!-- Recueil « Frères défunts » : mémoire du jour, De profundis, Repos éternel, nécrologe entier par mois.
+     Logique : js/defunts.js ; données : donnees/necrologe.json, psautier.json, prieres.json. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Frères défunts</title>
+<meta name="description" content="Mémoire des frères défunts de la Province de Toulouse, jour par jour.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#7a1f1f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icone.svg?v=2" type="image/svg+xml">
+<link rel="stylesheet" href="css/polices.css?v=86">
+<link rel="stylesheet" href="css/office.css?v=102">
+<link rel="stylesheet" href="css/table.css?v=11">
+<link rel="stylesheet" href="css/menu.css?v=9">
+</head>
+<body class="page-table page-martyrologe page-defunts">
+<script src="js/menu.js?v=8"></script>
+<header class="barre barre-table">
+  <div class="barre-gauche">
+    <label class="cache" for="date">Date</label>
+    <button class="bouton icone" id="veille" title="Jour précédent" aria-label="Jour précédent">‹</button>
+    <input type="date" id="date">
+    <button class="bouton icone" id="lendemain" title="Jour suivant" aria-label="Jour suivant">›</button>
+    <button class="bouton avec-icone" id="aujourdhui" title="Revenir à aujourd'hui" aria-label="Aujourd'hui"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><circle class="plein" cx="12" cy="15" r="2"/></svg><span class="lib">Aujourd'hui</span></button>
+  </div>
+  <div class="barre-droite">
+    <button class="bouton avec-icone" id="imprimer" title="Imprimer" aria-label="Imprimer"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 10.5v6.5M9 14l3 3 3-3"/></svg><span class="lib">Imprimer</span></button>
+    <span class="bouton icone cale" aria-hidden="true"></span>
+  </div>
+  <nav class="onglets pages-annexes" aria-label="Bibliothèque"></nav>
+</header>
+
+<main class="contenu table-contenu" id="page" aria-live="polite"><p class="chargement">Chargement…</p></main>
+
+<script src="js/bibliotheque.js?v=2"></script>
+<script src="js/defunts.js?v=2"></script>
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const pad = (n) => String(n).padStart(2, "0");
+  const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const decaler = (s, n) => { const d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return iso(d); };
+  const MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+  const JOURS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+  const longue = (s) => { const d = new Date(s + "T12:00:00"); return `${JOURS[d.getDay()]} ${d.getDate() === 1 ? "1er" : d.getDate()} ${MOIS[d.getMonth()]} ${d.getFullYear()}`; };
+  Bibliotheque.preferences();
+
+  let N = null, PS = null, LA = null, PR = null, date = iso(new Date());
+  const m = /^#(\d{4}-\d{2}-\d{2})/.exec(location.hash);
+  if (m) date = m[1];
+
+  function afficher() {
+    $("#date").value = date;
+    Bibliotheque.onglets("defunts", date);
+    if (location.hash !== "#" + date) history.replaceState(null, "", "#" + date);
+    document.title = `Frères défunts — ${longue(date)}`;
+    $("#page").innerHTML =
+      `<header class="entete-table"><p class="date">${longue(date)}</p><h1>Frères défunts</h1>`
+      + `<p class="sous-titre">Province dominicaine de Toulouse</p></header>`
+      + Defunts.rendu(date, N, PS, LA, PR)
+      + `<section class="necrologe"><h2>Tout le nécrologe</h2>`
+      + `<label class="cache" for="cherche-frere">Chercher un frère</label>`
+      + `<input type="search" id="cherche-frere" placeholder="Chercher un frère, un lieu, une année…" autocomplete="off">`
+      + `<p class="resultat" id="resultat" hidden></p>`
+      + Defunts.tout(N) + `<p class="legende">${N.notes.lettres} ${N.notes.lieux}</p></section>`
+      + `<p class="source">${N.source}. De profundis : psautier de la Bible de Jérusalem ; latin de la Nova Vulgata.</p>`;
+    $("#cherche-frere").addEventListener("input", chercher);
+  }
+
+  const plat = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  function chercher(e) {
+    const q = plat(e.target.value.trim());
+    let n = 0;
+    document.querySelectorAll(".necrologe details.mois").forEach((d) => {
+      let vus = 0;
+      d.querySelectorAll("li").forEach((li) => { const ok = !q || plat(li.textContent).includes(q); li.hidden = !ok; if (ok) vus++; });
+      d.hidden = !!q && !vus; if (q) d.open = vus > 0; n += vus;
+    });
+    const r = $("#resultat"); r.hidden = !q; if (q) r.textContent = n ? `${n} frère${n > 1 ? "s" : ""}` : "Aucun frère trouvé.";
+  }
+
+  $("#veille").onclick = () => { date = decaler(date, -1); afficher(); };
+  $("#lendemain").onclick = () => { date = decaler(date, 1); afficher(); };
+  $("#aujourdhui").onclick = () => { date = iso(new Date()); afficher(); };
+  $("#date").onchange = (e) => { if (e.target.value) { date = e.target.value; afficher(); } };
+  $("#imprimer").onclick = () => window.print();
+  window.addEventListener("hashchange", () => { const h = /^#(\d{4}-\d{2}-\d{2})/.exec(location.hash); if (h && h[1] !== date) { date = h[1]; afficher(); } });
+
+  Promise.all(["necrologe", "psautier", "psautier_latin", "prieres"].map((f) => fetch(`donnees/${f}.json`, { cache: "no-cache" }).then((r) => r.json())))
+    .then(([n, ps, la, pr]) => { N = n; PS = ps; LA = la; PR = pr; afficher(); document.body.dataset.pret = "1"; })
+    .catch(() => { $("#page").innerHTML = `<p class="chargement">Le nécrologe n'a pas pu être chargé.</p>`; });
+
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

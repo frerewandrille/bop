@@ -1,0 +1,1 @@
+window.__RI={"kippur":[554,10051],"kipper":[631],"kittim":[902,2164,3079,676],"kilyon":[1430],"kitu":[2272],"kilos":[2885],"kition":[3066],"kisleu":[3320,1],"kimerire":[3483],"ki":[3515,263,38,3820],"kisseh":[3689],"kimhallek":[4689],"kilmad":[6831],"kimribe":[7225],"kiyyun":[7459],"kishe":[7577],"kilometres":[8724,150]};

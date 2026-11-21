@@ -1,0 +1,8127 @@
+{
+"pages": {
+"to": {
+"127": [
+{
+"page": 127,
+"n": 1,
+"fichier": "a-127-1.jpg",
+"y0": 63,
+"y1": 719,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 140",
+"dedans": "",
+"cotes": [],
+"ids": [
+"140"
+],
+"nature": "musique"
+},
+{
+"page": 127,
+"n": 2,
+"fichier": "a-127-2.jpg",
+"y0": 760,
+"y1": 1168,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 141 & NT VII p. 190",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT7",
+"141"
+],
+"nature": "musique"
+}
+],
+"128": [
+{
+"page": 128,
+"n": 1,
+"fichier": "a-128-1.jpg",
+"y0": 63,
+"y1": 602,
+"x0": 61,
+"x1": 833,
+"dessus": "",
+"dessous": "Psaume 1",
+"dedans": "",
+"cotes": [],
+"ids": [
+"1"
+],
+"nature": "musique"
+},
+{
+"page": 128,
+"n": 2,
+"fichier": "a-128-2.jpg",
+"y0": 644,
+"y1": 1193,
+"x0": 61,
+"x1": 833,
+"dessus": "",
+"dessous": "Psaume 2",
+"dedans": "",
+"cotes": [],
+"ids": [
+"2"
+],
+"nature": "musique"
+}
+],
+"130": [
+{
+"page": 130,
+"n": 1,
+"fichier": "a-130-1.jpg",
+"y0": 46,
+"y1": 560,
+"x0": 22,
+"x1": 887,
+"dessus": "",
+"dessous": "Psaume 62 & AT 49",
+"dedans": "Laudes - Dimanche I",
+"cotes": [],
+"ids": [
+"AT49",
+"62"
+],
+"nature": "musique"
+},
+{
+"page": 130,
+"n": 2,
+"fichier": "a-130-2.jpg",
+"y0": 601,
+"y1": 1095,
+"x0": 22,
+"x1": 887,
+"dessus": "",
+"dessous": "Psaume 149",
+"dedans": "",
+"cotes": [],
+"ids": [
+"149"
+],
+"nature": "musique"
+}
+],
+"131": [
+{
+"page": 131,
+"n": 1,
+"fichier": "a-131-1.jpg",
+"y0": 63,
+"y1": 991,
+"x0": 29,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "",
+"cotes": [],
+"ids": [
+"109"
+],
+"nature": "musique"
+}
+],
+"133": [
+{
+"page": 133,
+"n": 1,
+"fichier": "a-133-1.jpg",
+"y0": 63,
+"y1": 493,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 5 & AT 4",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT4",
+"5"
+],
+"nature": "musique"
+},
+{
+"page": 133,
+"n": 2,
+"fichier": "a-133-2.jpg",
+"y0": 534,
+"y1": 1162,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 28",
+"dedans": "",
+"cotes": [],
+"ids": [
+"28"
+],
+"nature": "musique"
+}
+],
+"135": [
+{
+"page": 135,
+"n": 1,
+"fichier": "a-135-1.jpg",
+"y0": 63,
+"y1": 698,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"10"
+],
+"nature": "musique"
+},
+{
+"page": 135,
+"n": 2,
+"fichier": "a-135-2.jpg",
+"y0": 739,
+"y1": 1165,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 14 & NT VI p. 195",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT6",
+"14"
+],
+"nature": "musique"
+}
+],
+"136": [
+{
+"page": 136,
+"n": 1,
+"fichier": "a-136-1.jpg",
+"y0": 63,
+"y1": 701,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 23 & AT 6",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT6",
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 136,
+"n": 2,
+"fichier": "a-136-2.jpg",
+"y0": 742,
+"y1": 1168,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 32",
+"dedans": "",
+"cotes": [],
+"ids": [
+"32"
+],
+"nature": "musique"
+}
+],
+"137": [
+{
+"page": 137,
+"n": 1,
+"fichier": "a-137-1.jpg",
+"y0": 63,
+"y1": 507,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 19",
+"dedans": "",
+"cotes": [],
+"ids": [
+"19"
+],
+"nature": "musique"
+},
+{
+"page": 137,
+"n": 2,
+"fichier": "a-137-2.jpg",
+"y0": 548,
+"y1": 1089,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 20 & NT XI p. 198",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT11",
+"20"
+],
+"nature": "musique"
+}
+],
+"138": [
+{
+"page": 138,
+"n": 1,
+"fichier": "a-138-1.jpg",
+"y0": 63,
+"y1": 496,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 35 & AT 8",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT8",
+"35"
+],
+"nature": "musique"
+},
+{
+"page": 138,
+"n": 2,
+"fichier": "a-138-2.jpg",
+"y0": 537,
+"y1": 1162,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 46",
+"dedans": "",
+"cotes": [],
+"ids": [
+"46"
+],
+"nature": "musique"
+}
+],
+"139": [
+{
+"page": 139,
+"n": 1,
+"fichier": "a-139-1.jpg",
+"y0": 63,
+"y1": 695,
+"x0": 27,
+"x1": 895,
+"dessus": "",
+"dessous": "Psaume 26, 1-6",
+"dedans": "",
+"cotes": [],
+"ids": [
+"26"
+],
+"nature": "musique"
+},
+{
+"page": 139,
+"n": 2,
+"fichier": "a-139-2.jpg",
+"y0": 735,
+"y1": 1156,
+"x0": 27,
+"x1": 895,
+"dessus": "",
+"dessous": "Psaume 26, 7-14 & NT VIII p. 200",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT8",
+"26"
+],
+"nature": "musique"
+}
+],
+"141": [
+{
+"page": 141,
+"n": 1,
+"fichier": "a-141-1.jpg",
+"y0": 63,
+"y1": 520,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 29",
+"dedans": "",
+"cotes": [],
+"ids": [
+"29"
+],
+"nature": "musique"
+},
+{
+"page": 141,
+"n": 2,
+"fichier": "a-141-2.jpg",
+"y0": 561,
+"y1": 1075,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 31 & NT XII p. 203",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT12",
+"31"
+],
+"nature": "musique"
+}
+],
+"142": [
+{
+"page": 142,
+"n": 1,
+"fichier": "a-142-1.jpg",
+"y0": 63,
+"y1": 675,
+"x0": 27,
+"x1": 889,
+"dessus": "",
+"dessous": "Psaume 50 & AT 30",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT30",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 142,
+"n": 2,
+"fichier": "a-142-2.jpg",
+"y0": 716,
+"y1": 1164,
+"x0": 27,
+"x1": 889,
+"dessus": "",
+"dessous": "Psaume 99",
+"dedans": "",
+"cotes": [],
+"ids": [
+"99"
+],
+"nature": "musique"
+}
+],
+"143": [
+{
+"page": 143,
+"n": 1,
+"fichier": "a-143-1.jpg",
+"y0": 63,
+"y1": 713,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 40",
+"dedans": "",
+"cotes": [],
+"ids": [
+"40"
+],
+"nature": "musique"
+},
+{
+"page": 143,
+"n": 2,
+"fichier": "a-143-2.jpg",
+"y0": 754,
+"y1": 1171,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 45 & NT XIII p. 206",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT13",
+"45"
+],
+"nature": "musique"
+}
+],
+"144": [
+{
+"page": 144,
+"n": 1,
+"fichier": "a-144-1.jpg",
+"y0": 63,
+"y1": 526,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 118-XIX & AT 1",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT1",
+"118-19"
+],
+"nature": "musique"
+},
+{
+"page": 144,
+"n": 2,
+"fichier": "a-144-2.jpg",
+"y0": 567,
+"y1": 1095,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 116",
+"dedans": "",
+"cotes": [],
+"ids": [
+"116"
+],
+"nature": "musique"
+}
+],
+"145": [
+{
+"page": 145,
+"n": 1,
+"fichier": "a-145-1.jpg",
+"y0": 63,
+"y1": 504,
+"x0": 27,
+"x1": 889,
+"dessus": "",
+"dessous": "Psaume 118-XIV",
+"dedans": "",
+"cotes": [],
+"ids": [
+"118-14"
+],
+"nature": "musique"
+},
+{
+"page": 145,
+"n": 2,
+"fichier": "a-145-2.jpg",
+"y0": 545,
+"y1": 1180,
+"x0": 27,
+"x1": 889,
+"dessus": "",
+"dessous": "Psaume 15 & NT VII p. 190",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT7",
+"15"
+],
+"nature": "musique"
+}
+],
+"146": [
+{
+"page": 146,
+"n": 1,
+"fichier": "a-146-1.jpg",
+"y0": 63,
+"y1": 693,
+"x0": 25,
+"x1": 891,
+"dessus": "",
+"dessous": "Psaume 103, 1-12",
+"dedans": "",
+"cotes": [],
+"ids": [
+"103"
+],
+"nature": "musique"
+},
+{
+"page": 146,
+"n": 102,
+"fichier": "s-146-2.jpg",
+"y0": 791,
+"y1": 1205,
+"x0": 47,
+"x1": 864,
+"dessus": "Psaume 103, 1-12",
+"ecart_dessus": 73,
+"dessous": "",
+"dedans": "",
+"cotes": [],
+"ids": [
+"103"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"150": [
+{
+"page": 150,
+"n": 1,
+"fichier": "a-150-1.jpg",
+"y0": 63,
+"y1": 705,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "",
+"cotes": [],
+"ids": [
+"109"
+],
+"nature": "musique"
+},
+{
+"page": 150,
+"n": 2,
+"fichier": "a-150-2.jpg",
+"y0": 746,
+"y1": 1160,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 113 B & NT XIV p. 193",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT14",
+"113B"
+],
+"nature": "musique"
+}
+],
+"153": [
+{
+"page": 153,
+"n": 1,
+"fichier": "a-153-1.jpg",
+"y0": 63,
+"y1": 722,
+"x0": 27,
+"x1": 896,
+"dessus": "",
+"dessous": "Psaume 44, 1-10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"44"
+],
+"nature": "musique"
+},
+{
+"page": 153,
+"n": 2,
+"fichier": "a-153-2.jpg",
+"y0": 763,
+"y1": 1189,
+"x0": 27,
+"x1": 896,
+"dessus": "",
+"dessous": "Psaume 44, 11-18 & NT VI p. 195",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT6",
+"44"
+],
+"nature": "musique"
+}
+],
+"154": [
+{
+"page": 154,
+"n": 1,
+"fichier": "a-154-1.jpg",
+"y0": 63,
+"y1": 627,
+"x0": 32,
+"x1": 879,
+"dessus": "",
+"dessous": "Psaume 42 & AT 25",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT25",
+"42"
+],
+"nature": "musique"
+},
+{
+"page": 154,
+"n": 102,
+"fichier": "s-154-2.jpg",
+"y0": 669,
+"y1": 1209,
+"x0": 54,
+"x1": 853,
+"dessus": "Psaume 42 & AT 25",
+"ecart_dessus": 19,
+"dessous": "Psaume 64",
+"dedans": "Psaume 64",
+"cotes": [],
+"ids": [
+"64"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"155": [
+{
+"page": 155,
+"n": 1,
+"fichier": "a-155-1.jpg",
+"y0": 63,
+"y1": 698,
+"x0": 27,
+"x1": 894,
+"dessus": "",
+"dessous": "Psaume 48, 2-13",
+"dedans": "",
+"cotes": [],
+"ids": [
+"48"
+],
+"nature": "musique"
+},
+{
+"page": 155,
+"n": 2,
+"fichier": "a-155-2.jpg",
+"y0": 739,
+"y1": 1165,
+"x0": 27,
+"x1": 894,
+"dessus": "",
+"dessous": "Psaume 48, 14-21 & NT XI p. 198",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT11",
+"48"
+],
+"nature": "musique"
+}
+],
+"156": [
+{
+"page": 156,
+"n": 1,
+"fichier": "a-156-1.jpg",
+"y0": 63,
+"y1": 681,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 76 & AT 3",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT3",
+"76"
+],
+"nature": "musique"
+},
+{
+"page": 156,
+"n": 2,
+"fichier": "a-156-2.jpg",
+"y0": 722,
+"y1": 1162,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 96",
+"dedans": "",
+"cotes": [],
+"ids": [
+"96"
+],
+"nature": "musique"
+}
+],
+"157": [
+{
+"page": 157,
+"n": 1,
+"fichier": "a-157-1.jpg",
+"y0": 46,
+"y1": 722,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 61",
+"dedans": "Vêpres - Mercredi II",
+"cotes": [],
+"ids": [
+"61"
+],
+"nature": "musique"
+},
+{
+"page": 157,
+"n": 102,
+"fichier": "s-157-2.jpg",
+"y0": 773,
+"y1": 1200,
+"x0": 49,
+"x1": 860,
+"dessus": "Psaume 61",
+"ecart_dessus": 26,
+"dessous": "",
+"dedans": "",
+"cotes": [],
+"ids": [
+"61"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"159": [
+{
+"page": 159,
+"n": 1,
+"fichier": "a-159-1.jpg",
+"y0": 63,
+"y1": 493,
+"x0": 27,
+"x1": 892,
+"dessus": "",
+"dessous": "Psaume 79 & AT 20",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT20",
+"79"
+],
+"nature": "musique"
+},
+{
+"page": 159,
+"n": 2,
+"fichier": "a-159-2.jpg",
+"y0": 534,
+"y1": 1162,
+"x0": 27,
+"x1": 892,
+"dessus": "",
+"dessous": "Psaume 80",
+"dedans": "",
+"cotes": [],
+"ids": [
+"80"
+],
+"nature": "musique"
+}
+],
+"160": [
+{
+"page": 160,
+"n": 1,
+"fichier": "a-160-1.jpg",
+"y0": 46,
+"y1": 577,
+"x0": 27,
+"x1": 889,
+"dessus": "",
+"dessous": "Psaume 71, 1-11",
+"dedans": "Vêpres - Jeudi II",
+"cotes": [],
+"ids": [
+"71"
+],
+"nature": "musique"
+},
+{
+"page": 160,
+"n": 102,
+"fichier": "s-160-2.jpg",
+"y0": 881,
+"y1": 1214,
+"x0": 50,
+"x1": 766,
+"dessus": "",
+"ecart_dessus": 24,
+"dessous": "Psaume 71, 12-19 & NT XII p. 203",
+"dedans": "Psaume 71, 12-19 & NT XII p. 203",
+"cotes": [],
+"ids": [
+"NT12",
+"71"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"161": [
+{
+"page": 161,
+"n": 1,
+"fichier": "a-161-1.jpg",
+"y0": 63,
+"y1": 504,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 50 & AT 57",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT57",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 161,
+"n": 2,
+"fichier": "a-161-2.jpg",
+"y0": 545,
+"y1": 1127,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 147",
+"dedans": "",
+"cotes": [],
+"ids": [
+"147"
+],
+"nature": "musique"
+}
+],
+"162": [
+{
+"page": 162,
+"n": 1,
+"fichier": "a-162-1.jpg",
+"y0": 63,
+"y1": 1176,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 120 & NT XIII p. 206",
+"dedans": "Psaume 114",
+"cotes": [],
+"ids": [
+"NT13",
+"120"
+],
+"nature": "musique"
+}
+],
+"163": [
+{
+"page": 163,
+"n": 1,
+"fichier": "a-163-1.jpg",
+"y0": 63,
+"y1": 734,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 91 & AT 2",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT2",
+"91"
+],
+"nature": "musique"
+},
+{
+"page": 163,
+"n": 2,
+"fichier": "a-163-2.jpg",
+"y0": 775,
+"y1": 1184,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 8",
+"dedans": "",
+"cotes": [],
+"ids": [
+"8"
+],
+"nature": "musique"
+}
+],
+"164": [
+{
+"page": 164,
+"n": 1,
+"fichier": "a-164-1.jpg",
+"y0": 63,
+"y1": 705,
+"x0": 27,
+"x1": 884,
+"dessus": "",
+"dessous": "Psaume 112",
+"dedans": "",
+"cotes": [],
+"ids": [
+"112"
+],
+"nature": "musique"
+},
+{
+"page": 164,
+"n": 2,
+"fichier": "a-164-2.jpg",
+"y0": 746,
+"y1": 1173,
+"x0": 27,
+"x1": 884,
+"dessus": "",
+"dessous": "Psaume 115 & NT VII p. 190",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT7",
+"115"
+],
+"nature": "musique"
+}
+],
+"165": [
+{
+"page": 165,
+"n": 1,
+"fichier": "a-165-1.jpg",
+"y0": 63,
+"y1": 695,
+"x0": 27,
+"x1": 880,
+"dessus": "",
+"dessous": "Psaume 144, 1-9",
+"dedans": "",
+"cotes": [],
+"ids": [
+"144"
+],
+"nature": "musique"
+},
+{
+"page": 165,
+"n": 102,
+"fichier": "s-165-2.jpg",
+"y0": 791,
+"y1": 1183,
+"x0": 52,
+"x1": 858,
+"dessus": "Psaume 144, 1-9",
+"ecart_dessus": 72,
+"dessous": "",
+"dedans": "",
+"cotes": [],
+"ids": [
+"144"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"167": [
+{
+"page": 167,
+"n": 1,
+"fichier": "a-167-1.jpg",
+"y0": 63,
+"y1": 681,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 92 & AT 49",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT49",
+"92"
+],
+"nature": "musique"
+},
+{
+"page": 167,
+"n": 102,
+"fichier": "s-167-2.jpg",
+"y0": 725,
+"y1": 1202,
+"x0": 49,
+"x1": 859,
+"dessus": "Psaume 92 & AT 49",
+"ecart_dessus": 21,
+"dessous": "Psaume 148",
+"dedans": "Psaume 148",
+"cotes": [],
+"ids": [
+"148"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"169": [
+{
+"page": 169,
+"n": 1,
+"fichier": "a-169-1.jpg",
+"y0": 63,
+"y1": 496,
+"x0": 28,
+"x1": 878,
+"dessus": "",
+"dessous": "Psaume 83 & AT 17",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT17",
+"83"
+],
+"nature": "musique"
+},
+{
+"page": 169,
+"n": 2,
+"fichier": "a-169-2.jpg",
+"y0": 537,
+"y1": 1162,
+"x0": 28,
+"x1": 878,
+"dessus": "",
+"dessous": "Psaume 95",
+"dedans": "",
+"cotes": [],
+"ids": [
+"95"
+],
+"nature": "musique"
+}
+],
+"170": [
+{
+"page": 170,
+"n": 1,
+"fichier": "a-170-1.jpg",
+"y0": 63,
+"y1": 459,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 122",
+"dedans": "",
+"cotes": [],
+"ids": [
+"122"
+],
+"nature": "musique"
+},
+{
+"page": 170,
+"n": 2,
+"fichier": "a-170-2.jpg",
+"y0": 500,
+"y1": 1171,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 123 & NT VI p. 195",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT6",
+"123"
+],
+"nature": "musique"
+}
+],
+"171": [
+{
+"page": 171,
+"n": 1,
+"fichier": "a-171-1.jpg",
+"y0": 63,
+"y1": 684,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 84 & AT 21",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT21",
+"84"
+],
+"nature": "musique"
+},
+{
+"page": 171,
+"n": 2,
+"fichier": "a-171-2.jpg",
+"y0": 725,
+"y1": 1159,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 66",
+"dedans": "",
+"cotes": [],
+"ids": [
+"66"
+],
+"nature": "musique"
+}
+],
+"174": [
+{
+"page": 174,
+"n": 1,
+"fichier": "a-174-1.jpg",
+"y0": 63,
+"y1": 713,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 125",
+"dedans": "",
+"cotes": [],
+"ids": [
+"125"
+],
+"nature": "musique"
+},
+{
+"page": 174,
+"n": 2,
+"fichier": "a-174-2.jpg",
+"y0": 754,
+"y1": 1180,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 126 & NT VIII p. 200",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT8",
+"126"
+],
+"nature": "musique"
+}
+],
+"175": [
+{
+"page": 175,
+"n": 1,
+"fichier": "a-175-1.jpg",
+"y0": 63,
+"y1": 681,
+"x0": 27,
+"x1": 886,
+"dessus": "",
+"dessous": "Psaume 86 & AT 26",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT26",
+"86"
+],
+"nature": "musique"
+},
+{
+"page": 175,
+"n": 2,
+"fichier": "a-175-2.jpg",
+"y0": 722,
+"y1": 1179,
+"x0": 27,
+"x1": 886,
+"dessus": "",
+"dessous": "Psaume 98",
+"dedans": "",
+"cotes": [],
+"ids": [
+"98"
+],
+"nature": "musique"
+}
+],
+"176": [
+{
+"page": 176,
+"n": 1,
+"fichier": "a-176-1.jpg",
+"y0": 63,
+"y1": 476,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 131, 1-10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"131"
+],
+"nature": "musique"
+},
+{
+"page": 176,
+"n": 2,
+"fichier": "a-176-2.jpg",
+"y0": 517,
+"y1": 1182,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 131, 11-18 & NT XII p. 203",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT12",
+"131"
+],
+"nature": "musique"
+}
+],
+"177": [
+{
+"page": 177,
+"n": 1,
+"fichier": "a-177-1.jpg",
+"y0": 63,
+"y1": 705,
+"x0": 26,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 50 & AT 42",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT42",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 177,
+"n": 2,
+"fichier": "a-177-2.jpg",
+"y0": 746,
+"y1": 1173,
+"x0": 26,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 99",
+"dedans": "",
+"cotes": [],
+"ids": [
+"99"
+],
+"nature": "musique"
+}
+],
+"178": [
+{
+"page": 178,
+"n": 1,
+"fichier": "a-178-1.jpg",
+"y0": 63,
+"y1": 695,
+"x0": 31,
+"x1": 879,
+"dessus": "",
+"dessous": "Psaume 134, 1-12",
+"dedans": "",
+"cotes": [],
+"ids": [
+"134"
+],
+"nature": "musique"
+},
+{
+"page": 178,
+"n": 2,
+"fichier": "a-178-2.jpg",
+"y0": 735,
+"y1": 1162,
+"x0": 31,
+"x1": 879,
+"dessus": "",
+"dessous": "Psaume 134, 13-21 & NT XIII p. 206",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT13",
+"134"
+],
+"nature": "musique"
+}
+],
+"181": [
+{
+"page": 181,
+"n": 1,
+"fichier": "a-181-1.jpg",
+"y0": 63,
+"y1": 1061,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 121",
+"dedans": "",
+"cotes": [],
+"ids": [
+"121"
+],
+"nature": "musique"
+}
+],
+"183": [
+{
+"page": 183,
+"n": 1,
+"fichier": "a-183-1.jpg",
+"y0": 63,
+"y1": 716,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 23",
+"dedans": "",
+"cotes": [],
+"ids": [
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 183,
+"n": 102,
+"fichier": "s-183-2.jpg",
+"y0": 794,
+"y1": 1200,
+"x0": 53,
+"x1": 857,
+"dessus": "Psaume 23",
+"ecart_dessus": 55,
+"dessous": "",
+"dedans": "",
+"cotes": [],
+"ids": [
+"23"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"185": [
+{
+"page": 185,
+"n": 1,
+"fichier": "a-185-1.jpg",
+"y0": 63,
+"y1": 701,
+"x0": 22,
+"x1": 887,
+"dessus": "",
+"dessous": "Psaume 117 & AT 48",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT48",
+"117"
+],
+"nature": "musique"
+},
+{
+"page": 185,
+"n": 102,
+"fichier": "s-185-2.jpg",
+"y0": 746,
+"y1": 1083,
+"x0": 44,
+"x1": 865,
+"dessus": "Psaume 117 & AT 48",
+"ecart_dessus": 22,
+"dessous": "Psaume 150",
+"dedans": "",
+"cotes": [],
+"ids": [
+"150"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"186": [
+{
+"page": 186,
+"n": 1,
+"fichier": "a-186-1.jpg",
+"y0": 63,
+"y1": 731,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "",
+"cotes": [],
+"ids": [
+"109"
+],
+"nature": "musique"
+},
+{
+"page": 186,
+"n": 2,
+"fichier": "a-186-2.jpg",
+"y0": 772,
+"y1": 1177,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 111 & NT XIV p. 193",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT14",
+"111"
+],
+"nature": "musique"
+}
+],
+"187": [
+{
+"page": 187,
+"n": 1,
+"fichier": "a-187-1.jpg",
+"y0": 63,
+"y1": 557,
+"x0": 25,
+"x1": 886,
+"dessus": "",
+"dessous": "Psaume 89 & AT 27",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT27",
+"89"
+],
+"nature": "musique"
+},
+{
+"page": 187,
+"n": 2,
+"fichier": "a-187-2.jpg",
+"y0": 598,
+"y1": 1125,
+"x0": 25,
+"x1": 886,
+"dessus": "",
+"dessous": "Psaume 134",
+"dedans": "",
+"cotes": [],
+"ids": [
+"134"
+],
+"nature": "musique"
+}
+],
+"188": [
+{
+"page": 188,
+"n": 1,
+"fichier": "a-188-1.jpg",
+"y0": 63,
+"y1": 557,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 135, 1-9",
+"dedans": "",
+"cotes": [],
+"ids": [
+"135"
+],
+"nature": "musique"
+}
+],
+"189": [
+{
+"page": 189,
+"n": 1,
+"fichier": "a-189-1.jpg",
+"y0": 63,
+"y1": 487,
+"x0": 27,
+"x1": 883,
+"dessus": "",
+"dessous": "Psaume 100 & AT 47",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT47",
+"100"
+],
+"nature": "musique"
+},
+{
+"page": 189,
+"n": 2,
+"fichier": "a-189-2.jpg",
+"y0": 528,
+"y1": 1159,
+"x0": 27,
+"x1": 883,
+"dessus": "",
+"dessous": "Psaume 143",
+"dedans": "",
+"cotes": [],
+"ids": [
+"143"
+],
+"nature": "musique"
+}
+],
+"190": [
+{
+"page": 190,
+"n": 1,
+"fichier": "a-190-1.jpg",
+"y0": 63,
+"y1": 517,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 136",
+"dedans": "",
+"cotes": [],
+"ids": [
+"136"
+],
+"nature": "musique"
+},
+{
+"page": 190,
+"n": 2,
+"fichier": "a-190-2.jpg",
+"y0": 558,
+"y1": 1037,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 137 & NT XI p. 195",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT11",
+"137"
+],
+"nature": "musique"
+}
+],
+"191": [
+{
+"page": 191,
+"n": 1,
+"fichier": "a-191-1.jpg",
+"y0": 63,
+"y1": 701,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 107 & AT 38",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT38",
+"107"
+],
+"nature": "musique"
+},
+{
+"page": 191,
+"n": 2,
+"fichier": "a-191-2.jpg",
+"y0": 742,
+"y1": 1159,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 145",
+"dedans": "",
+"cotes": [],
+"ids": [
+"145"
+],
+"nature": "musique"
+}
+],
+"192": [
+{
+"page": 192,
+"n": 1,
+"fichier": "a-192-1.jpg",
+"y0": 63,
+"y1": 487,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 138, 1-10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"138"
+],
+"nature": "musique"
+},
+{
+"page": 192,
+"n": 2,
+"fichier": "a-192-2.jpg",
+"y0": 528,
+"y1": 1189,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 138, 11-24 & NT VIII p. 200",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT8",
+"138"
+],
+"nature": "musique"
+}
+],
+"194": [
+{
+"page": 194,
+"n": 1,
+"fichier": "a-194-1.jpg",
+"y0": 63,
+"y1": 478,
+"x0": 32,
+"x1": 878,
+"dessus": "",
+"dessous": "Psaume 143, 1-8",
+"dedans": "",
+"cotes": [],
+"ids": [
+"143"
+],
+"nature": "musique"
+},
+{
+"page": 194,
+"n": 2,
+"fichier": "a-194-2.jpg",
+"y0": 519,
+"y1": 1180,
+"x0": 32,
+"x1": 878,
+"dessus": "",
+"dessous": "Psaume 143, 9-15 & NT XII p. 203",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT12",
+"143"
+],
+"nature": "musique"
+}
+],
+"195": [
+{
+"page": 195,
+"n": 1,
+"fichier": "a-195-1.jpg",
+"y0": 63,
+"y1": 640,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 50 & AT 7",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT7",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 195,
+"n": 2,
+"fichier": "a-195-2.jpg",
+"y0": 680,
+"y1": 1189,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 147",
+"dedans": "",
+"cotes": [],
+"ids": [
+"147"
+],
+"nature": "musique"
+}
+],
+"196": [
+{
+"page": 196,
+"n": 1,
+"fichier": "a-196-1.jpg",
+"y0": 63,
+"y1": 704,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 144,1-13a",
+"dedans": "",
+"cotes": [],
+"ids": [
+"144"
+],
+"nature": "musique"
+},
+{
+"page": 196,
+"n": 2,
+"fichier": "a-196-2.jpg",
+"y0": 745,
+"y1": 1162,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 144, 13b-21 & NT XIII p. 206",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT13",
+"144"
+],
+"nature": "musique"
+}
+],
+"197": [
+{
+"page": 197,
+"n": 1,
+"fichier": "a-197-1.jpg",
+"y0": 63,
+"y1": 762,
+"x0": 35,
+"x1": 876,
+"dessus": "",
+"dessous": "Psaume 91 & AT 46",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT46",
+"91"
+],
+"nature": "musique"
+},
+{
+"page": 197,
+"n": 2,
+"fichier": "a-197-2.jpg",
+"y0": 803,
+"y1": 1189,
+"x0": 35,
+"x1": 876,
+"dessus": "",
+"dessous": "Psaume 8",
+"dedans": "",
+"cotes": [],
+"ids": [
+"8"
+],
+"nature": "musique"
+}
+]
+},
+"avent": {
+"104": [
+{
+"page": 104,
+"n": 1,
+"fichier": "a-104-1.jpg",
+"y0": 63,
+"y1": 489,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 5 & AT 4",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT4",
+"5"
+],
+"nature": "musique"
+},
+{
+"page": 104,
+"n": 2,
+"fichier": "a-104-2.jpg",
+"y0": 530,
+"y1": 1158,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 28",
+"dedans": "",
+"cotes": [],
+"ids": [
+"28"
+],
+"nature": "musique"
+}
+],
+"105": [
+{
+"page": 105,
+"n": 1,
+"fichier": "a-105-1.jpg",
+"y0": 63,
+"y1": 693,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"10"
+],
+"nature": "musique"
+},
+{
+"page": 105,
+"n": 2,
+"fichier": "a-105-2.jpg",
+"y0": 734,
+"y1": 1161,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 14 & NT VI p. 147",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT6",
+"14"
+],
+"nature": "musique"
+}
+],
+"106": [
+{
+"page": 106,
+"n": 1,
+"fichier": "a-106-1.jpg",
+"y0": 63,
+"y1": 696,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 23 & AT 6",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT6",
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 106,
+"n": 2,
+"fichier": "a-106-2.jpg",
+"y0": 737,
+"y1": 1164,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 32",
+"dedans": "",
+"cotes": [],
+"ids": [
+"32"
+],
+"nature": "musique"
+}
+],
+"107": [
+{
+"page": 107,
+"n": 1,
+"fichier": "a-107-1.jpg",
+"y0": 63,
+"y1": 502,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 19",
+"dedans": "",
+"cotes": [],
+"ids": [
+"19"
+],
+"nature": "musique"
+},
+{
+"page": 107,
+"n": 2,
+"fichier": "a-107-2.jpg",
+"y0": 543,
+"y1": 1084,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 20 & NT XI p. 150",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT11",
+"20"
+],
+"nature": "musique"
+}
+],
+"108": [
+{
+"page": 108,
+"n": 1,
+"fichier": "a-108-1.jpg",
+"y0": 63,
+"y1": 492,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 35 & AT 8",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT8",
+"35"
+],
+"nature": "musique"
+},
+{
+"page": 108,
+"n": 2,
+"fichier": "a-108-2.jpg",
+"y0": 533,
+"y1": 1158,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 46",
+"dedans": "",
+"cotes": [],
+"ids": [
+"46"
+],
+"nature": "musique"
+}
+],
+"109": [
+{
+"page": 109,
+"n": 1,
+"fichier": "a-109-1.jpg",
+"y0": 63,
+"y1": 696,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 26, 1-6",
+"dedans": "",
+"cotes": [],
+"ids": [
+"26"
+],
+"nature": "musique"
+},
+{
+"page": 109,
+"n": 2,
+"fichier": "a-109-2.jpg",
+"y0": 737,
+"y1": 1158,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 26, 7-14 & NT VIII p. 152",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT8",
+"26"
+],
+"nature": "musique"
+}
+],
+"111": [
+{
+"page": 111,
+"n": 1,
+"fichier": "a-111-1.jpg",
+"y0": 63,
+"y1": 516,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 29",
+"dedans": "",
+"cotes": [],
+"ids": [
+"29"
+],
+"nature": "musique"
+},
+{
+"page": 111,
+"n": 2,
+"fichier": "a-111-2.jpg",
+"y0": 557,
+"y1": 1071,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 31 & NT XII p. 155",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT12",
+"31"
+],
+"nature": "musique"
+}
+],
+"112": [
+{
+"page": 112,
+"n": 1,
+"fichier": "a-112-1.jpg",
+"y0": 63,
+"y1": 670,
+"x0": 26,
+"x1": 889,
+"dessus": "",
+"dessous": "Psaume 50 & AT 30",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT30",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 112,
+"n": 2,
+"fichier": "a-112-2.jpg",
+"y0": 711,
+"y1": 1159,
+"x0": 26,
+"x1": 889,
+"dessus": "",
+"dessous": "Psaume 99",
+"dedans": "",
+"cotes": [],
+"ids": [
+"99"
+],
+"nature": "musique"
+}
+],
+"113": [
+{
+"page": 113,
+"n": 1,
+"fichier": "a-113-1.jpg",
+"y0": 63,
+"y1": 709,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 40",
+"dedans": "",
+"cotes": [],
+"ids": [
+"40"
+],
+"nature": "musique"
+},
+{
+"page": 113,
+"n": 2,
+"fichier": "a-113-2.jpg",
+"y0": 750,
+"y1": 1167,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 45 & NT XIII p. 158",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT13",
+"45"
+],
+"nature": "musique"
+}
+],
+"114": [
+{
+"page": 114,
+"n": 1,
+"fichier": "a-114-1.jpg",
+"y0": 46,
+"y1": 559,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 118-XIX & AT 1",
+"dedans": "Laudes - Samedi I",
+"cotes": [],
+"ids": [
+"AT1",
+"118-19"
+],
+"nature": "musique"
+},
+{
+"page": 114,
+"n": 2,
+"fichier": "a-114-2.jpg",
+"y0": 600,
+"y1": 1127,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 116",
+"dedans": "",
+"cotes": [],
+"ids": [
+"116"
+],
+"nature": "musique"
+}
+],
+"116": [
+{
+"page": 116,
+"n": 1,
+"fichier": "a-116-1.jpg",
+"y0": 63,
+"y1": 562,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 41 & AT 15",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT15",
+"41"
+],
+"nature": "musique"
+},
+{
+"page": 116,
+"n": 2,
+"fichier": "a-116-2.jpg",
+"y0": 603,
+"y1": 1097,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 18 A",
+"dedans": "",
+"cotes": [],
+"ids": [
+"18A"
+],
+"nature": "musique"
+}
+],
+"117": [
+{
+"page": 117,
+"n": 1,
+"fichier": "a-117-1.jpg",
+"y0": 63,
+"y1": 719,
+"x0": 27,
+"x1": 896,
+"dessus": "",
+"dessous": "Psaume 44, 1-10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"44"
+],
+"nature": "musique"
+},
+{
+"page": 117,
+"n": 2,
+"fichier": "a-117-2.jpg",
+"y0": 760,
+"y1": 1187,
+"x0": 27,
+"x1": 896,
+"dessus": "",
+"dessous": "Psaume 44, 11-18 & NT VI p. 147",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT6",
+"44"
+],
+"nature": "musique"
+}
+],
+"118": [
+{
+"page": 118,
+"n": 1,
+"fichier": "a-118-1.jpg",
+"y0": 63,
+"y1": 623,
+"x0": 31,
+"x1": 879,
+"dessus": "",
+"dessous": "Psaume 42 & AT 25",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT25",
+"42"
+],
+"nature": "musique"
+},
+{
+"page": 118,
+"n": 103,
+"fichier": "s-118-3.jpg",
+"y0": 669,
+"y1": 1209,
+"x0": 54,
+"x1": 853,
+"dessus": "Psaume 42 & AT 25",
+"ecart_dessus": 25,
+"dessous": "Psaume 64",
+"dedans": "Psaume 64",
+"cotes": [],
+"ids": [
+"64"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"119": [
+{
+"page": 119,
+"n": 1,
+"fichier": "a-119-1.jpg",
+"y0": 63,
+"y1": 693,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 48, 2-13",
+"dedans": "",
+"cotes": [],
+"ids": [
+"48"
+],
+"nature": "musique"
+},
+{
+"page": 119,
+"n": 2,
+"fichier": "a-119-2.jpg",
+"y0": 734,
+"y1": 1161,
+"x0": 27,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 48, 14-21 & NT XI p. 150",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT11",
+"48"
+],
+"nature": "musique"
+}
+],
+"120": [
+{
+"page": 120,
+"n": 1,
+"fichier": "a-120-1.jpg",
+"y0": 63,
+"y1": 678,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 76 & AT 3",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT3",
+"76"
+],
+"nature": "musique"
+},
+{
+"page": 120,
+"n": 2,
+"fichier": "a-120-2.jpg",
+"y0": 719,
+"y1": 1159,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 96",
+"dedans": "",
+"cotes": [],
+"ids": [
+"96"
+],
+"nature": "musique"
+}
+],
+"121": [
+{
+"page": 121,
+"n": 1,
+"fichier": "a-121-1.jpg",
+"y0": 63,
+"y1": 686,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 61",
+"dedans": "",
+"cotes": [],
+"ids": [
+"61"
+],
+"nature": "musique"
+},
+{
+"page": 121,
+"n": 2,
+"fichier": "a-121-2.jpg",
+"y0": 729,
+"y1": 1175,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 66 & NT VIII p. 152",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT8",
+"66"
+],
+"nature": "musique"
+}
+],
+"122": [
+{
+"page": 122,
+"n": 1,
+"fichier": "a-122-1.jpg",
+"y0": 63,
+"y1": 489,
+"x0": 27,
+"x1": 891,
+"dessus": "",
+"dessous": "Psaume 79 & AT 20",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT20",
+"79"
+],
+"nature": "musique"
+},
+{
+"page": 122,
+"n": 2,
+"fichier": "a-122-2.jpg",
+"y0": 530,
+"y1": 1158,
+"x0": 27,
+"x1": 891,
+"dessus": "",
+"dessous": "Psaume 80",
+"dedans": "",
+"cotes": [],
+"ids": [
+"80"
+],
+"nature": "musique"
+}
+],
+"123": [
+{
+"page": 123,
+"n": 1,
+"fichier": "a-123-1.jpg",
+"y0": 63,
+"y1": 542,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 71, 1-11",
+"dedans": "",
+"cotes": [],
+"ids": [
+"71"
+],
+"nature": "musique"
+},
+{
+"page": 123,
+"n": 102,
+"fichier": "s-123-2.jpg",
+"y0": 588,
+"y1": 1207,
+"x0": 50,
+"x1": 860,
+"dessus": "Psaume 71, 1-11",
+"ecart_dessus": 23,
+"dessous": "Psaume 71, 12-19 & NT XII p. 155",
+"dedans": "Psaume 71, 12-19 & NT XII p. 155",
+"cotes": [],
+"ids": [
+"NT12",
+"71"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"124": [
+{
+"page": 124,
+"n": 1,
+"fichier": "a-124-1.jpg",
+"y0": 63,
+"y1": 498,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 50 & AT 57",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT57",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 124,
+"n": 2,
+"fichier": "a-124-2.jpg",
+"y0": 539,
+"y1": 1121,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 147",
+"dedans": "",
+"cotes": [],
+"ids": [
+"147"
+],
+"nature": "musique"
+}
+],
+"125": [
+{
+"page": 125,
+"n": 1,
+"fichier": "a-125-1.jpg",
+"y0": 63,
+"y1": 1171,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 120 & NT XIII p. 158",
+"dedans": "Psaume 114",
+"cotes": [],
+"ids": [
+"NT13",
+"120"
+],
+"nature": "musique"
+}
+],
+"126": [
+{
+"page": 126,
+"n": 1,
+"fichier": "a-126-1.jpg",
+"y0": 63,
+"y1": 730,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 91 & AT 2",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT2",
+"91"
+],
+"nature": "musique"
+},
+{
+"page": 126,
+"n": 2,
+"fichier": "a-126-2.jpg",
+"y0": 771,
+"y1": 1178,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 8",
+"dedans": "",
+"cotes": [],
+"ids": [
+"8"
+],
+"nature": "musique"
+}
+],
+"128": [
+{
+"page": 128,
+"n": 1,
+"fichier": "a-128-1.jpg",
+"y0": 63,
+"y1": 492,
+"x0": 27,
+"x1": 878,
+"dessus": "",
+"dessous": "Psaume 83 & AT 17",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT17",
+"83"
+],
+"nature": "musique"
+},
+{
+"page": 128,
+"n": 2,
+"fichier": "a-128-2.jpg",
+"y0": 533,
+"y1": 1158,
+"x0": 27,
+"x1": 878,
+"dessus": "",
+"dessous": "Psaume 95",
+"dedans": "",
+"cotes": [],
+"ids": [
+"95"
+],
+"nature": "musique"
+}
+],
+"129": [
+{
+"page": 129,
+"n": 1,
+"fichier": "a-129-1.jpg",
+"y0": 63,
+"y1": 458,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 122",
+"dedans": "",
+"cotes": [],
+"ids": [
+"122"
+],
+"nature": "musique"
+},
+{
+"page": 129,
+"n": 2,
+"fichier": "a-129-2.jpg",
+"y0": 499,
+"y1": 1175,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 123 & NT VI p. 147",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT6",
+"123"
+],
+"nature": "musique"
+}
+],
+"130": [
+{
+"page": 130,
+"n": 1,
+"fichier": "a-130-1.jpg",
+"y0": 63,
+"y1": 680,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 84 & AT 21",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT21",
+"84"
+],
+"nature": "musique"
+},
+{
+"page": 130,
+"n": 2,
+"fichier": "a-130-2.jpg",
+"y0": 720,
+"y1": 1158,
+"x0": 28,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 66",
+"dedans": "",
+"cotes": [],
+"ids": [
+"66"
+],
+"nature": "musique"
+}
+],
+"133": [
+{
+"page": 133,
+"n": 1,
+"fichier": "a-133-1.jpg",
+"y0": 63,
+"y1": 709,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 125",
+"dedans": "",
+"cotes": [],
+"ids": [
+"125"
+],
+"nature": "musique"
+},
+{
+"page": 133,
+"n": 2,
+"fichier": "a-133-2.jpg",
+"y0": 750,
+"y1": 1176,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 126 & NT VIII p. 152",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT8",
+"126"
+],
+"nature": "musique"
+}
+],
+"134": [
+{
+"page": 134,
+"n": 1,
+"fichier": "a-134-1.jpg",
+"y0": 63,
+"y1": 676,
+"x0": 27,
+"x1": 886,
+"dessus": "",
+"dessous": "Psaume 86 & AT 26",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT26",
+"86"
+],
+"nature": "musique"
+},
+{
+"page": 134,
+"n": 2,
+"fichier": "a-134-2.jpg",
+"y0": 717,
+"y1": 1175,
+"x0": 27,
+"x1": 886,
+"dessus": "",
+"dessous": "Psaume 98",
+"dedans": "",
+"cotes": [],
+"ids": [
+"98"
+],
+"nature": "musique"
+}
+],
+"135": [
+{
+"page": 135,
+"n": 1,
+"fichier": "a-135-1.jpg",
+"y0": 63,
+"y1": 472,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 131, 1-10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"131"
+],
+"nature": "musique"
+},
+{
+"page": 135,
+"n": 2,
+"fichier": "a-135-2.jpg",
+"y0": 513,
+"y1": 1178,
+"x0": 27,
+"x1": 882,
+"dessus": "",
+"dessous": "Psaume 131, 11-18 & NT XII p. 155",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT12",
+"131"
+],
+"nature": "musique"
+}
+],
+"136": [
+{
+"page": 136,
+"n": 1,
+"fichier": "a-136-1.jpg",
+"y0": 63,
+"y1": 701,
+"x0": 25,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 50 & AT 42",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT42",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 136,
+"n": 2,
+"fichier": "a-136-2.jpg",
+"y0": 742,
+"y1": 1168,
+"x0": 25,
+"x1": 893,
+"dessus": "",
+"dessous": "Psaume 99",
+"dedans": "",
+"cotes": [],
+"ids": [
+"99"
+],
+"nature": "musique"
+}
+],
+"137": [
+{
+"page": 137,
+"n": 1,
+"fichier": "a-137-1.jpg",
+"y0": 63,
+"y1": 698,
+"x0": 31,
+"x1": 879,
+"dessus": "",
+"dessous": "Psaume 134, 1-12",
+"dedans": "",
+"cotes": [],
+"ids": [
+"134"
+],
+"nature": "musique"
+},
+{
+"page": 137,
+"n": 2,
+"fichier": "a-137-2.jpg",
+"y0": 739,
+"y1": 1165,
+"x0": 31,
+"x1": 879,
+"dessus": "",
+"dessous": "Psaume 134, 13-21 & NT XIII p. 158",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT13",
+"134"
+],
+"nature": "musique"
+}
+],
+"138": [
+{
+"page": 138,
+"n": 1,
+"fichier": "a-138-1.jpg",
+"y0": 63,
+"y1": 670,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 118 - XIX & AT 12",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT12",
+"118-19"
+],
+"nature": "musique"
+},
+{
+"page": 138,
+"n": 2,
+"fichier": "a-138-2.jpg",
+"y0": 711,
+"y1": 1152,
+"x0": 27,
+"x1": 881,
+"dessus": "",
+"dessous": "Psaume 116",
+"dedans": "",
+"cotes": [],
+"ids": [
+"116"
+],
+"nature": "musique"
+}
+]
+},
+"careme": {
+"73": [
+{
+"page": 73,
+"n": 1,
+"fichier": "a-073-1.jpg",
+"y0": 50,
+"y1": 357,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 140",
+"dedans": "K 615 \u0017 \u001a \u001d Large ( \u001c = 56) \u001f \u001b \u001f \u001f \u001f\u001f \u001f \u001f \u001f \u001f \u001f \u001d \u0018 \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001f \u001c \u001f \u001f \u001f \u001f \u001c C'est la mi sé ri cor de que je veux, et non le sa cri ﬁ ce. \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001e \u001d \u001f \u001f \u001b \u0019 \u001a \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001e \u001f \u001f \u001f \u001f \u001c \u001c \u0016 \u001f \u001f \u001f \u001f \u001b \u001e \u001f \u0017 \u001a \u0015 \u001b \u0018 \u0014 \u0014 \u0014 \u001f \u001f \u001f\u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u0014 \u0014 \u0014 \u001f \u001f \u0015 \u0014 \u0014",
+"cotes": [
+"K 615"
+],
+"ids": [
+"140"
+],
+"nature": "musique"
+},
+{
+"page": 73,
+"n": 2,
+"fichier": "a-073-2.jpg",
+"y0": 400,
+"y1": 722,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 141 & NT IV p. 182",
+"dedans": "K 764 \u0017 \u001f \u001d \u001d \u001d = 63 \u001c \u001f \u001e \u001e \u001c\u001c \u001c\u001c \u001c \u001e \u001e \u001e \u0018 \u001e \u001e \u001a \u001c \u001c \u001c \u001e \u001e \u001f \u001e \u001e \u001c \u001c \u001c \u001e \u001e Sei gneur, que ne soient pas con fon dus ceux qui t'es pè rent ! \u001e \u001b \u001e \u001e \u001a \u001b \u001c \u001c \u001c \u001c \u001c \u001c \u001e \u001c \u001c \u001b \u001e \u001e \u001e \u001c \u001c \u001b \u001e \u001e \u001e \u001e \u0019 \u001e \u001a \u001d \u001e \u001c \u001c \u001d \u001e \u001c \u001c \u001f\u001f \u001e \u001a \u001c \u001c \u001c \u001e \u001e \u001e \u0016 \u001f \u001c \u001f \u001f \u0017 \u001f \u0014 \u001f \u001c\u001c \u0015 \u001b \u0018 \u001b \u0015 \u0015 \u001f \u001c \u001c \u0015 \u0015 \u0015 \u001b \u001c \u001c \u0015 \u0015 \u001c \u0014 \u001c \u0013 \u001f ",
+"cotes": [
+"K 764"
+],
+"ids": [
+"NT4",
+"141"
+],
+"nature": "musique"
+}
+],
+"74": [
+{
+"page": 74,
+"n": 1,
+"fichier": "a-074-1.jpg",
+"y0": 50,
+"y1": 541,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 1",
+"dedans": "K 111 pp Large ( \u001d = 60) � � � � � \u001e \u001e � � � � � � �� � � � � � � � � � � � � Sei gneur, ma part d'hé ri tage et ma cou pe ! � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � \u001f \u001f � � � � � � � � � � � � � � � � � \u001e � � � � � � � � � � � � � � � � � � � � � � � � � L'hom me ne vit pas se",
+"cotes": [
+"K 111"
+],
+"ids": [
+"1"
+],
+"nature": "musique"
+},
+{
+"page": 74,
+"n": 102,
+"fichier": "s-074-2.jpg",
+"y0": 662,
+"y1": 825,
+"x0": 9,
+"x1": 580,
+"dessus": "K 112 \u001c \u001d Lent ( = 48)",
+"ecart_dessus": 99,
+"dessous": "",
+"dedans": "K 112 � \u001c \u001d � Lent ( = 48) � � � \u001e � \u001e � 3 � � � � � � � � � � �� � � � � � � � � � � � � � J'ai gar dé, Sei gneur, la Pa ro le de tes lè vres : � � � � � � � � � � � � � �� � �� � �� � � � � 3 � � � � � � �",
+"cotes": [
+"K 112"
+],
+"ids": []
+}
+],
+"76": [
+{
+"page": 76,
+"n": 1,
+"fichier": "a-076-1.jpg",
+"y0": 50,
+"y1": 311,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 62 & AT 5 (p.178)",
+"dedans": "K 312 � � \u001d \u001e \u001f � �� � Léger ( = 54) � � 3 � � � � � �� � � � � � � � � � � �� � � � � �� � � � � � � � � � � � � � � � Mon âme a soif du Dieu de vi e ! �uand le ver rai- je face à fa ce ? � � � � � �� � � �� � � � � �� � � � � � � � � � �� � � � � � � � � � � � �� 3 � � � � � � � \u001f � \u001c � � � � � � ",
+"cotes": [
+"K 312"
+],
+"ids": [
+"AT5",
+"62"
+],
+"nature": "musique"
+},
+{
+"page": 76,
+"n": 2,
+"fichier": "a-076-2.jpg",
+"y0": 354,
+"y1": 827,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 149",
+"dedans": "K 053 \u001c \u0019 \u001d Libre ( = 72) \u001c \u001d \u001d \u001c \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001a \u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001e \u001e Je suis sor ti du Pè re et ve nu dans le mon de. \u001e \u001e \u001e \u001e \u001e\u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001d \u001e \u001e \u001f \u001f \u001b \u001e \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001f \u001c\u001c \u001e \u001f \u001e \u001e \u001f \u0018 \u001d \u001d \u001f \u0019 \u001c \u001d \u001e \u001a \u001c \u001f \u001e \u001e \u001e \u001e \u001e \u001f \u001f \u001e \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001f \u0017 \u0017 \u0016 \u0016 \u001f \u001e \u001e \u001e \u001e \u001e \u001e Mai",
+"cotes": [
+"K 053"
+],
+"ids": [
+"149"
+],
+"nature": "musique"
+}
+],
+"77": [
+{
+"page": 77,
+"n": 1,
+"fichier": "a-077-1.jpg",
+"y0": 50,
+"y1": 466,
+"x0": 40,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "K 112 \u001c \u001d � � � Lent ( = 48) \u001e \u001e � 3 � � � � � � � � � � � � � � � � � � �� � � � � � � � � J'ai gar dé, Sei gneur, la Pa ro le de tes lè vres : � � � � � � � � � � � � � 3 � � � � � � � �� � �� � �� � � � � \u001f \u001f � � � marcato \u001b \u001b \u001b \u001b � \u001b � � � � \u001b \u001b \u001b \u001b \u001e � � �� � \u001e � � � � � � � � � � � � � � �� � ",
+"cotes": [
+"K 112"
+],
+"ids": [
+"109"
+],
+"nature": "musique"
+},
+{
+"page": 77,
+"n": 2,
+"fichier": "a-077-2.jpg",
+"y0": 509,
+"y1": 799,
+"x0": 40,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 113a & NT X p. 180",
+"dedans": "\u001d \u001e K 653 � � � = \u001f 50 \u001f \u001f � � � � � � � � � � � � � � �� �� � � � 3 � � � � � � � � � � � � � Je suis le Dieu vi vant : Je ne veux pas la mort du pé cheur, � � � �� �� � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � 3 � \u001f \u001f \u001f � � � � � � � � � � � � \u001c �� � \u001a � � � � � � � � � � � � � �",
+"cotes": [
+"K 653"
+],
+"ids": [
+"NT10",
+"113"
+],
+"nature": "musique"
+}
+],
+"78": [
+{
+"page": 78,
+"n": 1,
+"fichier": "a-078-1.jpg",
+"y0": 50,
+"y1": 326,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 5 & AT 4",
+"dedans": "K 731 \u001a \u0018 \u001d = 56 \u001d \u001f \u001e \u001f \u001d \u001d \u001f \u001d \u001e \u001b \u001d \u001d \u001d \u001d \u001e\u0017 \u001f \u001f \u001f \u001f \u001f\u001d \u001f \u001f \u001f\u001f \u001f \u001f \u001f\u001f \u001f \u001f \u001f \u001d \u001e \u001d \u001d \u001f Ré ponds- moi, Sei gneur ! �ue l'a bî me des eaux ne me sub mer ge ! \u001f \u001d \u001f \u001f \u001f \u001c \u001d \u001f\u001d \u001d \u001d \u001f \u001f \u0017\u0017 \u0018 \u001f \u001f \u001f \u001d \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001f\u001f \u001f \u001f \u001f \u001f \u001d \u001f \u001d \u001d \u001f \u001f \u0019 \u001d \u001f \u001f \u001a \u001c \u001b \u0016 \u0015 \u001f \u001f \u001f \u0016 \u001f \u001f \u0016 \u001f \u0016 \u001f \u0016 \u001f \u0016 \u001f \u0016 \u001f \u001f \u0016 \u001f \u001f \u0016 \u001c \u0016 \u001f \u0015",
+"cotes": [
+"K 731"
+],
+"ids": [
+"AT4",
+"5"
+],
+"nature": "musique"
+},
+{
+"page": 78,
+"n": 2,
+"fichier": "a-078-2.jpg",
+"y0": 369,
+"y1": 673,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 28",
+"dedans": "K 212 f ff Mystérieux, large ( \u001c \u001d = 60) � � � �� �� �� � � � �� �� �� � �� �� � \u001f � �� �� � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � Fais bril ler sur nous ta fa ce, Sei gneur Jé sus ! Et tous les peu ples de la ter re � � � � �� � � � � � � � � � � � � � � �� � � � � � � � � � � � ",
+"cotes": [
+"K 212"
+],
+"ids": [
+"28"
+],
+"nature": "musique"
+}
+],
+"79": [
+{
+"page": 79,
+"n": 1,
+"fichier": "a-079-1.jpg",
+"y0": 50,
+"y1": 339,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 10",
+"dedans": "K 652 \u0017 \u001a \u001d \u001d \u001c \u001f \u001f \u001e \u001e = 52 \u001f \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001f \u001e \u001e \u001c \u001d \u0018 \u001f \u001e \u001e \u001f \u001e \u001e \u001f \u001e \u001e \u001c J'é tais comme un a gneau qu'on em mène à la mort \u001f \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001f \u001e \u001e \u001c \u0019 \u001a \u001f \u001e \u001e \u001e \u001e \u001f \u001d \u001e \u001e \u001f \u001e \u001b \u001e \u001c \u001d \u0016 \u001f \u001f \u001e \u0017 \u001a \u0014 \u001b \u001e \u001e \u001e \u001e \u0015 \u0015 \u001e \u001e \u0015 \u001e \u0015 \u001d \u001d \u0018 \u001e \u001e \u001e \u001e \u001f \u001e \u001f \u001e \u001f \u001f \u001f \u001f \u0015 \u0015 \u001e \u001e \u0015 \u0015 \u0015 \u001e \u001e \u0015 \u001e \u001e et qui n'ou vre pas la ",
+"cotes": [
+"K 652"
+],
+"ids": [
+"10"
+],
+"nature": "musique"
+},
+{
+"page": 79,
+"n": 2,
+"fichier": "a-079-2.jpg",
+"y0": 382,
+"y1": 729,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 14 & NT V p. 184",
+"dedans": "K 655 \u001d = 56 f � � � � � � � � � � \u001e � � � � � � � \u001e � � � � � � � � � � � � � � � � � � � � Je suis a vec toi pour te dé li vrer de la main des pé cheurs. � � � �� �� � � � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � \u001f \u001f � \u001c � � � � � �� � � � � �� � � � � � � � � � � � � � � �� � ",
+"cotes": [
+"K 655"
+],
+"ids": [
+"NT5",
+"14"
+],
+"nature": "musique"
+}
+],
+"80": [
+{
+"page": 80,
+"n": 1,
+"fichier": "a-080-1.jpg",
+"y0": 50,
+"y1": 343,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 23 & AT 6",
+"dedans": "K 614 \u0018 \u001b \u001d \u001b \u001c \u001e \u001f \u001e \u001e \u001e \u0019 \u001c \u001e \u001e \u001f \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001c \u001c \u001f \u001f \u001e\u001e \u001e \u001e \u001f \u001f \u001f \u001f \u001e Si quelqu'un veut mar cher à ma sui te, qu'il prenne sa croix et me sui ve ! \u001c \u001f\u001f \u001e \u001d \u001f \u001f \u001a \u001b \u001c \u001e \u001e \u001f \u001e \u001e \u0016 \u001e \u001e \u001e \u001f \u001c \u001f \u001f \u001e\u001e \u001e \u001e \u001b \u001f \u0017 \u001c \u001e \u001e \u001f \u001f \u001f \u0018 \u001b \u001d \u0019\u001b \u001c \u001c \u001e \u001e \u001e\u001e \u001c \u001c \u001c \u001e \u001c \u001c \u001e \u001e \u001c \u001e \u001c \u001c \u001e \u001c \u001c \u001e \u001e \u001c \u001c \u001e\u001e \u001a \u001b\u001b \u001e \u001c \u001c \u0017 \u001e",
+"cotes": [
+"K 614"
+],
+"ids": [
+"AT6",
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 80,
+"n": 2,
+"fichier": "a-080-2.jpg",
+"y0": 385,
+"y1": 714,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 32",
+"dedans": "K 511 � � � � \u001d \u001e \u001f \u001f \u001f \u001f � � �� �� = 52 � 3 �� � � � � �� �� �� � � � � � �� �� � �� � � � � � �� � � �� �� � �ue je ren de grâce à ton a mour : Tu as ti ré de l'a bî me des morts � � � � � � � �� � � �� � � � � � �� � � � � �� � � � � �� �� � � � �� � �� � � � � � � � 3 � \u001f \u001f \u001f \u001f � � � \u001f \u001a \u001c � � �",
+"cotes": [
+"K 511"
+],
+"ids": [
+"32"
+],
+"nature": "musique"
+}
+],
+"81": [
+{
+"page": 81,
+"n": 1,
+"fichier": "a-081-1.jpg",
+"y0": 50,
+"y1": 339,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 19",
+"dedans": "\u0016 K 755 \u001e \u001a\u001a \u001d \u001d \u001f \u001c \u001d \u001f \u001c \u001d \u001d \u001d \u001d \u001f \u001c \u001d \u001d \u001f \u0017 \u001d \u001f \u001d \u001d \u001f \u001d \u001f \u001c \u001d 3 U ne fem me pour rait- elle ou bli er son en fant ? Voi ci : Je t'ai gra \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u0019 \u001a \u0018 \u001b \u001b \u001b \u001f \u001b \u001f \u001f \u001f \u001b b.f. \u0015 \u001a \u001f \u0016 \u001a \u0014 \u001e \u001a \u001f \u001c \u001d \u001d \u001d \u0014 \u0014 \u001f \u0017 \u001f \u001d \u001d \u001f \u001d \u001b \u0014 \u0014 \u001d \u001d \u0014 \u0014 \u0014 \u001d \u001d \u001d \u001d \u0014 \u001d \u001d \u0014 vé sur la pau me de mes mains ! \u001f \u001f \u001f",
+"cotes": [
+"K 755"
+],
+"ids": [
+"19"
+],
+"nature": "musique"
+},
+{
+"page": 81,
+"n": 2,
+"fichier": "a-081-2.jpg",
+"y0": 382,
+"y1": 693,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 20 & NT IV p. 182",
+"dedans": "K 626 � � � \u001c \u001d = 50 � � � � �� �� �� \u001e � 3 � � � � � � � � � � � � � � � � � � � � � �� � � � � � � Lè ve- toi, Sei gneur ! Ra chè te- nous en rai son de ton a mour ! � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � \u001f � � \u001b � � � �� � � � � � � � � �� � ",
+"cotes": [
+"K 626"
+],
+"ids": [
+"NT4",
+"20"
+],
+"nature": "musique"
+}
+],
+"82": [
+{
+"page": 82,
+"n": 1,
+"fichier": "a-082-1.jpg",
+"y0": 50,
+"y1": 324,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 35 & AT 8",
+"dedans": "K 654 \u0017 \u001d \u001d \u001a\u001a \u001f \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001e \u001c\u001c = 60 \u001c \u001f \u001c \u001c \u001c \u001f \u001e \u0018 \u001f \u001f \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001f \u001e \u001c \u001c \u001c \u001b \u001f Sei gneur, ne nous trai te pas se lon nos pé chés, ne nous rends pas \u0019 \u001f \u001f \u0015 \u001d \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001c \u001f \u001e \u001d \u001c \u001c \u001c \u001f \u001a \u001a \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001c \u001f \u0016 \u001d \u001f \u001e \u001c \u001c \u001c \u0012 \u0017 \u001a \u001c \u001e \u001e \u001c \u0018 \u001a \u001c \u001c \u001f \u001f \u001c \u001c \u001c\u001c \u001f \u001f \u0014 \u0014 \u0014 \u0014 \u001c",
+"cotes": [
+"K 654"
+],
+"ids": [
+"AT8",
+"35"
+],
+"nature": "musique"
+},
+{
+"page": 82,
+"n": 2,
+"fichier": "a-082-2.jpg",
+"y0": 367,
+"y1": 829,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 46",
+"dedans": "pp Large ( \u001d = 60) K 111 � � � � � \u001e \u001e � � � � � � �� � � � � � � � � � � � � Sei gneur, ma part d'hé ri tage et ma cou pe ! � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � \u001f \u001f � � � � � � � � � � � � � � � � � \u001e � � � � � � � � � � � � � � � � � � � � � � � � � L'hom me ne vit pas se",
+"cotes": [
+"K 111"
+],
+"ids": [
+"46"
+],
+"nature": "musique"
+}
+],
+"83": [
+{
+"page": 83,
+"n": 1,
+"fichier": "a-083-1.jpg",
+"y0": 50,
+"y1": 374,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 26, 1-6",
+"dedans": "K 211 \u0019 \u001e \u001e \u001b \u001c \u001d \u001b = 50 \u001c \u001f \u001f \u001b \u001c\u001c \u001f\u001f \u001f\u001f \u001b \u001d \u001a \u001d \u001c \u001f\u001f \u001d \u001f \u001f \u0017 \u001c \u001b \u001b \u001f \u001f \u001c \u001f \u001f \u001c \u001c \u001b\u001b \u001c\u001c \u001c \u001c \u001b \u001b \u001f\u001f \u001c\u001c \u001b \u001b \u001f \u001f \u001f\u001f \u001f \u001f \u001c\u001c \u001b \u001b Sei gneur, tu es ma lu miè re, mon sa lut : Je cher che la splen deur \u001c\u001c \u001b \u001c \u001b \u001f \u001f\u001f \u001f \u001c \u001b \u001c \u001b\u001b \u001c \u001b \u001f \u001c \u001b \u001f \u001f \u001f\u001f \u001c\u001c \u0016 \u001b \u001c \u001b \u001d \u001f \u001f\u001f \u001f \u001c \u001b \u001c \u001e \u001f\u001f \u001c\u001c \u001d \u001c \u001b \u001f \u001f \u001b\u001b \u001a \u001c \u001b \u001f \u0018 \u001e \u001d \u001e ",
+"cotes": [
+"K 211"
+],
+"ids": [
+"26"
+],
+"nature": "musique"
+},
+{
+"page": 83,
+"n": 2,
+"fichier": "a-083-2.jpg",
+"y0": 416,
+"y1": 691,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 26, 7-14 & NT X p. 180",
+"dedans": "K 093 � � \u001d \u001e \u001f \u001f �� �� �� � � Paisible ( = 50) � � 3 � � � � �� � �� � �� � � �� � � � � � �� �� � � � � � � � � �� � � � � Sei gneur, re lè ve tes en fants, af fer mis- les de vant ta fa ce ! �� � � � � � �� �� � � �� �� � � � � �� �� � � �� �� � � �� � � � � � � � � � � � � � � � � 3 � \u001f \u001f � \u001c � ",
+"cotes": [
+"K 093"
+],
+"ids": [
+"NT10",
+"26"
+],
+"nature": "musique"
+}
+],
+"84": [
+{
+"page": 84,
+"n": 1,
+"fichier": "a-084-1.jpg",
+"y0": 50,
+"y1": 365,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 56 & AT 44",
+"dedans": "K 632 \u0019 \u0016 \u0014 \u001d \u001f\u001f \u001f\u001f = 60 \u001f \u0017\u0016 \u001f \u001f \u001d \u001e \u001f \u001d \u001f \u001d \u001d \u001f \u001f \u001b\u001d \u001f \u001f \u001d \u001e \u001f \u001d \u001f \u001b \u001f \u001d \u001f \u001d \u001f \u001f \u001c \u001d \u001e \u001f \u001a \u001d \u001d \u001f \u001c \u001b Sau ve- moi par ton a mour : Ils veu lent m'ar ra cher à la ter re des vi vants. \u001d \u001e \u001f \u001f \u001e \u001d\u001d \u001e \u001f \u001f \u001f \u001d \u001d \u001d \u001f \u001f \u001d \u001d \u001f \u001f \u001f \u001b\u001b \u001f\u001f \u001f\u001f \u001d\u001d \u001e \u001f\u001f \u001c \u001d \u001d \u001d \u001d \u001b \u0015 \u0016 \u001c \u001d \u001e \u001f \u001c \u001d \u001d \u001f \u001f \u001f \u001f \u001b \u0016 \u0018 \u001e \u001e \u0019 \u0016 \u0013 \u001c \u0017 ",
+"cotes": [
+"K 632"
+],
+"ids": [
+"AT44",
+"56"
+],
+"nature": "musique"
+},
+{
+"page": 84,
+"n": 2,
+"fichier": "a-084-2.jpg",
+"y0": 408,
+"y1": 771,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 47",
+"dedans": "K 645 � � � � � � � \u001e � � \u001d � � � � � = 56 � � � \u001e � 2 � � � � � � � � � � � � � � � � � � � Je vais te con duire au dé sert, et je par le rai à ton cœur. � � � � � � � � � � � � � � � � � � � � � � � �� 2 � � � � � � � � � � � � \u001f \u001f � � � \u001c �� � � � � �� � � � � � � � � � � � � � � � � � � � � � � ",
+"cotes": [
+"K 645"
+],
+"ids": [
+"47"
+],
+"nature": "musique"
+}
+],
+"85": [
+{
+"page": 85,
+"n": 1,
+"fichier": "a-085-1.jpg",
+"y0": 50,
+"y1": 314,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 29",
+"dedans": "K 513 \u001a \u001d\u001d \u0016 \u001b \u001d \u001c = 66 \u001d \u001e \u001e \u001b \u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001c \u001c \u001e\u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e \u001f\u001f \u001c \u001f\u001f \u001e \u001e \u001e \u001e \u001f\u001f \u001e \u001e \u001d \u0017 \u001d \u001e \u001c Tu as ti ré mon â me des en fers ! Tu as chan gé mon deuil en u ne dan se ! \u001f\u001c \u001f \u001e \u001d \u001f \u001e \u0018 \u001e\u001e \u001e \u001e \u001e\u001e \u001f \u001e \u001f \u001e\u001e \u001f\u001f \u001e\u001e \u0016 \u001e \u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e\u001e \u001f \u001c \u001e \u001d\u001d \u001f \u001f \u001c \u001f \u001c \u001f \u001e \u001e \u001f \u001e \u001f \u001e \u0019 \u001d \u001d \u001f \u001a \u0014 \u001d\u001d \u001a \u001b \u0015 ",
+"cotes": [
+"K 513"
+],
+"ids": [
+"29"
+],
+"nature": "musique"
+},
+{
+"page": 85,
+"n": 2,
+"fichier": "a-085-2.jpg",
+"y0": 357,
+"y1": 784,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 31 & NT V p. 184",
+"dedans": "K 624",
+"cotes": [
+"K 624"
+],
+"ids": [
+"NT5",
+"31"
+],
+"nature": "musique"
+}
+],
+"86": [
+{
+"page": 86,
+"n": 1,
+"fichier": "a-086-1.jpg",
+"y0": 50,
+"y1": 340,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 50 & AT 30",
+"dedans": "K 664 \u001c \u0015 \u001e = 50 \u001f \u0018 \u001f \u001f \u001d \u001f \u001f \u001f \u0018 \u001f \u001f \u001f \u001f \u001f \u0019 \u001f \u001f \u0019 \u001f \u001f \u001f \u001f \u001f \u001f \u001c \u001d \u0016 \u001f \u001f \u001f \u001f \u001f \u001b \u0019 \u001f \u001f \u0019 \u001f \u001f \u001f \u001f \u0019 \u001a \u0019 \u001b \u001f \u001d \u001c Le Jus te qui é tait sans pé ché, Dieu l'a fait pé ché pour nous. \u001e \u001f \u001f \u001f \u0019 \u001c \u0017 \u0018 \u001f \u001f \u001f \u001f \u001f \u0019 \u001f \u001f \u0019 \u0019 \u001f \u001f \u001f \u001f\u001f \u001f \u001f \u0019 \u0019 \u0018 \u0019 \u001f \u001f \u001c \u0014 \u001e \u001f \u001f \u001e \u001f \u001f \u001f \u0015 \u0018 \u001b \u0016\u0018 \u0013 \u0013 \u001f \u001f \u001f \u0013 \u0013 \u0013 \u001f \u001b \u001f \u001b \u0013 \u001b \u0013 \u0013 \u001f",
+"cotes": [
+"K 664"
+],
+"ids": [
+"AT30",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 86,
+"n": 2,
+"fichier": "a-086-2.jpg",
+"y0": 383,
+"y1": 722,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 99",
+"dedans": "K 016 \u0019 \u001b \u001b \u001a \u001c \u001d \u001f Vif ( = 120) \u001c Élargir ( = 66) \u001d \u001d \u001d \u001d \u001d \u001d\u001d \u001d \u001f \u001c \u001c \u001c \u001c \u001d \u001f \u001d \u001d \u001d \u001d \u001f \u001d \u001f\u001f \u001f\u001f \u0017 \u001d \u001f \u001c \u001d \u001d \u001d \u001d \u001d \u001f \u001f \u001d \u001d \u001f \u001d \u001b \u001f \u001f \u001c \u001e \u001d \u001d \u001f \u001d \u001d \u001d \u001d \u001d\u001d \u001d \u001b \u001c Main te nant, le prin ce de ce mon de va ê tre ju gé ; et moi, é le vé de ter re, \u001d \u001d \u001d \u001d \u001f \u001c \u001d \u001d\u001d \u001d\u001d \u001d \u001d \u001d \u001f \u001d \u001d\u001d \u001f\u001f \u001d \u001d \u001d\u001d \u001f \u001c \u001d\u001d \u001f\u001f \u001d \u001d ",
+"cotes": [
+"K 016"
+],
+"ids": [
+"99"
+],
+"nature": "musique"
+}
+],
+"87": [
+{
+"page": 87,
+"n": 1,
+"fichier": "a-087-1.jpg",
+"y0": 50,
+"y1": 311,
+"x0": 34,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 40",
+"dedans": "K 644 \u0017 \u001a \u001f \u001f \u001d = 72 \u001e \u001e \u001e \u001d \u001d \u001e\u001e \u001e\u001e \u001b \u001d \u001b \u001e \u001e \u0018 \u001e \u001e \u001d \u001d\u001e \u001a\u001e \u001a \u001d \u001d \u001d \u001c \u001e \u001e \u001c \u001e\u001e \u001d \u001d \u001d\u001d \u001d \u001b \u001d\u001d \u001d \u001b Gué ris- moi, Sei gneur, et je se rai gué ri, car tu es mon es poir. \u001e \u001e \u001d \u001d \u001d \u001e \u001e \u001a \u001b \u001d \u001c \u001b \u0019 \u001a \u001d \u001d \u001f \u001d \u001e \u001e \u001e \u001e \u001d\u001d \u001f \u001d\u001d \u001e \u001e \u001e \u001e \u001d \u001d \u001e \u001e \u001d \u001d \u001e \u001e \u001b \u001d \u001b \u0016 \u001f \u001f \u001f \u0017 \u001a \u0015 \u001e \u001c \u0018 \u0014 \u0014 \u001e \u001e \u001e \u001e \u001e \u0014 \u0014 \u0014 \u0014 \u001e \u001e\u001e \u0014 \u0014 ",
+"cotes": [
+"K 644"
+],
+"ids": [
+"40"
+],
+"nature": "musique"
+},
+{
+"page": 87,
+"n": 2,
+"fichier": "a-087-2.jpg",
+"y0": 354,
+"y1": 775,
+"x0": 34,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 45 & NT X p. 180",
+"dedans": "K 092 � � Léger ( \u001e \u001f = 60) \u001d � � 3 � � � � � � � � � � � � � �� �� � � � � � � � � � � � � � � � � Lè ve- toi, Sei gneur, dans ta ten dres se pour Si on ! � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � � � \u001d � � \u001d � � � � � � � � � � \u001b � � � � � � �� � � � �� � � � � � � � � L'he",
+"cotes": [
+"K 092"
+],
+"ids": [
+"NT10",
+"45"
+],
+"nature": "musique"
+}
+],
+"88": [
+{
+"page": 88,
+"n": 1,
+"fichier": "a-088-1.jpg",
+"y0": 50,
+"y1": 360,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 118-XIX & AT 1",
+"dedans": "\u001c = 66 K 756 \u0019 \u001d \u0017 \u001d \u001b \u001f \u001d \u001f\u001f \u001f \u001f \u001f \u001e \u001e \u001b \u001f \u001f \u001f \u001e \u001f \u001f \u001e \u001f\u001f \u001f \u001e \u001a \u001f \u001f \u001f \u001f \u001f \u001e \u001e \u001f \u001f \u001e \u001f \u001e \u001e \u001e \u001e \u001e \u001e \u001d \u001d Ce lui qui croit en ma pa ro le est pas sé de la mort à la vie. \u001c \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f\u001f \u001e \u001e \u0017 \u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001d \u001d \u001b \u001b \u001f \u001e \u001e \u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u0018 \u001d \u001d \u001d \u001f \u001f \u0014 \u001d \u0019 \u001b \u001f \u001b \u001a \u001b \u0015 \u0015 \u0015 \u0015 \u001f \u001f \u0015 \u0015 \u0015 \u0015 \u001f \u001f \u001f ",
+"cotes": [
+"K 756"
+],
+"ids": [
+"AT1",
+"118-19"
+],
+"nature": "musique"
+},
+{
+"page": 88,
+"n": 2,
+"fichier": "a-088-2.jpg",
+"y0": 403,
+"y1": 760,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 116",
+"dedans": "\u0017 K 734 \u001a \u001c \u001c \u001b \u001f \u001e \u001e \u001e \u001f \u001d \u001b = 52 \u0018 \u001d \u001d \u001b \u001b \u001e \u001e \u001e \u001e \u001b \u001e \u001d \u001b \u001f \u001e \u001e \u001e \u001b \u001b \u001e Si vous gar dez ma Pa ro le, vous connaî trez la vé ri té, \u0019 \u001a \u001d \u001b \u001e \u001e \u001b \u001e \u001c \u001d \u001b \u001f \u001e \u001e \u001e \u001c \u001d \u001b \u001e \u001b \u001e \u001d \u001b \u0016 \u001e \u001b \u001f \u001e \u001e \u001e \u0017 \u001a \u001d \u001f \u001d \u001c \u001c \u0018 \u001e \u001e \u001e \u001e \u001b\u001b \u001e\u001e \u001b \u001b \u001b \u001b \u001d \u001d \u001d \u001e \u001d \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001e \u001f \u001b \u001e \u001e \u001b \u001b \u001e \u001d \u001e\u001e \u001e et la vé ri té vous",
+"cotes": [
+"K 734"
+],
+"ids": [
+"116"
+],
+"nature": "musique"
+}
+],
+"89": [
+{
+"page": 89,
+"n": 1,
+"fichier": "a-089-1.jpg",
+"y0": 50,
+"y1": 325,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 118-XIV",
+"dedans": "K 754 \u0017 \u0019\u0019\u0019 \u001d \u001f\u001f \u001f\u001f \u001d \u001e \u001f \u001f \u001e \u001c \u001e \u001c \u001e Très calme ( = 60) \u001e \u001e \u001c \u001e \u001e \u0018 \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f \u001e \u001e \u001e \u0019 \u001c \u001f \u001f \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f Je vous don ne rai un cœur nou veau ! Je met trai en vous mon es prit ! \u001e \u001e \u001e \u001c \u001a \u0019\u0019\u0019 \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f\u001f \u001e \u001f \u001f \u001e \u001f \u001c \u001d \u001f \u001f \u001f \u001f \u001f\u001f \u001e \u001f \u001e \u001b \u001f \u001c \u001f \u001f \u001f \u001e \u001c \u0016 \u001f \u001f \u001f \u001f \u0017 \u0019\u0019\u0019 \u0015 \u001f \u001c \u0018 \u0015 \u0015",
+"cotes": [
+"K 754"
+],
+"ids": [
+"118-14"
+],
+"nature": "musique"
+},
+{
+"page": 89,
+"n": 2,
+"fichier": "a-089-2.jpg",
+"y0": 367,
+"y1": 751,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 15 & NT IV p. 182",
+"dedans": "K 212 f ff Mystérieux, large ( \u001c \u001d = 60) � � � �� �� �� � � � �� �� �� � �� �� � \u001f � �� �� � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � Fais bril ler sur nous ta fa ce, Sei gneur Jé sus ! Et tous les peu ples de la ter re � � � � �� � � � � � � � � � � � � � � �� � � � � � � � � � � � ",
+"cotes": [
+"K 212"
+],
+"ids": [
+"NT4",
+"15"
+],
+"nature": "musique"
+}
+],
+"90": [
+{
+"page": 90,
+"n": 1,
+"fichier": "a-090-1.jpg",
+"y0": 50,
+"y1": 358,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 103, 1-12",
+"dedans": "pp � � \u001b \u001c \u001f � détaché K 413 � �� = 44 \u001f �� � \u001e \u001e � � � � � � � �� � � � � � � � � � �� �� �� �� �� �� � � � � � � � � � � � � � � � Qui me suit ne mar che pas dans la nuit : Il au ra la lu miè re de la vie ! � � � � � � � � �� � � � �� �� � � � �� � � � � �� �� � � � � �� � � � �� � � � �� � � �� �",
+"cotes": [
+"K 413"
+],
+"ids": [
+"103"
+],
+"nature": "musique"
+},
+{
+"page": 90,
+"n": 2,
+"fichier": "a-090-2.jpg",
+"y0": 401,
+"y1": 787,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 103, 13-23",
+"dedans": "K 412 \u001e \u0018 \u001b \u001d \u001d Léger et doux ( = 50) \u001f \u001c \u001e \u001c \u001f \u001e \u001e retenu \u0019 \u001e\u001e \u001f\u001f \u001c \u001e \u001f\u001f \u001c \u001e \u001e \u001e \u001e \u001f\u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001c \u001f \u001e \u001e \u001f \u001c C'est toi, Sei gneur, qui éc lai res ma lam pe ! Ô mon Dieu, \u001e \u001f \u001c \u001e \u001f \u001c \u001e \u001e \u001f \u001e \u001e \u001f \u001f \u001f \u001f \u001a \u001b \u001e \u001f \u001c \u001e \u001f \u001e \u001e \u001f \u001d \u001f \u001c \u001d \u001f \u001c \u001e \u001e \u001f \u001f \u001f \u001c \u001f \u0017 \u001f \u0018 \u0014 retenu \u001b \u001f \u001f \u001b \u001d \u0019 \u001e \u001e\u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001f ",
+"cotes": [
+"K 412"
+],
+"ids": [
+"103"
+],
+"nature": "musique"
+}
+],
+"92": [
+{
+"page": 92,
+"n": 1,
+"fichier": "a-092-1.jpg",
+"y0": 50,
+"y1": 356,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 117 & AT 5 (p.178)",
+"dedans": "K 093 � � \u001d \u001e \u001f \u001f � � �� � � Paisible ( = 50) � � 3 � � � � �� � �� � �� � � �� � � � � � �� �� � � � � � � � � � � �� � � � � Sei gneur, re lè ve tes en fants, af fer mis- les de vant ta fa ce ! � � � � � � �� �� � � � � � � � � � � � � � � �� �� � � �� � � � � � � � � � � � � � � � � � � � 3 � \u001f \u001f",
+"cotes": [
+"K 093"
+],
+"ids": [
+"AT5",
+"117"
+],
+"nature": "musique"
+},
+{
+"page": 92,
+"n": 2,
+"fichier": "a-092-2.jpg",
+"y0": 399,
+"y1": 738,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 150",
+"dedans": "K 616 � � � � \u001b \u001c = 54 \u001f \u001d � � � � � � \u001f � 3 � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � Sei gneur, tu es ma lou an ge dans la grande as sem blée. � � � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � 3 � � � � � � � � \u001f \u001e \u001f � � � \u001a � � � � �� � � � �� � � � � � � � � � � ",
+"cotes": [
+"K 616"
+],
+"ids": [
+"150"
+],
+"nature": "musique"
+}
+],
+"93": [
+{
+"page": 93,
+"n": 1,
+"fichier": "a-093-1.jpg",
+"y0": 50,
+"y1": 310,
+"x0": 31,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "K 716 \u0017 \u001c \u001d \u0015 \u001d \u001f = 44 \u001c \u001d \u001e \u001d \u001e \u001d \u001f \u001d \u001f \u001e \u001f \u001d \u001e \u001f \u001d \u001f \u001e \u0018 \u001d \u001f \u001d \u001e \u001d \u001f \u001d \u001b \u001e \u001d \u001d \u001f \u001a \u001d \u001e \u001d \u001f \u001d \u001e \u001d \u001d \u001f \u001d \u001f \u001d \u001f \u001d \u001e \u001d \u001f C'est dans ta Croix, ô Christ, que je trou ve ma gloi re. \u001d \u001f \u001d \u001f \u001d \u001e \u001d \u001e \u001c \u001d \u001f \u001d \u001e \u001d \u001f \u0019 \u001d \u001d \u001d \u001e \u001e \u001d \u001d \u001d \u001f \u001f \u0015 \u001d \u001e \u001d \u001d \u001b \u001e \u001d \u001d \u001f \u001f \u001a \u001d \u001d \u001f \u001c \u001f \u001f \u001d \u001f \u001f \u001d \u001f \u001f \u0016 \u001f \u001f \u0017 \u001b \u0018 \u001c \u0014 \u0014 \u001e \u001e \u001e",
+"cotes": [
+"K 716"
+],
+"ids": [
+"109"
+],
+"nature": "musique"
+},
+{
+"page": 93,
+"n": 2,
+"fichier": "a-093-2.jpg",
+"y0": 352,
+"y1": 808,
+"x0": 31,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 113b & NT X p. 180",
+"dedans": "K 053 \u001c \u0019 \u001d Libre ( = 72) \u001c \u001d \u001d \u001c \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001a \u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001e \u001e Je suis sor ti du Pè re et ve nu dans le mon de. \u001e \u001e \u001e \u001e \u001e\u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001d \u001e \u001e \u001f \u001f \u001b \u001e \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001f \u001c\u001c \u001e \u001f \u001e \u001e \u001f \u0018 \u001d \u001d \u001f \u0019 \u001c \u001d \u001e \u001a \u001c \u001f \u001e \u001e \u001e \u001e\u001e \u001f\u001f \u001e \u001e \u001f\u001f \u001e \u001e \u001e\u001e \u001e \u001e \u001e \u001f \u001f \u0017\u0017 \u0016 \u0016 \u001f \u001e \u001e \u001e \u001e \u001e \u001e Maintena",
+"cotes": [
+"K 053"
+],
+"ids": [
+"NT10",
+"113"
+],
+"nature": "musique"
+}
+],
+"94": [
+{
+"page": 94,
+"n": 1,
+"fichier": "a-094-1.jpg",
+"y0": 50,
+"y1": 357,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 41 & AT 15",
+"dedans": "K 312 � � \u001d \u001e \u001f � �� � Léger ( = 54) � � 3 � � � � � �� � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � Mon âme a soif du Dieu de vi e ! �uand le ver rai- je face à fa ce ? � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � �� � � � � � � �� 3 � � � � � � � � \u001f � \u001c � � � � �",
+"cotes": [
+"K 312"
+],
+"ids": [
+"AT15",
+"41"
+],
+"nature": "musique"
+},
+{
+"page": 94,
+"n": 2,
+"fichier": "a-094-2.jpg",
+"y0": 400,
+"y1": 749,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 18a",
+"dedans": "K 733 \u001c \u001d � = 48 � � � � � � \u001e \u001e � 3 � � � � � � � � � � � � � � � � � � � � � � Cher chez le Sei gneur, et votre â me vi vra ! � � � � � � � � � � � � � � � � � � � �� � � � �� � � � � � 3 � � \u001f \u001f � � \u001b � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � � �� � � � � �",
+"cotes": [
+"K 733"
+],
+"ids": [
+"18"
+],
+"nature": "musique"
+}
+],
+"95": [
+{
+"page": 95,
+"n": 1,
+"fichier": "a-095-1.jpg",
+"y0": 50,
+"y1": 359,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 44, 2-10",
+"dedans": "K 092 � � � \u001c \u001d = 50 � � � � �� �� �� \u001e � 3 � � � � � � � � � � � � � � � � � � � � � �� �� � � � � Lè ve- toi, Sei gneur ! Ra chè te- nous en rai son de ton a mour ! � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � \u001f � � \u001b � � � �� � � � � � � � � �� � �",
+"cotes": [
+"K 092"
+],
+"ids": [
+"44"
+],
+"nature": "musique"
+},
+{
+"page": 95,
+"n": 2,
+"fichier": "a-095-2.jpg",
+"y0": 402,
+"y1": 723,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 44, 11-18 & NT V p. 184",
+"dedans": "K 633 \u0019 \u001c \u0017 \u001d = 46 \u001e \u001f \u001f \u001f \u001e \u001f \u001e \u001a \u001e \u001f \u001e \u001f \u001f \u001e \u001f \u001f \u001f \u001e \u001e \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001d Tu m'as ca ché, Sei gneur, au se cret de ta fa ce. \u001b \u001c \u001e \u001f \u001f \u001e \u0017 \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001d \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001e \u001d \u0018 \u001f \u001f \u001f \u0019 \u001c \u001c \u001a \u0016 \u0016 \u0016 \u0016 \u001f\u001f \u0016 \u0016 \u0016 \u0016 \u0016 \u001f \u0016 \u001f \u001f \u0016 \u001c \u0016 \u001f \u0016 \u0015 \u0016 \u001f \u0016 \u001f \u001b \u001c \u0016 \u0016 \u0016 \u001f \u0016 \u001f \u001f \u0016 \u0018",
+"cotes": [
+"K 633"
+],
+"ids": [
+"NT5",
+"44"
+],
+"nature": "musique"
+}
+],
+"96": [
+{
+"page": 96,
+"n": 1,
+"fichier": "a-096-1.jpg",
+"y0": 50,
+"y1": 379,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 42 & AT 25",
+"dedans": "K 651 \u0016 \u0018 \u001d \u001e \u001f \u001b \u001d \u0018 \u001f \u001f \u001f\u001f \u001d \u001d \u001e \u001f = 58 \u001e \u001f\u001f \u001e \u001f \u001d \u001d \u001e \u0017 \u001d \u001d \u001d \u001e \u001f \u001f \u001f \u001f \u001f \u001c \u001d \u001d \u001e \u001c \u001f \u001f \u001f \u001f \u001f \u001d \u001e \u001c \u001f \u001d \u001d \u001a \u001a Sei gneur ! Ma for ce m'aban don ne et la lu mi è re de mes yeux ! \u001d \u001e \u001f \u001f \u001f \u001f \u001f \u001e \u001d \u001f\u001d \u001d \u001d \u001d \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001f \u001d \u001b \u001f \u001f \u001f \u001d \u001d \u001e \u001e \u001f \u001f \u001f \u001a \u001a \u0019 \u0018 \u001d \u001e \u001f \u001f \u001f \u001d \u0018 \u0015 \u001f \u001f \u0016 \u0013 \u0013 \u0018 \u001f \u001c \u0017 \u0018 \u0014 \u0014 \u0014 \u0014",
+"cotes": [
+"K 651"
+],
+"ids": [
+"AT25",
+"42"
+],
+"nature": "musique"
+},
+{
+"page": 96,
+"n": 2,
+"fichier": "a-096-2.jpg",
+"y0": 422,
+"y1": 782,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 64",
+"dedans": "K 313 � � \u001d \u001e � �� = 40 élargir \u001f � � � � � 3 � � � �� �� �� � �� � � �� �� �� � � � � � � �� �� � � � � � � � De ton sein, ô Christ, ont cou lé des ﬂots d'eau vi ve ! Le ﬂeu ve de l'Es � � � � � � � � � � � � � � � � b.f. � � � � � � � � � 3 � � � � � � � � � � � � � � � � \u001f b.f. � \u001f � \u001c �� � \u001f \u001f �",
+"cotes": [
+"K 313"
+],
+"ids": [
+"64"
+],
+"nature": "musique"
+}
+],
+"97": [
+{
+"page": 97,
+"n": 1,
+"fichier": "a-097-1.jpg",
+"y0": 50,
+"y1": 388,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 48, 2-13",
+"dedans": "K 635 \u0019 \u0017 Large ( \u001c = 60) \u001f \u001f \u001e \u001d \u001d \u001d \u001d \u001d \u001a \u001e \u001d \u001d \u001e\u001e \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001f \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001d \u001d \u001d \u001e\u001e \u001f\u001f \u001d \u001d \u001d \u001d \u001d\u001d \u001e \u001f \u001c \u001e \u001e Par ses souf fran ces, mon ser vi teur ra chè te ra les mul ti tu des. \u001e \u001d \u001d \u001d \u001d \u001e \u001f \u001d \u001e \u001e \u001b \u001e \u001d \u001d \u001e\u001e \u001d\u001d \u001d \u001e \u001e \u001e \u001d \u0017 \u001d \u001d \u001d \u001e \u001f \u001d \u001d \u001e \u001e \u0018 \u001e \u001f \u001d \u001d \u001d \u001e \u001f \u001d \u001d \u001d \u001e \u001f \u001e \u001e \u001f \u0019 \u0015 \u001b \u001a \u0016 \u0016 \u001d \u001d \u001d",
+"cotes": [
+"K 635"
+],
+"ids": [
+"48"
+],
+"nature": "musique"
+},
+{
+"page": 97,
+"n": 2,
+"fichier": "a-097-2.jpg",
+"y0": 431,
+"y1": 781,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 48, 14-21 & NT IV p. 182",
+"dedans": "K 636 Alerte ( \u001d = 80) � � � � �� � \u001f \u001f \u001f � 2 � � � �� � � � � � � � �� � � � �� � �� �� �� � � �� � � � � � � � � � � � � � � � Com me le Pè re res sus ci te les morts, le Fils don ne la vie à qui il veut. � � � �� � � � � � � � � � � � �� �� � � � � � � �� � � � � � � � � � � � � � � � � 2 � � � �",
+"cotes": [
+"K 636"
+],
+"ids": [
+"NT4",
+"48"
+],
+"nature": "musique"
+}
+],
+"98": [
+{
+"page": 98,
+"n": 1,
+"fichier": "a-098-1.jpg",
+"y0": 50,
+"y1": 352,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 76 & AT 3",
+"dedans": "K 512 \u0018 \u001c \u001c Lourd, pesant ( \u001c = 58) \u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001e \u001e \u0019 \u001d \u001d \u001d \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u0016 \u001d \u001d \u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001d \u001d \u001d\u001d \u001d \u001d \u001d \u001e \u0016 \u001d \u001d \u001d Ma vie é tait au bord des En fers, dé jà comp té par mi les morts ; \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001d \u001c \u001d \u001f \u001f \u001d \u001e \u001f \u001d \u001d \u001d \u001c \u001a \u001d \u001d \u001d \u001f \u001f \u001f \u0016 \u001d \u001d \u001b \u001d\u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001d \u001e \u001d \u001d \u0017 \u001d \u001f \u001f \u0018 \u001d \u0014 \u001b \u001d \u001f \u001f \u001d \u001d \u0016 \u0016 ",
+"cotes": [
+"K 512"
+],
+"ids": [
+"AT3",
+"76"
+],
+"nature": "musique"
+},
+{
+"page": 98,
+"n": 2,
+"fichier": "a-098-2.jpg",
+"y0": 395,
+"y1": 827,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 96",
+"dedans": "K 012 \u0018 \u001b \u001e \u001c \u001f = 60 \u001b \u001d \u001f \u001d \u001d \u001f \u001f \u001e \u0019 \u001d \u001f \u001f \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001d Le Fils de l'hom me n'est pas ve nu pour ê tre ser vi, mais pour ser vir \u001d \u001f \u001f \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001f \u001f \u001e \u001a \u001d \u001f \u001f \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001f \u001f \u001f\u001f \u001f \u001f \u001f \u001c \u001d \u001b\u001b \u001f \u001f \u001f \u001d \u0017 \u001d \u001f \u0018 \u001b Lent \u001d \u001b \u001f \u001d \u001d \u001d \u001f \u001f \u001f \u001e \u0019 \u001f \u001f \u001f \u001f \u001d \u001d",
+"cotes": [
+"K 012"
+],
+"ids": [
+"96"
+],
+"nature": "musique"
+}
+],
+"99": [
+{
+"page": 99,
+"n": 1,
+"fichier": "a-099-1.jpg",
+"y0": 50,
+"y1": 386,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 61",
+"dedans": "K 734 \u0017 \u001a \u001c \u001c \u001b \u001f \u001e \u001e \u001e \u001f \u001d \u001b = 52 \u0018 \u001d \u001d \u001b \u001b \u001e \u001e \u001e \u001e \u001b \u001e \u001d \u001b \u001f \u001e \u001e \u001e \u001b \u001b \u001e Si vous gar dez ma Pa ro le, vous connaî trez la vé ri té, \u0019 \u001a \u001d \u001b \u001e \u001e \u001b \u001e \u001c \u001d \u001b \u001f \u001e \u001e \u001e \u001c \u001d \u001b \u001e \u001b \u001e \u001d \u001b \u0016 \u001e \u001b \u001f \u001e \u001e \u001e \u0017 \u001a \u001d \u001f \u001d \u001c \u001c \u0018 \u001e \u001e \u001e \u001e \u001b\u001b \u001e \u001e \u001b \u001b \u001b \u001b \u001b \u001d \u001d \u001d \u001e \u001d \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001b \u001b \u001e \u001d \u001e\u001e \u001e et la vé ri té vou",
+"cotes": [
+"K 734"
+],
+"ids": [
+"61"
+],
+"nature": "musique"
+},
+{
+"page": 99,
+"n": 2,
+"fichier": "a-099-2.jpg",
+"y0": 428,
+"y1": 773,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 66 & NT X p. 180",
+"dedans": "K 212 f ff Mystérieux, large ( \u001c \u001d = 60) � � � �� �� �� � � � �� �� �� � �� �� � \u001f � �� �� � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � Fais bril ler sur nous ta fa ce, Sei gneur Jé sus ! Et tous les peu ples de la ter re � � � � �� � � � � � � � � � � � � � � �� � � � � � � � � � � � ",
+"cotes": [
+"K 212"
+],
+"ids": [
+"NT10",
+"66"
+],
+"nature": "musique"
+}
+],
+"100": [
+{
+"page": 100,
+"n": 1,
+"fichier": "a-100-1.jpg",
+"y0": 50,
+"y1": 488,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 79 & AT 20",
+"dedans": "K 091 \u0017 \u001d \u001a \u001c \u001c Pesant et lent ( = 48) \u001a \u001d \u001f \u001f \u001b \u001d \u001e \u0015 \u001f\u001f \u001e \u001e \u0018 \u001f \u001f \u001d \u001f \u001f \u0013\u0012 \u0014 \u001b \u001f \u001f \u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001f \u001b \u001b Re gar de, Sei gneur ! J'ou blie de man ger mon pain ! \u001f \u001d \u001b \u001c \u001f \u001d \u001f \u001f \u001d \u001e \u001f \u001b \u001c \u0019 \u001a \u001f \u001d \u001f\u001f \u001f\u001f \u001b \u001f \u001a \u0015 \u001d \u001f \u001f \u0016 \u001f \u001d \u001e \u001f \u001b \u001f \u0017 \u001a \u001c \u001c \u001c \u001a \u001c \u001e \u0018 \u001d \u001d \u001f \u001f \u001f \u001d \u001d \u001d \u001d \u001f \u001f \u001f \u0011 \u001f\u001f \u001d \u001b \u001b \u001f \u001f \u001d \u001e \u001f \u001f \u001d \u001d\u001f \u001b ",
+"cotes": [
+"K 091"
+],
+"ids": [
+"AT20",
+"79"
+],
+"nature": "musique"
+},
+{
+"page": 100,
+"n": 2,
+"fichier": "a-100-2.jpg",
+"y0": 531,
+"y1": 834,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 80",
+"dedans": "K 724 \u0018 \u001b \u001f \u001c \u001e \u0019 \u001c \u001e \u001e \u001e \u001f \u001d \u001e \u001d\u001e \u001d \u001f \u001d \u001c \u001f \u001e \u001f \u001d \u001f \u001f \u001c \u001f \u001c \u001e \u0016 \u001f \u001c \u001f \u001e \u001f \u001f \u001f Je mettrai ma loi au fond de votre ê tre, et je l'écri rai sur vo tre cœur. \u001c \u001f \u001c \u001e \u001e \u0016 \u001f \u001b \u001c \u001f \u001e \u001f \u001f \u001f \u001a \u001e \u001e \u0016 \u001f \u001c \u001f \u001e \u001f \u001f \u0017 \u001c \u001f \u001c \u001f \u001f \u0018 \u001d \u0019 \u001c \u0014 \u001e \u001e \u001e \u001c \u001c \u001e \u001c \u001e \u001c \u001e \u001c \u001c \u001e \u001c \u001e \u0015 \u001c \u001c \u001e \u001e \u001e\u001e \u001c \u001c \u001c \u001e \u001e \u001c \u001c \u001e \u001a \u001c \u001e \u001e \u0017",
+"cotes": [
+"K 724"
+],
+"ids": [
+"80"
+],
+"nature": "musique"
+}
+],
+"101": [
+{
+"page": 101,
+"n": 1,
+"fichier": "a-101-1.jpg",
+"y0": 50,
+"y1": 374,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 71, 1-11",
+"dedans": "K 733 \u001c \u001d � = 48 � � � � � � \u001e \u001e � 3 � � � � � � � � � � � � � � � � � � � � � � Cher chez le Sei gneur, et votre â me vi vra ! � � � � � � � � � � � � � � � � � � � �� � � � �� � � � � � 3 � � \u001f \u001f � � \u001b � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � � �� � � � � �",
+"cotes": [
+"K 733"
+],
+"ids": [
+"71"
+],
+"nature": "musique"
+},
+{
+"page": 101,
+"n": 2,
+"fichier": "a-101-2.jpg",
+"y0": 417,
+"y1": 759,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 71, 12-19 & NT V p. 184",
+"dedans": "\u001d = 50 K 625 \u0018 \u001c \u001f \u001b \u001b \u001e \u001d \u001f \u001f \u001f \u001f \u001d \u001f \u001d \u001f \u001f \u001f \u001e \u001d \u001d \u001f\u001f \u001f \u001f\u001d \u0016 \u001d \u001f \u001f \u001d \u001e \u0019 \u001f \u001f \u001e \u001d \u001f \u001f \u001f \u001d \u001f\u001f \u001e \u001d\u001d \u001c \u001d \u001c \u0019 \u001f \u001e \u001d \u001d \u001c \u001d \u001f \u001c \u001f \u001d \u001d Sei gneur, é cou te ! Sei gneur, par don ne ! Veil le, Sei gneur, et sau ve- nous ! \u001b \u001b \u001a \u001d \u0019 \u0015 \u001c \u001f\u001f \u001f \u001f \u001e\u001e \u001d\u001d \u001f\u001f \u001f\u001f \u001f \u001f \u001f \u001f \u001e\u001e \u001d\u001d \u001f\u001f \u001f\u001f \u001f \u001f \u001d \u001d \u001d \u001d \u001c \u001f\u001f \u001e \u001d\u001d \u001c \u001f\u001f \u001d\u001f \u0019 \u0017 ",
+"cotes": [
+"K 625"
+],
+"ids": [
+"NT5",
+"71"
+],
+"nature": "musique"
+}
+],
+"102": [
+{
+"page": 102,
+"n": 1,
+"fichier": "a-102-1.jpg",
+"y0": 50,
+"y1": 471,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 50 & AT 57",
+"dedans": "K 624",
+"cotes": [
+"K 624"
+],
+"ids": [
+"AT57",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 102,
+"n": 2,
+"fichier": "a-102-2.jpg",
+"y0": 513,
+"y1": 831,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 147",
+"dedans": "K 311 � \u001d \u001e � � Calme ( = 66) \u001f \u001f � � �� � �� �� � � � �� � � � \u001c � 3 � � � � � � � � � � �� � �� � � � � � � � � � � Sei gneur, en toi est la sour ce de la vie : tu nous a breu ves � � � � � � � � � � � � � � � � �� � � � � � � � � �� � � � � � �� 3 � � � � � � � � � � � � � � � � \u001b \u001f \u001f � \u001f � � \u001c \u001a",
+"cotes": [
+"K 311"
+],
+"ids": [
+"147"
+],
+"nature": "musique"
+}
+],
+"103": [
+{
+"page": 103,
+"n": 1,
+"fichier": "a-103-1.jpg",
+"y0": 50,
+"y1": 306,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 114",
+"dedans": "K 632 \u0019 \u0016 \u0014 \u001d \u001f\u001f \u001f\u001f = 60 \u001f \u0017\u0016 \u001f \u001f \u001d \u001e \u001f \u001d \u001f \u001d \u001d \u001f \u001f \u001b\u001d \u001f \u001f\u001f \u001d \u001e \u001f \u001d \u001f \u001b \u001f \u001d \u001f \u001d \u001f \u001c \u001d \u001e \u001f \u001a \u001d \u001d \u001f \u001c \u001b Sau ve- moi par ton a mour : Ils veu lent m'ar ra cher à la ter re des vi vants. \u001d \u001e \u001f \u001f \u001e \u001d\u001d \u001e \u001f \u001f \u001f \u001d \u001d \u001d \u001f \u001f \u001d \u001d \u001f \u001f \u001f \u001b\u001b \u001f\u001f \u001f\u001f \u001d\u001d \u001e \u001f\u001f \u001c \u001d \u001d \u001d \u001d \u001b \u0015 \u0016 \u001c \u001d \u001e \u001f \u001c \u001d \u001d \u001f \u001f \u001f \u001f \u001b \u0016 \u0018 \u001e \u001e \u0019 \u0016 \u0013 \u001c \u0017 \u0016",
+"cotes": [
+"K 632"
+],
+"ids": [
+"114"
+],
+"nature": "musique"
+},
+{
+"page": 103,
+"n": 2,
+"fichier": "a-103-2.jpg",
+"y0": 348,
+"y1": 790,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 120 & NT X p. 180",
+"dedans": "K 013",
+"cotes": [
+"K 013"
+],
+"ids": [
+"NT10",
+"120"
+],
+"nature": "musique"
+}
+],
+"104": [
+{
+"page": 104,
+"n": 1,
+"fichier": "a-104-1.jpg",
+"y0": 50,
+"y1": 351,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 91 & AT 2",
+"dedans": "K 753 p \u001d = 50 � � � � � � � � � � � � � \u001f � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � De vant toi, Sei gneur, s'in cli ne ront ceux qui sont des cen dus � � � � � � � � � � � � � � � � �� �� �� �� � � � � �� � � � � � � � \u001e � � � � \u001c � � � � � �� � � � � �� �� � \u001f � �� �� � � � � � ",
+"cotes": [
+"K 753"
+],
+"ids": [
+"AT2",
+"91"
+],
+"nature": "musique"
+},
+{
+"page": 104,
+"n": 2,
+"fichier": "a-104-2.jpg",
+"y0": 394,
+"y1": 824,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 8",
+"dedans": "K 113 � \u001d \u001e � Léger et doux ( = \u001f 50) \u001f \u001f � � 3 � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � Le Sei gneur a pour toi don né ordre à ses an ges � � � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � \u001f \u001f \u001f � � \u001f retenu \u001f vif \u001f � � � � � � � � � � � � � � � � � � � � � � �",
+"cotes": [
+"K 113"
+],
+"ids": [
+"8"
+],
+"nature": "musique"
+}
+],
+"105": [
+{
+"page": 105,
+"n": 1,
+"fichier": "a-105-1.jpg",
+"y0": 50,
+"y1": 327,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 112",
+"dedans": "K 513 \u001a \u001d\u001d \u0016 \u001b \u001d \u001c = 66 \u001d \u001e \u001e \u001e\u001e \u001b \u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001c \u001c \u001e\u001e \u001e \u001f \u001e \u001f\u001f \u001c \u001f\u001f \u001e \u001e \u001e \u001e \u001f\u001f \u001e \u001e \u001d \u0017 \u001e \u001d \u001f \u001e \u001c Tu as ti ré mon â me des en fers ! Tu as chan gé mon deuil en u ne dan se ! \u001f\u001c \u001f \u001e \u001d \u001f \u001e \u0018 \u001e\u001e \u001e \u001e \u001e\u001e \u001f \u001e \u001f \u001e\u001e \u001f\u001f \u001e\u001e \u0016 \u001e \u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e\u001e \u001f \u001c \u001e \u001d\u001d \u001f \u001f \u001c \u001f \u001c \u001f \u001e \u001e \u001f \u001e \u001f \u001e \u0019 \u001d \u001d \u001f \u001a \u0014 \u001d\u001d \u001a \u001b ",
+"cotes": [
+"K 513"
+],
+"ids": [
+"112"
+],
+"nature": "musique"
+},
+{
+"page": 105,
+"n": 2,
+"fichier": "a-105-2.jpg",
+"y0": 370,
+"y1": 807,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 115 & NT IV p. 182",
+"dedans": "K 732 \u001c \u0016 = 40 \u001d \u0019 \u001a \u001e \u001f \u001a \u001e \u001f \u001f \u001f \u001f \u001a \u001e \u001e \u001e \u001e \u0017 \u001f \u001f \u001f \u001a \u001f \u001a \u001c \u001c \u001a \u001f \u001f \u001f \u001a \u001c \u001b \u001a \u001b \u001f \u001c Pou vez- vous boi re la cou pe que je vais boi re, \u001f \u001f \u001f \u001a \u001f \u001f \u001b \u001f \u001f \u001b \u001c\u001c \u001e \u001d \u001a\u001a \u001f \u001d \u001f \u001a \u001b \u001c \u0019 \u0018 \u001f \u001f \u001f \u001b\u001f \u001e \u001f \u001f \u001a \u001c \u0015 \u001f \u001f \u001f \u001a \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u0016 \u001f \u001e \u0017 \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001a \u001a \u0014 \u0014 \u001f \u001f \u001a \u001a \u001c \u001e \u001f \u001b \u001f \u001b \u001f \u001a \u001a \u001c et ê tre ",
+"cotes": [
+"K 732"
+],
+"ids": [
+"NT4",
+"115"
+],
+"nature": "musique"
+}
+],
+"106": [
+{
+"page": 106,
+"n": 1,
+"fichier": "a-106-1.jpg",
+"y0": 50,
+"y1": 406,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 144, 1-9",
+"dedans": "K 311 � \u001d \u001e � � Calme ( = 66) \u001f \u001f � � �� �� � � � � � �� � � � \u001c � 3 � � � � � � � � � �� � � � � � � � � � � � � � � � Sei gneur, en toi est la sour ce de la vie : tu nous a breu ves � � � � � � � � � � � � � � � � �� � � � � � � � � �� � � � � � �� 3 � � � � � � � � � � � � � � � � \u001b \u001f \u001f � \u001f � � \u001c",
+"cotes": [
+"K 311"
+],
+"ids": [
+"144"
+],
+"nature": "musique"
+},
+{
+"page": 106,
+"n": 2,
+"fichier": "a-106-2.jpg",
+"y0": 449,
+"y1": 791,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 144, 10-13",
+"dedans": "K 312 � � \u001d \u001e \u001f � �� �� Léger ( = 54) � � 3 � � � � � �� � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � Mon âme a soif du Dieu de vi e ! �uand le ver rai- je face à fa ce ? � � � � � � � � � � �� � � � � � � �� � � � � � � � � �� � � � � � � � � � �� 3 � � � � � � � \u001f � \u001c � � � � � �",
+"cotes": [
+"K 312"
+],
+"ids": [
+"144"
+],
+"nature": "musique"
+}
+],
+"108": [
+{
+"page": 108,
+"n": 1,
+"fichier": "a-108-1.jpg",
+"y0": 50,
+"y1": 371,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 144, 1-9",
+"dedans": "K 735 � � � � \u001c \u001d � Violent ( = 56) � � � � � � � � � \u001e � �� � � � � �� � � � \u001e � 3 � � � � � � � � � � � � � � � � � � � Dé trui sez ce Tem ple, et en trois jours, je le re lè ve rai ! � � � � � � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � \u001f \u001f � � � �",
+"cotes": [
+"K 735"
+],
+"ids": [
+"144"
+],
+"nature": "musique"
+},
+{
+"page": 108,
+"n": 2,
+"fichier": "a-108-2.jpg",
+"y0": 414,
+"y1": 785,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 144, 10-13",
+"dedans": "K 724 \u0018 \u001b \u001f \u001c \u001e \u0019 \u001c \u001e \u001e \u001e \u001f \u001d \u001e \u001d\u001e \u001d \u001f \u001d \u001c \u001f \u001e \u001f \u001d \u001f \u001f \u001c \u001f \u001c \u001e \u0016 \u001f \u001c \u001f \u001e \u001f \u001f \u001f Je mettrai ma loi au fond de votre ê tre, et je l'écri rai sur vo tre cœur. \u0016 \u001f \u001c \u001e \u001f \u001f \u001f \u001a \u001c \u001f \u001c \u001e\u001e \u001e \u001e \u0016 \u001f \u001b \u001c \u001f \u001f \u001e \u001f \u001f \u0017 \u001c \u001f \u001c \u001f \u001f \u0018 \u001d \u0019 \u001c \u0014 \u001e \u001e \u001e \u001c \u001c \u001e \u001c \u001e \u001c \u001e \u001c \u001c \u001e \u001c \u001e \u0015 \u001c \u001c \u001e \u001e \u001e\u001e \u001c \u001c \u001c \u001e \u001e \u001c \u001c \u001e \u001a \u001c \u001e \u001e \u0017",
+"cotes": [
+"K 724"
+],
+"ids": [
+"144"
+],
+"nature": "musique"
+}
+],
+"110": [
+{
+"page": 110,
+"n": 1,
+"fichier": "a-110-1.jpg",
+"y0": 50,
+"y1": 400,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 144, 1-9",
+"dedans": "K 654 \u0017 \u001a \u001d \u001d \u001f \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001e \u001c\u001c = 60 \u001a \u001c \u001f \u001c \u001c \u001c \u001f \u001e \u0018 \u001f \u001f \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001f \u001e \u001c \u001c \u001c \u001b \u001f Sei gneur, ne nous trai te pas se lon nos pé chés, ne nous rends pas \u0019 \u001f \u001f \u0015 \u001d \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001c \u001f \u001e \u001d \u001c \u001c \u001c \u001f \u001a \u001a \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001c \u001f \u0016 \u001d \u001f \u001e \u001c \u001c \u001c \u0012 \u0017 \u001a \u001c \u001e \u001e \u001c \u0018 \u001a \u001c \u001c \u001f \u001f \u001c \u001c \u001c \u001c \u001f \u001f \u0014 \u0014 \u0014 \u0014",
+"cotes": [
+"K 654"
+],
+"ids": [
+"144"
+],
+"nature": "musique"
+},
+{
+"page": 110,
+"n": 2,
+"fichier": "a-110-2.jpg",
+"y0": 443,
+"y1": 791,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 144, 10-13",
+"dedans": "K 625 \u001d = 50 \u0018 \u001c \u001f \u001b \u001b \u001e \u001d \u001f \u001f \u001f \u001f \u001d \u001f \u001d \u001f \u001f \u001f \u001e \u001d \u001d \u001f\u001f \u001f \u001f\u001d \u0016 \u001d \u001f \u001f \u001d \u001e \u0019 \u001f \u001f \u001e \u001d \u001f \u001f \u001f \u001d \u001f\u001f \u001e \u001d\u001d \u001c \u001d \u001c \u0019 \u001f \u001e \u001d \u001d \u001c \u001d \u001f \u001c \u001f \u001d \u001d Sei gneur, é cou te ! Sei gneur, par don ne ! Veil le, Sei gneur, et sau ve- nous ! \u001b \u001b \u001a \u001d \u0019 \u0015 \u001c \u001f\u001f \u001f \u001f \u001e\u001e \u001d\u001d \u001f\u001f \u001f\u001f \u001f \u001f \u001f \u001f \u001e\u001e \u001d\u001d \u001f\u001f \u001f\u001f \u001f \u001f \u001d \u001d \u001d \u001d \u001c \u001f\u001f \u001e\u001e \u001d\u001d \u001c \u001f\u001f \u001d\u001f \u0019 \u0017",
+"cotes": [
+"K 625"
+],
+"ids": [
+"144"
+],
+"nature": "musique"
+}
+],
+"112": [
+{
+"page": 112,
+"n": 1,
+"fichier": "a-112-1.jpg",
+"y0": 66,
+"y1": 432,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 92 & AT 5 (p.178)",
+"dedans": "\u001c \u001c \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001a \u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001e \u001e Je suis sor ti du Pè re et ve nu dans le mon de. \u001e \u001e \u001e \u001e \u001e\u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001d \u001e \u001e \u001f \u001f \u001b \u001e \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001f \u001c\u001c \u001e \u001f \u001e \u001e \u001f \u0018 \u001d \u001d \u001f \u0019 \u001c \u001d \u001e \u001a \u001c \u001f \u001e \u001e \u001e \u001e \u001e \u001f \u001f \u001e \u001e \u001f \u001f \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001f \u001f \u0017 \u0017 \u0016 \u0016 \u001f \u001e \u001e \u001e \u001e \u001e \u001e Maintenant, je qui te le mon de e",
+"cotes": [],
+"ids": [
+"AT5",
+"92"
+],
+"nature": "musique"
+},
+{
+"page": 112,
+"n": 2,
+"fichier": "a-112-2.jpg",
+"y0": 475,
+"y1": 834,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 148",
+"dedans": "K 113 � \u001d \u001e � Léger et doux ( = \u001f 50) \u001f \u001f � � � � � � � � � � � � � � 3 � � � � �� � � � � � � � � �� � � Le Sei gneur a pour toi don né ordre à ses an ges � � � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � \u001f \u001f \u001f � � \u001f retenu \u001f vif \u001f � � � � � � � � � � � � � � � � � � � � � � � �",
+"cotes": [
+"K 113"
+],
+"ids": [
+"148"
+],
+"nature": "musique"
+}
+],
+"113": [
+{
+"page": 113,
+"n": 1,
+"fichier": "a-113-1.jpg",
+"y0": 50,
+"y1": 383,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "K 016 \u0019 \u001b \u001b \u001a \u001c \u001d \u001f Vif ( = 120) \u001c Élargir ( = 66) \u001d \u001d \u001d \u001d\u001d \u001d\u001d \u001d\u001d \u001d \u001f \u001c \u001c\u001c \u001c \u001c \u001d \u001f\u001f \u001d\u001d \u001d \u001d\u001d \u001d\u001d \u001f\u001f \u001d\u001d \u001f\u001f \u001f\u001f \u0017 \u001d \u001c \u001d \u001d \u001f \u001f \u001f \u001d \u001b \u001f \u001f \u001c \u001e \u001d\u001d \u001d \u001d \u001d \u001d\u001d \u001d \u001b Main te nant, le prin ce de ce mon de va ê tre ju gé ; et moi, é le vé de ter re, \u001d \u001d \u001d \u001d \u001f \u001c \u001d \u001d\u001d \u001d\u001d \u001d \u001d \u001d \u001f \u001d \u001d\u001d \u001f\u001f \u001d \u001d \u001d\u001d \u001f \u001c \u001d\u001d \u001f\u001f \u001d \u001d \u001d \u001a \u0016\u001b \u001d \u001d",
+"cotes": [
+"K 016"
+],
+"ids": [
+"109"
+],
+"nature": "musique"
+},
+{
+"page": 113,
+"n": 2,
+"fichier": "a-113-2.jpg",
+"y0": 426,
+"y1": 765,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 110 & NT X p. 180",
+"dedans": "K 616 � � � � \u001b \u001c = 54 \u001f \u001d � � � � � � \u001f � 3 � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � Sei gneur, tu es ma lou an ge dans la grande as sem blée. � � � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � 3 � � � � � � � � \u001f \u001e \u001f � � � \u001a � � � � �� � � � �� � � � � � � � � � � ",
+"cotes": [
+"K 616"
+],
+"ids": [
+"NT10",
+"110"
+],
+"nature": "musique"
+}
+],
+"114": [
+{
+"page": 114,
+"n": 1,
+"fichier": "a-114-1.jpg",
+"y0": 50,
+"y1": 365,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 83 & AT 17",
+"dedans": "K 725 � � � \u001d � �� = 63 � � � � � � � �� � � � \u001e � 2 � � � � � � � � �� � � � � �� �� �� � � � � Ils t'ont a ban don né, toi la sour ce d'eau vi ve, pour des puits des sé chés. � � � � � � � � � � � � �� � �� �� �� � � � � �� � � � � � � � � � � �2 � � � � � � \u001f � � � � \u001c � � � � � � � �� � � � � � ",
+"cotes": [
+"K 725"
+],
+"ids": [
+"AT17",
+"83"
+],
+"nature": "musique"
+},
+{
+"page": 114,
+"n": 2,
+"fichier": "a-114-2.jpg",
+"y0": 407,
+"y1": 760,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 95",
+"dedans": "K 636 Alerte ( \u001d = 80) � � � � �� � \u001f \u001f \u001f � 2 � � � � � � � � � � � �� � � � �� � �� �� �� � � �� � � � � � � � � � � � � � � � � Com me le Pè re res sus ci te les morts, le Fils don ne la vie à qui il veut. � � � �� � � � � � � � � � � � �� �� � � �� � � �� � � � � � � � � � � � � � � � � 2 � � � �",
+"cotes": [
+"K 636"
+],
+"ids": [
+"95"
+],
+"nature": "musique"
+}
+],
+"115": [
+{
+"page": 115,
+"n": 1,
+"fichier": "a-115-1.jpg",
+"y0": 50,
+"y1": 454,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 122",
+"dedans": "K 092 � � Léger ( \u001e \u001f = 60) \u001d � � 3 � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � Lè ve- toi, Sei gneur, dans ta ten dres se pour Si on ! � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � � � \u001d � � \u001d � � � � � � � � � � \u001b � � � � � � �� � � � � � � � � � � � � � L",
+"cotes": [
+"K 092"
+],
+"ids": [
+"122"
+],
+"nature": "musique"
+},
+{
+"page": 115,
+"n": 2,
+"fichier": "a-115-2.jpg",
+"y0": 497,
+"y1": 788,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 123 & NT V p. 184",
+"dedans": "K 744 \u0016 \u001f \u001f \u001f \u001d \u001d = 48 \u0017 \u0019 \u001e \u001e \u001a \u001e\u001e \u001b \u001b \u001d\u001d \u001d\u001d \u001d \u001d \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001d \u001d \u001d \u001d \u001c \u001e\u001e \u001e\u001e Sei gneur, ne t'é loi gne pas de moi : Viens à mon ai de ! \u001e \u001e \u001b \u001d \u001d \u001d \u001d \u001d \u001d \u001c \u001e \u001e \u001d \u001d \u001e \u001e \u001e \u0018 \u001e \u001f \u001d \u001d \u001d \u001d \u001e \u001f \u001e \u001d \u001d \u0019 \u001e \u001b \u001d \u001d \u001e \u001e \u0015 \u0016 \u001e \u0017\u0019 \u0014 \u0014 \u0014 \u001d \u0014 \u001d \u0014 \u0014 \u001d\u001d \u0014 \u0014 \u001d \u001d \u0014 \u0014 \u0014 \u001d \u0018 \u0014 \u0014 \u0014 \u001d\u001d \u0014 \u0014 \u0014 \u0014 \u001d\u001d \u0019 \u0014 \u0014 \u001d \u0015",
+"cotes": [
+"K 744"
+],
+"ids": [
+"NT5",
+"123"
+],
+"nature": "musique"
+}
+],
+"116": [
+{
+"page": 116,
+"n": 1,
+"fichier": "a-116-1.jpg",
+"y0": 50,
+"y1": 352,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 84 & AT 21",
+"dedans": "K 755 \u0016 \u001e \u001a\u001a \u001d \u001d \u001f \u001c \u001d \u001f \u001c \u001d \u001d \u001d \u001d \u001f \u001c \u001d \u001d \u001f \u0017 \u001d \u001f \u001d \u001d \u001f \u001d \u001f \u001c \u001d 3 U ne fem me pour rait- elle ou bli er son en fant ? Voi ci : Je t'ai gra \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u0019 \u001a \u0018 \u001b \u001b \u001b \u001f \u001b \u001f \u001f \u001f \u001b b.f. \u0015 \u001a \u001f \u0016 \u001a \u0014 \u001e \u001a \u001f \u001c \u001d \u001d \u001d \u0014 \u0014 \u001f \u0017 \u001f \u001d \u001d \u001f \u001d \u001b \u0014 \u0014 \u001d \u001d \u0014 \u0014 \u0014 \u001d \u001d \u001d \u001d \u0014 \u001d \u001d \u0014 vé sur la pau me de mes mains ! \u001f \u001f \u001f",
+"cotes": [
+"K 755"
+],
+"ids": [
+"AT21",
+"84"
+],
+"nature": "musique"
+},
+{
+"page": 116,
+"n": 2,
+"fichier": "a-116-2.jpg",
+"y0": 395,
+"y1": 745,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 66",
+"dedans": "K 211 \u0019 \u001e \u001e \u001b \u001c \u001d \u001b = 50 \u001c\u001c \u001f \u001f\u001f \u001b \u001c\u001c \u001f\u001f \u001f\u001f \u001b \u001d \u001a \u001d \u001c \u001f\u001f \u001d \u001f \u001f \u0017 \u001b \u001b \u001f \u001c \u001f \u001f \u001c \u001c \u001b\u001b \u001c\u001c \u001c \u001c \u001b \u001b \u001f \u001f \u001c \u001c \u001b \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001c\u001c \u001b \u001b Sei gneur, tu es ma lu miè re, mon sa lut : Je cher che la splen deur \u001c\u001c \u001b \u001b \u001c \u001c \u001b \u001b \u001f \u001f \u001f\u001f \u001f\u001f \u001f \u001f \u001c \u001c \u001b \u001b \u001c \u001c \u001b\u001b \u001e \u001c \u001f \u001c \u001b \u001f \u001c \u001b \u001f \u001f \u001f\u001f \u001c\u001c \u001b\u001b \u0016 \u001d \u001c \u001f \u001c \u001b \u001d \u001f \u001c \u001b \u001f \u001f \u001a \u0018 \u001e \u001d",
+"cotes": [
+"K 211"
+],
+"ids": [
+"66"
+],
+"nature": "musique"
+}
+],
+"117": [
+{
+"page": 117,
+"n": 1,
+"fichier": "a-117-1.jpg",
+"y0": 50,
+"y1": 394,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 124",
+"dedans": "K 734 \u0017 \u001a \u001c \u001c \u001b \u001f \u001e \u001e \u001e \u001f \u001d \u001b = 52 \u0018 \u001d \u001d \u001b \u001b \u001e \u001e \u001e \u001e \u001b \u001e \u001d \u001b \u001f \u001e \u001e \u001e \u001b \u001b \u001e Si vous gar dez ma Pa ro le, vous connaî trez la vé ri té, \u001d \u001b \u001e \u001e \u001c \u001b \u001f \u001e \u001e \u001e \u001c \u0019 \u001a \u001d \u001b \u001e \u001b\u001b \u001e\u001e \u001d \u001d \u001b \u0016 \u001e \u001b \u001f \u001e \u001e \u001e \u0017 \u001a \u001d \u001f \u001d \u001c \u001c \u0018 \u001e \u001e \u001e \u001e \u001b\u001b \u001e \u001e \u001b \u001b \u001b \u001b \u001b \u001d \u001d \u001d \u001e \u001d \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001b \u001b \u001e \u001d \u001e\u001e \u001e et la vé ri té vous ",
+"cotes": [
+"K 734"
+],
+"ids": [
+"124"
+],
+"nature": "musique"
+},
+{
+"page": 117,
+"n": 2,
+"fichier": "a-117-2.jpg",
+"y0": 436,
+"y1": 801,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 130 & NT IV p. 182",
+"dedans": "K 631 � � � Calme ( \u001d = 66) � � � � � � � \u001f \u001f � 2 � � � � � � � � � � � � � � � � � � � � � � � � � En tre tes mains, Sei gneur mon Dieu, je re mets mon es prit. � � � � � � � � � � � � � � � � � � � � � � � � � � � � 2 � � � � � � \u001e \u001e � � � \u001c � � � � � � �� � � � � � � � � � � � � � � � � � � � � �",
+"cotes": [
+"K 631"
+],
+"ids": [
+"NT4",
+"130"
+],
+"nature": "musique"
+}
+],
+"118": [
+{
+"page": 118,
+"n": 1,
+"fichier": "a-118-1.jpg",
+"y0": 50,
+"y1": 379,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 85 & AT 23",
+"dedans": "K 714 \u0018 \u001d \u001e \u001b \u001d \u001f \u001e \u001f \u001f \u001b \u001f \u001f \u001f \u001f = 52 \u0019 \u001d \u001e \u001d \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001d \u001d \u001e \u001e \u001f Nous étions morts, et nous sommes re ve nus à la vi e. Nous étions per dus, \u001d \u001e \u001b \u001d \u001f \u001f \u001e \u001f \u001c \u001f \u001f \u001f \u001e \u001d \u001e \u001b \u001a \u001e \u001f \u001f \u001e \u001e \u001d \u001e \u0017 \u001d \u001e \u001d \u001f \u001f \u0018 \u001e \u001d \u001e \u001f \u0016 \u001d \u001d \u001f \u001f \u001f \u001d \u001f \u001d \u001d \u001f \u001c \u0019 \u001d \u001e \u001f \u001f \u001f \u0016 \u001f \u001d \u001d \u001d \u001f \u001f et tu nous as re trou vés ! \u001d \u001e \u001f",
+"cotes": [
+"K 714"
+],
+"ids": [
+"AT23",
+"85"
+],
+"nature": "musique"
+},
+{
+"page": 118,
+"n": 2,
+"fichier": "a-118-2.jpg",
+"y0": 422,
+"y1": 765,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 97",
+"dedans": "K 656 \u001b \u0017 \u001f \u001f \u001f\u001f \u001e\u001f \u001e \u001d \u001f\u001f \u001f \u001f\u001f = 72 \u001f\u001f \u001f\u001f \u0016 \u001f \u001f \u001d \u001f \u001f \u0019 \u001f \u001f \u001f\u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001c \u001d \u001f \u001f \u001e Je chan te rai ta for ce : Tu es le Dieu de mon a mour. \u001e \u001e \u001f \u001f \u001e \u001f \u001f \u001e\u001e \u001f \u0017 \u001e \u001e \u001e\u001e \u001f\u001f \u001e\u001f \u001e \u001e \u001f\u001f \u001d \u001d \u0018 \u001f\u001e \u001e \u001e\u001f \u001e \u001f \u001e\u001e \u001f\u001f \u001f\u001e \u001e \u001f \u001e \u001e \u001e \u001e \u001e \u001d \u001a \u001e \u001e \u001b \u001c \u0019 \u0015 \u0014 \u001e \u001e \u001e \u0015 \u001e \u001e \u0015 \u001e \u0015 \u001e \u0015 \u001e \u0015 \u001e \u0018 \u0015 \u0015 \u001e \u001e \u001e\u001e \u0015 \u0015 \u001e \u001e \u001e\u001e \u001e \u001e ",
+"cotes": [
+"K 656"
+],
+"ids": [
+"97"
+],
+"nature": "musique"
+}
+],
+"119": [
+{
+"page": 119,
+"n": 1,
+"fichier": "a-119-1.jpg",
+"y0": 50,
+"y1": 372,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 125",
+"dedans": "K 634 \u0019 \u001b \u001d \u001d \u001f \u001f\u001f \u001f\u001f \u001e\u001e \u001e \u0017 \u001a \u001a \u001f\u001f \u001f \u001f \u001e \u001f \u001f \u001f \u001e\u001e \u001f\u001f \u001e\u001e \u001e \u001f \u001c \u001e \u001f \u001f \u001f \u001c Celui qui perd sa vie à cau se de moi la sau ve ra, et sa chair re ﬂeu ri ra ! \u001a \u001f \u001e \u001f \u0016 \u001b \u001a \u001f \u001e \u001e \u001d \u001f \u001f \u001f \u001f \u001e \u001d \u001f \u001f \u001f \u001f \u001e\u001e \u001f\u001f \u001f \u001c \u001c \u001f \u001f \u001f \u001f \u001e \u001e \u0018 \u001f \u0019 \u001b \u001d \u0017 \u001a \u001a \u001a \u001a \u001f\u001f \u001a \u001a \u001a \u001a \u001f \u001a \u001a \u001f \u001f \u001f \u001a \u001a \u001a \u001a \u001a \u001f \u0016\u001b \u001a \u001f \u001a \u001f\u001f \u001a \u001a \u001f \u001a \u001f \u0018",
+"cotes": [
+"K 634"
+],
+"ids": [
+"125"
+],
+"nature": "musique"
+},
+{
+"page": 119,
+"n": 2,
+"fichier": "a-119-2.jpg",
+"y0": 415,
+"y1": 751,
+"x0": 39,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 126 & NT X p. 180",
+"dedans": "K 744 \u0016 \u001f \u001f \u001f \u001d \u001d = 48 \u0017 \u0019 \u001e\u001e \u001e \u001b \u001d \u001d \u001d\u001d \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001d\u001d \u001d\u001d \u001e \u001e \u001a \u001e \u001b \u001d \u001d \u001c \u001e \u001e Sei gneur, ne t'é loi gne pas de moi : Viens à mon ai de ! \u001e \u001e \u001b \u001d \u001d \u001d \u001d \u001d \u001d \u001c \u001e \u001e \u001d \u001d \u001e \u001e \u001e \u0018 \u001e \u001f \u001d \u001d \u001d \u001d \u001e \u001f \u001e \u001d \u001d \u0019 \u001e \u001b \u001d \u001d \u001e \u001e \u0015 \u0016 \u001e \u0017\u0019 \u0014 \u0014 \u0014 \u001d \u0014 \u001d \u0014 \u0014 \u001d\u001d \u0014 \u0014 \u001d \u001d \u0014 \u0014 \u001d \u0014 \u0014 \u001d \u0018 \u0014 \u0014 \u0014 \u001d \u0014 \u0014 \u0014 \u001d\u001d \u0019 \u0014 \u0014 \u001d \u0015",
+"cotes": [
+"K 744"
+],
+"ids": [
+"NT10",
+"126"
+],
+"nature": "musique"
+}
+],
+"120": [
+{
+"page": 120,
+"n": 1,
+"fichier": "a-120-1.jpg",
+"y0": 50,
+"y1": 370,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 86 & AT 26",
+"dedans": "K 745 Lent ( \u001d = 44) \u0015 \u001c \u001c \u001f \u001d \u001b \u001f \u001e \u0018 \u001f \u001f \u001a \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001e \u001d \u001f \u0019\u001f \u001a \u001e \u001e \u0016 \u001f \u001f \u001a \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001d \u001f \u001f \u001a \u001a Il fal lait qu'un seul hom me meu re pour tout le peu ple. \u001f \u001f \u001a \u001c \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001c \u001d \u001f \u001f \u0019 \u001a \u001d \u001b \u001d \u001b \u001a \u001a \u0017 \u001f \u001f \u001b \u001a \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001d \u001f \u001f \u0018 \u0014 \u001f \u001f \u001f \u0015 \u0013 \u001c \u0016 \u0018 \u0012 \u0012 \u0018 \u0012 \u001f \u001f \u001f \u001f \u0012 \u0012 \u001f \u001f \u0012 \u0012 \u001f \u0012 \u0012 \u0012 \u001f \u001f",
+"cotes": [
+"K 745"
+],
+"ids": [
+"AT26",
+"86"
+],
+"nature": "musique"
+},
+{
+"page": 120,
+"n": 2,
+"fichier": "a-120-2.jpg",
+"y0": 412,
+"y1": 728,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 98",
+"dedans": "K 213 \u001a \u001e \u001d \u001c \u001e \u001d \u0017 \u001c \u001c \u001e \u001f\u001f \u001f\u001f \u001f \u001c \u001f\u001f \u001c \u001e \u001f\u001f \u001e\u001e \u001f \u001f \u001c\u001c \u001b\u001b rall. \u0018 \u001c \u001c \u001e \u001c \u001c \u001b\u001b \u001f \u001c \u001c \u001f\u001f \u001c \u001e \u001c\u001c \u001f\u001f \u001f \u001f \u001c \u001c \u001c \u001c \u001c \u001c Pè re, é cou te la pri è re de ton Fils ! Re gar de le vi sa ge de ton Christ ! \u001e \u001f \u001e \u001f \u001c \u001e \u001f \u001c \u001c\u001c \u001c\u001c \u001c\u001c \u001b\u001b \u001c\u001c \u001b\u001b \u001f \u001f\u001f \u001f\u001f \u001f\u001f \u001f\u001f \u001c \u001c \u001d \u001c \u001f \u001d \u001c \u0016 \u001e \u001f \u001f \u001c \u001c\u001c \u001e \u001f \u001c \u001c \u001c \u0017 \u001f \u001c \u001e \u001f \u001c \u0019 \u001f \u001f \u001a ",
+"cotes": [
+"K 213"
+],
+"ids": [
+"98"
+],
+"nature": "musique"
+}
+],
+"121": [
+{
+"page": 121,
+"n": 1,
+"fichier": "a-121-1.jpg",
+"y0": 50,
+"y1": 364,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 131, 1-10",
+"dedans": "K 752 \u001d \u0016 = 54 \u0019 \u001d \u0019 \u001f \u001e \u001c \u001f \u001e \u001a \u001e \u0017 \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001a \u001e \u001e \u001e \u001e \u001e \u001e \u001c \u001f \u001f \u001f \u001f \u001e \u001e \u001e \u001a \u001a \u001e \u001e Ils ont per cé mes mains et mes pieds. Je peux comp ter tous mes os ! \u0018 \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001a \u001e \u001e \u001e\u001e \u001c\u001c \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001e \u001e \u001b \u001a \u0019 \u001f \u001f \u001a \u001e \u001e \u001e \u001e \u001e \u001a \u0019 \u0015 \u001f \u001f \u0016 \u0019 \u0014 \u001c \u0017 \u0019 \u0014 \u0014 \u0014 \u001f\u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u0014 ",
+"cotes": [
+"K 752"
+],
+"ids": [
+"131"
+],
+"nature": "musique"
+},
+{
+"page": 121,
+"n": 2,
+"fichier": "a-121-2.jpg",
+"y0": 407,
+"y1": 759,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 131, 11-18 & NT V p. 184",
+"dedans": "\u001c = 60 K 011 \u0017 \u0015 \u001d \u001a \u001b \u001e \u001a \u001d \u001f \u001f \u001f \u001d \u001f \u001f \u001d \u001f \u001f \u001d \u001d \u001c \u001e \u0018 \u001d \u001d \u001d \u001b \u001f \u001f \u001f \u001e \u001d \u001f \u001f \u001d \u001f \u001f \u001c \u001c Ma vie, nul ne la prend, mais c'est moi qui la don ne ! \u0019 \u001a \u001d \u001d \u001d \u001d \u001b \u001b \u001f \u001f \u001f \u001f \u001f\u001f \u001d \u0015 \u001e \u001f \u001f \u001d \u001f \u001f \u001c \u001e \u001c\u001c \u001a \u001d \u001f \u001f \u001f \u001f \u001c \u0016 \u001d \u001f \u001d \u001f \u0012 \u0017 \u001a \u001f \u001b \u0018 \u001a \u0013 \u0013 \u0013 \u0013 \u001f \u001f \u0013 \u0013 \u0013 \u0013 \u001f \u0014 \u001f \u001f \u0013 \u0013 \u001f \u0014 \u001f \u001f \u001f \u001f \u0013 \u0014 \u0013 \u001f \u0013 \u0013 \u001f \u001f \u001f \u0013 \u001f \u0019",
+"cotes": [
+"K 011"
+],
+"ids": [
+"NT5",
+"131"
+],
+"nature": "musique"
+}
+],
+"122": [
+{
+"page": 122,
+"n": 1,
+"fichier": "a-122-1.jpg",
+"y0": 50,
+"y1": 354,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 50 & AT 42",
+"dedans": "K 615 \u0017 \u001a \u001d Large ( \u001c = 56) \u001f \u001b \u001f \u001f \u001f\u001f \u001f \u001f \u001f \u001f \u001f \u001d \u0018 \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001f \u001c \u001f \u001f \u001f \u001f \u001c C'est la mi sé ri cor de que je veux, et non le sa cri ﬁ ce. \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001e \u001d \u001f \u001f \u001b \u0019 \u001a \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001b \u001e \u001f \u001f \u001f \u001f \u001c \u001c \u0016 \u001f \u001f \u001f \u001f \u001b \u001e \u001f \u0017 \u001a \u0015 \u001b \u0018 \u0014 \u0014 \u0014 \u001f \u001f \u001f \u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u0014 \u0014 \u0014 \u001f \u001f \u0015 \u0014 ",
+"cotes": [
+"K 615"
+],
+"ids": [
+"AT42",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 122,
+"n": 2,
+"fichier": "a-122-2.jpg",
+"y0": 396,
+"y1": 750,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 99",
+"dedans": "K 753 p \u001d = 50 � � � � � � � � � � � � � \u001f � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � De vant toi, Sei gneur, s'in cli ne ront ceux qui sont des cen dus � �� �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � \u001e � � � � \u001c � � � � � �� � � � � � �� �� \u001f � �� �� � � � �",
+"cotes": [
+"K 753"
+],
+"ids": [
+"99"
+],
+"nature": "musique"
+}
+],
+"123": [
+{
+"page": 123,
+"n": 1,
+"fichier": "a-123-1.jpg",
+"y0": 50,
+"y1": 386,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 134, 1-12",
+"dedans": "K 511 � � � � \u001d \u001e \u001f \u001f \u001f \u001f � � �� �� = 52 � 3 �� � � � � � � �� � � � � � �� �� � �� � � � � � �� � � �� �� � � � �ue je ren de grâce à ton a mour : Tu as ti ré de l'a bî me des morts � � � � � � � �� � � �� � � � � � �� � � � � �� � � � � �� �� � � � �� � �� � � � � � � � 3 � \u001f \u001f \u001f \u001f � � � \u001f \u001a \u001c � �",
+"cotes": [
+"K 511"
+],
+"ids": [
+"134"
+],
+"nature": "musique"
+},
+{
+"page": 123,
+"n": 2,
+"fichier": "a-123-2.jpg",
+"y0": 428,
+"y1": 769,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 134, 13-21 & NT X p. 180",
+"dedans": "K 636 Alerte ( \u001d = 80) � � � � �� � \u001f \u001f \u001f � 2 � � � �� � � � � � � � �� � � � �� � �� �� �� � � �� � � � � � � � � � � � � � � � Com me le Pè re res sus ci te les morts, le Fils don ne la vie à qui il veut. � � � �� � � � � � � � � � � � �� �� � � � � � � �� � � � � � � � � � � � � � � � � 2 � � � �",
+"cotes": [
+"K 636"
+],
+"ids": [
+"NT10",
+"134"
+],
+"nature": "musique"
+}
+],
+"124": [
+{
+"page": 124,
+"n": 1,
+"fichier": "a-124-1.jpg",
+"y0": 50,
+"y1": 357,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 118-XIX & AT 12",
+"dedans": "K 646 f Marqué ( \u001c = 63) p pp � � � \u001e \u001e � � \u001e � � � � \u001f \u001e �� � \u001f � � � � � �� �� � � �� � � � � � � � � � � � � � � �� �� �� � � � � � Ils ont é prou vé le Jus te par des ou tra ges ! Nous a vons con nu sa dou ceur. � � � � � �� �� � � � �� � � �� � �� �� �� �� �� � � � � �� �� � � � � � � � �� � � ",
+"cotes": [
+"K 646"
+],
+"ids": [
+"AT12",
+"118-19"
+],
+"nature": "musique"
+},
+{
+"page": 124,
+"n": 2,
+"fichier": "a-124-2.jpg",
+"y0": 400,
+"y1": 751,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 116",
+"dedans": "K 756 \u001c = 66 \u0019 \u001d \u0017 \u001d \u001b \u001f \u001d \u001f \u001f \u001f \u001f \u001e \u001e \u001b \u001f \u001f \u001f \u001e \u001f\u001f \u001f\u001f \u001e \u001f\u001f \u001f \u001e \u001a \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001e \u001e \u001f \u001e \u001e \u001e \u001e \u001e \u001e \u001d \u001d Ce lui qui croit en ma pa ro le est pas sé de la mort à la vie. \u001c \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f\u001f \u001e \u001e \u0017 \u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001d \u001d \u001b \u001b \u001f \u001e \u001e \u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u0018 \u001d \u001d \u001d \u001f \u001f \u0014 \u001d \u0019 \u001b \u001f \u001b \u001a \u001b \u0015 \u0015 \u0015 \u0015 \u001f \u001f \u0015 \u0015 \u0015 \u0015 \u001f \u001f \u001f \u0015",
+"cotes": [
+"K 756"
+],
+"ids": [
+"116"
+],
+"nature": "musique"
+}
+],
+"125": [
+{
+"page": 125,
+"n": 1,
+"fichier": "a-125-1.jpg",
+"y0": 50,
+"y1": 503,
+"x0": 26,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 121",
+"dedans": "K 015 pp p \u001c = 100 � � \u001f \u001f � \u001f \u001f �� \u001d � 2 � � � � �� � � � � � � �� �� � � � �� �� �� �� �� �� � � � � � � Voi ci que nous mon tons à Jé ru sa lem, où le Fils de l'hom me se ra � � � � � � � � � � � � � � � �� � � � �� � � � � � � � � � � �� � 2 � � � � � � � \u001f \u001f \u001e \u001f \u001f f mf mf � � \u001f � \u001f \u001f � \u001b \u001d � \u001b ",
+"cotes": [
+"K 015"
+],
+"ids": [
+"121"
+],
+"nature": "musique"
+},
+{
+"page": 125,
+"n": 2,
+"fichier": "a-125-2.jpg",
+"y0": 546,
+"y1": 811,
+"x0": 26,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 129 & NT IV p. 182",
+"dedans": "K 513 \u001a \u001d\u001d \u0016 \u001b \u001d \u001c = 66 \u001d \u001e \u001b \u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001c \u001c \u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e \u001f\u001f \u001c \u001f\u001f \u001e \u001e \u001e \u001e \u001f\u001f \u001e \u001e \u001e \u001d \u0017 \u001e \u001d \u001e \u001c Tu as ti ré mon â me des en fers ! Tu as chan gé mon deuil en u ne dan se ! \u001f\u001c \u001f \u001e \u001d \u001f \u001e \u0018 \u001e\u001e \u001e \u001e \u001e\u001e \u001f \u001e \u001f \u001e\u001e \u001f\u001f \u001e\u001e \u0016 \u001e \u001e \u001e\u001e \u001e\u001e \u001f\u001f \u001e\u001e \u001f\u001f \u001c \u001e\u001e \u001d\u001d \u001f \u001f \u001c \u001c \u001f \u001e \u001f \u001e \u001f \u001e \u0019 \u001d \u001d \u001f \u001a \u0014 \u001d\u001d \u001a \u001b \u0015 \u0015",
+"cotes": [
+"K 513"
+],
+"ids": [
+"NT4",
+"129"
+],
+"nature": "musique"
+}
+],
+"126": [
+{
+"page": 126,
+"n": 1,
+"fichier": "a-126-1.jpg",
+"y0": 50,
+"y1": 406,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 23",
+"dedans": "K 411 ff p \u001b \u001c � � � � = 48 � � \u001d \u001f � � � � \u001d � � � � � � �� � � � � � � � � �� � � � � � � �� �� �� � � �� �� �� �� � � � � � Des té nè bres, le Sei gneur a fait son voi le : Je t'in vo que, Sei gneur, � �� �� �� � �� � � � � � � �� � �� � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � ",
+"cotes": [
+"K 411"
+],
+"ids": [
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 126,
+"n": 2,
+"fichier": "a-126-2.jpg",
+"y0": 449,
+"y1": 806,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 65, 1-12",
+"dedans": "K 412 \u001e \u0018 \u001b \u001d \u001d Léger et doux ( = 50) \u001f \u001c \u001e \u001c \u001f \u001e \u001e retenu \u0019 \u001e \u001e \u001f \u001f \u001c \u001e \u001f \u001f \u001c \u001e \u001e \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001c \u001f \u001e \u001e \u001f \u001c C'est toi, Sei gneur, qui éc lai res ma lam pe ! Ô mon Dieu, \u001e \u001f \u001c \u001e \u001f \u001c \u001e \u001e \u001f \u001e \u001f \u001f \u001f \u001f \u001e \u001f \u001c \u001e \u001f \u001e \u001e\u001e \u001f \u001d \u001f \u001c \u001d \u001a \u001b \u001f \u001c \u001e \u001e \u001f \u001f \u001f \u001c \u001f \u0017 \u001f \u0018 \u0014 retenu \u001b \u001f \u001f \u001b \u001d \u0019 \u001e \u001e\u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001e",
+"cotes": [
+"K 412"
+],
+"ids": [
+"65"
+],
+"nature": "musique"
+}
+],
+"128": [
+{
+"page": 128,
+"n": 1,
+"fichier": "a-128-1.jpg",
+"y0": 50,
+"y1": 343,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 23",
+"dedans": "K 726 \u001d � �� Vif ( = \u001c 80) \u001c Large � \u001e \u001e \u001e � 2 � � � � � � � 3 � � � � � � � � � � � � � � � � � � � � � � � � � � � Ce lui qui fait la vé ri té vient à la lu miè re. � �� � �� � � � � � � � �� � � � � � � � � � � � � � 2 � � 3 � � � � � � � � \u001c \u001c \u001f \u001f \u001f � � �� � � � � � \u001b � � � � � � � � � � � � � �",
+"cotes": [
+"K 726"
+],
+"ids": [
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 128,
+"n": 2,
+"fichier": "a-128-2.jpg",
+"y0": 386,
+"y1": 733,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 65, 1-12",
+"dedans": "K 734 \u0017 \u001a \u001c \u001c \u001b \u001f \u001e \u001e \u001e \u001f \u001d \u001b = 52 \u0018 \u001d \u001d \u001b \u001b \u001e \u001e \u001e \u001e \u001b \u001e \u001d \u001b \u001f \u001e \u001e \u001e \u001b \u001b \u001e Si vous gar dez ma Pa ro le, vous connaî trez la vé ri té, \u0019 \u001a \u001d \u001b \u001e \u001e \u001b \u001e \u001c \u001d \u001b \u001f \u001e \u001e \u001e \u001c \u001d \u001b \u001e \u001b \u001e \u001d \u001b \u0016 \u001e \u001b \u001f \u001e \u001e \u001e \u0017 \u001a \u001d \u001f \u001d \u001c \u001c \u0018 \u001e \u001e \u001e \u001e \u001b\u001b \u001e\u001e \u001b \u001b \u001b \u001b \u001b \u001d \u001d \u001d \u001e \u001d \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001b \u001b \u001e \u001d \u001e\u001e \u001e et la vé ri té vous",
+"cotes": [
+"K 734"
+],
+"ids": [
+"65"
+],
+"nature": "musique"
+}
+],
+"130": [
+{
+"page": 130,
+"n": 1,
+"fichier": "a-130-1.jpg",
+"y0": 50,
+"y1": 349,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 23",
+"dedans": "K 715 Vif ( \u001d = 66) \u0019 Calme \u001f \u001f \u001e \u001e \u0017 \u001c \u001e \u001f \u001f \u001e \u001e \u001f \u001f \u001e \u001e \u001a \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001e \u001d \u001d Oui ! Je me lè ve rai, et j'i rai vers mon Pè re. \u001e \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001e \u001f \u001f \u001d \u001b \u001e \u001f \u001f \u001f \u001f \u001e \u0017 \u001f \u001f \u001e \u001f\u001f \u001f\u001f \u001e \u001c \u001d \u0018 \u001f \u001f \u0019 \u001c \u001a \u001c \u0016 \u0016 \u001f \u001f \u001f\u001f \u001f \u001f \u0016 \u0016 \u001f \u001f \u001f\u001f \u0016 \u0016 \u001f \u001f \u001f \u001f \u0016 \u001f \u001f \u0016 \u001f \u0016 \u001f \u001b \u0016 \u001f\u001f \u0016 \u001f \u001f \u0016 \u001c \u001f \u001f \u001f \u001f \u0018",
+"cotes": [
+"K 715"
+],
+"ids": [
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 130,
+"n": 2,
+"fichier": "a-130-2.jpg",
+"y0": 392,
+"y1": 709,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 65, 1-12",
+"dedans": "K 714 \u0018 \u001d \u001e \u001b \u001d \u001f \u001e \u001f \u001f \u001b \u001f \u001f \u001f \u001f = 52 \u0019 \u001d \u001e \u001d \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001d \u001d \u001e \u001e \u001f Nous étions morts, et nous sommes re ve nus à la vi e. Nous étions per dus, \u001d \u001e \u001b \u001d \u001f \u001f \u001e \u001f \u001c \u001f \u001f \u001f \u001e \u001d \u001e \u001b \u001a \u001e \u001f \u001f \u001e \u001e \u001d \u001e \u0017 \u001d \u001e \u001d \u001f \u001f \u0018 \u001e \u001d \u001e \u001f \u0016 \u001d \u001d \u001f \u001f \u001f \u001d \u001f \u001d \u001d \u001f \u001c \u0019 \u001d \u001e \u001f \u001f \u001f \u0016 \u001f \u001d \u001d \u001d \u001f \u001f et tu nous as re trou vés ! \u001d \u001e \u001f",
+"cotes": [
+"K 714"
+],
+"ids": [
+"65"
+],
+"nature": "musique"
+}
+],
+"132": [
+{
+"page": 132,
+"n": 1,
+"fichier": "a-132-1.jpg",
+"y0": 50,
+"y1": 372,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 117 & AT 5 (p.178)",
+"dedans": "K 093 � � \u001d \u001e \u001f \u001f �� �� �� � � Paisible ( = 50) � � 3 � � � � �� � �� � �� � � �� � � � � � �� �� � � � � � � � � �� � � � � Sei gneur, re lè ve tes en fants, af fer mis- les de vant ta fa ce ! �� � � � � � �� �� � � �� �� � � � � �� �� � � �� �� � � �� � � � � � � � � � � � � � � � � 3 � \u001f \u001f � \u001c � ",
+"cotes": [
+"K 093"
+],
+"ids": [
+"AT5",
+"117"
+],
+"nature": "musique"
+},
+{
+"page": 132,
+"n": 2,
+"fichier": "a-132-2.jpg",
+"y0": 414,
+"y1": 783,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 150",
+"dedans": "K 616 � � � � \u001b \u001c = 54 \u001f \u001d � � � � � � \u001f � 3 � � � �� �� � � � � � � � � � � � � � � � � � � � � � � � Sei gneur, tu es ma lou an ge dans la grande as sem blée. � � � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � 3 � � � � � � � � \u001f \u001e \u001f � � � \u001a � � � � �� � � � �� � � � � � � � � � � � ",
+"cotes": [
+"K 616"
+],
+"ids": [
+"150"
+],
+"nature": "musique"
+}
+],
+"133": [
+{
+"page": 133,
+"n": 1,
+"fichier": "a-133-1.jpg",
+"y0": 50,
+"y1": 359,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "K 716 \u0017 \u001c \u001d \u0015 \u001d \u001f = 44 \u001c \u001d \u001e \u001d \u001e \u001d \u001f \u001d \u001f \u001e \u001f \u001d \u001e \u001f \u001d \u001f \u001e \u0018 \u001d \u001f \u001d \u001e \u001d \u001f \u001d \u001b \u001e \u001d \u001d \u001f \u001a \u001d \u001e \u001d \u001f \u001d \u001e \u001d \u001d \u001f \u001d \u001f \u001d \u001f \u001d \u001e \u001d \u001f C'est dans ta Croix, ô Christ, que je trou ve ma gloi re. \u001d \u001f \u001d \u001f \u001d \u001e \u001d \u001e \u001c \u001d \u001f \u001d \u001e \u001d \u001f \u0019 \u001d \u001d \u001d \u001e \u001e \u001d \u001d \u001d \u001f \u001f \u0015 \u001d \u001e \u001d \u001d \u001b \u001e \u001d \u001d \u001f \u001f \u001a \u001d \u001d \u001f \u001c \u001f \u001f \u001d \u001f \u001f \u001d \u001f \u001f \u0016 \u001f \u001f \u0017 \u001b \u0018 \u001c \u0014 \u0014 \u001e \u001e \u001e",
+"cotes": [
+"K 716"
+],
+"ids": [
+"109"
+],
+"nature": "musique"
+},
+{
+"page": 133,
+"n": 2,
+"fichier": "a-133-2.jpg",
+"y0": 402,
+"y1": 756,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 111 & NT X p. 180",
+"dedans": "K 726 \u001d � �� Vif ( = \u001c 80) \u001c Large � \u001e \u001e \u001e � 2 � � � � � � � 3 � � � � � � � � �� � � � � � � � � � � � � � � � � � Ce lui qui fait la vé ri té vient à la lu miè re. � � � � � � � � � � � � � �� � � � � � � � � � � � � � 2 � � 3 � � � � � � � � \u001c \u001c \u001f \u001f \u001f � � �� � � � � � \u001b � � � � � �� � � � � � � �",
+"cotes": [
+"K 726"
+],
+"ids": [
+"NT10",
+"111"
+],
+"nature": "musique"
+}
+],
+"134": [
+{
+"page": 134,
+"n": 1,
+"fichier": "a-134-1.jpg",
+"y0": 50,
+"y1": 400,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 89 & AT 27",
+"dedans": "K 411 ff p \u001b \u001c � � � � = 48 � � \u001d \u001f � � � � \u001d � � � � � � �� � � � � � � � � �� � � � � � � �� �� �� � � �� �� �� �� � � � � � Des té nè bres, le Sei gneur a fait son voi le : Je t'in vo que, Sei gneur, � �� �� �� � �� � � � � � � �� � �� � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � ",
+"cotes": [
+"K 411"
+],
+"ids": [
+"AT27",
+"89"
+],
+"nature": "musique"
+},
+{
+"page": 134,
+"n": 2,
+"fichier": "a-134-2.jpg",
+"y0": 442,
+"y1": 779,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 134, 1-12",
+"dedans": "K 655 \u001d = 56 f � � � � � � � � � � \u001e � � � � � � � \u001e � � � � � � � � � � � � � � � � � � � � Je suis a vec toi pour te dé li vrer de la main des pé cheurs. � � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � \u001f \u001f � \u001c � � � � � �� � � � � �� � � � � � � � � � � � � � � �� ",
+"cotes": [
+"K 655"
+],
+"ids": [
+"134"
+],
+"nature": "musique"
+}
+],
+"136": [
+{
+"page": 136,
+"n": 1,
+"fichier": "a-136-1.jpg",
+"y0": 50,
+"y1": 474,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 100 & AT 47",
+"dedans": "K 112 \u001c \u001d � � � Lent ( = 48) \u001e \u001e � 3 � � � � � � � �� � � � � � � � � � � �� � � � � � � � J'ai gar dé, Sei gneur, la Pa ro le de tes lè vres : � � � � � � � � � � � � � 3 � � � � � � � � � � � � � � � � � � � \u001f \u001f � � � marcato \u001b \u001b \u001b \u001b � \u001b � � � � \u001b \u001b \u001b \u001b \u001e � � �� � \u001e � � � � � � � � � � � � � � �� ",
+"cotes": [
+"K 112"
+],
+"ids": [
+"AT47",
+"100"
+],
+"nature": "musique"
+},
+{
+"page": 136,
+"n": 2,
+"fichier": "a-136-2.jpg",
+"y0": 517,
+"y1": 819,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 143, 1-10",
+"dedans": "K 043 � � � \u001e �� Vif ( = 96) \u001f \u001f � \u001f \u001f � 2 � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � Du Christ, no tre ro cher, ont cou lé des ﬂots d'eau vi ve : � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � �� � � � �� 2 � � \u001f \u001f \u001f \u001f � � \u001f \u001f � � � � \u001d � � � � � \u001c � � � � �",
+"cotes": [
+"K 043"
+],
+"ids": [
+"143"
+],
+"nature": "musique"
+}
+],
+"137": [
+{
+"page": 137,
+"n": 1,
+"fichier": "a-137-1.jpg",
+"y0": 50,
+"y1": 364,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 136",
+"dedans": "K 654 \u0017 \u001d \u001d \u001a\u001a \u001f \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001e \u001c\u001c = 60 \u001c \u001f \u001c \u001c \u001c \u001f \u001e \u0018 \u001f \u001f \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001f \u001e \u001c \u001c \u001c \u001b \u001f Sei gneur, ne nous trai te pas se lon nos pé chés, ne nous rends pas \u0019 \u001f \u001f \u0015 \u001d \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001c \u001f \u001e \u001d \u001c \u001c \u001c \u001f \u001a \u001a \u0015 \u001c \u001c \u001c \u001c \u001f \u001e \u001c \u001f \u001c \u001c \u001f \u0016 \u001d \u001f \u001e \u001c \u001c \u001c \u0012 \u0017 \u001a \u001c \u001e \u001e \u001c \u0018 \u001a \u001c \u001c \u001f \u001f \u001c \u001c \u001c \u001c \u001f \u001f \u0014 \u0014 \u0014 \u0014 ",
+"cotes": [
+"K 654"
+],
+"ids": [
+"136"
+],
+"nature": "musique"
+},
+{
+"page": 137,
+"n": 2,
+"fichier": "a-137-2.jpg",
+"y0": 407,
+"y1": 742,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 137 & NT IV p. 182",
+"dedans": "K 656 \u001b \u0017 \u001f \u001f \u001f\u001f \u001e\u001f \u001e \u001d \u001f\u001f \u001f \u001f\u001f = 72 \u001f\u001f \u001f\u001f \u0016 \u001f \u001f \u001d \u001f \u001f \u0019 \u001f \u001f \u001f\u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001c \u001d \u001f \u001f \u001e Je chan te rai ta for ce : Tu es le Dieu de mon a mour. \u001e \u001e \u001f \u001f \u001e \u001f \u001f \u001e\u001e \u001f \u0017 \u001e \u001e \u001e\u001e \u001f\u001f \u001e\u001f \u001e \u001e \u001f\u001f \u001d \u001d \u0018 \u001f\u001e \u001e \u001e\u001f \u001e \u001f \u001e\u001e \u001f\u001f \u001f\u001e \u001e \u001f \u001e \u001e \u001e \u001e \u001e \u001d \u001a \u001e \u001e \u001b \u001c \u0019 \u0015 \u0014 \u001e \u001e \u001e \u0015 \u001e \u001e \u0015 \u001e \u0015 \u001e \u0015 \u001e \u0015 \u001e \u0018 \u0015 \u0015 \u001e \u001e \u001e\u001e \u0015 \u0015 \u001e \u001e \u001e\u001e \u001e \u001e ",
+"cotes": [
+"K 656"
+],
+"ids": [
+"NT4",
+"137"
+],
+"nature": "musique"
+}
+],
+"138": [
+{
+"page": 138,
+"n": 1,
+"fichier": "a-138-1.jpg",
+"y0": 50,
+"y1": 387,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 107 & AT 38",
+"dedans": "K 211 \u0019 \u001e \u001e \u001b \u001c \u001d \u001b = 50 \u001c\u001c \u001f \u001f\u001f \u001b \u001c\u001c \u001f\u001f \u001f\u001f \u001b \u001d \u001a \u001d \u001c \u001f\u001f \u001d \u001f \u001f \u0017 \u001b \u001b \u001f \u001c \u001f \u001f \u001c \u001c \u001b\u001b \u001c\u001c \u001c \u001c \u001b \u001b \u001f\u001f \u001c\u001c \u001b \u001b \u001f \u001f \u001f\u001f \u001f \u001f \u001c\u001c \u001b \u001b Sei gneur, tu es ma lu miè re, mon sa lut : Je cher che la splen deur \u001c\u001c \u001b \u001b \u001c \u001c \u001b \u001b \u001f \u001f \u001f\u001f \u001f\u001f \u001f \u001f \u001c \u001c \u001b \u001b \u001c \u001c \u001b\u001b \u001e \u001c \u001f \u001c \u001b \u001f \u001c \u001b \u001f \u001f \u001f\u001f \u001c\u001c \u001b\u001b \u0016 \u001d \u001c \u001f \u001c \u001b \u001d \u001f \u001c \u001b \u001f \u001f \u001a \u0018 \u001e \u001d \u001e ",
+"cotes": [
+"K 211"
+],
+"ids": [
+"AT38",
+"107"
+],
+"nature": "musique"
+},
+{
+"page": 138,
+"n": 2,
+"fichier": "a-138-2.jpg",
+"y0": 430,
+"y1": 766,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 145",
+"dedans": "K 726 \u001d � �� Vif ( = \u001c 80) \u001c Large � \u001e \u001e \u001e � 2 � � � � � � � 3 � � � � � � � � � � � � � � � � � � � � � � � � � � � Ce lui qui fait la vé ri té vient à la lu miè re. � � � � � � � � � � � � � �� � � � � � � � � � � � � � 2 � � 3 � � � � � � � � \u001c \u001c \u001f \u001f \u001f � � �� � � � � � \u001b � � � � � � � � � � � � �",
+"cotes": [
+"K 726"
+],
+"ids": [
+"145"
+],
+"nature": "musique"
+}
+],
+"139": [
+{
+"page": 139,
+"n": 1,
+"fichier": "a-139-1.jpg",
+"y0": 50,
+"y1": 341,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 138, 1-10",
+"dedans": "K 645 � � � � � � � \u001e � � \u001d � � � � � = 56 � � � \u001e � 2 � � � � � � � � � � � � � � � � � � � Je vais te con duire au dé sert, et je par le rai à ton cœur. � � � � � � � � � � � � � � � � � � � �� � � �� 2 � � � � � � � � � � � � \u001f \u001f � � � \u001c �� � � � � �� � � � � � � � � � � � � � � � � � � � � � � �",
+"cotes": [
+"K 645"
+],
+"ids": [
+"138"
+],
+"nature": "musique"
+},
+{
+"page": 139,
+"n": 2,
+"fichier": "a-139-2.jpg",
+"y0": 383,
+"y1": 715,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 138, 11-24 & NT X p. 180",
+"dedans": "K 512 \u0018 \u001c \u001c Lourd, pesant ( \u001c = 58) \u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001e \u001e \u0019 \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001d \u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001d\u001d \u001d \u001d \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001d \u001d \u001d \u001d Ma vie é tait au bord des En fers, dé jà comp té par mi les morts ; \u001a \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001d \u001d \u001d \u001b \u001d \u001c \u001d \u001d \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001f \u001f \u001d \u001d \u001d \u001c \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001e \u001d \u0017 \u001d \u001d \u001d \u001f \u001f \u0018 \u001d \u0014 \u001b \u001d \u001f \u001f \u001d \u001d \u0016 \u0016",
+"cotes": [
+"K 512"
+],
+"ids": [
+"NT10",
+"138"
+],
+"nature": "musique"
+}
+],
+"140": [
+{
+"page": 140,
+"n": 1,
+"fichier": "a-140-1.jpg",
+"y0": 50,
+"y1": 373,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 142 & AT 41",
+"dedans": "K 652 \u0017 \u001a \u001d \u001d \u001c \u001f \u001f \u001e \u001e = 52 \u001f \u001e\u001e \u001e \u001e \u001e \u001f\u001f \u001e \u001e\u001e \u001f \u001e \u001e \u001c \u001d \u0018 \u001f \u001e \u001e \u001f \u001e \u001e \u001c J'é tais comme un a gneau qu'on em mène à la mort \u001f \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001f \u001e \u001e \u001c \u0019 \u001a \u001f \u001e \u001e \u001e \u001e \u001f \u001d \u001e \u001e \u001f \u001e \u001b \u001e \u001c \u001d \u0016 \u001f \u001f \u001e \u0017 \u001a \u0014 \u001b \u001e \u001e \u001e \u001e \u0015 \u0015 \u001e \u001e \u0015 \u001e \u0015 \u001d \u001d \u0018 \u001e \u001e \u001e \u001e \u001f \u001e \u001f \u001e \u001f \u001f \u001f \u001f \u0015 \u0015 \u001e \u001e \u0015 \u0015 \u0015 \u001e \u001e \u0015 \u001e \u001e et qui n'ou vre pas la bou",
+"cotes": [
+"K 652"
+],
+"ids": [
+"AT41",
+"142"
+],
+"nature": "musique"
+},
+{
+"page": 140,
+"n": 2,
+"fichier": "a-140-2.jpg",
+"y0": 416,
+"y1": 738,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 146",
+"dedans": "K 764 \u001c \u0015 \u001e = 50 \u001f \u0018 \u001f \u001f \u001d \u001f \u001f \u001f \u0018 \u001f \u001f \u001f \u001f \u001f \u0019 \u001f \u001f \u0019 \u001f \u001f \u001f \u001f \u001f \u001f \u001c \u001d \u0016 \u001f \u001f \u001f \u001f \u001f \u001b \u0019 \u001f \u001f \u0019 \u001f \u001f \u001f \u001f \u0019 \u001a \u0019 \u001b \u001f \u001d \u001c Le Jus te qui é tait sans pé ché, Dieu l'a fait pé ché pour nous. \u001e \u001f \u001f \u0019 \u001c \u0017 \u0018 \u001f \u001f \u001f \u001f \u001f \u0019 \u001f \u001f \u0019\u0019 \u001f\u001f \u001f\u001f \u001f\u001f \u001f\u001f \u0019 \u0019 \u0018 \u0019 \u001f \u001f \u001c \u0014 \u001e \u001f \u001f \u001e \u001f \u001f \u001f \u0015 \u0018 \u001b \u0016\u0018 \u0013 \u0013 \u001f \u001f \u001f \u0013 \u0013 \u0013 \u001f \u001b \u001f \u001b \u0013 \u001b \u0013 \u0013 \u001f\u001f \u001b ",
+"cotes": [
+"K 764"
+],
+"ids": [
+"146"
+],
+"nature": "musique"
+}
+],
+"141": [
+{
+"page": 141,
+"n": 1,
+"fichier": "a-141-1.jpg",
+"y0": 50,
+"y1": 363,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 143, 1-8",
+"dedans": "K 632 \u0019 \u0016 \u0014 \u001d \u001f\u001f \u001f\u001f = 60 \u001f \u0017\u0016 \u001f \u001f \u001d \u001e \u001f \u001d \u001f \u001d \u001d \u001f \u001f \u001b\u001d \u001f \u001f\u001f \u001d \u001e \u001f \u001d \u001f \u001b \u001f \u001d \u001f \u001d \u001f \u001c \u001d \u001e \u001f \u001a \u001d \u001d \u001f \u001c \u001b Sau ve- moi par ton a mour : Ils veu lent m'ar ra cher à la ter re des vi vants. \u001d \u001e \u001f \u001f \u001e \u001d\u001d \u001e \u001f \u001f \u001f \u001d \u001d \u001d \u001f \u001f \u001d \u001d \u001f \u001f \u001f \u001b\u001b \u001f\u001f \u001f\u001f \u001d\u001d \u001e \u001f\u001f \u001c \u001d \u001d \u001d \u001d \u001b \u0015 \u0016 \u001c \u001d \u001e \u001f \u001c \u001d \u001d \u001f \u001f \u001f \u001f \u001b \u0016 \u0018 \u001e \u001e \u0019 \u0016 \u0013 \u001c \u0017 \u0016",
+"cotes": [
+"K 632"
+],
+"ids": [
+"143"
+],
+"nature": "musique"
+},
+{
+"page": 141,
+"n": 2,
+"fichier": "a-141-2.jpg",
+"y0": 406,
+"y1": 729,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 143, 9-15 & NT V p. 184",
+"dedans": "K 756 \u001c = 66 \u0019 \u001d \u0017 \u001d \u001b \u001f \u001d \u001f \u001f \u001f \u001f \u001e \u001e \u001b \u001f \u001f \u001f \u001e \u001f \u001f \u001e \u001f\u001f \u001f \u001e \u001a \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001e \u001f \u001f \u001e \u001f \u001e \u001e \u001e \u001e \u001e \u001e \u001d \u001d Ce lui qui croit en ma pa ro le est pas sé de la mort à la vie. \u001c \u001f\u001f \u001f\u001f \u001f\u001f \u001f \u001f \u001f\u001f \u001f \u001f\u001f \u001e \u001e \u0017 \u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001d \u001d \u001b \u001b \u001f \u001e \u001e \u001f \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u0018 \u001d \u001d \u001d \u001f \u001f \u0014 \u001d \u0019 \u001b \u001f \u001b \u001a \u001b \u0015 \u0015 \u0015 \u0015 \u001f \u001f \u0015 \u0015 \u0015 \u0015 \u001f \u001f \u001f \u0015 \u0015",
+"cotes": [
+"K 756"
+],
+"ids": [
+"NT5",
+"143"
+],
+"nature": "musique"
+}
+],
+"142": [
+{
+"page": 142,
+"n": 1,
+"fichier": "a-142-1.jpg",
+"y0": 50,
+"y1": 352,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 50 & AT 7",
+"dedans": "K 635 \u0019 \u0017 Large ( \u001c = 60) \u001f \u001f \u001e \u001d \u001d \u001d \u001d \u001d \u001a \u001e \u001d \u001d \u001e\u001e \u001d \u001d \u001d \u001d \u001e \u001e \u001e \u001f \u001d \u001d \u001d \u001e \u001e \u001e \u001e \u001d \u001d \u001d \u001e\u001e \u001f\u001f \u001d \u001d \u001d \u001d \u001d\u001d \u001e \u001f \u001c \u001e \u001e Par ses souf fran ces, mon ser vi teur ra chè te ra les mul ti tu des. \u001e \u001d \u001d \u001d \u001d \u001e \u001f \u001d \u001e \u001e \u001b \u001e \u001d \u001d \u001e\u001e \u001d\u001d \u001d \u001e \u001e \u001e \u001d \u0017 \u001d \u001d \u001d \u001e \u001f \u001d \u001d \u001e \u001e \u0018 \u001e \u001f \u001d \u001d \u001d \u001e \u001f \u001d \u001d \u001d \u001e \u001f \u001e \u001e \u001f \u0019 \u0015 \u001b \u001a \u0016 \u0016 \u001d \u001d \u001d",
+"cotes": [
+"K 635"
+],
+"ids": [
+"AT7",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 142,
+"n": 2,
+"fichier": "a-142-2.jpg",
+"y0": 395,
+"y1": 719,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 147",
+"dedans": "K 735 � � � � \u001c \u001d � Violent ( = 56) � � � � � � � � � \u001e � �� � � � � �� � � � \u001e � 3 � � � � � � � � � � � � � � � � � � � Dé trui sez ce Tem ple, et en trois jours, je le re lè ve rai ! � � � � � � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � \u001f \u001f � � � �",
+"cotes": [
+"K 735"
+],
+"ids": [
+"147"
+],
+"nature": "musique"
+}
+],
+"143": [
+{
+"page": 143,
+"n": 1,
+"fichier": "a-143-1.jpg",
+"y0": 50,
+"y1": 365,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 144, 1-9",
+"dedans": "K 714 \u0018 \u001d \u001e \u001b \u001d \u001f \u001e \u001f \u001f \u001b \u001f \u001f \u001f \u001f = 52 \u0019 \u001d \u001e \u001d \u001f \u001e \u001f \u001f \u001e \u001e \u001e \u001d \u001d \u001e \u001e \u001f Nous étions morts, et nous sommes re ve nus à la vi e. Nous étions per dus, \u001d \u001e \u001b \u001d \u001f \u001f \u001e \u001f \u001f \u001f \u001e \u001d \u001e \u001b \u001a \u001e \u001f \u001c \u001f\u001f \u001e \u001e \u001d \u001e \u0017 \u001d \u001e \u001d \u001f \u001f \u0018 \u001e \u001d \u001e \u001f \u0016 \u001d \u001d \u001f \u001f \u001f \u001d \u001f \u001d \u001d \u001f \u001c \u0019 \u001d \u001e \u001f \u001f \u001f \u0016 \u001f \u001d \u001d \u001d \u001f \u001f et tu nous as re trou vés ! \u001d \u001e \u001f ",
+"cotes": [
+"K 714"
+],
+"ids": [
+"144"
+],
+"nature": "musique"
+},
+{
+"page": 143,
+"n": 2,
+"fichier": "a-143-2.jpg",
+"y0": 408,
+"y1": 751,
+"x0": 37,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 144, 10-21 & NT X p. 180",
+"dedans": "K 311 � \u001d \u001e � � Calme ( = 66) \u001f \u001f � � � � � � � � � �� � � � \u001c � 3 � � �� �� � � � �� �� � � � �� � � � � � � � � � � Sei gneur, en toi est la sour ce de la vie : tu nous a breu ves � � � � � � � � � � � � � � � � �� � � � � � � � � �� � � � � � �� 3 � � � � � � � � � � � � � � � � \u001b \u001f \u001f � \u001f � � \u001c \u001a",
+"cotes": [
+"K 311"
+],
+"ids": [
+"NT10",
+"144"
+],
+"nature": "musique"
+}
+],
+"144": [
+{
+"page": 144,
+"n": 1,
+"fichier": "a-144-1.jpg",
+"y0": 50,
+"y1": 382,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 91 & AT 46",
+"dedans": "K 653 \u001d \u001e � � � = \u001f 50 \u001f \u001f � � 3 � � �� �� � � � � � � � � �� � � � � � � � � � � � � � � � � Je suis le Dieu vi vant : Je ne veux pas la mort du pé cheur, � � � � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � � 3 � \u001f \u001f \u001f � � � � � � � � � � � � \u001c � � \u001a � � � � � � � � � � � � � �",
+"cotes": [
+"K 653"
+],
+"ids": [
+"AT46",
+"91"
+],
+"nature": "musique"
+},
+{
+"page": 144,
+"n": 2,
+"fichier": "a-144-2.jpg",
+"y0": 425,
+"y1": 721,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 8",
+"dedans": "K 626 � � � \u001c \u001d = 50 � � � � �� �� �� \u001e � 3 � � � � � � � � � � � � �� �� � � �� � � � � � � � � � Lè ve- toi, Sei gneur ! Ra chè te- nous en rai son de ton a mour ! � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � \u001f � � \u001b � � � �� � � � � � � � � �� � � ",
+"cotes": [
+"K 626"
+],
+"ids": [
+"8"
+],
+"nature": "musique"
+}
+],
+"145": [
+{
+"page": 145,
+"n": 1,
+"fichier": "a-145-1.jpg",
+"y0": 50,
+"y1": 368,
+"x0": 35,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 140",
+"dedans": "K 733 \u001c \u001d � = 48 � � � � �� � \u001e \u001e � 3 � � � � � � � � � � � � � � � � � � � � � Cher chez le Sei gneur, et votre â me vi vra ! � � � �� � � � � � � � � � � �� � � �� � � � � � � � � � � 3 � � \u001f \u001f � � \u001b � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � � �� � � � � �",
+"cotes": [
+"K 733"
+],
+"ids": [
+"140"
+],
+"nature": "musique"
+},
+{
+"page": 145,
+"n": 2,
+"fichier": "a-145-2.jpg",
+"y0": 411,
+"y1": 757,
+"x0": 35,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 141 & NT IV p. 182",
+"dedans": "K 412 \u001e \u0018 \u001b \u001d \u001d Léger et doux ( = 50) \u001f \u001c \u001e \u001c \u001f \u001e \u001e retenu \u0019 \u001e \u001e \u001f \u001f \u001c \u001e \u001f \u001f \u001c \u001e \u001e \u001e \u001e \u001f \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f\u001f \u001c \u001c C'est toi, Sei gneur, qui éc lai res ma lam pe ! Ô mon Dieu, \u001e \u001f \u001c \u001e \u001f \u001c \u001e \u001e \u001f \u001e \u001e \u001f \u001f \u001f \u001f \u001a \u001b \u001e \u001f \u001c \u001e \u001f \u001e \u001e \u001f \u001d \u001f \u001c \u001d \u001f \u001c \u001e \u001e \u001f \u001f \u001f \u001c \u001f \u0017 \u001f \u0018 \u0014 retenu \u001b \u001f \u001f \u001b \u001d \u0019 \u001e \u001e\u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001e \u001e",
+"cotes": [
+"K 412"
+],
+"ids": [
+"NT4",
+"141"
+],
+"nature": "musique"
+}
+],
+"146": [
+{
+"page": 146,
+"n": 1,
+"fichier": "a-146-1.jpg",
+"y0": 50,
+"y1": 370,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 1",
+"dedans": "K 511 � � � � \u001d \u001e \u001f \u001f \u001f \u001f � � �� �� = 52 � 3 �� � � � � � � �� � � � � � �� �� � �� � � � � � �� � � �� �� � � � �ue je ren de grâce à ton a mour : Tu as ti ré de l'a bî me des morts � � � � � � � � � � � � � � � � � � � � � �� � � � � �� �� � � � �� � �� � � � � � � � � � � 3 � \u001f \u001f \u001f \u001f � � � \u001f \u001a \u001c ",
+"cotes": [
+"K 511"
+],
+"ids": [
+"1"
+],
+"nature": "musique"
+},
+{
+"page": 146,
+"n": 2,
+"fichier": "a-146-2.jpg",
+"y0": 413,
+"y1": 801,
+"x0": 0,
+"x1": 602,
+"dessus": "",
+"dessous": "Psaume 2",
+"dedans": "K 512 \u0018 \u001c \u001c Lourd, pesant ( \u001c = 58) \u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001e \u001e \u0019 \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001d \u001d \u001d \u001f \u001f \u001d \u001e \u001f \u001d \u001d \u001d \u001d \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001d \u001d \u001d \u001d Ma vie é tait au bord des En fers, dé jà comp té par mi les morts ; \u001a \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001d \u001d \u001d \u001b \u001d \u001c \u001d \u001d \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001f \u001f \u001d \u001d \u001d \u001c \u001d \u001d \u001e \u001f \u001f \u001f \u0016 \u001d \u001e \u001d \u0017 \u001d \u001d \u001d \u001f \u001f \u0018 \u001d \u0014 \u001b \u001d \u001f \u001f \u001d \u001d \u0016 ",
+"cotes": [
+"K 512"
+],
+"ids": [
+"2"
+],
+"nature": "musique"
+}
+],
+"148": [
+{
+"page": 148,
+"n": 1,
+"fichier": "a-148-1.jpg",
+"y0": 50,
+"y1": 360,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 1",
+"dedans": "K 754 \u0017 \u0019\u0019\u0019 \u001d \u001f\u001f \u001f\u001f \u001d \u001e \u001f \u001f \u001e \u001c \u001e \u001c \u001e Très calme ( = 60) \u001e \u001e \u001c \u001e \u001e \u0018 \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f \u001e \u001e \u001e \u0019 \u001c \u001f \u001f \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f Je vous don ne rai un cœur nou veau ! Je met trai en vous mon es prit ! \u001e \u001e \u001e \u001c \u001a \u0019 \u0019 \u001f \u001f \u001f \u001f\u001f \u001f\u001f \u001e \u001b \u001f\u001f \u001f\u001e \u001f \u001e \u001f \u001c \u001d \u001f \u001f \u001f\u001f \u001f\u001f \u001e \u001f \u0019 \u001e \u001b \u001f \u001c \u001f \u001f \u001f \u001e \u001c \u0016 \u001f \u001f \u001f \u001f \u0017 \u0019\u0019\u0019 \u0015 \u001f \u001c \u0018 \u0015 \u0015 \u0015",
+"cotes": [
+"K 754"
+],
+"ids": [
+"1"
+],
+"nature": "musique"
+},
+{
+"page": 148,
+"n": 2,
+"fichier": "a-148-2.jpg",
+"y0": 403,
+"y1": 758,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 2",
+"dedans": "K 724 \u0018 \u001b \u001f \u001c \u001e \u0019 \u001c \u001e \u001e \u001e \u001f \u001d \u001e \u001d\u001e \u001d \u001f \u001d \u001c \u001f \u001e \u001f \u001d \u001f \u001f \u001c \u001f \u001c \u001e \u0016 \u001f \u001c \u001f \u001e \u001f \u001f \u001f Je mettrai ma loi au fond de votre ê tre, et je l'écri rai sur vo tre cœur. \u0016 \u001f \u001c \u001e \u001f \u001f \u001f \u001a \u001c \u001f \u001c \u001e\u001e \u001e \u001e \u0016 \u001f \u001b \u001c \u001f \u001f \u001e \u001f \u001f \u0017 \u001c \u001f \u001c \u001f \u001f \u0018 \u001d \u0019 \u001c \u0014 \u001e \u001e \u001e \u001c \u001c \u001e \u001c \u001e \u001c \u001e \u001c \u001c \u001e \u001c \u001e \u0015 \u001c \u001c \u001e \u001e \u001e \u001c \u001c \u001c \u001e \u001e \u001c \u001c \u001e \u001a \u001e \u001c \u001e \u001e \u0017",
+"cotes": [
+"K 724"
+],
+"ids": [
+"2"
+],
+"nature": "musique"
+}
+],
+"150": [
+{
+"page": 150,
+"n": 1,
+"fichier": "a-150-1.jpg",
+"y0": 50,
+"y1": 376,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 1",
+"dedans": "K 644 \u0017 \u001a \u001f \u001f \u001d = 72 \u001e \u001e \u001e \u001d \u001d \u001e\u001e \u001e \u001b \u001d \u001b \u001e \u001e \u0018 \u001e \u001e \u001d \u001d \u001e \u001a\u001e \u001a \u001d \u001d \u001d \u001c \u001e \u001e \u001c \u001e\u001e \u001d \u001d \u001d\u001d \u001d \u001e \u001b \u001d\u001d \u001d \u001b Gué ris- moi, Sei gneur, et je se rai gué ri, car tu es mon es poir. \u001e \u001e \u001d \u001d \u001d \u001d \u001e \u001e \u001a \u001b \u001d \u001c \u001b \u0019 \u001a \u001d \u001d \u001f \u001d \u001e \u001e \u001e \u001e \u001d \u001f \u001d\u001d \u001e \u001e \u001e \u001e \u001d \u001d \u001e \u001e \u001d \u001d \u001e \u001e \u001b \u001d \u001b \u0016 \u001f \u001f \u001f \u0017 \u001a \u0015 \u001e \u001c \u0018 \u0014 \u0014 \u001e \u001e \u001e \u001e \u0014 \u0014 \u0014 \u001e \u001e \u0014 \u0014 \u001e ",
+"cotes": [
+"K 644"
+],
+"ids": [
+"1"
+],
+"nature": "musique"
+},
+{
+"page": 150,
+"n": 2,
+"fichier": "a-150-2.jpg",
+"y0": 419,
+"y1": 784,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 2",
+"dedans": "K 645 � � � � � � � \u001e � � \u001d � � � � � = 56 � � � \u001e � 2 � � � � � � � � � � � � � � � � � � � Je vais te con duire au dé sert, et je par le rai à ton cœur. � � � � � � � � � � � � � � � � � � � � � � � �� 2 � � � � � � � � � � � � \u001f \u001f � � � \u001c �� � � � � �� � � � � � � � �� � � � � � � � � � � � � � �",
+"cotes": [
+"K 645"
+],
+"ids": [
+"2"
+],
+"nature": "musique"
+}
+],
+"152": [
+{
+"page": 152,
+"n": 1,
+"fichier": "a-152-1.jpg",
+"y0": 50,
+"y1": 306,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 62 & AT 5 (p.178)",
+"dedans": "K 312 � � \u001d \u001e \u001f � �� � Léger ( = 54) � � 3 � � � � � �� � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � Mon âme a soif du Dieu de vi e ! �uand le ver rai- je face à fa ce ? � � � � � � � �� � � � � � � � � � �� � � � � � � � � �� � � � � � � � � � �� 3 � � � � � � � \u001f � \u001c � � � � � ",
+"cotes": [
+"K 312"
+],
+"ids": [
+"AT5",
+"62"
+],
+"nature": "musique"
+},
+{
+"page": 152,
+"n": 2,
+"fichier": "a-152-2.jpg",
+"y0": 348,
+"y1": 827,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 149",
+"dedans": "K 015 pp p \u001c = 100 � � \u001f \u001f � \u001f \u001f �� \u001d � 2 � � � � �� � � � � � � �� �� � � � �� �� �� �� �� �� � � � � � � Voi ci que nous mon tons à Jé ru sa lem, où le Fils de l'hom me se ra � � � � � � � � � � � � � � � �� � � � �� � � � � � � � � � � �� � 2 � � � � � � � \u001f \u001f \u001e \u001f \u001f f mf mf � � � \u001f � \u001f \u001f \u001b \u001d � \u001b ",
+"cotes": [
+"K 015"
+],
+"ids": [
+"149"
+],
+"nature": "musique"
+}
+],
+"153": [
+{
+"page": 153,
+"n": 1,
+"fichier": "a-153-1.jpg",
+"y0": 50,
+"y1": 312,
+"x0": 32,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 109",
+"dedans": "K 752 \u001d \u0016 = 54 \u0019 \u001d \u0019 \u001f \u001e \u001c \u001f \u001e \u001a \u001e \u0017 \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001a \u001e \u001e \u001e \u001e \u001e \u001e \u001c \u001f \u001f \u001f \u001f \u001e \u001e \u001e \u001a \u001a \u001e \u001e Ils ont per cé mes mains et mes pieds. Je peux comp ter tous mes os ! \u0018 \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001a \u001e \u001e \u001e \u001e \u001c \u001c \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001e \u001e \u001b \u001a \u0019 \u001f \u001f \u001a \u001e \u001e \u001e \u001e \u001e \u001a \u0019 \u0015 \u001f \u001f \u0016 \u0019 \u0014 \u001c \u0017 \u0019 \u0014 \u0014 \u0014 \u001f\u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u0014 ",
+"cotes": [
+"K 752"
+],
+"ids": [
+"109"
+],
+"nature": "musique"
+},
+{
+"page": 153,
+"n": 2,
+"fichier": "a-153-2.jpg",
+"y0": 354,
+"y1": 788,
+"x0": 32,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 113a & NT X p. 180",
+"dedans": "K 736",
+"cotes": [
+"K 736"
+],
+"ids": [
+"NT10",
+"113"
+],
+"nature": "musique"
+}
+],
+"154": [
+{
+"page": 154,
+"n": 1,
+"fichier": "a-154-1.jpg",
+"y0": 50,
+"y1": 344,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 5 & AT 4",
+"dedans": "K 731 \u001a \u0018 \u001d = 56 \u001d \u001f \u001e \u001f \u001d \u001d \u001f \u001d \u001e \u001b \u001d \u001d \u001d \u001d \u001e\u0017 \u001f \u001f \u001d \u001f \u001f \u001d \u001e \u001d \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f\u001f \u001f \u001f \u001f Ré ponds- moi, Sei gneur ! �ue l'a bî me des eaux ne me sub mer ge ! \u001f \u001d \u001f \u001f \u001f \u001c \u001d \u001f\u001d \u001d \u001d \u001f \u001f \u0017\u0017 \u0018 \u001f \u001f \u001f \u001d \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001f\u001f \u001f \u001f \u001f \u001f \u001d \u001f \u001d \u001d \u001f \u001f \u0019 \u001d \u001f \u001f \u001a \u001c \u001b \u0016 \u0015 \u001f \u001f \u001f \u0016 \u001f \u001f \u0016 \u001f \u0016 \u001f \u0016 \u001f \u0016 \u001f \u0016 \u0016 \u001f \u001f \u0015 \u001f\u001f \u0016 \u0016 \u001f ",
+"cotes": [
+"K 731"
+],
+"ids": [
+"AT4",
+"5"
+],
+"nature": "musique"
+},
+{
+"page": 154,
+"n": 2,
+"fichier": "a-154-2.jpg",
+"y0": 387,
+"y1": 742,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 28",
+"dedans": "K 212 f ff Mystérieux, large ( \u001c \u001d = 60) � � � �� �� �� � � � �� �� �� � �� �� � \u001f � �� �� � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � Fais bril ler sur nous ta fa ce, Sei gneur Jé sus ! Et tous les peu ples de la ter re � � � � �� � � � � � � � � � � � � � � �� � � � � � � � � � � � ",
+"cotes": [
+"K 212"
+],
+"ids": [
+"28"
+],
+"nature": "musique"
+}
+],
+"155": [
+{
+"page": 155,
+"n": 1,
+"fichier": "a-155-1.jpg",
+"y0": 50,
+"y1": 343,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 10",
+"dedans": "K 725 � � � \u001d � �� = 63 � � � � � � � �� � � � \u001e � 2 � � � � � � � � �� � � � � �� �� �� � � � � Ils t'ont a ban don né, toi la sour ce d'eau vi ve, pour des puits des sé chés. � � � � � � � � � � � � � � �� �� �� � � � � �� � � � � � � � � � � � �2 � � � � � � \u001f � � � � \u001c � � � � � � � �� � � � � �",
+"cotes": [
+"K 725"
+],
+"ids": [
+"10"
+],
+"nature": "musique"
+},
+{
+"page": 155,
+"n": 2,
+"fichier": "a-155-2.jpg",
+"y0": 386,
+"y1": 734,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 14 & NT V p. 184",
+"dedans": "K 733 \u001d = 56 f � � � � � � � � � � \u001e � � � � � � � \u001e � � � � � � � � � � � � � � � � � � � � Je suis a vec toi pour te dé li vrer de la main des pé cheurs. � � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � \u001f \u001f � \u001c � � � � � �� � � � � �� � � � � � � � � � � � � � � �� ",
+"cotes": [
+"K 733"
+],
+"ids": [
+"NT5",
+"14"
+],
+"nature": "musique"
+}
+],
+"156": [
+{
+"page": 156,
+"n": 1,
+"fichier": "a-156-1.jpg",
+"y0": 50,
+"y1": 343,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 23 & AT 6",
+"dedans": "K 614 \u0018 \u001b \u001d \u001b \u001c \u001e \u001f \u001e \u001e \u001e \u0019 \u001c \u001e \u001e \u001f \u001e \u001e \u001e \u001f \u001e \u001f \u001f \u001c \u001c \u001f \u001f \u001e\u001e \u001e \u001e \u001f \u001f \u001f \u001f \u001e Si quelqu'un veut mar cher à ma sui te, qu'il prenne sa croix et me sui ve ! \u001f\u001f \u001e \u001d \u001c \u001f \u001e \u001f \u001f \u001a \u001b \u001c \u001e \u001e \u001f \u001e \u001e \u0016 \u001e \u001e \u001e \u001f \u001c \u001f \u001e\u001e \u001e \u001b \u001f \u0017 \u001c \u001e \u001e \u001f \u001f \u001f \u0018 \u001b \u001d \u0019\u001b \u001c \u001e \u001e \u001c \u001c \u001c \u001c \u001e\u001e \u001c \u001c \u001c \u001e\u001e \u001e \u001e \u001c \u001c \u001e \u001c \u001c \u001e \u001e \u001c \u001c \u001e\u001e \u001a \u001b\u001b \u001e \u001c \u001c \u0017 \u001e",
+"cotes": [
+"K 614"
+],
+"ids": [
+"AT6",
+"23"
+],
+"nature": "musique"
+},
+{
+"page": 156,
+"n": 2,
+"fichier": "a-156-2.jpg",
+"y0": 385,
+"y1": 714,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 32",
+"dedans": "K 511 � � � � \u001d \u001e \u001f \u001f \u001f \u001f � � �� �� = 52 � 3 �� � � � � �� �� �� � � � � � �� �� � �� � � � � � �� � � �� �� � �ue je ren de grâce à ton a mour : Tu as ti ré de l'a bî me des morts � � � � � � � �� � � �� � � � � � �� � � � � �� � � � � �� �� � � � �� � �� � � � � � � � 3 � \u001f \u001f \u001f \u001f � � � \u001f \u001a \u001c � � �",
+"cotes": [
+"K 511"
+],
+"ids": [
+"32"
+],
+"nature": "musique"
+}
+],
+"157": [
+{
+"page": 157,
+"n": 1,
+"fichier": "a-157-1.jpg",
+"y0": 50,
+"y1": 316,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 19",
+"dedans": "K 752 \u001d \u0016 = 54 \u0019 \u001d \u0019 \u001f \u001e \u001c \u001f \u001e \u001a \u001e \u0017 \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001a \u001e \u001e \u001e \u001e \u001e \u001e \u001c \u001f \u001f \u001f \u001f \u001e \u001e \u001e \u001a \u001a \u001e \u001e Ils ont per cé mes mains et mes pieds. Je peux comp ter tous mes os ! \u001e \u001f \u001f \u001f \u001f \u001e \u001e \u001e \u001c \u001d \u001f \u001f \u001f \u001e \u0018 \u0019 \u001e \u001f \u001f \u001f \u001f \u001a \u001a \u001e \u001e \u001e \u001c \u001f \u001f \u001f \u001e \u001e\u001e \u001e\u001e \u001b \u001a \u001a \u0019 \u0015 \u001f \u001f \u0016 \u0019 \u0014 \u001c \u0017 \u0019 \u0014 \u0014 \u0014 \u001f\u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u001f \u0014 \u0014 \u001f \u0014 ",
+"cotes": [
+"K 752"
+],
+"ids": [
+"19"
+],
+"nature": "musique"
+},
+{
+"page": 157,
+"n": 2,
+"fichier": "a-157-2.jpg",
+"y0": 359,
+"y1": 794,
+"x0": 38,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 20 & NT IV p. 182",
+"dedans": "K 097 � � Léger ( \u001e \u001f = 60) \u001d � � 3 � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � Lè ve- toi, Sei gneur, dans ta ten dres se pour Si on ! � � � � � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � � � \u001d � � \u001d � � � � � � � � � � \u001b � � � � � � �� � � � � � � � � � � � � � L",
+"cotes": [
+"K 097"
+],
+"ids": [
+"NT4",
+"20"
+],
+"nature": "musique"
+}
+],
+"158": [
+{
+"page": 158,
+"n": 1,
+"fichier": "a-158-1.jpg",
+"y0": 50,
+"y1": 368,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 35 & AT 8",
+"dedans": "K 745 Lent ( \u001d = 44) \u0015 \u001c \u001c \u001f \u001d \u001b \u001f \u001e \u0018 \u001f \u001f \u001a \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001e \u001d \u001f \u0019\u001f \u001a \u001e \u001e \u0016 \u001f \u001f \u001a \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001d \u001f \u001f \u001a \u001a Il fal lait qu'un seul hom me meu re pour tout le peu ple. \u001f \u001f \u001a \u001c \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001c \u001d \u001f \u001f \u0019 \u001d\u001a \u001b \u001d \u001b \u001a \u001a \u0017 \u001f \u001f \u001b \u001a \u001f \u001f \u001f \u001f \u001d \u001d \u001e \u001d \u001f \u001f \u0018 \u0014 \u001f \u001f \u001f \u0015 \u0013 \u001c \u0016 \u0018 \u0012 \u0012 \u0018 \u0012 \u001f \u001f \u001f \u001f \u0012 \u0012 \u001f \u001f \u0012 \u0012 \u001f \u0012 \u0012 \u0012 \u001f \u001f ",
+"cotes": [
+"K 745"
+],
+"ids": [
+"AT8",
+"35"
+],
+"nature": "musique"
+},
+{
+"page": 158,
+"n": 2,
+"fichier": "a-158-2.jpg",
+"y0": 410,
+"y1": 734,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 46",
+"dedans": "K 715 Vif ( \u001d = 66) \u0019 Calme \u001f \u001f \u001e \u001e \u0017 \u001c \u001e\u001e \u001f\u001f \u001f\u001f \u001e \u001e\u001e \u001f \u001f \u001e\u001e \u001e \u001a \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001d \u001d Oui ! Je me lè ve rai, et j'i rai vers mon Pè re. \u001e \u001f \u001f\u001f \u001f \u001f \u001f \u001f \u001e \u001e \u0017 \u001f \u001f \u001f \u001f \u001e \u001f\u001f \u001f \u001f \u001f \u001d \u001b \u001e \u001f \u001e \u001f \u001e \u001c \u001d \u0018 \u001f \u001f \u0019 \u001c \u001a \u001c \u0016 \u0016 \u001f \u001f \u001f \u001f\u001f \u0016 \u0016 \u001f \u001f \u001f \u0016 \u0016 \u001f \u001f \u001f \u001f \u001f \u001f \u0016 \u001f \u001f \u001f \u0016 \u001f \u001f \u001f \u0016 \u001f \u001b \u0016 \u001f \u0016 \u0016 \u001c \u001f \u001f \u001f \u001f \u0018",
+"cotes": [
+"K 715"
+],
+"ids": [
+"46"
+],
+"nature": "musique"
+}
+],
+"159": [
+{
+"page": 159,
+"n": 1,
+"fichier": "a-159-1.jpg",
+"y0": 50,
+"y1": 381,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 26, 1-6",
+"dedans": "K 211 \u0019 \u001e \u001e \u001b \u001c \u001d \u001b = 50 \u001c \u001f \u001f \u001b \u001c\u001c \u001f\u001f \u001f\u001f \u001b \u001d \u001a \u001d \u001c \u001f\u001f \u001d \u001f \u001f \u0017 \u001c \u001b \u001b \u001f \u001f \u001c \u001f \u001f \u001c \u001c \u001b\u001b \u001c\u001c \u001c \u001c \u001b \u001b \u001f \u001f \u001c \u001c \u001b \u001b \u001f \u001f \u001f \u001f \u001f \u001f \u001c\u001c \u001b \u001b Sei gneur, tu es ma lu miè re, mon sa lut : Je cher che la splen deur \u001c\u001c \u001b \u001b \u001c \u001c \u001b \u001b \u001f \u001f \u001f\u001f \u001f\u001f \u001f \u001f \u001c \u001c \u001b \u001b \u001c \u001c \u001b\u001b \u001e \u001c \u001f \u001c \u001b \u001f \u001c \u001b \u001f \u001f \u001f\u001f \u001c\u001c \u001b\u001b \u0016 \u001d \u001c \u001f \u001c \u001b \u001d \u001f \u001c \u001b \u001f \u001f \u001a \u0018 \u001e",
+"cotes": [
+"K 211"
+],
+"ids": [
+"26"
+],
+"nature": "musique"
+},
+{
+"page": 159,
+"n": 2,
+"fichier": "a-159-2.jpg",
+"y0": 424,
+"y1": 734,
+"x0": 36,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 26, 7-14 & NT X p. 180",
+"dedans": "K 093 � � \u001d \u001e \u001f \u001f �� �� �� � � Paisible ( = 50) � � 3 � � � � �� � �� � �� � � �� � � � � � �� �� � � � � � � � � �� � � � � Sei gneur, re lè ve tes en fants, af fer mis- les de vant ta fa ce ! � �� � � �� � � �� �� �� � � �� �� � � � � � �� � � � � �� �� � � �� � � � � � � 3 � � � � � � \u001f \u001f � \u001c � �",
+"cotes": [
+"K 093"
+],
+"ids": [
+"NT10",
+"26"
+],
+"nature": "musique"
+}
+],
+"160": [
+{
+"page": 160,
+"n": 1,
+"fichier": "a-160-1.jpg",
+"y0": 50,
+"y1": 437,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 56 & AT 44",
+"dedans": "K 411 ff p \u001b \u001c � � � � = 48 � � \u001d \u001f � � � � \u001d � � � � � � �� � � � � � � � � �� � � � � � � �� �� �� � � �� �� �� �� � � � � � Des té nè bres, le Sei gneur a fait son voi le : Je t'in vo que, Sei gneur, �� �� � �� � � � � � � � � � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � � � �",
+"cotes": [
+"K 411"
+],
+"ids": [
+"AT44",
+"56"
+],
+"nature": "musique"
+},
+{
+"page": 160,
+"n": 2,
+"fichier": "a-160-2.jpg",
+"y0": 480,
+"y1": 761,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 47",
+"dedans": "K 735 � � � � \u001c \u001d � Violent ( = 56) � � � � � � � � � \u001e � �� � � � � �� � � � \u001e � 3 � � � � � � � � � � � � � � � � � � � Dé trui sez ce Tem ple, et en trois jours, je le re lè ve rai ! � � � � � � � � � � � � � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � �� 3 � � � \u001f \u001f � � � � ",
+"cotes": [
+"K 735"
+],
+"ids": [
+"47"
+],
+"nature": "musique"
+}
+],
+"161": [
+{
+"page": 161,
+"n": 1,
+"fichier": "a-161-1.jpg",
+"y0": 50,
+"y1": 378,
+"x0": 35,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 29",
+"dedans": "K 715 Vif ( \u001d = 66) \u0019 Calme \u001f \u001f \u001e \u001e \u0017 \u001c \u001e \u001f \u001f \u001e \u001e \u001f \u001f \u001e \u001e \u001a \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001e \u001d \u001d Oui ! Je me lè ve rai, et j'i rai vers mon Pè re. \u001e \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001f \u001d \u001b \u001e \u001f \u001f \u001f \u001e \u0017 \u001e \u001f\u001f \u001f \u001e \u001c \u001d \u0018 \u001f \u001f \u0019 \u001c \u001a \u001c \u0016 \u0016 \u001f \u001f \u001f \u001f \u001f \u0016 \u0016 \u001f \u001f \u001f \u0016 \u0016 \u001f \u001f \u001f \u001f \u001f \u001f \u0016 \u001f \u001f \u001f \u0016 \u001f \u001f \u001f \u0016 \u001f \u001b \u0016 \u001f \u0016 \u0016 \u001c \u001f \u001f \u001f \u001f \u0018",
+"cotes": [
+"K 715"
+],
+"ids": [
+"29"
+],
+"nature": "musique"
+},
+{
+"page": 161,
+"n": 2,
+"fichier": "a-161-2.jpg",
+"y0": 421,
+"y1": 749,
+"x0": 35,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 31 & NT V p. 184",
+"dedans": "K 633 \u0019 \u001c \u0017 \u001d = 46 \u001e \u001f \u001f \u001f \u001e \u001f \u001e \u001a \u001e \u001f \u001e \u001f \u001f \u001e \u001f \u001f \u001f \u001e \u001e \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001d Tu m'as ca ché, Sei gneur, au se cret de ta fa ce. \u001b \u001c \u001e \u001f \u001f \u001e \u0017 \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001d \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001e \u001d \u0018 \u001f \u001f \u001f \u0019 \u001c \u001c \u001a \u0016 \u0016 \u0016 \u0016 \u001f\u001f \u0016 \u0016 \u0016 \u0016 \u0016 \u001f \u0016 \u001f \u001f \u0016 \u001c \u0016 \u001f \u0016 \u0015 \u0016 \u001f \u0016 \u001f \u001b \u001c \u0016 \u0016 \u0016 \u001f \u0016 \u001f \u001f \u0016 \u0018",
+"cotes": [
+"K 633"
+],
+"ids": [
+"NT5",
+"31"
+],
+"nature": "musique"
+}
+],
+"162": [
+{
+"page": 162,
+"n": 1,
+"fichier": "a-162-1.jpg",
+"y0": 50,
+"y1": 352,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 50 & AT 30",
+"dedans": "K 754 \u0017 \u0019\u0019\u0019 \u001d \u001f\u001f \u001f\u001f \u001d \u001e \u001f \u001f \u001e \u001c \u001e \u001c \u001e Très calme ( = 60) \u001e \u001e \u001c \u001e \u001e \u0018 \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f \u001e \u001e \u001e \u0019 \u001c \u001f \u001f \u001e \u001e \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f Je vous don ne rai un cœur nou veau ! Je met trai en vous mon es prit ! \u001e \u001e \u001e \u001c \u001a \u0019\u0019\u0019 \u001f \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001b \u001f\u001f \u001e \u001f \u001f \u001e \u001f \u001c \u001d \u001f \u001f \u001f \u001f \u001f\u001f \u001e \u001f \u001e \u001b \u001f \u001c \u001f \u001f \u001f \u001e \u001c \u0016 \u001f \u001f \u001f \u001f \u0017 \u0019\u0019\u0019 \u0015 \u001f \u001c \u0018 \u0015 \u0015",
+"cotes": [
+"K 754"
+],
+"ids": [
+"AT30",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 162,
+"n": 2,
+"fichier": "a-162-2.jpg",
+"y0": 394,
+"y1": 722,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 99",
+"dedans": "K 413 pp � � \u001b \u001c \u001f � détaché � �� = 44 \u001f �� � \u001e \u001e � � �� �� � � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � Qui me suit ne mar che pas dans la nuit : Il au ra la lu miè re de la vie ! � � � � � � � � �� � � � �� � � � � � �� � � � � �� �� � � � � �� � � � �� � � � �� � �",
+"cotes": [
+"K 413"
+],
+"ids": [
+"99"
+],
+"nature": "musique"
+}
+],
+"163": [
+{
+"page": 163,
+"n": 1,
+"fichier": "a-163-1.jpg",
+"y0": 50,
+"y1": 357,
+"x0": 34,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 40",
+"dedans": "K 633 \u0019 \u001c \u0017 \u001d = 46 \u001e \u001f \u001f \u001f \u001e \u001f \u001e \u001a \u001e \u001f \u001e \u001f \u001f \u001e \u001f \u001f \u001f \u001e \u001e \u001d \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001d Tu m'as ca ché, Sei gneur, au se cret de ta fa ce. \u001b \u001c \u001e \u001f \u001f \u001e \u0017 \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001d \u001e \u001f \u001f \u001f \u001f \u001f \u001f \u001e \u001f \u001f \u001f \u001f \u001e \u001d \u0018 \u001f \u001f \u001f \u0019 \u001c \u001c \u001a \u0016 \u0016 \u0016 \u0016 \u001f\u001f \u0016 \u0016 \u0016 \u0016 \u0016 \u001f \u0016 \u001f \u001f \u0016 \u001c \u0016 \u001f \u0016 \u0015 \u0016 \u001f \u0016 \u001f \u001b \u001c \u0016 \u0016 \u0016 \u001f \u0016 \u001f \u001f \u0016 \u0018",
+"cotes": [
+"K 633"
+],
+"ids": [
+"40"
+],
+"nature": "musique"
+},
+{
+"page": 163,
+"n": 2,
+"fichier": "a-163-2.jpg",
+"y0": 400,
+"y1": 750,
+"x0": 34,
+"x1": 641,
+"dessus": "",
+"dessous": "Psaume 45 & NT X p. 180",
+"dedans": "K 311 � \u001d \u001e � � Calme ( = 66) \u001f \u001f � � �� �� � � � � � �� � � � \u001c � 3 � � � � � � � � � �� � � � �� � � � � � � � � � � Sei gneur, en toi est la sour ce de la vie : tu nous a breu ves � � � � � � � � � � � � � � � � �� � � � � � � � � �� � � � � � �� 3 � � � � � � � � � � � � � � � � \u001b \u001f \u001f � \u001f � � \u001c ",
+"cotes": [
+"K 311"
+],
+"ids": [
+"NT10",
+"45"
+],
+"nature": "musique"
+}
+],
+"164": [
+{
+"page": 164,
+"n": 1,
+"fichier": "a-164-1.jpg",
+"y0": 50,
+"y1": 496,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 118-XIX & AT 1",
+"dedans": "K 111 pp Large ( \u001d = 60) � � � � � \u001e \u001e � � � � � � �� � � � � � � � � � � � � Sei gneur, ma part d'hé ri tage et ma cou pe ! � � �� � � � � � � � � � � � � � � � � � � � � � � � � � � � � \u001f \u001f � � � � � � � � � � � � � � � � � \u001e � � � � � � � � � � � � � � � � � � � � � � � � � L'hom me ne vit pas se",
+"cotes": [
+"K 111"
+],
+"ids": [
+"AT1",
+"118-19"
+],
+"nature": "musique"
+},
+{
+"page": 164,
+"n": 2,
+"fichier": "a-164-2.jpg",
+"y0": 538,
+"y1": 820,
+"x0": 0,
+"x1": 603,
+"dessus": "",
+"dessous": "Psaume 116",
+"dedans": "K 653 \u001d \u001e � � � = \u001f 50 \u001f \u001f � � � � � � � � � � � � � � � � � � � � � 3 � � � � � � � � � � � � � Je suis le Dieu vi vant : Je ne veux pas la mort du pé cheur, � � � � � � � � � � � � � �� � � � � � � � � � � � � � � � � � � � � � � � 3 � \u001f \u001f \u001f � � � �� � � � � � � � � \u001c � � \u001a � � � � � � � � � � � �",
+"cotes": [
+"K 653"
+],
+"ids": [
+"116"
+],
+"nature": "musique"
+}
+]
+},
+"paques": {
+"131": [
+{
+"page": 131,
+"n": 1,
+"fichier": "a-131-1.jpg",
+"y0": 64,
+"y1": 1178,
+"x0": 70,
+"x1": 842,
+"dessus": "",
+"dessous": "Psaume 44, 11-18 & NT VI p. 329",
+"dedans": "Psaume 44, 1-10",
+"cotes": [],
+"ids": [
+"NT6",
+"44"
+],
+"nature": "musique"
+}
+],
+"132": [
+{
+"page": 132,
+"n": 1,
+"fichier": "a-132-1.jpg",
+"y0": 64,
+"y1": 1176,
+"x0": 75,
+"x1": 847,
+"dessus": "",
+"dessous": "Psaume 64",
+"dedans": "Psaume 42 & AT 25",
+"cotes": [],
+"ids": [
+"64"
+],
+"nature": "musique"
+}
+],
+"134": [
+{
+"page": 134,
+"n": 1,
+"fichier": "a-134-1.jpg",
+"y0": 64,
+"y1": 646,
+"x0": 77,
+"x1": 834,
+"dessus": "",
+"dessous": "Psaume 76 & AT 3",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT3",
+"76"
+],
+"nature": "musique"
+},
+{
+"page": 134,
+"n": 102,
+"fichier": "s-134-2.jpg",
+"y0": 684,
+"y1": 1214,
+"x0": 99,
+"x1": 811,
+"dessus": "Psaume 76 & AT 3",
+"ecart_dessus": 17,
+"dessous": "Psaume 96",
+"dedans": "Psaume 96",
+"cotes": [],
+"ids": [
+"96"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"135": [
+{
+"page": 135,
+"n": 1,
+"fichier": "a-135-1.jpg",
+"y0": 64,
+"y1": 592,
+"x0": 65,
+"x1": 847,
+"dessus": "",
+"dessous": "Psaume 61",
+"dedans": "",
+"cotes": [],
+"ids": [
+"61"
+],
+"nature": "musique"
+},
+{
+"page": 135,
+"n": 2,
+"fichier": "a-135-2.jpg",
+"y0": 633,
+"y1": 1154,
+"x0": 65,
+"x1": 847,
+"dessus": "",
+"dessous": "Psaume 66 & NT VIII p. 334",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT8",
+"66"
+],
+"nature": "musique"
+}
+],
+"136": [
+{
+"page": 136,
+"n": 1,
+"fichier": "a-136-1.jpg",
+"y0": 64,
+"y1": 714,
+"x0": 70,
+"x1": 842,
+"dessus": "",
+"dessous": "Psaume 79 & AT 20",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT20",
+"79"
+],
+"nature": "musique"
+},
+{
+"page": 136,
+"n": 2,
+"fichier": "a-136-2.jpg",
+"y0": 755,
+"y1": 1189,
+"x0": 70,
+"x1": 842,
+"dessus": "",
+"dessous": "Psaume 80",
+"dedans": "",
+"cotes": [],
+"ids": [
+"80"
+],
+"nature": "musique"
+}
+],
+"137": [
+{
+"page": 137,
+"n": 1,
+"fichier": "a-137-1.jpg",
+"y0": 64,
+"y1": 466,
+"x0": 63,
+"x1": 843,
+"dessus": "",
+"dessous": "Psaume 71, 1-11",
+"dedans": "",
+"cotes": [],
+"ids": [
+"71"
+],
+"nature": "musique"
+},
+{
+"page": 137,
+"n": 2,
+"fichier": "a-137-2.jpg",
+"y0": 507,
+"y1": 1174,
+"x0": 63,
+"x1": 843,
+"dessus": "",
+"dessous": "Psaume 71, 12-19 & NT XII p. 337",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT12",
+"71"
+],
+"nature": "musique"
+}
+],
+"138": [
+{
+"page": 138,
+"n": 1,
+"fichier": "a-138-1.jpg",
+"y0": 64,
+"y1": 657,
+"x0": 74,
+"x1": 837,
+"dessus": "",
+"dessous": "Psaume 50 & AT 57",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT57",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 138,
+"n": 102,
+"fichier": "s-138-2.jpg",
+"y0": 705,
+"y1": 1214,
+"x0": 96,
+"x1": 815,
+"dessus": "Psaume 50 & AT 57",
+"ecart_dessus": 27,
+"dessous": "Psaume 147",
+"dedans": "Psaume 147",
+"cotes": [],
+"ids": [
+"147"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"140": [
+{
+"page": 140,
+"n": 1,
+"fichier": "a-140-1.jpg",
+"y0": 64,
+"y1": 1192,
+"x0": 73,
+"x1": 831,
+"dessus": "",
+"dessous": "Psaume 8",
+"dedans": "Psaume 91 & AT 2",
+"cotes": [],
+"ids": [
+"8"
+],
+"nature": "musique"
+}
+],
+"142": [
+{
+"page": 142,
+"n": 1,
+"fichier": "a-142-1.jpg",
+"y0": 64,
+"y1": 1171,
+"x0": 66,
+"x1": 847,
+"dessus": "",
+"dessous": "Psaume 95",
+"dedans": "Psaume 83 & AT 17",
+"cotes": [],
+"ids": [
+"95"
+],
+"nature": "musique"
+}
+],
+"149": [
+{
+"page": 149,
+"n": 1,
+"fichier": "a-149-1.jpg",
+"y0": 64,
+"y1": 546,
+"x0": 63,
+"x1": 846,
+"dessus": "",
+"dessous": "Psaume 131, 1-10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"131"
+],
+"nature": "musique"
+},
+{
+"page": 149,
+"n": 2,
+"fichier": "a-149-2.jpg",
+"y0": 587,
+"y1": 1166,
+"x0": 63,
+"x1": 846,
+"dessus": "",
+"dessous": "Psaume 131, 11-18 & NT XII p. 337",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT12",
+"131"
+],
+"nature": "musique"
+}
+],
+"151": [
+{
+"page": 151,
+"n": 1,
+"fichier": "a-151-1.jpg",
+"y0": 64,
+"y1": 646,
+"x0": 60,
+"x1": 846,
+"dessus": "",
+"dessous": "Psaume 134, 1-12",
+"dedans": "",
+"cotes": [],
+"ids": [
+"134"
+],
+"nature": "musique"
+},
+{
+"page": 151,
+"n": 2,
+"fichier": "a-151-2.jpg",
+"y0": 687,
+"y1": 1176,
+"x0": 60,
+"x1": 846,
+"dessus": "",
+"dessous": "Psaume 134, 13-21 & NT XIII p. 340",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT13",
+"134"
+],
+"nature": "musique"
+}
+],
+"155": [
+{
+"page": 155,
+"n": 1,
+"fichier": "a-155-1.jpg",
+"y0": 64,
+"y1": 638,
+"x0": 67,
+"x1": 841,
+"dessus": "",
+"dessous": "Psaume 135, 1-9",
+"dedans": "",
+"cotes": [],
+"ids": [
+"135"
+],
+"nature": "musique"
+}
+],
+"156": [
+{
+"page": 156,
+"n": 1,
+"fichier": "a-156-1.jpg",
+"y0": 64,
+"y1": 657,
+"x0": 73,
+"x1": 838,
+"dessus": "",
+"dessous": "Psaume 100 & AT 47",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT47",
+"100"
+],
+"nature": "musique"
+},
+{
+"page": 156,
+"n": 2,
+"fichier": "a-156-2.jpg",
+"y0": 698,
+"y1": 1183,
+"x0": 73,
+"x1": 838,
+"dessus": "",
+"dessous": "Psaume 143",
+"dedans": "",
+"cotes": [],
+"ids": [
+"143"
+],
+"nature": "musique"
+}
+],
+"158": [
+{
+"page": 158,
+"n": 1,
+"fichier": "a-158-1.jpg",
+"y0": 64,
+"y1": 539,
+"x0": 61,
+"x1": 854,
+"dessus": "",
+"dessous": "Psaume 107 & AT 38",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT38",
+"107"
+],
+"nature": "musique"
+},
+{
+"page": 158,
+"n": 2,
+"fichier": "a-158-2.jpg",
+"y0": 580,
+"y1": 1164,
+"x0": 61,
+"x1": 854,
+"dessus": "",
+"dessous": "Psaume 145",
+"dedans": "",
+"cotes": [],
+"ids": [
+"145"
+],
+"nature": "musique"
+}
+],
+"163": [
+{
+"page": 163,
+"n": 1,
+"fichier": "a-163-1.jpg",
+"y0": 64,
+"y1": 634,
+"x0": 63,
+"x1": 846,
+"dessus": "",
+"dessous": "Psaume 144, 1-13a",
+"dedans": "",
+"cotes": [],
+"ids": [
+"144"
+],
+"nature": "musique"
+},
+{
+"page": 163,
+"n": 102,
+"fichier": "s-163-2.jpg",
+"y0": 770,
+"y1": 1149,
+"x0": 195,
+"x1": 713,
+"dessus": "Psaume 144, 1-13a",
+"ecart_dessus": 113,
+"dessous": "",
+"dedans": "",
+"cotes": [],
+"ids": [
+"144"
+],
+"nature": "image",
+"lignes": 29
+}
+],
+"165": [
+{
+"page": 165,
+"n": 1,
+"fichier": "a-165-1.jpg",
+"y0": 64,
+"y1": 1188,
+"x0": 58,
+"x1": 839,
+"dessus": "",
+"dessous": "Psaume 8",
+"dedans": "Psaume 91 & AT 46",
+"cotes": [],
+"ids": [
+"8"
+],
+"nature": "musique"
+}
+],
+"167": [
+{
+"page": 167,
+"n": 1,
+"fichier": "a-167-1.jpg",
+"y0": 64,
+"y1": 684,
+"x0": 50,
+"x1": 858,
+"dessus": "",
+"dessous": "Psaume 10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"10"
+],
+"nature": "musique"
+},
+{
+"page": 167,
+"n": 2,
+"fichier": "a-167-2.jpg",
+"y0": 725,
+"y1": 1167,
+"x0": 50,
+"x1": 858,
+"dessus": "",
+"dessous": "Psaume 14 & NT VI p. 329",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT6",
+"14"
+],
+"nature": "musique"
+}
+],
+"169": [
+{
+"page": 169,
+"n": 1,
+"fichier": "a-169-1.jpg",
+"y0": 64,
+"y1": 1164,
+"x0": 63,
+"x1": 840,
+"dessus": "",
+"dessous": "Psaume 20 & NT XI p. 332",
+"dedans": "Psaume 19",
+"cotes": [],
+"ids": [
+"NT11",
+"20"
+],
+"nature": "musique"
+}
+],
+"171": [
+{
+"page": 171,
+"n": 1,
+"fichier": "a-171-1.jpg",
+"y0": 64,
+"y1": 1062,
+"x0": 72,
+"x1": 847,
+"dessus": "",
+"dessous": "Psaume 26, 1-6",
+"dedans": "",
+"cotes": [],
+"ids": [
+"26"
+],
+"nature": "musique"
+}
+],
+"172": [
+{
+"page": 172,
+"n": 1,
+"fichier": "a-172-1.jpg",
+"y0": 64,
+"y1": 565,
+"x0": 60,
+"x1": 853,
+"dessus": "",
+"dessous": "Psaume 56 & AT 44",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT44",
+"56"
+],
+"nature": "musique"
+},
+{
+"page": 172,
+"n": 2,
+"fichier": "a-172-2.jpg",
+"y0": 606,
+"y1": 1181,
+"x0": 60,
+"x1": 853,
+"dessus": "",
+"dessous": "Psaume 47",
+"dedans": "",
+"cotes": [],
+"ids": [
+"47"
+],
+"nature": "musique"
+}
+],
+"246": [
+{
+"page": 246,
+"n": 1,
+"fichier": "a-246-1.jpg",
+"y0": 64,
+"y1": 585,
+"x0": 55,
+"x1": 858,
+"dessus": "",
+"dessous": "Psaume 50 & AT 57",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT57",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 246,
+"n": 2,
+"fichier": "a-246-2.jpg",
+"y0": 626,
+"y1": 1153,
+"x0": 55,
+"x1": 858,
+"dessus": "",
+"dessous": "Psaume 147",
+"dedans": "",
+"cotes": [],
+"ids": [
+"147"
+],
+"nature": "musique"
+}
+],
+"266": [
+{
+"page": 266,
+"n": 1,
+"fichier": "a-266-1.jpg",
+"y0": 64,
+"y1": 989,
+"x0": 60,
+"x1": 847,
+"dessus": "",
+"dessous": "Psaume 83 & AT 17",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT17",
+"83"
+],
+"nature": "musique"
+}
+],
+"268": [
+{
+"page": 268,
+"n": 1,
+"fichier": "a-268-1.jpg",
+"y0": 64,
+"y1": 867,
+"x0": 31,
+"x1": 861,
+"dessus": "",
+"dessous": "Psaume 122",
+"dedans": "",
+"cotes": [],
+"ids": [
+"122"
+],
+"nature": "musique"
+}
+],
+"280": [
+{
+"page": 280,
+"n": 1,
+"fichier": "a-280-1.jpg",
+"y0": 64,
+"y1": 668,
+"x0": 60,
+"x1": 827,
+"dessus": "",
+"dessous": "Psaume 86 & AT 26",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT26",
+"86"
+],
+"nature": "musique"
+},
+{
+"page": 280,
+"n": 102,
+"fichier": "s-280-2.jpg",
+"y0": 706,
+"y1": 1214,
+"x0": 82,
+"x1": 800,
+"dessus": "Psaume 86 & AT 26",
+"ecart_dessus": 17,
+"dessous": "Psaume 98",
+"dedans": "Psaume 98",
+"cotes": [],
+"ids": [
+"98"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"281": [
+{
+"page": 281,
+"n": 1,
+"fichier": "a-281-1.jpg",
+"y0": 64,
+"y1": 890,
+"x0": 43,
+"x1": 857,
+"dessus": "",
+"dessous": "Psaume 131, 1-10",
+"dedans": "",
+"cotes": [],
+"ids": [
+"131"
+],
+"nature": "musique"
+}
+],
+"286": [
+{
+"page": 286,
+"n": 1,
+"fichier": "a-286-1.jpg",
+"y0": 64,
+"y1": 698,
+"x0": 84,
+"x1": 838,
+"dessus": "",
+"dessous": "Psaume 50 & AT 42",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT42",
+"50"
+],
+"nature": "musique"
+},
+{
+"page": 286,
+"n": 102,
+"fichier": "s-286-2.jpg",
+"y0": 738,
+"y1": 1214,
+"x0": 110,
+"x1": 805,
+"dessus": "Psaume 50 & AT 42",
+"ecart_dessus": 18,
+"dessous": "Psaume 99",
+"dedans": "Psaume 99",
+"cotes": [],
+"ids": [
+"99"
+],
+"nature": "musique",
+"lignes": -1
+}
+],
+"287": [
+{
+"page": 287,
+"n": 1,
+"fichier": "a-287-1.jpg",
+"y0": 64,
+"y1": 535,
+"x0": 38,
+"x1": 864,
+"dessus": "",
+"dessous": "Psaume 134, 1-12",
+"dedans": "",
+"cotes": [],
+"ids": [
+"134"
+],
+"nature": "musique"
+},
+{
+"page": 287,
+"n": 2,
+"fichier": "a-287-2.jpg",
+"y0": 576,
+"y1": 1137,
+"x0": 38,
+"x1": 864,
+"dessus": "",
+"dessous": "Psaume 134, 13-21 & NT XIII p. 340",
+"dedans": "",
+"cotes": [],
+"ids": [
+"NT13",
+"134"
+],
+"nature": "musique"
+}
+],
+"290": [
+{
+"page": 290,
+"n": 1,
+"fichier": "a-290-1.jpg",
+"y0": 64,
+"y1": 675,
+"x0": 54,
+"x1": 855,
+"dessus": "",
+"dessous": "Psaume 118, XIX & AT 12",
+"dedans": "",
+"cotes": [],
+"ids": [
+"AT12",
+"118"
+],
+"nature": "musique"
+},
+{
+"page": 290,
+"n": 2,
+"fichier": "a-290-2.jpg",
+"y0": 716,
+"y1": 1180,
+"x0": 54,
+"x1": 855,
+"dessus": "",
+"dessous": "Psaume 116",
+"dedans": "",
+"cotes": [],
+"ids": [
+"116"
+],
+"nature": "musique"
+}
+]
+}
+},
+"fichiers": {
+"avent/s-104-1.jpg": [
+"avent/a-104-1.jpg"
+],
+"avent/s-104-2.jpg": [
+"avent/a-104-2.jpg"
+],
+"avent/s-105-1.jpg": [
+"avent/a-105-1.jpg"
+],
+"avent/s-105-2.jpg": [
+"avent/a-105-2.jpg"
+],
+"avent/s-106-1.jpg": [
+"avent/a-106-1.jpg"
+],
+"avent/s-106-2.jpg": [
+"avent/a-106-2.jpg"
+],
+"avent/s-107-1.jpg": [
+"avent/a-107-1.jpg"
+],
+"avent/s-107-2.jpg": [
+"avent/a-107-2.jpg"
+],
+"avent/s-108-1.jpg": [
+"avent/a-108-1.jpg"
+],
+"avent/s-108-2.jpg": [
+"avent/a-108-2.jpg"
+],
+"avent/s-109-1.jpg": [
+"avent/a-109-1.jpg"
+],
+"avent/s-109-2.jpg": [
+"avent/a-109-2.jpg"
+],
+"avent/s-111-1.jpg": [
+"avent/a-111-1.jpg"
+],
+"avent/s-111-2.jpg": [
+"avent/a-111-2.jpg"
+],
+"avent/s-112-1.jpg": [
+"avent/a-112-1.jpg"
+],
+"avent/s-112-2.jpg": [
+"avent/a-112-2.jpg"
+],
+"avent/s-113-1.jpg": [
+"avent/a-113-1.jpg"
+],
+"avent/s-113-2.jpg": [
+"avent/a-113-2.jpg"
+],
+"avent/s-114-1.jpg": [
+"avent/a-114-1.jpg"
+],
+"avent/s-114-2.jpg": [
+"avent/a-114-2.jpg"
+],
+"avent/s-116-1.jpg": [
+"avent/a-116-1.jpg"
+],
+"avent/s-116-2.jpg": [
+"avent/a-116-2.jpg"
+],
+"avent/s-117-1.jpg": [
+"avent/a-117-1.jpg",
+"avent/a-117-2.jpg"
+],
+"avent/s-118-1.jpg": [
+"avent/a-118-1.jpg"
+],
+"avent/s-118-2.jpg": [
+"avent/a-118-1.jpg"
+],
+"avent/s-119-1.jpg": [
+"avent/a-119-1.jpg",
+"avent/a-119-2.jpg"
+],
+"avent/s-120-1.jpg": [
+"avent/a-120-1.jpg"
+],
+"avent/s-120-2.jpg": [
+"avent/a-120-2.jpg"
+],
+"avent/s-121-1.jpg": [
+"avent/a-121-1.jpg"
+],
+"avent/s-121-2.jpg": [
+"avent/a-121-2.jpg"
+],
+"avent/s-122-1.jpg": [
+"avent/a-122-1.jpg"
+],
+"avent/s-122-2.jpg": [
+"avent/a-122-2.jpg"
+],
+"avent/s-123-1.jpg": [
+"avent/a-123-1.jpg"
+],
+"avent/s-124-1.jpg": [
+"avent/a-124-1.jpg"
+],
+"avent/s-124-2.jpg": [
+"avent/a-124-2.jpg"
+],
+"avent/s-125-1.jpg": [
+"avent/a-125-1.jpg"
+],
+"avent/s-125-2.jpg": [
+"avent/a-125-1.jpg"
+],
+"avent/s-126-1.jpg": [
+"avent/a-126-1.jpg"
+],
+"avent/s-126-2.jpg": [
+"avent/a-126-2.jpg"
+],
+"avent/s-128-1.jpg": [
+"avent/a-128-1.jpg"
+],
+"avent/s-128-2.jpg": [
+"avent/a-128-2.jpg"
+],
+"avent/s-129-1.jpg": [
+"avent/a-129-1.jpg"
+],
+"avent/s-129-2.jpg": [
+"avent/a-129-2.jpg"
+],
+"avent/s-130-1.jpg": [
+"avent/a-130-1.jpg"
+],
+"avent/s-130-2.jpg": [
+"avent/a-130-2.jpg"
+],
+"avent/s-133-1.jpg": [
+"avent/a-133-1.jpg"
+],
+"avent/s-133-2.jpg": [
+"avent/a-133-2.jpg"
+],
+"avent/s-134-1.jpg": [
+"avent/a-134-1.jpg"
+],
+"avent/s-134-2.jpg": [
+"avent/a-134-2.jpg"
+],
+"avent/s-135-1.jpg": [
+"avent/a-135-1.jpg",
+"avent/a-135-2.jpg"
+],
+"avent/s-136-1.jpg": [
+"avent/a-136-1.jpg"
+],
+"avent/s-136-2.jpg": [
+"avent/a-136-2.jpg"
+],
+"avent/s-137-1.jpg": [
+"avent/a-137-1.jpg",
+"avent/a-137-2.jpg"
+],
+"avent/s-138-1.jpg": [
+"avent/a-138-1.jpg"
+],
+"avent/s-138-2.jpg": [
+"avent/a-138-2.jpg"
+],
+"careme/s-073-1.jpg": [
+"careme/a-073-1.jpg"
+],
+"careme/s-073-2.jpg": [
+"careme/a-073-2.jpg"
+],
+"careme/s-074-1.jpg": [
+"careme/a-074-1.jpg"
+],
+"careme/s-076-1.jpg": [
+"careme/a-076-1.jpg"
+],
+"careme/s-076-2.jpg": [
+"careme/a-076-2.jpg"
+],
+"careme/s-077-1.jpg": [
+"careme/a-077-1.jpg"
+],
+"careme/s-077-2.jpg": [
+"careme/a-077-2.jpg"
+],
+"careme/s-078-1.jpg": [
+"careme/a-078-1.jpg"
+],
+"careme/s-078-2.jpg": [
+"careme/a-078-2.jpg"
+],
+"careme/s-079-1.jpg": [
+"careme/a-079-1.jpg"
+],
+"careme/s-079-2.jpg": [
+"careme/a-079-2.jpg"
+],
+"careme/s-080-1.jpg": [
+"careme/a-080-1.jpg"
+],
+"careme/s-080-2.jpg": [
+"careme/a-080-2.jpg"
+],
+"careme/s-081-1.jpg": [
+"careme/a-081-1.jpg"
+],
+"careme/s-081-2.jpg": [
+"careme/a-081-2.jpg"
+],
+"careme/s-082-1.jpg": [
+"careme/a-082-1.jpg"
+],
+"careme/s-082-2.jpg": [
+"careme/a-082-2.jpg"
+],
+"careme/s-083-1.jpg": [
+"careme/a-083-1.jpg",
+"careme/a-083-2.jpg"
+],
+"careme/s-084-1.jpg": [
+"careme/a-084-1.jpg"
+],
+"careme/s-084-2.jpg": [
+"careme/a-084-2.jpg"
+],
+"careme/s-085-1.jpg": [
+"careme/a-085-1.jpg"
+],
+"careme/s-085-2.jpg": [
+"careme/a-085-2.jpg"
+],
+"careme/s-086-1.jpg": [
+"careme/a-086-1.jpg"
+],
+"careme/s-086-2.jpg": [
+"careme/a-086-2.jpg"
+],
+"careme/s-087-1.jpg": [
+"careme/a-087-1.jpg"
+],
+"careme/s-087-2.jpg": [
+"careme/a-087-2.jpg"
+],
+"careme/s-088-1.jpg": [
+"careme/a-088-1.jpg"
+],
+"careme/s-088-2.jpg": [
+"careme/a-088-2.jpg"
+],
+"careme/s-089-1.jpg": [
+"careme/a-089-1.jpg"
+],
+"careme/s-089-2.jpg": [
+"careme/a-089-2.jpg"
+],
+"careme/s-090-1.jpg": [
+"careme/a-090-1.jpg"
+],
+"careme/s-090-2.jpg": [
+"careme/a-090-2.jpg"
+],
+"careme/s-092-1.jpg": [
+"careme/a-092-1.jpg"
+],
+"careme/s-092-2.jpg": [
+"careme/a-092-2.jpg"
+],
+"careme/s-093-1.jpg": [
+"careme/a-093-1.jpg"
+],
+"careme/s-093-2.jpg": [
+"careme/a-093-2.jpg"
+],
+"careme/s-094-1.jpg": [
+"careme/a-094-1.jpg"
+],
+"careme/s-094-2.jpg": [
+"careme/a-094-2.jpg"
+],
+"careme/s-095-1.jpg": [
+"careme/a-095-1.jpg"
+],
+"careme/s-095-2.jpg": [
+"careme/a-095-2.jpg"
+],
+"careme/s-096-1.jpg": [
+"careme/a-096-1.jpg"
+],
+"careme/s-096-2.jpg": [
+"careme/a-096-2.jpg"
+],
+"careme/s-097-1.jpg": [
+"careme/a-097-1.jpg"
+],
+"careme/s-097-2.jpg": [
+"careme/a-097-2.jpg"
+],
+"careme/s-098-1.jpg": [
+"careme/a-098-1.jpg"
+],
+"careme/s-098-2.jpg": [
+"careme/a-098-2.jpg"
+],
+"careme/s-099-1.jpg": [
+"careme/a-099-1.jpg"
+],
+"careme/s-099-2.jpg": [
+"careme/a-099-2.jpg"
+],
+"careme/s-100-1.jpg": [
+"careme/a-100-1.jpg"
+],
+"careme/s-100-2.jpg": [
+"careme/a-100-2.jpg"
+],
+"careme/s-101-1.jpg": [
+"careme/a-101-1.jpg"
+],
+"careme/s-101-2.jpg": [
+"careme/a-101-2.jpg"
+],
+"careme/s-102-1.jpg": [
+"careme/a-102-1.jpg"
+],
+"careme/s-102-2.jpg": [
+"careme/a-102-2.jpg"
+],
+"careme/s-103-1.jpg": [
+"careme/a-103-1.jpg"
+],
+"careme/s-103-2.jpg": [
+"careme/a-103-2.jpg"
+],
+"careme/s-104-1.jpg": [
+"careme/a-104-1.jpg"
+],
+"careme/s-104-2.jpg": [
+"careme/a-104-2.jpg"
+],
+"careme/s-105-1.jpg": [
+"careme/a-105-1.jpg"
+],
+"careme/s-105-2.jpg": [
+"careme/a-105-2.jpg"
+],
+"careme/s-106-1.jpg": [
+"careme/a-106-1.jpg"
+],
+"careme/s-106-2.jpg": [
+"careme/a-106-2.jpg"
+],
+"careme/s-108-1.jpg": [
+"careme/a-108-1.jpg"
+],
+"careme/s-108-2.jpg": [
+"careme/a-108-2.jpg"
+],
+"careme/s-110-1.jpg": [
+"careme/a-110-1.jpg"
+],
+"careme/s-110-2.jpg": [
+"careme/a-110-2.jpg"
+],
+"careme/s-112-1.jpg": [
+"careme/a-112-1.jpg"
+],
+"careme/s-112-2.jpg": [
+"careme/a-112-2.jpg"
+],
+"careme/s-113-1.jpg": [
+"careme/a-113-1.jpg"
+],
+"careme/s-113-2.jpg": [
+"careme/a-113-2.jpg"
+],
+"careme/s-114-1.jpg": [
+"careme/a-114-1.jpg"
+],
+"careme/s-114-2.jpg": [
+"careme/a-114-2.jpg"
+],
+"careme/s-115-1.jpg": [
+"careme/a-115-1.jpg"
+],
+"careme/s-115-2.jpg": [
+"careme/a-115-2.jpg"
+],
+"careme/s-116-1.jpg": [
+"careme/a-116-1.jpg"
+],
+"careme/s-116-2.jpg": [
+"careme/a-116-2.jpg"
+],
+"careme/s-117-1.jpg": [
+"careme/a-117-1.jpg"
+],
+"careme/s-117-2.jpg": [
+"careme/a-117-2.jpg"
+],
+"careme/s-118-1.jpg": [
+"careme/a-118-1.jpg"
+],
+"careme/s-118-2.jpg": [
+"careme/a-118-2.jpg"
+],
+"careme/s-119-1.jpg": [
+"careme/a-119-1.jpg"
+],
+"careme/s-119-2.jpg": [
+"careme/a-119-2.jpg"
+],
+"careme/s-120-1.jpg": [
+"careme/a-120-1.jpg"
+],
+"careme/s-120-2.jpg": [
+"careme/a-120-2.jpg"
+],
+"careme/s-121-1.jpg": [
+"careme/a-121-1.jpg"
+],
+"careme/s-121-2.jpg": [
+"careme/a-121-2.jpg"
+],
+"careme/s-122-1.jpg": [
+"careme/a-122-1.jpg"
+],
+"careme/s-122-2.jpg": [
+"careme/a-122-2.jpg"
+],
+"careme/s-123-1.jpg": [
+"careme/a-123-1.jpg"
+],
+"careme/s-123-2.jpg": [
+"careme/a-123-2.jpg"
+],
+"careme/s-124-1.jpg": [
+"careme/a-124-1.jpg"
+],
+"careme/s-124-2.jpg": [
+"careme/a-124-2.jpg"
+],
+"careme/s-125-1.jpg": [
+"careme/a-125-1.jpg"
+],
+"careme/s-125-2.jpg": [
+"careme/a-125-2.jpg"
+],
+"careme/s-126-1.jpg": [
+"careme/a-126-1.jpg"
+],
+"careme/s-126-2.jpg": [
+"careme/a-126-2.jpg"
+],
+"careme/s-128-1.jpg": [
+"careme/a-128-1.jpg"
+],
+"careme/s-128-2.jpg": [
+"careme/a-128-2.jpg"
+],
+"careme/s-130-1.jpg": [
+"careme/a-130-1.jpg"
+],
+"careme/s-130-2.jpg": [
+"careme/a-130-2.jpg"
+],
+"careme/s-132-1.jpg": [
+"careme/a-132-1.jpg"
+],
+"careme/s-132-2.jpg": [
+"careme/a-132-2.jpg"
+],
+"careme/s-133-1.jpg": [
+"careme/a-133-1.jpg"
+],
+"careme/s-133-2.jpg": [
+"careme/a-133-2.jpg"
+],
+"careme/s-134-1.jpg": [
+"careme/a-134-1.jpg"
+],
+"careme/s-134-2.jpg": [
+"careme/a-134-2.jpg"
+],
+"careme/s-136-1.jpg": [
+"careme/a-136-1.jpg"
+],
+"careme/s-136-2.jpg": [
+"careme/a-136-2.jpg"
+],
+"careme/s-137-1.jpg": [
+"careme/a-137-1.jpg"
+],
+"careme/s-137-2.jpg": [
+"careme/a-137-2.jpg"
+],
+"careme/s-138-1.jpg": [
+"careme/a-138-1.jpg"
+],
+"careme/s-138-2.jpg": [
+"careme/a-138-2.jpg"
+],
+"careme/s-139-1.jpg": [
+"careme/a-139-1.jpg",
+"careme/a-139-2.jpg"
+],
+"careme/s-140-1.jpg": [
+"careme/a-140-1.jpg"
+],
+"careme/s-140-2.jpg": [
+"careme/a-140-2.jpg"
+],
+"careme/s-141-1.jpg": [
+"careme/a-141-1.jpg"
+],
+"careme/s-141-2.jpg": [
+"careme/a-141-2.jpg"
+],
+"careme/s-142-1.jpg": [
+"careme/a-142-1.jpg"
+],
+"careme/s-142-2.jpg": [
+"careme/a-142-2.jpg"
+],
+"careme/s-143-1.jpg": [
+"careme/a-143-1.jpg",
+"careme/a-143-2.jpg"
+],
+"careme/s-144-1.jpg": [
+"careme/a-144-1.jpg"
+],
+"careme/s-144-2.jpg": [
+"careme/a-144-2.jpg"
+],
+"careme/s-145-1.jpg": [
+"careme/a-145-1.jpg"
+],
+"careme/s-145-2.jpg": [
+"careme/a-145-2.jpg"
+],
+"careme/s-146-1.jpg": [
+"careme/a-146-1.jpg"
+],
+"careme/s-146-2.jpg": [
+"careme/a-146-2.jpg"
+],
+"careme/s-148-1.jpg": [
+"careme/a-148-1.jpg"
+],
+"careme/s-148-2.jpg": [
+"careme/a-148-2.jpg"
+],
+"careme/s-150-1.jpg": [
+"careme/a-150-1.jpg"
+],
+"careme/s-150-2.jpg": [
+"careme/a-150-2.jpg"
+],
+"careme/s-152-1.jpg": [
+"careme/a-152-1.jpg"
+],
+"careme/s-152-2.jpg": [
+"careme/a-152-2.jpg"
+],
+"careme/s-153-1.jpg": [
+"careme/a-153-1.jpg"
+],
+"careme/s-153-2.jpg": [
+"careme/a-153-2.jpg"
+],
+"careme/s-154-1.jpg": [
+"careme/a-154-1.jpg"
+],
+"careme/s-154-2.jpg": [
+"careme/a-154-2.jpg"
+],
+"careme/s-155-1.jpg": [
+"careme/a-155-1.jpg"
+],
+"careme/s-155-2.jpg": [
+"careme/a-155-2.jpg"
+],
+"careme/s-156-1.jpg": [
+"careme/a-156-1.jpg"
+],
+"careme/s-156-2.jpg": [
+"careme/a-156-2.jpg"
+],
+"careme/s-157-1.jpg": [
+"careme/a-157-1.jpg"
+],
+"careme/s-157-2.jpg": [
+"careme/a-157-2.jpg"
+],
+"careme/s-158-1.jpg": [
+"careme/a-158-1.jpg"
+],
+"careme/s-158-2.jpg": [
+"careme/a-158-2.jpg"
+],
+"careme/s-159-1.jpg": [
+"careme/a-159-1.jpg"
+],
+"careme/s-159-2.jpg": [
+"careme/a-159-2.jpg"
+],
+"careme/s-160-1.jpg": [
+"careme/a-160-1.jpg"
+],
+"careme/s-160-2.jpg": [
+"careme/a-160-2.jpg"
+],
+"careme/s-161-1.jpg": [
+"careme/a-161-1.jpg"
+],
+"careme/s-161-2.jpg": [
+"careme/a-161-2.jpg"
+],
+"careme/s-162-1.jpg": [
+"careme/a-162-1.jpg"
+],
+"careme/s-162-2.jpg": [
+"careme/a-162-2.jpg"
+],
+"careme/s-163-1.jpg": [
+"careme/a-163-1.jpg"
+],
+"careme/s-163-2.jpg": [
+"careme/a-163-2.jpg"
+],
+"careme/s-164-1.jpg": [
+"careme/a-164-1.jpg"
+],
+"careme/s-164-2.jpg": [
+"careme/a-164-2.jpg"
+],
+"paques/s-131-1.jpg": [
+"paques/a-131-1.jpg"
+],
+"paques/s-131-2.jpg": [
+"paques/a-131-1.jpg"
+],
+"paques/s-132-1.jpg": [
+"paques/a-132-1.jpg"
+],
+"paques/s-132-2.jpg": [
+"paques/a-132-1.jpg"
+],
+"paques/s-134-1.jpg": [
+"paques/a-134-1.jpg"
+],
+"paques/s-135-1.jpg": [
+"paques/a-135-1.jpg"
+],
+"paques/s-135-2.jpg": [
+"paques/a-135-2.jpg"
+],
+"paques/s-136-1.jpg": [
+"paques/a-136-1.jpg"
+],
+"paques/s-136-2.jpg": [
+"paques/a-136-2.jpg"
+],
+"paques/s-137-1.jpg": [
+"paques/a-137-1.jpg",
+"paques/a-137-2.jpg"
+],
+"paques/s-138-1.jpg": [
+"paques/a-138-1.jpg"
+],
+"paques/s-140-1.jpg": [
+"paques/a-140-1.jpg"
+],
+"paques/s-140-2.jpg": [
+"paques/a-140-1.jpg"
+],
+"paques/s-142-1.jpg": [
+"paques/a-142-1.jpg"
+],
+"paques/s-142-2.jpg": [
+"paques/a-142-1.jpg"
+],
+"paques/s-149-1.jpg": [
+"paques/a-149-1.jpg",
+"paques/a-149-2.jpg"
+],
+"paques/s-151-1.jpg": [
+"paques/a-151-1.jpg",
+"paques/a-151-2.jpg"
+],
+"paques/s-155-1.jpg": [
+"paques/a-155-1.jpg"
+],
+"paques/s-156-1.jpg": [
+"paques/a-156-1.jpg"
+],
+"paques/s-156-2.jpg": [
+"paques/a-156-2.jpg"
+],
+"paques/s-158-1.jpg": [
+"paques/a-158-1.jpg"
+],
+"paques/s-158-2.jpg": [
+"paques/a-158-2.jpg"
+],
+"paques/s-163-1.jpg": [
+"paques/a-163-1.jpg"
+],
+"paques/s-165-1.jpg": [
+"paques/a-165-1.jpg"
+],
+"paques/s-165-2.jpg": [
+"paques/a-165-1.jpg"
+],
+"paques/s-167-1.jpg": [
+"paques/a-167-1.jpg"
+],
+"paques/s-167-2.jpg": [
+"paques/a-167-2.jpg"
+],
+"paques/s-169-1.jpg": [
+"paques/a-169-1.jpg"
+],
+"paques/s-169-2.jpg": [
+"paques/a-169-1.jpg"
+],
+"paques/s-171-1.jpg": [
+"paques/a-171-1.jpg"
+],
+"paques/s-172-1.jpg": [
+"paques/a-172-1.jpg"
+],
+"paques/s-172-2.jpg": [
+"paques/a-172-2.jpg"
+],
+"paques/s-246-1.jpg": [
+"paques/a-246-1.jpg"
+],
+"paques/s-246-2.jpg": [
+"paques/a-246-2.jpg"
+],
+"paques/s-266-1.jpg": [
+"paques/a-266-1.jpg"
+],
+"paques/s-268-1.jpg": [
+"paques/a-268-1.jpg"
+],
+"paques/s-280-1.jpg": [
+"paques/a-280-1.jpg"
+],
+"paques/s-281-1.jpg": [
+"paques/a-281-1.jpg"
+],
+"paques/s-286-1.jpg": [
+"paques/a-286-1.jpg"
+],
+"paques/s-287-1.jpg": [
+"paques/a-287-1.jpg"
+],
+"paques/s-287-2.jpg": [
+"paques/a-287-2.jpg"
+],
+"paques/s-290-1.jpg": [
+"paques/a-290-1.jpg"
+],
+"paques/s-290-2.jpg": [
+"paques/a-290-2.jpg"
+],
+"to/s-127-1.jpg": [
+"to/a-127-1.jpg"
+],
+"to/s-127-2.jpg": [
+"to/a-127-2.jpg"
+],
+"to/s-128-1.jpg": [
+"to/a-128-1.jpg"
+],
+"to/s-128-2.jpg": [
+"to/a-128-2.jpg"
+],
+"to/s-130-1.jpg": [
+"to/a-130-1.jpg"
+],
+"to/s-130-2.jpg": [
+"to/a-130-2.jpg"
+],
+"to/s-131-1.jpg": [
+"to/a-131-1.jpg"
+],
+"to/s-133-1.jpg": [
+"to/a-133-1.jpg"
+],
+"to/s-133-2.jpg": [
+"to/a-133-2.jpg"
+],
+"to/s-135-1.jpg": [
+"to/a-135-1.jpg"
+],
+"to/s-135-2.jpg": [
+"to/a-135-2.jpg"
+],
+"to/s-136-1.jpg": [
+"to/a-136-1.jpg"
+],
+"to/s-136-2.jpg": [
+"to/a-136-2.jpg"
+],
+"to/s-137-1.jpg": [
+"to/a-137-1.jpg"
+],
+"to/s-137-2.jpg": [
+"to/a-137-2.jpg"
+],
+"to/s-138-1.jpg": [
+"to/a-138-1.jpg"
+],
+"to/s-138-2.jpg": [
+"to/a-138-2.jpg"
+],
+"to/s-139-1.jpg": [
+"to/a-139-1.jpg"
+],
+"to/s-139-2.jpg": [
+"to/a-139-2.jpg"
+],
+"to/s-141-1.jpg": [
+"to/a-141-1.jpg"
+],
+"to/s-141-2.jpg": [
+"to/a-141-2.jpg"
+],
+"to/s-142-1.jpg": [
+"to/a-142-1.jpg"
+],
+"to/s-142-2.jpg": [
+"to/a-142-2.jpg"
+],
+"to/s-143-1.jpg": [
+"to/a-143-1.jpg"
+],
+"to/s-143-2.jpg": [
+"to/a-143-2.jpg"
+],
+"to/s-144-1.jpg": [
+"to/a-144-1.jpg"
+],
+"to/s-144-2.jpg": [
+"to/a-144-2.jpg"
+],
+"to/s-145-1.jpg": [
+"to/a-145-1.jpg",
+"to/a-145-2.jpg"
+],
+"to/s-146-1.jpg": [
+"to/a-146-1.jpg"
+],
+"to/s-150-1.jpg": [
+"to/a-150-1.jpg"
+],
+"to/s-150-2.jpg": [
+"to/a-150-2.jpg"
+],
+"to/s-153-1.jpg": [
+"to/a-153-1.jpg",
+"to/a-153-2.jpg"
+],
+"to/s-154-1.jpg": [
+"to/a-154-1.jpg"
+],
+"to/s-155-1.jpg": [
+"to/a-155-1.jpg",
+"to/a-155-2.jpg"
+],
+"to/s-156-1.jpg": [
+"to/a-156-1.jpg"
+],
+"to/s-156-2.jpg": [
+"to/a-156-2.jpg"
+],
+"to/s-157-1.jpg": [
+"to/a-157-1.jpg"
+],
+"to/s-159-1.jpg": [
+"to/a-159-1.jpg"
+],
+"to/s-159-2.jpg": [
+"to/a-159-2.jpg"
+],
+"to/s-160-1.jpg": [
+"to/a-160-1.jpg"
+],
+"to/s-161-1.jpg": [
+"to/a-161-1.jpg"
+],
+"to/s-161-2.jpg": [
+"to/a-161-2.jpg"
+],
+"to/s-162-1.jpg": [
+"to/a-162-1.jpg"
+],
+"to/s-162-2.jpg": [
+"to/a-162-1.jpg"
+],
+"to/s-163-1.jpg": [
+"to/a-163-1.jpg"
+],
+"to/s-163-2.jpg": [
+"to/a-163-2.jpg"
+],
+"to/s-164-1.jpg": [
+"to/a-164-1.jpg"
+],
+"to/s-164-2.jpg": [
+"to/a-164-2.jpg"
+],
+"to/s-165-1.jpg": [
+"to/a-165-1.jpg"
+],
+"to/s-167-1.jpg": [
+"to/a-167-1.jpg"
+],
+"to/s-169-1.jpg": [
+"to/a-169-1.jpg"
+],
+"to/s-169-2.jpg": [
+"to/a-169-2.jpg"
+],
+"to/s-170-1.jpg": [
+"to/a-170-1.jpg"
+],
+"to/s-170-2.jpg": [
+"to/a-170-2.jpg"
+],
+"to/s-171-1.jpg": [
+"to/a-171-1.jpg"
+],
+"to/s-171-2.jpg": [
+"to/a-171-2.jpg"
+],
+"to/s-174-1.jpg": [
+"to/a-174-1.jpg"
+],
+"to/s-174-2.jpg": [
+"to/a-174-2.jpg"
+],
+"to/s-175-1.jpg": [
+"to/a-175-1.jpg"
+],
+"to/s-175-2.jpg": [
+"to/a-175-2.jpg"
+],
+"to/s-176-1.jpg": [
+"to/a-176-1.jpg",
+"to/a-176-2.jpg"
+],
+"to/s-177-1.jpg": [
+"to/a-177-1.jpg"
+],
+"to/s-177-2.jpg": [
+"to/a-177-2.jpg"
+],
+"to/s-178-1.jpg": [
+"to/a-178-1.jpg",
+"to/a-178-2.jpg"
+],
+"to/s-181-1.jpg": [
+"to/a-181-1.jpg"
+],
+"to/s-183-1.jpg": [
+"to/a-183-1.jpg"
+],
+"to/s-185-1.jpg": [
+"to/a-185-1.jpg"
+],
+"to/s-186-1.jpg": [
+"to/a-186-1.jpg"
+],
+"to/s-186-2.jpg": [
+"to/a-186-2.jpg"
+],
+"to/s-187-1.jpg": [
+"to/a-187-1.jpg"
+],
+"to/s-187-2.jpg": [
+"to/a-187-2.jpg"
+],
+"to/s-188-1.jpg": [
+"to/a-188-1.jpg"
+],
+"to/s-189-1.jpg": [
+"to/a-189-1.jpg"
+],
+"to/s-189-2.jpg": [
+"to/a-189-2.jpg"
+],
+"to/s-190-1.jpg": [
+"to/a-190-1.jpg"
+],
+"to/s-190-2.jpg": [
+"to/a-190-2.jpg"
+],
+"to/s-191-1.jpg": [
+"to/a-191-1.jpg"
+],
+"to/s-191-2.jpg": [
+"to/a-191-2.jpg"
+],
+"to/s-192-1.jpg": [
+"to/a-192-1.jpg"
+],
+"to/s-192-2.jpg": [
+"to/a-192-2.jpg"
+],
+"to/s-194-1.jpg": [
+"to/a-194-1.jpg",
+"to/a-194-2.jpg"
+],
+"to/s-195-1.jpg": [
+"to/a-195-1.jpg"
+],
+"to/s-195-2.jpg": [
+"to/a-195-2.jpg"
+],
+"to/s-196-1.jpg": [
+"to/a-196-1.jpg",
+"to/a-196-2.jpg"
+],
+"to/s-197-1.jpg": [
+"to/a-197-1.jpg"
+],
+"to/s-197-2.jpg": [
+"to/a-197-2.jpg"
+]
+}
+}

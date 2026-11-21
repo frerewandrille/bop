@@ -1,0 +1,22 @@
+{
+ "source": "Laudes et complies des jeudi, vendredi et samedi saints (livret de la communauté)",
+ "oraison": "Regarde, Seigneur, nous t’en prions, la famille qui t’appartient : c’est pour elle que Jésus le Christ notre Seigneur ne refusa pas d’être livré aux mains des méchants ni de subir le supplice de la Croix.",
+ "laudes": {
+  "rubrique": "L’ancien office des Ténèbres comportait, en plus des trois nocturnes, un office des Laudes. Compte tenu de la distribution horaire renouvelée depuis le Concile Vatican II, l’office des Laudes peut être célébré selon le schéma simplifié suivant. L’office commence par un simple signe de croix en silence, sans verset d’introduction ni hymne.",
+  "antienne1": "Père, j’ai gardé en ton Nom ceux que tu m’as donnés ; et pour eux je me consacre, afin qu’ils soient consacrés dans la vérité.",
+  "antienne_benedictus": "Maintenant, je quitte le monde et je vais vers le Père. Voici l’heure où le Fils de l’homme sera glorifié.",
+  "jours": {
+   "jeudi": {"cantique": "AT56", "antienne2": "En vérité, je vous le dis : l’un de vous va me livrer ! Maintenant, le Fils de l’homme a été glorifié.", "psaume2": "95"},
+   "vendredi": {"cantique": "AT57", "antienne2": "Quand vous aurez élevé le Fils de l’homme, alors vous saurez que je suis !", "psaume2": "96"},
+   "samedi": {"cantique": "AT25", "antienne2": "Si le grain de blé tombé en terre ne meurt pas, il reste seul ; mais s’il meurt, il porte beaucoup de fruit.", "psaume2": "96"}
+  }
+ },
+ "complies": {
+  "jours": ["jeudi", "vendredi"],
+  "rubrique": "L’office commence par un simple signe de croix en silence, sans verset d’introduction ni hymne.",
+  "psaume": "90",
+  "antienne_latin": "Christus factus est pro nobis obœdiens usque ad mortem, mortem autem crucis.",
+  "antienne": "Le Christ s’est fait pour nous obéissant jusqu’à la mort, la mort de la croix.",
+  "fin": "Il n’y a ni bénédiction ni Salve Regina."
+ }
+}

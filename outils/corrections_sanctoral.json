@@ -1,0 +1,37 @@
+{
+ "01-01": null,
+ "11-02": {
+  "nom": "Commémoration de tous les fidèles défunts",
+  "rang": "solennité",
+  "niveau": 3,
+  "couleur": "violet"
+ },
+ "02-02": {
+  "nom": "Présentation du Seigneur au Temple",
+  "rang": "fête",
+  "niveau": 5
+ },
+ "08-06": {
+  "nom": "Transfiguration du Seigneur",
+  "rang": "fête",
+  "niveau": 5
+ },
+ "09-14": {
+  "nom": "La Croix glorieuse",
+  "rang": "fête",
+  "niveau": 5,
+  "couleur": "rouge"
+ },
+ "11-09": {
+  "nom": "Dédicace de la basilique du Latran",
+  "rang": "fête",
+  "niveau": 5
+ },
+ "08-25": {
+  "nom": "S. Louis, roi de France",
+  "rang": "mémoire",
+  "autres": [
+   "S. Joseph de Calasanz, prêtre"
+  ]
+ }
+}

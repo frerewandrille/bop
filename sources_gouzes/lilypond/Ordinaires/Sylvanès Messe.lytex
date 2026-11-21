@@ -1,0 +1,85 @@
+%!TEX TS-program = lualatex
+
+\documentclass[11pt, a4paper, twoside]{book}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage[top = 4.5em, outer=3em, inner=3.5em, bottom=4em]{geometry}
+\usepackage{titlesec}
+\usepackage{titlepic}
+\usepackage{xcolor}
+\usepackage{array, multirow}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+%\usepackage[autocompile]{gregoriotex} %\grechangestaffsize{12}\grechangedim{baselineskip}{43pt}{fixed}\greannotation{}
+
+\geometry{a5paper}
+
+\newcommand{\rubrique}[1]{\smallskip\textcolor{ruber}{{\small\itshape#1}}}
+\renewcommand{\rubrique}[1]{\smallskip\textcolor{ruber}{{\itshape#1}}}
+\definecolor{ruber}{RGB}{219, 23, 2}
+
+\title{\sffamily\Huge\bfseries\uppercase {Messe de Sylvanès}}
+\author{}
+\date{}
+
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\scshape\rightmark}
+\fancyhead[RE]{\scshape\rightmark}
+
+\renewcommand{\partmark}[1]{\markboth{#1}{}}
+\renewcommand{\subsectionmark}[1]{\markright{#1}}
+
+\pagestyle{fancy}
+\pagestyle{empty}
+\parindent= 0pt
+%\raggedbottom
+
+%\titleformat{\part}[hang]{\LARGE\bfseries\sffamily\centering\uppercase}{}{0pt}{}{}
+\titleformat{\subsection}[hang]{\Large\scshape\centering}{}{0pt}{}{}
+%\titlespacing{\part}{0pt}{0ex}{3ex}
+
+\def\preLilyPondExample{\par\hspace*{-3mm}}
+\newcommand{\betweenLilyPondSystem}[1]{\par\vspace{3ex}\hspace*{-3mm}}
+\newcommand{\postLilyPondExample}{\par}
+
+
+
+\begin{document}
+\pagestyle{plain}
+\maketitle
+%\thispagestyle{empty}
+
+%\part{Messe du 1\up{er} mode}
+
+\subsection{Kyrie}
+
+\begin{lilypond}
+	\include "Ft_11pt_.ly" \include "Ordinaires/Sylvanès Kyrie.ly"
+\end{lilypond}
+
+\newpage
+\subsection{Gloria}
+\renewcommand{\betweenLilyPondSystem}[1]{\par\hspace*{-3mm}}
+\begin{lilypond}
+	\include "Ft_11pt_.ly" \include "Ordinaires/Sylvanès Gloria.ly"
+\end{lilypond}
+
+\newpage
+\subsection{Sanctus}
+
+\begin{lilypond}
+	\include "Ft_11pt_.ly" \include "Ordinaires/Sylvanès Sanctus.ly"
+\end{lilypond}
+
+
+\subsection{Agnus}
+
+\begin{lilypond}
+	\include "Ft_11pt_.ly" \include "Ordinaires/Sylvanès Agnus.ly"
+\end{lilypond}
+\null\pagebreak
+
+\end{document}

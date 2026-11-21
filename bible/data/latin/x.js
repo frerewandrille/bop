@@ -1,0 +1,1 @@
+window.__LAT={"x":[[16460,""]],"xanthici":[[16461,"génitif masculin singulier ; nominatif masculin pluriel ; vocatif masculin pluriel ; génitif neutre singulier"]],"xenia":[[16462,"nominatif pluriel ; vocatif pluriel ; accusatif pluriel"],[16463,"nominatif singulier ; vocatif singulier ; ablatif singulier"]]};

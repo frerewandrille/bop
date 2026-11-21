@@ -1,0 +1,41 @@
+  apotres                       348  ex. 2024-01-25 Conversion de st Paul, Apôtre
+  archanges                      36  ex. 2025-09-29 Saint Michel, Saint Gabriel et Saint Raphaël, Archanges
+  ascension                      42  ex. 2024-05-09 Ascension du Seigneur
+  bapteme                        42  ex. 2024-01-08 Baptême du Seigneur
+  cana                           14  ex. 2025-01-19 2e dimanche du temps ordinaire
+  cendres                        42  ex. 2024-02-14 Mercredi des Cendres
+  croix                          42  ex. 2024-09-14 La Croix glorieuse
+  defunts                        42  ex. 2024-11-02 Commémoration de tous les fidèles défunts
+  dominique                      57  ex. 2024-05-24 Translation de S. Dominique, prêtre
+  epiphanie                      42  ex. 2024-01-07 Épiphanie du Seigneur
+  evangelistes                   66  ex. 2024-04-25 S. Marc, évangéliste
+  francois                       36  ex. 2024-10-04 S. François d'Assise, diacre
+  jean-baptiste                  42  ex. 2024-06-24 Nativité de Saint Jean Baptiste
+  jeudi-saint                    42  ex. 2024-03-28 Jeudi saint
+  joseph                         40  ex. 2024-03-19 Saint Joseph, époux de la Vierge Marie
+  marie-annonciation             42  ex. 2024-04-08 Annonciation du Seigneur
+  marie-assomption               42  ex. 2024-08-15 Assomption de la Vierge Marie
+  marie-coeur-immacule           34  ex. 2024-06-08 Le Cœur immaculé de Marie
+  marie-douleurs                 36  ex. 2025-09-15 Notre-Dame des Douleurs
+  marie-immaculee                42  ex. 2024-12-09 Immaculée Conception de la Vierge Marie
+  marie-lourdes                  32  ex. 2025-02-11 mardi de la 5e semaine du temps ordinaire
+  marie-mere-de-dieu             42  ex. 2024-01-01 Sainte Marie, Mère de Dieu
+  marie-nativite-marie           36  ex. 2025-09-08 Nativité de la Vierge Marie
+  marie-presentation-marie       36  ex. 2024-11-21 Présentation de la Vierge Marie
+  marie-reine                    36  ex. 2024-08-22 La Vierge Marie, Reine
+  marie-rosaire                  36  ex. 2024-10-07 Notre-Dame du Rosaire
+  marie-visitation               36  ex. 2024-05-31 La Visitation de la Vierge Marie
+  martyrs                       731  ex. 2024-02-05 Ste Agathe, vierge et martyre
+  noel                           42  ex. 2024-12-25 Nativité du Seigneur
+  paques                         42  ex. 2024-03-31 Dimanche de Pâques, Résurrection du Seigneur
+  pentecote                      42  ex. 2024-05-19 Pentecôte
+  presentation                   42  ex. 2024-02-02 Présentation du Seigneur au Temple
+  rameaux                        42  ex. 2024-03-24 Dimanche des Rameaux et de la Passion
+  sacre-coeur                    42  ex. 2024-06-07 Le Sacré-Cœur de Jésus
+  samedi-saint                   42  ex. 2024-03-30 Samedi saint
+  thomas                         36  ex. 2025-01-28 S. Thomas d'Aquin, prêtre et docteur de l'Église
+  toussaint                      42  ex. 2024-11-01 Tous les Saints
+  transfiguration                42  ex. 2024-08-06 Transfiguration du Seigneur
+  trinite                        42  ex. 2024-05-26 La Sainte Trinité
+  vendredi-saint                 42  ex. 2024-03-29 Vendredi saint
+15342 jours (avec et sans propre OP) : 0 jour(s) incomplet(s) ; formules propres jamais employées : aucune

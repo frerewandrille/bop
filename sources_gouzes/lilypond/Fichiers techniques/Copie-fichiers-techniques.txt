@@ -1,0 +1,1 @@
+sudo ln -s /home/frmatthieu/Documents/Liturgie/Musique\ sacrée/Fichiers\ techniques/*.ly /usr/share/lilypond/2.24.1/ly/

@@ -1,0 +1,1761 @@
+# Offices du sanctoral relevés dans les carnets
+
+Une ligne par pièce : rôle, titre ou psaume, fichiers. « ou » = pièce au choix ; « (déduit) » = pièce propre de la fête,
+non citée par la page de l'office.
+
+## 01-01 — Sainte Marie, Mère de Dieu  (noel, p. 85)
+- **vepres1** (p. 85)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de la Mère de Dieu → s-086-1
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 6 → s-246-1, s-247-1, s-248-1
+    - repons : Répons de la Mère de Dieu → s-091-1, s-092-1, s-093-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+- **lectures** (p. 85)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne de la Mère de Dieu → s-086-1
+    - antiennes : Psaume 23 → s-088-1
+    - antiennes : Psaume 86 → s-089-1, s-089-2
+    - antiennes : Psaume 98 → s-090-1
+    - repons : Répons de la Mère de Dieu → s-091-1, s-092-1, s-093-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+- **laudes** (p. 85)
+    - hymne : Hymne de la Mère de Dieu → s-086-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - repons : Répons de la Mère de Dieu → s-091-1, s-092-1, s-093-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 85)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de la Mère de Dieu → s-086-1
+    - antiennes : Psaume 121 → s-095-1
+    - antiennes : Psaume 126 & Cantique NT (lundi) p. 246 → s-096-1
+    - cantique : Cantique NT 6 → s-246-1, s-247-1, s-248-1
+    - repons : Répons de la Mère de Dieu → s-091-1, s-092-1, s-093-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 01-21 — Sainte Agnès, vierge et martyre  (sanctoral1, p. 256)
+- **laudes** (p. 256)
+    - hymne :  → s-256-2
+    - antiennes : Psaume 62 & AT 49 → s-257-1
+    - antiennes : Psaume 149 - Répons p. 62 → s-258-1
+    - repons : Répons des martyrs → s-062-1, s-063-1
+- **vepres** (p. 259)
+    - hymne : Laudes (S. Guillaume Courtet et ses compagnons) → s-058-2, s-058-3, s-058-4, s-058-5
+    - antiennes : Psaume 114 → s-259-1
+    - antiennes : Psaume 115 & NT XI p. 299 → s-259-2
+    - cantique : Cantique NT 11 → s-302-1, s-303-1
+    - repons : Répons des martyrs → s-062-1, s-063-1
+
+## 01-25 — Conversion de saint Paul, Apôtre  (sanctoral1, p. 260)
+- **laudes** (p. 261)
+    - hymne :  → s-261-1, s-262-1
+    - antiennes : Psaume 62 & AT 49 → s-263-1
+    - ou antiennes : Psaume 62 & AT 49 → s-263-2
+    - antiennes : Psaume 149 → s-264-1
+    - repons : Répons - Conversion s. Paul → s-268-1
+- **vepres** (p. 265)
+    - hymne : Vêpres - Ss. Simon & Jude (Saint Simon & Saint Jude, Apôtres) → s-121-1, s-122-1
+    - antiennes : Psaume 115 → s-265-1
+    - antiennes : Psaume 125 & NT VI p. 290 → s-266-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - magnificat :  → s-267-1
+    - repons (déduit) : Répons - Conversion s. Paul → s-268-1
+
+## 01-28 — Saint Thomas d’Aquin, docteur  (sanctoral1, p. 270)
+- **laudes** (p. 277)
+    - antiennes : Psaume 62 & AT 49 → s-277-1
+    - antiennes : Psaume 149 - Répons p. 278 s. → s-277-2
+    - repons : Répons 1 - Saint Thomas d’A. → s-281-1, s-282-1
+    - ou repons : Répons 2 - Saint Thomas d’A. → s-283-1, s-284-1
+    - antiennes (au choix) :  → s-278-1, s-278-2
+    - hymne (déduit) : Hymne 1 - Saint Thomas d’A. → s-271-1
+    - ou hymne (déduit) : Hymne 2 - Saint Thomas d’A. → s-272-1, s-272-2, s-272-3
+    - ou hymne (déduit) : Hymne 3 - Saint Thomas d’A. → s-274-1
+- **vepres** (p. 279)
+    - antiennes : Psaume 126 → s-279-1
+    - antiennes : Psaume 110 & NT VIII p. 296 → s-279-2
+    - cantique : Cantique NT 8 → s-299-1, s-300-1, s-301-1
+    - antiennes (au choix) :  → s-280-1
+    - hymne (déduit) : Hymne 1 - Saint Thomas d’A. → s-271-1
+    - ou hymne (déduit) : Hymne 2 - Saint Thomas d’A. → s-272-1, s-272-2, s-272-3
+    - ou hymne (déduit) : Hymne 3 - Saint Thomas d’A. → s-274-1
+    - repons (déduit) : Répons 1 - Saint Thomas d’A. → s-281-1, s-282-1
+    - ou repons (déduit) : Répons 2 - Saint Thomas d’A. → s-283-1, s-284-1
+
+## 02-02 — Présentation du Seigneur au Temple  (noel, p. 217)
+- **vepres1** (p. 217)
+    - lucernaire : Lucernaire de la Présentation → s-218-1, s-219-1
+    - hymne : Hymne de la Présentation → s-220-1, s-221-1, s-222-1, s-223-1
+    - antiennes : Psaume 112 → s-224-1
+    - antiennes : Psaume 147 & Cantique NT (samedi) p. 241 → s-224-2
+    - cantique : Cantique NT 7 → s-241-1, s-242-1, s-243-1
+    - repons : Répons de la Présentation → s-232-1, s-232-2, s-233-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+- **lectures** (p. 217)
+    - invitatoire : Invitatoire de la Présentation → s-225-1, s-225-2, s-226-1, s-227-1, s-227-2, p-228
+    - hymne : Hymne de la Présentation → s-220-1, s-221-1, s-222-1, s-223-1
+    - antiennes : Psaume 2 → s-230-1
+    - antiennes : Psaume 44 → s-230-2, s-231-1
+    - repons : Répons de la Présentation → s-232-1, s-232-2, s-233-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+    - choral : Choral de la Présentation → s-236-1, s-237-1, s-237-2
+- **laudes** (p. 217)
+    - hymne : Hymne de la Présentation → s-220-1, s-221-1, s-222-1, s-223-1
+    - antiennes : Psaume 2 → s-230-1
+    - antiennes : Psaume 44 → s-230-2, s-231-1
+    - repons : Répons de la Présentation → s-232-1, s-232-2, s-233-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 217)
+    - lucernaire : Lucernaire de la Présentation → s-218-1, s-219-1
+    - hymne : Hymne de la Présentation → s-220-1, s-221-1, s-222-1, s-223-1
+    - antiennes : Psaume 109 → s-239-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-239-2
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons de la Présentation → s-232-1, s-232-2, s-233-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 02-14 — Ss. Cyrille & Méthode  (sanctoral2, p. 4)
+- **laudes** (p. 4)
+    - hymne :  → s-004-1
+    - antiennes : Psaume 62 & AT 49 → s-005-1
+    - antiennes : Psaume 149 - Répons p. 8 → s-005-2
+    - repons : Répons - Ss. Cyrille & Méthode → s-008-1, s-009-1
+- **vepres** (p. 6)
+    - hymne :  → s-006-1
+    - antiennes : Psaume 14 → s-007-1
+    - antiennes : Psaume 111 & NT XIII p. 356 - Répons p. 8 → s-007-2
+    - cantique : Cantique NT 13 → s-361-1
+    - repons : Répons - Ss. Cyrille & Méthode → s-008-1, s-009-1
+
+## 02-22 — Chaire de saint Pierre  (sanctoral2, p. 10)
+- **laudes** (p. 10)
+    - hymne :  → s-010-1, s-011-1
+    - antiennes : Psaume 62 & AT 49 → s-012-1
+    - ou antiennes : Psaume 62 & AT 49 → s-012-2
+    - antiennes : Psaume 149 & Répons p. 18 → s-013-1
+    - repons : Répons - Chaire de S. Pierre → s-018-1, s-019-1
+- **vepres** (p. 14)
+    - hymne :  → s-014-1, s-015-1
+    - antiennes : Psaume 115 → s-016-1
+    - ou antiennes : Psaume 115 → s-016-2
+    - antiennes : Psaume 125 & NT VI p. 342 - Répons p. 18 → s-017-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - Chaire de S. Pierre → s-018-1, s-019-1
+
+## 03-19 — Saint Joseph  (sanctoral2, p. 20)
+- **vepres1** (p. 24)
+    - lucernaire : Lucernaire → s-020-1, s-021-1
+    - antiennes : Psaume 112 → s-024-1
+    - antiennes : Psaume 145 & NT VI p. 342 - Répons p. 30 → s-024-2
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - S. Joseph → s-030-1, s-031-1
+    - hymne (déduit) : Hymne - S. Joseph → s-022-1, s-022-2, s-023-1, s-023-2
+- **lectures** (p. 25)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-025-1
+    - hymne : Hymne - S. Joseph → s-022-1, s-022-2, s-023-1, s-023-2
+    - antiennes : Psaume 20 → s-025-2
+    - antiennes : Psaume 91, 2-10 → s-026-1
+    - antiennes : Psaume 91, 11-16 - Répons p. 30 - Te Deum p. 384 → s-026-2
+    - repons : Répons - S. Joseph → s-030-1, s-031-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+- **laudes** (p. 27)
+    - hymne : Hymne - S. Joseph → s-022-1, s-022-2, s-023-1, s-023-2
+    - antiennes : Psaume 62 & AT 49 → s-027-1
+    - antiennes : Psaume 149 - Répons p. 30 → s-027-2
+    - repons : Répons - S. Joseph → s-030-1, s-031-1
+- **vepres** (p. 29)
+    - lucernaire : Lucernaire → s-020-1, s-021-1
+    - antiennes : Psaume 14 → s-029-1
+    - antiennes : Psaume 111 & NT XIII p. 356 - Répons p. 30 → s-029-2
+    - cantique : Cantique NT 13 → s-361-1
+    - repons : Répons - S. Joseph → s-030-1, s-031-1
+    - hymne (déduit) : Hymne - S. Joseph → s-022-1, s-022-2, s-023-1, s-023-2
+
+## 03-25 — Annonciation du Seigneur  (sanctoral2, p. 33)
+- **vepres1** (p. 38)
+    - lucernaire : Lucernaire → s-034-1, s-035-1
+    - antiennes : Psaumes 112 & 147 → s-038-1
+    - cantique : Cantique NT 7 → s-350-1, s-351-1, s-352-1
+    - repons : Répons 3 - Annonciation → s-051-1, s-052-1
+    - hymne (déduit) : Hymne - Annonciation → s-036-1, s-037-1
+- **lectures** (p. 39)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-039-1
+    - hymne : Hymne - Annonciation → s-036-1, s-037-1
+    - antiennes : Psaume 2 → s-040-1
+    - antiennes : Psaume 18 A → s-040-2, s-041-1
+    - antiennes : Psaume 44 - Répons p. 45 s. - Ev. p. 32 - Te Deum p. → s-041-2
+    - repons : Répons 1 - Annonciation → s-046-1, s-047-1
+    - ou repons : Répons 2 - Annonciation → s-049-1
+    - ou repons : Répons 3 - Annonciation → s-051-1, s-052-1
+- **laudes** (p. 43)
+    - hymne : Hymne - Annonciation → s-036-1, s-037-1
+    - antiennes : Psaume 62 & AT 49 → s-043-1
+    - antiennes : Psaume 149 → s-044-1
+    - repons : Répons 3 - Annonciation → s-051-1, s-052-1
+- **vepres** (p. 45)
+    - antiennes : Psaumes 109 & 129 → s-045-1
+    - cantique : Cantique NT 8 → s-353-1, s-354-1, s-355-1
+    - repons : Répons 3 - Annonciation → s-051-1, s-052-1
+    - lucernaire (déduit) : Lucernaire → s-034-1, s-035-1
+    - hymne (déduit) : Hymne - Annonciation → s-036-1, s-037-1
+
+## 04-25 — Saint Marc, Évangéliste  (sanctoral2, p. 53)
+- **laudes** (p. 53)
+    - hymne :  → s-053-1, s-054-1
+    - antiennes : Psaume 62 & AT 49 → s-055-1
+    - antiennes : Psaume 149 - Répons p. 58 → s-056-1
+    - ou antiennes : Psaume 149 - Répons p. 58 → s-056-2
+    - repons : Répons - S. Marc → s-059-1, s-060-1
+- **vepres** (p. 57)
+    - hymne : Vêpres - Chaire de S. Pierre (Chaire de saint Pierre) → s-014-1, s-015-1
+    - antiennes : Psaume 115 → s-057-1
+    - antiennes : Psaume 125 & NT VI p. 342 - Répons p. 58 → s-058-1
+    - ou antiennes : Psaume 125 & NT VI p. 342 - Répons p. 58 → s-058-2
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - S. Marc → s-059-1, s-060-1
+
+## 04-29 — Sainte Catherine de Sienne  (sanctoral2, p. 61)
+- **laudes** (p. 65)
+    - antiennes : Psaume 62 & AT 49 → s-065-1
+    - antiennes : Psaume 149 - Répons p. 72 s. → s-066-1
+    - ou antiennes : Psaume 149 - Répons p. 72 s. → s-066-2
+    - repons : Répons 1 - Sainte Catherine → s-073-1, s-075-1
+    - ou repons : Répons 2 - Sainte Catherine → s-076-1, s-077-1, s-078-1
+    - ou repons : Répons 3 - Sainte Catherine → s-079-1, s-080-1
+    - hymne (déduit) : Hymne 1 - Sainte Catherine → s-061-1, s-062-1
+    - ou hymne (déduit) : Hymne 2 - Sainte Catherine → s-063-1
+    - ou hymne (déduit) : Hymne 3 - Sainte Catherine → s-064-1
+- **vepres** (p. 67)
+    - antiennes : Psaume 30, 20-25 → s-067-1
+    - ou antiennes : Psaume 30, 20-25 → s-067-2
+    - antiennes : Psaume 83 & NT XI p. 351 → s-068-1
+    - cantique : Cantique NT 11 → s-356-1, s-357-1
+    - repons : Répons 1 - Sainte Catherine → s-073-1, s-075-1
+    - ou repons : Répons 2 - Sainte Catherine → s-076-1, s-077-1, s-078-1
+    - ou repons : Répons 3 - Sainte Catherine → s-079-1, s-080-1
+    - hymne (déduit) : Hymne 1 - Sainte Catherine → s-061-1, s-062-1
+    - ou hymne (déduit) : Hymne 2 - Sainte Catherine → s-063-1
+    - ou hymne (déduit) : Hymne 3 - Sainte Catherine → s-064-1
+
+## 05-03 — S. Philippe & S. Jacques, Apôtres  (sanctoral2, p. 81)
+- **laudes** (p. 81)
+    - hymne :  → s-081-2, s-082-1
+    - antiennes : Psaume 62 & AT 49 → s-083-1
+    - ou antiennes : Psaume 62 & AT 49 → s-083-2
+    - antiennes : Psaume 149 → s-084-1
+    - repons : Répons - S. Philippe & S. Jacques → s-091-1, s-092-1
+- **vepres** (p. 85)
+    - hymne : Vêpres - Chaire de S. Pierre (Chaire de saint Pierre) → s-014-1, s-015-1
+    - hymne :  → s-085-1, s-086-1
+    - antiennes : Psaume 115 → s-087-1
+    - ou antiennes : Psaume 115 → s-087-2, s-088-1
+    - antiennes : Psaume 125 → s-089-1
+    - ou antiennes : Psaume 125 → s-089-2, s-090-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - S. Philippe & S. Jacques → s-091-1, s-092-1
+
+## 05-14 — S. Matthias, Apôtre  (sanctoral2, p. 93)
+- **laudes** (p. 93)
+    - hymne :  → s-093-1, s-094-1
+    - antiennes : Psaume 62 & AT 49 → s-095-1
+    - ou antiennes : Psaume 62 & AT 49 → s-095-2
+    - antiennes : Psaume 149 → s-096-1
+    - repons : Répons - S. Matthias → s-101-1, s-102-1
+- **vepres** (p. 97)
+    - hymne : Vêpres - Chaire de S. Pierre (Chaire de saint Pierre) → s-014-1, s-015-1
+    - ou hymne : Vêpres - S. Philippe & S. Jacques (S. Philippe & S. Jacques, Apôtres) → s-085-1, s-086-1
+    - hymne :  → s-097-1
+    - antiennes : Psaume 115 → s-098-1
+    - antiennes : Psaume 125 → s-098-2
+    - ou antiennes : Psaume 125 → s-099-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - S. Matthias → s-101-1, s-102-1
+    - magnificat :  → s-100-1
+
+## 05-24 — Translation de N. P. S. Dominique  (sanctoral2, p. 103)
+- **laudes** (p. 106)
+    - antiennes : Psaume & AT (de la férie) → s-106-1
+    - antiennes : Psaume (de la férie) - Répons p. 108 → s-107-1
+    - repons : Répons - S. Dominique → s-109-1, s-110-1
+    - hymne (déduit) : Hymne 1 - S. Dominique → s-104-1
+    - ou hymne (déduit) : Hymne 2 - S. Dominique → s-105-1
+- **vepres** (p. 108)
+    - antiennes : Psaume (de la férie) → s-108-1
+    - antiennes : Psaume & NT (de la férie) - Répons p. 108 → s-108-2
+    - repons : Répons - S. Dominique → s-109-1, s-110-1
+    - hymne (déduit) : Hymne 1 - S. Dominique → s-104-1
+    - ou hymne (déduit) : Hymne 2 - S. Dominique → s-105-1
+
+## 05-31 — Visitation de la Vierge Marie  (sanctoral2, p. 111)
+- **laudes** (p. 111)
+    - hymne :  → s-111-1
+    - antiennes : Psaume 62 & AT 49 → s-113-1
+    - antiennes : Psaume 149 - Répons p. 117 → s-113-2
+    - repons : Répons - Visitation → s-118-2, s-119-1
+- **vepres** (p. 115)
+    - hymne :  → s-115-1
+    - antiennes : Psaume 121 → s-117-1
+    - antiennes : Psaume 126 - NT VI p. 342 → s-117-2, s-118-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons (déduit) : Répons - Visitation → s-118-2, s-119-1
+
+## 06-11 — Saint Barnabé, Apôtre  (sanctoral2, p. 121)
+- **laudes** (p. 121)
+    - hymne :  → s-121-1, s-122-1
+    - antiennes : Psaume & AT (de la férie) → s-123-1
+    - antiennes : Psaume (de la férie) - Répons p. 126 → s-124-1
+    - repons : Répons - S. Barnabé → s-127-1, s-128-1
+- **vepres** (p. 125)
+    - hymne : Vêpres - Chaire de S. Pierre (Chaire de saint Pierre) → s-014-1, s-015-1
+    - ou hymne : Vêpres - S. Philippe & S. Jacques (S. Philippe & S. Jacques, Apôtres) → s-085-1, s-086-1
+    - antiennes : Psaume (de la férie) → s-125-1
+    - antiennes : Psaume & NT (de la férie) - Répons p. 126 → s-125-2
+    - repons : Répons - S. Barnabé → s-127-1, s-128-1
+
+## 06-24 — Nativité de saint Jean-Baptiste  (sanctoral2, p. 129)
+- **vepres1** (p. 135)
+    - lucernaire : Lucernaire festif → s-129-2, s-130-1
+    - antiennes : Psaumes 112 & 145 → s-135-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - Nat. S. Jean-Baptiste → s-141-1, s-142-1
+    - hymne (déduit) : Hymne 1 - Nat. S. Jean-Baptiste → s-131-1, s-132-1
+    - ou hymne (déduit) : Hymne 2 - Nat. S. Jean-Baptiste → s-133-1, s-134-1
+- **lectures** (p. 136)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-136-1
+    - hymne : Hymne 1 - Nat. S. Jean-Baptiste → s-131-1, s-132-1
+    - ou hymne : Hymne 2 - Nat. S. Jean-Baptiste → s-133-1, s-134-1
+    - antiennes : Psaume 20 → s-136-2
+    - antiennes : Psaume 91, 2-10 → s-137-1
+    - antiennes : Psaume 91, 11-16 - Répons p. 140 - Te Deum p. 384 → s-137-2
+    - repons : Répons - Nat. S. Jean-Baptiste → s-141-1, s-142-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-143-2
+- **laudes** (p. 138)
+    - antiennes : Psaume 62 & AT 49 → s-138-1
+    - antiennes : Psaume 149 - Répons p. 140 → s-138-2
+    - repons : Répons - Nat. S. Jean-Baptiste → s-141-1, s-142-1
+    - hymne (déduit) : Hymne 1 - Nat. S. Jean-Baptiste → s-131-1, s-132-1
+    - ou hymne (déduit) : Hymne 2 - Nat. S. Jean-Baptiste → s-133-1, s-134-1
+- **vepres** (p. 139)
+    - antiennes : Psaume 14 → s-139-1
+    - antiennes : Psaume 111 & NT XIII p. 356 - Répons p. 140 → s-139-2
+    - cantique : Cantique NT 13 → s-361-1
+    - repons : Répons - Nat. S. Jean-Baptiste → s-141-1, s-142-1
+    - lucernaire (déduit) : Lucernaire festif → s-129-2, s-130-1
+    - hymne (déduit) : Hymne 1 - Nat. S. Jean-Baptiste → s-131-1, s-132-1
+    - ou hymne (déduit) : Hymne 2 - Nat. S. Jean-Baptiste → s-133-1, s-134-1
+
+## 06-29 — Saint Pierre & Saint Paul, Apôtres  (sanctoral2, p. 144)
+- **vepres1** (p. 149)
+    - lucernaire : Lucernaire → s-145-1
+    - hymne :  → s-149-1
+    - antiennes : Psaumes 116 & 147 → s-149-2
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons 1 - S. Pierre & S. Paul → s-155-1
+    - ou repons : Répons 2 - S. Pierre & S. Paul → s-157-2, s-158-1
+    - ou repons : Répons 3 - S. Pierre & S. Paul → s-159-1
+- **lectures** (p. 150)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-150-1
+    - hymne : Hymne - S. Pierre & S. Paul → s-147-1
+    - antiennes : Psaume 18 A → s-150-2
+    - antiennes : Psaume 63 → s-151-1
+    - antiennes : Psaume 96 - Répons p. 154 s. - Te Deum p. 384 → s-151-2
+    - repons : Répons 1 - S. Pierre & S. Paul → s-155-1
+    - ou repons : Répons 2 - S. Pierre & S. Paul → s-157-2, s-158-1
+    - ou repons : Répons 3 - S. Pierre & S. Paul → s-159-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-161-1
+- **laudes** (p. 152)
+    - hymne : Hymne - S. Pierre & S. Paul → s-147-1
+    - antiennes : Psaume 62 & AT 49 → s-152-1
+    - antiennes : Psaume 149 - Répons p. 154 s. → s-152-2
+    - repons : Répons 1 - S. Pierre & S. Paul → s-155-1
+    - ou repons : Répons 2 - S. Pierre & S. Paul → s-157-2, s-158-1
+    - ou repons : Répons 3 - S. Pierre & S. Paul → s-159-1
+- **vepres** (p. 153)
+    - lucernaire : Lucernaire → s-145-1
+    - psaume : Psaume 115 → —
+    - antiennes : Psaume 125 & NT VI p. 342 - Répons p. 154 s. → s-153-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons 1 - S. Pierre & S. Paul → s-155-1
+    - ou repons : Répons 2 - S. Pierre & S. Paul → s-157-2, s-158-1
+    - ou repons : Répons 3 - S. Pierre & S. Paul → s-159-1
+    - hymne (déduit) : Hymne - S. Pierre & S. Paul → s-147-1
+
+## 07-03 — Saint Thomas, Apôtre  (sanctoral2, p. 214)
+- **laudes** (p. 215)
+    - hymne :  → s-215-1, s-216-1
+    - antiennes : Psaume 62 & AT 49 → s-217-1
+    - antiennes : Psaume 149 - Répons p. 222 → s-217-2
+    - repons : Répons - S. Thomas → s-223-1, s-224-1
+    - benedictus :  → s-218-1
+- **vepres** (p. 219)
+    - hymne :  → s-219-1, s-220-1
+    - antiennes : Psaume 115 → s-221-1
+    - psaume : Psaume 125 & NT VI p. 342 - Répons p. 222 → —
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - S. Thomas → s-223-1, s-224-1
+
+## 07-11 — Saint Benoît, abbé  (sanctoral2, p. 225)
+- **laudes** (p. 225)
+    - hymne :  → s-225-1, s-226-1
+    - antiennes : Psaume 62 & AT 49 → s-227-1
+    - antiennes : Psaume 149 → s-228-1
+    - repons : Répons - S. Benoît → s-231-1, s-232-1
+- **vepres** (p. 229)
+    - hymne :  → s-229-1
+    - antiennes : Psaume 14 → s-230-1
+    - antiennes : Psaume 111 & NT XII p. 353 - Répons 230 → s-230-2
+    - cantique : Cantique NT 12 → s-358-1, s-359-1, s-360-1
+    - repons : Répons - S. Benoît → s-231-1, s-232-1
+
+## 07-22 — Sainte Marie-Madeleine  (sanctoral2, p. 233)
+- **laudes** (p. 241)
+    - antiennes : Psaume 62 & AT 49 → s-241-1
+    - antiennes : Psaume 149 - Répons p. 244 → s-242-1
+    - repons : Répons - Sainte Marie-Madeleine → s-245-1, s-246-1
+    - hymne (déduit) : Hymne 1 → s-233-1, s-234-1
+    - ou hymne (déduit) : Hymne 2 - Sainte Marie-Madeleine → s-235-1, s-236-1, s-236-2, s-236-3
+    - ou hymne (déduit) : Hymne 3 - Sainte Marie-Madeleine → s-237-1, s-237-3, s-238-1, s-238-2, s-238-3
+- **vepres** (p. 243)
+    - hymne : Hymne 1 → s-233-1, s-234-1
+    - ou hymne : Hymne 2 - Sainte Marie-Madeleine → s-235-1, s-236-1, s-236-2, s-236-3
+    - ou hymne : Hymne 3 - Sainte Marie-Madeleine → s-237-1, s-237-3, s-238-1, s-238-2, s-238-3
+    - antiennes : Psaume 121 → s-243-1
+    - antiennes : Psaume 126 → s-243-2, s-244-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - Sainte Marie-Madeleine → s-245-1, s-246-1
+    - lucernaire (déduit) : Lucernaire - Sainte Marie-Madeleine → s-239-1, s-240-1, s-240-2
+
+## 07-23 — Sainte Brigitte de Suède  (sanctoral2, p. 247)
+- **laudes** (p. 247)
+    - hymne : Laudes (Saint Benoît, abbé) → s-225-1, s-226-1
+    - hymne :  → s-247-1
+    - antiennes : Psaume 62 & AT 49 → s-248-1
+    - antiennes : Psaume 149 - Répons p. 72 → s-248-2
+    - repons : Répons 1 - Sainte Catherine → s-073-1, s-075-1
+- **vepres** (p. 249)
+    - hymne :  → s-249-1
+    - antiennes : Psaume 121 → s-250-1
+    - antiennes : Psaume 126 & NT VI p. 342 - Répons 72 → s-250-2
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons 1 - Sainte Catherine → s-073-1, s-075-1
+
+## 07-25 — Saint Jacques le Majeur, Apôtre  (sanctoral2, p. 251)
+- **laudes** (p. 251)
+    - hymne :  → s-251-2, s-252-1
+    - antiennes : Psaume 62 & AT 49 → s-253-1
+    - antiennes : Psaume 149 - Répons p. 254 → s-253-2
+    - repons : Répons - S. Jacques → s-256-1, s-257-1
+- **vepres** (p. 255)
+    - hymne : Vêpres - Chaire de S. Pierre (Chaire de saint Pierre) → s-014-1, s-015-1
+    - antiennes : Psaume 115 → s-255-1
+    - antiennes : Psaume 125 & NT VI p. 342 - Répons p. 254 → s-255-2
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - S. Jacques → s-256-1, s-257-1
+
+## 08-06 — Transfiguration du Seigneur  (sanctoral2, p. 258)
+- **vepres1** (p. 258)
+    - lucernaire : Lucernaire - Trinité → s-164-1
+    - antiennes : Psaumes 112 & 116 - NT XIV p. 358 → s-258-1
+    - cantique : Cantique NT 14 → s-363-1, s-364-1
+    - repons : Répons - Transfiguration → s-267-1, s-268-1
+- **lectures** (p. 259)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-259-1
+    - hymne :  → s-260-1, s-261-1
+    - antiennes : Psaume 83 → s-262-1
+    - antiennes : Psaume 96 → s-262-2, s-263-1
+    - antiennes : Psaume 98 → s-263-2
+    - repons : Répons - Transfiguration → s-267-1, s-268-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-269-2, s-269-3
+- **laudes** (p. 264)
+    - hymne : Vigiles - Transfiguration (Transfiguration du Seigneur) → s-260-1, s-261-1
+    - antiennes : Psaume 62 - AT 49 → s-264-1
+    - antiennes : Psaume 149 - Répons p. 264 → s-264-2
+    - repons : Répons - Transfiguration → s-267-1, s-268-1
+- **vepres** (p. 266)
+    - lucernaire : Lucernaire - Trinité → s-164-1
+    - antiennes : Psaume 109 → s-266-1
+    - antiennes : Psaume 120 & NT XIV p. 358 - Répons p. 264 → s-266-2
+    - cantique : Cantique NT 14 → s-363-1, s-364-1
+    - repons : Répons - Transfiguration → s-267-1, s-268-1
+
+## 08-08 — Notre Père saint Dominique  (sanctoral2, p. 270)
+- **vepres1** (p. 275)
+    - lucernaire : Lucernaire festif → s-129-2, s-130-1
+    - antiennes : Psaume 112 → s-275-1
+    - antiennes : Psaume 145 & NT XI p. 351 - Répons p. 280 - Magnificat → s-275-2
+    - cantique : Cantique NT 11 → s-356-1, s-357-1
+    - repons : Répons 1 - S. Dominique → s-284-1, s-285-1
+    - hymne (déduit) : Hymne 1 - S. Dominique → s-271-1
+    - ou hymne (déduit) : Hymne 2 - S. Dominique → s-272-1
+    - ou hymne (déduit) : Hymne 3 - S. Dominique → s-273-1
+    - ou hymne (déduit) : Hymne 4 - S. Dominique → s-274-1
+    - magnificat (déduit) : Antienne à Magnificat → s-295-1
+- **lectures** (p. 276)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-276-1
+    - hymne : Hymne 1 - S. Dominique → s-271-1
+    - ou hymne : Hymne 2 - S. Dominique → s-272-1
+    - ou hymne : Hymne 3 - S. Dominique → s-273-1
+    - ou hymne : Hymne 4 - S. Dominique → s-274-1
+    - antiennes : Psaume 41 → s-277-1
+    - antiennes : Psaume 76 → s-277-2
+    - antiennes : Psaume 144, 1-9 → s-279-1
+    - repons : Répons 1 - S. Dominique → s-284-1, s-285-1
+    - ou repons : Répons 2 - S. Dominique → s-286-1, s-287-1
+    - ou repons : Répons 3 - S. Dominique → s-288-1, s-289-1
+    - ou repons : Répons 4 - S. Dominique → s-290-1, s-291-1
+    - ou repons : Répons 5 - S. Dominique → s-292-1, s-292-2
+    - ou repons : Répons 6 - S. Dominique → s-294-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-296-2, s-296-3
+- **laudes** (p. 280)
+    - hymne : Hymne 1 - S. Dominique → s-271-1
+    - ou hymne : Hymne 2 - S. Dominique → s-272-1
+    - ou hymne : Hymne 3 - S. Dominique → s-273-1
+    - ou hymne : Hymne 4 - S. Dominique → s-274-1
+    - antiennes : Psaume 62 & AT 49 → s-280-1
+    - antiennes : Psaume 149 - Répons p. 280 s. → s-280-2
+    - repons : Répons 1 - S. Dominique → s-284-1, s-285-1
+    - ou repons : Répons 2 - S. Dominique → s-286-1, s-287-1
+    - ou repons : Répons 3 - S. Dominique → s-288-1, s-289-1
+    - ou repons : Répons 4 - S. Dominique → s-290-1, s-291-1
+    - ou repons : Répons 5 - S. Dominique → s-292-1, s-292-2
+    - ou repons : Répons 6 - S. Dominique → s-294-1
+- **vepres** (p. 281)
+    - lucernaire : Lucernaire festif → s-129-2, s-130-1
+    - antiennes : Psaume 115 → s-281-1
+    - antiennes : Psaume 125 & NT VI p. 342 - Répons p. 280 - Magnificat → s-281-2
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons 1 - S. Dominique → s-284-1, s-285-1
+    - hymne (déduit) : Hymne 1 - S. Dominique → s-271-1
+    - ou hymne (déduit) : Hymne 2 - S. Dominique → s-272-1
+    - ou hymne (déduit) : Hymne 3 - S. Dominique → s-273-1
+    - ou hymne (déduit) : Hymne 4 - S. Dominique → s-274-1
+    - magnificat (déduit) : Antienne à Magnificat → s-295-1
+
+## 08-09 — Sainte Thérèse-Bénédicte de la Croix  (sanctoral2, p. 297)
+- **laudes** (p. 297)
+    - hymne :  → s-297-1
+    - antiennes : Psaume 62 & AT 49 → s-298-1
+    - antiennes : Psaume 149 - Répons p. 298 → s-298-2
+    - repons : Répons - Sainte Thérèse-B. de la Croix → s-302-1, s-302-2
+- **vepres** (p. 299)
+    - hymne :  → s-299-1
+    - antiennes : Psaume 114 → s-300-1
+    - antiennes : Psaume 115 & NT XI p. 351 → s-300-2
+    - cantique : Cantique NT 11 → s-356-1, s-357-1
+    - repons : Répons - Sainte Thérèse-B. de la Croix → s-302-1, s-302-2
+
+## 08-10 — Saint Laurent, diacre & martyr  (sanctoral2, p. 304)
+- **laudes** (p. 304)
+    - hymne :  → s-304-1, s-304-2, s-304-3, s-304-4
+    - antiennes : Psaume 62 & AT 49 → s-305-1
+    - antiennes : Psaume 149 - Répons p. 304 → s-305-2
+    - repons : Répons - S. Laurent → s-308-1, s-309-1
+- **vepres** (p. 306)
+    - hymne :  → s-306-1, s-306-2, s-306-3, s-306-4
+    - antiennes : Psaume 114 → s-307-1
+    - antiennes : Psaume 115 & NT XI p. 351 - Répons p. 304 → s-307-2
+    - cantique : Cantique NT 11 → s-356-1, s-357-1
+    - repons : Répons - S. Laurent → s-308-1, s-309-1
+
+## 08-15 — Assomption de la Vierge Marie  (sanctoral2, p. 310)
+- **vepres1** (p. 316)
+    - lucernaire : Vêpres - S. Laurent (Saint Laurent, diacre & martyr) → s-306-1, s-306-2, s-306-3, s-306-4
+    - antiennes : Psaume 112 → s-316-1
+    - psaume : Psaume 147 & NT VI p. 342 → —
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons 1 - Assomption → s-323-1, s-324-1
+    - ou repons : Répons 2 - Assomption → s-325-1, s-326-1
+    - ou repons : Répons 3 - Assomption → s-327-1, s-328-1, s-329-1, s-330-1
+    - hymne (déduit) : Hymne - Assomption → s-313-1, s-314-1, s-315-1
+- **lectures** (p. 317)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-317-1
+    - hymne : Hymne - Assomption → s-313-1, s-314-1, s-315-1
+    - ou hymne : Vêpres - Visitation (Visitation de la Vierge Marie) → s-115-1
+    - antiennes : Psaume 23 → s-318-1
+    - antiennes : Psaume 45 → s-318-2, s-319-1
+    - antiennes : Psaume 86 - Répons p. 318 s. - Te Deum p. 384 → s-319-2
+    - repons : Répons 1 - Assomption → s-323-1, s-324-1
+    - ou repons : Répons 2 - Assomption → s-325-1, s-326-1
+    - ou repons : Répons 3 - Assomption → s-327-1, s-328-1, s-329-1, s-330-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-331-2, s-332-1
+- **laudes** (p. 321)
+    - hymne : Hymne - Assomption → s-313-1, s-314-1, s-315-1
+    - ou hymne : Vêpres - Visitation (Visitation de la Vierge Marie) → s-115-1
+    - antiennes : Psaume 62 & AT 49 → s-321-1
+    - antiennes : Psaume 149 - Répons p. 318 → s-321-2
+    - repons : Répons 1 - Assomption → s-323-1, s-324-1
+- **vepres** (p. 322)
+    - lucernaire : Lucernaire festif → s-129-2, s-130-1
+    - antiennes : Psaumes 121 & 126 → s-322-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons 1 - Assomption → s-323-1, s-324-1
+    - hymne (déduit) : Hymne - Assomption → s-313-1, s-314-1, s-315-1
+
+## 08-24 — Saint Barthélemy, Apôtre  (sanctoral2, p. 333)
+- **laudes** (p. 333)
+    - hymne :  → s-333-1, s-334-1
+    - antiennes : Psaume 62 & AT 49 → s-335-1
+    - antiennes : Psaume 149 → s-336-1
+    - repons : Répons - S. Barthélemy → s-339-1, s-340-1
+- **vepres** (p. 337)
+    - hymne : Vêpres - Chaire de S. Pierre (Chaire de saint Pierre) → s-014-1, s-015-1
+    - antiennes : Psaume 115 → s-337-1
+    - antiennes : Psaume 125 → s-338-1
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - S. Barthélemy → s-339-1, s-340-1
+
+## 08-28 — Saint Augustin, év. & docteur  (sanctoral2, p. 341)
+- **laudes** (p. 343)
+    - hymne : Hymne → s-341-1, s-341-2, s-342-1, s-342-2
+    - ou hymne : Hymne 1 - S. Dominique → s-271-1
+    - antiennes : Psaume 62 & AT 49 → s-343-1
+    - psaume : Psaume 149 - Répons p. 8 → —
+    - repons : Répons - Ss. Cyrille & Méthode → s-008-1, s-009-1
+- **vepres** (p. 344)
+    - hymne : Hymne → s-341-1, s-341-2, s-342-1, s-342-2
+    - ou hymne : Hymne 1 - S. Dominique → s-271-1
+    - antiennes : Psaume 14 → s-344-1
+    - antiennes : Psaume 111 & NT XIII p. 356 → s-344-2
+    - cantique : Cantique NT 13 → s-361-1
+    - repons : Répons - Ss. Cyrille & Méthode → s-008-1, s-009-1
+
+## 08-29 — Martyre de saint Jean-Baptiste  (sanctoral2, p. 345)
+- **laudes** (p. 345)
+    - hymne : Hymne 1 - Nat. S. Jean-Baptiste → s-131-1, s-132-1
+    - ou hymne : Hymne 2 - Nat. S. Jean-Baptiste → s-133-1, s-134-1
+    - antiennes (renvoi) : Psaume 62 & AT 49 → s-138-1
+    - antiennes (renvoi) : Psaume 149 - Répons p. 140 → s-138-2
+    - repons : Répons - Nat. S. Jean-Baptiste → s-141-1, s-142-1
+- **vepres** (p. 345)
+    - hymne : Hymne 1 - Nat. S. Jean-Baptiste → s-131-1, s-132-1
+    - ou hymne : Hymne 2 - Nat. S. Jean-Baptiste → s-133-1, s-134-1
+    - antiennes (renvoi) : Psaume 114 → s-307-1
+    - antiennes (renvoi) : Psaume 115 & NT XI p. 351 - Répons p. 304 → s-307-2
+    - repons : Répons - Nat. S. Jean-Baptiste → s-141-1, s-142-1
+
+## 09-08 — Nativité de la Vierge Marie  (sanctoral1, p. 4)
+- **laudes** (p. 4)
+    - hymne :  → s-004-1, s-004-2, s-005-1
+    - antiennes : Psaume 62 & AT 49 → s-006-1
+    - antiennes : Psaume 149 → s-007-1
+    - repons : Répons de la Nativité B.V.M. → s-012-1, s-013-1
+- **vepres** (p. 8)
+    - hymne :  → s-008-1, s-009-1
+    - antiennes : Psaume 121 → s-010-1
+    - antiennes : Psaume 126 & NT VI p. 290 → s-011-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons (déduit) : Répons de la Nativité B.V.M. → s-012-1, s-013-1
+
+## 09-14 — La Croix glorieuse  (sanctoral1, p. 14)
+- **vepres1** (p. 22)
+    - lucernaire : Lucernaire festif → s-287-1, s-288-1
+    - hymne :  → s-022-1
+    - antiennes : Psaume 146 → s-022-2
+    - antiennes : Psaume 147 → s-023-1
+    - cantique : Cantique NT 7 → s-296-1, s-297-1, s-298-1
+    - repons : Répons 1 - Croix glorieuse → s-028-1, s-028-2, s-029-1
+    - ou repons : Répons 2 - Croix glorieuse → s-030-1, s-031-1
+    - ou repons : Répons 3 - Croix glorieuse → s-032-1, s-033-1
+- **lectures** (p. 24)
+    - invitatoire : Invitatoire → s-015-1
+    - hymne : Hymne 1 - Croix glorieuse → s-016-1, s-016-2, s-017-1, s-017-2
+    - antiennes : Psaume 2 → s-024-1
+    - antiennes : Psaume 8 → s-024-2, s-025-1
+    - antiennes : Psaume 95 - Répons p. 28 s. → s-025-2
+    - repons : Répons 1 - Croix glorieuse → s-028-1, s-028-2, s-029-1
+    - ou repons : Répons 2 - Croix glorieuse → s-030-1, s-031-1
+    - ou repons : Répons 3 - Croix glorieuse → s-032-1, s-033-1
+    - choral (déduit) : Choral → s-036-1, s-037-1
+    - tedeum (déduit) : Te Deum → p-036
+    - acclamation (déduit) : Acclamation de l’Evangile → s-034-1, s-035-1
+- **laudes** (p. 26)
+    - antiennes : Psaume 62 & AT 49 → s-026-1
+    - antiennes : Psaume 149 - Répons p. 28 s. → s-026-2
+    - repons : Répons 1 - Croix glorieuse → s-028-1, s-028-2, s-029-1
+    - ou repons : Répons 2 - Croix glorieuse → s-030-1, s-031-1
+    - ou repons : Répons 3 - Croix glorieuse → s-032-1, s-033-1
+    - invitatoire (déduit) : Invitatoire → s-015-1
+    - hymne (déduit) : Hymne 1 - Croix glorieuse → s-016-1, s-016-2, s-017-1, s-017-2
+    - ou hymne (déduit) : Hymne 2 - Croix glorieuse → s-018-1, s-019-1
+    - ou hymne (déduit) : Hymne 3 - Croix glorieuse → s-020-1, s-021-1
+- **vepres** (p. 27)
+    - antiennes : Psaume 109 → s-027-1
+    - antiennes : Psaume 115 & NT XI p. 299 → s-027-2
+    - cantique : Cantique NT 11 → s-302-1, s-303-1
+    - hymne (déduit) : Hymne 1 - Croix glorieuse → s-016-1, s-016-2, s-017-1, s-017-2
+    - ou hymne (déduit) : Hymne 2 - Croix glorieuse → s-018-1, s-019-1
+    - ou hymne (déduit) : Hymne 3 - Croix glorieuse → s-020-1, s-021-1
+    - repons (déduit) : Répons 1 - Croix glorieuse → s-028-1, s-028-2, s-029-1
+    - ou repons (déduit) : Répons 2 - Croix glorieuse → s-030-1, s-031-1
+    - ou repons (déduit) : Répons 3 - Croix glorieuse → s-032-1, s-033-1
+
+## 09-15 — Notre-Dame des Douleurs  (sanctoral1, p. 38)
+- **laudes** (p. 38)
+    - hymne :  → s-038-1, s-039-1
+    - antiennes : Psaume 62 & AT 49 → s-040-1
+    - psaume : Psaume 149 → —
+    - repons : Répons - N.-D. des Douleurs → s-045-1, s-046-1, s-047-1
+- **vepres** (p. 42)
+    - hymne :  → s-042-1, s-043-1
+    - antiennes : Psaume 121 → s-044-1
+    - psaume : Psaume 126 & NT VI p. 290 → —
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons : Répons - N.-D. des Douleurs → s-045-1, s-046-1, s-047-1
+
+## 09-21 — Saint Matthieu, Apôtre et évangéliste  (sanctoral1, p. 48)
+- **laudes** (p. 48)
+    - hymne :  → s-048-2, s-049-1
+    - antiennes : Psaume 62 & AT 49 → s-050-1
+    - ou antiennes : Psaume 62 & AT 49 → s-050-2, s-051-1
+    - antiennes : Psaume 149 → s-051-2
+    - repons : Répons - S. Matthieu → s-056-1, s-057-1
+- **vepres** (p. 52)
+    - hymne :  → s-052-1, s-053-1
+    - antiennes : Psaume 115 → s-054-1
+    - antiennes : Psaume 125 & NT VI p. 290 → s-055-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons : Répons - S. Matthieu → s-056-1, s-057-1
+
+## 09-28 — S. Guillaume Courtet et ses compagnons  (sanctoral1, p. 58)
+- **laudes** (p. 58)
+    - hymne :  → s-058-2, s-058-3, s-058-4, s-058-5
+    - antiennes : Psaume 62 & AT 49 → s-059-1
+    - antiennes : Psaume 149 Répons p. 62 → s-059-2
+    - repons : Répons des martyrs → s-062-1, s-063-1
+- **vepres** (p. 60)
+    - hymne :  → s-060-1
+    - antiennes : Psaume 114 → s-061-1
+    - antiennes : Psaume 115 → s-061-2
+    - cantique : Cantique NT 11 → s-302-1, s-303-1
+    - repons : Répons des martyrs → s-062-1, s-063-1
+
+## 09-29 — Ss. Michel, Gabriel, Raphaël, Archanges  (sanctoral1, p. 64)
+- **laudes** (p. 68)
+    - antiennes : Psaume 62 & AT 49 → s-068-1
+    - antiennes : Psaume 149 → s-068-2
+    - hymne (déduit) : Hymne 1 - Archanges → s-064-2
+    - ou hymne (déduit) : Hymne 2 - Archanges → s-065-1
+    - ou hymne (déduit) : Hymne 3 - Archanges → s-066-1, s-067-1
+    - repons (déduit) : Répons des Archanges → s-070-1, s-071-1
+- **vepres** (p. 69)
+    - antiennes : Psaume 8 → s-069-1
+    - antiennes : Psaume 137 → s-069-2
+    - psaume : & NT VIII p. → —
+    - cantique : Cantique NT 8 → s-299-1, s-300-1, s-301-1
+    - hymne (déduit) : Hymne 1 - Archanges → s-064-2
+    - ou hymne (déduit) : Hymne 2 - Archanges → s-065-1
+    - ou hymne (déduit) : Hymne 3 - Archanges → s-066-1, s-067-1
+    - repons (déduit) : Répons des Archanges → s-070-1, s-071-1
+
+## 10-01 — Sainte Thérèse de l’Enfant Jésus, v. & d.  (sanctoral1, p. 72)
+- **laudes** (p. 72)
+    - hymne :  → s-072-1, s-072-2, s-073-1, s-073-2, s-073-3
+    - psaume : Psaumes de la férie → —
+    - antiennes (au choix) :  → s-074-1, s-074-2
+    - repons (déduit) : Répons - Ste Thérèse → s-079-1, s-080-1, s-080-2, s-081-1, s-081-2
+- **vepres** (p. 76)
+    - hymne :  → s-076-1, s-077-1
+    - psaume : Psaumes de la férie → —
+    - antiennes (au choix) :  → s-078-1, s-078-2
+    - repons (déduit) : Répons - Ste Thérèse → s-079-1, s-080-1, s-080-2, s-081-1, s-081-2
+
+## 10-02 — Les Saints Anges gardiens  (sanctoral1, p. 82)
+- **laudes** (p. 82)
+    - hymne : Hymne 1 - Archanges → s-064-2
+    - ou hymne : Hymne 2 - Archanges → s-065-1
+    - antiennes (renvoi) : Psaume 62 & AT 49 → s-068-1
+    - antiennes (renvoi) : Psaume 149 → s-068-2
+    - repons (déduit) : Répons des Anges gardiens → s-084-1, s-085-1
+- **vepres** (p. 82)
+    - hymne : Hymne 1 - Archanges → s-064-2
+    - ou hymne : Hymne 2 - Archanges → s-065-1
+    - antiennes : Psaume 33, 2-11 & 33, 12-23 → s-082-1, s-082-2
+    - cantique : Cantique NT 12 → s-304-1, s-305-1, s-306-1
+    - repons (déduit) : Répons des Anges gardiens → s-084-1, s-085-1
+
+## 10-04 — N.P.S. François d’Assise  (sanctoral1, p. 86)
+- **laudes** (p. 88)
+    - antiennes : Psaume 62 & AT 49 → s-088-1
+    - antiennes : Psaume 149 → s-089-1
+    - repons : Répons S. François d’A. → s-092-1, s-093-1
+    - hymne (déduit) : Hymne → s-086-1, s-087-1
+- **vepres** (p. 90)
+    - antiennes : Psaume 14 → s-090-1
+    - psaume : Psaume 111 → —
+    - cantique : Cantique NT 13 → s-307-1
+    - hymne (déduit) : Hymne → s-086-1, s-087-1
+    - repons (déduit) : Répons S. François d’A. → s-092-1, s-093-1
+
+## 10-07 — Notre-Dame du Rosaire  (sanctoral1, p. 95)
+- **laudes** (p. 96)
+    - hymne :  → s-096-1, s-097-1
+    - antiennes : Psaume 62 & AT 49 → s-098-1
+    - antiennes : Psaume 149 → s-100-1
+    - repons (déduit) : Répons des laudes - N.-D. du Rosaire → s-101-1
+    - ou repons (déduit) : Répons des vêpres - N.-D. du Rosaire → s-107-1, s-108-1
+- **vepres** (p. 103)
+    - hymne :  → s-103-1, s-104-1
+    - antiennes : Psaume 121 → s-105-1
+    - antiennes : Psaume 126 → s-106-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons (déduit) : Répons des laudes - N.-D. du Rosaire → s-101-1
+    - ou repons (déduit) : Répons des vêpres - N.-D. du Rosaire → s-107-1, s-108-1
+
+## 10-18 — Saint Luc, évangéliste  (sanctoral1, p. 109)
+- **laudes** (p. 109)
+    - hymne :  → s-109-1, s-110-1
+    - antiennes : Psaume 62 & AT 49 → s-111-1
+    - ou antiennes : Psaume 62 & AT 49 → s-111-2
+    - antiennes : Psaume 149 → s-112-1
+    - repons : Répons - S. Luc → s-115-1, s-116-1
+- **vepres** (p. 113)
+    - lucernaire : Vêpres - S. Matthieu (Saint Matthieu, Apôtre et évangéliste) → s-052-1, s-053-1
+    - psaume : Psaume 115 → —
+    - antiennes : Psaume 125 → s-114-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons : Répons - S. Luc → s-115-1, s-116-1
+
+## 10-28 — Saint Simon & Saint Jude, Apôtres  (sanctoral1, p. 117)
+- **laudes** (p. 117)
+    - hymne :  → s-117-2, s-118-1
+    - antiennes : Psaume 62 & AT 49 → s-119-1
+    - antiennes : Psaume 149 → s-120-1
+    - repons : Répons - Ss. Simon & Jude → s-125-1, s-126-1
+- **vepres** (p. 121)
+    - hymne :  → s-121-1, s-122-1
+    - antiennes : Psaume 115 → s-123-1
+    - antiennes : Psaume 125 & NT VI p. 290 → s-123-2
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons (déduit) : Répons - Ss. Simon & Jude → s-125-1, s-126-1
+
+## 11-01 — Fête de tous les Saints  (sanctoral1, p. 127)
+- **vepres1** (p. 134)
+    - lucernaire : Lucernaire festif → s-287-1, s-288-1
+    - antiennes : Psaume 112 → s-134-1
+    - antiennes : Psaume 147 → s-135-1
+    - cantique : Cantique NT 14 → s-309-1, s-310-1
+    - repons : Répons 1 - Toussaint → s-142-1, s-143-1, s-144-1, s-144-2
+    - hymne (déduit) : Hymne 1 - Toussaint → s-128-1, s-128-2, s-128-3, s-129-1
+    - ou hymne (déduit) : Hymne 2 - Toussaint → s-131-1
+    - ou hymne (déduit) : Hymne 3 - Toussaint → s-132-1, s-132-2
+    - ou hymne (déduit) : Hymne 4 - Toussaint → s-133-1
+- **lectures** (p. 137)
+    - invitatoire : Invitatoire → s-127-1
+    - hymne : Hymne 1 - Toussaint → s-128-1, s-128-2, s-128-3, s-129-1
+    - antiennes : Psaume 8 → s-137-1
+    - antiennes : Psaume 14 → s-137-2, s-138-1
+    - antiennes : Psaume 15 → s-138-2
+    - repons : Répons 1 - Toussaint → s-142-1, s-143-1, s-144-1, s-144-2
+    - choral (déduit) : Choral - Toussaint → s-151-1, s-152-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-149-1, s-149-2, s-150-1
+- **laudes** (p. 139)
+    - antiennes : Psaume 62 & AT 49 → s-139-1
+    - antiennes : Psaume 150 Psaume 149 Répons p. 146 → s-139-2
+    - repons : Répons 2 - Toussaint → s-145-1, s-146-1, s-146-2
+    - invitatoire (déduit) : Invitatoire → s-127-1
+    - hymne (déduit) : Hymne 1 - Toussaint → s-128-1, s-128-2, s-128-3, s-129-1
+    - ou hymne (déduit) : Hymne 2 - Toussaint → s-131-1
+    - ou hymne (déduit) : Hymne 3 - Toussaint → s-132-1, s-132-2
+    - ou hymne (déduit) : Hymne 4 - Toussaint → s-133-1
+- **vepres** (p. 140)
+    - antiennes : Psaume 109 → s-140-1
+    - antiennes : Psaume 115 → s-141-1
+    - cantique : Cantique NT 11 → s-302-1, s-303-1
+    - repons : Répons 1 - Toussaint → s-142-1, s-143-1, s-144-1, s-144-2
+    - hymne (déduit) : Hymne 1 - Toussaint → s-128-1, s-128-2, s-128-3, s-129-1
+    - ou hymne (déduit) : Hymne 2 - Toussaint → s-131-1
+    - ou hymne (déduit) : Hymne 3 - Toussaint → s-132-1, s-132-2
+    - ou hymne (déduit) : Hymne 4 - Toussaint → s-133-1
+
+## 11-02 — Commémoration des fidèles défunts  (sanctoral1, p. 153)
+- **laudes** (p. 153)
+    - hymne :  → s-153-2, s-154-1
+    - antiennes : Psaume 50 → s-155-1
+    - psaume : AT 25 → —
+    - antiennes : Psaume 145 → s-156-1, s-156-2
+    - repons : Répons 1 - Défunts → s-161-1, s-162-1
+    - ou repons : Répons 2 - Défunts → s-163-1, s-164-1
+- **vepres** (p. 157)
+    - hymne :  → s-157-1, s-158-1
+    - antiennes : Psaume 120 → s-159-1
+    - antiennes : Psaume 129 → s-160-1
+    - cantique : Cantique NT 7 → s-296-1, s-297-1, s-298-1
+    - repons (déduit) : Répons 1 - Défunts → s-161-1, s-162-1
+    - ou repons (déduit) : Répons 2 - Défunts → s-163-1, s-164-1
+
+## 11-03 — Saint Martin de Porrès, religieux  (sanctoral1, p. 165)
+- **laudes** (p. 166)
+    - hymne :  → s-166-1
+    - antiennes : Psaume 62 & AT 49 → s-167-1
+    - antiennes : Psaume 149 → s-168-1
+    - repons : Répons 1 - S. Martin de P. → s-171-1, s-172-1
+    - ou repons : Répons 2 - S. Martin de P. → s-173-1, s-174-1
+- **vepres** (p. 169)
+    - hymne :  → s-169-1, s-169-2, s-169-3
+    - antiennes : Psaume 14 → s-170-1
+    - antiennes : Psaume 111 & NT XIII p. 304 → s-170-2
+    - cantique : Cantique NT 13 → s-307-1
+    - repons : Répons 1 - S. Martin de P. → s-171-1, s-172-1
+    - ou repons : Répons 2 - S. Martin de P. → s-173-1, s-174-1
+
+## 11-07 — Tous les Saints et Bienheureux de l’Ordre des Prêcheurs  (sanctoral1, p. 175)
+- **laudes** (p. 175)
+    - hymne : Hymne 1 - Toussaint → s-128-1, s-128-2, s-128-3, s-129-1
+    - ou hymne : Hymne 2 - Toussaint → s-131-1
+    - ou hymne : Hymne 3 - Toussaint → s-132-1, s-132-2
+    - ou hymne : Hymne 4 - Toussaint → s-133-1
+    - antiennes (renvoi) : Psaume 62 & AT 49 → s-139-1
+    - antiennes (renvoi) : Psaume 150 Psaume 149 Répons p. 146 → s-139-2
+    - repons : Répons - Toussaint O.P. → s-177-1, s-177-2, s-178-1, s-178-2, s-178-3
+- **vepres** (p. 176)
+    - hymne : Hymne 1 - Toussaint → s-128-1, s-128-2, s-128-3, s-129-1
+    - ou hymne : Hymne 2 - Toussaint → s-131-1
+    - ou hymne : Hymne 3 - Toussaint → s-132-1, s-132-2
+    - ou hymne : Hymne 4 - Toussaint → s-133-1
+    - antiennes : Psaumes 88, 2-19 & 97 → s-176-1
+    - cantique : Cantique NT 8 → s-299-1, s-300-1, s-301-1
+    - repons : Répons - Toussaint O.P. → s-177-1, s-177-2, s-178-1, s-178-2, s-178-3
+
+## 11-08 — Anniversaire de tous les frères et sœurs défunts de l'Ordre des Prêcheurs  (sanctoral1, p. 179)
+- **laudes** (p. 153)
+    - hymne :  → s-153-2, s-154-1
+    - antiennes : Psaume 50 → s-155-1
+    - psaume : AT 25 → —
+    - antiennes : Psaume 145 → s-156-1, s-156-2
+    - repons : Répons 1 - Défunts → s-161-1, s-162-1
+    - ou repons : Répons 2 - Défunts → s-163-1, s-164-1
+- **vepres** (p. 157)
+    - hymne :  → s-157-1, s-158-1
+    - antiennes : Psaume 120 → s-159-1
+    - antiennes : Psaume 129 → s-160-1
+    - cantique : Cantique NT 7 → s-296-1, s-297-1, s-298-1
+    - repons (déduit) : Répons 1 - Défunts → s-161-1, s-162-1
+    - ou repons (déduit) : Répons 2 - Défunts → s-163-1, s-164-1
+
+## 11-09 — Dédicace de la basilique du Latran  (sanctoral1, p. 180)
+- **vepres1** (p. 187)
+    - lucernaire : Lucernaire festif → s-287-1, s-288-1
+    - antiennes : Psaume 146 → s-187-1
+    - antiennes : Psaume 147 → s-188-1
+    - cantique : Cantique NT 14 → s-309-1, s-310-1
+    - repons : Répons 1 - Dédicace → s-193-1
+    - ou repons : Répons 2 - Dédicace → s-195-1, s-196-1, s-196-2, s-196-3
+    - hymne (déduit) : Hymne 1 - Dédicace → s-182-1
+    - ou hymne (déduit) : Hymne 2 - Dédicace → s-183-1, s-184-1, s-184-2, s-184-3
+    - ou hymne (déduit) : Hymne 3 - Dédicace → s-185-1, s-186-1
+- **lectures** (p. 189)
+    - invitatoire : Invitatoire 1 [psaume 94 p. 317] → s-181-1
+    - antiennes : Psaume 23 → s-189-1
+    - hymne : Hymne 1 - Dédicace → s-182-1
+    - ou hymne : Hymne 2 - Dédicace → s-183-1, s-184-1, s-184-2, s-184-3
+    - ou hymne : Hymne 3 - Dédicace → s-185-1, s-186-1
+    - psaume : Psaume 83 → —
+    - antiennes : Psaume 86 - Répons p. 192 s. → s-190-1
+    - repons : Répons 1 - Dédicace → s-193-1
+    - ou repons : Répons 2 - Dédicace → s-195-1, s-196-1, s-196-2, s-196-3
+    - acclamation (déduit) : Acclamation de l’Evangile → s-197-1
+- **laudes** (p. 191)
+    - psaume : Psaume 62 & AT 49 → —
+    - antiennes : Psaume 149 - Répons p. 192 s. → s-191-1
+    - repons : Répons 1 - Dédicace → s-193-1
+    - ou repons : Répons 2 - Dédicace → s-195-1, s-196-1, s-196-2, s-196-3
+    - invitatoire (déduit) : Invitatoire 1 [psaume 94 p. 317] → s-181-1
+    - ou invitatoire (déduit) : Invitatoire 2 → s-181-2, s-181-3
+    - hymne (déduit) : Hymne 1 - Dédicace → s-182-1
+    - ou hymne (déduit) : Hymne 2 - Dédicace → s-183-1, s-184-1, s-184-2, s-184-3
+    - ou hymne (déduit) : Hymne 3 - Dédicace → s-185-1, s-186-1
+- **vepres** (p. 192)
+    - antiennes : Psaume 45 → s-192-1
+    - antiennes : Psaume 121 & NT XIV p. 306 → s-192-2
+    - cantique : Cantique NT 14 → s-309-1, s-310-1
+    - hymne (déduit) : Hymne 1 - Dédicace → s-182-1
+    - ou hymne (déduit) : Hymne 2 - Dédicace → s-183-1, s-184-1, s-184-2, s-184-3
+    - ou hymne (déduit) : Hymne 3 - Dédicace → s-185-1, s-186-1
+    - repons (déduit) : Répons 1 - Dédicace → s-193-1
+    - ou repons (déduit) : Répons 2 - Dédicace → s-195-1, s-196-1, s-196-2, s-196-3
+
+## 11-11 — Saint Martin de Tours, évêque  (sanctoral1, p. 198)
+- **laudes** (p. 204)
+    - antiennes : Psaume 62 & AT 49 → s-204-1
+    - antiennes : Psaume 149 - Répons p. 172 → s-204-2
+    - repons : Répons 1 - S. Martin de P. → s-171-1, s-172-1
+    - hymne (déduit) : Hymne - S. Martin de T. → s-201-1, s-202-1, s-202-2, s-202-3, s-203-1, s-203-2, s-203-3
+- **vepres** (p. 205)
+    - antiennes : Psaume 14 → s-205-1
+    - antiennes : Psaume 111 → s-205-2, s-206-1
+    - cantique : Cantique NT 13 → s-307-1
+    - repons : Répons 1 - S. Martin de P. → s-171-1, s-172-1
+    - hymne (déduit) : Hymne - S. Martin de T. → s-201-1, s-202-1, s-202-2, s-202-3, s-203-1, s-203-2, s-203-3
+
+## 11-15 — Saint Albert le Grand, év. & d.  (sanctoral1, p. 207)
+- **laudes** (p. 207)
+    - hymne :  → s-207-1
+    - antiennes : Psaume 62 & AT 49 → s-208-1
+    - psaume : Psaume 149 - Répons p. 210 → —
+    - repons : Répons - S. Albert le G. → s-211-1
+- **vepres** (p. 209)
+    - hymne : Vêpres - S. Guillaume Courtet (S. Guillaume Courtet et ses compagnons) → s-060-1
+    - antiennes : Psaume 14 → s-209-1
+    - antiennes : Psaume 111 → s-209-2, s-210-1
+    - cantique : Cantique NT 13 → s-307-1
+    - repons (déduit) : Répons - S. Albert le G. → s-211-1
+
+## 11-21 — Présentation de la Vierge Marie  (sanctoral1, p. 213)
+- **laudes** (p. 213)
+    - hymne :  → s-213-2, s-214-1
+    - psaume : Psaumes de la férie → —
+    - benedictus :  → s-215-1
+    - repons (déduit) : Répons - Présentation B.V.M. → s-219-1, s-219-2, s-220-1
+- **vepres** (p. 217)
+    - hymne : Laudes - N.-D. du Rosaire (Notre-Dame du Rosaire) → s-096-1, s-097-1
+    - psaume : Psaumes de la férie → —
+    - magnificat :  → s-217-1, s-218-1
+    - repons (déduit) : Répons - Présentation B.V.M. → s-219-1, s-219-2, s-220-1
+
+## 11-30 — Saint André, Apôtre  (sanctoral1, p. 221)
+- **laudes** (p. 221)
+    - hymne :  → s-221-1, s-221-2, s-222-1
+    - antiennes : Psaume 62 & AT 49 → s-223-1
+    - antiennes : Psaume 149 → s-224-1
+    - repons : Répons - S. André → s-227-1, s-228-1
+- **vepres** (p. 225)
+    - hymne : Vêpres - S. Matthieu (Saint Matthieu, Apôtre et évangéliste) → s-052-1, s-053-1
+    - antiennes : Psaume 115 → s-225-1
+    - antiennes : Psaume 125 → s-226-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons (déduit) : Répons - S. André → s-227-1, s-228-1
+
+## 12-08 — L’Immaculée Conception de la Vierge Marie  (sanctoral1, p. 242)
+- **vepres1** (p. 242)
+    - lucernaire : Vêpres - Nativité B.V.M. (Nativité de la Vierge Marie) → s-008-1, s-009-1
+    - antiennes : Psaumes 112 & 147 → s-242-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons : Répons - Immaculée Conception → s-251-1, s-252-1, s-253-1
+- **lectures** (p. 243)
+    - invitatoire :  → s-243-1
+    - hymne :  → s-243-2, s-244-1
+    - antiennes : Psaume 23 → s-245-1
+    - psaume : Psaume 45 → —
+    - antiennes : Psaume 86 - Répons p. 250 → s-246-1
+    - repons : Répons - Immaculée Conception → s-251-1, s-252-1, s-253-1
+- **laudes** (p. 247)
+    - hymne : Laudes - N.-D. du Rosaire (Notre-Dame du Rosaire) → s-096-1, s-097-1
+    - psaume : Psaume 62 & AT 49 → —
+    - antiennes : Psaume 149 → s-247-1, s-248-1
+    - repons : Répons - Immaculée Conception → s-251-1, s-252-1, s-253-1
+- **vepres** (p. 249)
+    - lucernaire : Vigiles - Immaculée Conception (L’Immaculée Conception de la Vierge Marie) → s-243-2, s-244-1
+    - antiennes : Psaume 121 → s-249-1
+    - antiennes : Psaume 126 & NT VI p. 290 → s-250-1
+    - cantique : Cantique NT 6 → s-293-1, s-294-1, s-295-1
+    - repons (déduit) : Répons - Immaculée Conception → s-251-1, s-252-1, s-253-1
+
+## 12-25 — Nativité du Seigneur  (noel, p. 4)
+- **vepres1** (p. 4)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaumes 112 & 147 - Cantique NT (samedi) p. 241 → s-008-1, s-009-1
+    - cantique : Cantique NT 7 → s-241-1, s-242-1, s-243-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (1res vêpres de Noël) → s-012-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+- **lectures** (p. 4)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne des vigiles de Noël → s-018-1, s-019-1
+    - antiennes : Psaume 2 → s-020-1
+    - antiennes : Psaume 18 A → s-021-1
+    - antiennes : Psaume 44 → s-022-1
+    - repons : Répons 1 - Vigiles de Noël → s-026-1, s-027-1
+    - ou repons : Répons 2 - Vigiles de Noël → s-028-1, s-029-1
+    - ou repons : Répons 3 - Vigiles de Noël → s-030-1, s-031-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+- **laudes** (p. 4)
+    - hymne : Hymne des laudes de Noël → s-036-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - repons : Répons des laudes de Noël → s-040-1, s-040-2, s-041-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 4)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-045-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 12-26 — Saint Étienne, premier martyr  (noel, p. 50)
+- **lectures** (p. 50)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne — Saint Étienne, premier martyr → s-050-1, s-051-1
+    - antiennes : Psaume 2 → s-052-1
+    - antiennes : Psaume 10 → s-052-2
+    - repons : Répons — Saint Étienne, premier martyr → s-054-1, s-055-1
+- **laudes** (p. 50)
+    - hymne : Hymne — Saint Étienne, premier martyr → s-050-1, s-051-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - ou antiennes (au choix) : Psaume 2 → s-052-1
+    - ou antiennes (au choix) : Psaume 10 → s-052-2
+    - repons : Répons — Saint Étienne, premier martyr → s-054-1, s-055-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 50)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 12-27 — Saint Jean, apôtre et évangéliste  (noel, p. 57)
+- **lectures** (p. 57)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne — Saint Jean, apôtre et évangéliste → s-058-1, s-059-1
+    - antiennes : Psaume 18 A → s-060-1
+    - antiennes : Psaume 63 → s-060-2
+    - antiennes : Psaume 96 → s-061-1
+    - repons : Répons — Saint Jean, apôtre et évangéliste → s-062-1, s-063-1
+- **laudes** (p. 57)
+    - hymne : Hymne — Saint Jean, apôtre et évangéliste → s-058-1, s-059-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - ou antiennes (au choix) : Psaume 18 A → s-060-1
+    - ou antiennes (au choix) : Psaume 63 → s-060-2
+    - ou antiennes (au choix) : Psaume 96 → s-061-1
+    - repons : Répons — Saint Jean, apôtre et évangéliste → s-062-1, s-063-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 57)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 12-28 — Les Saints Innocents, martyrs  (noel, p. 65)
+- **lectures** (p. 65)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne — Les Saints Innocents, martyrs → s-066-1, s-066-2, p-067
+    - antiennes : Psaume 2 → s-068-1
+    - antiennes : Psaume 32 (1-11) → s-069-1
+    - repons : Répons — Les Saints Innocents, martyrs → s-070-1, s-071-1
+- **laudes** (p. 65)
+    - hymne : Hymne — Les Saints Innocents, martyrs → s-066-1, s-066-2, p-067
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - ou antiennes (au choix) : Psaume 2 → s-068-1
+    - ou antiennes (au choix) : Psaume 32 (1-11) → s-069-1
+    - repons : Répons — Les Saints Innocents, martyrs → s-070-1, s-071-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 65)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 12-29 — 5e jour dans l'octave de Noël  (noel, p. 73)
+- **lectures** (p. 73)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne des vigiles de Noël → s-018-1, s-019-1
+    - antiennes : Psaume 45 → s-074-1
+    - antiennes : Psaume 71 (12-19) & Répons 1 p. 26 → s-074-2, s-075-1
+    - repons : Répons 1 - Vigiles de Noël → s-026-1, s-027-1
+- **laudes** (p. 73)
+    - hymne : Hymne des laudes de Noël → s-036-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - repons : Répons des laudes de Noël → s-040-1, s-040-2, s-041-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 73)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 12-30 — 6e jour dans l'octave de Noël  (noel, p. 77)
+- **lectures** (p. 77)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne des vigiles de Noël → s-018-1, s-019-1
+    - antiennes : Psaume 84 → s-078-1
+    - antiennes : Psaume 88 (20-30) & Répons 2 p. 28 → s-078-2, s-079-1
+    - repons : Répons 2 - Vigiles de Noël → s-028-1, s-029-1
+- **laudes** (p. 77)
+    - hymne : Hymne des laudes de Noël → s-036-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - repons : Répons des laudes de Noël → s-040-1, s-040-2, s-041-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 77)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## 12-31 — 7e jour dans l'octave de Noël  (noel, p. 81)
+- **lectures** (p. 81)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne des vigiles de Noël → s-018-1, s-019-1
+    - antiennes : Psaume 95 → s-082-1
+    - antiennes : Psaume 96 → s-082-2
+    - antiennes : Psaume 97 & Répons 3 p. 30 → s-083-1
+    - repons : Répons 3 - Vigiles de Noël → s-030-1, s-031-1
+- **laudes** (p. 81)
+    - hymne : Hymne des laudes de Noël → s-036-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - repons : Répons des laudes de Noël → s-040-1, s-040-2, s-041-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 81)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## appel — Dimanche de l'appel des disciples (3e dimanche du temps ordinaire, années A et B)  (noel, p. 205)
+- **vepres1** (p. 205)
+    - lucernaire : Lucernaire de l'Épiphanie → s-106-1, s-107-1
+    - hymne : Hymne de l'appel des disciples → s-206-1, s-207-1
+    - antiennes : Psaume 112 → s-208-1
+    - antiennes : Psaume 115 & Cantique NT (samedi) p. 241 → s-208-2
+    - cantique : Cantique NT 7 → s-241-1, s-242-1, s-243-1
+    - repons : Répons 1 des vêpres (temps de Noël) → s-160-1, s-161-1
+- **lectures** (p. 205)
+    - invitatoire : Invitatoire de l'Épiphanie → s-111-1, s-112-1, s-113-1, s-113-2, p-114
+    - hymne : Hymne de l'appel des disciples → s-206-1, s-207-1
+    - antiennes :  → s-209-1, s-210-1
+    - repons : Répons 1 des vêpres (temps de Noël) → s-160-1, s-161-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+- **laudes** (p. 205)
+    - hymne : Hymne de l'appel des disciples → s-206-1, s-207-1
+    - antiennes : Psaume 92 & Cantique AT 49 → s-212-1
+    - antiennes : Psaume 148 → s-213-1, s-213-2
+    - repons : Répons 1 des vêpres (temps de Noël) → s-160-1, s-161-1
+- **vepres** (p. 205)
+    - lucernaire : Lucernaire de l'Épiphanie → s-106-1, s-107-1
+    - hymne : Hymne de l'appel des disciples → s-206-1, s-207-1
+    - antiennes : Psaume 109 → s-214-1
+    - antiennes : Psaume 110 → s-215-1
+    - cantique : Cantique NT 14 → s-244-1, s-245-1, s-245-2, s-245-3
+    - repons : Répons 1 des vêpres (temps de Noël) → s-160-1, s-161-1
+
+## bapteme — Baptême du Seigneur  (noel, p. 166)
+- **vepres1** (p. 166)
+    - lucernaire : Lucernaire du Baptême → s-166-1, s-167-1
+    - hymne : Hymne du Baptême → s-168-1, s-169-1
+    - antiennes : Psaume 134 & Cantique NT (mardi) p. 249 → s-170-1
+    - cantique : Cantique NT 11 → s-249-1, s-250-1
+    - repons : Répons du Baptême du Seigneur → s-178-1, s-179-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+- **lectures** (p. 166)
+    - invitatoire : Invitatoire du Baptême → s-171-1, s-172-1, s-173-1, s-174-1
+    - hymne : Hymne du Baptême → s-168-1, s-169-1
+    - antiennes : Psaume 28 → s-175-1
+    - antiennes : Psaume 65 (13-20) → s-175-2, s-176-1
+    - repons : Répons 1 du Baptême du Seigneur → p-177
+    - ou repons : Répons du Baptême du Seigneur → s-178-1, s-179-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+    - choral : Choral du Baptême du Seigneur → s-182-1, s-183-1
+- **laudes** (p. 166)
+    - hymne : Hymne du Baptême → s-168-1, s-169-1
+    - antiennes : Psaume 62 & Cantique AT 49 → s-184-1
+    - repons : Répons du Baptême du Seigneur → s-178-1, s-179-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 166)
+    - lucernaire : Lucernaire du Baptême → s-166-1, s-167-1
+    - hymne : Hymne du Baptême → s-168-1, s-169-1
+    - antiennes : Psaume 109 → s-185-1
+    - antiennes : Psaume 111 & Cantique NT (vendredi) p. 257 → s-186-1
+    - cantique : Cantique NT 13 → s-257-1, s-258-1
+    - repons : Répons du Baptême du Seigneur → s-178-1, s-179-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## cana — Dimanche des noces de Cana (2e dimanche du temps ordinaire, année C)  (noel, p. 187)
+- **vepres1** (p. 187)
+    - lucernaire : Lucernaire de Cana → s-188-1, s-189-1
+    - hymne : Hymne de Cana → s-190-1, s-191-1
+    - antiennes : Psaume 118 - XIV → s-192-1
+    - antiennes : Psaume 15 & Cantique NT (samedi) p. 241 → s-192-2
+    - cantique : Cantique NT 7 → s-241-1, s-242-1, s-243-1
+    - repons : Répons des Noces de Cana → s-196-1, s-197-1
+- **lectures** (p. 187)
+    - hymne : Hymne de Cana → s-190-1, s-191-1
+    - antiennes : Psaume 103 (13-23) → s-193-1, s-194-1, s-195-1
+    - repons : Répons des Noces de Cana → s-196-1, s-197-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+    - choral : Choral de Cana → s-200-1, s-200-2, s-201-1, s-201-2
+- **laudes** (p. 187)
+    - hymne : Hymne de Cana → s-190-1, s-191-1
+    - antiennes : Psaume 117 → s-202-1
+    - repons : Répons des Noces de Cana → s-196-1, s-197-1
+- **vepres** (p. 187)
+    - hymne : Hymne de Cana → s-190-1, s-191-1
+    - antiennes : Psaume 109 → s-203-1
+    - antiennes : Psaume 113 B → s-204-1
+    - cantique : Cantique NT 14 → s-244-1, s-245-1, s-245-2, s-245-3
+    - repons : Répons des Noces de Cana → s-196-1, s-197-1
+
+## christ-roi — Le Christ Roi de l'univers  (sanctoral1, p. 229)
+- **vepres1** (p. 233)
+    - lucernaire : Lucernaire festif → s-287-1, s-288-1
+    - antiennes : Psaume 142 & AT 41 Psaume 112 → s-233-1
+    - antiennes : Psaume 116 & NT XI p. 299 → s-233-2
+    - cantique : Cantique NT 11 → s-302-1, s-303-1
+    - repons : Répons - Christ Roi → s-239-1
+    - hymne (déduit) : Hymne 1 - Christ Roi → s-229-2, s-230-1, s-230-2, s-230-3
+    - ou hymne (déduit) : Hymne 2 - Christ Roi → p-231
+    - ou hymne (déduit) : Hymne 3 - Christ Roi → s-232-1
+- **lectures** (p. 234)
+    - invitatoire : Invitatoire [psaume 94 p. 317] → s-229-1
+    - hymne : Hymne 1 - Christ Roi → s-229-2, s-230-1, s-230-2, s-230-3
+    - ou hymne : Hymne 2 - Christ Roi → p-231
+    - ou hymne : Hymne 3 - Christ Roi → s-232-1
+    - antiennes : Psaume 2 → s-234-1
+    - antiennes : Psaume 71, 1-11 → s-234-2
+    - antiennes : Psaume 71, 12-19 → s-235-1
+    - repons : Répons - Christ Roi → s-239-1
+    - tedeum (déduit) : Te Deum → s-324-1, s-325-1, s-326-1
+    - acclamation (déduit) : Acclamation de l’Evangile → s-241-1
+- **laudes** (p. 236)
+    - antiennes : Psaume 62 & AT 49 → s-236-1
+    - antiennes : Psaume 149 - Répons p. 238 → s-236-2
+    - repons : Répons - Christ Roi → s-239-1
+    - invitatoire (déduit) : Invitatoire [psaume 94 p. 317] → s-229-1
+    - hymne (déduit) : Hymne 1 - Christ Roi → s-229-2, s-230-1, s-230-2, s-230-3
+    - ou hymne (déduit) : Hymne 2 - Christ Roi → p-231
+    - ou hymne (déduit) : Hymne 3 - Christ Roi → s-232-1
+- **vepres** (p. 237)
+    - antiennes : Psaume 109 → s-237-1
+    - antiennes : Psaume 144 & NT XIV p. 306 → s-237-2
+    - cantique : Cantique NT 14 → s-309-1, s-310-1
+    - hymne (déduit) : Hymne 1 - Christ Roi → s-229-2, s-230-1, s-230-2, s-230-3
+    - ou hymne (déduit) : Hymne 2 - Christ Roi → p-231
+    - ou hymne (déduit) : Hymne 3 - Christ Roi → s-232-1
+    - repons (déduit) : Répons - Christ Roi → s-239-1
+
+## epiphanie — Épiphanie du Seigneur  (noel, p. 105)
+- **vepres1** (p. 105)
+    - lucernaire : Lucernaire de l'Épiphanie → s-106-1, s-107-1
+    - hymne : Hymne de l'Épiphanie → s-108-1, s-109-1
+    - antiennes : Psaume 134 & Cantique NT (Vendredi) p. 257 → s-110-1
+    - cantique : Cantique NT 13 → s-257-1, s-258-1
+    - repons : Répons 2 de l'Épiphanie → s-120-1, s-121-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+- **lectures** (p. 105)
+    - invitatoire : Invitatoire de l'Épiphanie → s-111-1, s-112-1, s-113-1, s-113-2, p-114
+    - hymne : Hymne de l'Épiphanie → s-108-1, s-109-1
+    - antiennes : Psaume 71 → s-116-1
+    - antiennes : Psaume 95 → s-116-2
+    - antiennes : Psaume 96 → s-117-1
+    - repons : Répons 1 de l'Épiphanie → s-118-1, s-119-1
+    - ou repons : Répons 2 de l'Épiphanie → s-120-1, s-121-1
+    - ou repons : Répons 3 de l'Épiphanie → s-122-1, s-123-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+    - choral : Choral de l'Épiphanie → s-136-1, s-137-1, s-137-2
+- **laudes** (p. 105)
+    - hymne : Hymne de l'Épiphanie → s-108-1, s-109-1
+    - antiennes : Psaume 62 & Cantique AT 49 → s-125-1
+    - antiennes : Psaume 149 & Répons 1 p. 118 → s-126-1
+    - repons : Répons 1 de l'Épiphanie → s-118-1, s-119-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 105)
+    - lucernaire : Lucernaire de l'Épiphanie → s-106-1, s-107-1
+    - hymne : Hymne de l'Épiphanie → s-108-1, s-109-1
+    - antiennes : Psaume 109 → s-127-1
+    - antiennes : Psaume 111 & Cantique NT (vendredi) p. 257 → s-128-1
+    - cantique : Cantique NT 13 → s-257-1, s-258-1
+    - repons : Répons 2 de l'Épiphanie → s-120-1, s-121-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## noel-ferie-jeudi — Férie du temps de Noël (5 janvier ou jeudi après l'Épiphanie)  (noel, p. 150)
+- **laudes** (p. 150)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - ou hymne : Gloria gouzantin → s-130-1, s-131-1
+    - ou hymne : Gloria mozarabe → s-132-1, s-133-1
+    - antiennes :  → s-150-1
+    - repons : Répons 1 des laudes → s-156-1, s-157-1
+    - ou repons : Répons 2 des laudes → s-158-1, s-159-1, s-159-2, s-159-3
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 150)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - antiennes :  → s-151-1
+    - cantique : Cantique NT 12 → s-254-1, s-255-1, s-256-1
+    - repons : Répons 1 des vêpres → s-160-1, s-161-1
+    - ou repons : Répons 2 des vêpres → s-162-1, s-163-1
+    - ou repons : Répons 3 des vêpres → s-164-1, s-165-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## noel-ferie-lundi — Férie du temps de Noël (2 janvier ou lundi après l'Épiphanie)  (noel, p. 144)
+- **laudes** (p. 144)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - ou hymne : Gloria gouzantin → s-130-1, s-131-1
+    - ou hymne : Gloria mozarabe → s-132-1, s-133-1
+    - antiennes :  → s-144-1, s-144-2
+    - repons : Répons 1 des laudes → s-156-1, s-157-1
+    - ou repons : Répons 2 des laudes → s-158-1, s-159-1, s-159-2, s-159-3
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 144)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - antiennes :  → s-145-1, s-145-2
+    - cantique : Cantique NT 6 → s-246-1, s-247-1, s-248-1
+    - repons : Répons 1 des vêpres → s-160-1, s-161-1
+    - ou repons : Répons 2 des vêpres → s-162-1, s-163-1
+    - ou repons : Répons 3 des vêpres → s-164-1, s-165-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## noel-ferie-mardi — Férie du temps de Noël (3 janvier ou mardi après l'Épiphanie)  (noel, p. 146)
+- **laudes** (p. 146)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - ou hymne : Gloria gouzantin → s-130-1, s-131-1
+    - ou hymne : Gloria mozarabe → s-132-1, s-133-1
+    - antiennes :  → s-146-1, s-146-2
+    - repons : Répons 1 des laudes → s-156-1, s-157-1
+    - ou repons : Répons 2 des laudes → s-158-1, s-159-1, s-159-2, s-159-3
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 146)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - antiennes :  → s-147-1
+    - cantique : Cantique NT 11 → s-249-1, s-250-1
+    - repons : Répons 1 des vêpres → s-160-1, s-161-1
+    - ou repons : Répons 2 des vêpres → s-162-1, s-163-1
+    - ou repons : Répons 3 des vêpres → s-164-1, s-165-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## noel-ferie-mercredi — Férie du temps de Noël (4 janvier ou mercredi après l'Épiphanie)  (noel, p. 148)
+- **laudes** (p. 148)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - ou hymne : Gloria gouzantin → s-130-1, s-131-1
+    - ou hymne : Gloria mozarabe → s-132-1, s-133-1
+    - antiennes :  → s-148-1
+    - repons : Répons 1 des laudes → s-156-1, s-157-1
+    - ou repons : Répons 2 des laudes → s-158-1, s-159-1, s-159-2, s-159-3
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 148)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - antiennes :  → s-149-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons 1 des vêpres → s-160-1, s-161-1
+    - ou repons : Répons 2 des vêpres → s-162-1, s-163-1
+    - ou repons : Répons 3 des vêpres → s-164-1, s-165-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## noel-ferie-samedi — Férie du temps de Noël (7 janvier ou samedi après l'Épiphanie)  (noel, p. 154)
+- **laudes** (p. 154)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - ou hymne : Gloria gouzantin → s-130-1, s-131-1
+    - ou hymne : Gloria mozarabe → s-132-1, s-133-1
+    - antiennes :  → s-154-1
+    - repons : Répons 1 des laudes → s-156-1, s-157-1
+    - ou repons : Répons 2 des laudes → s-158-1, s-159-1, s-159-2, s-159-3
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+
+## noel-ferie-vendredi — Férie du temps de Noël (6 janvier ou vendredi après l'Épiphanie)  (noel, p. 152)
+- **laudes** (p. 152)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - ou hymne : Gloria gouzantin → s-130-1, s-131-1
+    - ou hymne : Gloria mozarabe → s-132-1, s-133-1
+    - antiennes :  → s-152-1
+    - repons : Répons 1 des laudes → s-156-1, s-157-1
+    - ou repons : Répons 2 des laudes → s-158-1, s-159-1, s-159-2, s-159-3
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 152)
+    - hymne : Peuple fidèle → s-138-1
+    - ou hymne : Dans un profond silence → s-139-1
+    - ou hymne : Quand vient la plénitude des temps → s-140-1, s-140-2, s-140-3, s-140-4
+    - ou hymne : L'enfant est né à Bethléem → s-141-1
+    - ou hymne : Splendeur jaillie du sein de Dieu → s-143-1
+    - antiennes :  → s-153-1
+    - cantique : Cantique NT 13 → s-257-1, s-258-1
+    - repons : Répons 1 des vêpres → s-160-1, s-161-1
+    - ou repons : Répons 2 des vêpres → s-162-1, s-163-1
+    - ou repons : Répons 3 des vêpres → s-164-1, s-165-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## sacre-coeur — Le Sacré-Cœur de Jésus  (sanctoral2, p. 196)
+- **vepres1** (p. 203)
+    - lucernaire : Lucernaire - Trinité → s-164-1
+    - antiennes : Psaume 112 → s-203-1
+    - antiennes : Psaume 145 & NT XI p. 351 - Répons p. 208 s. → s-203-2, s-204-1
+    - cantique : Cantique NT 11 → s-356-1, s-357-1
+    - repons : Répons 1 - Sacré-Cœur → s-209-1, s-210-1
+    - ou repons : Répons 2 - Sacré-Cœur → s-211-1
+    - hymne (déduit) : Hymne 1 - Sacré-Cœur → s-197-1, s-198-1
+    - ou hymne (déduit) : Hymne 2 - Sacré-Cœur → s-199-1, s-200-1
+    - ou hymne (déduit) : Hymne 3 - Sacré-Cœur → s-201-1, s-202-1
+- **lectures** (p. 204)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-204-2
+    - hymne : Hymne 1 - Sacré-Cœur → s-197-1, s-198-1
+    - ou hymne : Hymne 2 - Sacré-Cœur → s-199-1, s-200-1
+    - ou hymne : Hymne 3 - Sacré-Cœur → s-201-1, s-202-1
+    - psaume : Psaume 35 → —
+    - antiennes : Psaume 60 → s-205-1
+    - antiennes : Psaume 97 → s-206-1
+    - repons : Répons 1 - Sacré-Cœur → s-209-1, s-210-1
+    - ou repons : Répons 2 - Sacré-Cœur → s-211-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-213-2, s-213-3
+- **laudes** (p. 207)
+    - hymne : Hymne 1 - Sacré-Cœur → s-197-1, s-198-1
+    - ou hymne : Hymne 2 - Sacré-Cœur → s-199-1, s-200-1
+    - ou hymne : Hymne 3 - Sacré-Cœur → s-201-1, s-202-1
+    - antiennes : Psaume 62 & AT 49 → s-207-1
+    - antiennes : Psaume 149 - Répons p. 208 s. → s-207-2
+    - repons : Répons 1 - Sacré-Cœur → s-209-1, s-210-1
+    - ou repons : Répons 2 - Sacré-Cœur → s-211-1
+- **vepres** (p. 208)
+    - antiennes : Psaume 109 → s-208-1
+    - antiennes : Psaume 110 & NT VII p. 345 - Répons p. 208 s. → s-208-2
+    - cantique : Cantique NT 7 → s-350-1, s-351-1, s-352-1
+    - repons : Répons 1 - Sacré-Cœur → s-209-1, s-210-1
+    - ou repons : Répons 2 - Sacré-Cœur → s-211-1
+    - hymne (déduit) : Hymne 1 - Sacré-Cœur → s-197-1, s-198-1
+    - ou hymne (déduit) : Hymne 2 - Sacré-Cœur → s-199-1, s-200-1
+    - ou hymne (déduit) : Hymne 3 - Sacré-Cœur → s-201-1, s-202-1
+
+## saint-sacrement — Le Saint-Sacrement  (sanctoral2, p. 178)
+- **vepres1** (p. 187)
+    - lucernaire : Lucernaire - Trinité → s-164-1
+    - antiennes : Psaume 110 → s-187-1
+    - antiennes : Psaume 147 & NT XII p. 353 - Répons p. 192 → s-187-2
+    - cantique : Cantique NT 12 → s-358-1, s-359-1, s-360-1
+    - repons : Répons - Saint-Sacrement → s-193-1, s-194-1
+    - hymne (déduit) : Hymne 1 - Saint-Sacrement → s-179-1, s-180-1, s-181-1
+    - ou hymne (déduit) : Hymne 2 - Saint-Sacrement → s-183-1, s-184-1
+    - ou hymne (déduit) : Hymne 3 - Saint-Sacrement → s-185-1, s-185-2, s-186-1, s-186-2
+- **lectures** (p. 188)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-188-1
+    - hymne : Hymne 1 - Saint-Sacrement → s-179-1, s-180-1, s-181-1
+    - ou hymne : Hymne 2 - Saint-Sacrement → s-183-1, s-184-1
+    - ou hymne : Hymne 3 - Saint-Sacrement → s-185-1, s-185-2, s-186-1, s-186-2
+    - antiennes : Psaume 22 → s-188-2
+    - antiennes : Psaume 41 → s-189-1
+    - antiennes : Psaume 80 - Répons p. 192 - Te Deum p. 384 → s-190-1
+    - repons : Répons - Saint-Sacrement → s-193-1, s-194-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-195-2, s-195-3, s-195-4
+- **laudes** (p. 191)
+    - hymne : Hymne 1 - Saint-Sacrement → s-179-1, s-180-1, s-181-1
+    - ou hymne : Hymne 2 - Saint-Sacrement → s-183-1, s-184-1
+    - ou hymne : Hymne 3 - Saint-Sacrement → s-185-1, s-185-2, s-186-1, s-186-2
+    - antiennes : Psaume 62 & AT 49 → s-191-1
+    - antiennes : Psaume 149 - Répons p. 192 → s-191-2
+    - repons : Répons - Saint-Sacrement → s-193-1, s-194-1
+- **vepres** (p. 192)
+    - lucernaire : Lucernaire - Trinité → s-164-1
+    - antiennes : Psaume 109 → s-192-1
+    - antiennes : Psaume 115 & NT XIV p. 358 - Répons p. 192 → s-192-2
+    - cantique : Cantique NT 14 → s-363-1, s-364-1
+    - repons : Répons - Saint-Sacrement → s-193-1, s-194-1
+    - hymne (déduit) : Hymne 1 - Saint-Sacrement → s-179-1, s-180-1, s-181-1
+    - ou hymne (déduit) : Hymne 2 - Saint-Sacrement → s-183-1, s-184-1
+    - ou hymne (déduit) : Hymne 3 - Saint-Sacrement → s-185-1, s-185-2, s-186-1, s-186-2
+
+## sainte-famille — La Sainte Famille  (noel, p. 97)
+- **vepres1** (p. 97)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaumes 112 & 147 - Cantique NT (samedi) p. 241 → s-008-1, s-009-1
+    - cantique : Cantique NT 6 → s-246-1, s-247-1, s-248-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+- **lectures** (p. 97)
+    - invitatoire : Invitatoire de Noël → s-013-1, s-014-1, s-015-1, p-016, s-017-1
+    - hymne : Hymne des vigiles de Noël → s-018-1, s-019-1
+    - antiennes : Psaume 23 → s-099-1
+    - antiennes : Psaume 45 → s-099-2, s-099-3
+    - antiennes : Psaume 86 & Répons 3 p. 30 → s-100-1
+    - repons : Répons 3 - Vigiles de Noël → s-030-1, s-031-1
+    - tedeum : Te Deum → s-033-1, s-034-1, s-035-1
+- **laudes** (p. 97)
+    - hymne : Hymne des laudes de Noël → s-036-1
+    - antiennes : Psaume 62 (octave - 92) - Cantique AT 49 → s-037-1
+    - antiennes : Psaume 149 (octave 148) → s-038-1, p-039
+    - repons : Répons des laudes de Noël → s-040-1, s-040-2, s-041-1
+    - priere : Prière litanique des laudes → s-042-1, s-042-2, s-043-1
+- **vepres** (p. 97)
+    - lucernaire : Lucernaire de Noël → s-004-1, s-005-1
+    - hymne : Hymne de Noël → s-006-1, s-006-2, s-007-1, s-007-2
+    - antiennes : Psaume 109 → s-044-1
+    - antiennes : Psaume 129 & Cantique NT (mercredi) p. 251 → s-046-1
+    - cantique : Cantique NT 8 → s-251-1, s-252-1, s-253-1
+    - repons : Répons des vêpres de Noël → s-010-1, s-011-1
+    - magnificat : Magnificat (Noël et octave) → s-047-1
+    - priere : Prière litanique des vêpres → s-048-1, s-049-1
+
+## trinite — La Sainte Trinité  (sanctoral2, p. 162)
+- **vepres1** (p. 169)
+    - lucernaire : Lucernaire - Trinité → s-164-1
+    - antiennes : Psaume 112 → s-169-1
+    - antiennes : Psaume 147 & NT VI p. 342 - Répons p. 174 → s-169-2
+    - cantique : Cantique NT 6 → s-347-1, s-348-1, s-349-1
+    - repons : Répons - Trinité → s-175-1, s-176-1
+    - hymne (déduit) : Hymne 1 - Trinité → s-165-1, s-166-1
+    - ou hymne (déduit) : Hymne 2 - Trinité → s-167-1, s-167-2, s-167-3
+    - ou hymne (déduit) : Hymne 3 - Trinité → s-168-1
+- **lectures** (p. 170)
+    - invitatoire : Invitatoires des solennités → s-371-1, s-371-2, s-372-1, s-372-2, s-373-1, s-374-1, s-375-1, s-376-1, s-377-1, s-378-1, s-379-1, s-380-1, s-381-1, s-382-1, s-383-1, s-383-2, s-384-1, s-385-1, s-386-1, s-386-2, s-387-1, s-388-1
+    - invitatoire :  → s-170-1
+    - hymne : Hymne 1 - Trinité → s-165-1, s-166-1
+    - ou hymne : Hymne 2 - Trinité → s-167-1, s-167-2, s-167-3
+    - ou hymne : Hymne 3 - Trinité → s-168-1
+    - antiennes : Psaume 8 → s-170-2
+    - antiennes : Psaume 32, 1-11 → s-171-1
+    - antiennes : Psaume 32, 12-22 - Répons p. 174 - Te Deum p. 384 → s-171-2
+    - repons : Répons - Trinité → s-175-1, s-176-1
+    - tedeum : Te Deum → s-389-1, s-390-1, s-391-1
+    - acclamation (déduit) : Acclamation de l’Évangile → s-177-2, s-177-3, s-177-4
+- **laudes** (p. 172)
+    - antiennes : Psaume 62 & AT 49 → s-172-1
+    - antiennes : Psaume 149 → s-172-2
+    - repons : Répons - Trinité → s-175-1, s-176-1
+    - hymne (déduit) : Hymne 1 - Trinité → s-165-1, s-166-1
+    - ou hymne (déduit) : Hymne 2 - Trinité → s-167-1, s-167-2, s-167-3
+    - ou hymne (déduit) : Hymne 3 - Trinité → s-168-1
+- **vepres** (p. 173)
+    - lucernaire : Lucernaire - Trinité → s-164-1
+    - antiennes : Psaume 109 → s-173-1
+    - psaume : Psaume 113 A → —
+    - cantique : Cantique NT 14 → s-363-1, s-364-1
+    - repons : Répons - Trinité → s-175-1, s-176-1
+    - hymne (déduit) : Hymne 1 - Trinité → s-165-1, s-166-1
+    - ou hymne (déduit) : Hymne 2 - Trinité → s-167-1, s-167-2, s-167-3
+    - ou hymne (déduit) : Hymne 3 - Trinité → s-168-1
+
+## Notes
+
+- sanctoral1 p. 22 « Ires Vêpres - Croix glorieuse » : « lucernaire p. 284 » pris pour « Lucernaire festif » (p. 287 du PDF)
+- sanctoral1 p. 134 « Ires Vêpres - Toussaint » : « lucernaire p. 284 » pris pour « Lucernaire festif » (p. 287 du PDF)
+- sanctoral1 p. 187 « Ires Vêpres - Dédicace » : « lucernaire p. 284 » pris pour « Lucernaire festif » (p. 287 du PDF)
+- sanctoral1 p. 233 « Ires Vêpres - Christ Roi » : « lucernaire p. 284 » pris pour « Lucernaire festif » (p. 287 du PDF)
+- sanctoral1 p. 249 « IIes Vêpres - Immaculée Conception » : « lucernaire p. 246 » pris, faute de mieux, pour « Vigiles - Immaculée Conception (L’Immaculée Conception de la Vierge Marie) » (p. 243 du PDF) — À VÉRIFIER
+- sanctoral1 p. 261 « Laudes - Conversion s. Paul » : « repons p. 266 » pris pour « Répons - Conversion s. Paul » (p. 268 du PDF)
+- sanctoral1 p. 277 « Laudes - Saint Thomas d’A. » : « repons p. 278 » pris pour « Répons 1 - Saint Thomas d’A. » (p. 281 du PDF)
+- sanctoral2 p. 25 « Vigiles - S. Joseph » : « invitatoire p. 366 » pris pour « Invitatoires des solennités » (p. 371 du PDF)
+- sanctoral2 p. 25 « Vigiles - S. Joseph » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 39 « Vigiles - Annonciation » : « invitatoire p. 366 » pris pour « Invitatoires des solennités » (p. 371 du PDF)
+- sanctoral2 p. 136 « Vigiles - Nat. S. Jean-Baptiste » : « invitatoire p. 367 » pris pour « Invitatoires des solennités » (p. 371 du PDF)
+- sanctoral2 p. 136 « Vigiles - Nat. S. Jean-Baptiste » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 150 « Vigiles - S. Pierre & S. Paul » : « invitatoire p. 367 » pris pour « Invitatoires des solennités » (p. 371 du PDF)
+- sanctoral2 p. 150 « Vigiles - S. Pierre & S. Paul » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 169 « Ires Vêpres - Trinité » : « lucernaire p. 162 » pris pour « Lucernaire - Trinité » (p. 164 du PDF)
+- sanctoral2 p. 170 « Vigiles - Trinité » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 173 « IIes Vêpres - Trinité » : « lucernaire p. 162 » pris pour « Lucernaire - Trinité » (p. 164 du PDF)
+- sanctoral2 p. 187 « Ires Vêpres - Saint-Sacrement » : « lucernaire p. 162 » pris pour « Lucernaire - Trinité » (p. 164 du PDF)
+- sanctoral2 p. 188 « Vigiles - Saint-Sacrement » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 192 « IIes Vêpres - Saint-Sacrement » : « lucernaire p. 162 » pris pour « Lucernaire - Trinité » (p. 164 du PDF)
+- sanctoral2 p. 203 « Ires Vêpres - Sacré-Cœur » : « lucernaire p. 162 » pris pour « Lucernaire - Trinité » (p. 164 du PDF)
+- sanctoral2 p. 204 « Vigiles - Sacré-Cœur » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 251 « Laudes » : « repons p. 254 » pris pour « Répons - S. Jacques » (p. 256 du PDF)
+- sanctoral2 p. 255 « Vêpres - S. Jacques » : « repons p. 254 » pris pour « Répons - S. Jacques » (p. 256 du PDF)
+- sanctoral2 p. 258 « Ires Vêpres » : « lucernaire p. 162 » pris pour « Lucernaire - Trinité » (p. 164 du PDF)
+- sanctoral2 p. 258 « Ires Vêpres » : « repons p. 264 » pris pour « Répons - Transfiguration » (p. 267 du PDF)
+- sanctoral2 p. 259 « Vigiles - Transfiguration » : « repons p. 264 » pris pour « Répons - Transfiguration » (p. 267 du PDF)
+- sanctoral2 p. 259 « Vigiles - Transfiguration » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 264 « Laudes - Transfiguration » : « hymne p. 258 » pris pour « Vigiles - Transfiguration (Transfiguration du Seigneur) » (p. 260 du PDF)
+- sanctoral2 p. 264 « Laudes - Transfiguration » : « repons p. 264 » pris pour « Répons - Transfiguration » (p. 267 du PDF)
+- sanctoral2 p. 266 « IIes Vêpres - Transfiguration » : « lucernaire p. 162 » pris pour « Lucernaire - Trinité » (p. 164 du PDF)
+- sanctoral2 p. 266 « IIes Vêpres - Transfiguration » : « repons p. 264 » pris pour « Répons - Transfiguration » (p. 267 du PDF)
+- sanctoral2 p. 275 « Ires Vêpres - S. Dominique » : « repons p. 280 » pris pour « Répons 1 - S. Dominique » (p. 284 du PDF)
+- sanctoral2 p. 276 « Vigiles - S. Dominique » : « invitatoire p. 368 » pris pour « Invitatoires des solennités » (p. 371 du PDF)
+- sanctoral2 p. 276 « Vigiles - S. Dominique » : « hymne p. 268 » pris pour « Hymne 1 - S. Dominique » (p. 271 du PDF)
+- sanctoral2 p. 276 « Vigiles - S. Dominique » : « repons p. 280 » pris pour « Répons 1 - S. Dominique » (p. 284 du PDF)
+- sanctoral2 p. 276 « Vigiles - S. Dominique » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 280 « Laudes - S. Dominique » : « hymne p. 268 » pris pour « Hymne 1 - S. Dominique » (p. 271 du PDF)
+- sanctoral2 p. 280 « Laudes - S. Dominique » : « repons p. 280 » pris pour « Répons 1 - S. Dominique » (p. 284 du PDF)
+- sanctoral2 p. 281 « IIes Vêpres - S. Dominique » : « repons p. 280 » pris pour « Répons 1 - S. Dominique » (p. 284 du PDF)
+- sanctoral2 p. 297 « Laudes » : « repons p. 298 » pris pour « Répons - Sainte Thérèse-B. de la Croix » (p. 302 du PDF)
+- sanctoral2 p. 299 « Vêpres - Sainte Thérèse-B. de la Croix » : « repons p. 298 » pris pour « Répons - Sainte Thérèse-B. de la Croix » (p. 302 du PDF)
+- sanctoral2 p. 304 « Laudes » : « repons p. 304 » pris pour « Répons - S. Laurent » (p. 308 du PDF)
+- sanctoral2 p. 306 « Vêpres - S. Laurent » : « repons p. 304 » pris pour « Répons - S. Laurent » (p. 308 du PDF)
+- sanctoral2 p. 316 « Ires Vêpres - Assomption » : « repons p. 318 » pris pour « Répons 1 - Assomption » (p. 323 du PDF)
+- sanctoral2 p. 317 « Vigiles - Assomption » : « invitatoire p. 368 » pris pour « Invitatoires des solennités » (p. 371 du PDF)
+- sanctoral2 p. 317 « Vigiles - Assomption » : « hymne p. 309 » pris pour « Hymne - Assomption » (p. 313 du PDF)
+- sanctoral2 p. 317 « Vigiles - Assomption » : « repons p. 318 » pris pour « Répons 1 - Assomption » (p. 323 du PDF)
+- sanctoral2 p. 317 « Vigiles - Assomption » : « tedeum p. 384 » pris pour « Te Deum » (p. 389 du PDF)
+- sanctoral2 p. 321 « Laudes - Assomption » : « hymne p. 309 » pris pour « Hymne - Assomption » (p. 313 du PDF)
+- sanctoral2 p. 321 « Laudes - Assomption » : « repons p. 318 » pris pour « Répons 1 - Assomption » (p. 323 du PDF)
+- sanctoral2 p. 322 « IIes Vêpres - Assomption » : « repons p. 320 » pris pour « Répons 1 - Assomption » (p. 323 du PDF)
+- sanctoral2 p. 333 « Laudes » : « repons p. 334 » pris pour « Répons - S. Barthélemy » (p. 339 du PDF)
+- sanctoral2 p. 337 « Vêpres - S. Barthélemy » : « repons p. 334 » pris pour « Répons - S. Barthélemy » (p. 339 du PDF)
+- sanctoral2 p. 343 « Laudes - S. Augustin » : « hymne p. 336 » pris pour « Hymne » (p. 341 du PDF)
+- sanctoral2 p. 343 « Laudes - S. Augustin » : « hymne p. 268 » pris pour « Hymne 1 - S. Dominique » (p. 271 du PDF)
+- sanctoral2 p. 344 « Vêpres - S. Augustin » : « hymne p. 336 » pris pour « Hymne » (p. 341 du PDF)
+- sanctoral2 p. 344 « Vêpres - S. Augustin » : « hymne p. 268 » pris pour « Hymne 1 - S. Dominique » (p. 271 du PDF)

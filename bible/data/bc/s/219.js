@@ -1,0 +1,1 @@
+window.__BC={"n":"229","titre":"« Si le sel s’affadit..…. »","page":"471","partie":"I. PRELUDES:","section":"SECTION 2, LA MONTÉE À JÉRUSALEM ($","refs_texte":"Lc 14,34-35 ; (Mt 5,13; Mc 9,50)","refs":[["LUK",14,34,14,35],["MAT",5,13,5,13],["MRK",9,50,9,50]],"paras":[{"t":"commentaire au § 51.","page":"471","k":"texte"}],"i":"219"};

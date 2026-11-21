@@ -1,0 +1,271 @@
+\documentclass[11pt, openany]{book}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titlepic}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{emptypage}
+\usepackage{changepage}
+\usepackage{lettrine}
+
+\geometry{a5paper, margin = 0.04\paperwidth, bottom = 0.08\paperwidth, top = 0.08\paperwidth}
+
+\title{\bfseries\sffamily\Huge\uppercase{Veillée pascale}}
+\author{}
+\date{}
+
+\setmainfont{EBGaramond}%
+[Extension = .otf,
+UprightFont       = *-Regular,
+ItalicFont        = *-Italic,
+BoldFont          = *-Bold,
+BoldItalicFont    = *-BoldItalic,
+Numbers = Lowercase,
+Numbers = Proportional,
+Ligatures = Discretionary,   % ou RawFeature = +dlig, (ct, st)
+] %[Numbers={Proportional, OldStyle}, Ligatures={Common,Rare,Historic}]{EB Garamond}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhead[EC]{\nouppercase{\small\itshape\leftmark}}
+\fancyhead[OC]{\nouppercase{\small\itshape\leftmark}}
+\fancyfoot[C]{\thepage}
+\strictpagecheck
+
+\titleformat{\part}[hang]{\Huge\sffamily\bfseries\uppercase}{}{0pt}{\centering}{}
+\titleformat{\chapter}[hang]{\LARGE\sffamily\bfseries\uppercase}{}{0pt}{\centering}{}
+\titleformat{\section}[hang]{\uppercase}{}{0pt}{\centering}{}
+\titleformat{\subsection}[hang]{\bfseries}{}{0pt}{\centering}{}
+\titleformat{\subsubsection}[hang]{\color{ruber}}{}{0pt}{\centering}{}
+
+\def\preLilyPondExample{\par\hspace*{-3mm}}
+\def\postLilyPondExample{\par}
+\newcommand{\betweenLilyPondSystem}[1]{\par\hspace*{-3mm}}
+\ifx\gregorioscore\undefined \newcommand{\Vbar}{V/}\newcommand{\gregorioscore}[1]{} \fi
+
+\definecolor{ruber}{RGB}{219, 23, 2}
+\newcommand{\rubrique}[3]{\par\vspace{#2}\textcolor{ruber}{\itshape#1}\vspace{#3}\nopagebreak}
+\renewcommand{\thefootnote}{}
+
+
+
+
+\begin{document}
+	
+%\begin{lilypond}
+%	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/0Le_Christ.ly" 
+%\end{lilypond}
+%\begin{lilypond}
+%	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Veillée pascale/0Gloire.ly" 
+%\end{lilypond}
+
+\maketitle\thispagestyle{empty}
+\null\newpage
+\chapter{Liturgie de la lumière}
+
+\section{Allumage du feu}
+\begin{lilypond}
+\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Veillée pascale/Au milieu de la nuit M103.ly" 
+\end{lilypond}
+
+%\newpage
+\section{Allumage et procession du Cierge pascal}
+\begin{lilypond}
+\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Hymnes/LucernaireR.ly" 
+\end{lilypond}
+
+\begin{lilypond}
+\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include "Veillée pascale/Lucernaire cplts.ly"
+\end{lilypond}
+\newpage
+
+\section{Entrée du Cierge pascal}
+{
+	\renewcommand{\betweenLilyPondSystem}[1]{\par\vspace{1ex}\hspace*{-3mm}}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Veillée pascale/Lumière M106.ly" 
+\end{lilypond}
+}
+%\renewcommand{\betweenLilyPondSystem}[1]{\par\hspace*{-3mm}}
+
+
+\section{Encensement du Cierge pascal}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Veillée pascale/Le Seigneur se lève M110.ly" 
+\end{lilypond}
+\pagebreak
+
+\section{Exsultet}
+\renewcommand{\thefootnote}{}
+\footnote{\includegraphics[width=0.85\linewidth]{0Le_Christ.pdf}}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" 
+	\include "Veillée pascale/Exsultet 2021 Commandes.ly"
+	\new Staff \with {\remove Time_signature_engraver }
+	<< 
+	\cadenzaOn \key f \major \new Voice = "melodie" { \Mus-Intro }
+	\new Lyrics \lyricsto "melodie" { \Texte-Intro }
+	>>
+\end{lilypond}
+
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" 
+	\include "Veillée pascale/Exsultet 2021 Commandes.ly"
+	\new Staff \with {\remove Time_signature_engraver }
+	<< 
+	\cadenzaOn \key f \major \new Voice = "melodie" { \Mus-dial }
+	\new Lyrics \with {\override VerticalAxisGroup.staff-affinity = #CENTER } 
+	\lyricsto "melodie" { \Texte-dial }
+	>>
+\end{lilypond}
+\footnote{\includegraphics[width=0.65\linewidth]{0Gloire.pdf}}
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" 
+	\include "Veillée pascale/Exsultet 2021 Commandes.ly"
+	\new Staff \with {\remove Time_signature_engraver }
+	<< 
+	\cadenzaOn \key f \major \new Voice = "melodie" { \musBI\break\musBII\break\musBIII }
+	\new Lyrics \with {\override VerticalAxisGroup.staff-affinity = #CENTER } 
+	\lyricsto "melodie" { \textBI\textBII\textBIII }
+	>>
+\end{lilypond}
+\footnote{\includegraphics[width=0.65\linewidth]{0Gloire.pdf}}
+
+%\newpage\null\thispagestyle{plain}
+\chapter{Liturgie de la parole}
+\section{Après la lecture de G\lowercase{n} 1}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Ft-tons0.ly" \include "Répons/Au commencement M153.ly" 
+\end{lilypond}\bigskip
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Gn1 1.ly" 
+\end{lilypond}
+\vfill
+\rubrique{ou bien}{1ex}{1ex}
+\vfill
+\newpage
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Gn1 2.ly" 
+\end{lilypond}
+
+
+\newpage\null\newpage
+\section{Après la lecture de G\lowercase{n} 22}
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Ft-tons0.ly" \include "Antiennes/Seigneur, tu as sauvé C404.ly" 
+\end{lilypond}\bigskip
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Gn22.ly" 
+\end{lilypond}
+
+
+\newpage
+\section{Après la lecture d'E\lowercase{x} 14}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Répons/Chantons le Seigneur M154.ly" 
+\end{lilypond}\bigskip
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Ex14.ly" 
+\end{lilypond}
+
+
+\newpage
+\section{Après la lecture d'I\lowercase{s} 54}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Ft-tons0.ly" \include "Antiennes/Tu as tiré K513.ly" 
+\end{lilypond}\bigskip
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Is54.ly" 
+\end{lilypond}
+
+
+\newpage
+\section{Après la lecture d'I\lowercase{s} 55}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Ft-tons0.ly" \include "Antiennes/Ivres de joie.ly" 
+\end{lilypond}\bigskip
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Is55.ly" 
+\end{lilypond}
+
+\newpage
+\section{Après la lecture de B\lowercase{a} 3-4}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Ft-tons0.ly" \include "Antiennes/Tes paroles F246.ly" 
+\end{lilypond}\bigskip
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Ba3-4.ly" 
+\end{lilypond}
+
+
+\pagebreak
+\section{Après la lecture d'E\lowercase{z} 37}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Ft-tons0.ly" \include "Répons/Voici que dans les derniers M155.ly" 
+\end{lilypond}\bigskip
+
+\rubrique{S'il n'y a pas de baptêmes:}{2ex}{1ex}
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" #(set-global-staff-size 15) \include "Veillée pascale/Après Ez37 1.ly" 
+\end{lilypond}\bigskip
+
+\newpage
+\rubrique{S'il y a des baptêmes:}{2ex}{1ex}
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Ez37 2.ly" 
+\end{lilypond}
+
+\vfill       
+\rubrique{Après l'oraison, on entonne le Gloria.}{2ex}{0pt}
+\vfill
+
+\section{Après la lecture de R\lowercase{m} 6}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly"\include"Ft-rl.ly"\include "Veillée pascale/Alléluia.ly" 
+\end{lilypond}\bigskip
+
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Veillée pascale/Après Rm6.ly" 
+\end{lilypond}
+
+
+%\newpage\null\thispagestyle{plain}
+\chapter{Liturgie de l'eau}
+\section{Aspersion}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Ordinaires/J'ai vu jaillir M171.ly" 
+\end{lilypond}
+\vspace{6em}\pagebreak
+
+%\subsection{Communion}
+\fancyhead[EC]{\nouppercase{\small\itshape Communion}}
+\fancyhead[OC]{\nouppercase{\small\itshape Communion}}
+
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Communions/Venez et mangez M230.ly" 
+\end{lilypond}
+\begin{lilypond}
+	\include "Ft-gal.ly"\include "Ft-11pt.ly"\include "Ft-Gar.ly" \include "Communions/Venez et mangez Cplts M230.ly" 
+\end{lilypond}
+
+
+
+\end{document}

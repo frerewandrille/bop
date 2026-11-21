@@ -1,0 +1,101 @@
+<!doctype html>
+<!-- Page « Bibliothèque » : accueil des recueils (Bénédicité, Prières, Martyrologe, Frères défunts),
+     avec un aperçu du jour pour chacun. Onglets communs : js/bibliotheque.js. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bibliothèque</title>
+<meta name="description" content="Bénédicité, prières, martyrologe et frères défunts.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#7a1f1f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icone.svg?v=2" type="image/svg+xml">
+<link rel="stylesheet" href="css/polices.css?v=86">
+<link rel="stylesheet" href="css/office.css?v=102">
+<link rel="stylesheet" href="css/table.css?v=11">
+<link rel="stylesheet" href="css/menu.css?v=9">
+</head>
+<body class="page-table page-bibliotheque">
+<script src="js/menu.js?v=8"></script>
+<header class="barre barre-table">
+  <div class="barre-gauche">
+    <label class="cache" for="date">Date</label>
+    <button class="bouton icone" id="veille" title="Jour précédent" aria-label="Jour précédent">‹</button>
+    <input type="date" id="date">
+    <button class="bouton icone" id="lendemain" title="Jour suivant" aria-label="Jour suivant">›</button>
+    <button class="bouton avec-icone" id="aujourdhui" title="Revenir à aujourd'hui" aria-label="Aujourd'hui"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><circle class="plein" cx="12" cy="15" r="2"/></svg><span class="lib">Aujourd'hui</span></button>
+  </div>
+  <nav class="onglets pages-annexes" aria-label="Bibliothèque"></nav>
+  <div class="barre-droite">
+  </div>
+</header>
+<main class="contenu table-contenu" id="page">
+  <header class="entete-table"><p class="date" id="date-du-jour"></p><h1>Bibliothèque</h1>
+    <p class="sous-titre">Les livres de la vie commune</p></header>
+  <div class="rayons" id="rayons"></div>
+</main>
+
+<script src="js/calendrier.js?v=91"></script>
+<script src="js/bibliotheque.js?v=2"></script>
+<script src="js/table.js?v=2"></script>
+<script src="js/defunts.js?v=2"></script>
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const pad = (n) => String(n).padStart(2, "0");
+  const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const pref = Bibliotheque.preferences();
+  const m = /^#(\d{4}-\d{2}-\d{2})/.exec(location.hash);
+  let date = m ? m[1] : iso(new Date()), donnees = null;
+  const decaler = (s, n) => { const d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return iso(d); };
+
+  // icônes des rayons
+  const ICO = {
+    table: '<path d="M7 3v7a2 2 0 0 0 2 2v9M11 3v7a2 2 0 0 1-2 2M7 3v4M9 3v4M11 3v4"/><path d="M17 21V3c-2 1.5-3 4-3 7v3h3"/>',
+    prieres: '<path d="M12 3c-1.5 2-2 4-2 6v6l-3 3v3h10v-3l-3-3V9c0-2-.5-4-2-6z"/>',
+    martyrologe: '<path d="M6 3h10l3 3v15H6z"/><path d="M9 9h7M9 12.5h7M9 16h5"/>',
+    defunts: '<path d="M12 3v18M7.5 8h9"/><path d="M5 21h14"/>',
+  };
+  function rayons(apercus) {
+    $("#rayons").innerHTML = Bibliotheque.PAGES.map((p) =>
+      `<a class="rayon" href="${p.fichier}#${date}"><svg class="rayon-ico" viewBox="0 0 24 24" aria-hidden="true">${ICO[p.cle]}</svg>`
+      + `<span class="rayon-texte"><b>${esc(p.titre)}</b><span>${esc(p.resume)}</span>`
+      + (apercus[p.cle] ? `<em>${esc(apercus[p.cle])}</em>` : "") + `</span></a>`).join("");
+  }
+
+  function apercus() {
+    $("#date").value = date;
+    Bibliotheque.onglets(null, date);
+    if (location.hash !== "#" + date) history.replaceState(null, "", "#" + date);
+    if (!donnees) return rayons({});
+    const [table, nec] = donnees;
+    const j = Calendrier.jour(Calendrier.deIso(date), { propreOP: pref.propreOP !== false });
+    $("#date-du-jour").textContent = j.dateLongue;
+    const b = Table.pour(j, table);
+    const d = Defunts.du(date, nec);
+    const n = d.freres.length + d.sansJour.length;
+    rayons({
+      table: b.midi.propre ? `Ce jour : ${b.midi.propre.titre.replace(/^[^–-]*\d[^–-]*[–-]\s*/, "")}` : `Ce jour : formule ${["", "I", "II", "III", "IV"][b.midi.numero]} du ${j.nomJour}`,
+      martyrologe: `Ce jour : ${j.nom.charAt(0).toUpperCase() + j.nom.slice(1)}`,
+      defunts: n ? `Ce jour : ${n} frère${n > 1 ? "s" : ""}` : "Aucun frère inscrit ce jour",
+    });
+  }
+  $("#veille").onclick = () => { date = decaler(date, -1); apercus(); };
+  $("#lendemain").onclick = () => { date = decaler(date, 1); apercus(); };
+  $("#aujourdhui").onclick = () => { date = iso(new Date()); apercus(); };
+  $("#date").onchange = (e) => { if (e.target.value) { date = e.target.value; apercus(); } };
+  apercus();
+  Promise.all(["sanctoral", "propre_op", "table", "necrologe"].map((f) => fetch(`donnees/${f}.json`, { cache: "no-cache" }).then((r) => r.json())))
+    .then(([sanctoral, propreOP, table, nec]) => { Calendrier.charger(sanctoral, propreOP); donnees = [table, nec]; apercus(); document.body.dataset.pret = "1"; })
+    .catch(() => { document.body.dataset.pret = "1"; });
+
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

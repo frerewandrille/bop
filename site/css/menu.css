@@ -1,0 +1,75 @@
+/* Barre des menus commune (js/menu.js). Couleurs du bréviaire (office.css) ou, dans la Bible, de lectio.css. */
+.menu-principal {
+  display: flex; align-items: center; gap: 2px; padding: calc(env(safe-area-inset-top, 0px) + 4px) 12px 4px;
+  background: var(--fond, var(--bg, #fbf8f2)); border-bottom: 1px solid var(--trait, var(--line, #ddd3c3));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 15px;
+  position: relative; z-index: 30;
+}
+.menu-marque { margin-right: auto; font-family: "Kepler Titre", "Kepler Texte", "Iowan Old Style", Palatino, Georgia, serif; font-size: 19px;
+  color: var(--rouge, #a3201c); text-decoration: none; white-space: nowrap; padding-right: 12px; }
+.menu-item { display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; border-radius: 8px; border: 0; background: none;
+  font: inherit; color: var(--doux, var(--muted, #6b6157)); text-decoration: none; cursor: pointer; min-height: 38px; }
+.menu-item:hover { color: var(--texte, var(--ink, #241f1a)); background: var(--fond-2, var(--bar, #f2ece1)); }
+.menu-item[aria-current="page"] { color: var(--accent, #7a1f1f); background: var(--fond-2, var(--bar, #f2ece1)); font-weight: 600; }
+.menu-ico { width: 21px; height: 21px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+/* téléphone : quatre cases égales, icône au-dessus du nom */
+@media (max-width: 760px) {
+  .menu-principal { padding: calc(env(safe-area-inset-top, 0px) + 2px) 4px 2px; gap: 0; }
+  .menu-marque { display: none; }
+  .menu-item { flex: 1; flex-direction: column; gap: 1px; padding: 5px 2px 4px; font-size: 11px; min-height: 0; letter-spacing: .01em; }
+  .menu-ico { width: 22px; height: 22px; }
+}
+
+/* Offices : ce que le menu remplace dans la barre (les boutons restent dans la page, pour les scripts) */
+.avec-menu #vers-bible, .avec-menu #vers-table, .avec-menu .barre > .barre-gauche > .logo { display: none !important; }
+/* Bible : le passage « ✠ Bréviaire » est dans le menu */
+.avec-menu #vers-breviaire { display: none !important; }
+@media print { .menu-principal { display: none !important; } }
+
+/* iPhone (site ouvert depuis l'écran d'accueil) : la barre d'état (heure, encoche) recouvrait le haut de la page.
+   Les pages demandent tout l'écran (viewport-fit=cover) : on réserve la hauteur de la barre d'état, plus une marge,
+   en haut de la barre des menus, et les barres collantes s'arrêtent sous elle (19/11/2026). */
+.menu-principal { padding-top: calc(env(safe-area-inset-top, 0px) + 6px); }
+@media (max-width: 760px) { .menu-principal { padding-top: calc(env(safe-area-inset-top, 0px) + 6px); } }
+.barre { top: env(safe-area-inset-top, 0px); }
+body::before { content: ""; position: fixed; top: 0; left: 0; right: 0; height: env(safe-area-inset-top, 0px); z-index: 40;
+  background: var(--fond, var(--bg, #fbf8f2)); pointer-events: none; }
+body { padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+/* Bible : sa barre (#top) gardait elle-même la place de la barre d'état ; c'est désormais la barre des menus qui la garde */
+.avec-menu #top { top: env(safe-area-inset-top, 0px); padding-top: 6px; }
+/* ouvert depuis l'écran d'accueil : un peu plus d'air sous la barre d'état */
+@media (display-mode: standalone) { .menu-principal { padding-top: calc(env(safe-area-inset-top, 0px) + 12px); } }
+/* Bible : ses boutons ‹ et ⚙ prennent la forme des boutons des autres pages (carré 36 px, bordure, coins 8 px) */
+.avec-menu #top .icon { width: 36px; height: 36px; line-height: 34px; border-radius: 8px; border: 1px solid var(--line, #ddd3c3);
+  background: var(--bg, #fbf8f2); color: var(--ink, #241f1a); font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+.avec-menu #top #back { color: var(--ink, #241f1a); font-size: 18px; }
+.avec-menu #top { padding-left: 16px; padding-right: 16px; min-height: 52px; }
+@media (max-width: 760px) { .avec-menu #top { padding-left: 10px; padding-right: 10px; } .avec-menu #top .icon { width: 32px; height: 34px; line-height: 32px; } }
+/* boutons de droite toujours collés au bord droit, quel que soit leur nombre */
+.barre > .barre-droite { justify-self: end; }
+
+/* ⚙ de la Bible : exactement le bouton ⚙ des offices (office.css : .bouton.icone) */
+.avec-menu #top #gear { width: 36px; height: auto; min-height: 36px; padding: 0; line-height: normal; display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line, #ddd3c3); border-radius: 8px; background: var(--bg, #fbf8f2); color: var(--ink, #241f1a);
+  font: 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; cursor: pointer; }
+.avec-menu #top #gear:hover { border-color: var(--muted, #6b6157); }
+@media (max-width: 760px) { .avec-menu #top #gear { width: 32px; min-height: 34px; } }
+@media (max-width: 370px) { .avec-menu #top #gear { width: 29px; } }
+/* place du ⚙ des offices gardée, invisible, sur les pages qui n'en ont pas : l'export tombe au même endroit (19/11/2026) */
+.bouton.cale { visibility: hidden; pointer-events: none; display: inline-block; }
+@media print { .bouton.cale { display: none; } }
+
+/* Pied de page commun : sources et droits (posé par menu.js sur toutes les pages, 19/11/2026) */
+.pied-commun { max-width: 1060px; margin: 32px auto 0; padding: 16px 16px calc(20px + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--trait, var(--line, #e2d9cb)); color: var(--doux, var(--muted, #76695c));
+  font: 12px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+.pied-commun p { margin: 0 0 6px; }
+.pied-commun summary { cursor: pointer; color: var(--rouge, #a3201c); width: max-content; }
+.pied-commun h2 { font: inherit; font-weight: 600; margin: 12px 0 4px; color: var(--texte, var(--ink, #2b2520)); }
+.pied-commun ul { margin: 0; padding-left: 18px; }
+.pied-commun li { margin: 2px 0; }
+.pied-commun a { color: inherit; }
+/* Bible : laisser la place des onglets fixés en bas */
+body:has(#tabs) .pied-commun { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+@media print { .pied-commun { display: none !important; } }

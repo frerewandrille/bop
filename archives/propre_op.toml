@@ -1,0 +1,216 @@
+# ───────────────────────────────────────────────────────────────────────────
+#  CALENDRIER PROPRE DE L'ORDRE DES PRÊCHEURS
+#  Calendarium Ordinis Prædicatorum, approuvé le 14 avril 2019 (prot. 188/19),
+#  en vigueur depuis le 1er dimanche de l'Avent 2019.
+#
+#  Chaque célébration : date = "mois-jour", nom, rang.
+#  Rangs : "solennité", "fête", "mémoire", "mémoire facultative", "anniversaire".
+#  couleur (facultatif) : "Rouge" pour les martyrs ; sinon blanc.
+#
+#  Les célébrations entre crochets dans le Calendarium (reprises du calendrier
+#  romain avec des textes propres : Présentation, Annonciation, Assomption,
+#  Toussaint…) ne sont pas répétées ici : l'AELF les donne déjà.
+#  Le 22 octobre (Dédicace, dans les églises dont on ignore la date) n'est pas
+#  inscrit : il ne concerne que certaines églises.
+#
+#  La règle de préséance appliquée : une célébration de l'Ordre remplace le jour
+#  romain quand son rang est au moins égal (une fête de l'Ordre ne remplace pas
+#  un dimanche ; une mémoire ne remplace pas une fête). En Carême, du 17 au 24
+#  décembre et dans l'octave de Noël, une mémoire devient facultative.
+# ───────────────────────────────────────────────────────────────────────────
+
+[[celebration]]
+date = "01-04"
+nom = "Ste Zdislava de Lemberk"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "01-07"
+nom = "S. Raymond de Peñafort, prêtre"
+rang = "mémoire"
+
+[[celebration]]
+date = "01-18"
+nom = "Ste Marguerite de Hongrie, vierge"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "01-28"
+nom = "S. Thomas d'Aquin, prêtre et docteur de l'Église"
+rang = "fête"
+
+[[celebration]]
+date = "02-04"
+nom = "Ste Catherine de Ricci, vierge"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "02-07"
+nom = "Anniversaire des pères et mères défunts"
+rang = "anniversaire"
+
+[[celebration]]
+date = "02-13"
+nom = "Bx Jourdain de Saxe, prêtre"
+rang = "mémoire"
+
+[[celebration]]
+date = "02-18"
+nom = "Bx Fra Angelico (Jean de Fiesole), prêtre"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "04-20"
+nom = "Ste Agnès de Montepulciano, vierge"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "04-29"
+nom = "Ste Catherine de Sienne, vierge et docteur de l'Église"
+rang = "fête"
+
+[[celebration]]
+date = "04-30"
+nom = "S. Pie V, pape"
+rang = "mémoire"
+
+[[celebration]]
+date = "05-05"
+nom = "S. Vincent Ferrier, prêtre"
+rang = "mémoire"
+
+[[celebration]]
+date = "05-10"
+nom = "S. Antonin de Florence, évêque"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "05-19"
+nom = "S. François Coll Guitart, prêtre"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "05-24"
+nom = "Translation de S. Dominique, prêtre"
+rang = "mémoire"
+
+[[celebration]]
+date = "06-04"
+nom = "S. Pierre de Vérone, prêtre et martyr"
+rang = "mémoire"
+couleur = "Rouge"
+
+[[celebration]]
+date = "06-08"
+nom = "Bses Diane et Cécile, vierges"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "07-04"
+# Bienheureux dans le Calendarium de 2019 ; canonisé le 7 septembre 2025.
+nom = "S. Pier Giorgio Frassati"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "07-09"
+nom = "S. Jean de Cologne, prêtre, et ses compagnons, martyrs ; Ss. François Fernández de Capillas, prêtre, Pierre Sanz, évêque, Augustin Zhao Rong, prêtre, et leurs compagnons, martyrs"
+rang = "mémoire facultative"
+couleur = "Rouge"
+
+[[celebration]]
+date = "08-02"
+nom = "Bse Jeanne, mère de S. Dominique"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "08-08"
+nom = "S. Dominique, prêtre"
+rang = "solennité"
+
+[[celebration]]
+date = "08-17"
+nom = "S. Hyacinthe de Pologne, prêtre"
+rang = "mémoire"
+
+[[celebration]]
+date = "08-18"
+nom = "Bx Mannès, prêtre, frère de S. Dominique"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "08-23"
+nom = "Ste Rose de Lima, vierge"
+rang = "mémoire"
+
+[[celebration]]
+date = "08-28"
+nom = "S. Augustin, évêque et docteur de l'Église"
+rang = "fête"
+
+[[celebration]]
+date = "09-05"
+nom = "Anniversaire des proches et bienfaiteurs défunts"
+rang = "anniversaire"
+
+[[celebration]]
+date = "09-18"
+nom = "S. Jean Macías, religieux"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "09-28"
+nom = "S. Dominique Ibáñez de Erquicia, prêtre, S. Laurent Ruiz, Bx Alphonse Navarrete, prêtre, et leurs compagnons, martyrs"
+rang = "mémoire facultative"
+couleur = "Rouge"
+
+[[celebration]]
+date = "10-04"
+nom = "S. François d'Assise, diacre"
+rang = "fête"
+
+[[celebration]]
+date = "10-05"
+nom = "Bx Raymond de Capoue, prêtre"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "10-07"
+nom = "Notre-Dame du Rosaire"
+rang = "fête"
+
+[[celebration]]
+date = "10-09"
+nom = "S. Louis Bertrand, prêtre"
+rang = "mémoire facultative"
+
+[[celebration]]
+date = "11-03"
+nom = "S. Martin de Porrès, religieux"
+rang = "fête"
+
+[[celebration]]
+date = "11-06"
+nom = "Bx Bonaventure García Paredes, Hyacinthe Serrano López, prêtres, et leurs compagnons, martyrs"
+rang = "mémoire facultative"
+couleur = "Rouge"
+
+[[celebration]]
+date = "11-07"
+nom = "Tous les saints de l'Ordre des Prêcheurs"
+rang = "fête"
+
+[[celebration]]
+date = "11-08"
+nom = "Anniversaire de tous les frères et sœurs défunts"
+rang = "anniversaire"
+
+[[celebration]]
+date = "11-15"
+nom = "S. Albert le Grand, évêque et docteur de l'Église"
+rang = "mémoire"
+
+[[celebration]]
+date = "11-24"
+nom = "Ss. Ignace Delgado, évêque, Vincent Liem, prêtre, Dominique An-Kham, laïc, André Dung-Lac, prêtre, et leurs compagnons, martyrs"
+rang = "mémoire"
+couleur = "Rouge"

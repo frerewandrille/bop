@@ -1,0 +1,427 @@
+{
+ "traduction": "Bible de Jérusalem",
+ "livres": [
+  {
+   "code": "Gn",
+   "nom": "Genèse",
+   "chapitres": 50
+  },
+  {
+   "code": "Ex",
+   "nom": "Exode",
+   "chapitres": 40
+  },
+  {
+   "code": "Lv",
+   "nom": "Lévitique",
+   "chapitres": 27
+  },
+  {
+   "code": "Nb",
+   "nom": "Nombres",
+   "chapitres": 36
+  },
+  {
+   "code": "Dt",
+   "nom": "Deutéronome",
+   "chapitres": 34
+  },
+  {
+   "code": "Jos",
+   "nom": "Josué",
+   "chapitres": 24
+  },
+  {
+   "code": "Jg",
+   "nom": "Juges",
+   "chapitres": 21
+  },
+  {
+   "code": "Rt",
+   "nom": "Ruth",
+   "chapitres": 4
+  },
+  {
+   "code": "1S",
+   "nom": "1 Samuel",
+   "chapitres": 31
+  },
+  {
+   "code": "2S",
+   "nom": "2 Samuel",
+   "chapitres": 24
+  },
+  {
+   "code": "1R",
+   "nom": "1 Rois",
+   "chapitres": 22
+  },
+  {
+   "code": "2R",
+   "nom": "2 Rois",
+   "chapitres": 25
+  },
+  {
+   "code": "1Ch",
+   "nom": "1 Chroniques",
+   "chapitres": 29
+  },
+  {
+   "code": "2Ch",
+   "nom": "2 Chroniques",
+   "chapitres": 36
+  },
+  {
+   "code": "Esd",
+   "nom": "Esdras",
+   "chapitres": 10
+  },
+  {
+   "code": "Ne",
+   "nom": "Néhémie",
+   "chapitres": 13
+  },
+  {
+   "code": "Tb",
+   "nom": "Tobie",
+   "chapitres": 14
+  },
+  {
+   "code": "Jdt",
+   "nom": "Judith",
+   "chapitres": 16
+  },
+  {
+   "code": "Est",
+   "nom": "Esther",
+   "chapitres": 10
+  },
+  {
+   "code": "1M",
+   "nom": "1 Maccabées",
+   "chapitres": 16
+  },
+  {
+   "code": "2M",
+   "nom": "2 Maccabées",
+   "chapitres": 15
+  },
+  {
+   "code": "Jb",
+   "nom": "Job",
+   "chapitres": 42
+  },
+  {
+   "code": "Ps",
+   "nom": "Psaumes",
+   "chapitres": 150
+  },
+  {
+   "code": "Pr",
+   "nom": "Proverbes",
+   "chapitres": 31
+  },
+  {
+   "code": "Qo",
+   "nom": "Qohélet",
+   "chapitres": 12
+  },
+  {
+   "code": "Ct",
+   "nom": "Cantique des cantiques",
+   "chapitres": 8
+  },
+  {
+   "code": "Sg",
+   "nom": "Sagesse",
+   "chapitres": 19
+  },
+  {
+   "code": "Si",
+   "nom": "Siracide",
+   "chapitres": 51
+  },
+  {
+   "code": "Is",
+   "nom": "Isaïe",
+   "chapitres": 66
+  },
+  {
+   "code": "Jr",
+   "nom": "Jérémie",
+   "chapitres": 52
+  },
+  {
+   "code": "Lm",
+   "nom": "Lamentations",
+   "chapitres": 5
+  },
+  {
+   "code": "Ba",
+   "nom": "Baruch",
+   "chapitres": 6
+  },
+  {
+   "code": "Ez",
+   "nom": "Ézéchiel",
+   "chapitres": 48
+  },
+  {
+   "code": "Dn",
+   "nom": "Daniel",
+   "chapitres": 14
+  },
+  {
+   "code": "Os",
+   "nom": "Osée",
+   "chapitres": 14
+  },
+  {
+   "code": "Jl",
+   "nom": "Joël",
+   "chapitres": 4
+  },
+  {
+   "code": "Am",
+   "nom": "Amos",
+   "chapitres": 9
+  },
+  {
+   "code": "Ab",
+   "nom": "Abdias",
+   "chapitres": 1
+  },
+  {
+   "code": "Jon",
+   "nom": "Jonas",
+   "chapitres": 4
+  },
+  {
+   "code": "Mi",
+   "nom": "Michée",
+   "chapitres": 7
+  },
+  {
+   "code": "Na",
+   "nom": "Nahum",
+   "chapitres": 3
+  },
+  {
+   "code": "Ha",
+   "nom": "Habaquq",
+   "chapitres": 3
+  },
+  {
+   "code": "So",
+   "nom": "Sophonie",
+   "chapitres": 3
+  },
+  {
+   "code": "Ag",
+   "nom": "Aggée",
+   "chapitres": 2
+  },
+  {
+   "code": "Za",
+   "nom": "Zacharie",
+   "chapitres": 14
+  },
+  {
+   "code": "Ml",
+   "nom": "Malachie",
+   "chapitres": 3
+  },
+  {
+   "code": "Mt",
+   "nom": "Matthieu",
+   "chapitres": 28
+  },
+  {
+   "code": "Mc",
+   "nom": "Marc",
+   "chapitres": 16
+  },
+  {
+   "code": "Lc",
+   "nom": "Luc",
+   "chapitres": 24
+  },
+  {
+   "code": "Jn",
+   "nom": "Jean",
+   "chapitres": 21
+  },
+  {
+   "code": "Ac",
+   "nom": "Actes des Apôtres",
+   "chapitres": 28
+  },
+  {
+   "code": "Rm",
+   "nom": "Romains",
+   "chapitres": 16
+  },
+  {
+   "code": "1Co",
+   "nom": "1 Corinthiens",
+   "chapitres": 16
+  },
+  {
+   "code": "2Co",
+   "nom": "2 Corinthiens",
+   "chapitres": 13
+  },
+  {
+   "code": "Ga",
+   "nom": "Galates",
+   "chapitres": 6
+  },
+  {
+   "code": "Ep",
+   "nom": "Éphésiens",
+   "chapitres": 6
+  },
+  {
+   "code": "Ph",
+   "nom": "Philippiens",
+   "chapitres": 4
+  },
+  {
+   "code": "Col",
+   "nom": "Colossiens",
+   "chapitres": 4
+  },
+  {
+   "code": "1Th",
+   "nom": "1 Thessaloniciens",
+   "chapitres": 5
+  },
+  {
+   "code": "2Th",
+   "nom": "2 Thessaloniciens",
+   "chapitres": 3
+  },
+  {
+   "code": "1Tm",
+   "nom": "1 Timothée",
+   "chapitres": 6
+  },
+  {
+   "code": "2Tm",
+   "nom": "2 Timothée",
+   "chapitres": 4
+  },
+  {
+   "code": "Tt",
+   "nom": "Tite",
+   "chapitres": 3
+  },
+  {
+   "code": "Phm",
+   "nom": "Philémon",
+   "chapitres": 1
+  },
+  {
+   "code": "He",
+   "nom": "Hébreux",
+   "chapitres": 13
+  },
+  {
+   "code": "Jc",
+   "nom": "Jacques",
+   "chapitres": 5
+  },
+  {
+   "code": "1P",
+   "nom": "1 Pierre",
+   "chapitres": 5
+  },
+  {
+   "code": "2P",
+   "nom": "2 Pierre",
+   "chapitres": 3
+  },
+  {
+   "code": "1Jn",
+   "nom": "1 Jean",
+   "chapitres": 5
+  },
+  {
+   "code": "2Jn",
+   "nom": "2 Jean",
+   "chapitres": 1
+  },
+  {
+   "code": "3Jn",
+   "nom": "3 Jean",
+   "chapitres": 1
+  },
+  {
+   "code": "Jude",
+   "nom": "Jude",
+   "chapitres": 1
+  },
+  {
+   "code": "Ap",
+   "nom": "Apocalypse",
+   "chapitres": 22
+  }
+ ],
+ "versets_omis": [
+  "1R 15,6",
+  "1R 15,32",
+  "2R 11,6",
+  "Sg 17,18",
+  "Si 1,5",
+  "Si 3,19",
+  "Si 3,25",
+  "Si 10,21",
+  "Si 11,15",
+  "Si 11,16",
+  "Si 13,14",
+  "Si 16,15",
+  "Si 16,16",
+  "Si 17,9",
+  "Si 17,16",
+  "Si 17,18",
+  "Si 17,21",
+  "Si 18,3",
+  "Si 19,18",
+  "Si 19,19",
+  "Si 19,21",
+  "Si 22,7",
+  "Si 22,8",
+  "Si 24,18",
+  "Si 24,24",
+  "Si 25,12",
+  "Si 26,19",
+  "Si 26,20",
+  "Si 26,21",
+  "Si 26,22",
+  "Si 26,23",
+  "Si 26,24",
+  "Si 26,25",
+  "Si 26,26",
+  "Si 26,27",
+  "Ez 40,30",
+  "Mt 17,21",
+  "Mt 21,44",
+  "Mt 23,14",
+  "Mc 9,44",
+  "Mc 9,46",
+  "Mc 11,26",
+  "Mc 15,28",
+  "Lc 17,36",
+  "Lc 23,17",
+  "Ac 8,37",
+  "Ac 15,34",
+  "Ac 24,7",
+  "Ac 28,29",
+  "Rm 16,24"
+ ],
+ "anomalies": [
+  "1Ch 2 : titre de chapitre absent de la source, rétabli (l. 11619)",
+  "Jr 25 : titre de chapitre absent de la source, rétabli (l. 26694)",
+  "Daniel : chapitres manquants [13, 14]"
+ ]
+}

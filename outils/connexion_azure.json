@@ -1,0 +1,97 @@
+{
+  "_note": "Ajouté à site/staticwebapp.config.json par « publier_azure.sh --connexion » (voir docs/CONNEXION.md). Les routes ouvertes passent avant toutes les autres ; chaque route existante reçoit « authenticated » ; « /* » ferme le reste. « routesRoles » (pages réservées à un rôle) passent juste après les routes ouvertes ; les rôles viennent de /api/roles (rolesSource).",
+  "routesOuvertes": [
+    {
+      "route": "/icone.svg",
+      "allowedRoles": [
+        "anonymous"
+      ]
+    },
+    {
+      "route": "/apple-touch-icon.png",
+      "allowedRoles": [
+        "anonymous"
+      ]
+    },
+    {
+      "route": "/icone-192.png",
+      "allowedRoles": [
+        "anonymous"
+      ]
+    },
+    {
+      "route": "/icone-512.png",
+      "allowedRoles": [
+        "anonymous"
+      ]
+    },
+    {
+      "route": "/manifest.webmanifest",
+      "allowedRoles": [
+        "anonymous"
+      ]
+    },
+    {
+      "route": "/robots.txt",
+      "allowedRoles": [
+        "anonymous"
+      ]
+    }
+  ],
+  "routeFinale": {
+    "route": "/*",
+    "allowedRoles": [
+      "authenticated"
+    ]
+  },
+  "responseOverrides": {
+    "401": {
+      "statusCode": 302,
+      "redirect": "/.auth/login/breviaire?post_login_redirect_uri=.referrer"
+    }
+  },
+  "auth": {
+    "identityProviders": {
+      "customOpenIdConnectProviders": {
+        "breviaire": {
+          "registration": {
+            "clientIdSettingName": "CONNEXION_CLIENT_ID",
+            "clientCredential": {
+              "clientSecretSettingName": "CONNEXION_CLIENT_SECRET"
+            },
+            "openIdConnectConfiguration": {
+              "wellKnownOpenIdConfiguration": "__EMETTEUR__/.well-known/openid-configuration"
+            }
+          },
+          "login": {
+            "nameClaimType": "name",
+            "scopes": [
+              "openid",
+              "profile"
+            ],
+            "loginParameterNames": []
+          }
+        }
+      }
+    },
+    "rolesSource": "/api/roles"
+  },
+  "routesRoles": [
+    {
+      "route": "/signalements.html",
+      "allowedRoles": [
+        "signalements"
+      ]
+    },
+    {
+      "route": "/api/signalements",
+      "methods": [
+        "GET",
+        "PUT"
+      ],
+      "allowedRoles": [
+        "signalements"
+      ]
+    }
+  ]
+}

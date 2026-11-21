@@ -1,0 +1,2563 @@
+%!TEX TS-program = lualatex
+
+\documentclass[12pt, openany]{book}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titlepic}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{emptypage}
+\usepackage{changepage}
+\usepackage{bbding}
+%\usepackage[autocompile]{gregoriotex}
+
+\geometry{a5paper, margin = 0.04\paperwidth, inner = 0.07\paperwidth, bottom = 0.13\paperwidth, top = 0.08\paperwidth}
+
+
+\input{Psautier/Psautier-format-5.tex}\formatPDT\MixteB
+\input{Psautier/PsautierPDT-texte-5.tex}
+\setlength{\postStrophe}{1ex plus 1ex}
+
+\title{\bfseries\sffamily\LARGE  Matines et Laudes \\ du Carême}
+\author{}
+\date{}
+
+\setmainfont[Numbers={Lowercase, Proportional, OldStyle}, Ligatures={Common,Rare,Historic}]{EB Garamond}
+\newfontfamily\Garamond{EB Garamond}
+
+
+\fancypagestyle{plain}{%
+	\fancyhf{}%
+	\fancyfoot[C]{\color{gray}\huge\thepage}%
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\headrule}{}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrule}{\color{gray}\vspace{-1.75ex}\hrulefill}
+\renewcommand{\partmark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{}
+\renewcommand{\chaptermark}[1]{\markright{#1}}
+\fancyhead[EL]{\color{gray}\large\nouppercase{\itshape\rightmark}}
+\fancyhead[OR]{\color{gray}\large\uppercase{\scshape\leftmark}}
+\fancyfoot[C]{\color{gray}\huge\thepage}
+\strictpagecheck
+
+
+\titleformat{\part}[hang]{\itshape\color{gray}\car{6em}}{}{0pt}{\centering}{}
+\titleformat{\chapter}[hang]{\itshape\color{gray}\Huge}{}{0pt}{\centering}{}
+\titlespacing{\chapter}{0pt}{-1.5em}{2em}
+\titleformat{\section}[hang]{\itshape\color{gray}\Large}{}{0pt}{\centering}{}
+\titleformat{\subsection}[hang]{\itshape\huge}{}{0pt}{}{}
+\titleformat{\subsubsection}[hang]{\color{ruber}}{}{0pt}{\centering}{}
+
+
+\definecolor{ruber}{RGB}{219, 23, 2}
+\renewcommand{\finPsaume}{\hfill \textit{\footnotesize[Gl.]}\hspace{2em}\null}
+\renewcommand{\finPsaume}{\finPsaumeEtFinPage}
+\renewcommand{\Alleluia}{}
+\renewcommand{\AlleluiaG}{}
+\renewcommand{\PsParTitre}[2]{\def\CXVIII{118}\def\numero{#2}
+	\ifx\CXVIII\numero \subsection{Psaume #2 --- #1}%
+	\else\subsubsection{#1}\fi
+}
+\renewcommand{\CtTitre}[3]{\subsection{#1}}
+\renewcommand{\heb}[1]{}
+
+\def\preLilyPondExample{\hspace*{-3mm}}
+\def\postLilyPondExample{\par}
+\newcommand{\betweenLilyPondSystem}[1]{\par\hspace*{-3mm}}
+\ifx\gregorioscore\undefined \newcommand{\Vbar}{V/}\newcommand{\gregorioscore}[1]{} \fi
+
+
+\makeatletter
+\newcommand{\partie}[1]{\cleardoublepage\begingroup\let\ps@plain\ps@empty\part{#1}\endgroup}
+\makeatother
+\newcounter{cptr}\newcounter{cptrII}
+\newcommand{\Semaine}[1]{\partie{Semaine #1}}
+\newcommand{\jour}[1]{\chapter{#1} \stepcounter{cptr}\label{\thecptr}}
+\newcommand{\jourHy}[1]{\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}\section{#1\protect\Gloire}}
+\newcommand{\Lectures}{\section{Office des Lectures}}
+\newcommand{\Laudes}{\vspace{1em}\section{Laudes}}
+\newcommand{\ReponsDiSs}[4]{{\color{ruber}\itshape\vspace{4ex}
+		\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Le dimanche #1, répons p. \pageref{Repons#2}\fi
+		\ifx\relax#3\relax.\else; le dimanche #3, répons p. \pageref{Repons#4}.\fi\par
+}}
+\newcommand{\ReponsDi}[4]{{\color{ruber}\itshape\vspace{4ex}
+	\begin{minipage}{\linewidth}
+		\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Le dimanche #1, répons p. \pageref{Repons#2}\fi
+		\ifx\relax#3\relax.\else.\par Le dimanche #3, répons p. \pageref{Repons#4}.\fi\par
+	\end{minipage}\par
+}}
+\newcommand{\ReponsSs}[4]{{\color{ruber}\itshape\vspace{4ex}
+	\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Pendant la semaine #1, répons p. \pageref{Repons#2}\fi
+	\ifx\relax#3\relax.\else; la semaine #3, répons p. \pageref{Repons#4}.\fi\par
+}}
+\newcommand{\Repons}[4]{{\color{ruber}\itshape\vspace{4ex}\null
+	\begin{minipage}{\linewidth}
+		\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Pendant la semaine #1, répons p. \pageref{Repons#2}\fi
+		\ifx\relax#3\relax.\else.\par Pendant la semaine #3, répons p. \pageref{Repons#4}.\fi\par
+	\end{minipage}\par
+}}
+\newcommand{\ReponsG}[4]{{\color{ruber}\itshape\vspace{-10.5ex}
+		\begin{minipage}{0.9\linewidth}\raggedleft
+			\ifx\relax#1\relax Répons p. \pageref{Repons#2}\else Pendant la semaine #1,\par répons p. \pageref{Repons#2}\fi
+			\ifx\relax#3\relax.\else.\par Pendant la semaine #3,\par répons p. \pageref{Repons#4}.\fi\par
+		\end{minipage}\par
+}}
+\newcommand{\rubrique}[3]{\par\vspace{#2}\textcolor{ruber}{\itshape#1}\nopagebreak}
+\newcommand{\saut}{\vspace{4ex}}
+\newcommand{\versLect}[2]{\par\smallskip\begin{minipage}{\linewidth}\enRetrait{\textcolor{ruber}{\Vbar}}{1ex}#1\\#2\end{minipage}\par}
+\newcommand{\antienne}[1]{Antienne #1\par}
+\renewcommand{\thefootnote}{}
+\newcommand{\Gloire}{\checkoddpage%
+	\ifoddpage\else%
+	\footnote{\includegraphics[width=0.65\linewidth]{0Gloire-à-toi.pdf}}\fi
+	}
+\newcommand{\bened}{\saut Au cantique évangélique:}
+\input GotIn.fd
+\newcommand*\initfamily{\usefont{U}{GotIn}{xl}{n}}
+\newcommand{\car}[1]{\fontsize{#1}{#1}\selectfont}
+\renewcommand{\paragraph}[1]{\rubrique{#1}{2ex}{1ex}\par\nopagebreak\noindent}
+
+\newcommand{\dstr}{\begin{minipage}{0.9\linewidth}\begin{hangparas}{3em}{1}\raggedright}
+\newcommand{\fstr}{\end{hangparas}\end{minipage}\vspace{2ex}\par}
+\renewcommand{\PsTitre}[1]{\subsection{Psaume #1}}
+
+
+
+\begin{document}
+	
+\null\pagestyle{empty}\cleardoublepage\pagestyle{empty}\setcounter{page}{1}
+{\centering \Garamond
+	\resizebox{0.5\linewidth}{!}{Matines} \par \car{40pt}\&\par	
+	\resizebox{0.8\linewidth}{!}{Laudes} \\
+	\vfill\includegraphics[width=0.8\linewidth]{0onction}\par\vfill
+	\resizebox{0.5\linewidth}{!}{du Carême} \vfill\vfill
+}
+\null
+
+\cleardoublepage\pagestyle{fancy}
+\null\vfill
+\begin{minipage}{9cm}\raggedleft
+	{\initfamily\fontsize{35pt}{25pt}\selectfont S}%
+	\preLilyPondExample\raisebox{-8pt}{\includegraphics{0Seigneur,_ouvre}}
+	\par\includegraphics{0Et_ma_bouche}
+\end{minipage}
+\vfill\vfill\null
+
+\partie{Invitatoire}
+\rubrique{Psaumes pp. \pageref{InvitD} --- \pageref{InvitF}}{2ex}{0pt}
+\rubrique{Semaine des Cendres}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Voici le temps favorable K040.ly" 
+\end{lilypond}
+\rubrique{Première semaine}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Aujourd'hui, si vous entendez K041.ly" 
+\end{lilypond}
+\rubrique{Deuxième semaine}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Seigneur fait briller K042.ly" 
+\end{lilypond}
+\rubrique{Troisième semaine}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Du Christ, notre rocher K043.ly" 
+\end{lilypond}
+\rubrique{Quatrième semaine}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Marchons tant K044.ly" 
+\end{lilypond}
+\rubrique{Cinquième semaine}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/O Christ, ami des hommes K045.ly" 
+\end{lilypond}
+\rubrique{Semaine Sainte}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Venez adorons... qui sauve le monde L030.ly" 
+\end{lilypond}
+
+\label{InvitD}
+\PsaumeXCIV{*}{}
+\PsTitre{23}
+\rubrique{sauf dimanche IV}{0pt}{0pt}\smallskip
+
+\PsaumeXXIII{}{}
+\PsTitre{66}
+\rubrique{sauf mercredi II et mardi III}{0pt}{0pt}\smallskip
+
+\PsaumeLXVI{}{}
+\PsTitre{99}
+\rubrique{sauf vendredis I, III et V}{0pt}{0pt}\smallskip
+
+\PsaumeIC{}{}
+\label{InvitF}
+
+
+\partie{Hymne}
+%
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Hymnes/Canon s. André Intro.ly" \include "Hymnes/Canon s. André Ref.ly" 
+\end{lilypond}\thispagestyle{plain}
+\chapter{Semaine des Cendres}
+\section{Mercredi}\setcounter{cptrII}{24}
+\dstr
+Le Seigneur s'est fait mon aide et mon protecte\gras{u}r pour mon salut.\\
+Il est mon Dieu et je proclamera\gras{i} sa grandeur.\\
+Le Dieu de mes pères et je l'exalterai {\scriptsize /} \mbox{car il a fait éclat\gras{e}r sa gloire.}
+\fstr\dstr
+Par où commencerai-je à confesser la détr\gras{e}sse de ma vie,\\
+et quels seront, ô Christ, {\scriptsize /} \mbox{les premiers accents de ce ch\gras{a}nt de douleur?}\\
+Accorde-moi dans ta miséricorde {\scriptsize /} \mbox{la rémissi\gras{o}n de mes péchés.}
+\fstr\dstr
+J'ai suivi le premier Adam {\scriptsize /} \mbox{sur les chem\gras{i}ns de la transgression.}\\
+Je me suis vu dépouill\gras{é} de mon Dieu,\\
+privé du Royaume étern\gras{e}l et de sa joie.
+\fstr\dstr
+Malheur à moi {\scriptsize /} \mbox{qui ai voulu ressembler à \gras{È}ve notre mère!}\\
+Pourquoi ai-je touché à l'\gras{a}rbre de la mort\\
+et goûté avidement le fru\gras{i}t de la malédiction?
+\fstr\dstr
+Sainte Marie mère de Dieu, {\scriptsize /} \mbox{nous te saluons \gras{È}ve nouvelle.}\\
+Bienheureuse porte du ciel, {\scriptsize /} \mbox{toi qui nous ouvres le parad\gras{i}s fermé,}\\
+enfante-nous dans la paix {\scriptsize /} \mbox{à la lumi\gras{è}re du Royaume.}
+\fstr\dstr
+Bienheureuse et éternelle Trinité {\scriptsize /} \mbox{du Père, du F\gras{i}ls et de l'Esprit,}\\
+adorés dans le mystère de l'amo\gras{u}r qui vous unit,\\
+Dieu de miséricorde, {\scriptsize /} \mbox{donne-moi les larmes et la jo\gras{i}e du retour.}
+\fstr
+
+\jourHy{Jeudi}
+\dstr
+Le temps de la pénitence est arrivé: {\scriptsize /} \mbox{Je viens à to\gras{i} mon créateur.}\\
+Décharge-moi du fardeau pes\gras{a}nt de mes péchés,\\
+et toi le miséricordieux, {\scriptsize /} \mbox{donne-moi les l\gras{a}rmes du repentir.}
+\fstr\dstr
+Bien que je sois pécheur, ô Christ, {\scriptsize /} \mbox{je sais que tu \gras{e}s ami des hommes:}\\
+Tu frappes avec clémence, et compat\gras{i}s avec douceur.\\
+Tu me vois en pleurs et tu cours au devant de moi {\scriptsize /} \mbox{comme le père accueill\gras{a}nt le fils prodigue.}
+\fstr\dstr
+Dès ma jeunesse, ô mon Sauveur, {\scriptsize /} \mbox{j'ai désobéi à t\gras{e}s commandements}\\
+et je laisse ma vie s'écoul\gras{e}r dans l'insouciance,\\
+et je m'écrie: Ô mon Sauveur, {\scriptsize /} \mbox{avant la fin de ma v\gras{i}e, sauve moi!}
+\fstr\dstr
+Après avoir dissipé mon hérit\gras{a}ge dans le dérèglement,\\
+je me trouve dépourvu de fruits, {\scriptsize /} \mbox{et tourmenté par la fa\gras{i}m, je m'écrie:}\\
+Père de miséricorde, {\scriptsize /} \mbox{viens à moi et fais-mo\gras{i} miséricorde!}
+\fstr\dstr
+Sainte Marie-Madeleine, interc\gras{è}de pour nous:\\
+Que ton sauveur me donne la grâce {\scriptsize /} \mbox{de fuir les tén\gras{è}bres du péché}\\
+et de chanter les merveilles {\scriptsize /} \mbox{que Dieu a accompl\gras{i}es en toi.}
+\fstr\dstr
+Bienheureuse et éternelle Trinité {\scriptsize /} \mbox{du Père, du F\gras{i}ls et de l'Esprit,}\\
+adorés dans le mystère de l'amo\gras{u}r qui vous unit,\\
+Dieu de miséricorde, {\scriptsize /} \mbox{donne-moi les larmes et la jo\gras{i}e du retour.}
+\fstr
+
+\jourHy{Vendredi}
+\dstr
+Devant toi, ô mon Sauveur, {\scriptsize /} \mbox{je confesse le péch\gras{é} de mon cœur.}\\
+Ne me rejette pas lo\gras{i}n de ton visage,\\
+guéris les plaies de mon \gras{â}me et de mon corps!
+\fstr\dstr
+Tel le potier façonnant l'argile, {\scriptsize /} \mbox{tu m'as donné une cha\gras{i}r et des os,}\\
+et tu m'as animé d'un so\gras{u}ffle de vie.\\
+Aujourd'hui, ô mon rédempteur et mon juge, {\scriptsize /} \mbox{ne repousse p\gras{a}s ma pénitence!}
+\fstr\dstr
+Devenu la proie de mes pensées mauvaises {\scriptsize /} \mbox{comme autant de voleurs qui s'ab\gras{a}ttent sur moi,}\\
+je suis maintenant percé de leurs coups {\scriptsize /} \mbox{et couv\gras{e}rt de blessures.}\\
+Incline-toi vers moi, ô Christ sauveur, {\scriptsize /} \mbox{et da\gras{i}gne me guérir.}
+\fstr\dstr
+Le prêtre, m'ayant aperçu de lo\gras{i}n, passa outre,\\
+et le lévite, m'ayant vu dépouillé et souffrant, {\scriptsize /} \mbox{s'est détourn\gras{é} de moi.}\\
+Mais toi, Jésus né de Marie, {\scriptsize /} \mbox{arrête-toi et pr\gras{e}nds pitié de moi!}
+\fstr\dstr
+Ô sainte Madeleine, {\scriptsize /} \mbox{tu as délaissé les plais\gras{i}rs de ce monde,}\\
+et tu t'es avanc\gras{é}e vers le Christ,\\
+guidée par le désir ard\gras{e}nt de ton amour.
+\fstr\dstr
+Bienheureuse et éternelle Trinité {\scriptsize /} \mbox{du Père, du F\gras{i}ls et de l'Esprit,}\\
+adorés dans le mystère de l'amo\gras{u}r qui vous unit,\\
+Dieu de miséricorde, {\scriptsize /} \mbox{donne-moi les larmes et la jo\gras{i}e du retour.}
+\fstr
+
+\jourHy{Samedi}
+\dstr
+Je me jette à tes pieds, ô Jésus, {\scriptsize /} \mbox{car c'est devant to\gras{i} que j'ai péché.}\\
+Ne me rejette pas au décl\gras{i}n de mes jours\\
+comme un être stérile {\scriptsize /} \mbox{dans l'ab\gras{î}me des enfers.}
+\fstr\dstr
+Me voici, ô Sauveur, {\scriptsize /} \mbox{gisant sur le se\gras{u}il de ta demeure,}\\
+mais dans ta bonté, ô toi qui \gras{e}s l'ami des hommes,\\
+accorde moi avant la fin {\scriptsize /} \mbox{la rémissi\gras{o}n de mes péchés.}
+\fstr\dstr
+Agneau de Dieu {\scriptsize /} \mbox{qui portes les péch\gras{é}s du monde,}\\
+enlève de mes épaules le po\gras{i}ds de ma faute.\\
+Prends pitié de ma misère {\scriptsize /} \mbox{et dans ta clém\gras{e}nce pardonne-moi.}
+\fstr\dstr
+N'entre pas en jugem\gras{e}nt avec moi,\\
+et ne me demande pas le c\gras{o}mpte de mes actes.\\
+Regarde ma fragilité et ma faiblesse, {\scriptsize /} \mbox{et sauve-mo\gras{i}, ô Tout-Puissant.}
+\fstr\dstr
+Sainte mère de Dieu, {\scriptsize /} \mbox{espoir de ce\gras{u}x qui te louent,}\\
+par ta prière, {\scriptsize /} \mbox{délivre-moi du m\gras{a}l et du péché,}\\
+reçois entre tes bras ton enfant qui fa\gras{i}t pénitence.
+\fstr\dstr
+Bienheureuse et éternelle Trinité {\scriptsize /} \mbox{du Père, du F\gras{i}ls et de l'Esprit,}\\
+adorés dans le mystère de l'amo\gras{u}r qui vous unit,\\
+Dieu de miséricorde, {\scriptsize /} \mbox{donne-moi les larmes et la jo\gras{i}e du retour.}
+\fstr
+
+\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}
+\chapter{Semaine I}
+\section{Dimanche}\setcounter{cptrII}{0}\Gloire
+\dstr
+Comme Adam notre Père, {\scriptsize /} \mbox{je me suis détourné, ô Christ,} {\scriptsize /} \mbox{de ta par\gras{o}le vivifiante,}\\
+et je n'ai pas gardé le commandem\gras{e}nt de ton amour.\\
+Aussi ai-je été chassé du jard\gras{i}n du paradis.
+\fstr\dstr
+Je viens à toi, ô Christ, {\scriptsize /} \mbox{qui as combattu pour no\gras{u}s dans le désert.}\\
+Conduit par l'Esprit {\scriptsize /} \mbox{tu as vaincu le pr\gras{i}nce de ce monde.}\\
+Nouvel Adam, {\scriptsize /} \mbox{tu fais refleurir le dés\gras{e}rt au paradis.}
+\fstr\dstr
+Homicide comme Caïn, {\scriptsize /} \mbox{je suis devenu le meurtri\gras{e}r de mon âme,}\\
+car j'ai souillé mon cœ\gras{u}r et ma chair\\
+et attenté à ma vie par mes œ\gras{u}vres de péché.
+\fstr\dstr
+Mais toi, ô Jésus, {\scriptsize /} \mbox{tu as présenté au Père une offr\gras{a}nde pure,}\\
+et ton sang comme celui d'Abel {\scriptsize /} \mbox{a crié just\gras{i}ce pour moi}\\
+quand tu fus immol\gras{é} sur la croix.
+\fstr\dstr
+Sainte Vierge Marie, nous te pri\gras{o}ns avec confiance,\\
+toi qui as accueilli dans l'amour {\scriptsize /} \mbox{Jésus, ton f\gras{i}ls, la loi nouvelle.}\\
+Par lui tu es victorieuse du péché {\scriptsize /} \mbox{et tu écrases la t\gras{ê}te du serpent.}
+\fstr\dstr
+Bienheureuse et éternelle Trinité {\scriptsize /} \mbox{du Père, du F\gras{i}ls et de l'Esprit,}\\
+adorés dans le mystère de l'amo\gras{u}r qui vous unit,\\
+Dieu de miséricorde, {\scriptsize /} \mbox{donne-moi les larmes et la jo\gras{i}e du retour.}
+\fstr
+
+\jourHy{Lundi}
+\dstr
+Cieux, prêtez l'oreille, {\scriptsize /} \mbox{car je vais chanter la miséric\gras{o}rde du Christ,}\\
+lui qui a pris chair {\scriptsize /} \mbox{dans la toute pure et belle Vi\gras{e}rge Marie.}\\
+Écoute, ô terre, la voix repentante {\scriptsize /} \mbox{qui s'élève vers Di\gras{e}u et qui le glorifie.}
+\fstr\dstr
+Incline jusqu'à moi, P\gras{è}re de miséricorde,\\
+ton regard attentif et ple\gras{i}n de bonté,\\
+car j'ai connu tes merveilles, et j'ai péch\gras{é} contre toi.
+\fstr\dstr
+Je n'ai pas suivi, Seigneur, {\scriptsize /} \mbox{la voix des j\gras{u}stes et des patriarches,}\\
+je n'ai pas été enlevé dans la lumi\gras{è}re avec Enoch,\\
+je ne suis pas monté avec Noé {\scriptsize /} \mbox{dans l'\gras{a}rche du salut.}
+\fstr\dstr
+Mais c'est l'homicide {\scriptsize /} \mbox{et Caïn le meurtri\gras{e}r de son frère}\\
+que j'ai suivi et imité par la duret\gras{é} de mon cœur,\\
+car je n'ai pas écouté ni observé {\scriptsize /} \mbox{ce qui pla\gras{î}t au Seigneur.}
+\fstr\dstr
+Tu as levé les mains vers le Di\gras{e}u de tendresse,\\
+ô Marie-Madeleine, {\scriptsize /} \mbox{toi qui étais plongée dans l'ab\gras{î}me du mal,}\\
+et comme à Pierre, {\scriptsize /} \mbox{il a tendu vers toi une ma\gras{i}n secourable.}
+\fstr\dstr
+Trinité incréée, {\scriptsize /} \mbox{indivisible unité du Père, du F\gras{i}ls, et de l'Esprit,}\\
+sauve le pécheur que je suis, {\scriptsize /} \mbox{en qui demeure la beauté premi\gras{è}re de ton œuvre.}\\
+Ne me repousse pas, ô Créateur, {\scriptsize /} \mbox{mais dans ton pardon, délivre-moi du fe\gras{u} des enfers.}
+\fstr
+
+\jourHy{Mardi}
+\dstr
+Ton visage se tourne vers Jérusalem, {\scriptsize /} \mbox{ô F\gras{i}ls de l'homme,}\\
+où tu seras livré aux ma\gras{i}ns des pécheurs.\\
+Et moi regardant en arrière, {\scriptsize /} \mbox{je n'ai pas voulu te suivre sur les chem\gras{i}ns du Royaume.}
+\fstr\dstr
+J'ai terni la beauté de mon \gras{â}me, ô Créateur.\\
+L'obscurité a envahi mon cœur {\scriptsize /} \mbox{et mon désir s'est attach\gras{é} à la terre.}\\
+J'ai mis en lambeaux le vêtement primitif {\scriptsize /} \mbox{que tu m'ava\gras{i}s tissé.}
+\fstr\dstr
+J'ai contemplé la beauté de l'arbre du mal {\scriptsize /} \mbox{et mon esprit a ét\gras{é} séduit.}\\
+Je me suis alors trouvé nu {\scriptsize /} \mbox{et je me su\gras{i}s caché,}\\
+et je n'ai pas répondu, Seigneur, {\scriptsize /} \mbox{quand tu m'appela\gras{i}s par mon nom.}
+\fstr\dstr
+Le péché a cousu pour moi des vêtem\gras{e}nts de peau\\
+après m'avoir dépouillé de la robe tiss\gras{é}e par Dieu lui-même.\\
+J'ai souillé la tunique de ma chair, {\scriptsize /} \mbox{moi qui fus cré\gras{é} à ton image.}
+\fstr\dstr
+Vierge sans tache, m\gras{è}re du créateur,\\
+toi qui seule est louée {\scriptsize /} \mbox{au-dessus de to\gras{u}te créature,}\\
+avec force, supplie le Dieu de bonté {\scriptsize /} \mbox{pour le sal\gras{u}t de tes enfants.}
+\fstr\dstr
+Trinité incréée, {\scriptsize /} \mbox{indivisible unité du Père, du F\gras{i}ls, et de l'Esprit,}\\
+sauve le pécheur que je suis, {\scriptsize /} \mbox{en qui demeure la beauté premi\gras{è}re de ton œuvre.}\\
+Ne me repousse pas, ô Créateur, {\scriptsize /} \mbox{mais dans ton pardon, délivre-moi du fe\gras{u} des enfers.}
+\fstr
+
+\jourHy{Mercredi}
+\dstr
+Du ventre des enfers, comme Jonas, {\scriptsize /} \mbox{je cr\gras{i}e dans ma détresse:}\\
+tu m'as rejeté au cœur des mers {\scriptsize /} \mbox{et le fl\gras{o}t m'a cerné.}\\
+Ne me rejette pas, Seigneur, {\scriptsize /} \mbox{retire ma vie de l'ab\gras{î}me des eaux.}
+\fstr\dstr
+Le déluge du péché m'inonde de ses fl\gras{o}ts mortels.\\
+Comme tu le fis pour Noé, {\scriptsize /} \mbox{étends sur mo\gras{i} ta main,}\\
+comme tu le fis pour Pierre {\scriptsize /} \mbox{sur la m\gras{e}r déchaînée.}
+\fstr\dstr
+Si je ne fais disparaître de chez moi {\scriptsize /} \mbox{le jo\gras{u}g de l'oppression,}\\
+si je ne dénonce les paroles méchantes {\scriptsize /} \mbox{et ne donne mon pain à celu\gras{i} qui a faim,}\\
+submerge-moi, comme les hommes au temps de Noé, {\scriptsize /} \mbox{sous le déluge de ta j\gras{u}ste colère.}
+\fstr\dstr
+Ô mon Rédempteur et mon juge, {\scriptsize /} \mbox{renonce au châtiment qui p\gras{è}se sur moi.}\\
+Comme les habitants de Ninive, {\scriptsize /} \mbox{j'ai revêtu le sac et la c\gras{e}ndre du repentir.}\\
+Que je me détourne, ô Christ, {\scriptsize /} \mbox{de toute violence et de to\gras{u}te injustice.}
+\fstr\dstr
+Je suis submergé de toute part {\scriptsize /} \mbox{par les flots innombr\gras{a}bles du péché,}\\
+et je te prie, ô Marie-Madeleine, {\scriptsize /} \mbox{conduis-moi au port de la div\gras{i}ne pénitence,}\\
+toi qui connus la détresse et la brûl\gras{u}re du péché.
+\fstr\dstr
+Trinité incréée, {\scriptsize /} \mbox{indivisible unité du Père, du F\gras{i}ls, et de l'Esprit,}\\
+sauve le pécheur que je suis, {\scriptsize /} \mbox{en qui demeure la beauté premi\gras{è}re de ton œuvre.}\\
+Ne me repousse pas, ô Créateur, {\scriptsize /} \mbox{mais dans ton pardon, délivre-moi du fe\gras{u} des enfers.}
+\fstr
+
+\jourHy{Jeudi}
+\dstr
+Recueille-toi, ô mon âme, {\scriptsize /} \mbox{médite sur to\gras{u}t ce que tu as fait.}\\
+Laisse couler tes larmes {\scriptsize /} \mbox{sur tes faiblesses et tes cr\gras{i}mes cachés.}\\
+Confesse au Christ ton infidélité {\scriptsize /} \mbox{et tu ser\gras{a}s justifiée.}
+\fstr\dstr
+Seigneur, je n'ai pas brisé les cha\gras{î}nes injustes,\\
+je n'ai pas accueilli chez moi le malheure\gras{u}x sans abri.\\
+Pitié Seigneur, {\scriptsize /} \mbox{car j'ai fermé mon cœur à la ven\gras{u}e de ton Royaume.}
+\fstr\dstr
+Malgré ton insouciance, ô mon âme, {\scriptsize /} \mbox{elle approche, la f\gras{i}n de tes jours.}\\
+Lève toi, car le temps presse {\scriptsize /} \mbox{et le juge est l\gras{à} sur le seuil.}\\
+Comme un songe, comme la fleur des champs, {\scriptsize /} \mbox{notre v\gras{i}e s'évanouit.}
+\fstr\dstr
+Ne ferme pas ta porte devant mo\gras{i}, Seigneur!\\
+Toi qui veux que tous les h\gras{o}mmes soient sauvés,\\
+ouvre-moi, {\scriptsize /} \mbox{et accueille ton enf\gras{a}nt repentant.}
+\fstr\dstr
+Marie, mère de Dieu, {\scriptsize /} \mbox{toi qui \gras{e}s sans péché,}\\
+nous accourons vers toi: {\scriptsize /} \mbox{Tu es le port de ceux qui s\gras{o}nt dans la tempête.}\\
+Tiens-toi en prière pour moi {\scriptsize /} \mbox{devant ton fils et le P\gras{è}re des miséricordes.}
+\fstr\dstr
+Trinité incréée, {\scriptsize /} \mbox{indivisible unité du Père, du F\gras{i}ls, et de l'Esprit,}\\
+sauve le pécheur que je suis, {\scriptsize /} \mbox{en qui demeure la beauté premi\gras{è}re de ton œuvre.}\\
+Ne me repousse pas, ô Créateur, {\scriptsize /} \mbox{mais dans ton pardon, délivre-moi du fe\gras{u} des enfers.}
+\fstr
+
+\jourHy{Vendredi}
+\dstr
+Ô toi Seigneur, ami des hommes, {\scriptsize /} \mbox{toi qui scrutes les cœurs et connais les pens\gras{é}es secrètes,}\\
+déchire le voile de mens\gras{o}nges qui me couvre,\\
+consume par le feu de ta vérité {\scriptsize /} \mbox{le péch\gras{é} qui m'étreint.}
+\fstr\dstr
+J'ai péché, {\scriptsize /} \mbox{et comme la sainte pécher\gras{e}sse, je t'invoque.}\\
+Agrée mes pleurs {\scriptsize /} \mbox{comme le parfum de myrrhe qu'elle répand\gras{i}t sur toi.}\\
+Par mes larmes, attendris mon cœur {\scriptsize /} \mbox{et purifie-mo\gras{i}, ô Sauveur.}
+\fstr\dstr
+Tu lui as pardonné ses nombreux péchés {\scriptsize /} \mbox{parce que elle \gras{a} beaucoup aimé.}\\
+Accueille, ô mon Sauveur, la sincérit\gras{é} de mon cœur.\\
+Prends pitié de ce que tes mains ont créé, {\scriptsize /} \mbox{ô toi qui fais sans f\gras{i}n miséricorde.}
+\fstr\dstr
+J'ai perdu la beauté du jour, {\scriptsize /} \mbox{l'empre\gras{i}nte de ta gloire.}\\
+J'ai défiguré et enseveli l'ouvr\gras{a}ge de tes mains.\\
+Cherche-moi, et retrouve-moi {\scriptsize /} \mbox{comme la dr\gras{a}chme perdue.}
+\fstr\dstr
+Te détournant loin des ro\gras{u}tes du péché,\\
+ô Marie-Madeleine, {\scriptsize /} \mbox{tu t'es élanc\gras{é}e vers le Christ,}\\
+et tu l'a recherché dans le désert {\scriptsize /} \mbox{de solit\gras{u}de et de paix.}
+\fstr\dstr
+Trinité incréée, {\scriptsize /} \mbox{indivisible unité du Père, du F\gras{i}ls, et de l'Esprit,}\\
+sauve le pécheur que je suis, {\scriptsize /} \mbox{en qui demeure la beauté premi\gras{è}re de ton œuvre.}\\
+Ne me repousse pas, ô Créateur, {\scriptsize /} \mbox{mais dans ton pardon, délivre-moi du fe\gras{u} des enfers.}
+\fstr
+
+\jourHy{Samedi}
+\dstr
+Affermis-nous, ô Christ, prends piti\gras{é} de nous.\\
+Affermis ton Église {\scriptsize /} \mbox{sur le rocher inébranlable de ta par\gras{o}le et de ta croix.}\\
+Affermis mon cœur sur la pierre de tes commandements, {\scriptsize /} \mbox{car tu es le seul Sa\gras{i}nt, ô Seigneur.}
+\fstr\dstr
+Je me suis bâti une to\gras{u}r comme à Babel.\\
+Je l'ai fortifiée du remp\gras{a}rt de mes passions.\\
+Ô toi, mon créateur, {\scriptsize /} \mbox{viens saper les fondem\gras{e}nts de mon orgueil.}
+\fstr\dstr
+En toi, vainqueur de la mort, {\scriptsize /} \mbox{je possède une so\gras{u}rce de vie.}\\
+Vers toi, je crie du fond de mon cœur {\scriptsize /} \mbox{avant la f\gras{i}n de mes jours.}\\
+J'ai péché! mais par toi, ô Jésus créateur, {\scriptsize /} \mbox{je sera\gras{i} recréé.}
+\fstr\dstr
+Je crie vers toi, Seigneur: {\scriptsize /} \mbox{Aie piti\gras{é} de moi.}\\
+Quand tu reviendras escorté de tes anges {\scriptsize /} \mbox{pour donner à chac\gras{u}n selon ses œuvres,}\\
+ô ami des hommes, {\scriptsize /} \mbox{ne rejette pas la prière de ce\gras{u}x qui te louent.}
+\fstr\dstr
+Réjouis toi, Marie, {\scriptsize /} \mbox{car tu as porté en ton se\gras{i}n le Dieu du ciel!}\\
+Réjouis toi, {\scriptsize /} \mbox{trône du Seigne\gras{u}r de gloire!}\\
+Réjouis toi, {\scriptsize /} \mbox{m\gras{è}re de notre vie.}
+\fstr\dstr
+Nous te bénissons Dieu saint, {\scriptsize /} \mbox{Père incréé, Fils éternel, Fle\gras{u}ve de vie.}\\
+Nous célébrons ta puiss\gras{a}nce et ta gloire.\\
+Nous t'adorons et nous t'implorons: {\scriptsize /} \mbox{Sauve-no\gras{u}s, Dieu sauveur.}
+\fstr
+\Gloire
+
+\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}
+\chapter{Semaine II}
+\section{Dimanche}\Gloire
+\dstr
+Quitte, ô mon âme, le pays des Chaldéens, {\scriptsize /} \mbox{la t\gras{e}rre du péché.}\\
+Quitte avec Abraham la t\gras{e}rre de tes pères.\\
+Prends la route de l'exil {\scriptsize /} \mbox{et reçois le dés\gras{e}rt en partage.}
+\fstr\dstr
+Comme Abraham, tu recevr\gras{a}s en héritage\\
+la terre de la promesse {\scriptsize /} \mbox{où coulent le la\gras{i}t et le miel,}\\
+là où jaillit le fleuve de la v\gras{i}e incorruptible.
+\fstr\dstr
+Au chêne de Mambré, {\scriptsize /} \mbox{le patriarche accueill\gras{i}t trois anges.}\\
+Il les reçut avec amour {\scriptsize /} \mbox{et se prostern\gras{a} devant l'Unique,}\\
+et il reçut par eux {\scriptsize /} \mbox{le f\gras{i}ls de la promesse.}
+\fstr\dstr
+Melchisédech, roi de la paix, {\scriptsize /} \mbox{vint au dev\gras{a}nt d'Abraham.}\\
+Il reçut de lui en mystère {\scriptsize /} \mbox{la d\gras{î}me de tous ses biens.}\\
+Il offrit le pain et le vin {\scriptsize /} \mbox{en s\gras{i}gne du Christ Jésus.}
+\fstr\dstr
+Bénie sois-tu, Marie, {\scriptsize /} \mbox{m\gras{è}re de Dieu:}\\
+Tu as mis au monde au temps voulu {\scriptsize /} \mbox{le Fils engendré du P\gras{è}re avant les siècles,}\\
+et tu es demeurée vierge, {\scriptsize /} \mbox{allaitant le fru\gras{i}t de ton sein.}
+\fstr\dstr
+Nous te bénissons Dieu saint, {\scriptsize /} \mbox{Père incréé, Fils éternel, Fle\gras{u}ve de vie.}\\
+Nous célébrons ta puiss\gras{a}nce et ta gloire.\\
+Nous t'adorons et nous t'implorons: {\scriptsize /} \mbox{Sauve-no\gras{u}s, Dieu sauveur.}
+\fstr
+
+\jourHy{Lundi}
+\dstr
+J'ai fait de moi une idole. {\scriptsize /} \mbox{J'ai souillé et endurc\gras{i} mon cœur.}\\
+Je n'ai pas écouté ta voix {\scriptsize /} \mbox{et j'ai désobé\gras{i} à ta parole.}\\
+Jésus, fils de David, {\scriptsize /} \mbox{prends pitié du péche\gras{u}r que je suis.}
+\fstr\dstr
+À l'exemple de Loth {\scriptsize /} \mbox{fuyant le feu du ciel qui consuma la t\gras{e}rre de Sodome,}\\
+je viens me réfugier sur la sainte montagne {\scriptsize /} \mbox{de la pénit\gras{e}nce et du repentir.}\\
+Que j'échappe à l'incendie dévorant du péché {\scriptsize /} \mbox{et du feu de ta j\gras{u}ste colère.}
+\fstr\dstr
+Ne me condamne pas, Seigneur, c\gras{o}mme le pharisien,\\
+car mon cœur aveuglé {\scriptsize /} \mbox{montre sa duret\gras{é} et son orgueil.}\\
+Donne-moi l'humilité du publicain {\scriptsize /} \mbox{et, dans ta bienveillante douce\gras{u}r, justifie-moi.}
+\fstr\dstr
+Comme David j'ai péché {\scriptsize /} \mbox{et ma faute est sans c\gras{e}sse devant moi.}\\
+Contre toi, toi se\gras{u}l, j'ai péché.\\
+Avec le publicain je m'écrie: {\scriptsize /} \mbox{Prends pitié du péche\gras{u}r que je suis.}
+\fstr\dstr
+Adresse pour moi, ô Madeleine, {\scriptsize /} \mbox{ta prière suppliante à la Vi\gras{e}rge de douceur.}\\
+Répands ton intercession {\scriptsize /} \mbox{aux pieds du Seigne\gras{u}r Jésus.}\\
+Que devant moi {\scriptsize /} \mbox{s'ouvrent les p\gras{o}rtes éternelles.}
+\fstr\dstr
+Nous te bénissons Dieu saint, {\scriptsize /} \mbox{Père incréé, Fils éternel, Fle\gras{u}ve de vie.}\\
+Nous célébrons ta puiss\gras{a}nce et ta gloire.\\
+Nous t'adorons et nous t'implorons: {\scriptsize /} \mbox{Sauve-no\gras{u}s, Dieu sauveur.}
+\fstr
+
+\jourHy{Mardi}
+\dstr
+Contemple, ô mon âme, Isaac {\scriptsize /} \mbox{off\gras{e}rt en holocauste.}\\
+Contemple l'Isaac nouveau {\scriptsize /} \mbox{lié sur sur le bo\gras{i}s de la croix,}\\
+victime nouvelle offerte en mystère {\scriptsize /} \mbox{pour les péch\gras{é}s du monde.}
+\fstr\dstr
+Seigneur, tu n'as pas ignoré le sacrif\gras{i}ce d'Isaac.\\
+Accueille mon esprit bris\gras{é} en sacrifice,\\
+car d'un cœur brisé et broyé, {\scriptsize /} \mbox{tu n'as p\gras{a}s de mépris.}
+\fstr\dstr
+Tu as imité l'envie d'Esa\gras{ü}, ô mon âme!\\
+Tu as vendu le droit d'ainesse de ta beaut\gras{é} première,\\
+et tu as perdu la grâce de la bénédicti\gras{o}n paternelle.
+\fstr\dstr
+Contemple, ô mon âme, l'échelle de Jacob {\scriptsize /} \mbox{qui s'élève de la t\gras{e}rre jusqu'au ciel:}\\
+C'est le Christ venu dans le monde, {\scriptsize /} \mbox{lui l'éch\gras{e}lle véritable,}\\
+le seul Prêtre et médiateur, {\scriptsize /} \mbox{lui notre Di\gras{e}u et notre Roi.}
+\fstr\dstr
+Mère féconde du Rédempteur {\scriptsize /} \mbox{qui nous ouvres la p\gras{o}rte du ciel,}\\
+viens au secours de ce peuple {\scriptsize /} \mbox{qui tombe et qui ve\gras{u}t se relever,}\\
+toi qui, à la stupeur de l'univers, {\scriptsize /} \mbox{as engendr\gras{é} ton créateur.}
+\fstr\dstr
+Nous te bénissons Dieu saint, {\scriptsize /} \mbox{Père incréé, Fils éternel, Fle\gras{u}ve de vie.}\\
+Nous célébrons ta puiss\gras{a}nce et ta gloire.\\
+Nous t'adorons et nous t'implorons: {\scriptsize /} \mbox{Sauve-no\gras{u}s, Dieu sauveur.}
+\fstr
+
+\jourHy{Mercredi}
+\dstr
+Le prophète instruit de ton avènement, Seigneur, {\scriptsize /} \mbox{fut rempl\gras{i} de terreur.}\\
+Aussi s'est il écrié: {\scriptsize /} \mbox{J'ai entendu le bruit de tes pas et j'ai ét\gras{é} saisi d'effroi.}\\
+Gloire à ta puissance, Seigneur! {\scriptsize /} \mbox{Glo\gras{i}re à ton salut!}
+\fstr\dstr
+Élève-toi, ô mon âme! {\scriptsize /} \mbox{Contemple l'éch\gras{e}lle mystique}\\
+que le patriarche Jacob regardait dans les visi\gras{o}ns de la nuit,\\
+pour que tu parviennes à la connaissance de Dieu {\scriptsize /} \mbox{et que tu so\gras{i}s renouvelée.}
+\fstr\dstr
+Sois vigilante, ô mon âme! {\scriptsize /} \mbox{Lutte comme Jacob jusqu'au lev\gras{e}r de l'aurore.}\\
+À travers le combat tu obtiendras la connaissance, {\scriptsize /} \mbox{et Di\gras{e}u te bénira,}\\
+tu seras appelée Israël, {\scriptsize /} \mbox{car tu verr\gras{a}s le Seigneur.}
+\fstr\dstr
+Comme notre père Jacob qui a vu Di\gras{e}u face à face,\\
+mon cœur traversera jusqu'au bout les \gras{o}mbres de la nuit,\\
+et il découvrir\gras{a} le vrai trésor.
+\fstr\dstr
+Soulevée par l'élan de ton amour, ô Mar\gras{i}e-Madeleine,\\
+toi de qui le Christ a chass\gras{é} sept démons,\\
+tu as vécu la vie des anges {\scriptsize /} \mbox{car le Seigneur t'a combl\gras{é}e de sa grâce.}
+\fstr\dstr
+Je te confesse et je t'adore, {\scriptsize /} \mbox{indivisible substance du Père, du F\gras{i}ls et de l'Esprit.}\\
+Je t'offre l'acclamation céleste qui retent\gras{i}t sans fin:\\
+Saint! {\scriptsize /} \mbox{Saint! {\scriptsize /} Saint, le Seigneur au plus ha\gras{u}t des cieux!}
+\fstr
+
+\jourHy{Jeudi}
+\dstr
+Job étendu sur sa couche {\scriptsize /} \mbox{est demeur\gras{é} sans reproche.}\\
+Mais je n'ai pas imité son courage {\scriptsize /} \mbox{et sa fermet\gras{é} dans l'épreuve,}\\
+c'est pourquoi Satan a obtenu {\scriptsize /} \mbox{de m'accus\gras{e}r devant Dieu.}
+\fstr\dstr
+Dépouillé de ses biens, {\scriptsize /} \mbox{privé de ses amis et rong\gras{é} par la souffrance,}\\
+en son malheur Job ne pécha point {\scriptsize /} \mbox{et garda sous tes yeux un chem\gras{i}n sans reproche.}\\
+Il confessa que dans sa chair {\scriptsize /} \mbox{il te verrait, Seigne\gras{u}r, son rédempteur.}
+\fstr\dstr
+Aux portes de la mort il t'a béni, {\scriptsize /} \mbox{Dieu qui d\gras{o}nnes et qui reprends,}\\
+et tu lui as révélé tes desseins {\scriptsize /} \mbox{au cœ\gras{u}r de la tempête.}\\
+Ta sagesse l'a fait revivre {\scriptsize /} \mbox{et sa cha\gras{i}r a refleuri.}
+\fstr\dstr
+Me voici couvert d'ulcères. {\scriptsize /} \mbox{Mon cœur est dévoré par la fi\gras{è}vre du péché.}\\
+Médecin véritable, {\scriptsize /} \mbox{celui que tu a\gras{i}mes est malade,}\\
+et toi, Seigneur, si tu le veux, {\scriptsize /} \mbox{tu pe\gras{u}x me guérir.}
+\fstr\dstr
+Vierge très humble, {\scriptsize /} \mbox{intercède pour moi qui me rep\gras{e}ns de mon orgueil,}\\
+toi qui a donné à Jésus ton enfant {\scriptsize /} \mbox{notre nat\gras{u}re humiliée}\\
+pour qu'il la rachète et l'exalte à la dro\gras{i}te du Père.
+\fstr\dstr
+Je te confesse et je t'adore, {\scriptsize /} \mbox{indivisible substance du Père, du F\gras{i}ls et de l'Esprit.}\\
+Je t'offre l'acclamation céleste qui retent\gras{i}t sans fin:\\
+Saint! {\scriptsize /} \mbox{Saint! {\scriptsize /} Saint, le Seigneur au plus ha\gras{u}t des cieux!}
+\fstr
+
+\jourHy{Vendredi}
+\dstr
+Le Seigneur Dieu a plant\gras{é} une vigne.\\
+Il y creusa un pressoir, {\scriptsize /} \mbox{y bât\gras{i}t une tour.}\\
+Ma vigne, je ne l'ai pas gardée, {\scriptsize /} \mbox{elle n'a p\gras{a}s donné de fruit.}
+\fstr\dstr
+Les mauvais vignerons ont lapid\gras{é} les prophètes.\\
+Voyant venir le Fils, {\scriptsize /} \mbox{ils se sont écriés, comme les fr\gras{è}res de Joseph:}\\
+Venez! tuons-le {\scriptsize /} \mbox{et jetons-l\gras{e} hors de la vigne.}
+\fstr\dstr
+Tu as opéré le salut au mili\gras{e}u de la terre.\\
+Tu fus cloué pour nous, ô Christ, {\scriptsize /} \mbox{à l'\gras{a}rbre de douleur,}\\
+toi, la vigne du Père {\scriptsize /} \mbox{dont nous s\gras{o}mmes les sarments.}
+\fstr\dstr
+Par toi, l'Eden inaccessible s'est rouv\gras{e}rt devant nous.\\
+C'est pourquoi le ciel et la t\gras{e}rre t'adorent:\\
+Toute la création te chante {\scriptsize /} \mbox{avec la foule des nati\gras{o}ns rachetées.}
+\fstr\dstr
+Toi que le Christ a délivrée de sept dém\gras{o}ns, ô Madeleine,\\
+tu n'es pas demeurée capt\gras{i}ve du péché:\\
+Par ton repentir {\scriptsize /} \mbox{tu as fait déborder au ci\gras{e}l la joie des anges.}
+\fstr\dstr
+Je te confesse et je t'adore, {\scriptsize /} \mbox{indivisible substance du Père, du F\gras{i}ls et de l'Esprit.}\\
+Je t'offre l'acclamation céleste qui retent\gras{i}t sans fin:\\
+Saint! {\scriptsize /} \mbox{Saint! {\scriptsize /} Saint, le Seigneur au plus ha\gras{u}t des cieux!}
+\fstr
+
+\jourHy{Samedi}
+\dstr
+Comme le fils prodigue, j'ai dissip\gras{é} tes dons.\\
+Mon esprit loin de toi s'est obscurc\gras{i} dans le mensonge.\\
+Mais je me relèverai de l'ombre de la mort {\scriptsize /} \mbox{et je reviendra\gras{i} vers toi.}
+\fstr\dstr
+Le temps de ma vie est court, {\scriptsize /} \mbox{rempli de doule\gras{u}r et de maux.}\\
+Mais dans mon repentir accueille-moi, {\scriptsize /} \mbox{ouvre mes yeux à l'intuiti\gras{o}n de ta lumière,}\\
+et par ton infinie miséricorde, {\scriptsize /} \mbox{je ne deviendrai pas la pro\gras{i}e de l'ennemi.}
+\fstr\dstr
+Pour ton fils repentant, tu prép\gras{a}res un festin,\\
+et tu l'as revêtu de la r\gras{o}be d'immortalité,\\
+car tu es notre Père, {\scriptsize /} \mbox{plein de tendr\gras{e}sse et de pardon.}
+\fstr\dstr
+Pour toi, hôte divin {\scriptsize /} \mbox{qui accueilles tout homme au banqu\gras{e}t du Royaume,}\\
+que je ne ferme ni ma demeure ni mon cœur {\scriptsize /} \mbox{au visite\gras{u}r et au pauvre,}\\
+car c'est en eux qu'Abraham accueill\gras{i}t des anges.
+\fstr\dstr
+Le Verbe du Père s'est fa\gras{i}t chair vivante.\\
+Une vierge l'a conçu dans ses entra\gras{i}lles immaculées.\\
+En toi, Marie, {\scriptsize /} \mbox{un homme nouveau est venu du ciel,} {\scriptsize /} \mbox{une race nouv\gras{e}lle est enfantée.}
+\fstr\dstr
+Je te confesse et je t'adore, {\scriptsize /} \mbox{indivisible substance du Père, du F\gras{i}ls et de l'Esprit.}\\
+Je t'offre l'acclamation céleste qui retent\gras{i}t sans fin:\\
+Saint! {\scriptsize /} \mbox{Saint! {\scriptsize /} Saint, le Seigneur au plus ha\gras{u}t des cieux!}
+\fstr
+
+\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}
+\chapter{Semaine III}
+\section{Dimanche}\Gloire
+\dstr
+Écoutez maintenant et voy\gras{e}z que je suis Dieu!\\
+J'ai conduit mon peuple au désert {\scriptsize /} \mbox{par la puiss\gras{a}nce de mon bras.}\\
+J'ai fait pleuvoir la manne et jaillir l'e\gras{a}u du Rocher.
+\fstr\dstr
+Le puits où tu nous fais boire, Seigneur, {\scriptsize /} \mbox{est plus profond que celu\gras{i} de Jacob.}\\
+De ton sein, tu répands sur no\gras{u}s une eau vive!\\
+Je n'aurais plus jamais soif {\scriptsize /} \mbox{car c'est de toi que jaillissent les torr\gras{e}nts de la vie.}
+\fstr\dstr
+Que le sang et l'eau sort\gras{i}s de ton côté\\
+soient pour moi la piscine du baptême {\scriptsize /} \mbox{et le breuv\gras{a}ge qui me délivre,}\\
+afin que je puise à la Parole vivifiante {\scriptsize /} \mbox{qui ét\gras{a}nche ma soif.}
+\fstr\dstr
+L'Église possède comme coupe ton côt\gras{é} transpercé\\
+d'où jaillit pour nous la double source {\scriptsize /} \mbox{de la connaiss\gras{a}nce et du pardon,}\\
+l'eau et le sang de l'Alliance {\scriptsize /} \mbox{qui témoignent de to\gras{i} dans l'Esprit.}
+\fstr\dstr
+Réjouis-toi, trône de feu, {\scriptsize /} \mbox{\gras{a}rche de la vie!}\\
+Réjouis-toi, {\scriptsize /} \mbox{candélabre qui porte la l\gras{a}mpe resplendissante,}\\
+Marie, repos des bienheure\gras{u}x, réjouis-toi.
+\fstr\dstr
+Je te confesse et je t'adore, {\scriptsize /} \mbox{indivisible substance du Père, du F\gras{i}ls et de l'Esprit.}\\
+Je t'offre l'acclamation céleste qui retent\gras{i}t sans fin:\\
+Saint! {\scriptsize /} \mbox{Saint! {\scriptsize /} Saint, le Seigneur au plus ha\gras{u}t des cieux!}
+\fstr
+
+\jourHy{Lundi}
+\dstr
+J'ai péché envers toi {\scriptsize /} \mbox{et je le conf\gras{e}sse, ô Dieu sauveur:}\\
+Dans ta miséricorde, accorde moi gr\gras{â}ce et pardon.\\
+toi le bon Pasteur, retrouve la brebis égarée {\scriptsize /} \mbox{et ne m'abandonne p\gras{a}s à mon errance.}
+\fstr\dstr
+Ô Seigneur, juge qui ravageas par le feu {\scriptsize /} \mbox{l'iniquité de Sod\gras{o}me et de Gomorrhe,}\\
+que le feu obscur et dévorant de la convoit\gras{i}se et des passions\\
+ne dévaste mon c\gras{o}rps et mon cœur!
+\fstr\dstr
+Ne sois pas comme la femme de L\gras{o}th, ô mon âme,\\
+changée en statue de sel {\scriptsize /} \mbox{pour avoir regard\gras{é} en arrière.}\\
+Tiens ton regard devant toi sur le chemin qui m\gras{è}ne à ton Seigneur.
+\fstr\dstr
+Seigneur, je n'ai pas cru en ta parole {\scriptsize /} \mbox{comme Naam\gras{a}n le syrien.}\\
+Je ne me suis pas plongé dans le fle\gras{u}ve de ta grâce.\\
+Je n'ai pas été purifié de la fi\gras{è}vre de mon péché.
+\fstr\dstr
+Celui qui naît de toi, ô Marie, {\scriptsize /} \mbox{est le berg\gras{e}r de nos âmes.}\\
+Il est sorti du sein du Père {\scriptsize /} \mbox{pour chercher la breb\gras{i}s perdue.}\\
+Il l'a prise sur ses épaules et ramen\gras{é}e au paradis.
+\fstr\dstr
+Je te confesse et je t'adore, {\scriptsize /} \mbox{indivisible substance du Père, du F\gras{i}ls et de l'Esprit.}\\
+Je t'offre l'acclamation céleste qui retent\gras{i}t sans fin:\\
+Saint! {\scriptsize /} \mbox{Saint! {\scriptsize /} Saint, le Seigneur au plus ha\gras{u}t des cieux!}
+\fstr
+
+\jourHy{Mardi}
+\dstr
+Seigneur, je suis hors du palais nuptial, {\scriptsize /} \mbox{banni du festin des n\gras{o}ces de l'Agneau.}\\
+Mon flambeau s'est éteint, {\scriptsize /} \mbox{et pendant que je dormais} {\scriptsize /} \mbox{les portes de la salle des n\gras{o}ces se sont fermées.}\\
+Le repas fut consommé {\scriptsize /} \mbox{et je fus expuls\gras{é} chargé de liens.}
+\fstr\dstr
+Tu as immolé sur la croix, ô Verbe de Dieu {\scriptsize /} \mbox{ton corps et ton s\gras{a}ng pour nous tous,}\\
+ton corps pour me renouveler, {\scriptsize /} \mbox{ton s\gras{a}ng pour me purifier.}\\
+Tu as rendu ton Esprit {\scriptsize /} \mbox{pour me rapproch\gras{e}r du Père.}
+\fstr\dstr
+Les apôtres bienheureux, illumin\gras{é}s par le Christ,\\
+comme une lyre à douze cordes {\scriptsize /} \mbox{animée par le so\gras{u}ffle de l'Esprit,}\\
+ont chanté la gloire du Père {\scriptsize /} \mbox{et confondu les sortil\gras{è}ges de la mort.}
+\fstr\dstr
+Ils ont fait de nous la v\gras{i}gne du Bien-Aimé.\\
+Ils ont répandu le vin de l'Esprit {\scriptsize /} \mbox{et enivr\gras{é} le monde.}\\
+Ils nous ont appris la louange nouv\gras{e}lle du créateur.
+\fstr\dstr
+Ô Marie-Madeleine, {\scriptsize /} \mbox{tu as rencontré dans le jardin Jés\gras{u}s ton bien-aimé,}\\
+et tu as annoncé aux apôtres {\scriptsize /} \mbox{la bonne nouvelle de s\gras{a} résurrection.}\\
+Ô toi, apôtre des apôtres, {\scriptsize /} \mbox{conduis-nous jusqu'aux joies des f\gras{ê}tes pascales.}
+\fstr\dstr
+Je te confesse et je t'adore, {\scriptsize /} \mbox{indivisible substance du Père, du F\gras{i}ls et de l'Esprit.}\\
+Je t'offre l'acclamation céleste qui retent\gras{i}t sans fin:\\
+Saint! {\scriptsize /} \mbox{Saint! {\scriptsize /} Saint, le Seigneur au plus ha\gras{u}t des cieux!}
+\fstr
+
+
+\jourHy{Mercredi}
+\dstr
+Je veille dans une nuit profonde. {\scriptsize /} \mbox{Au matin, Seigne\gras{u}r, éclaire-moi.}\\
+Guide-moi sur le sentier de t\gras{e}s commandements.\\
+Enseigne-moi, ô mon Sauveur, à fa\gras{i}re ta volonté.
+\fstr\dstr
+Par le péché, la nuit a envah\gras{i} mon âme.\\
+Ma vie s'est égarée dans des tén\gras{è}bres sans issue.\\
+Toi seul, ô mon Dieu, {\scriptsize /} \mbox{tu peux faire de moi un enf\gras{a}nt de lumière.}
+\fstr\dstr
+Tu es venu chercher et sauver ce qui éta\gras{i}t perdu.\\
+Comme Zachée le publicain, {\scriptsize /} \mbox{je co\gras{u}rs vers toi,}\\
+car tu n'es pas venu appeler les justes {\scriptsize /} \mbox{mais les péche\gras{u}rs au repentir.}
+\fstr\dstr
+Écoute, ô mon âme, la voix du Seigne\gras{u}r qui t'appelle.\\
+Il est le Dieu qui cherche ceux qui se to\gras{u}rnent vers lui.\\
+Viens, Zachée, hâte-toi! {\scriptsize /} \mbox{Aujourd'hui je veux demeur\gras{e}r dans ta maison.}
+\fstr\dstr
+Pleine de grâce, {\scriptsize /} \mbox{tu as été choisie comme un v\gras{a}se très pur,}\\
+vase à jamais précieux {\scriptsize /} \mbox{pour recevo\gras{i}r ton Dieu.}\\
+Bénie entre les femmes, {\scriptsize /} \mbox{tu as porté en ton sein la bonne nouv\gras{e}lle du Royaume.}
+\fstr\dstr
+Nous nous prosternons, ô Dieu unique, {\scriptsize /} \mbox{devant ton myst\gras{è}re trois fois saint:}\\
+Saint est le Père inengendré! {\scriptsize /} \mbox{Saint est le F\gras{i}ls bien-aimé!}\\
+Saint est l'Esprit d'amo\gras{u}r qui les unit!
+\fstr
+
+\jourHy{Jeudi}
+\dstr
+Tu n'as pas retenu, ô Christ, {\scriptsize /} \mbox{le rang qui t'égala\gras{i}t à Dieu.}\\
+Tu t'es chargé du jo\gras{u}g de notre chair\\
+pour guérir les malades et pans\gras{e}r toute douleur.
+\fstr\dstr
+Je me confesse à toi, Chr\gras{i}st ô mon Roi,\\
+car j'ai péché comme jadis les fr\gras{è}res de Joseph.\\
+Je t'ai vendu, toi l'Agneau innocent, {\scriptsize /} \mbox{toi la sag\gras{e}sse de Dieu.}
+\fstr\dstr
+Joseph fut précipité dans la fosse, {\scriptsize /} \mbox{ô Seigne\gras{u}r souverain,}\\
+en signe de ta sépulture et de t\gras{a} résurrection.\\
+Cache moi dans les profondeurs du repentir {\scriptsize /} \mbox{et relève-moi au mat\gras{i}n de ta Pâque.}
+\fstr\dstr
+Joseph, l'enfant élu de Dieu, {\scriptsize /} \mbox{fut livr\gras{é} par ses proches,}\\
+lui, le juste très doux, {\scriptsize /} \mbox{fut vendu comme esclave à l'im\gras{a}ge du Seigneur.}\\
+Mais toi, ô mon âme, tu es l'esclave de ton péché {\scriptsize /} \mbox{dans la pris\gras{o}n de ton orgueil.}
+\fstr\dstr
+Ô bienheureuse Madeleine, {\scriptsize /} \mbox{poussée par l'arde\gras{u}r de ton amour,}\\
+tu t'es prosternée devant la croix du Seigne\gras{u}r de la vie:\\
+Fais que je sois comblé avec toi {\scriptsize /} \mbox{par la glo\gras{i}re du ciel.}
+\fstr\dstr
+Nous nous prosternons, ô Dieu unique, {\scriptsize /} \mbox{devant ton myst\gras{è}re trois fois saint:}\\
+Saint est le Père inengendré! {\scriptsize /} \mbox{Saint est le F\gras{i}ls bien-aimé!}\\
+Saint est l'Esprit d'amo\gras{u}r qui les unit!
+\fstr
+
+\jourHy{Vendredi}
+\dstr
+Ne rejette pas l'ouvrage de tes mains, {\scriptsize /} \mbox{Seigne\gras{u}r de l'univers.}\\
+J'ai péché contre toi {\scriptsize /} \mbox{mais je ne su\gras{i}s qu'un homme.}\\
+Toi seul, ami des hommes, {\scriptsize /} \mbox{as le pouvo\gras{i}r de pardonner.}
+\fstr\dstr
+À sa naissance, Moïse fut par to\gras{i} sauvé des eaux.\\
+Porté sur les flots du fleuve, {\scriptsize /} \mbox{tu fis échapper le j\gras{u}ste à la mort.}\\
+Souviens-toi de ta mort et de ta résurrection {\scriptsize /} \mbox{o\gras{ù} tu nous as plongés.}
+\fstr\dstr
+Seigneur, conduis-moi au dés\gras{e}rt avec Moïse.\\
+Donne-moi son courage et l'amo\gras{u}r de son peuple,\\
+que je contemple avec lui le buisson ardent {\scriptsize /} \mbox{et révèle ton n\gras{o}m à mes frères.}
+\fstr\dstr
+Moïse divisa les flots de son bâton {\scriptsize /} \mbox{et en fit un rempart au mili\gras{e}u de l'abîme,}\\
+et toi, Seigneur, façonne en mon cœur {\scriptsize /} \mbox{l'image de ta div\gras{i}ne croix.}\\
+Elle sera ton bâton qui me soutient {\scriptsize /} \mbox{et par lequel j'accomplira\gras{i} tes merveilles.}
+\fstr\dstr
+Sainte Marie-Madeleine, {\scriptsize /} \mbox{en répandant tes larmes aux pi\gras{e}ds de Jésus,}\\
+ton corps blessé par le péché {\scriptsize /} \mbox{s'est déjà renouvelé par s\gras{a} résurrection.}\\
+C'est pourquoi il te choisit pour annoncer au monde {\scriptsize /} \mbox{le tri\gras{o}mphe de sa miséricorde.}
+\fstr\dstr
+Nous nous prosternons, ô Dieu unique, {\scriptsize /} \mbox{devant ton myst\gras{è}re trois fois saint:}\\
+Saint est le Père inengendré! {\scriptsize /} \mbox{Saint est le F\gras{i}ls bien-aimé!}\\
+Saint est l'Esprit d'amo\gras{u}r qui les unit!
+\fstr
+
+\jourHy{Samedi}
+\dstr
+Moïse a étendu les bras contre Amalek {\scriptsize /} \mbox{en signe de ta cro\gras{i}x, ô Jésus.}\\
+Que j'implore avec lui ta miséricorde et que j'apa\gras{i}se ta colère.\\
+Que je me tienne en prières devant toi {\scriptsize /} \mbox{pour le sal\gras{u}t de ton peuple.}
+\fstr\dstr
+Comme Moïse, je te supplie: {\scriptsize /} \mbox{Fais-moi vo\gras{i}r ta face.}\\
+Prends-moi sur ta montagne sainte {\scriptsize /} \mbox{et cache-moi dans le cre\gras{u}x du rocher,}\\
+car tu es un Dieu de tendresse, {\scriptsize /} \mbox{lent à la colère et r\gras{i}che en fidélité.}
+\fstr\dstr
+Moïse dans le désert {\scriptsize /} \mbox{éleva le serp\gras{e}nt d'airain,}\\
+et tous ceux qui le regardaient {\scriptsize /} \mbox{étaient guéris de la brûl\gras{u}re du péché.}\\
+Mais toi, Jésus très bon, {\scriptsize /} \mbox{élevé de terre tu attires à to\gras{i} tous les hommes.}
+\fstr\dstr
+Les enfants d'Israël ont mangé l'agne\gras{a}u de la Pâque,\\
+ils ont marqué leurs portes de son sang {\scriptsize /} \mbox{en s\gras{i}gne de ta croix.}\\
+Toi, l'agneau véritable, {\scriptsize /} \mbox{sauve-nous qui s\gras{o}mmes pécheurs.}
+\fstr\dstr
+En toi, Marie, {\scriptsize /} \mbox{le créateur du monde a renouvel\gras{é} notre nature.}\\
+En ton sein, tu enfantes sans avo\gras{i}r connu d'homme,\\
+Vierge et Mère de Dieu, {\scriptsize /} \mbox{illuminée d'une do\gras{u}ble splendeur.}
+\fstr\dstr
+Nous nous prosternons, ô Dieu unique, {\scriptsize /} \mbox{devant ton myst\gras{è}re trois fois saint:}\\
+Saint est le Père inengendré! {\scriptsize /} \mbox{Saint est le F\gras{i}ls bien-aimé!}\\
+Saint est l'Esprit d'amo\gras{u}r qui les unit!
+\fstr
+
+\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}
+
+\chapter{Semaine IV}
+\section{Dimanche}\Gloire
+\dstr
+Je t'offre, Seigneur, les l\gras{a}rmes de mes yeux\\
+et les cris de mon cœ\gras{u}r qui gémit,\\
+car mon âme s'est rendue étrang\gras{è}re à son Dieu.
+\fstr\dstr
+Que les larmes soient pour moi la pisc\gras{i}ne de Siloé,\\
+afin que je puisse y laver {\scriptsize /} \mbox{l'oeil aveugl\gras{é} de mon âme.}\\
+Alors je te contemplerai, Seigneur, {\scriptsize /} \mbox{lumière d'av\gras{a}nt tous les siècles.}
+\fstr\dstr
+Tu es venu Seigneur {\scriptsize /} \mbox{pour que vo\gras{i}ent les aveugles.}\\
+Je crois, Seigneur, {\scriptsize /} \mbox{je me prost\gras{e}rne et je t'adore:}\\
+Tu es la lumi\gras{è}re du monde.
+\fstr\dstr
+Moïse, de son bâton, a frapp\gras{é} le rocher,\\
+et ce rocher c'était le Christ {\scriptsize /} \mbox{dont le côt\gras{é} transpercé}\\
+est la source où dans la joie {\scriptsize /} \mbox{nous puisons l'e\gras{a}u de la vie.}
+\fstr\dstr
+Réjouis toi, Marie, {\scriptsize /} \mbox{car tu as reç\gras{u} Dieu en toi.}\\
+Réjouis toi: Tu as enfanté Dieu dans la f\gras{o}rme d'esclave.\\
+Réjouis toi, car le Seigneur t'a reçue dans la lumi\gras{è}re éternelle.
+\fstr\dstr
+Divine Trinité {\scriptsize /} \mbox{qui contiens toutes ch\gras{o}ses en ta puissance,}\\
+Père incréé, {\scriptsize /} \mbox{Lumière née de la Lumière,} {\scriptsize /} \mbox{Esprit de vie qui proc\gras{è}de du Père,}\\
+garde ton troupeau dans la paix, {\scriptsize /} \mbox{ô toi le berg\gras{e}r de nos âmes.}
+\fstr
+
+\jourHy{Lundi}
+\dstr
+De la croix, le larron a crié: {\scriptsize /} \mbox{Souviens-toi de mo\gras{i}, ô Jésus,}\\
+et moi aussi, je crie vers toi {\scriptsize /} \mbox{du f\gras{o}nd de ma misère.}\\
+Donne-moi avec lui {\scriptsize /} \mbox{d'entr\gras{e}r au paradis.}
+\fstr\dstr
+Ô mon âme, {\scriptsize /} \mbox{ne soit pas semblable au pe\gras{u}ple d'Israël}\\
+qui perdit patience et murmura contre Di\gras{e}u dans le désert,\\
+regrettant les voluptés et les nourrit\gras{u}res d'Égypte.
+\fstr\dstr
+Que j'écoute aujourd'hui ta voix dans le désert, {\scriptsize /} \mbox{et que je ne ferme p\gras{a}s mon cœur,}\\
+mais que je frappe avec Moïse au roch\gras{e}r spirituel\\
+pour boire aux sources vives de la science de Dieu {\scriptsize /} \mbox{et au fle\gras{u}ve de la sagesse.}
+\fstr\dstr
+Ô Christ Seigneur, je suis la dr\gras{a}chme perdue.\\
+Pour me chercher tu as allumé une lampe: {\scriptsize /} \mbox{Je\gras{a}n ton précurseur.}\\
+Restaure en moi ton image, {\scriptsize /} \mbox{toi l'effigie de la subst\gras{a}nce du Père.}
+\fstr\dstr
+Tends l'oreille, Marie, {\scriptsize /} \mbox{et éco\gras{u}te mon chant.}\\
+Le Seigneur de l'univers s'est épr\gras{i}s de ta beauté.\\
+Vois tes fils qui d'âge en âge {\scriptsize /} \mbox{font mémo\gras{i}re de ton nom.}
+\fstr\dstr
+Divine Trinité {\scriptsize /} \mbox{qui contiens toutes ch\gras{o}ses en ta puissance,}\\
+Père incréé, {\scriptsize /} \mbox{Lumière née de la Lumière,} {\scriptsize /} \mbox{Esprit de vie qui proc\gras{è}de du Père,}\\
+garde ton troupeau dans la paix, {\scriptsize /} \mbox{ô toi le berg\gras{e}r de nos âmes.}
+\fstr
+
+\jourHy{Mardi}
+\dstr
+À pleine voix {\scriptsize /} \mbox{je crie vers le Di\gras{e}u de miséricorde,}\\
+et il me répond au plus prof\gras{o}nd de l'abîme,\\
+et il retire ma vie du pouvo\gras{i}r de la mort.
+\fstr\dstr
+Que les flots de la mer s'arr\gras{ê}tent et reculent.\\
+Ô Christ, sauve-moi comme Pierre {\scriptsize /} \mbox{de la temp\gras{ê}te des passions.}\\
+Étends la main, retire-moi des profonde\gras{u}rs du péché.
+\fstr\dstr
+Tu es le port de la paix, {\scriptsize /} \mbox{tu es la t\gras{e}rre promise,}\\
+tu es l'arche de Di\gras{e}u, ô mon Sauveur,\\
+tu as brisé les têtes du drag\gras{o}n dans les eaux.
+\fstr\dstr
+Pardonne, Seigneur! {\scriptsize /} \mbox{Que la terre ne s'entrouvre pour m'engloutir} \mbox{comme Dath\gras{a}n et Abiron.}\\
+Que les flots de mon péché {\scriptsize /} \mbox{comme ce\gras{u}x de la mer Rouge,}\\
+ne se retournent pour me recouvrir {\scriptsize /} \mbox{comme Phara\gras{o}n et son armée.}
+\fstr\dstr
+Réjouis-toi, {\scriptsize /} \mbox{Montagne sainte annonc\gras{é}e par les prophètes:}\\
+De toi fut taillée sans le secours d'une main d'homme {\scriptsize /} \mbox{le Chr\gras{i}st pierre angulaire,}\\
+qui devait mettre à mort les puiss\gras{a}nces de la mort.
+\fstr\dstr
+Divine Trinité {\scriptsize /} \mbox{qui contiens toutes ch\gras{o}ses en ta puissance,}\\
+Père incréé, {\scriptsize /} \mbox{Lumière née de la Lumière,} {\scriptsize /} \mbox{Esprit de vie qui proc\gras{è}de du Père,}\\
+garde ton troupeau dans la paix, {\scriptsize /} \mbox{ô toi le berg\gras{e}r de nos âmes.}
+\fstr
+
+\jourHy{Mercredi}
+\dstr
+Lève toi, ô mon âme, avec Josué, {\scriptsize /} \mbox{et trav\gras{e}rse le Jourdain.}\\
+Traverse le fleuve des choses passagères {\scriptsize /} \mbox{qui s'éco\gras{u}lent et s'en vont,}\\
+pour entrer dans la t\gras{e}rre de la promesse.
+\fstr\dstr
+Puissé-je avoir la force de Débor\gras{a}h et de Yaël\\
+pour transpercer l'ennemi avec la cro\gras{i}x du Christ,\\
+et avec Manoah {\scriptsize /} \mbox{voir l'ange de Dieu s'élev\gras{e}r dans la flamme.}
+\fstr\dstr
+Que je n'imite pas, Seigneur, la faibl\gras{e}sse de Samson.\\
+Que les séduction de la chair {\scriptsize /} \mbox{ne me fassent p\gras{e}rdre ta gloire}\\
+en me livrant aux mains des étrangers {\scriptsize /} \mbox{qui tr\gras{a}ment le mensonge.}
+\fstr\dstr
+Comme Gédéon, j'étendrai la toison {\scriptsize /} \mbox{pour recevoir la ros\gras{é}e du ciel.}\\
+J'inclinerai la tête {\scriptsize /} \mbox{et je boirai au fle\gras{u}ve de ta parole.}\\
+Prends-moi en pitié comme Anne la stérile: {\scriptsize /} \mbox{Écoute la prière que murm\gras{u}rent mes lèvres.}
+\fstr\dstr
+Tu restais près du tombeau en pleurant, {\scriptsize /} \mbox{ô Mar\gras{i}e-Madeleine,}\\
+et Jésus est venu vers toi; {\scriptsize /} \mbox{il t'a appel\gras{é}e par ton nom:}\\
+Marie, ne me retiens pas ainsi, {\scriptsize /} \mbox{car je va\gras{i}s vers mon Père.}
+\fstr\dstr
+Divine Trinité {\scriptsize /} \mbox{qui contiens toutes ch\gras{o}ses en ta puissance,}\\
+Père incréé, {\scriptsize /} \mbox{Lumière née de la Lumière,} {\scriptsize /} \mbox{Esprit de vie qui proc\gras{è}de du Père,}\\
+garde ton troupeau dans la paix, {\scriptsize /} \mbox{ô toi le berg\gras{e}r de nos âmes.}
+\fstr
+
+\jourHy{Jeudi}
+\dstr
+Nous avons péché, Seigneur, {\scriptsize /} \mbox{et toute miséric\gras{o}rde vient de toi.}\\
+Tu nous as dit comment guérir {\scriptsize /} \mbox{par le jeûne, la pri\gras{è}re et le partage.}\\
+Écoute la voix de notre faiblesse {\scriptsize /} \mbox{et dans ta patience, relève-no\gras{u}s avec amour.}
+\fstr\dstr
+À ton peuple, Dieu sauveur, {\scriptsize /} \mbox{tu as donn\gras{é} la manne,}\\
+le pain du ciel, {\scriptsize /} \mbox{figure de la cha\gras{i}r de ton Fils,}\\
+lui, le pain vivant descendu du ciel {\scriptsize /} \mbox{pour la v\gras{i}e du monde.}
+\fstr\dstr
+J'ai obscurci ton image; {\scriptsize /} \mbox{ma l\gras{a}mpe s'est éteinte.}\\
+En mon cœur s'est terni {\scriptsize /} \mbox{l'écl\gras{a}t de ta splendeur.}\\
+Dans ta miséricorde, {\scriptsize /} \mbox{rends-moi la jo\gras{i}e de ton salut.}
+\fstr\dstr
+Convertis-moi, Seigneur, et je sera\gras{i} converti.\\
+Révèle ce qui est caché en moi, {\scriptsize /} \mbox{toi qui connais les secr\gras{e}ts des cœurs,}\\
+car tu m'as éprouvé Seigneur, {\scriptsize /} \mbox{et du haut des cieux, tu conna\gras{i}s mon désir.}
+\fstr\dstr
+À tes pieds, Seigneur, {\scriptsize /} \mbox{je me prosterne c\gras{o}mme la pécheresse.}\\
+Je t'offre mes paroles mêl\gras{é}es de larmes.\\
+Relève-moi, ô Christ, {\scriptsize /} \mbox{et resta\gras{u}re ma vie.}
+\fstr\dstr
+Louange au Père inengendré et à son F\gras{i}ls unique,\\
+louange à l'Esprit de lumière qui proc\gras{è}de du Père,\\
+à vous même gloire et même adoration {\scriptsize /} \mbox{pour les si\gras{è}cles des siècles.}
+\fstr
+
+\jourHy{Vendredi}
+\dstr
+Je confesse devant toi les secr\gras{e}ts mon cœur.\\
+Regarde ma misère, {\scriptsize /} \mbox{reg\gras{a}rde ma douleur.}\\
+Toi, mon juge très clément, {\scriptsize /} \mbox{penche-to\gras{i} pour me sauver.}
+\fstr\dstr
+Le roi David, ancêtre de Di\gras{e}u selon la chair,\\
+a péché contre toi, {\scriptsize /} \mbox{ajoutant le me\gras{u}rtre à l'adultère,}\\
+mais à la voix du prophète, {\scriptsize /} \mbox{il fit double pénitence pour son do\gras{u}ble péché.}
+\fstr\dstr
+Et moi, je suis cet homme {\scriptsize /} \mbox{qui ai fait ce qui dépla\gras{î}t au Seigneur.}\\
+Saurais-je comme David {\scriptsize /} \mbox{confesser ma mis\gras{è}re en criant:}\\
+Pitié, ô Dieu, {\scriptsize /} \mbox{dans ta gr\gras{a}nde miséricorde.}
+\fstr\dstr
+Contre toi, Seigneur, {\scriptsize /} \mbox{contre toi se\gras{u}l j'ai péché.}\\
+Purifie-moi et je deviendrai bl\gras{a}nc comme la neige.\\
+Crée en moi un cœur pur, {\scriptsize /} \mbox{que je ch\gras{a}nte ta miséricorde.}
+\fstr\dstr
+Nous te chantons, Marie, {\scriptsize /} \mbox{nous proclam\gras{o}ns tes louanges.}\\
+Tu as mis au monde le Fils de Dieu, {\scriptsize /} \mbox{l'un de la Trinit\gras{é} indivisible,}\\
+et tu nous as ouvert le ciel, {\scriptsize /} \mbox{à nous qui march\gras{o}ns sur la terre.}
+\fstr\dstr
+Louange au Père inengendré et à son F\gras{i}ls unique,\\
+louange à l'Esprit de lumière qui proc\gras{è}de du Père,\\
+à vous même gloire et même adoration {\scriptsize /} \mbox{pour les si\gras{è}cles des siècles.}
+\fstr
+
+\jourHy{Samedi}
+\dstr
+Regarde Salomon, {\scriptsize /} \mbox{rempli de la sagesse et de la gr\gras{â}ce de Dieu,}\\
+comme il s'est détourné du Seigneur {\scriptsize /} \mbox{attiré par les volupt\gras{é}s et l'orgueil.}\\
+N'imite pas ses passions {\scriptsize /} \mbox{de peur de devenir étrang\gras{e}r à ton Dieu.}
+\fstr\dstr
+Comme Achab, {\scriptsize /} \mbox{tu as répand\gras{u} le sang du pauvre.}\\
+Comme Manassé, {\scriptsize /} \mbox{tu t'es prosterné devant les id\gras{o}les des païens.}\\
+Tu as mérité l'exil loin du Seigneur {\scriptsize /} \mbox{et du li\gras{e}u de sa gloire.}
+\fstr\dstr
+Sois fort comme Élie {\scriptsize /} \mbox{contre les rois et les fa\gras{u}x prophètes.}\\
+Il ferma les portes de la pluie {\scriptsize /} \mbox{et fit desc\gras{e}ndre le feu du ciel,}\\
+et par la puissance de Dieu {\scriptsize /} \mbox{il ressuscit\gras{a} des morts.}
+\fstr\dstr
+Comme Élie, va au désert {\scriptsize /} \mbox{pour fuir les ennem\gras{i}s de Dieu.}\\
+Tu recevras le pain et l'eau {\scriptsize /} \mbox{pour marcher vers la mont\gras{a}gne de Dieu,}\\
+et Dieu viendra vers toi {\scriptsize /} \mbox{dans la br\gras{i}se légère.}
+\fstr\dstr
+Celui que tu as aimé sans mesure, {\scriptsize /} \mbox{ô Mar\gras{i}e-Madeleine,}\\
+celui que ton cœur a désiré {\scriptsize /} \mbox{et dont tu as suiv\gras{i} les pas,}\\
+le Dieu de tendresse a regardé ton repentir, {\scriptsize /} \mbox{et l'a fait naître lui-m\gras{ê}me en ton cœur.}
+\fstr\dstr
+Louange au Père inengendré et à son F\gras{i}ls unique,\\
+louange à l'Esprit de lumière qui proc\gras{è}de du Père,\\
+à vous même gloire et même adoration {\scriptsize /} \mbox{pour les si\gras{è}cles des siècles.}
+\fstr
+
+\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}
+\chapter{Semaine V}
+\section{Dimanche}\setcounter{cptrII}{0}\Gloire
+\dstr
+Mes jours se sont évanouis comme un s\gras{o}nge au réveil.\\
+Comme Ezéchias, je te supplie {\scriptsize /} \mbox{d'ajouter aux ann\gras{é}es de ma vie.}\\
+Qu'il y a-t-il pour moi sur la terre {\scriptsize /} \mbox{sinon toi seul, Dieu de mon cœur et ma p\gras{a}rt à jamais?}
+\fstr\dstr
+Comme Marthe et Marie sur leur fr\gras{è}re Lazare,\\
+je pleure, Seigneur, sur ton image ensevel\gras{i}e par mon péché.\\
+Comme Marie je répands le parfum de mes larmes {\scriptsize /} \mbox{en s\gras{i}gne de ta Pâque.}
+\fstr\dstr
+Tu as pleuré, ô Christ Jésus, {\scriptsize /} \mbox{sur ton am\gras{i} Lazare.}\\
+Tu as affermi la foi de M\gras{a}rthe et de Marie.\\
+et tu as ressuscité leur frère, {\scriptsize /} \mbox{m\gras{o}rt depuis quatre jours.}
+\fstr\dstr
+En appelant Lazare hors du tombeau, {\scriptsize /} \mbox{tu ann\gras{o}nces ta Pâque.}\\
+Tu as brisé les portes de la mort {\scriptsize /} \mbox{et la puiss\gras{a}nce de l'enfer,}\\
+par la force de ton bras, car tu es le Dieu saint, {\scriptsize /} \mbox{saint fort, sa\gras{i}nt immortel.}
+\fstr\dstr
+Mère de la lumière qui ne connaît p\gras{a}s de couchant,\\
+Mère de la lumière qui dissipe les ténèbres du péché {\scriptsize /} \mbox{et illum\gras{i}ne le monde,}\\
+toi qui as reçu la grâce de l'Esprit Saint, {\scriptsize /} \mbox{prie pour nous, pécheurs qui cherch\gras{o}ns la lumière.}
+\fstr\dstr
+Louange au Père inengendré et à son F\gras{i}ls unique,\\
+louange à l'Esprit de lumière qui proc\gras{è}de du Père,\\
+à vous même gloire et même adoration {\scriptsize /} \mbox{pour les si\gras{è}cles des siècles.}
+\fstr
+
+\jourHy{Lundi}
+\dstr
+Roi éternel de gloire {\scriptsize /} \mbox{devant qui tremblent les puiss\gras{a}nces des cieux,}\\
+toi que bénissent les anges, les pr\gras{ê}tres et le peuple,\\
+purifie mes lèvres souillées {\scriptsize /} \mbox{par la flamme des charb\gras{o}ns ardents.}
+\fstr\dstr
+Comme le publicain prostré à terre, {\scriptsize /} \mbox{je me fr\gras{a}ppe la poitrine,}\\
+comme Pierre, je pleure amèrement {\scriptsize /} \mbox{car je t'a\gras{i} renié,}\\
+comme la femme adultère, Seigneur, {\scriptsize /} \mbox{ne me cond\gras{a}mne pas.}
+\fstr\dstr
+Comme la cananéenne, je te poursu\gras{i}s de ma clameur:\\
+Prends pitié de moi {\scriptsize /} \mbox{car je suis comme un chien sous la t\gras{a}ble de son maître.}\\
+Donne-moi en partage, fils de David, {\scriptsize /} \mbox{les mi\gras{e}ttes de ta table.}
+\fstr\dstr
+Comme la femme hémoroïsse, {\scriptsize /} \mbox{je m'approche de to\gras{i}, ô Jésus!}\\
+Laisse-moi toucher la fr\gras{a}nge de ton manteau,\\
+que j'entende à mon tour ces divines paroles: {\scriptsize /} \mbox{Ta fo\gras{i} t'a sauvé.}
+\fstr\dstr
+Bienheureuse celle qui a écouté la parole {\scriptsize /} \mbox{et l'a reç\gras{u}e en son cœur.}\\
+Bienheureuse celle qui a porté en son sein {\scriptsize /} \mbox{le V\gras{e}rbe de vie.}\\
+Tous les âges la diront bienheureuse, {\scriptsize /} \mbox{car le Puissant a fait pour \gras{e}lle des merveilles.}
+\fstr\dstr
+Créateur de toutes choses, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint,}\\
+je te loue pour ton unique gloire {\scriptsize /} \mbox{et la beaut\gras{é} de ton règne,}\\
+Soleil à la triple splendeur {\scriptsize /} \mbox{dans une se\gras{u}le lumière.}
+\fstr
+
+\jourHy{Mardi}
+\dstr
+Les anges flamboyants te ch\gras{a}ntent dans les cieux.\\
+Les chérubins et les séraphins {\scriptsize /} \mbox{te louent, te bén\gras{i}ssent et t'acclament.}\\
+Prends en pitié, Sauveur, celui qui a péché {\scriptsize /} \mbox{et réve\gras{i}lle son âme.}
+\fstr\dstr
+Le prophète Élie emporté par le ch\gras{a}r de feu\\
+fut enlev\gras{é} jusqu'au ciel.\\
+Élève-toi, ô mon âme, {\scriptsize /} \mbox{au-dessus des tentati\gras{o}ns de la terre.}
+\fstr\dstr
+Élie jeta son manteau sur Élisée {\scriptsize /} \mbox{qui laboura\gras{i}t son champ,}\\
+et, le voyant monter au ciel, {\scriptsize /} \mbox{Elisée reçut une double p\gras{a}rt de son esprit.}\\
+Que je contemple, Seigneur, ton mystère {\scriptsize /} \mbox{et en reçoive de toi le d\gras{o}n de ton Esprit Saint.}
+\fstr\dstr
+Élisée pris le manteau d'Élie {\scriptsize /} \mbox{et frappa les e\gras{a}ux du Jourdain,}\\
+et les eaux se divisèrent comme aux jo\gras{u}rs de Josué.\\
+Que je sois revêtu de ta grâce, Seigneur, {\scriptsize /} \mbox{et que les eaux de la mort s'éc\gras{a}rtent devant moi.}
+\fstr\dstr
+Ô Marie-Madeleine, {\scriptsize /} \mbox{annonciatr\gras{i}ce de la résurrection,}\\
+tu as vu de tes yeux {\scriptsize /} \mbox{le Christ ressuscit\gras{é} d'entre les morts,}\\
+tu as proclamé au monde entier que Jés\gras{u}s est vivant.
+\fstr\dstr
+Créateur de toutes choses, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint,}\\
+je te loue pour ton unique gloire {\scriptsize /} \mbox{et la beaut\gras{é} de ton règne,}\\
+Soleil à la triple splendeur {\scriptsize /} \mbox{dans une se\gras{u}le lumière.}
+\fstr
+
+\jourHy{Mercredi}
+\dstr
+Que j'entonne le chant de ta gloire {\scriptsize /} \mbox{et que cl\gras{a}ment les trompettes.}\\
+Que s'écroulent les m\gras{u}rs de l'ennemi,\\
+et que soient affermies en nos mains {\scriptsize /} \mbox{les armes de la connaiss\gras{a}nce de Dieu.}
+\fstr\dstr
+Comme Jonas, j'ai fui loin de ta face {\scriptsize /} \mbox{dans les \gras{î}les lointaines.}\\
+Je n'ai pas voulu conna\gras{î}tre ta miséricorde,\\
+mais des entrailles de l'abîme, {\scriptsize /} \mbox{ma prière m\gras{o}nte vers toi.}
+\fstr\dstr
+J'ai entendu la pénit\gras{e}nce des ninivites.\\
+Ils se sont prosternés dans le s\gras{a}c et la cendre.\\
+Ils ont crié vers toi {\scriptsize /} \mbox{pour que tu détournes ta col\gras{è}re de leurs fautes.}
+\fstr\dstr
+Tu as purifié Naaman dans les e\gras{a}ux du Jourdain.\\
+Tu as baptisé le peuple dans la nu\gras{é}e et dans la mer.\\
+Tu fais renaître les pécheurs {\scriptsize /} \mbox{de l'e\gras{a}u et de l'Esprit.}
+\fstr\dstr
+Tu as reçu dans ton sein, ô Marie, {\scriptsize /} \mbox{celui que le monde ne pe\gras{u}t contenir.}\\
+Tu l'as porté en toi, {\scriptsize /} \mbox{celui qui p\gras{o}rte toutes choses.}\\
+Tu as allaité le Christ {\scriptsize /} \mbox{qui nourr\gras{i}t toute créature.}
+\fstr\dstr
+Créateur de toutes choses, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint,}\\
+je te loue pour ton unique gloire {\scriptsize /} \mbox{et la beaut\gras{é} de ton règne,}\\
+Soleil à la triple splendeur {\scriptsize /} \mbox{dans une se\gras{u}le lumière.}
+\fstr
+
+\jourHy{Jeudi}
+\dstr
+J'ai entendu les plaintes de Jérém\gras{i}e dans la fosse\\
+et sa lamentation sur Si\gras{o}n dévastée.\\
+Comme lui, je pleure et je supplie: {\scriptsize /} \mbox{Sauve-moi du go\gras{u}ffre du péché.}
+\fstr\dstr
+J'ai entendu Daniel dans la f\gras{o}sse aux lions.\\
+J'ai entendu les trois enfants dans la fournaise {\scriptsize /} \mbox{béniss\gras{a}nt le Seigneur.}\\
+Délivre-moi, ô Christ, du lion rugissant {\scriptsize /} \mbox{et de la fl\gras{a}mme de l'enfer.}
+\fstr\dstr
+Ô bon Pasteur, {\scriptsize /} \mbox{toi qui connais les breb\gras{i}s par leur nom,}\\
+et qui donnes ta v\gras{i}e pour ton Église,\\
+sauve-moi de la gueule du lion, {\scriptsize /} \mbox{ramène-moi dans le troupe\gras{a}u de ton bercail.}
+\fstr\dstr
+Ô toi le bon samaritain, {\scriptsize /} \mbox{tu t'es pench\gras{é} sur moi,}\\
+tu m'as soigné avec l'huile de la miséricorde {\scriptsize /} \mbox{et le v\gras{i}n de ton amour.}\\
+Toi l'ami des hommes, {\scriptsize /} \mbox{prends-moi sur tes épaules comme la breb\gras{i}s perdue.}
+\fstr\dstr
+Pour éteindre la flamme du péché, ô Mar\gras{i}e-Madeleine,\\
+le Christ a fait couler de tes yeux {\scriptsize /} \mbox{les l\gras{a}rmes de la pénitence,}\\
+et comme un fleuve, elles ont rafraîchi {\scriptsize /} \mbox{la fi\gras{è}vre de ton âme.}
+\fstr\dstr
+Créateur de toutes choses, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint,}\\
+je te loue pour ton unique gloire {\scriptsize /} \mbox{et la beaut\gras{é} de ton règne,}\\
+Soleil à la triple splendeur {\scriptsize /} \mbox{dans une se\gras{u}le lumière.}
+\fstr
+
+\jourHy{Vendredi}
+\dstr
+Le grand prêtre a prophétisé sur to\gras{i} en disant:\\
+Il vaut mieux qu'un seul homme me\gras{u}re pour le peuple.\\
+Rassemble, Seigneur, à l'ombre de ta croix {\scriptsize /} \mbox{les enfants de Di\gras{e}u dispersés.}
+\fstr\dstr
+Comme le larron sur la croix {\scriptsize /} \mbox{je crie vers to\gras{i}, ô mon Sauveur.}\\
+Souviens-toi de moi {\scriptsize /} \mbox{quand tu seras entr\gras{é} dans ton Royaume.}\\
+Malgré tous mes péchés, {\scriptsize /} \mbox{prends-moi auprès de to\gras{i} en paradis.}
+\fstr\dstr
+Ô Christ, {\scriptsize /} \mbox{par la pri\gras{è}re de tes apôtres,}\\
+que le feu dévorant de ton amour {\scriptsize /} \mbox{s'all\gras{u}me dans mon cœur,}\\
+et qu'il consume en moi {\scriptsize /} \mbox{toutes les tr\gras{a}ces du péché.}
+\fstr\dstr
+Ton Église, ô Christ, {\scriptsize /} \mbox{édifi\gras{é}e par l'Esprit,}\\
+proclame par la bouche des apôtres {\scriptsize /} \mbox{la fo\gras{i} en ton mystère.}\\
+Sauve ceux qui unissent leur voix à la leur {\scriptsize /} \mbox{pour confess\gras{e}r ta gloire.}
+\fstr\dstr
+Comme un vêtement de pourpre, {\scriptsize /} \mbox{il a revêtu notre chair en ton se\gras{i}n, ô Marie,}\\
+l'Emmanuel, splendeur étern\gras{e}lle du Père.\\
+En toi s'est accomplie la rédempti\gras{o}n du monde.
+\fstr\dstr
+Créateur de toutes choses, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint,}\\
+je te loue pour ton unique gloire {\scriptsize /} \mbox{et la beaut\gras{é} de ton règne,}\\
+Soleil à la triple splendeur {\scriptsize /} \mbox{dans une se\gras{u}le lumière.}
+\fstr
+
+\jourHy{Samedi}
+\dstr
+Tu es né, ô Christ, {\scriptsize /} \mbox{de la chair de la Vi\gras{e}rge Marie}\\
+par la puissance de l'Esprit {\scriptsize /} \mbox{et sans sem\gras{e}nce d'homme,}\\
+renouvelant la création par ta naiss\gras{a}nce nouvelle.
+\fstr\dstr
+Jean, le précurseur de ta grâce, {\scriptsize /} \mbox{a prêch\gras{é} la pénitence}\\
+comme la colombe qui aime la solitude, {\scriptsize /} \mbox{comme la voix qui cr\gras{i}e dans le désert,}\\
+comme la lampe qui réchauffe {\scriptsize /} \mbox{et lu\gras{i}t dans les ténèbres.}
+\fstr\dstr
+Il a dénoncé le crime d'Hérode {\scriptsize /} \mbox{au pr\gras{i}x de son sang,}\\
+et tous les fils d'Israël ont accour\gras{u} vers lui,\\
+confessant leurs péchés {\scriptsize /} \mbox{et se plongeant dans l'e\gras{a}u qui purifie.}
+\fstr\dstr
+Tu t'es avancé au milieu des pécheurs {\scriptsize /} \mbox{pour accompl\gras{i}r toute justice.}\\
+Comme l'agneau muet qui porte les péch\gras{é}s du monde,\\
+tu es descendu dans les flots du Jourdain {\scriptsize /} \mbox{et l'Esprit est ven\gras{u} sur toi.}
+\fstr\dstr
+Ô Marie, sœur de Lazare, {\scriptsize /} \mbox{toi qui te tiens aux pi\gras{e}ds du Christ,}\\
+ne crains pas {\scriptsize /} \mbox{car tu as chois\gras{i} la meilleure part.}\\
+Encore un peu de temps et tu le reverras, {\scriptsize /} \mbox{et ton cœur ser\gras{a} dans la paix.}
+\fstr\dstr
+Trinité consubstantielle, no\gras{u}s te glorifions,\\
+Lumière qui illumine, Vie qui d\gras{o}nnes la vie,\\
+à toi le règne sans fin, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint!}
+\fstr
+
+\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{\thecptrII}.}
+\chapter{Semaine Sainte}
+\section{Dimanche}\Gloire
+\dstr
+Ô Christ, tu t'es fait homme {\scriptsize /} \mbox{conversant avec mo\gras{i} dans la chair,}\\
+en tout semblable à moi, {\scriptsize /} \mbox{except\gras{é} le péché,}\\
+appelant les péche\gras{u}rs à la conversion.
+\fstr\dstr
+Tu as jeûné quarante jours dans le désert {\scriptsize /} \mbox{et tu as souff\gras{e}rt de la faim.}\\
+Tu fus tenté par le diable, {\scriptsize /} \mbox{le pr\gras{i}nce de ce monde.}\\
+Tu as vaincu l'ennemi {\scriptsize /} \mbox{et toute la gloire des roya\gras{u}mes de la terre.}
+\fstr\dstr
+Les enfants joyeux ont acclamé le fils de David {\scriptsize /} \mbox{les p\gras{a}lmes à la main.}\\
+Les foules ont étendus leurs vêtements {\scriptsize /} \mbox{sur le chemin du Roi, doux et h\gras{u}mble de cœur.}\\
+Jérusalem, le Christ pleure sur toi, {\scriptsize /} \mbox{car tu n'as pas reconnu le t\gras{e}mps de ta visite.}
+\fstr\dstr
+Déjà la porte du Roya\gras{u}me est ouverte:\\
+Les publicains et les prostituées {\scriptsize /} \mbox{précèdent les j\gras{u}stes au paradis.}\\
+Tu es venu chercher et sauv\gras{e}r ce qui était perdu!
+\fstr\dstr
+Ô Marie, tu as accompagné ton fils aux p\gras{o}rtes de la mort.\\
+Par toi, nous sommes rachet\gras{é}s de la malédiction,\\
+car tu as enfanté notre joie, {\scriptsize /} \mbox{le Chr\gras{i}st notre Seigneur.}
+\fstr\dstr
+Trinité consubstantielle, no\gras{u}s te glorifions,\\
+Lumière qui illumine, Vie qui d\gras{o}nnes la vie,\\
+à toi le règne sans fin, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint!}
+\fstr
+
+\jourHy{Lundi}
+\dstr
+Tu es venu, ô Christ, {\scriptsize /} \mbox{tu as illuminé les mages et réjou\gras{i} les bergers.}\\
+D'enfants innocents, {\scriptsize /} \mbox{tu as fait les premiers témo\gras{i}ns de la foi,}\\
+et le vieillard Siméon {\scriptsize /} \mbox{t'a reçu dans ses br\gras{a}s, bénissant Dieu!}
+\fstr\dstr
+Revêtu de la chair, {\scriptsize /} \mbox{tu as mang\gras{é} avec les hommes.}\\
+Aux noces de Cana, {\scriptsize /} \mbox{tu as changé l'e\gras{a}u en vin.}\\
+Toi qui donnes la joie, {\scriptsize /} \mbox{voici venue l'he\gras{u}re de ta croix!}
+\fstr\dstr
+Ô Jésus très bon, {\scriptsize /} \mbox{tu as relevé le paralyt\gras{i}que de son grabat.}\\
+Tu as ressuscité le fils de la veuve {\scriptsize /} \mbox{et guéri le servite\gras{u}r du centurion.}\\
+Tu as annoncé à la Samaritaine {\scriptsize /} \mbox{le culte dans l'espr\gras{i}t et dans la vérité.}
+\fstr\dstr
+Tu as guéri l'aveugle né, {\scriptsize /} \mbox{ressuscit\gras{é} Lazare.}\\
+Marie a répandu sur toi l'onction {\scriptsize /} \mbox{en v\gras{u}e de ta sépulture.}\\
+Le grain déposé en terre {\scriptsize /} \mbox{meurt et p\gras{o}rte beaucoup de fruit!}
+\fstr\dstr
+Un glaive de douleur a transpercé ton \gras{â}me, ô Marie:\\
+debout, au pied de la croix de ton fils {\scriptsize /} \mbox{dans l'att\gras{e}nte du royaume,}\\
+tu es devenue notre mère, {\scriptsize /} \mbox{car tu nous as enfant\gras{é}s par la croix.}
+\fstr\dstr
+Trinité consubstantielle, no\gras{u}s te glorifions,\\
+Lumière qui illumine, Vie qui d\gras{o}nnes la vie,\\
+à toi le règne sans fin, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint!}
+\fstr
+
+\jourHy{Mardi}
+\dstr
+Verbe de Dieu, ô Christ, {\scriptsize /} \mbox{tu as évangélis\gras{é} les pauvres.}\\
+Tu as mangé avec les publicains {\scriptsize /} \mbox{et tu es descendu habit\gras{e}r chez Zachée.}\\
+Tu as été familier des pécheurs {\scriptsize /} \mbox{et pr\gras{o}che des petits!}
+\fstr\dstr
+Tu as purifié les lépreux, {\scriptsize /} \mbox{illumin\gras{é} les aveugles.}\\
+Tu as fait entendre les sourds et dans\gras{e}r les boiteux.\\
+Tu as redressé la femme courbée {\scriptsize /} \mbox{pour annonc\gras{e}r notre résurrection.}
+\fstr\dstr
+Tu as promis l'eau vive à ce\gras{u}x qui en ont soif.\\
+Tu as proclamé bienheureux ceux qui pleurent {\scriptsize /} \mbox{et ceux qui f\gras{o}nt la paix.}\\
+Tu as joué de la flûte {\scriptsize /} \mbox{et pers\gras{o}nne n'a dansé.}
+\fstr\dstr
+Le pharisien est retourné chez lui {\scriptsize /} \mbox{sans \gras{ê}tre justifié.}\\
+Les villes qui n'ont pas entendu ta parole {\scriptsize /} \mbox{ont ét\gras{é} maudites.}\\
+Ô mon âme, n'imite pas leur orgueil {\scriptsize /} \mbox{et reconna\gras{i}s ta misère!}
+\fstr\dstr
+Médiatrice entre le ciel et la terre, {\scriptsize /} \mbox{ô Mar\gras{i}e notre mère,}\\
+toutes les générations te dir\gras{o}nt bienheureuse!\\
+En toi, selon la chair, a pris naissance {\scriptsize /} \mbox{la plénit\gras{u}de de la divinité!}
+\fstr\dstr
+Trinité consubstantielle, no\gras{u}s te glorifions,\\
+Lumière qui illumine, Vie qui d\gras{o}nnes la vie,\\
+à toi le règne sans fin, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint!}
+\fstr
+
+\jourHy{Mercredi}
+\dstr
+Toute la création, ô Christ, {\scriptsize /} \mbox{a été sais\gras{i}e de stupeur,}\\
+à la vue de ta croix, {\scriptsize /} \mbox{devant ton c\gras{o}rps transpercé!}\\
+La terre a tremblé de fraye\gras{u}r devant ta face!
+\fstr\dstr
+Les montagnes et les rochers se s\gras{o}nt disloqués,\\
+et la lumière du soleil, {\scriptsize /} \mbox{en plein mid\gras{i}, s'est obscurcie,}\\
+en contemplant les clous enfoncés dans ta cha\gras{i}r bénie!
+\fstr\dstr
+Je t'en prie, {\scriptsize /} \mbox{n'exige pas de moi de dignes fru\gras{i}ts de pénitence,}\\
+car en moi, ô Sauveur, ma f\gras{o}rce est épuisée.\\
+Donne-moi un cœur converti {\scriptsize /} \mbox{et la pauvret\gras{é} de l'esprit!}
+\fstr\dstr
+Tu es mon juge {\scriptsize /} \mbox{plein de clém\gras{e}nce et de tendresse.}\\
+Toi qui viendras avec les anges {\scriptsize /} \mbox{pour jug\gras{e}r l'univers,}\\
+ô Jésus, regarde-moi avec douceur car j'ai péché, {\scriptsize /} \mbox{mais c'est to\gras{i} qui pardonnes!}
+\fstr\dstr
+Ô Mère du sauveur, {\scriptsize /} \mbox{tu as pleuré sous l'\gras{a}rbre de la croix,}\\
+quand la mort de ton fils a transpercé ton cœur {\scriptsize /} \mbox{comme un gla\gras{i}ve de douleur.}\\
+Prie pour nous, pauvres pécheurs, {\scriptsize /} \mbox{maintenant et à l'he\gras{u}re de notre mort!}
+\fstr\dstr
+Trinité consubstantielle, no\gras{u}s te glorifions,\\
+Lumière qui illumine, Vie qui d\gras{o}nnes la vie,\\
+à toi le règne sans fin, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint!}
+\fstr
+
+\jourHy{Jeudi}
+\dstr
+Seigneur, demain {\scriptsize /} \mbox{je te reniera\gras{i} comme Pierre,}\\
+ce soir {\scriptsize /} \mbox{je te trahira\gras{i} comme Judas,}\\
+et toi tu me laveras les pi\gras{e}ds et la tête.
+\fstr\dstr
+Seigneur je n'ai pas revêtu la r\gras{o}be nuptiale,\\
+et j'ai laissé ma lampe s'éte\gras{i}ndre en t'attendant,\\
+et pourtant, c'est pour moi {\scriptsize /} \mbox{que tu donnes ton c\gras{o}rps en nourriture.}
+\fstr\dstr
+Tu m'as tendu la main {\scriptsize /} \mbox{comme tu le f\gras{i}s à Pierre.}\\
+Je ne l'ai pas saisie et je me su\gras{i}s noyé.\\
+Comme Jonas, {\scriptsize /} \mbox{tire-moi de l'ab\gras{î}me des eaux.}
+\fstr\dstr
+Comme le pélican qui nourr\gras{i}t ses enfants,\\
+tu nous donnes ce soir {\scriptsize /} \mbox{ta cha\gras{i}r en nourriture,}\\
+ton sang, pour nous laver de n\gras{o}tre indignité.
+\fstr\dstr
+Ô Marie, {\scriptsize /} \mbox{souviens-toi des n\gras{o}ces de Cana.}\\
+Entends notre prière, {\scriptsize /} \mbox{interc\gras{è}de pour nous.}\\
+Que le vin de la colère, {\scriptsize /} \mbox{ce soir, se change en v\gras{i}n de noces.}
+\fstr\dstr
+Trinité consubstantielle, no\gras{u}s te glorifions,\\
+Lumière qui illumine, Vie qui d\gras{o}nnes la vie,\\
+à toi le règne sans fin, {\scriptsize /} \mbox{Père, F\gras{i}ls et Esprit Saint!}
+\fstr
+\stepcounter{cptrII}{\color{ruber}\itshape Suite de l'office p. \pageref{VeIIILe}.}
+
+
+\titleformat{\chapter}[hang]{\itshape\color{gray}\car{5em}}{}{0pt}{}{}
+\titlespacing{\chapter}{0pt}{-5em}{1em}
+\titleformat{\section}[hang]{\itshape\color{gray}\car{3em}}{}{0pt}{}{}
+
+\Semaine{I}
+\jour{Dimanche}
+\Lectures
+\rubrique{Le dimanche I:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ma part K111.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Que je rende grâce K511.ly" 
+\end{lilypond}
+\PsaumeI{*}{}
+\rubrique{Le dimanche I:}{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/J'ai gardé K112.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V:}{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Ma vie était au bord K512.ly" 
+\end{lilypond}
+\PsaumeII{*}{}
+\rubrique{Le dimanche I:}{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Le Seigneur a pour toi K113.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V:}{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Tu as tiré K513.ly" 
+\end{lilypond}
+\PsaumeIII{*}{}
+\rubrique{Le dimanche I:}{2ex}{0pt}
+\versLect{L'homme ne vit pas seulement de pain,}{mais de toute parole qui sort de la bouche de Dieu.}
+\rubrique{Le dimanche V:}{2ex}{0pt}
+\versLect{Celui qui garde ma parole}{ne verra jamais la mort.}
+\Laudes
+\rubrique{Le dimanche I:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Mon âme a soif K312.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly"\include "Antiennes/Dieu vient à mon secours L951.ly" 
+\end{lilypond}
+\PsaumeLXII{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Ce jour est saint K052.ly" 
+\end{lilypond}
+\rubrique{Partition soliste p. {\normalcolor\pageref{Ne}}.}{0pt}{}
+\CantiqueGV{*}{}
+\rubrique{Le dimanche I:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis sorti du Père K053.ly" 
+\end{lilypond}
+\rubrique{Le dimanche V:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Père, glorifie C108.ly" 
+\end{lilypond}
+\PsaumeCIL{*}{}
+\ReponsDi{I}{DiI}{V}{DiV}
+\jour{Lundi}
+\Lectures
+\PsaumeVI{*}{}
+\PsaumeIXa{*}{}
+%\PsaumeIXa{*}{}
+\saut\versLect{Convertissez-vous et croyez à la Bonne Nouvelle!}{Le règne de Dieu est là!}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Réponds-moi K731.ly" 
+\end{lilypond}
+\PsaumeV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Père, écoute K213.ly" 
+\end{lilypond}
+\CantiqueGIV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Fais briller K212.ly" 
+\end{lilypond}
+\PsaumeXXVIII{*}{}
+\Repons{I}{I}{V}{II}
+\jour{Mardi}
+\Lectures
+\PsaumeIXb{*}{}
+%\PsaumeIXb{*}{}
+\PsaumeXI{*}{}
+\saut\versLect{C'est maintenant le jour favorable,}{c'est maintenant le jour du salut.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Qui habitera L912.ly" 
+\end{lilypond}
+\PsaumeXXIII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis le Dieu vivant K653.ly" 
+\end{lilypond}
+\CantiqueGVI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Que je rende grâce K511.ly" 
+\end{lilypond}
+\PsaumeXXXII{*}{}
+\Repons{I}{I}{V}{II}
+\jour{Mercredi}
+\Lectures\subsection{Psaume 17}
+\PsaumeXVIIpI{*}{}
+\PsaumeXVIIpII{*}{}
+\PsaumeXVIIpIII{*}{}
+\saut\versLect{Convertissez-vous et faites pénitence;}{faites-vous un cœur nouveau et un esprit nouveau.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ne nous traite pas K654.ly" 
+\end{lilypond}
+\PsaumeXXXV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Celui qui fait la vérité K726.ly" 
+\end{lilypond}
+\CantiqueGVIII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Oui, je me lèverai K715.ly" 
+\end{lilypond}
+\PsaumeVLI{*}{}
+\Repons{I}{I}{V}{II}
+\jour{Jeudi}
+\Lectures\subsection{Psaume 17}
+\PsaumeXVIIpIV{*}{}
+\PsaumeXVIIpV{*}{}
+\PsaumeXVIIpVI{*}{}
+\saut\versLect{Celui qui médite la loi du Seigneur}{donne du fruit en son temps.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Sauve-moi K632.ly" 
+\end{lilypond}
+\PsaumeLVI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, écoute K625.ly" 
+\end{lilypond}
+\CantiqueGXLIV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... dans ta tendresse K092.ly" 
+\end{lilypond}
+\PsaumeVLII{*}{}
+\Repons{I}{I}{V}{II}
+\jour{Vendredi}
+\Lectures
+\PsaumeXXXIV{*}{}
+%\PsaumeXXXIV{*}{}
+%\PsaumeXXXIV{*}{}
+\saut\versLect{Revenons au Seigneur, notre Dieu,}{car il est tendre et miséricordieux.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Juste qui était K664.ly" 
+\end{lilypond}
+\PsaumeL{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Devant toi, Seigneur K753.ly" 
+\end{lilypond}
+\CantiqueGXXX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Maintenant, le prince K016.ly" 
+\end{lilypond}
+\PsaumeIC{*}{}
+\Repons{I}{I}{V}{II}
+\jour{Samedi}
+\Lectures
+\PsaumeCIV{*}{}
+%\PsaumeCIV{*}{}
+%\PsaumeCIV{*}{}
+\saut\versLect{Celui qui fait la vérité}{vient à la lumière.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Celui qui croit K756.ly" 
+\end{lilypond}
+\PsaumeCXVIIIpXIX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je chanterai K656.ly" 
+\end{lilypond}
+\CantiqueGI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Si vous gardez K734.ly" 
+\end{lilypond}
+\PsaumeCXVI{*}{}
+\Repons{I}{I}{V}{II}
+
+
+\Semaine{II}
+\jour{Dimanche}
+\Lectures
+\PsTitre{103}
+\rubrique{Le dimanche II:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma lumière K211.ly" 
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/La terre a donné L043.ly" 
+\end{lilypond}
+\PsaumeCIIIpI{*}{}
+\rubrique{Le dimanche II:}{0ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Fais briller K212.ly"
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion:}{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Avec les enfants L063.ly" 
+\end{lilypond}
+\PsaumeCIIIpII{*}{}
+\rubrique{Le dimanche II:}{0ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Père, écoute K213.ly"
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion:}{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Pourquoi mon âme L042.ly" 
+\end{lilypond}
+\PsaumeCIIIpIII{*}{}
+\rubrique{Le dimanche II:}{2ex}{0pt}
+\versLect{Du sein de la nuée, la voix du Père a retenti:}{Voici mon Fils, mon bien-aimé. Écoutez-le.}
+\rubrique{Le dimanche des Rameaux et de la Passion:}{2ex}{0pt}
+\versLect{Quand j'aurai été élevé de terre,}{j'attirerai à moi tous les hommes.}
+\Laudes
+\rubrique{Le dimanche II:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Si le grain de blé L332.ly" 
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/La foule immense L061.ly" 
+\end{lilypond}
+\PsaumeCXVIIDir{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ce jour est saint K052.ly" 
+\end{lilypond}
+\rubrique{Partition soliste p. {\normalcolor\pageref{Ne}}.}{0pt}{}
+\CantiqueGV{*}{}
+\rubrique{Le dimanche II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma louange K616.ly" 
+\end{lilypond}
+\rubrique{Le dimanche des Rameaux et de la Passion:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Hosanna L041.ly" 
+\end{lilypond}
+\PsaumeCL{*}{}
+\ReponsDi{II}{DiII}{des Rameaux et de la Passion}{R}
+\jour{Lundi}
+\Lectures
+\rubrique{Le lundi Saint:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ils condamnent L753.ly" 
+\end{lilypond}
+\PsaumeXXX{*}{}
+%\PsaumeXXX{*}{}
+%\PsaumeXXX{*}{}
+\rubrique{Le lundi II:}{2ex}{0pt}
+\versLect{Convertissez-vous et croyez à la Bonne Nouvelle!}{Le règne de Dieu est là!}
+\rubrique{Le lundi Saint:}{2ex}{0pt}
+\versLect{Quand j'aurai été élevé de terre,}{j'attirerai à moi tous les hommes.}
+\Laudes
+\rubrique{Le lundi II:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Mon âme a soif K312.ly" 
+\end{lilypond}
+\rubrique{Le lundi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Pourquoi mon âme L042.ly" 
+\end{lilypond}
+\PsaumeXLI{*}{}
+\rubrique{Le lundi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, que ne soient pas K764.ly" 
+\end{lilypond}
+\rubrique{Le lundi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis avec toi K655.ly" 
+\end{lilypond}
+\CantiqueGXV{*}{}
+\rubrique{Le lundi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Cherchez le Seigneur K733.ly" 
+\end{lilypond}
+\rubrique{Le lundi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Voici que nous montons K015.ly" 
+\end{lilypond}
+\PsaumeXVIIIa{*}{}
+\Repons{II}{II}{}{}
+\rubrique{Le lundi Saint, répons p. \pageref{ReponsLS}.}{0pt}{0pt}
+\jour{Mardi}
+\Lectures
+\rubrique{Le mardi Saint:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Des étrangers L733.ly" 
+\end{lilypond}
+\PsaumeXXXVI{*}{}
+%\PsaumeXXXVI{*}{}
+%\PsaumeXXXVI{*}{}
+\rubrique{Le mardi II:}{2ex}{0pt}
+\versLect{C'est maintenant le jour favorable,}{c'est maintenant le jour du salut.}
+\rubrique{Le mardi Saint:}{2ex}{0pt}
+\versLect{Quand j'aurai été élevé de terre,}{j'attirerai à moi tous les hommes.}
+\Laudes
+\rubrique{Le mardi II:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Pourquoi mon âme L042.ly" 
+\end{lilypond}
+\rubrique{Le mardi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ne me cache pas K746.ly" 
+\end{lilypond}
+\PsaumeXLII{*}{}
+\rubrique{Le mardi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ma force K651.ly" 
+\end{lilypond}
+\rubrique{Le mardi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Mon coeur s'est consumé L532.ly" 
+\end{lilypond}
+\CantiqueGXXV{*}{}
+\rubrique{Le mardi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/De ton sein K313.ly" 
+\end{lilypond}
+\rubrique{Le mardi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Entre tes mains L313.ly" 
+\end{lilypond}
+\PsaumeLXIV{*}{}
+\Repons{II}{II}{}{}
+\rubrique{Le mardi Saint, répons p. \pageref{ReponsMaS}.}{0pt}{0pt}
+\jour{Mercredi}
+\Lectures
+\rubrique{Le mercredi Saint:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Aux jours de sa chair K051.ly" 
+\end{lilypond}
+\PsaumeXXXVIII{*}{}
+%\PsaumeXXXVIII{*}{}
+\rubrique{Le mercredi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... entends L533.ly" 
+\end{lilypond}
+\PsaumeLI{*}{}
+\rubrique{Le mercredi II:}{2ex}{0pt}
+\versLect{Convertissez-vous et faites pénitence,}{faites-vous un cœur nouveau et un esprit nouveau.}
+\rubrique{Le mercredi Saint:}{2ex}{0pt}
+\versLect{Quand j'aurai été élevé de terre,}{j'attirerai à moi tous les hommes.}
+\Laudes
+\rubrique{Le mercredi II:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ma vie était au bord K512.ly" 
+\end{lilypond}
+\rubrique{Le mercredi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/L'ami qui partageait L431.ly" 
+\end{lilypond}
+\PsaumeLXXVI{*}{}
+\rubrique{Le mercredi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je le crois, je verrai L932.ly" 
+\end{lilypond}
+\rubrique{Le mercredi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Quand vous aurez élevé L232.ly" 
+\end{lilypond}
+\CantiqueGIII{*}{}
+\rubrique{Le mercredi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Fils de l'homme n'est pas venu K012.ly" 
+\end{lilypond}
+\rubrique{Le mercredi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Tu m'as caché K633.ly" 
+\end{lilypond}
+\PsaumeVCI{*}{}
+\Repons{II}{II}{}{}
+\rubrique{Le mercredi Saint, répons p. \pageref{ReponsMeS}.}{0pt}{0pt}
+\jour{Jeudi}
+\Lectures
+\PsaumeXLIII{*}{}
+%\PsaumeXLIII{*}{}
+%\PsaumeXLIII{*}{}
+\saut\versLect{Celui qui médite la loi du Seigneur}{donne du fruit en son temps.}
+\Laudes\label{JeIILa}
+\rubrique{Le jeudi II:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Regarde, Seigneur K091.ly" 
+\end{lilypond}
+\rubrique{Le jeudi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Mon Dieu, mon Dieu K751.ly" 
+\end{lilypond}
+\PsaumeLXXIX{*}{}
+\rubrique{Le jeudi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Guéris-moi K644.ly" 
+\end{lilypond}
+\rubrique{Le jeudi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Que cette coupe L551.ly" 
+\end{lilypond}
+\CantiqueGXX{*}{}
+\rubrique{Le jeudi II:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je mettrai ma loi K724.ly" 
+\end{lilypond}
+\rubrique{Le jeudi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Seigneur délivre L531.ly" 
+\end{lilypond}
+\PsaumeLXXX{*}{}
+\Repons{II}{II}{}{}
+\rubrique{Le jeudi Saint, répons p. \pageref{ReponsJS}.}{0pt}{0pt}
+\jour{Vendredi}
+\Lectures
+\PsaumeXXXVII{*}{}
+%\PsaumeXXXVII{*}{}
+%\PsaumeXXXVII{*}{}
+
+\saut\versLect{Revenons au Seigneur, notre Dieu,}{car il est tendre et miséricordieux.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Quand vos péchés K624.ly" 
+\end{lilypond}
+\PsaumeL{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis pauvre L512.ly" 
+\end{lilypond} %\Stiques
+\CantiqueGLVII{*}{} %\Strophes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, en toi est la source K311.ly" 
+\end{lilypond}
+\PsaumeCVLII{*}{}
+\Repons{}{II}{}{}
+\jour{Samedi}
+\Lectures
+\PsaumeCV{*}{}
+%\PsaumeCV{*}{}
+%\PsaumeCV{*}{}
+\saut\versLect{Celui qui fait la vérité}{vient à la lumière.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis descendu C414.ly" 
+\end{lilypond}
+\PsaumeXCI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ma vie, nul K011.ly" 
+\end{lilypond}
+\CantiqueGII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... rachète K626.ly" 
+\end{lilypond}
+\PsaumeVIII{*}{}
+\Repons{}{II}{}{}
+
+
+
+\Semaine{III}
+\jour{Dimanche}
+\Lectures
+\PsTitre{144}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, en toi est la source K311.ly" 
+\end{lilypond}
+\PsaumeCXLIVpI{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Mon âme a soif K312.ly" 
+\end{lilypond}
+\PsaumeCXLIVpII{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/De ton sein K313.ly" 
+\end{lilypond}
+\PsaumeCXLIVpIII{*}{}
+\saut\versLect{Viens manger le pain de l'intelligence,}{et boire l'eau de la sagesse.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu arraches L933.ly" 
+\end{lilypond}
+\PsaumeXCII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ce jour est saint K052.ly" 
+\end{lilypond}
+\rubrique{Partition soliste p. {\normalcolor\pageref{Ne}}.}{0pt}{}
+\CantiqueGV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Le Seigneur a pour toi K113.ly" 
+\end{lilypond}
+\PsaumeCVLIII{*}{}
+\ReponsDi{}{DiIII}{}{}
+\jour{Lundi}
+\Lectures
+\PsaumeIL{*}{}
+%\PsaumeIL{*}{}
+%\PsaumeIL{*}{}
+\saut\versLect{Convertissez-vous et croyez à la Bonne Nouvelle!}{Le règne de Dieu est là!}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ils t'ont abandonné K725.ly" 
+\end{lilypond}
+\PsaumeLXXXIII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Il établit sa demeure L952.ly" 
+\end{lilypond}
+\CantiqueGXVII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Comme le Père K636.ly" 
+\end{lilypond}
+\PsaumeVC{*}{}
+\Repons{}{III}{}{}
+\jour{Mardi}
+\Lectures
+\PsaumeLXVII{*}{}
+%\PsaumeLXVII{*}{}
+%\PsaumeLXVII{*}{}
+\saut\versLect{C'est maintenant le jour favorable,}{c'est maintenant le jour du salut.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ne me rejette pas L731.ly" 
+\end{lilypond}
+\PsaumeLXXXIV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Que votre coeur C210.ly" 
+\end{lilypond}
+\CantiqueGXXI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma lumière K211.ly" 
+\end{lilypond}
+\PsaumeLXVI{*}{}
+\Repons{}{III}{}{}
+\jour{Mercredi}
+\Lectures\subsection{Psaume 88}
+\PsaumeLXXXVIIIpI{*}{}
+\PsaumeLXXXVIIIpII{*}{}
+\PsaumeLXXXVIIIpIII{*}{}
+\saut\versLect{Convertissez-vous et faites pénitence;}{faites-vous un cœur nouveau et un esprit nouveau.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ne t'éloigne pas K744.ly" 
+\end{lilypond}
+\PsaumeLXXXV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Celui qui perd K634.ly" 
+\end{lilypond}
+\CantiqueGXXIII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Sans fin, je cherche F225.ly" 
+\end{lilypond}
+\PsaumeVCII{*}{}
+\Repons{}{III}{}{}
+\jour{Jeudi}
+\Lectures\subsection{Psaume 88}
+\PsParTitre{IV}{88}
+\dstrophe
+\deb \vers{20}Jad\gras{i}s, en visi\gras{o}n, tu as parl\gras{é}\mediante
+\gras{e}t tu as d\gras{i}t à tes am\gras{i}s:\finale
+\deb \og{}J'ai impos\gras{é} le diad\gras{è}me à un pre\gras{u}x,\mediante
+j'ai exalt\gras{é} un cad\gras{e}t de mon pe\gras{u}ple.
+\fstrophe
+\dstrophe
+\deb \vers{21}\ogSuppr{}J'ai trouv\gras{é} Dav\gras{i}d mon servite\gras{u}r,\mediante
+je l'ai o\gras{i}nt de mon hu\gras{i}le sa\gras{i}nte;\finale
+\deb \vers{22}pour lu\gras{i} ma ma\gras{i}n sera f\gras{e}rme,\mediante
+mon br\gras{a}s auss\gras{i} le rendra f\gras{o}rt.\fg{}
+\fstrophe
+\PsaumeLXXXVIIIpIV{}{}
+\PsaumeLXXXVIIIpV{*}{}
+\PsaumeLXXXIX{*}{}
+\saut\versLect{Celui qui médite la loi du Seigneur}{donne du fruit en son temps.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Il fallait qu'un seul K745.ly" 
+\end{lilypond}
+\PsaumeLXXXVI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... dans ta tendresse K092.ly" 
+\end{lilypond}
+\CantiqueGXXVI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Père, écoute K213.ly" 
+\end{lilypond}
+\PsaumeVCIII{*}{}
+\Repons{}{III}{}{}
+\jour{Vendredi}
+\Lectures\subsection{Psaume 68}\label{VeIIILe}
+%\rubrique{Le vendredi III:}{2ex}{0pt}
+%Antienne
+\rubrique{Le jeudi Saint:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ne sois pas loin L513.ly" 
+\end{lilypond}
+\PsaumeLXVIIIpI{*}{}
+\rubrique{Le jeudi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/J'espérais la compassion L511.ly" 
+\end{lilypond}
+\PsaumeLXVIIIpII{*}{}
+\rubrique{Le jeudi Saint:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis pauvre L512.ly" 
+\end{lilypond}
+\PsaumeLXVIIIpIII{*}{}
+\rubrique{Le vendredi III:}{2ex}{0pt}
+\versLect{Revenons au Seigneur, notre Dieu,}{car il est tendre et miséricordieux.}
+\rubrique{Le jeudi Saint:}{2ex}{0pt}
+\versLect{Quand j'aurai été élevé de terre,}{j'attirerai à moi tous les hommes.}
+\rubrique{Le jeudi Saint, on prend la suite de l'office p.  \pageref{JeIILa}.}{2ex}{0pt}
+\Laudes\label{VeIIILa}
+\rubrique{Le mercredi des Cendres:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Pouvez-vous boire K732.ly" 
+\end{lilypond}
+\rubrique{Le vendredi III:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/C'est la miséricorde K615.ly" 
+\end{lilypond}
+\PsaumeL{*}{}
+\rubrique{Le mercredi des Cendres:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Si quelqu'un veut K614.ly" 
+\end{lilypond}
+\rubrique{Le vendredi III:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ils ont percé K752.ly" 
+\end{lilypond}
+\CantiqueGXLII{*}{}
+\rubrique{Le mercredi des Cendres:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, relève K093.ly" 
+\end{lilypond}
+\rubrique{Le vendredi III:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Nous étions morts K714.ly" 
+\end{lilypond}
+\PsaumeIC{*}{}
+\rubrique{Le mercredi des Cendres, répons p. \pageref{ReponsMeC}.}{2ex}{0pt} \par \vspace{-6ex}
+\Repons{III}{III}{}{}
+\jour{Samedi}
+\Lectures
+\PsaumeCVI{*}{}
+%\PsaumeCVI{*}{}
+%\PsaumeCVI{*}{}
+\saut\versLect{Celui qui fait la vérité}{vient à la lumière.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ils ont éprouvé K646.ly" 
+\end{lilypond}
+\PsaumeCXVIIIpXIX{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/C'est toi, Seigneur, qui éclaires K412.ly" 
+\end{lilypond}
+\CantiqueGXII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Celui qui croit K756.ly" 
+\end{lilypond}
+\PsaumeCXVI{*}{}
+\Repons{}{III}{}{}
+
+
+
+\Semaine{IV}
+\jour{Dimanche}
+\Lectures
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Des ténèbres, le Seigneur K411.ly" 
+\end{lilypond}
+\PsaumeXXIII{*}{}
+\par
+\PsTitre{65}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/C'est toi, Seigneur, qui éclaires K412.ly" 
+\end{lilypond}
+\PsaumeLXVpI{*}{}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Qui me suit K413.ly" 
+\end{lilypond}
+\PsaumeLXVpII{*}{}
+\saut\versLect{Tes paroles, Seigneur, sont pour nous l'esprit et la vie;}{tu as les paroles de la vie éternelle.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, relève K093.ly" 
+\end{lilypond}
+\PsaumeCXVIIDir{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Ce jour est saint K052.ly" 
+\end{lilypond}
+\rubrique{Partition soliste p. {\normalcolor\pageref{Ne}}.}{0pt}{}
+\CantiqueGV{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma louange K616.ly" 
+\end{lilypond}
+\PsaumeCL{*}{}
+\ReponsDi{}{DiIV}{}{}
+\jour{Lundi}
+\Lectures
+\PsaumeLXXII{*}{}
+%\PsaumeLXXII{*}{}
+%\PsaumeLXXII{*}{}
+\saut\versLect{Convertissez-vous et croyez à la Bonne Nouvelle!}{Le règne de Dieu est là!}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Des ténèbres, le Seigneur K411.ly" 
+\end{lilypond}
+\PsaumeLXXXIX{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je vais te conduire K645.ly" 
+\end{lilypond}
+\CantiqueGXXVII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/La terre tremble L552.ly" 
+\end{lilypond}
+\renewcommand{\PsParTitre}[2]{\subsection{Psaume #2 --- #1}}
+\PsaumeCXXXIVpI{*}{}
+\renewcommand{\PsParTitre}[2]{\def\CXVIII{118}\def\numero{#2}
+	\ifx\CXVIII\numero \subsection{Psaume #2 --- #1}%
+	\else\subsubsection{#1}\fi
+}
+\Repons{}{I}{}{}
+\jour{Mardi}
+\Lectures
+\PsaumeCI{*}{}
+%\PsaumeCI{*}{}
+%\PsaumeCI{*}{}
+\saut\versLect{C'est maintenant le jour favorable,}{c'est maintenant le jour du salut.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/J'ai gardé K112.ly" 
+\end{lilypond}
+\PsaumeC{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Homme de douleur K014.ly" 
+\end{lilypond}
+\CantiqueGVLII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/C'est toi, Seigneur L751.ly" 
+\end{lilypond}
+\renewcommand{\PsParTitre}[2]{\subsection{Psaume #2 --- #1}}
+\PsaumeCXLIIIpI{*}{}
+\renewcommand{\PsParTitre}[2]{\def\CXVIII{118}\def\numero{#2}
+	\ifx\CXVIII\numero \subsection{Psaume #2 --- #1}%
+	\else\subsubsection{#1}\fi
+}
+\Repons{}{I}{}{}
+\jour{Mercredi}
+\Lectures
+\rubrique{Le mercredi des Cendres:}{0ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... dans ta tendresse K092.ly" 
+\end{lilypond}
+\PsaumeCII{*}{}
+\saut\versLect{Convertissez-vous et faites pénitence,}{faites-vous un cœur nouveau et un esprit nouveau.}
+\rubrique{Le mercredi des Cendres, on prend la suite de l'office p.  \pageref{VeIIILa}.}{2ex}{0pt}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma lumière K211.ly" 
+\end{lilypond}
+\PsaumeCVII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je le crois, je verrai L932.ly" 
+\end{lilypond}
+\CantiqueGXXXVIII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Celui qui fait la vérité K726.ly" 
+\end{lilypond}
+\PsaumeCVL{*}{}
+\Repons{}{I}{}{}
+\jour{Jeudi}
+\Lectures
+\PsaumeXLIII{*}{}
+%\PsaumeXLIII{*}{}
+%\PsaumeXLIII{*}{}
+\saut\versLect{Celui qui médite la loi du Seigneur}{donne du fruit en son temps.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/J'étais comme une agneau K652.ly" 
+\end{lilypond}
+\PsaumeCXLII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Voici que nous montons K015.ly" 
+\end{lilypond}
+\CantiqueGXLI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Guéris-moi K644.ly" 
+\end{lilypond}
+\PsaumeCVLI{*}{}
+\Repons{des Cendres}{III}{IV}{I}
+\jour{Vendredi}
+\Lectures\subsection{Psaume 77}
+\PsaumeLXXVIIpI{*}{}
+\PsaumeLXXVIIpII{*}{}
+\PsaumeLXXVIIpIII{*}{}
+\saut\versLect{Revenons au Seigneur, notre Dieu,}{car il est tendre et miséricordieux.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Par ses souffrances K635.ly" 
+\end{lilypond}
+\PsaumeL{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Une femme K755.ly" 
+\end{lilypond}
+\CantiqueGVII{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Détruisez ce Temple K735.ly" 
+\end{lilypond}
+\PsaumeCVLII{*}{}
+\Repons{des Cendres}{III}{IV}{I}
+\jour{Samedi}
+\Lectures\subsection{Psaume 77}
+\subsubsection{IV}
+\dstrophe
+\deb \vers{40}Que de fo\gras{i}s nos pères \verset{41} revena\gras{i}ent tent\gras{e}r leur Di\gras{e}u,\mediante
+afflig\gras{e}r le sa\gras{i}nt d'Isra\gras{ë}l,\finale
+\deb \vers{42}sans n\gras{u}l souven\gras{i}r de sa ma\gras{i}n,\mediante
+ni du jo\gras{u}r qu'il les sauv\gras{a} de l'adversa\gras{i}re.
+\fstrophe
+\PsaumeLXXVIIpIV{}{}
+\PsaumeLXXVIIpV{*}{}
+\PsaumeLXXVIIpVI{*}{}
+\saut\versLect{Celui qui fait la vérité}{vient à la lumière.}
+\Laudes
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je suis descendu C414.ly" 
+\end{lilypond}
+\PsaumeXCI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Je vous donnerai K754.ly" 
+\end{lilypond}
+\CantiqueGVLI{*}{}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Lève-toi... rachète K626.ly" 
+\end{lilypond}
+\PsaumeVIII{*}{}
+\Repons{des Cendres}{III}{IV}{I}
+
+\partie{Cantiques de l'Ancien \mbox{Testament}}
+\par\CtTitre{Cantique de Néhémie}{}{}\label{Ne}
+\par\begin{lilypond}
+	\include "FtAnt.ly"  \include "TonsDef0.ly"\include "Cantiques NT/Ne K052.ly" 
+\end{lilypond}
+\bigskip\rubrique{Ad libitum pour les dimanches I et III:}{2ex}{}
+\CantiqueGIL{*}{}
+\rubrique{Ad libitum pour les dimanches II et IV:}{2ex}{}
+\CantiqueGVLIII{*}{}
+%\renewcommand{\gras}[1]{\textbf{\underline{#1}}}
+
+
+\partie{Répons}
+\titleformat{\chapter}[hang]{\itshape\color{gray}\Huge}{}{0pt}{\centering}{}
+\titlespacing{\chapter}{0pt}{-1.5em}{2em}
+%\fancyhead[OR]{\nouppercase{\scshape\leftmark}}
+\fancyhead[OR]{\color{gray}\large\uppercase{\scshape\leftmark}}
+\chapter{Mercredi des Cendres}
+\label{ReponsMeC}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Revenez à moi K094.ly" 
+\end{lilypond}
+\paragraph{1. }Voici maintenant le temps favorable:\\
+Déchirez votre cœ\gras{u}r, et non vos vêtements,\\
+Pour ne pas recevoir en va\gras{i}n la grâce du pardon.\bigskip
+\pagebreak
+\paragraph{2. }Voici maintenant le jour du salut:\\
+Convoquez l'assemblée du pe\gras{u}ple devant le Seigneur.\\
+Qui sait? S'il revenait et nous combla\gras{i}t de sa miséricorde?\bigskip
+\paragraph{Doxologie }Gloire à toi, notre Père, qui nous ouvre un jour nouveau\\
+Pour que nous entrions avec ton F\gras{i}ls au lieu de ton repos\\
+Dans le pardon de l'Espr\gras{i}t qui vient tourner notre cœur vers toi.\bigskip
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Antiennes/Regarde, Seigneur K091.ly" 
+\end{lilypond}
+
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Semaines des Cendres et III}
+\label{ReponsIII}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Jérusalem, retourne K823.ly" 
+\end{lilypond}
+
+\paragraph{Lundi}Entends-mo\gras{i}, Seigneur! ' je crie vers toi!\\
+Pas \gras{u}n qui m\underline{e} console!\\
+Mon cœur en moi se retourne. ' Vo\underline{i}s mon angoisse!\\
+Fais ven\gras{i}r le jour que tu as pr\underline{o}clamé!
+\paragraph{Mardi}Cri\gras{e}z vers le Seigneur, ' remparts de la sainte Sion!\\
+Jérusal\gras{e}m, laisse couler tes larmes comme \underline{u}n torrent!\\
+Répands ton cœur comme de l'eau ' devant la fac\underline{e} du Seigneur!\\
+Debo\gras{u}t! ' Pousse un cri dans la nuit! ' Élève vers lu\underline{i} les mains!
+\paragraph{Mercredi}Seigne\gras{u}r, souviens-toi de ma misère ' et du fiel de mon angoisse!\\
+Je me souvi\gras{e}ns ' et mon âme en mo\underline{i} s'effondre!\\
+Mais au matin, Seigneur, tu renouvell\underline{e}s tes tendresses.\\
+Ma p\gras{a}rt, c'est le Seigneur, ' en qui j'ai mis m\underline{o}n espoir!
+\paragraph{Jeudi}Je ne d\gras{o}nnerai point de répit à mes yeux,\\
+Et po\gras{i}nt de trêve \underline{à} mes larmes,\\
+Afin que le Seigneur regarde du haut d\underline{e} sa demeure\\
+Le malhe\gras{u}r de la fille d\underline{e} Sion.
+\paragraph{Vendredi}Dans une f\gras{o}sse, ' ils ont précipité ma vie.\\
+Vers to\gras{i}, Seigneur, j'ai crié: ' Je su\underline{i}s perdu!\\
+J'ai invoqué ton nom, Seigneur! ' Écout\underline{e} mon appel!\\
+Tu t'es fait pr\gras{o}che ' et tu m'as dit: N\underline{e} crains pas!
+\paragraph{Samedi}Pourquo\gras{i} nous oublierais-tu pour toujours?\\
+Pourquo\gras{i} nous abandonnerais-tu jusqu'à la f\underline{i}n des jours?\\
+Fais-nous revenir, Seigneur, ' et nous revi\underline{e}ndrons vers toi.\\
+Renouvelle nos jo\gras{u}rs, ' comme aux jours d'a\underline{u}trefois!
+\paragraph{Doxologie}Gloire à to\gras{i}, notre Père, ' qui es riche en pardon.\\
+Gloire à to\gras{i}, Fils bien-aimé, ' qui nous as sauvés d\underline{e} la mort.\\
+Gloire à toi, Esprit de sainteté, C\underline{o}nsolateur.\\
+Trinité sa\gras{i}nte, ' louange et glo\underline{i}re à toi!
+
+\rubrique{Cantique évangélique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Semaines I et IV}
+\label{ReponsI}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Jérusalem, combien de fois K821.ly" 
+\end{lilypond}
+\rubrique{Cantique évangélique p. \pageref{NTII}.}{2ex}{0pt}
+
+\newpage\null\thispagestyle{empty}
+\chapter{Semaines II et V }
+\label{ReponsII}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Jérusalem, toi qui tues K822.ly" 
+\end{lilypond}
+
+\paragraph{Lundi}Nous tournons notre visage vers toi, Seigneur,\\
+Nous t'implorons dans le jeûne et la s\underline{u}ppl\gras{i}cation:\\
+Non en raison de nos œuvres ' mais de ta seule miséricorde,\\
+Car ton Nom est invoqué sur t\underline{o}n Pe\gras{u}ple.
+\paragraph{Mardi}Toi, Seigneur, qui gardes l'alliance pour ceux qui t'aiment,\\
+Écoute la prière de ton Peuple qu\underline{i} cr\gras{i}e vers toi!\\
+Nous avons péché, ' nous avons commis le mal,\\
+Nous nous sommes détournés ' loin de ta P\underline{a}r\gras{o}le.
+\paragraph{Mercredi}Nous n'avons pas écouté tes serviteurs les prophètes,\\
+Par qui tu nous appelais ' à nous to\underline{u}rn\gras{e}r vers toi.\\
+À toi, mon Dieu, la justice! ' À nous la honte au visage,\\
+Car nous avons péché contre to\underline{i}, Se\gras{i}gneur.
+\paragraph{Jeudi}À toi, Seigneur, la miséricorde et le pardon!\\
+Tu nous as châtiés à cause de n\underline{o}s fa\gras{u}tes,\\
+Et nous n'avons pas cherché à apaiser ta face\\
+En revenant de tout cœur à ta v\underline{é}r\gras{i}té.
+\paragraph{Vendredi}Toi qui as délivré ton Peuple de l'Égypte\\
+Par la force de ton bras ' et par ta main pu\underline{i}ss\gras{a}nte,\\
+Détourne ta colère et ta fureur de Jérusalem,\\
+Car la détresse qui pèse sur nous ' est tr\underline{o}p lo\gras{u}rde.
+\paragraph{Samedi}Ouvre les yeux, Seigneur, ' et vois notre désolation!\\
+Que ta face illumine ta ville sainte de sa l\underline{u}mi\gras{è}re!\\
+Seigneur, écoute! ' Seigneur, pardonne!\\
+Seigneur, n\underline{e} t\gras{a}rde pas!
+\paragraph{Doxologie}Gloire à toi, Père des miséricordes:\\
+Tu as fais resplendir sur ton Peuple ' le Nom de J\underline{é}s\gras{u}s, ton Fils.\\
+Par ton Esprit, ' tu fais jaillir en nous le repentir!\\
+Gloire et louange à Dieu ' dans les siècles d\underline{e}s si\gras{è}cles!\bigskip
+
+%\rubrique{Cantique évangélique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Dimanche I}
+\label{ReponsDiI}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Il est vaincu K120.ly" 
+\end{lilypond}
+\par\begin{lilypond}
+	\include "FtAnt.ly"\layout { ragged-last = ##f } \include "Répons/Il est vaincu Cplts K120.ly" 
+\end{lilypond}
+\newpage
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, ma part K111.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+%\newpage\null\thispagestyle{empty}
+\chapter{Dimanche II}
+\label{ReponsDiII}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Louange à toi, Jésus K220.ly" 
+\end{lilypond}
+\pagebreak
+\par\begin{lilypond}
+	\include "FtAnt.ly"\layout { ragged-last = ##f }\include "Répons/Louange à toi, Jésus Cplts K220.ly" 
+\end{lilypond}
+
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Seigneur, tu es ma lumière K211.ly" 
+\end{lilypond}
+%\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+\newpage\null\thispagestyle{empty}
+\chapter{Dimanche III}
+\label{ReponsDiIII}
+\par\begin{lilypond}
+\include "FtAnt.ly"\include "Répons/Vous tous qui avez soif K320.ly" 
+\end{lilypond}
+\par\begin{lilypond}
+	\include "FtAnt.ly"\layout { ragged-last = ##f } \include "Répons/Vous tous qui avez soif Cplts K320.ly" 
+\end{lilypond}
+
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Viens à mon aide B233.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Dimanche IV}
+\label{ReponsDiIV}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Comme l'aveugle K420.ly" 
+\end{lilypond}
+\par\begin{lilypond}
+	\include "FtAnt.ly"\layout { ragged-last = ##f } \include "Répons/Comme l'aveugle Cplts K420.ly" 
+\end{lilypond}
+\pagebreak
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Qui me suit K413.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+\newpage\null\thispagestyle{empty}
+\chapter{Dimanche V}
+\label{ReponsDiV}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Gloire à toi, Christ K520.ly" 
+\end{lilypond}
+\par\begin{lilypond}
+	\include "FtAnt.ly"\layout { ragged-last = ##f } \include "Répons/Gloire à toi, Christ Cplts K520.ly" 
+\end{lilypond}
+
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Tu as tiré K513.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Dimanche des Rameaux \mbox{et de la Passion}}
+\label{ReponsR}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/O Christ tu t'avances L050.ly" 
+\end{lilypond}
+\par\begin{lilypond}
+	\include "FtAnt.ly"\layout { ragged-last = ##f } \include "Répons/O Christ tu t'avances Cplts L050.ly" 
+\end{lilypond}
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Avec les enfants L063.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\newpage\null\thispagestyle{empty}
+\chapter{Lundi Saint}
+\label{ReponsLS}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Pitié pour nous L220.ly" 
+\end{lilypond}
+\paragraph{1.}Ô croix, arbre nouveau du Roya\gras{u}me qui vient\\
+Où viennent s'abrit\gras{e}r les nations dispersées,\\
+En toi, tous sont sauvés\\
+Et tressa\gras{i}llent de joie.
+\pagebreak\paragraph{Doxologie}Gloire au Père, ' au F\gras{i}ls, ' au Saint Esprit,\\
+Comme il éta\gras{i}t au commencement,\\
+Maintenant et toujours,\\
+Dans les si\gras{è}cles des siècles.
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Comme le Père K636.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Mardi Saint}
+\label{ReponsMaS}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Je donne ma vie L320.ly" 
+\end{lilypond}
+\paragraph{1.}Maintenant, le Fils de l'homme ' va entr\gras{e}r dans le royaume de la mort.\\
+La nuit est avancée ' et déj\gras{à} le jour est proche\\
+Où le Seigneur crucifi\gras{é} ' brisera les puissances de l'Enfer.
+\pagebreak
+\paragraph{Doxologie}Maintenant, ô maîtres souverain, ' P\gras{è}re des miséricordes,\\
+Nos yeux ont vu ton salut, ' Jésus ton F\gras{i}ls, mort sur la croix,\\
+Et dans l'Esprit de vie, ' nous célébrons l'amo\gras{u}r du cœur de notre Dieu.
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Père, glorifie C108.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Mercredi Saint}
+\label{ReponsMeS}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Répons/Nous annonçons L420.ly" 
+\end{lilypond}
+\paragraph{1.}Je suis crucifi\gras{é} avec le Christ,\\
+Et si je vis, ' ce n'est plus moi qui vis,\\
+Mais c'est le Christ mort et ressuscité\\
+qui v\gras{i}t en moi.
+\pagebreak
+\paragraph{Doxologie}Gloire au Père, ' qui n'a pas abandonné l'h\gras{o}mme à la mort.\\
+Gloire au Fils, sagesse éternelle, ' et source du salut.\\
+Gloire à l'Esprit d'amour\\
+Qui fait de no\gras{u}s des vivants.
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Tu n'as voulu B L732.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Jeudi Saint}
+\label{ReponsJS}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Répons/Je vous donne L545.ly" 
+\end{lilypond}
+\paragraph{1.}Cloué de chair et d'esprit\\
+À la croix du Seigne\gras{u}r Jésus-Christ,\\
+Affermis dans son amo\gras{u}r ' par le sang du Christ,\\
+Aimons-nous les uns les autres, ' comme il nous a aimés.
+\pagebreak\paragraph{2.}Le Seigneur Jésus,\\
+La nuit qu'il f\gras{u}t livré,\\
+Ayant aimé les siens ' qui éta\gras{i}ent dans le monde,\\
+Il les aima jusqu'à la fin.
+\rubrique{Antienne du cantique évangélique:}{2ex}{0pt}
+\par\begin{lilypond}
+\include "FtAnt.ly" \include "Antiennes/Père, j'ai gardé L231.ly" 
+\end{lilypond}
+\rubrique{Cantique p. \pageref{NTII}.}{2ex}{0pt}
+
+\chapter{Cantique de Zacharie}\pagestyle{plain}
+\label{NTII}\CantiqueGNTII{}{}
+
+\newpage\null\thispagestyle{empty}
+\chapter{Preces}
+\hspace{0.15\linewidth}\begin{minipage}{0.6\linewidth}
+\par\begin{lilypond}
+	\include "FtAnt.ly" \include "Présidence/Preces louanges ; ton du careme K061.ly" 
+\end{lilypond}
+\end{minipage}
+\fancyhead[EC]{}
+
+\chapter{Notre Père}
+\par\begin{lilypond}
+	\include "FtHy.ly" \include "Ordinaires/Notre Père K062.ly" 
+\end{lilypond}
+
+\vfill
+\par\begin{lilypond}
+	\include "FtAnt.ly" \layout { indent = #40 } \include "Présidence/Bénissons ; ton du careme.ly" 
+\end{lilypond}
+\vspace{5em}
+
+\newpage\null\vfill\parindent=0pt
+\begin{minipage}{\linewidth}
+\tiny\centering 
+Sanctuaire de la Sainte Baume 2022\par Répartition romaine des psaumes\par Musique de la Liturgie chorale du Peuple de Dieu
+\end{minipage}\pagestyle{empty}
+\cleardoublepage\null
+
+\end{document}

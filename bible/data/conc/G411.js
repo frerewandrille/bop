@@ -1,0 +1,1 @@
+window.__CONC={"G41175":[["MAT26.53","plus de"],["LUK7.42","plus"],["LUK9.13","plus"],["JHN21.15","plus que / en plus de"],["ACT4.17","plus / plus nombreux"],["ACT20.9","plus longtemps / plus nombreux"],["ACT24.4","plus / plus nombreux"],["2TI3.9","plus ; / plus nombreux ;"]]};

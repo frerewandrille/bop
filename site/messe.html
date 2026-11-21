@@ -1,0 +1,323 @@
+<!doctype html>
+<!-- Page « Messe » : messe du jour (lectures AELF, propres du Missel romain et du Missel de l'Ordre),
+     consultation du Missel (bouton « Missel », « Missel OP »), export PDF / Word. Logique : js/messe.js ;
+     données : donnees/missel.json (outils/construire_missel.py), missel_op.json (outils/construire_missel_op.py),
+     sainte_baume.json (partitions de la Vigile pascale). -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Messe du jour</title>
+<meta name="description" content="Messe du jour : lectures de l'AELF et propres du Missel romain.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="fichiers" content="">
+<meta name="fichiers-cle" content="">
+<meta name="theme-color" content="#7a1f1f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icone.svg?v=2" type="image/svg+xml">
+<link rel="stylesheet" href="css/polices.css?v=86">
+<link rel="stylesheet" href="css/office.css?v=103">
+<link rel="stylesheet" href="css/menu.css?v=9">
+<link rel="stylesheet" href="css/impression.css?v=86" media="print">
+<link rel="stylesheet" href="css/messe.css?v=10">
+</head>
+<body class="page-messe">
+<script src="js/menu.js?v=8"></script>
+<header class="barre">
+  <div class="barre-gauche">
+    <label class="cache" for="date">Date</label>
+    <button class="bouton icone" id="veille" title="Jour précédent" aria-label="Jour précédent">‹</button>
+    <input type="date" id="date">
+    <button class="bouton icone" id="lendemain" title="Jour suivant" aria-label="Jour suivant">›</button>
+    <button class="bouton avec-icone" id="aujourdhui" title="Revenir à aujourd'hui" aria-label="Aujourd'hui"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><circle class="plein" cx="12" cy="15" r="2"/></svg><span class="lib">Aujourd'hui</span></button>
+  </div>
+  <nav class="onglets" id="onglets" aria-label="Messes du jour"></nav>
+  <div class="barre-droite">
+    <button class="bouton avec-icone" id="ouvrir-missel-op" hidden title="Consulter le Missel de l'Ordre des Prêcheurs : calendrier, propre des saints, communs, lectionnaire" aria-label="Missel OP" aria-pressed="false"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><text x="12.2" y="13.2" text-anchor="middle" class="ico-op">OP</text></svg><span class="lib">Missel OP</span></button>
+    <button class="bouton avec-icone" id="ouvrir-missel" title="Consulter le Missel : ordinaire, préfaces, prières eucharistiques, propres, communs, bénédictions" aria-label="Missel" aria-pressed="false"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><path d="M12 6.5v7M9.5 9h5"/><path d="M16 3v6.5l-1.25-1-1.25 1V3" class="signet"/></svg><span class="lib">Missel</span></button>
+    <button class="bouton avec-icone" id="ouvrir-export" title="Exporter les messes d'une période en PDF ou en Word" aria-label="Exporter en PDF ou en Word"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 10.5v6.5M9 14l3 3 3-3"/></svg><span class="lib">PDF / Word</span></button>
+    <span class="bouton icone cale" aria-hidden="true"></span>
+  </div>
+</header>
+
+<div class="cadre">
+  <nav class="sommaire" id="sommaire" aria-label="Sommaire de la messe"></nav>
+  <main id="office" class="contenu" aria-live="polite"><p class="chargement">Chargement…</p></main>
+</div>
+
+<div id="impression" class="impression"></div>
+
+<dialog id="export" class="fenetre">
+  <form method="dialog" id="form-export">
+    <h2>Produire les messes d'une période</h2>
+    <div class="grille">
+      <label>Du <input type="date" id="ex-debut" required></label>
+      <label>au <input type="date" id="ex-fin" required></label>
+    </div>
+    <fieldset>
+      <legend>Mise en page</legend>
+      <label><input type="radio" name="ex-format" value="A5" checked> Livret A5</label>
+      <label><input type="radio" name="ex-format" value="A4"> A4</label>
+      <label><input type="checkbox" id="ex-saut" checked> Chaque messe sur une nouvelle page</label>
+      <label><input type="checkbox" id="ex-rubriques" checked> Avec les rubriques (consignes en rouge)</label>
+    </fieldset>
+    <fieldset>
+      <legend>Fichier</legend>
+      <label><input type="radio" name="ex-sortie" value="pdf" checked> PDF (par la fenêtre d'impression)</label>
+      <label><input type="radio" name="ex-sortie" value="docx"> Word (.docx), modifiable</label>
+    </fieldset>
+    <p class="aide">Les jours qui ont plusieurs messes (Noël, Jeudi saint, Pâques…) les donnent toutes. Le choix fait pour un jour de saint
+      (messe du saint ou de la férie) est repris. PDF : choisissez « Enregistrer au format PDF » dans la fenêtre d'impression.</p>
+    <progress id="ex-progres" value="0" max="1" hidden></progress>
+    <p id="ex-etat" class="aide"></p>
+    <menu>
+      <button class="bouton" value="annuler" formnovalidate>Annuler</button>
+      <button class="bouton principal" id="ex-lancer" value="lancer">Préparer</button>
+    </menu>
+  </form>
+</dialog>
+
+<script src="js/docx.js?v=89"></script>
+<script src="js/calendrier.js?v=91"></script>
+<script src="js/aelf.js?v=86"></script>
+<script src="js/cle-fichiers.js?v=1"></script>
+<script src="js/messe.js?v=20"></script>
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const pad = (n) => String(n).padStart(2, "0");
+  const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const decaler = (s, n) => { const d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return iso(d); };
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // mêmes préférences que les offices : propre OP, taille, thème
+  let pref = { propreOP: true, taille: 18, theme: "auto" };
+  try { pref = { ...pref, ...JSON.parse(localStorage.getItem("breviaire-pref") || "{}") }; } catch (e) { /* rien */ }
+  if (pref.theme && pref.theme !== "auto") document.documentElement.setAttribute("data-theme", pref.theme);
+  document.documentElement.style.setProperty("--taille", (pref.taille || 18) + "px");
+
+  let missel = null, date = iso(new Date()), choix = 0, jeton = 0;
+  const m = /^#(\d{4}-\d{2}-\d{2})(?:\/(\d+))?/.exec(location.hash);
+  if (m) { date = m[1]; choix = +(m[2] || 0); }
+
+  async function lectures(d, j) {
+    let r = await AELF.brut("messes", d);
+    if (r) return { donnees: r, source: d };
+    const eq = AELF.equivalents(d, true);                          // date pas encore publiée : même jour liturgique
+    if (eq && eq.principal && eq.principal !== d) { r = await AELF.brut("messes", eq.principal); if (r) return { donnees: r, source: eq.principal }; }
+    return { donnees: null, source: null };
+  }
+
+  // nom d'une messe pour l'onglet : sans « Messe de… », sans les capitales de l'AELF
+  function libelle(nom) {
+    let t = nom.replace(/^Messe (de la |de l’|de l'|du )?/i, "");
+    return Messe.joli(t);
+  }
+  // ── Le Missel à consulter : #missel, #missel/<chapitre>, #missel/<chapitre>/<pièce>, #missel?q=mots
+  let vueMissel = null;
+  function routeMissel() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    const op = /^missel-op(\/|\?|$)/.test(h);
+    if (!op && !/^missel(\/|\?|$)/.test(h)) return null;
+    const [chemin, q] = h.slice(op ? 9 : 6).split("?q=");
+    return { chemin: chemin.replace(/^\//, ""), q: q || "", op };
+  }
+  function afficherMissel(r) {
+    vueMissel = r;
+    $("#date").value = date;
+    const v = r.op ? Messe.livreOP.vue(missel, r.chemin, r.q) : Messe.livre.vue(missel, r.chemin, r.q);
+    document.body.classList.add("mode-missel");
+    $("#ouvrir-missel").setAttribute("aria-pressed", r.op ? "false" : "true");
+    $("#ouvrir-missel-op").setAttribute("aria-pressed", r.op ? "true" : "false");
+    $("#onglets").hidden = true;
+    document.title = v.titre;
+    $("#office").innerHTML = v.html;
+    $("#sommaire").innerHTML = v.sommaire.map((x) => `<a href="${x.href}"${x.actif ? ' aria-current="page"' : ""}>${esc(x.titre)}</a>`).join("")
+      + `<a class="retour-jour" href="#${date}">‹ Messe du jour</a>`;
+    const f = document.querySelector("form[data-recherche-missel]");
+    const base = r.op ? "missel-op" : "missel";
+    if (f) f.onsubmit = (e) => { e.preventDefault(); const q = f.q.value.trim(); location.hash = q ? `${base}?q=${encodeURIComponent(q)}` : base; };
+    document.querySelectorAll("a[data-ancre]").forEach((a) => a.onclick = (e) => { e.preventDefault(); document.getElementById(a.getAttribute("href").slice(1))?.scrollIntoView({ behavior: "smooth" }); });
+    const imp = document.querySelector("[data-imprimer-missel]");
+    if (imp) imp.onclick = () => imprimerMissel(v.titre.replace(/ — Missel( OP)?$/, ""), r.op);
+    window.scrollTo(0, 0);
+    document.body.dataset.pret = "1";
+  }
+  function quitterMissel() {
+    vueMissel = null;
+    document.body.classList.remove("mode-missel");
+    $("#ouvrir-missel").setAttribute("aria-pressed", "false");
+    $("#ouvrir-missel-op").setAttribute("aria-pressed", "false");
+  }
+  // imprimer le texte du Missel affiché (une préface, une prière eucharistique, un formulaire…)
+  async function imprimerMissel(titre, op = false) {
+    const zone = $("#impression");
+    zone.className = "impression format-A5";
+    const art = document.querySelector("#office").cloneNode(true);
+    art.querySelectorAll(".no-print, form").forEach((x) => x.remove());
+    art.querySelectorAll("details").forEach((d) => d.setAttribute("open", ""));
+    zone.innerHTML = `<article class="office messe">${art.innerHTML}</article>`;
+    let st = document.getElementById("style-page");
+    if (!st) { st = document.createElement("style"); st.id = "style-page"; document.head.appendChild(st); }
+    const css = (t) => t.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+    st.textContent = `@page { size: A5; margin: 15mm 13mm 16mm;
+      @top-center { content: "${css((op ? "Missel de l’Ordre — " : "Missel romain — ") + titre)}"; font: 600 7pt/1 "Kepler Legende", Georgia, serif; letter-spacing: .1em; text-transform: uppercase; color: #888; }
+      @bottom-center { content: counter(page); font: 8.5pt/1 "Kepler Legende", Georgia, serif; color: #555; } }`;
+    document.body.classList.add("mode-impression");
+    await new Promise((r) => setTimeout(r, 300));
+    window.print();
+  }
+
+  async function afficher() {
+    quitterMissel();
+    const n = ++jeton;
+    $("#date").value = date;
+    const cible = `#${date}${choix ? "/" + choix : ""}`;
+    if (location.hash !== cible) history.replaceState(null, "", cible);
+    const j = Calendrier.jour(Calendrier.deIso(date), { propreOP: pref.propreOP });
+    document.title = `Messe — ${j.dateLongue}`;
+    $("#office").innerHTML = `<p class="chargement">Chargement…</p>`;
+    let a = { donnees: null, source: null };
+    try { a = await lectures(date, j); } catch (e) { /* hors connexion */ }
+    if (n !== jeton) return;
+    // messe choisie (saint ou férie), retenue par date comme le choix d'office ; à défaut, celle du calendrier
+    const r = Messe.construire(j, a.donnees, missel, choix, { source: a.source, messe: (pref.messeChoix || {})[date], renvois: true });
+    choix = r.choix;
+    $("#office").innerHTML = r.html;
+    // onglets : les messes du jour (Noël, Épiphanie, Ascension, Pâques…) ; cachés s'il n'y en a qu'une
+    const o = $("#onglets");
+    o.hidden = r.messes.length < 2;
+    o.innerHTML = r.messes.map((nom, i) => `<button data-messe="${i}"${i === choix ? ' aria-current="page"' : ""}>${esc(libelle(nom))}</button>`).join("");
+    o.querySelectorAll("button").forEach((b) => b.onclick = () => { choix = +b.dataset.messe; afficher(); });
+    const sel = document.querySelector("select[data-choix-messe]");
+    if (sel) sel.onchange = () => {
+      pref.messeChoix = { ...(pref.messeChoix || {}), [date]: sel.value };
+      try { const p = JSON.parse(localStorage.getItem("breviaire-pref") || "{}"); p.messeChoix = pref.messeChoix; localStorage.setItem("breviaire-pref", JSON.stringify(p)); } catch (e) { /* rien */ }
+      choix = 0; afficher();
+    };
+    $("#sommaire").innerHTML = r.sections.map((s) => `<a href="#${s.id}">${esc(s.titre)}</a>`).join("");
+    $("#sommaire").querySelectorAll("a").forEach((x) => x.onclick = (e) => { e.preventDefault(); document.getElementById(x.getAttribute("href").slice(1))?.scrollIntoView({ behavior: "smooth" }); });
+    document.body.dataset.pret = "1";
+  }
+
+  $("#veille").onclick = () => { date = decaler(date, -1); choix = 0; afficher(); };
+  $("#lendemain").onclick = () => { date = decaler(date, 1); choix = 0; afficher(); };
+  $("#aujourdhui").onclick = () => { date = iso(new Date()); choix = 0; afficher(); };
+  $("#date").onchange = (e) => { if (e.target.value) { date = e.target.value; choix = 0; afficher(); } };
+  // ── Export : les messes d'une période, en PDF (fenêtre d'impression) ou en Word (.docx)
+  async function produire(debut, fin, format, saut, sortie, avecRubriques, imprimer = true) {
+    const prog = $("#ex-progres"), etat = $("#ex-etat");
+    const jours = [];
+    for (let d = debut; d <= fin; d = decaler(d, 1)) jours.push(d);
+    if (jours.length > 400) throw new Error("période trop longue (400 jours au plus)");
+    prog.hidden = false; prog.max = jours.length; prog.value = 0;
+    const morceaux = [];
+    for (const d of jours) {
+      const j = Calendrier.jour(Calendrier.deIso(d), { propreOP: pref.propreOP });
+      let a = { donnees: null, source: null };
+      try { a = await lectures(d, j); } catch (e) { /* hors connexion */ }
+      const o = { source: a.source, messe: (pref.messeChoix || {})[d] };
+      const n = Messe.construire(j, a.donnees, missel, 0, o).messes.length || 1;
+      for (let i = 0; i < n; i++) {
+        let html = Messe.construire(j, a.donnees, missel, i, o).html;
+        html = html.replace(/<details class="rubrique longue"><summary>/g, '<details class="rubrique longue" open><summary>');
+        if (!avecRubriques) html = html.replace(/<div class="rubriques">[\s\S]*?<\/div>/g, "").replace(/<p class="rubrique">[\s\S]*?<\/p>/g, "");
+        morceaux.push(`<article class="office messe">${html}</article>`);
+      }
+      prog.value++; etat.textContent = `${prog.value} / ${jours.length} jours préparés`;
+    }
+    const jourL = (d) => Calendrier.jour(Calendrier.deIso(d), {}).dateLongue;
+    const periode = debut === fin ? jourL(debut) : `${jourL(debut)} — ${jourL(fin)}`;
+    if (sortie === "docx") {
+      etat.textContent = "Préparation du fichier Word…";
+      const blob = await Docx.creer(morceaux, { format, titre: "Missel romain", sousTitre: periode, saut });
+      if (!imprimer) {
+        const b = new Uint8Array(await blob.arrayBuffer()); let bin = "";
+        for (let i = 0; i < b.length; i += 0x8000) bin += String.fromCharCode.apply(null, b.subarray(i, i + 0x8000));
+        window.__docx = btoa(bin); document.body.dataset.pret = "1"; return;
+      }
+      const el = document.createElement("a");
+      el.href = URL.createObjectURL(blob);
+      el.download = `Messes du ${debut}${fin !== debut ? " au " + fin : ""}.docx`;
+      document.body.appendChild(el); el.click(); el.remove();
+      setTimeout(() => URL.revokeObjectURL(el.href), 10000);
+      etat.textContent = `${morceaux.length} messe(s) : fichier Word créé.`;
+      return;
+    }
+    const zone = $("#impression");
+    zone.className = `impression format-${format}${saut ? " saut" : ""}`;
+    zone.innerHTML = `<div class="page-titre"><p class="surtitre">Ordre des Prêcheurs</p><h1>Missel romain</h1><hr><p class="periode">${esc(periode)}</p>`
+      + `<p class="contenu-livret">Messe${morceaux.length > 1 ? "s" : ""} du jour · lectures de l'AELF</p></div>` + morceaux.join("");
+    let st = document.getElementById("style-page");
+    if (!st) { st = document.createElement("style"); st.id = "style-page"; document.head.appendChild(st); }
+    const css = (t) => t.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+    const marges = format === "A5" ? "size: A5; margin: 15mm 13mm 16mm;" : "size: A4; margin: 22mm 22mm 22mm;";
+    st.textContent = `@page { ${marges}
+      @top-center { content: "${css("Missel romain — " + periode)}"; font: 600 7pt/1 "Kepler Legende", Georgia, serif; letter-spacing: .1em; text-transform: uppercase; color: #888; }
+      @bottom-center { content: counter(page); font: 8.5pt/1 "Kepler Legende", Georgia, serif; color: #555; } }
+      @page :first { @top-center { content: none; } @bottom-center { content: none; } }`;
+    document.body.classList.add("mode-impression");
+    etat.textContent = `${morceaux.length} messe(s) prête(s).`;
+    document.body.dataset.pret = "1";
+    if (!imprimer) return;
+    await new Promise((r) => setTimeout(r, 300));
+    window.print();
+  }
+  window.addEventListener("afterprint", () => document.body.classList.remove("mode-impression"));
+  $("#ouvrir-export").onclick = () => {
+    if (!$("#ex-debut").value) { $("#ex-debut").value = date; $("#ex-fin").value = date; }
+    $("#ex-etat").textContent = ""; $("#ex-progres").hidden = true;
+    $("#export").showModal();
+  };
+  $("#form-export").addEventListener("submit", async (e) => {
+    if (e.submitter && e.submitter.value !== "lancer") return;
+    e.preventDefault();
+    const b = $("#ex-lancer"); b.disabled = true;
+    try {
+      const deb = $("#ex-debut").value, fi = $("#ex-fin").value || deb;
+      await produire(deb <= fi ? deb : fi, deb <= fi ? fi : deb, document.querySelector("input[name=ex-format]:checked").value,
+        $("#ex-saut").checked, document.querySelector("input[name=ex-sortie]:checked").value, $("#ex-rubriques").checked);
+      if (document.querySelector("input[name=ex-sortie]:checked").value === "pdf") $("#export").close();
+    } catch (err) { $("#ex-etat").textContent = "Erreur : " + err.message; }
+    finally { b.disabled = false; }
+  });
+  // adresse d'essai : ?imprimer=AAAA-MM-JJ..AAAA-MM-JJ&format=A5[&sortie=docx][&apercu][&rubriques=0]
+  async function impressionParAdresse() {
+    const q = new URLSearchParams(location.search);
+    const m = /^(\d{4}-\d{2}-\d{2})(?:\.\.(\d{4}-\d{2}-\d{2}))?$/.exec(q.get("imprimer") || "");
+    if (!m) return false;
+    await produire(m[1], m[2] || m[1], q.get("format") === "A4" ? "A4" : "A5", q.get("saut") !== "0", q.get("sortie") === "docx" ? "docx" : "pdf", q.get("rubriques") !== "0", !q.has("apercu"));
+    return true;
+  }
+  $("#ouvrir-missel").onclick = () => {
+    if (vueMissel && !vueMissel.op) { location.hash = `${date}${choix ? "/" + choix : ""}`; afficher(); }
+    else location.hash = "missel";
+  };
+  $("#ouvrir-missel-op").onclick = () => {
+    if (vueMissel && vueMissel.op) { location.hash = `${date}${choix ? "/" + choix : ""}`; afficher(); }
+    else location.hash = "missel-op";
+  };
+  window.addEventListener("hashchange", () => {
+    const rm = routeMissel();
+    if (rm) { if (missel) afficherMissel(rm); return; }
+    const h = /^#(\d{4}-\d{2}-\d{2})(?:\/(\d+))?/.exec(location.hash);
+    if (h && vueMissel) { date = h[1]; choix = +(h[2] || 0); afficher(); return; }
+    if (h && (h[1] !== date || +(h[2] || 0) !== choix)) { date = h[1]; choix = +(h[2] || 0); afficher(); }
+  });
+
+  Promise.all(["sanctoral", "propre_op", "missel"].map((f) => fetch(`donnees/${f}.json`, { cache: "no-cache" }).then((r) => r.json())))
+    .then(async ([sanctoral, propreOP, mis]) => { Calendrier.charger(sanctoral, propreOP); missel = mis;
+      // partitions de la Veillée pascale (livret de Sainte-Baume) : facultatives
+      // Missel et Lectionnaire de l'Ordre des Prêcheurs : facultatifs
+      try { missel.op = await fetch("donnees/missel_op.json", { cache: "no-cache" }).then((r) => r.json()); $("#ouvrir-missel-op").hidden = false; } catch (e) { /* sans le propre de l'Ordre */ }
+      try { const sb = await fetch("donnees/sainte_baume.json", { cache: "no-cache" }).then((r) => r.json()); missel.chantsVigile = sb.vigile || []; } catch (e) { /* sans partitions */ } if (!(await impressionParAdresse())) { const rm = routeMissel(); if (rm) afficherMissel(rm); else afficher(); } })
+    .catch(() => { $("#office").innerHTML = `<p class="chargement">La messe n'a pas pu être chargée.</p>`; });
+
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

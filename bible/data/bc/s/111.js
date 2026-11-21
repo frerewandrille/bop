@@ -1,0 +1,1 @@
+window.__BC={"n":"113","titre":"Guérison de l’homme à la main desséchée","page":"340","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 12,9-14","refs":[["MAT",12,9,12,14]],"paras":[{"t":"_ Voir au 8 45*,","page":"340","k":"texte"}],"i":"111"};

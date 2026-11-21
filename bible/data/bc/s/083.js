@@ -1,0 +1,1 @@
+window.__BC={"n":"83","titre":"La guérison d’un lépreux","page":"313","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 8,1-4","refs":[["MAT",8,1,8,4]],"paras":[{"t":"cf. § 39*.","page":"313","k":"texte"}],"i":"083"};

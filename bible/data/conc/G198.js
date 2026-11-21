@@ -1,0 +1,1 @@
+window.__CONC={"G19865":[["MAT13.25","il sema dessus / sur-sema"]],"G19805":[["ACT21.15","ayant fait les préparatifs / ayant fait des préparatifs pour soi"]],"G19875":[["ACT24.12","une émeute / chose qui se tient sur"],["2CO11.28","préoccupation / chose qui se tient sur"]]};

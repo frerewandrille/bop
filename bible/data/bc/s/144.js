@@ -1,0 +1,1 @@
+window.__BC={"n":"144-145","titre":"Conclusion des « premiers temps »","page":"380","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"","refs":[["MAT",13,54,13,58],["MRK",6,1,6,6],["LUK",9,1,9,6]],"paras":[],"i":"144"};

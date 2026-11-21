@@ -1,0 +1,3424 @@
+[
+{
+"n": "1",
+"titre": "Prologue de Saint-Jean",
+"page": 2,
+"partie": "I. Préludes",
+"section": "SECTION 1, LES DEUX PROLOGUES (§ 1-2)",
+"Jn": "1,1-18"
+},
+{
+"n": "2",
+"titre": "Prologue de Saint-Luc",
+"page": 18,
+"partie": "I. Préludes",
+"section": "SECTION 1, LES DEUX PROLOGUES (§ 1-2)",
+"Lc": "1,1-4"
+},
+{
+"n": "3",
+"titre": "L’Annonce à Zacharie",
+"page": 20,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "1,5-25"
+},
+{
+"n": "4",
+"titre": "L’Annonce à Marie",
+"page": 26,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "1,26-38"
+},
+{
+"n": "5",
+"titre": "La Visitation",
+"page": 32,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "1,39-45"
+},
+{
+"n": "6",
+"titre": "Le Magnificat",
+"page": 34,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "1,46-56"
+},
+{
+"n": "7",
+"titre": "Naissance et Circoncision de Jean-Baptiste",
+"page": 40,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "1,57-66"
+},
+{
+"n": "8",
+"titre": "Le Benedictus",
+"page": 40,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "1,67-80"
+},
+{
+"n": "9",
+"titre": "Naissance de Jésus",
+"page": 46,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "2,1-7"
+},
+{
+"n": "10",
+"titre": "L’Annonce aux Bergers",
+"page": 48,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "2,8-20"
+},
+{
+"n": "11",
+"titre": "Circoncision et Présentation de Jésus au Temple",
+"page": 50,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "2,21-40"
+},
+{
+"n": "12",
+"titre": "Généalogie de Jésus",
+"page": 56,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Mt": "1,1-17"
+},
+{
+"n": "13",
+"titre": "L’Annonce à Joseph",
+"page": 60,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Mt": "1,18-25"
+},
+{
+"n": "14",
+"titre": "L’Adoration des Mages",
+"page": 62,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Mt": "2,1-12"
+},
+{
+"n": "15",
+"titre": "La Fuite en Égypte",
+"page": 66,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Mt": "2,13-15"
+},
+{
+"n": "16",
+"titre": "Le Massacre des Saints Innocents",
+"page": 66,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Mt": "2,16-18"
+},
+{
+"n": "17",
+"titre": "Le Retour à Nazareth",
+"page": 68,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Mt": "2,19-23"
+},
+{
+"n": "18",
+"titre": "Jésus retrouvé au Temple",
+"page": 68,
+"partie": "I. Préludes",
+"section": "SECTION 2, NAISSANCE ET ENFANCE (§ 3-18)",
+"Lc": "2,41-52"
+},
+{
+"n": "19",
+"titre": "Le Précurseur",
+"page": 72,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Mt": "3,1-6",
+"Mc": "1,1-6",
+"Lc": "3,1-6",
+"Jn": "1,19-23"
+},
+{
+"n": "20",
+"titre": "La Prédication de Jean-Baptiste",
+"page": 76,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Mt": "3,7-10",
+"Lc": "3,7-9"
+},
+{
+"n": "21",
+"titre": "Réponses de Jean-Baptiste",
+"page": 78,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Lc": "3,10-14"
+},
+{
+"n": "22",
+"titre": "Jean-Baptiste annonce le Messie",
+"page": 80,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Mt": "3,11-12",
+"Mc": "1,7-8",
+"Lc": "3,15-18",
+"Jn": "1,24-28"
+},
+{
+"n": "23",
+"titre": "L’Emprisonnement de Jean-Baptiste",
+"page": 82,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Mt": "(§147)",
+"Mc": "(§147)",
+"Lc": "3,19-20"
+},
+{
+"n": "24",
+"titre": "Le Baptême de Jésus",
+"page": 82,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Mt": "3,13-17",
+"Mc": "1,9-11",
+"Lc": "3,21-22",
+"Jn": "1,29-34"
+},
+{
+"n": "25",
+"titre": "Premières Vocations des Apôtres",
+"page": 86,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Jn": "1,35-51"
+},
+{
+"n": "26",
+"titre": "Généalogie de Jésus selon Saint-Luc",
+"page": 90,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Lc": "3,23-38"
+},
+{
+"n": "27",
+"titre": "Les Tentations au Désert",
+"page": 92,
+"partie": "I. Préludes",
+"section": "SECTION 3, BAPTÊME ET TENTATION (§ 19-27)",
+"Mt": "4,1-11",
+"Mc": "1,12-13",
+"Lc": "4,1-13"
+},
+{
+"n": "28",
+"titre": "Jésus revient en Galilée",
+"page": 100,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "4,12-17",
+"Mc": "1,14-15",
+"Lc": "4,14-15"
+},
+{
+"n": "28 bis",
+"titre": "Récapitulation de la première semaine",
+"page": 102,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Jn": "1,19-2,2"
+},
+{
+"n": "29",
+"titre": "Les Noces de Cana",
+"page": 104,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Jn": "2,1-11"
+},
+{
+"n": "30",
+"titre": "Jésus à Nazareth",
+"page": 106,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§139+144)",
+"Mc": "(§144)",
+"Lc": "4,16-30",
+"Jn": "2,12"
+},
+{
+"n": "31",
+"titre": "Vocation de Pierre et André, Jacques et Jean",
+"page": 110,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "4,18-22",
+"Mc": "1,16-20",
+"Lc": "(§38)"
+},
+{
+"n": "32",
+"titre": "Jésus enseigne à la Synagogue de Capharnaüm",
+"page": 110,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§76)",
+"Mc": "1,21-22",
+"Lc": "4,31-32"
+},
+{
+"n": "33",
+"titre": "La guérison d’un démoniaque",
+"page": 112,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mc": "1,23-28",
+"Lc": "4,33-37"
+},
+{
+"n": "34",
+"titre": "La guérison de la Belle-Mère de Simon Pierre",
+"page": 112,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§85)",
+"Mc": "1,29-31",
+"Lc": "4,38-39"
+},
+{
+"n": "35",
+"titre": "Autres Guérisons",
+"page": 114,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§86)",
+"Mc": "1,32-34",
+"Lc": "4,40-41"
+},
+{
+"n": "36",
+"titre": "Jésus se retire de Capharnaüm",
+"page": 114,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mc": "1,35-38",
+"Lc": "4,42-43"
+},
+{
+"n": "37",
+"titre": "Prédication, Guérisons, Foules",
+"page": 114,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "4,23-25",
+"Mc": "1,39",
+"Lc": "4,44"
+},
+{
+"n": "38",
+"titre": "La Pêche miraculeuse",
+"page": 116,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§31)",
+"Mc": "(§31)",
+"Lc": "5,1-11"
+},
+{
+"n": "39",
+"titre": "La Guérison d’un Lépreux",
+"page": 118,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§83)",
+"Mc": "1,40-45",
+"Lc": "5,12-16"
+},
+{
+"n": "40",
+"titre": "Pardon et Guérison du Paralytique",
+"page": 120,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§90)",
+"Mc": "2,1-12",
+"Lc": "5,17-26"
+},
+{
+"n": "41",
+"titre": "La Vocation de Lévi (Matthieu)",
+"page": 122,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§91)",
+"Mc": "2,13-14",
+"Lc": "5,27-28"
+},
+{
+"n": "42",
+"titre": "Le Repas chez Lévi",
+"page": 122,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§92)",
+"Mc": "2,15-17",
+"Lc": "5,29-32"
+},
+{
+"n": "43",
+"titre": "Questions sur le Jeûne, le Vieux et le Neuf",
+"page": 122,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§93)",
+"Mc": "2,18-22",
+"Lc": "5,33-39"
+},
+{
+"n": "44",
+"titre": "Les Epis arrachés",
+"page": 126,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§112)",
+"Mc": "2,23-28",
+"Lc": "6,1-5"
+},
+{
+"n": "45",
+"titre": "Guérison de l’homme à la main desséchée",
+"page": 128,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§113)",
+"Mc": "3,1-6",
+"Lc": "6,6-11"
+},
+{
+"n": "46",
+"titre": "L’Appel des Douze Apôtres",
+"page": 128,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Lc": "6,12-16"
+},
+{
+"n": "47",
+"titre": "Jésus pressé par la foule",
+"page": 130,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "4,25",
+"Mc": "3,7-12",
+"Lc": "6,17-19"
+},
+{
+"n": "48",
+"titre": "Introduction au Sermon sur la Montagne",
+"page": 130,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "5,1-2",
+"Mc": "3,13",
+"Lc": "6,20a"
+},
+{
+"n": "49",
+"titre": "Vocation des Douze Apôtres",
+"page": 132,
+"partie": "II. Les premiers temps",
+"section": "SECTION 1, PREMIERS MIRACLES, PREMIÈRES CONTROVERSES (§ 28-49)",
+"Mt": "(§98)",
+"Mc": "3,14-19",
+"Lc": "(§146)"
+},
+{
+"n": "50",
+"titre": "Les Béatitudes",
+"page": 132,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,3-12",
+"Lc": "6,20-26"
+},
+{
+"n": "51",
+"titre": "Le Sel de la Terre",
+"page": 140,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,13",
+"Mc": "(§177)",
+"Lc": "(§229)"
+},
+{
+"n": "52",
+"titre": "La Lumière du Monde",
+"page": 140,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,14-16",
+"Mc": "(§130)",
+"Lc": "(§130)"
+},
+{
+"n": "53",
+"titre": "Jésus est venu pour accomplir",
+"page": 142,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,17-20",
+"Lc": "(§130)"
+},
+{
+"n": "54",
+"titre": "Offenses et Réconciliation",
+"page": 142,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,21-26",
+"Mc": "(§278)",
+"Lc": "(§214)"
+},
+{
+"n": "55",
+"titre": "Adultère et mauvais Désirs",
+"page": 144,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,27-30",
+"Mc": "(§176)"
+},
+{
+"n": "56",
+"titre": "Le Divorce",
+"page": 144,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,31-32",
+"Mc": "(§246)",
+"Lc": "(§235)"
+},
+{
+"n": "57",
+"titre": "Les Serments",
+"page": 146,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,33-37"
+},
+{
+"n": "58",
+"titre": "Talion et Non-Résistance aux Méchants",
+"page": 146,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,38-42",
+"Lc": "(§59)"
+},
+{
+"n": "59",
+"titre": "L’Amour des Ennemis",
+"page": 148,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "5,43-48",
+"Lc": "6,27-36"
+},
+{
+"n": "60",
+"titre": "L’Aumône",
+"page": 150,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,1-4"
+},
+{
+"n": "61",
+"titre": "La Prière intime",
+"page": 150,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,5-8"
+},
+{
+"n": "62",
+"titre": "Le Pater",
+"page": 152,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,9-15",
+"Lc": "(§193)"
+},
+{
+"n": "63",
+"titre": "Le Jeüne",
+"page": 154,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,16-18"
+},
+{
+"n": "64",
+"titre": "Le Trésor dans le Ciel",
+"page": 156,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,19-21",
+"Lc": "(§207)"
+},
+{
+"n": "65",
+"titre": "La Lampe du Corps",
+"page": 156,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,22-23",
+"Lc": "(§201)"
+},
+{
+"n": "66",
+"titre": "Dieu ou l’Argent |",
+"page": 156,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,24",
+"Lc": "(§233)"
+},
+{
+"n": "67",
+"titre": "Confiance en Dieu pour les Besoins personnels",
+"page": 158,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "6,25-34",
+"Lc": "(§206)"
+},
+{
+"n": "68",
+"titre": "La Paille et la Poutre",
+"page": 160,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,1-5",
+"Mc": "(§130)",
+"Lc": "6,37-42"
+},
+{
+"n": "69",
+"titre": "Les Perles aux Pourceaux",
+"page": 160,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,6"
+},
+{
+"n": "70",
+"titre": "Frappez, et l’on vous ouvrira",
+"page": 160,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,7-11",
+"Lc": "(§195)"
+},
+{
+"n": "71",
+"titre": "Faire aux autres ce qu’on voudrait qu’ils nous fassent",
+"page": 162,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,12",
+"Lc": "(§59)"
+},
+{
+"n": "72",
+"titre": "La Porte étroite",
+"page": 162,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,13-14",
+"Lc": "(§220)"
+},
+{
+"n": "73",
+"titre": "Faux Prophètes: L’Arbre jugé à ses Fruits",
+"page": 164,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,15-20",
+"Lc": "6,43-45"
+},
+{
+"n": "74",
+"titre": "Les Paroles et les Actes",
+"page": 164,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,21-23",
+"Lc": "6,46"
+},
+{
+"n": "75",
+"titre": "Bâtir sur le Roc",
+"page": 166,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,24-27",
+"Lc": "6,47-49"
+},
+{
+"n": "76",
+"titre": "Réaction au Sermon sur la Montagne",
+"page": 166,
+"partie": "II. Les premiers temps",
+"section": "SECTION 2, LE SERMON SUR LA MONTAGNE (§ 50-76)",
+"Mt": "7,28-29",
+"Mc": "(§32)",
+"Lc": "7,1a"
+},
+{
+"n": "77",
+"titre": "Expulsion des Vendeurs du Temple",
+"page": 168,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Jn": "2,13-25"
+},
+{
+"n": "78",
+"titre": "L’Éntretien avec Nicodème",
+"page": 168,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Jn": "3,1-21"
+},
+{
+"n": "79",
+"titre": "Jean-Baptiste, « L’ Ami de l’Epoux »",
+"page": 172,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Jn": "3,22-30"
+},
+{
+"n": "80",
+"titre": "Le Témoignage de « Celui qui vient d’En Haut »",
+"page": 174,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Jn": "3,31-36"
+},
+{
+"n": "81",
+"titre": "L’Entretien avec la Femme de Samarie",
+"page": 174,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Jn": "4,1-42"
+},
+{
+"n": "82",
+"titre": "Jésus revient en Galilée",
+"page": 180,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Jn": "4,43-45"
+},
+{
+"n": "83",
+"titre": "La Guérison d’un Lépreux",
+"page": 180,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "8,1-4",
+"Mc": "(§39)",
+"Lc": "(§39)"
+},
+{
+"n": "84",
+"titre": "Le Centurion de Capharnaüm",
+"page": 182,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "8,5-13",
+"Lc": "7,1-10",
+"Jn": "4,46-54"
+},
+{
+"n": "85",
+"titre": "La Guérison de la Belle-Mère de Simon Pierre",
+"page": 184,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "8,14-15",
+"Mc": "(§34)",
+"Lc": "(§34)"
+},
+{
+"n": "86",
+"titre": "Autres Guérisons",
+"page": 184,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "8,16-17",
+"Mc": "(§35)",
+"Lc": "(§35)"
+},
+{
+"n": "87",
+"titre": "Conditions pour être Disciple de Jésus",
+"page": 186,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "8,18-22",
+"Mc": "(§141)",
+"Lc": "(§141)"
+},
+{
+"n": "88",
+"titre": "La Tempête apaisée",
+"page": 186,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "8,23-27",
+"Mc": "(§141)",
+"Lc": "(§141)"
+},
+{
+"n": "89",
+"titre": "Les deux Démoniaques Gadaréniens",
+"page": 188,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "8,28-34",
+"Mc": "(§142)",
+"Lc": "(§142)"
+},
+{
+"n": "90",
+"titre": "Le Pardon et la Guérison du Paralytique",
+"page": 190,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,1-8",
+"Mc": "(§40)",
+"Lc": "(§40)"
+},
+{
+"n": "91",
+"titre": "Vocation de Matthieu (Lévi)",
+"page": 192,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,9",
+"Mc": "(§41)",
+"Lc": "(§41)"
+},
+{
+"n": "92",
+"titre": "Le Repas avec les Pécheurs",
+"page": 192,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,10-13",
+"Mc": "(§42)",
+"Lc": "(§42)"
+},
+{
+"n": "93",
+"titre": "Questions sur le Jeûne, le Vieux et le Neuf",
+"page": 194,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,14-17",
+"Mc": "(§43)",
+"Lc": "(§43)"
+},
+{
+"n": "94",
+"titre": "L’Hémorroïse et la Fille de Jaïre",
+"page": 196,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,18-26",
+"Mc": "(§143)",
+"Lc": "(§143)"
+},
+{
+"n": "95",
+"titre": "La Guérison des deux Aveugles",
+"page": 198,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,27-31"
+},
+{
+"n": "96",
+"titre": "La Guérison du Possédé-Muet",
+"page": 198,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,32-34",
+"Mc": "(§117)",
+"Lc": "(§196-97)"
+},
+{
+"n": "97",
+"titre": "Jésus et les Foules sans Berger",
+"page": 200,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "9,35-38",
+"Mc": "(§151)",
+"Lc": "(§185)"
+},
+{
+"n": "98",
+"titre": "Mission des Douze",
+"page": 200,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "10,1-4",
+"Mc": "(§145)",
+"Lc": "(§46)"
+},
+{
+"n": "99",
+"titre": "Recommandations pour la Mission",
+"page": 202,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "10,5-16",
+"Mc": "(§145)",
+"Lc": "(§185)"
+},
+{
+"n": "100",
+"titre": "Annonce des Persécutions",
+"page": 204,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "10,17-25",
+"Mc": "(§293)",
+"Lc": "(§293)"
+},
+{
+"n": "101",
+"titre": "Confesser Jésus sans Crainte",
+"page": 204,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "10,26-33",
+"Lc": "(§204)"
+},
+{
+"n": "102",
+"titre": "Non la Paix, mais le Glaive",
+"page": 206,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "10,34-36",
+"Lc": "(§212)"
+},
+{
+"n": "103",
+"titre": "Se renoncer pour suivre le Christ",
+"page": 208,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "10,37-39",
+"Lc": "(§227)"
+},
+{
+"n": "104",
+"titre": "Conclusion du Discours apostolique",
+"page": 208,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "10,40-11,1",
+"Mc": "(§174-175)",
+"Lc": "(§186)"
+},
+{
+"n": "105",
+"titre": "Résurrection du Fils de la Veuve de Naïm",
+"page": 208,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Lc": "7,11-17"
+},
+{
+"n": "106",
+"titre": "« Es-tu Celui qui doit venir? »",
+"page": 210,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "11,2-6",
+"Lc": "7,18-23"
+},
+{
+"n": "107",
+"titre": "Témoignage de Jésus sur Jean-Baptiste",
+"page": 210,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "11,7-15",
+"Lc": "7,24-30"
+},
+{
+"n": "108",
+"titre": "À qui comparerai-je cette Génération.",
+"page": 212,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "11,16-19",
+"Lc": "7,31-35"
+},
+{
+"n": "109",
+"titre": "Malheur à toi, Chorazeiïn",
+"page": 214,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "11,20-24",
+"Lc": "(§186)"
+},
+{
+"n": "110",
+"titre": "La Révélation du Père et du Fils aux Petits",
+"page": 214,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "11,25-27",
+"Lc": "(§1838)"
+},
+{
+"n": "111",
+"titre": "Maître doux et humble de Coeur",
+"page": 216,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "11,28-30"
+},
+{
+"n": "112",
+"titre": "Les Épis arrachés",
+"page": 218,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,1-8",
+"Mc": "(§44)",
+"Lc": "(§44)"
+},
+{
+"n": "113",
+"titre": "de l’Homme à la Main desséchée",
+"page": 218,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,9-14",
+"Mc": "(§45)",
+"Lc": "(§45)"
+},
+{
+"n": "114",
+"titre": "le « Serviteur de Yahvé »",
+"page": 220,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,15-21"
+},
+{
+"n": "115",
+"titre": "Il perd le Sens »",
+"page": 220,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mc": "3,20-21"
+},
+{
+"n": "116",
+"titre": "Guérison d’un Démonique muet",
+"page": 220,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,22-23",
+"Lc": "(§196)"
+},
+{
+"n": "117",
+"titre": "et Béelzéboul",
+"page": 222,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,24-30",
+"Mc": "3,22-27",
+"Lc": "(§197)"
+},
+{
+"n": "118",
+"titre": "Blasphème contre le Saint-Esprit",
+"page": 222,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,31-32",
+"Mc": "3,28-30",
+"Lc": "(§204)"
+},
+{
+"n": "119",
+"titre": "et le Fruit, la Bouche et le Coeur",
+"page": 224,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,33-37",
+"Lc": "(§73)"
+},
+{
+"n": "120",
+"titre": "Signe de Jonas. La Reine de Saba",
+"page": 224,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,38-42",
+"Mc": "(§160)",
+"Lc": "(§197,200)"
+},
+{
+"n": "121",
+"titre": "Retour de l’Esprit impur",
+"page": 226,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,43-45",
+"Lc": "(§198)"
+},
+{
+"n": "122",
+"titre": "vraie Famille de Jésus",
+"page": 226,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "12,46-50",
+"Mc": "3,31-35",
+"Lc": "(§140)"
+},
+{
+"n": "123",
+"titre": "Pécheresse pardonnée",
+"page": 226,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Lc": "7,36-50"
+},
+{
+"n": "124",
+"titre": "Celles qui suivaient Jésus",
+"page": 228,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "(§355)",
+"Mc": "(§355)",
+"Lc": "8,1-3"
+},
+{
+"n": "125",
+"titre": "Les Paraboles du Royaume",
+"page": 230,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,1-3",
+"Mc": "4,1-2",
+"Lc": "8,4"
+},
+{
+"n": "126",
+"titre": "La Parabole du Semeur",
+"page": 230,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,3-9",
+"Mc": "4,3-9",
+"Lc": "8,5-8"
+},
+{
+"n": "127",
+"titre": "Pourquoi Jésus parle en Paraboles",
+"page": 232,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,10-15",
+"Mc": "4,10-12",
+"Lc": "8,9-10"
+},
+{
+"n": "128",
+"titre": "« Bienheureux vos yeux parce qu’ils voient »",
+"page": 232,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,16-17",
+"Lc": "(§189)"
+},
+{
+"n": "129",
+"titre": "Explication de la Parabole du Semeur",
+"page": 234,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,18-23",
+"Mc": "4,13-20",
+"Lc": "8,11-15"
+},
+{
+"n": "130",
+"titre": "Comment recevoir l’Enseignement de Jésus",
+"page": 234,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mc": "4,21-25",
+"Lc": "8,16-18"
+},
+{
+"n": "131",
+"titre": "Parabole de la Semence qui croît d’elle-même",
+"page": 236,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mc": "4,26-29"
+},
+{
+"n": "132",
+"titre": "Parabole de l’Ivraie",
+"page": 236,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,24-30"
+},
+{
+"n": "133",
+"titre": "Parabole du Grain de Sénevé",
+"page": 238,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,31-32",
+"Mc": "4,30-32",
+"Lc": "(§218)"
+},
+{
+"n": "134",
+"titre": "Parabole du Levain",
+"page": 238,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,33",
+"Lc": "(§219)"
+},
+{
+"n": "135",
+"titre": "Les choses cachées depuis toujours",
+"page": 238,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,34-35",
+"Mc": "4,33-34"
+},
+{
+"n": "136",
+"titre": "Explication de la Parabole de l’[vraie",
+"page": 240,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,36-43"
+},
+{
+"n": "137",
+"titre": "Parabole du Trésor et de la Perle",
+"page": 240,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,44-46"
+},
+{
+"n": "138",
+"titre": "Parabole du Filet",
+"page": 242,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,47-50"
+},
+{
+"n": "139",
+"titre": "Conclusion du Discours en Paraboles",
+"page": 242,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,51-53"
+},
+{
+"n": "140",
+"titre": "La vraie Parenté de Jésus",
+"page": 244,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "(§122)",
+"Mc": "(§122)",
+"Lc": "8,19-21"
+},
+{
+"n": "141",
+"titre": "La Tempête apaisée",
+"page": 244,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "(§87-88)",
+"Mc": "4,35-41",
+"Lc": "8,22-25"
+},
+{
+"n": "142",
+"titre": "Le Possédé de Gadara",
+"page": 246,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "(§89)",
+"Mc": "5,1-20",
+"Lc": "8,26-39"
+},
+{
+"n": "143",
+"titre": "L’Hémorroïse et la Fille de Jaïre",
+"page": 248,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "(§94)",
+"Mc": "5,21-43",
+"Lc": "8,40-56"
+},
+{
+"n": "144",
+"titre": "Jésus à Nazareth",
+"page": 252,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "13,54-58",
+"Mc": "6,1-6",
+"Lc": "(§30)"
+},
+{
+"n": "145",
+"titre": "Mission des Douze",
+"page": 252,
+"partie": "II. Les premiers temps",
+"section": "SECTION 3, L'ÉVANGÉLISATION DES FOULES (§ 77-145)",
+"Mt": "(§98-99)",
+"Mc": "6,7-13",
+"Lc": "9,1-6"
+},
+{
+"n": "146",
+"titre": "Hérode s’étonne de Jésus",
+"page": 258,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "14,1-2",
+"Mc": "6,14-16",
+"Lc": "9,7-9"
+},
+{
+"n": "147",
+"titre": "Mort de Jean-Baptiste",
+"page": 258,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "14,3-12",
+"Mc": "6,17-29"
+},
+{
+"n": "148",
+"titre": "L’’Infirme de la Piscine de Bézatha",
+"page": 260,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Jn": "5,1-18"
+},
+{
+"n": "149",
+"titre": "Au Fils, est donné le Pouvoir de juger",
+"page": 262,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Jn": "5,19-30"
+},
+{
+"n": "150",
+"titre": "Les Témoignages authentifiant la mission du Christ",
+"page": 264,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Jn": "5,31-47"
+},
+{
+"n": "151",
+"titre": "Retour des Apôtres, et première Multiplication des pains",
+"page": 266,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "14,13-21",
+"Mc": "6,30-44",
+"Lc": "9,10-17",
+"Jn": "6,1-15"
+},
+{
+"n": "152",
+"titre": "Jésus marche sur les Eaux",
+"page": 270,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "14,22-23",
+"Mc": "6,45-52",
+"Jn": "6,16-21"
+},
+{
+"n": "153",
+"titre": "Guérisons autour de Gennésareth",
+"page": 272,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "14,34-36",
+"Mc": "6,53-56"
+},
+{
+"n": "154",
+"titre": "Sur les traditions pharisaïques",
+"page": 272,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "15,1-9",
+"Mc": "7,1-13"
+},
+{
+"n": "155",
+"titre": "Le Pur et l’Impur",
+"page": 274,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "15,10-20",
+"Mc": "7,14-23"
+},
+{
+"n": "156",
+"titre": "Guérison de la Fille d’une Cananéenne",
+"page": 276,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "15,21-28",
+"Mc": "7,24-30"
+},
+{
+"n": "157",
+"titre": "Guérison du Sourd-Muet",
+"page": 278,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "15,29",
+"Mc": "7,31-37"
+},
+{
+"n": "158",
+"titre": "Les Guérisons au Bord du Lac",
+"page": 278,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "15,30-31"
+},
+{
+"n": "159",
+"titre": "Seconde Multiplication des Pains",
+"page": 278,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "15,32-39",
+"Mc": "8,1-10"
+},
+{
+"n": "160",
+"titre": "Les Signes du Ciel",
+"page": 280,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "16,1-4",
+"Mc": "8,11-13",
+"Lc": "(§213)"
+},
+{
+"n": "161",
+"titre": "Le Levain des Pharisiens",
+"page": 282,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "16,5-12",
+"Mc": "8,14-21"
+},
+{
+"n": "162",
+"titre": "Guérison de l’Aveugle de Bethsaïde",
+"page": 282,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mc": "8,22-26"
+},
+{
+"n": "163",
+"titre": "Discours sur le Pain de Vie",
+"page": 282,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Jn": "6,22-59"
+},
+{
+"n": "164",
+"titre": "Conclusion du Discours, Pierre et Judas",
+"page": 288,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Jn": "6,60-71"
+},
+{
+"n": "165",
+"titre": "La Confession de Pierre, à Césarée",
+"page": 290,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "16,13-20",
+"Mc": "8,27-30",
+"Lc": "9,18-21"
+},
+{
+"n": "166",
+"titre": "Première Annonce de la Passion",
+"page": 292,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "16,21",
+"Mc": "8,31-32a",
+"Lc": "9,22"
+},
+{
+"n": "167",
+"titre": "Pensée de Dieu, Pensées des Hommes",
+"page": 292,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "16,22-23",
+"Mc": "8,32b-33"
+},
+{
+"n": "168",
+"titre": "Le Renoncement et sa Récompense",
+"page": 294,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "16,24-28",
+"Mc": "8,34-9,1",
+"Lc": "9,23-27"
+},
+{
+"n": "169",
+"titre": "La Transfiguration",
+"page": 296,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "17,1-8",
+"Mc": "9,2-8",
+"Lc": "9,28-36"
+},
+{
+"n": "170",
+"titre": "Questions sur Elie",
+"page": 298,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "17,9-13",
+"Mc": "9,9-13"
+},
+{
+"n": "171",
+"titre": "La Guérison de l’Enfant",
+"page": 300,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "17,14-21",
+"Mc": "9,14-29",
+"Lc": "9,37-43a"
+},
+{
+"n": "172",
+"titre": "Deuxième Annonce de la Passion",
+"page": 302,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "17,22-23",
+"Mc": "9,30-32",
+"Lc": "9,43b-45"
+},
+{
+"n": "173",
+"titre": "L’Impôt du Temple",
+"page": 302,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "17,24-27"
+},
+{
+"n": "174",
+"titre": "Qui est le plus grand ?",
+"page": 304,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "18,1-5",
+"Mc": "9,33-37",
+"Lc": "9,46-48"
+},
+{
+"n": "175",
+"titre": "Ouvrir l’Accès au Royaume",
+"page": 304,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mc": "9,38-41",
+"Lc": "9,49-50"
+},
+{
+"n": "176",
+"titre": "Couper court au Scandale",
+"page": 304,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "18,6-11",
+"Mc": "9,42-48",
+"Lc": "(§237)"
+},
+{
+"n": "177",
+"titre": "Le Sel",
+"page": 306,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "(§51)",
+"Mc": "9,49-50",
+"Lc": "(§229)"
+},
+{
+"n": "178",
+"titre": "Parabole de la Brebis perdue",
+"page": 306,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "18,12-14",
+"Lc": "(§230)"
+},
+{
+"n": "179",
+"titre": "La Correction fraternelle",
+"page": 308,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "18,15-17"
+},
+{
+"n": "180",
+"titre": "Le Sacrement de Réconciliation",
+"page": 308,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "18,18-20"
+},
+{
+"n": "181",
+"titre": "Pardonner jusqu’à 70 fois 7 fois",
+"page": 310,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "18,21-22"
+},
+{
+"n": "182",
+"titre": "Parabole du Débiteur impitoyable",
+"page": 310,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION I, LA CONCEPTION DE L'ÉGLISE (§ 146-182)",
+"Mt": "18,23-35"
+},
+{
+"n": "183",
+"titre": "Le Départ",
+"page": 312,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "9,51-56"
+},
+{
+"n": "184",
+"titre": "Suivre le Christ, sans Conditions",
+"page": 312,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§87)",
+"Lc": "9,57-62"
+},
+{
+"n": "185",
+"titre": "La Mission des Soixante-Douze Disciples",
+"page": 314,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§98)",
+"Mc": "(§145)",
+"Lc": "10,1-12"
+},
+{
+"n": "186",
+"titre": "Malheur à toi, Chorazeïn",
+"page": 316,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§109)",
+"Lc": "10,13-16",
+"Jn": "(§316)"
+},
+{
+"n": "187",
+"titre": "Le Retour des Soixante-Douze Disciples",
+"page": 316,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "10,17-20"
+},
+{
+"n": "188",
+"titre": "D révélé aux Simples. Le Père et e Fils",
+"page": 318,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§110)",
+"Lc": "10,21-22"
+},
+{
+"n": "189",
+"titre": "« Bienheureux les yeux... »",
+"page": 318,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§128)",
+"Lc": "10,23-24"
+},
+{
+"n": "190",
+"titre": "Le Grand Commandement",
+"page": 318,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§285)",
+"Mc": "(§285)",
+"Lc": "10,25-28"
+},
+{
+"n": "191",
+"titre": "Le Bon Samaritain",
+"page": 320,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "10,29-37"
+},
+{
+"n": "192",
+"titre": "Marthe et Marie",
+"page": 322,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "10,38-42"
+},
+{
+"n": "193",
+"titre": "Le Pater",
+"page": 322,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§62)",
+"Lc": "11,1-4"
+},
+{
+"n": "194",
+"titre": "L’Ami importuné",
+"page": 324,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "11,5-8"
+},
+{
+"n": "195",
+"titre": "Frappez, on vous ouvrira",
+"page": 324,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§70)",
+"Lc": "11,9-13"
+},
+{
+"n": "196",
+"titre": "L’Expulsion du Démon Muet",
+"page": 326,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§116)",
+"Lc": "11,14"
+},
+{
+"n": "197",
+"titre": "Jésus et Béelzéboul",
+"page": 326,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§117)",
+"Mc": "(§117)",
+"Lc": "11,15-23"
+},
+{
+"n": "198",
+"titre": "Retour de l’Esprit impur",
+"page": 328,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§121)",
+"Lc": "11,24-26"
+},
+{
+"n": "199",
+"titre": "« Bienheureux plutôt... »",
+"page": 328,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§122)",
+"Mc": "(§122)",
+"Lc": "11,27-28"
+},
+{
+"n": "200",
+"titre": "Le Signe de Jonas et la Reine de Saba",
+"page": 328,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§120)",
+"Lc": "11,29-32"
+},
+{
+"n": "201",
+"titre": "Double Parabole de la Lampe",
+"page": 330,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§52,65)",
+"Mc": "(§130)",
+"Lc": "11,33-36"
+},
+{
+"n": "202",
+"titre": "« Malheur à vous, scribes et Pharisiens... »",
+"page": 330,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§287-88)",
+"Lc": "11,37-54"
+},
+{
+"n": "203",
+"titre": "Le Levain des Pharisiens",
+"page": 334,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§161)",
+"Mc": "(§161)",
+"Lc": "12,1"
+},
+{
+"n": "204",
+"titre": "La Confession du Christ et de l’Esprit Saint",
+"page": 334,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§101)",
+"Lc": "12,2-12"
+},
+{
+"n": "205",
+"titre": "La Parabole du Riche insensé",
+"page": 336,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "12,13-21"
+},
+{
+"n": "206",
+"titre": "Confiance en Dieu pour les Besoins temporels",
+"page": 338,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§67)",
+"Lc": "12,22-32"
+},
+{
+"n": "207",
+"titre": "Le Trésor dans le Ciel",
+"page": 340,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§64)",
+"Lc": "12,33-34"
+},
+{
+"n": "208",
+"titre": "Veiller comme des Serviteurs fidèles",
+"page": 342,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§303)",
+"Mc": "(§300)",
+"Lc": "12,35-38"
+},
+{
+"n": "209",
+"titre": "Veiller comme le Maître de Maison",
+"page": 342,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§303)",
+"Lc": "12,39-40"
+},
+{
+"n": "210",
+"titre": "L’’Intendant fidèle ou négligent",
+"page": 342,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§304)",
+"Lc": "12,41-46"
+},
+{
+"n": "211",
+"titre": "À Proportion...",
+"page": 344,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "12,47-48"
+},
+{
+"n": "212",
+"titre": "« Non la Paix, mais la Séparation »",
+"page": 344,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§102)",
+"Lc": "12,49-53"
+},
+{
+"n": "213",
+"titre": "Signes des Temps",
+"page": 346,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§160)",
+"Lc": "12,54-56"
+},
+{
+"n": "214",
+"titre": "réconcilier avant le Jugement",
+"page": 346,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§54)",
+"Lc": "12,57-59"
+},
+{
+"n": "215",
+"titre": "Si vous ne faites Pénitence... »",
+"page": 348,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "13,1-5"
+},
+{
+"n": "216",
+"titre": "Parabole du Figuier stérile",
+"page": 348,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "13,6-9"
+},
+{
+"n": "217",
+"titre": "Guérison de la Femme courbée",
+"page": 350,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "13,10-17"
+},
+{
+"n": "218",
+"titre": "Parabole du Grain de Sénevé",
+"page": 350,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§133)",
+"Mc": "(§133)",
+"Lc": "13,18-19"
+},
+{
+"n": "219",
+"titre": "Parabole du Levain",
+"page": 352,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§134)",
+"Lc": "13,20-21"
+},
+{
+"n": "220",
+"titre": "Porte du Royaume",
+"page": 352,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§72)",
+"Lc": "13,22-30"
+},
+{
+"n": "221",
+"titre": "à Jérusalem",
+"page": 354,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "13,31-33"
+},
+{
+"n": "222",
+"titre": "à Jérusalem",
+"page": 356,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§289)",
+"Lc": "13,34-35"
+},
+{
+"n": "223",
+"titre": "Guérison de l’Hydropique",
+"page": 356,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§113)",
+"Mc": "(§45)",
+"Lc": "14,1-6"
+},
+{
+"n": "224",
+"titre": "le Choix des Invités",
+"page": 358,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "14,7-11"
+},
+{
+"n": "225",
+"titre": "Sur le choix des Invités",
+"page": 358,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "14,12-14"
+},
+{
+"n": "226",
+"titre": "La Parabole des Invités au Festin",
+"page": 360,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§282)",
+"Lc": "14,15-24"
+},
+{
+"n": "227",
+"titre": "Se renoncer pour suivre Jésus",
+"page": 362,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§103)",
+"Lc": "14,25-27"
+},
+{
+"n": "228",
+"titre": "L’Enjeu du Renoncement",
+"page": 362,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "14,28-33"
+},
+{
+"n": "229",
+"titre": "« Si le Sel s’affadit... »",
+"page": 364,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§51)",
+"Mc": "(§177)",
+"Lc": "14,34-35"
+},
+{
+"n": "230",
+"titre": "La Parabole de la Brebis perdue",
+"page": 364,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§178)",
+"Lc": "15,1-7"
+},
+{
+"n": "231",
+"titre": "La Drachme perdue",
+"page": 364,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "15,8-10"
+},
+{
+"n": "232",
+"titre": "L’Enfant prodigue",
+"page": 366,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "15,11-32"
+},
+{
+"n": "233",
+"titre": "L’Habileté de l’Econome infidèle",
+"page": 370,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "16,1-13"
+},
+{
+"n": "234",
+"titre": "Contre les Pharisiens",
+"page": 372,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "16,14-15"
+},
+{
+"n": "235",
+"titre": "La Nouvelle Alliance et la Loi",
+"page": 372,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§107)",
+"Mc": "(§299)",
+"Lc": "16,16-18"
+},
+{
+"n": "236",
+"titre": "Le Mauvais Riche et le Pauvre Lazare",
+"page": 374,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "16,19-31"
+},
+{
+"n": "237",
+"titre": "Scandale des Petits",
+"page": 374,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§176)",
+"Mc": "(§176)",
+"Lc": "17,1-3a"
+},
+{
+"n": "238",
+"titre": "Correction fraternelle et Pardon",
+"page": 376,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§181)",
+"Lc": "17,3b-4"
+},
+{
+"n": "239",
+"titre": "Puissance de la Foi",
+"page": 376,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§171)",
+"Mc": "(§278)",
+"Lc": "17,5-6"
+},
+{
+"n": "240",
+"titre": "« Nous sommes des Serviteurs Inutiles »",
+"page": 378,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "17,7-10"
+},
+{
+"n": "241",
+"titre": "La Guérison des dix Lépreux",
+"page": 378,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "17,11-19"
+},
+{
+"n": "242",
+"titre": "« Le Royaume de Dieu est au-dedans de nous »",
+"page": 380,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "17,20-21"
+},
+{
+"n": "243",
+"titre": "L’Avènement du Fils de l’Homme",
+"page": 380,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Mt": "(§296)",
+"Mc": "(§295)",
+"Lc": "17,22-37"
+},
+{
+"n": "244",
+"titre": "La Parabole du Juge et de la Veuve",
+"page": 382,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "18,1-8"
+},
+{
+"n": "245",
+"titre": "Le Pharisien et le Publicain",
+"page": 384,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 2, LA MONTÉE À JÉRUSALEM (§ 183-245)",
+"Lc": "18,9-14"
+},
+{
+"n": "246",
+"titre": "Sur le Divorce",
+"page": 386,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "19,1-9",
+"Mc": "10,1-12"
+},
+{
+"n": "247",
+"titre": "La continence volontaire",
+"page": 388,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "19,10-12"
+},
+{
+"n": "248",
+"titre": "Les petits Enfants",
+"page": 388,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "19,13-15",
+"Mc": "10,13-16",
+"Lc": "18,15-17"
+},
+{
+"n": "249",
+"titre": "Le Jeune Homme riche",
+"page": 390,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "19,16-22",
+"Mc": "10,17-22",
+"Lc": "18,18-23"
+},
+{
+"n": "250",
+"titre": "Le Danger des Richesses",
+"page": 392,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "19,23-26",
+"Mc": "10,23-27",
+"Lc": "18,24-27"
+},
+{
+"n": "251",
+"titre": "La Récompense du Détachement",
+"page": 394,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "19,27-30",
+"Mc": "10,28-31",
+"Lc": "18,28-30"
+},
+{
+"n": "252",
+"titre": "Les Ouvriers de la Onzième Heure",
+"page": 394,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "20,1-16"
+},
+{
+"n": "253",
+"titre": "Troisième Annonce de la Passion",
+"page": 398,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "20,17-19",
+"Mc": "10,32-34",
+"Lc": "18,31-34"
+},
+{
+"n": "254",
+"titre": "Les Fils de Zébédée",
+"page": 398,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "20,20-23",
+"Mc": "10,35-40"
+},
+{
+"n": "255",
+"titre": "« Non pas être servi, mais servir »",
+"page": 400,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "20,24-28",
+"Mc": "10,41-45",
+"Lc": "(§321)"
+},
+{
+"n": "256",
+"titre": "La Fête des Tentes",
+"page": 400,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "7,1-23"
+},
+{
+"n": "257",
+"titre": "L’Origine du Christ",
+"page": 402,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "7,24-36"
+},
+{
+"n": "258",
+"titre": "Les Fleuves d’Eau vive",
+"page": 404,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "7,37-53"
+},
+{
+"n": "259",
+"titre": "La Femme adultère",
+"page": 406,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "8,1-11"
+},
+{
+"n": "260",
+"titre": "Le Christ et son Père",
+"page": 408,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "8,12-30"
+},
+{
+"n": "261",
+"titre": "Les Enfants d’Abraham",
+"page": 412,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "8,31-59"
+},
+{
+"n": "262",
+"titre": "La Guérison de l’Aveugle-né",
+"page": 416,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "9,1-41"
+},
+{
+"n": "263",
+"titre": "Le Bon Pasteur",
+"page": 422,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "10,1-21"
+},
+{
+"n": "264",
+"titre": "Jésus se déclare le Fils de Dieu",
+"page": 426,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "10,22-39"
+},
+{
+"n": "265",
+"titre": "Jésus se retire au-delà du Jourdain",
+"page": 428,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "10,40-42"
+},
+{
+"n": "266",
+"titre": "La Résurrection de Lazare",
+"page": 428,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "11,1-46"
+},
+{
+"n": "267",
+"titre": "La Prophétie de Caïphe",
+"page": 432,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "11,47-54"
+},
+{
+"n": "268",
+"titre": "La Guérison des Aveugles de Jéricho",
+"page": 434,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "20,29-34",
+"Mc": "10,46-52",
+"Lc": "18,35-43"
+},
+{
+"n": "269",
+"titre": "La Vocation de Zachée",
+"page": 434,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Lc": "19,1-10"
+},
+{
+"n": "270",
+"titre": "La Parabole des Mines",
+"page": 436,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "(§306)",
+"Lc": "19,11-27"
+},
+{
+"n": "271",
+"titre": "L’Approche de la Pâque",
+"page": 440,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Jn": "11,55-57"
+},
+{
+"n": "272",
+"titre": "L’Onction de Béthanie",
+"page": 440,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "(§313)",
+"Mc": "(§313)",
+"Jn": "12,1-11"
+},
+{
+"n": "273",
+"titre": "Les Rameaux",
+"page": 442,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "21,1-9",
+"Mc": "11,1-10",
+"Lc": "19,28-40",
+"Jn": "12,12-19"
+},
+{
+"n": "274",
+"titre": "Jésus pleure sur Jérusalem",
+"page": 446,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Lc": "19,41-44"
+},
+{
+"n": "275",
+"titre": "Expulsion des Vendeurs du Temple (Mt, Lc)",
+"page": 448,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "21,10-17",
+"Mc": "11,11",
+"Lc": "19,45-48",
+"Jn": "(§77)"
+},
+{
+"n": "276",
+"titre": "Malédiction du Figuier",
+"page": 450,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "21,18-19",
+"Mc": "11,12-14"
+},
+{
+"n": "277",
+"titre": "Expulsion des Vendeurs du Temple (Mc)",
+"page": 450,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mc": "11,15-19"
+},
+{
+"n": "278",
+"titre": "Le Figuier desséché",
+"page": 450,
+"partie": "III. Jésus prépare l’avenir",
+"section": "SECTION 3, MINISTÈRE EN JUDÉE (§ 246-278)",
+"Mt": "21,20-22",
+"Mc": "11,20-26"
+},
+{
+"n": "279",
+"titre": "Questions sur l’ Autorité de Jésus",
+"page": 454,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "21,23-27",
+"Mc": "11,27-33",
+"Lc": "20,1-8"
+},
+{
+"n": "280",
+"titre": "La Parabole des deux Fils",
+"page": 454,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "21,28-32"
+},
+{
+"n": "281",
+"titre": "La Parabole des Vignerons homicides",
+"page": 456,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "21,33-46",
+"Mc": "12,1-12",
+"Lc": "20,9-19"
+},
+{
+"n": "282",
+"titre": "Les Invités au Festin. La Robe nuptiale",
+"page": 458,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "22,1-14",
+"Lc": "(§226)"
+},
+{
+"n": "283",
+"titre": "L’’Impôt dû à César",
+"page": 462,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "22,15-22",
+"Mc": "12,13-17",
+"Lc": "20,20-26"
+},
+{
+"n": "284",
+"titre": "La Résurrection des morts",
+"page": 464,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "22,23-33",
+"Mc": "12,18-27",
+"Lc": "20,27-38"
+},
+{
+"n": "285",
+"titre": "Le plus grand Commandement",
+"page": 466,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "22,34-40",
+"Mc": "12,28-34",
+"Lc": "20,39-40"
+},
+{
+"n": "286",
+"titre": "Le Christ, Fils et Seigneur de David",
+"page": 466,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "22,41-46",
+"Mc": "12,35-37a",
+"Lc": "20,41-44"
+},
+{
+"n": "287",
+"titre": "Hypocrisie et Vanité des Scribes et Pharisiens",
+"page": 468,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "23,1-12",
+"Mc": "12,37b-40",
+"Lc": "20,45-47"
+},
+{
+"n": "288",
+"titre": "Imprécations contre Scribes et Pharisiens",
+"page": 470,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "23,13-36",
+"Lc": "(§202)"
+},
+{
+"n": "289",
+"titre": "Avertissement à Jérusalem",
+"page": 474,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "23,37-39",
+"Lc": "(§222)"
+},
+{
+"n": "290",
+"titre": "L’Obole de la Veuve",
+"page": 476,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mc": "12,41-44",
+"Lc": "21,1-4"
+},
+{
+"n": "291",
+"titre": "Le Discours sur la Ruine du Temple",
+"page": 476,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,1-3",
+"Mc": "13,1-4",
+"Lc": "21,5-7"
+},
+{
+"n": "292",
+"titre": "Le Commencement des Douleurs",
+"page": 478,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,4-8",
+"Mc": "13,5-8",
+"Lc": "21,8-11"
+},
+{
+"n": "293",
+"titre": "Les Persécutions",
+"page": 478,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,9-14",
+"Mc": "13,9-13",
+"Lc": "21,12-19"
+},
+{
+"n": "294",
+"titre": "« L’Abomination de la Désolation »",
+"page": 480,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,15-22",
+"Mc": "13,14-20",
+"Lc": "21,20-24"
+},
+{
+"n": "295",
+"titre": "Faux Christs et Faux Prophètes",
+"page": 484,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,23-25",
+"Mc": "13,21-23",
+"Lc": "(§292)"
+},
+{
+"n": "296",
+"titre": "« Comme l’EÉclair... »",
+"page": 484,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,26-28",
+"Lc": "(§243)"
+},
+{
+"n": "297",
+"titre": "« Le Fils de l’homme venant sur les Nuées »",
+"page": 486,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,29-31",
+"Mc": "13,24-27",
+"Lc": "21,25-28"
+},
+{
+"n": "298",
+"titre": "Parabole du Figuier",
+"page": 488,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,32-33",
+"Mc": "13,28-29",
+"Lc": "21,29-30"
+},
+{
+"n": "299",
+"titre": "« Mes Paroles ne passeront pas... »",
+"page": 488,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,34-36",
+"Mc": "13,30-32",
+"Lc": "21,32-33"
+},
+{
+"n": "300",
+"titre": "Fin du Discours de Saint-Marc",
+"page": 488,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "(§306)",
+"Mc": "13,33-37",
+"Lc": "(§270)"
+},
+{
+"n": "301",
+"titre": "Fin du Discours de Saint-Luc",
+"page": 490,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Lc": "21,34-36"
+},
+{
+"n": "302",
+"titre": "« Comme aux Jours du Déluge... »",
+"page": 490,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,37-41",
+"Lc": "(§243)"
+},
+{
+"n": "303",
+"titre": "Parabole du Maître de Maison vigilant",
+"page": 490,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,42-44",
+"Lc": "(§209)"
+},
+{
+"n": "304",
+"titre": "Le Serviteur fidèle et sage",
+"page": 492,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "24,45-51",
+"Lc": "(§210)"
+},
+{
+"n": "305",
+"titre": "Les Vierges sages et les Vierges folles",
+"page": 492,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "25,1-13",
+"Lc": "(§220)"
+},
+{
+"n": "306",
+"titre": "Paraboles des Talents",
+"page": 494,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "25,14-30",
+"Lc": "(§270)"
+},
+{
+"n": "307",
+"titre": "Le Jugement dernier",
+"page": 498,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Mt": "25,31-46"
+},
+{
+"n": "308",
+"titre": "Jésus se cache au Mont des Oliviers",
+"page": 500,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Lc": "21,37-38"
+},
+{
+"n": "309",
+"titre": "Jésus annonce la Glorification par sa Mort",
+"page": 500,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Jn": "12,20-36"
+},
+{
+"n": "310",
+"titre": "Incrédulité des Juifs",
+"page": 504,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Jn": "12,37-43"
+},
+{
+"n": "311",
+"titre": "Jésus, Lumière, Parole, Vie éternelle",
+"page": 506,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION I, LES DERNIERS JOURS (§ 279-311)",
+"Jn": "12,44-50"
+},
+{
+"n": "312",
+"titre": "Le Complot des Chefs des Juifs contre Jésus",
+"page": 508,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "26,1-5",
+"Mc": "14,1-2",
+"Lc": "22,1-2"
+},
+{
+"n": "313",
+"titre": "L’Onction de Béthanie",
+"page": 508,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "26,6-13",
+"Mc": "14,3-9",
+"Jn": "(§272)"
+},
+{
+"n": "314",
+"titre": "La Trahison de Judas",
+"page": 510,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "26,14-16",
+"Mc": "14,10-11",
+"Lc": "22,3-6"
+},
+{
+"n": "315",
+"titre": "La Préparation de la Pâque",
+"page": 510,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "26,17-19",
+"Mc": "14,12-16",
+"Lc": "22,7-13"
+},
+{
+"n": "316",
+"titre": "Le Lavement des Pieds",
+"page": 512,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "13,1-20"
+},
+{
+"n": "317",
+"titre": "La Trahison dévoilée (Mt, Mc, Jn)",
+"page": 514,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "26,20-25",
+"Mc": "14,17-21",
+"Lc": "22,14",
+"Jn": "13,21-30"
+},
+{
+"n": "318",
+"titre": "L’Institution de l’Eucharistie",
+"page": 516,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "26,26-29",
+"Mc": "14,22-25",
+"Lc": "22,15-20"
+},
+{
+"n": "319",
+"titre": "La Trahison dévoilée (Lc)",
+"page": 520,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Lc": "22,21-23"
+},
+{
+"n": "320",
+"titre": "Prélude au Discours selon Saint-Jean",
+"page": 520,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "13,31-35"
+},
+{
+"n": "321",
+"titre": "« Au milieu de vous comme celui qui sert... »",
+"page": 520,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "(§255)",
+"Mc": "(§255)",
+"Lc": "22,24-27"
+},
+{
+"n": "322",
+"titre": "Les Apôtres associés au Jugement",
+"page": 522,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "(§251)",
+"Lc": "22,28-30"
+},
+{
+"n": "323",
+"titre": "Annonce du Reniement de Pierre (Lc, Jn)",
+"page": 524,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Mt": "(§336)",
+"Mc": "(§336)",
+"Lc": "22,31-34",
+"Jn": "13,36-38"
+},
+{
+"n": "324",
+"titre": "Se munir pour l’Heure ultime",
+"page": 524,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Lc": "22,35-38"
+},
+{
+"n": "325",
+"titre": "Début du Discours après la Cène",
+"page": 526,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "14,1-3"
+},
+{
+"n": "326",
+"titre": "Unité du Christ et de son Père",
+"page": 526,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "14,4-12"
+},
+{
+"n": "327",
+"titre": "L’union des Hommes à Dieu",
+"page": 528,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "14,13-26"
+},
+{
+"n": "328",
+"titre": "La Paix du Christ",
+"page": 530,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "14,27-31"
+},
+{
+"n": "329",
+"titre": "La vraie Vigne et l’ Amour fraternel",
+"page": 532,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "15,1-17"
+},
+{
+"n": "330",
+"titre": "La Haine du Monde",
+"page": 536,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "15,18-16,4"
+},
+{
+"n": "331",
+"titre": "Le Don de l’Esprit",
+"page": 538,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "16,4b-15"
+},
+{
+"n": "332",
+"titre": "« Votre Tristesse se changera en Joie »",
+"page": 538,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "16,16-22"
+},
+{
+"n": "333",
+"titre": "« Le Père lui-même vous aime... »",
+"page": 540,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "16,23-33"
+},
+{
+"n": "334",
+"titre": "La Prière sacerdotale",
+"page": 542,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 2, LA DERNIÈRE CÈNE (§ 312-334)",
+"Jn": "17,1-26"
+},
+{
+"n": "335",
+"titre": "Gethsémani",
+"page": 546,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,30",
+"Mc": "14,26",
+"Lc": "22,39",
+"Jn": "18,1a"
+},
+{
+"n": "336",
+"titre": "Annonce du Reniement de Pierre (Mt, Mc)",
+"page": 546,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,31-35",
+"Mc": "14,27-31",
+"Lc": "(§323)",
+"Jn": "(§323)"
+},
+{
+"n": "337",
+"titre": "L’Agonie du Sauveur",
+"page": 548,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,36-46",
+"Mc": "14,32-42",
+"Lc": "22,40-46",
+"Jn": "18,1b"
+},
+{
+"n": "338",
+"titre": "Le Baiser de Judas et L’Arrestation",
+"page": 550,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,47-56",
+"Mc": "14,43-52",
+"Lc": "22,47-53",
+"Jn": "18,2-11"
+},
+{
+"n": "339",
+"titre": "Chez le Grand Prêtre",
+"page": 552,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,57-58",
+"Mc": "14,53-54",
+"Lc": "22,54-55",
+"Jn": "18,12-18"
+},
+{
+"n": "340",
+"titre": "Reniements de Pierre (Lc, Jn)",
+"page": 554,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "(§344)",
+"Mc": "(§344)",
+"Lc": "22,56-62",
+"Jn": "18,19-27"
+},
+{
+"n": "341",
+"titre": "Outrages au Prophète (Lc)",
+"page": 556,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "(§343)",
+"Mc": "(§343)",
+"Lc": "22,63-65",
+"Jn": "(§340)"
+},
+{
+"n": "342",
+"titre": "La Condamnation du Christ",
+"page": 556,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,59-66",
+"Mc": "14,55-64",
+"Lc": "22,66-71"
+},
+{
+"n": "343",
+"titre": "Outrages au Prophète (Mt, Mc)",
+"page": 558,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,67-68",
+"Mc": "14,65",
+"Lc": "(§341)",
+"Jn": "(§340)"
+},
+{
+"n": "344",
+"titre": "Reniements de Pierre (Mt, Mc)",
+"page": 560,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "26,69-75",
+"Mc": "14,66-72",
+"Lc": "(§340)"
+},
+{
+"n": "345",
+"titre": "Jésus mené à Pilate",
+"page": 560,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,1-2",
+"Mc": "15,1",
+"Lc": "23,1",
+"Jn": "18,28"
+},
+{
+"n": "346",
+"titre": "La Mort de Judas",
+"page": 562,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,3-10"
+},
+{
+"n": "347",
+"titre": "L’Interrogatoire de Pilate",
+"page": 562,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,11-14",
+"Mc": "15,2-5",
+"Lc": "23,2-5",
+"Jn": "18,29-38"
+},
+{
+"n": "348",
+"titre": "Jésus mené à Hérode, puis renvoyé à Pilate",
+"page": 566,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Lc": "23,6-12"
+},
+{
+"n": "349",
+"titre": "La Démission de Pilate",
+"page": 568,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,15-26",
+"Mc": "15,6-15",
+"Lc": "23,13-25",
+"Jn": "18,39-19,16a"
+},
+{
+"n": "350",
+"titre": "Outrage au « Roi des Juifs »",
+"page": 572,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,27-31",
+"Mc": "15,16-20"
+},
+{
+"n": "351",
+"titre": "Le Chemin de Croix",
+"page": 574,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,32",
+"Mc": "15,21",
+"Lc": "23,26-32",
+"Jn": "19,16b-17a"
+},
+{
+"n": "352",
+"titre": "Le Crucifiement",
+"page": 578,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,33-43",
+"Mc": "15,22-32a",
+"Lc": "23,33-38",
+"Jn": "19,17b-24"
+},
+{
+"n": "353",
+"titre": "Le Bon Larron",
+"page": 580,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,44",
+"Mc": "15,32b",
+"Lc": "23,39-43"
+},
+{
+"n": "354",
+"titre": "Jésus et sa Mère",
+"page": 582,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Jn": "19,25-27"
+},
+{
+"n": "355",
+"titre": "La Mort de Jésus",
+"page": 582,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,45-56",
+"Mc": "15,33-41",
+"Lc": "23,44-49",
+"Jn": "19,28-30"
+},
+{
+"n": "356",
+"titre": "Le Coup de Lance",
+"page": 586,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Jn": "19,31-37"
+},
+{
+"n": "357",
+"titre": "La Mise au Tombeau",
+"page": 588,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,57-61",
+"Mc": "15,42-47",
+"Lc": "23,50-56",
+"Jn": "19,38-42"
+},
+{
+"n": "358",
+"titre": "La Garde au Tombeau",
+"page": 590,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 3, LA PASSION (§ 335-358)",
+"Mt": "27,62-66"
+},
+{
+"n": "359",
+"titre": "Les Saintes Femmes au Tombeau",
+"page": 592,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Mt": "28,1-8",
+"Mc": "16,1-8",
+"Lc": "24,1-11",
+"Jn": "20,1"
+},
+{
+"n": "360",
+"titre": "Pierre et l’Autre Disciple au Tombeau",
+"page": 594,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Lc": "24,12",
+"Jn": "20,2-10"
+},
+{
+"n": "361",
+"titre": "L’Apparition à Marie de Magdala",
+"page": 596,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "20,11-18"
+},
+{
+"n": "362",
+"titre": "L’Apparition aux Saintes Femmes",
+"page": 596,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Mt": "28,9-10"
+},
+{
+"n": "363",
+"titre": "Les Gardes soudoyés",
+"page": 598,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Mt": "28,11-15"
+},
+{
+"n": "364",
+"titre": "L’Apparition aux Disciples d’’Emmaüs",
+"page": 598,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Lc": "24,13-35"
+},
+{
+"n": "365",
+"titre": "L’Apparition au Cénacle",
+"page": 602,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Lc": "24,36-43",
+"Jn": "20,19-20"
+},
+{
+"n": "366",
+"titre": "L’Envoi en Mission des Apôtres (Lc)",
+"page": 604,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Lc": "24,44-49"
+},
+{
+"n": "367",
+"titre": "L’Envoi en Mission des Apôtres (Jn)",
+"page": 606,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "20,21-23"
+},
+{
+"n": "368",
+"titre": "L’Apparition à Thomas l",
+"page": 606,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "20,24-29"
+},
+{
+"n": "369",
+"titre": "Première Conclusion du IV° Évangile",
+"page": 608,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "20,30-31"
+},
+{
+"n": "370",
+"titre": "L’Envoi en Mission des Apôtres (Mt)",
+"page": 608,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Mt": "28,16-20"
+},
+{
+"n": "371",
+"titre": "L’Apparition au Bord du Lac",
+"page": 610,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "21,1-14"
+},
+{
+"n": "372",
+"titre": "La Confirmation de Pierre",
+"page": 612,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "21,15-19"
+},
+{
+"n": "373",
+"titre": "La Destinée de Pierre et de Jean",
+"page": 612,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "21,20-23"
+},
+{
+"n": "374",
+"titre": "L’Ascension",
+"page": 614,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Lc": "24,50-53"
+},
+{
+"n": "375",
+"titre": "Seconde Conclusion du IV° Évangile )",
+"page": 614,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Jn": "21,24-25"
+},
+{
+"n": "376",
+"titre": "Conclusion de Marc: L’Envoi en Mission",
+"page": 616,
+"partie": "IV. Le sacrifice pascal",
+"section": "SECTION 4, LA RÉSURRECTION (§ 359-376)",
+"Mc": "16,9-20"
+}
+]

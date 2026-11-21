@@ -1,0 +1,1 @@
+window.__BC={"n":"90","titre":"Pardon et guérison du paralytique","page":"316","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 9,1-8","refs":[["MAT",9,1,9,8]],"paras":[{"t":"Voir au § 40*.","page":"316","k":"texte"}],"i":"088"};

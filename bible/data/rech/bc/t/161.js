@@ -1,0 +1,1 @@
+window.__RT={"4139":"Mc 8,11-13; (Lc 11,16: 12.,54-56) — Commentaire au § 120*. Les / rappellent que le discernement des signes est affaire de Sagesse, laquelle se trouve ici, en Jésus, Verbe incarné. Il élucide le sens de tous les signes, de par leur convergence sur Lui; et il n°y a plus besoin de nouveaux signes, puisque ce qu'ils faisaient entrevoir est là."};

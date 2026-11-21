@@ -1,0 +1,1 @@
+window.__RT={"4667":"Luc n'a pas retenu la double mise en garde du Christ contre les traditions et le « levain » des Pharisiens (Mt 15,1-20; 16,6). Mais il en garde l'essentiel ici, en même temps que de la critique et des 7 malédictions que Mt situe plus tard, entre les Rameaux et la Cène (Mt 23). Voir les commentaires aux § 154-155*, 161* et 287-288*."};

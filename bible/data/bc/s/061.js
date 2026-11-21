@@ -1,0 +1,1 @@
+window.__BC={"n":"64-67","titre":"Que rien ne détourne de viser Dieu","page":"272","partie":"I. PRELUDES:","section":"SECTION 2, LE SERMON SUR LA MONTAGNE","refs_texte":"","refs":[["MAT",6,19,6,21],["MAT",6,22,6,23],["MAT",6,24,6,24],["MAT",6,25,6,34]],"paras":[],"i":"061"};

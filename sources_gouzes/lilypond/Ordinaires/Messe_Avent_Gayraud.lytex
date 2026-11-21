@@ -1,0 +1,279 @@
+%!TEX TS-program = lualatex
+
+\documentclass[12pt, a4paper, twoside]{article}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titlepic}
+\usepackage{xcolor}
+\usepackage{hanging}
+\usepackage{fancyhdr}
+%\usepackage[autocompile]{gregoriotex} \grechangestyle{modeline}{\scshape} \grechangestaffsize{14} %\grechangedim{baselineskip}{43pt}{fixed}\greannotation{}
+
+\ifx\gregorioscore\undefined \newcommand{\Vbar}{V/}\newcommand{\gregorioscore}[1]{} \fi
+
+\geometry{a5paper, margin = 0.04\paperwidth, bottom = 0.08\paperwidth, top = 0.08\paperwidth}
+
+\newcommand{\rubrique}[1]{\smallskip\textcolor{ruber}{{\small\itshape#1}}}
+\renewcommand{\rubrique}[1]{\smallskip\textcolor{ruber}{{\itshape#1}}}
+\definecolor{ruber}{RGB}{219, 23, 2}
+
+\title{\sffamily\Huge\bfseries\uppercase {Pour les Messes \mbox{de l'Avent}}}
+\author{}
+\date{}
+
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\scshape\rightmark}
+\fancyhead[RE]{\scshape\rightmark}
+\pagestyle{fancy}
+\renewcommand{\partmark}[1]{\markboth{#1}{}}
+\renewcommand{\subsectionmark}[1]{\markright{#1}}
+
+\pagestyle{fancy}
+\pagestyle{empty}
+\parindent= 0pt
+%\raggedbottom
+
+\titleformat{\section}[hang]{\Large\bfseries\sffamily\centering\uppercase}{}{0pt}{}{}
+\titleformat{\subsection}[hang]{\large\scshape\centering}{}{0pt}{}{}
+%\titlespacing{\part}{0pt}{0ex}{3ex}
+
+\def\preLilyPondExample{\par\hspace*{-3mm}}
+\newcommand{\betweenLilyPondSystem}[1]{\par\vspace{3ex}\hspace*{-3mm}}
+\newcommand{\postLilyPondExample}{\par}
+\newcommand{\dstr}{\begin{minipage}{\linewidth}\begin{hangparas}{1em}{1} }
+\newcommand{\fstr}{\end{hangparas}\end{minipage}\vspace{1em}\par}
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}\vspace{-4em}
+
+
+\section{In dominicis}
+
+\subsection{Kyrie}
+\begin{lilypond}
+	\include "FtAnt.ly" \include "Ordinaires/Gayraud Dimanches Kyrie.ly"
+\end{lilypond}
+\bigskip
+\gregorioscore{ky--kyrie_xvii_c--solesmes}
+
+\subsection{Sanctus}
+\begin{lilypond}
+	\include "Ft_12pt_.ly" \include "Ordinaires/Gayraud Dimanches Sanctus.ly"
+\end{lilypond}
+\bigskip
+\gregorioscore{ky--sanctus_xvii--solesmes}
+
+\newpage
+\subsection{Agnus}
+\begin{lilypond}
+	\include "Ft_12pt_.ly" \include "Ordinaires/Gayraud Dimanches Agnus.ly"
+\end{lilypond}
+\bigskip
+\gregorioscore{ky--agnus_xvii--solesmes}
+
+
+\section{In feriis}
+
+\subsection{Kyrie}
+\begin{lilypond}
+\include "Ft_12pt_t.ly" \include "Ordinaires/Gayraud Féries Kyrie.ly"
+\end{lilypond}
+\bigskip
+\gregorioscore{ky--kyrie_xviii--solesmes}
+
+\subsection{Sanctus}
+\begin{lilypond}
+\include "Ft_12pt_.ly" \include "Ordinaires/Gayraud Féries Sanctus.ly"
+\end{lilypond}
+\bigskip
+\gregorioscore{ky--sanctus_xviii--solesmes}
+
+\subsection{Agnus}
+\begin{lilypond}
+\include "Ft_12pt_.ly" \include "Ordinaires/Gayraud Féries Agnus.ly"
+\end{lilypond}
+\bigskip
+\gregorioscore{ky--agnus_xviii--solesmes}
+
+\newpage
+\section{Communions}
+\subsection{Chante et réjouis-toi}
+\begin{lilypond}
+	\include "Ft_12pt_.ly" \include "Communions/Chante et réjouis-toi.ly"
+\end{lilypond}
+\bigskip
+
+\dstr{%
+	E}{n} ses jours justice fleurira\\
+et grande paix jusqu’à la f\underline{i}n des lunes; \\
+il dominera de la mer à la mer,\\
+du Fleuve a\underline{u}x bouts de la terre.
+\fstr\dstr{%
+	I}{l} délivrera le pauvre qui appelle\\
+et le pet\underline{i}t qui est sans aide, \\
+compatissant au faible et au pauvre,\\
+il sauv\underline{e}ra l’âme des pauvres.
+\fstr\dstr{%
+	L}{es} rois de Saba et de Séba\\
+fer\underline{o}nt offrande; \\
+tous les rois se prosterneront devant lui,\\
+tous les p\underline{a}ïens le serviront.
+\fstr\dstr{%
+	Q}{ue} son nom soit béni à jamais,\\
+qu’il dure so\underline{u}s le soleil!\\
+Bénis seront en lui tous les peuples,\\
+ils le d\underline{i}ront bienheureux!
+\fstr\dstr{%
+	B}{éni} soit le Seigneur Dieu d’Israël,\\
+qui seul f\underline{i}t des merveilles; \\
+béni soit à jamais son nom de gloire,\\
+toute la terre en soit r\underline{e}mplie! Amen! Amen!
+\fstr
+
+\subsection{Voici qu'il vient}
+\begin{lilypond}
+	\include "Ft_12pt_.ly" \include "Communions/Voici qu'il vient.ly"
+\end{lilypond}
+\bigskip
+
+\dstr{%
+	F}{ais-moi} connaître, Seigneur, tes voies,\\
+mon Dieu, enseigne-moi tes sentiers, \\
+dirige-moi dans ta vérité, enseigne-moi,\\
+c’est toi, le Di\underline{e}u de mon salut.
+\fstr\dstr{%
+	E}{n} toi tout le jour j’espère\\
+en raison de ta bonté, Seigneur:\\
+Souviens-toi de ta tendresse, Seigneur,\\
+de ton amour, car ils s\underline{o}nt de toujours.
+\fstr\dstr{%
+	D}{roiture} et bonté que le Seigneur:\\
+lui qui remet dans la voie les égarés \\
+qui dirige les humbles dans la justice,\\
+qui enseigne aux malheure\underline{u}x sa voie 
+\fstr\dstr{%
+	t}{ous} ses chemins sont amour et vérité\\
+pour qui garde son alliance et ses préceptes.\\
+À cause de ton nom, Seigneur,\\
+pardonne mes t\underline{o}rts, car ils sont grands.
+\fstr\dstr{%
+	E}{st-il} un homme qui craigne le Seigneur,\\
+il le remet dans la voie qu’il faut prendre \\
+son âme séjournera dans le bonheur,\\
+sa lignée posséder\underline{a} la terre.
+\fstr\dstr{%
+	G}{arde} mon âme, délivre-moi,\\
+point de honte pour moi: tu es mon abri.\\
+Qu’innocence et droiture me protègent,\\
+j’espère en to\underline{i}, Seigneur.
+\fstr
+
+\begin{lilypond}
+	\include "Ft_12pt_.ly" 
+	armure = { \key c \major \time 3/4 }
+	resp = { \breathe\bar"" }
+\new ChoirStaff
+<< \new Staff = "femmes" \with {\remove Time_signature_engraver }
+<< %\accidentalStyle neo-modern-voice
+\new Voice = "soprano"
+{ \voiceOne \relative c''
+	{ \clef "treble" \armure \cadenzaOn %\tempo "" 2 = 52
+		c\breve b4 \bar"'"\noBreak b\breve a4 \bar"|"\noBreak 
+		a\breve f8 g4 \bar"'"\noBreak g\breve a f4\bar"||" } 
+}
+\new Voice = "alto"
+{ \voiceTwo \relative c''
+	{ a\breve g4 g\breve f4 f\breve s8 e4 e\breve e d4 } 
+}
+>>
+\new Staff = "hommes" \with {\remove Time_signature_engraver }
+<< \new Voice = "ténor"
+{ %\accidentalStyle neo-modern-voice
+	\voiceOne \relative c'
+	{ \clef "bass" \armure \cadenzaOn
+		e\breve d4 e\breve c4 c\breve s8 c4 c\breve cis a4 } 
+}
+\new Voice = "basse"
+{ \voiceTwo \relative c
+	{ a\breve e'4 e\breve f4 f\breve s8 c4 c\breve a d4	} 
+}
+>>
+>>
+\end{lilypond}
+
+\subsection{Réveille ta vaillance}
+\begin{lilypond}
+	\include "Ft_12pt_.ly" \include "Communions/Réveille ta vaillance.ly"
+\end{lilypond}
+\bigskip
+\dstr{%
+	T}{oi} le premier et le dernier, le vivant,\\
+nous célébrons ta résurrection,\\
+nous faisons mémoire du jo\underline{u}r du jugement.
+\fstr\dstr{%
+	T}{oi} l’Amen, le Témoin fidèle et vrai,\\
+tu es la lumière du monde,\\
+et ta gloire illuminer\underline{a} ceux qui attendent ton retour.
+\fstr\dstr{%
+	T}{oi} qui détiens la clef de David,\\
+tu as ouvert sur la croix la porte de la vie.\\
+Ton Église t’att\underline{e}nd. Viens Seigneur Jésus.
+\fstr\dstr{%
+	T}{oi} le Roi des rois et Seigneur des seigneurs,\\
+par ta mort tu as détruit la mort.\\
+Tu donnes en abondance la v\underline{i}e qui n’aura pas de fin.
+\fstr\dstr{%
+	T}{u} es l’Alpha et l’Oméga,\\
+tu es avant toutes choses\\
+et tu vi\underline{e}ns faire toutes choses nouvelles.
+\fstr\dstr{%
+	T}{oi} l’Agneau immolé,\\
+tu as été digne d’ouvrir le livre de la Vie\\
+Tu es le flambe\underline{a}u de la nouvelle Jérusalem.
+\fstr\dstr{%
+	T}{oi} le Premier-né d’entre les morts,\\
+nous proclamons ta mort\\
+jusqu’à ton reto\underline{u}r glorieux.
+\fstr\dstr{%
+	G}{loire} à toi, Père très saint, toi qui sièges sur le trône.\\
+Gloire à toi, Fils unique, l’Agneau immolé.\\
+Gloire à toi, Esprit Sa\underline{i}nt, fleuve de vie jaillissant pour les siècles.
+\fstr
+
+\begin{lilypond}
+	\include "Ft_12pt_.ly" 
+\new ChoirStaff
+<< \new Staff \with {\remove Time_signature_engraver }
+<< \new Voice = "soprano"
+{ \voiceOne \relative c''
+	{ \clef "treble" \key c \major \time 2/2 %\cadenzaOn %
+		\cadenzaOn a\breve c4 \bar"'"\noBreak 
+		b\breve c8 [b] a4 \bar"'"\noBreak a\breve f e8 d4\bar"||"	}
+}
+\new Voice = "alto"
+{ \voiceTwo \relative c'
+	{ \cadenzaOn c\breve e4 e\breve s4 c4 e\breve d c8 d4	}          
+}
+>>
+\new Staff \with {\remove Time_signature_engraver }
+<< \new Voice = "ténor"
+{ \voiceOne \relative c
+	{ \clef "bass" \key c \major \time 2/2 %\cadenzaOn
+	\cadenzaOn e\breve a4 g\breve s4 f4 a\breve a a8 a4	}
+}
+\new Voice = "basse"
+{ \voiceTwo \relative c
+	{ \cadenzaOn a\breve a4 e'\breve s4 f4 c\breve d a8 d4	}
+}
+>>
+>>
+\end{lilypond}
+
+\end{document}

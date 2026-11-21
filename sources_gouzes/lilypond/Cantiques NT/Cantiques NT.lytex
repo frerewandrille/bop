@@ -1,0 +1,150 @@
+%!TEX TS-program = lualatex
+
+\documentclass[10pt, a4paper, twoside]{article}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage[top = 4.5em, outer=3em, inner=3.5em, bottom=4em]{geometry}
+\usepackage{titlesec}
+
+%\input{Psautier-format-4.tex}\formatPDT\MixteB
+\geometry{a5paper}
+\pagestyle{empty}
+\titleformat{\part}[hang]{\huge\bfseries\sffamily\centering\uppercase}{}{0pt}{}{}
+\titleformat{\section}[hang]{\large\bfseries\centering\uppercase}{}{0pt}{}{}
+\titleformat{\subsection}[hang]{\bfseries\centering}{}{0pt}{}{}
+\titleformat{\subsubsection}[hang]{\bfseries\normalsize}{}{0pt}{}{}
+
+
+\title{}
+\author{}
+\date{}
+
+\def\preLilyPondExample{\par\hspace*{-3mm}}
+\newcommand{\betweenLilyPondSystem}[1]{\par\hspace*{-3mm}}
+\newcommand{\postLilyPondExample}{\par}
+\parindent= 0pt
+\newcommand{\dstr}{\begin{minipage}{0.9\linewidth}\begin{hangparas}{3em}{1}\raggedright}
+\newcommand{\fstr}{\end{hangparas}\end{minipage}\vspace{2ex}\par}
+
+
+
+\begin{document}
+
+%\null\thispagestyle{empty}\cleardoublepage
+\fontsize{13pt}{15pt}\selectfont
+
+\part{Cantiques \\du Nouveau Testament}\thispagestyle{empty}
+
+\section{Samedi}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Ph 2 C501.ly"
+\end{lilypond}
+
+\section{Dimanche}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Ap 19 C502.ly"
+\end{lilypond}
+
+\section{Lundi}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Ep 2 C503.ly"
+\end{lilypond}
+
+\section{Mardi}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Ap 4-5 C504.ly"
+\end{lilypond}
+
+\section{Mercredi}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Col 1 C505.ly"
+\end{lilypond}
+
+\section{Jeudi}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Ap 11-12 C506.ly"
+\end{lilypond}
+
+\section{Vendredi}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Ap 15 C507.ly"
+\end{lilypond}
+
+\vspace{10em}
+
+\section{Cantique de la deuxième lettre \mbox{aux Corinthiens}}
+\par\label{NTV}\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/2Co 5 K023.ly" 
+\end{lilypond}
+%\dstr
+%\vers{5,\,17}Si quelqu'un est dans le Christ,\par
+%il est une création nouvelle:\par
+%ce qui est ancien a disparu,\par
+%un être nouveau est apparu!
+%\fstr
+%\dstr
+%\vers{18}Et toute chose vient de Dieu,\par
+%qui nous a réconciliés avec lui par le Christ;\par
+%et c'est à nous qu'il a confié\par
+%le ministère de la réconciliation.
+%\fstr
+%\dstr
+%\vers{19}C'était Dieu qui, dans le Christ,\par
+%se réconciliait l'Univers,\par
+%ne tenant plus compte\par
+%des fautes des hommes.
+%\fstr
+%\dstr
+%Il a mis sur nos lèvres\par
+%la Parole de réconciliation:\par
+%\vers{20a}nous sommes en ambassade pour le Christ,\par
+%c'est Dieu qui exhorte en nous!
+%\fstr
+%\dstr
+%\vers{21}Celui qui n'avait pas connu le péché,\par
+%Dieu L'a fait péché pour nous\par
+%afin qu'en lui nous devenions\par
+%justice de Dieu.
+%\fstr
+%\newpage
+\section{Cantique de la première lettre de s. Pierre}
+\par\label{NTX}\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/1P 2 K021.ly" 
+\end{lilypond}
+
+\section{Cantique de la lettre \mbox{aux Romains}}
+\par\label{NTIV}\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Cantiques NT/Rm 6 K022.ly" 
+\end{lilypond}
+%\dstr
+%\vers{6,\,4}Par le baptême, ' nous avons été ensevelis avec lu\gras{i} dans la Mort,\par
+%comme le Christ est ressuscité des morts ' pour la glo\gras{i}re du Père,\par
+%nous vivrons, nous auss\gras{i}, dans une Vie nouvelle.
+%\fstr
+%\dstr
+%\vers{5}C'est un même être que nous sommes deven\gras{u}s avec le Christ,\par
+%par une mort sembl\gras{a}ble à la sienne.\par
+%Et nous le serons auss\gras{i} par une résurrection semblable à la sienne.
+%\fstr
+%\dstr
+%\vers{6}Notre vieil homme a été crucifi\gras{é} avec lui,\par
+%pour que fut détruit ce c\gras{o}rps de péché,\par
+%afin que nous ne soyions plus asserv\gras{i}s au péché.
+%\fstr
+%\dstr
+%\vers{8}Mais, si nous sommes m\gras{o}rts avec le Christ,\par
+%nous croyons que nous vivrons auss\gras{i} avec lui,\par
+%car le Christ, ressuscité des m\gras{o}rts, ne meurt plus.
+%\fstr
+%\dstr
+%\vers{9}La Mort n'a plus d'emp\gras{i}re sur lui:\par
+%sa Mort fut une mort au péch\gras{é}, ' une fois pour toutes.\par
+%Mais sa Vie est une v\gras{i}e pour Dieu.
+%\fstr
+%\dstr
+%Gloire au Père, et au F\gras{i}ls, et au Saint Esprit,\par
+%au Dieu qui est, ' qui éta\gras{i}t, et qui vient,\par
+%pour les si\gras{è}cles des siècles. Amen.
+%\fstr
+
+\end{document}

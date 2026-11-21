@@ -1,0 +1,114 @@
+<!doctype html>
+<!-- Recueil « Martyrologe » (trois éditions : romain, Marseille, Toulouse-Rangueil) et frères défunts du jour,
+     lu le jour même ou la veille. Logique : js/martyrologe.js ; données : donnees/martyrologe.json et
+     necrologe.json (outils/construire_martyrologe.py). -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Martyrologe</title>
+<meta name="description" content="Martyrologe des couvents de la Province de Toulouse et mémoire des frères défunts.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#7a1f1f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icone.svg?v=2" type="image/svg+xml">
+<link rel="stylesheet" href="css/polices.css?v=86">
+<link rel="stylesheet" href="css/office.css?v=102">
+<link rel="stylesheet" href="css/table.css?v=11">
+<link rel="stylesheet" href="css/menu.css?v=9">
+</head>
+<body class="page-table page-martyrologe">
+<script src="js/menu.js?v=8"></script>
+<header class="barre barre-table">
+  <div class="barre-gauche">
+    <label class="cache" for="date">Date</label>
+    <button class="bouton icone" id="veille" title="Jour précédent" aria-label="Jour précédent">‹</button>
+    <input type="date" id="date">
+    <button class="bouton icone" id="lendemain" title="Jour suivant" aria-label="Jour suivant">›</button>
+    <button class="bouton avec-icone" id="aujourdhui" title="Revenir à aujourd'hui" aria-label="Aujourd'hui"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><circle class="plein" cx="12" cy="15" r="2"/></svg><span class="lib">Aujourd'hui</span></button>
+  </div>
+  <div class="barre-droite">
+    <button class="bouton avec-icone" id="imprimer" title="Imprimer" aria-label="Imprimer"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 10.5v6.5M9 14l3 3 3-3"/></svg><span class="lib">Imprimer</span></button>
+    <span class="bouton icone cale" aria-hidden="true"></span>
+  </div>
+  <nav class="onglets pages-annexes" aria-label="Bibliothèque"></nav>
+</header>
+
+<main class="contenu table-contenu" id="page" aria-live="polite"><p class="chargement">Chargement…</p></main>
+
+<script src="js/bibliotheque.js?v=2"></script>
+<script src="js/calendrier.js?v=91"></script>
+<script src="js/martyrologe.js?v=2"></script>
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const pad = (n) => String(n).padStart(2, "0");
+  const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const decaler = (s, n) => { const d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return iso(d); };
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // préférences communes aux offices (propre OP, taille, thème) + l'édition du martyrologe
+  let pref = { propreOP: true, taille: 18, theme: "auto", martyrologe: "romain", martyrologeLecture: "jour" };
+  try { pref = { ...pref, ...JSON.parse(localStorage.getItem("breviaire-pref") || "{}") }; } catch (e) { /* rien */ }
+  const sauver = () => {
+    try {
+      const p = JSON.parse(localStorage.getItem("breviaire-pref") || "{}");
+      p.martyrologe = pref.martyrologe;
+      p.martyrologeLecture = pref.martyrologeLecture;
+      localStorage.setItem("breviaire-pref", JSON.stringify(p));
+    } catch (e) { /* rien */ }
+  };
+  if (pref.theme && pref.theme !== "auto") document.documentElement.setAttribute("data-theme", pref.theme);
+  document.documentElement.style.setProperty("--taille", (pref.taille || 18) + "px");
+
+  let M = null, N = null, date = iso(new Date());
+  const m = /^#(\d{4}-\d{2}-\d{2})/.exec(location.hash);
+  if (m) date = m[1];
+
+  function afficher() {
+    $("#date").value = date;
+    Bibliotheque.onglets("martyrologe", date);
+    if (location.hash !== "#" + date) history.replaceState(null, "", "#" + date);
+    const jour = Calendrier.jour(Calendrier.deIso(date), { propreOP: pref.propreOP });
+    // lu la veille : ce jour, on lit le martyrologe (et les frères défunts) du lendemain
+    const veille = pref.martyrologeLecture === "veille";
+    const j = veille ? Calendrier.jour(Calendrier.deIso(decaler(date, 1)), { propreOP: pref.propreOP }) : jour;
+    document.title = `Martyrologe — ${jour.dateLongue}`;
+    const choix = Object.entries(M.editions).map(([k, v]) => `<option value="${k}"${k === pref.martyrologe ? " selected" : ""}>${esc(v)}</option>`).join("");
+    const lecture = [["jour", "le jour même"], ["veille", "la veille (martyrologe du lendemain)"]]
+      .map(([k, v]) => `<option value="${k}"${(veille ? "veille" : "jour") === k ? " selected" : ""}>${v}</option>`).join("");
+    $("#page").innerHTML =
+      `<header class="entete-table couleur-${j.couleur || "vert"}"><p class="date">${esc(jour.dateLongue)}</p><h1>Martyrologe</h1>`
+      + (veille ? `<p class="sous-titre">lu la veille : martyrologe du ${esc(j.dateLongue)}</p>`
+                : `<p class="sous-titre">${esc(jour.nom.charAt(0).toUpperCase() + jour.nom.slice(1))}</p>`)
+      + `<label class="edition">Édition : <select id="edition">${choix}</select></label>`
+      + `<label class="edition">Lecture : <select id="lecture">${lecture}</select></label></header>`
+      + Martyrologe.rendu(j, M, N, pref.martyrologe)
+      + `<p class="source">${esc(M.editions[pref.martyrologe] || "")} — ${esc(N.source)}.</p>`;
+    $("#edition").onchange = (e) => { pref.martyrologe = e.target.value; sauver(); afficher(); };
+    $("#lecture").onchange = (e) => { pref.martyrologeLecture = e.target.value; sauver(); afficher(); };
+  }
+
+  $("#veille").onclick = () => { date = decaler(date, -1); afficher(); };
+  $("#lendemain").onclick = () => { date = decaler(date, 1); afficher(); };
+  $("#aujourdhui").onclick = () => { date = iso(new Date()); afficher(); };
+  $("#date").onchange = (e) => { if (e.target.value) { date = e.target.value; afficher(); } };
+  $("#imprimer").onclick = () => window.print();
+  window.addEventListener("hashchange", () => { const h = /^#(\d{4}-\d{2}-\d{2})/.exec(location.hash); if (h && h[1] !== date) { date = h[1]; afficher(); } });
+
+  Promise.all(["sanctoral", "propre_op", "martyrologe", "necrologe"].map((f) => fetch(`donnees/${f}.json`, { cache: "no-cache" }).then((r) => r.json())))
+    .then(([sanctoral, propreOP, mart, nec]) => {
+      Calendrier.charger(sanctoral, propreOP); M = mart; N = nec;
+      if (!M.editions[pref.martyrologe]) pref.martyrologe = "romain";
+      afficher(); document.body.dataset.pret = "1";
+    })
+    .catch(() => { $("#page").innerHTML = `<p class="chargement">Le martyrologe n'a pas pu être chargé.</p>`; });
+
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

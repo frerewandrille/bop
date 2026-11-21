@@ -1,0 +1,1 @@
+window.__BC={"n":"96","titre":"Guérison d’un démoniaque, muet","page":"317","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 9,32-34","refs":[["MAT",9,32,9,34]],"paras":[{"t":"voir aux § 116-117*.","page":"317","k":"texte"}],"i":"092"};

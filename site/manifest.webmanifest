@@ -1,0 +1,1 @@
+{"name": "Bréviaire dominicain", "short_name": "Bréviaire", "start_url": "./", "display": "standalone", "background_color": "#fbf8f2", "theme_color": "#7a1f1f", "lang": "fr", "icons": [{"src": "icone-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icone-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "icone.svg", "sizes": "any", "type": "image/svg+xml"}]}

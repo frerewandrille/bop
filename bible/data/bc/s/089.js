@@ -1,0 +1,1 @@
+window.__BC={"n":"91-93","titre":"Vocation de Matthieu (Lévi), repas avec les pécheurs, questions sur le jeône","page":"316","partie":"","section":"","refs_texte":"Mt 9,9-17","refs":[["MAT",9,9,9,17]],"paras":[{"t":"— voir aux § 41-43*.","page":"316","k":"texte"}],"i":"089"};

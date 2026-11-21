@@ -1,0 +1,1 @@
+window.__BC={"n":"237-240","titre":"Instructions aux Apôtres","page":"488","partie":"I. PRELUDES:","section":"SECTION 2, LA MONTÉE À JÉRUSALEM ($","refs_texte":"","refs":[["LUK",17,1,17,3],["LUK",17,3,17,4],["LUK",17,5,17,6],["LUK",17,7,17,10]],"paras":[],"i":"229"};

@@ -1,0 +1,1 @@
+window.__BC={"n":"189","titre":"« Bienheureux les yeux... »","page":"449","partie":"I. PRELUDES:","section":"SECTION 2, LA MONTÉE À JÉRUSALEM ($","refs_texte":"Lc 10,23-24; (Mt 13,16-17)","refs":[["LUK",10,23,10,24],["MAT",13,16,13,17]],"paras":[{"t":"Voir le commentaire au § 128*.","page":"449","k":"texte"}],"i":"192"};

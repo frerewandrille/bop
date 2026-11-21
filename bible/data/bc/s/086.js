@@ -1,0 +1,1 @@
+window.__BC={"n":"87","titre":"Vocations: conditions pour être disciple","page":"316","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 8,18-21","refs":[["MAT",8,18,8,21]],"paras":[{"t":"Voir au § 184*.","page":"316","k":"texte"}],"i":"086"};

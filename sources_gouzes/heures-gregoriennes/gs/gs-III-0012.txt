@@ -1,0 +1,3 @@
+       Tome III (new):Tome III / 1-1402  24/05/08  10:53  Page XII
+             * Lorsque le degré de célébration n’est pas indiqué, il s’agit d’une mémoire
+               facultative.

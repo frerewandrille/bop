@@ -1,0 +1,387 @@
+/* Habit commun de tout le site : couleurs (variables --fond, --rouge…, thème clair / sombre), barre du haut,
+   réglages, mise en page de l'office à l'écran (titres, psaumes, antiennes, partitions repliables), formats
+   téléphone / ordinateur. Chargé par toutes les pages du site ; les autres feuilles s'y appuient :
+   menu.css (barre des menus), impression.css (PDF), table.css (Bibliothèque), messe.css (Messe), polices.css.
+   ATTENTION : ne jamais réécrire ce fichier d'un bloc, le modifier par morceaux (le 17/11/2026, une réécriture
+   avait effacé les styles du bouton « Signaler » ; tests/signaler.test.js le surveille). Changer « ?v=N » dans les pages. */
+:root {
+  --taille: 18px;
+  --fond: #fbf8f2;
+  --fond-2: #f2ece1;
+  --texte: #241f1a;
+  --doux: #6b6157;
+  --rouge: #a3201c;
+  --trait: #ddd3c3;
+  --accent: #7a1f1f;
+  --ombre: 0 8px 30px rgba(40, 25, 10, .18);
+  --legende: "Kepler Legende", "Kepler Texte", "Iowan Old Style", Palatino, Georgia, serif;
+  --soustitre: "Kepler Soustitre", "Kepler Texte", "Iowan Old Style", Palatino, Georgia, serif;
+  --titre: "Kepler Titre", "Kepler Soustitre", "Iowan Old Style", Palatino, Georgia, serif;
+  --serif: "Kepler Texte", "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #1a1714; --fond-2: #24201c; --texte: #ece4d8; --doux: #a89c8e; --rouge: #e0716a;
+    --trait: #3a332c; --accent: #e0716a; --ombre: 0 8px 30px rgba(0, 0, 0, .5); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #1a1714; --fond-2: #24201c; --texte: #ece4d8; --doux: #a89c8e; --rouge: #e0716a;
+  --trait: #3a332c; --accent: #e0716a; --ombre: 0 8px 30px rgba(0, 0, 0, .5); color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--fond); color: var(--texte); font-family: var(--serif); font-size: var(--taille); line-height: 1.45; }
+a { color: var(--accent); }
+.cache { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* ── Barre du haut */
+.barre { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between;
+  padding: 8px 16px; background: var(--fond-2); border-bottom: 1px solid var(--trait); font-family: var(--sans); font-size: 15px; }
+.barre-gauche, .barre-droite { display: flex; align-items: center; gap: 6px; }
+.logo { color: var(--rouge); font-size: 22px; margin-right: 4px; }
+.bouton { font: inherit; border: 1px solid var(--trait); background: var(--fond); color: var(--texte); border-radius: 8px; padding: 6px 12px; cursor: pointer; min-height: 36px; }
+.bouton:hover { border-color: var(--doux); }
+.bouton.icone { width: 36px; padding: 0; font-size: 18px; }
+.bouton.principal { background: var(--accent); color: #fff; border-color: var(--accent); }
+.bouton:disabled { opacity: .5; cursor: wait; }
+input[type=date], select { font: inherit; border: 1px solid var(--trait); background: var(--fond); color: var(--texte); border-radius: 8px; padding: 5px 8px; min-height: 36px; }
+.onglets { display: flex; gap: 2px; background: var(--fond); border: 1px solid var(--trait); border-radius: 10px; padding: 3px; }
+.onglets button { font: inherit; border: 0; background: none; color: var(--doux); padding: 6px 12px; border-radius: 7px; cursor: pointer; }
+.onglets button[aria-current="page"] { background: var(--accent); color: #fff; }
+
+/* ── Mise en page */
+.cadre { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; max-width: 1060px; margin: 0 auto; padding: 24px 16px 48px; }
+.sommaire { position: sticky; top: 72px; align-self: start; display: flex; flex-direction: column; gap: 2px; font-family: var(--sans); font-size: 14px; }
+.sommaire a { color: var(--doux); text-decoration: none; padding: 5px 10px; border-left: 2px solid var(--trait); }
+.sommaire a:hover { color: var(--accent); border-left-color: var(--accent); }
+.contenu { max-width: 40em; }
+.chargement { color: var(--doux); font-style: italic; }
+@media (max-width: 760px) {
+  .cadre { grid-template-columns: 1fr; padding-top: 12px; }
+  .sommaire { display: none; }
+  .onglets { order: 3; width: 100%; justify-content: space-between; }
+  .onglets button { flex: 1; padding: 6px 4px; }
+  #aujourdhui { display: none; }
+}
+
+/* ── Office */
+.entete-office { border-left: 5px solid var(--couleur, #4d7c3a); padding: 2px 0 2px 16px; margin-bottom: 24px; }
+.couleur-vert { --couleur: #4d7c3a; } .couleur-violet { --couleur: #6a3d8f; } .couleur-blanc { --couleur: #c9a94b; }
+.couleur-rouge { --couleur: #b3261e; } .couleur-rose { --couleur: #d77fa1; } .couleur-noir { --couleur: #333; }
+.date-longue { margin: 0; font-family: var(--legende); font-size: .72em; letter-spacing: .08em; text-transform: uppercase; color: var(--doux); }
+.entete-office h2 { margin: .1em 0; font-family: var(--titre); font-size: 1.9em; font-weight: 500; color: var(--rouge); }
+.celebration { margin: 0; font-size: 1.1em; }
+.rang { font-style: italic; color: var(--doux); font-size: .9em; }
+.ferie, .facultatives, .psautier-semaine { margin: .15em 0 0; color: var(--doux); font-size: .85em; }
+
+.bloc { margin: 0 0 1.6em; }
+.bloc > h3 { font-family: var(--legende); font-size: .7em; letter-spacing: .12em; text-transform: uppercase; color: var(--rouge); font-weight: 600; margin: 0 0 .6em; scroll-margin-top: 80px; }
+.bloc p { margin: 0 0 .5em; }
+.rubrique, .rv { color: var(--rouge); font-style: normal; font-weight: 600; }
+.antienne { margin: .8em 0; font-style: italic; }
+.antienne .rubrique { font-style: normal; margin-right: .3em; }
+.hymne { white-space: normal; }
+.espace { display: block; height: .7em; }
+.credit { font-size: .75em; color: var(--doux); }
+
+/* Psaumes : un stique par ligne, retrait suspendu pour les lignes trop longues */
+.psaume { margin: .4em 0 .6em; }
+.titre-psaume { margin: 1em 0 .5em; font-weight: 600; font-size: 1em; color: var(--rouge); }
+.titre-psaume .ref, .titre-psaume .division { color: var(--doux); font-weight: 400; }
+.strophe { margin: 0 0 .95em; break-inside: avoid; }
+.psaume p.stique { margin: 0; padding-left: 1.5em; text-indent: -1.5em; position: relative; line-height: 1.38; }
+.psaume p.stique.r1 { margin-left: 1.25em; } .psaume p.stique.r2 { margin-left: 2.5em; } .psaume p.stique.r3 { margin-left: 3.75em; }
+.stique b { font-weight: 700; }
+sup.v, .v { color: var(--rouge); font-size: .62em; font-family: var(--legende); font-weight: 500; vertical-align: super; line-height: 0; }
+.lettre-hebraique { color: var(--rouge); font-size: 1.15em; margin: .2em 0 .1em; font-family: "SBL Hebrew", "Times New Roman", serif; }
+.lettre-marge { position: absolute; left: -1.4em; color: var(--rouge); text-indent: 0; font-family: "SBL Hebrew", "Times New Roman", serif; }
+.gloire { margin-top: .3em; font-style: italic; }
+.psaume .gloire p { margin: 0; padding-left: 1.5em; text-indent: -1.5em; }
+.priere-psalmique { margin: .6em 0 0; padding: .5em .8em; border-left: 2px solid var(--trait); font-size: .92em; }
+.priere-psalmique p { margin: 0; }
+.psalmodie-element + .psalmodie-element { border-top: 1px dotted var(--trait); padding-top: .4em; }
+
+.ref-ligne { font-family: var(--legende); font-size: .75em; color: var(--rouge); margin: 0 0 .3em; }
+.lecture { text-align: justify; hyphens: auto; }
+.lecture .v { margin-right: .1em; }
+.note { color: var(--doux); }
+.avertissements, .avertissement { margin-top: 2em; padding: .7em 1em; border: 1px solid var(--trait); border-radius: 8px; background: var(--fond-2); color: var(--doux); font-family: var(--sans); font-size: 13px; }
+.avertissements p { margin: .2em 0; }
+
+.pied { max-width: 1060px; margin: 0 auto; padding: 16px; font-family: var(--sans); font-size: 12px; color: var(--doux); border-top: 1px solid var(--trait); }
+
+/* ── Fenêtres */
+.fenetre { border: 1px solid var(--trait); border-radius: 14px; background: var(--fond); color: var(--texte); box-shadow: var(--ombre); padding: 20px 24px; width: min(460px, calc(100vw - 32px)); font-family: var(--sans); font-size: 15px; }
+.fenetre::backdrop { background: rgba(20, 12, 5, .35); }
+.fenetre h2 { margin: 0 0 12px; font-family: var(--soustitre); font-weight: 500; color: var(--rouge); }
+.fenetre fieldset { border: 1px solid var(--trait); border-radius: 10px; margin: 0 0 12px; padding: 8px 12px 10px; }
+.fenetre legend { color: var(--doux); font-size: 13px; padding: 0 4px; }
+.fenetre label { display: flex; gap: 8px; align-items: center; margin: 4px 0; }
+.fenetre menu { display: flex; justify-content: flex-end; gap: 8px; padding: 0; margin: 12px 0 0; }
+.grille { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+.grille label { flex-direction: column; align-items: stretch; gap: 2px; }
+.aide { color: var(--doux); font-size: 13px; margin: 6px 0; }
+progress { width: 100%; }
+
+.impression { display: none; }
+
+/* Liturgie chorale (Gouzes) */
+.ton { font-family: var(--legende); font-size: .62em; color: var(--doux); font-style: normal; letter-spacing: .02em; white-space: nowrap; }
+.nocturne { font-family: var(--legende); font-size: .7em; letter-spacing: .1em; text-transform: uppercase; color: var(--rouge); margin: 1.2em 0 .3em; }
+.preces p { margin: 0; }
+.preces .preces-invocation { margin-top: .45em; }
+.preces .preces-reponse { padding-left: 1.2em; text-indent: -.9em; font-style: italic; }
+.preces .faisant-memoire { margin-top: .6em; font-style: italic; color: var(--doux); }
+.preces .traduction { font-style: italic; color: var(--doux); padding-left: 1em; }
+.verset-marial { font-style: italic; }
+.canon p { margin: 0 0 .45em; }
+.hymne.gouzes p { margin: 0 0 .6em; }
+
+/* Partitions des carnets */
+.partitions details { border: 1px solid var(--trait); border-radius: 8px; margin: 0 0 .5em; background: var(--fond-2); }
+.partitions summary { cursor: pointer; padding: .45em .8em; font-family: var(--legende); font-size: .78em; }
+.partitions summary .role { color: var(--rouge); font-weight: 600; }
+.partitions img { display: block; width: 100%; height: auto; background: #fff; border-top: 1px solid var(--trait); }
+:root[data-theme="dark"] .partitions img { filter: invert(.92) hue-rotate(180deg); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .partitions img { filter: invert(.92) hue-rotate(180deg); } }
+
+.rubrique-texte { color: var(--rouge); font-style: italic; font-size: .92em; }
+
+.partition-piece { margin: .4em 0 1em; }
+.partition-piece img { display: block; max-width: 100%; height: auto; margin: 0 auto .2em; background: #fff; }
+.partition-piece figcaption { font-size: .8em; color: var(--gris, #777); text-align: center; }
+:root[data-theme="dark"] .partition-piece img { filter: invert(.92) hue-rotate(180deg); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .partition-piece img { filter: invert(.92) hue-rotate(180deg); } }
+@media print { .partition-piece { break-inside: avoid; } .partition-piece img { max-height: 21cm; } }
+.latin { font-style: italic; }
+
+/* partition repliable sous son texte */
+details.partition-pliee { margin: .2em 0 .8em; border-left: 3px solid var(--trait); padding-left: .6em; }
+details.partition-pliee > summary { cursor: pointer; font-family: var(--legende); font-size: .78em; color: var(--rouge); list-style-position: inside; }
+details.partition-pliee > summary .legende { color: var(--gris, #777); }
+details.partition-pliee .partition-piece { margin: .4em 0 0; }
+@media print { details.partition-pliee:not([open]) { display: none; } details.partition-pliee > summary { display: none; } details.partition-pliee { border: 0; padding: 0; } }
+
+details.priere-psalmique > summary { cursor: pointer; font-size: .85em; }
+details.priere-psalmique:not([open]) { padding-top: .2em; padding-bottom: .2em; }
+@media print { details.priere-psalmique:not([open]) { display: none; } }
+
+.choix-office { font-family: var(--legende); font-size: .8em; margin: .3em 0; }
+.choix-office select { font: inherit; padding: .15em .3em; border-radius: 6px; border: 1px solid var(--trait); background: var(--fond-2); color: inherit; max-width: 100%; }
+@media print { .no-print { display: none !important; } }
+
+.alternative-gregorienne { margin: .3em 0 .6em; padding-left: .6em; border-left: 2px dotted var(--trait); }
+.alternative-gregorienne .note { margin: 0; }
+
+/* ── Version latin-français (Heures grégoriennes) : latin à gauche, français à droite ── */
+.office-latin .bilingue { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.4em; margin: .4em 0; }
+.office-latin .bilingue > .la { font-style: normal; }
+.office-latin .bilingue > .fr { border-left: 1px solid var(--trait, #ddd); padding-left: 1.4em; }
+.office-latin .texte-bilingue .l { display: block; padding-left: 1.2em; text-indent: -1.2em; }
+.office-latin .texte-bilingue .l.r1, .office-latin .texte-bilingue .l.r2 { padding-left: 2.4em; }
+.office-latin .texte-bilingue .l.r2 { padding-left: 3.2em; }
+.office-latin .texte-bilingue .rubrique-l { color: var(--rouge, #a01c1c); font-style: italic; font-size: .9em; }
+.office-latin .titre-ps { font-variant: small-caps; text-align: center; margin: .2em 0; font-size: .9em; letter-spacing: .03em; }
+.office-latin .chapeau { font-style: italic; font-size: .9em; margin: .2em 0 .5em; }
+.office-latin .titre-bilingue { margin: 1em 0 .2em; font-size: 1em; }
+.office-latin .titre-bilingue .trad { font-weight: normal; color: var(--doux); }
+.office-latin .titre-bilingue .trad::before { content: "— "; }
+.office-latin .partition-latine { margin: .2em 0 .5em; }
+.office-latin .partition-latine img { max-width: 100%; height: auto; display: block; }
+.office-latin .antienne-fr { margin: .4em 0; }
+.office-latin .gloria { font-size: .92em; color: var(--doux); margin: .3em 0; }
+.office-latin .ref { font-weight: normal; font-size: .9em; }
+.office-latin .source-latine { margin-top: 2em; font-size: .85em; color: var(--doux); }
+@media (max-width: 640px) {
+  .office-latin .bilingue { grid-template-columns: 1fr; }
+  .office-latin .bilingue > .fr { border-left: 0; padding-left: 0; border-top: 1px dotted var(--trait, #ddd); padding-top: .3em; margin-top: .3em; }
+}
+@media print {
+  .office-latin .bilingue { grid-template-columns: 1fr 1fr; gap: 0 4mm; break-inside: auto; }
+  .office-latin .bilingue > .fr { padding-left: 4mm; }
+  .office-latin .texte-bilingue { font-size: .88em; }
+  .office-latin .partition-latine img { max-width: 100%; }
+}
+.choix-office select { max-width: 100%; }
+.choix-office label { display: inline-block; max-width: 100%; }
+.cadre > main { min-width: 0; }
+.office-latin .bilingue > div { min-width: 0; }
+
+/* Nom de fichier d'une partition (pour la corriger) et clé de l'office : discrets, jamais imprimés */
+.fichier-partition { font-family: ui-monospace, Menlo, monospace; font-size: .68em; color: var(--gris, #888); margin: .2em 0 0; user-select: all; }
+.cle-correction { font-family: var(--legende); font-size: .72em; color: var(--gris, #888); margin-top: 1.5em; }
+.cle-correction code { user-select: all; }
+details.hymne-aelf { margin-top: .8em; }
+details.hymne-aelf > summary { cursor: pointer; font-family: var(--legende); font-size: .78em; color: var(--gris, #777); }
+@media print { details.hymne-aelf:not([open]) { display: none; } details.hymne-aelf > summary { display: none; } }
+details.choix-hymne { margin: .3em 0; border-left: 3px solid var(--trait); padding-left: .6em; }
+details.choix-hymne > summary { cursor: pointer; font-family: var(--legende); font-size: .85em; color: var(--rouge); }
+@media print { details.choix-hymne:not([open]) { display: none; } details.choix-hymne { border: 0; padding: 0; } details.choix-hymne > summary { list-style: none; font-weight: 600; color: inherit; } }
+
+/* Paroles du président avant le Notre Père ; intention du jour (province de l'Ordre) ; oraison au choix */
+.president p { font-style: italic; margin: .3em 0; }
+.president .province-jour { font-style: normal; font-family: var(--legende); font-size: .74em; color: var(--gris, #888); margin-top: .5em; }
+details.autre-oraison { margin-top: .6em; }
+details.autre-oraison > summary { cursor: pointer; font-family: var(--legende); font-size: .78em; color: var(--gris, #777); }
+@media print { details.autre-oraison:not([open]) { display: none; } }
+/* milieu du jour : les trois capitules (tierce, sexte, none) */
+.capitule-heure + .capitule-heure { margin-top: .9em; }
+.intitule-heure { font-family: var(--legende); font-weight: normal; font-size: .78em; letter-spacing: .08em; text-transform: uppercase; color: var(--rouge); margin: 0 0 .25em; }
+.capitule-heure .repons { margin-top: .4em; }
+.capitule-heure { break-inside: avoid; }
+.office-latin .texte-bilingue.prose p { margin: 0 0 .45em; }
+
+/* Deuxième lecture au choix : lectionnaire patristique dominicain (J.-R. Bouchet) ou AELF, deux sections repliées */
+details.choix-lecture2 { margin: .4em 0; border: 1px solid var(--trait); border-radius: 8px; padding: .4em .8em; background: var(--fond-2); }
+details.choix-lecture2 > summary { cursor: pointer; font-family: var(--legende); font-size: .9em; color: var(--rouge); font-weight: 600; }
+details.choix-lecture2[open] > summary { margin-bottom: .5em; }
+details.choix-lecture2 .intitule-repons { font-family: var(--legende); font-size: .75em; letter-spacing: .08em; text-transform: uppercase; color: var(--rouge); margin: 1em 0 .3em; }
+details.lecture-bouchet { margin: .3em 0; border-left: 3px solid var(--trait); padding-left: .6em; }
+details.lecture-bouchet > summary { cursor: pointer; font-family: var(--legende); font-size: .85em; color: var(--rouge); }
+details.lecture-bouchet[open] > summary { margin-bottom: .4em; }
+@media screen { details.lecture-bouchet > h4 { display: none; } }
+.bouchet-citation { font-style: italic; margin: .2em 0 .6em; }
+.bouchet-citation .ref { font-style: normal; font-family: var(--legende); font-size: .8em; color: var(--rouge); white-space: nowrap; }
+.lecture-longue .lecture.patristique p.vers { margin: 0; text-align: left; hyphens: manual; }
+.lecture-longue .lecture.patristique p.vers.retrait { margin-left: 1.5em; }
+.lecture-longue .lecture.patristique p:not(.vers) + p.vers, .lecture-longue .lecture.patristique p.vers + p:not(.vers) { margin-top: .5em; }
+.lecture-bouchet-imprimee .source-bouchet { font-family: var(--legende); font-size: .74em; color: var(--gris, #888); text-align: right; }
+@media print { details.choix-lecture2:not([open]), details.lecture-bouchet:not([open]) { display: none; } details.choix-lecture2 > summary, details.lecture-bouchet > summary { display: none; } details.choix-lecture2, details.lecture-bouchet { border: 0; padding: 0; background: none; } }
+
+/* ── Signaler une erreur (js/signaler.js) : discret, jamais imprimé */
+.bulle-signaler { position: absolute; z-index: 20; font: 600 14px/1 var(--sans); background: var(--accent); color: #fff; border: 0; border-radius: 999px;
+  padding: 9px 14px; min-height: 36px; box-shadow: var(--ombre); cursor: pointer; }
+.bulle-signaler[hidden] { display: none; }
+.bulle-signaler.bulle-bas { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  font-size: 16px; padding: 13px 22px; min-height: 48px; white-space: nowrap; }
+.lien-signaler { font: inherit; background: none; border: 0; padding: 4px 0; color: var(--doux); text-decoration: underline; text-decoration-color: var(--trait);
+  text-underline-offset: 3px; cursor: pointer; }
+.lien-signaler:hover { color: var(--accent); text-decoration-color: currentColor; }
+.signaler-pied { margin: 2.4em 0 0; padding-top: .8em; border-top: 1px solid var(--trait); font-family: var(--sans); font-size: 13px; color: var(--doux); }
+.signaler-partition { margin: .2em 0 .8em; font-family: var(--sans); font-size: 12px; }
+.fenetre-signaler .sig-contexte { margin-top: -6px; }
+.fenetre-signaler .sig-passage { margin: 0 0 12px; padding: 8px 12px; border-left: 3px solid var(--rouge); background: var(--fond-2); border-radius: 0 8px 8px 0;
+  font-family: var(--serif); font-size: 16px; line-height: 1.4; max-height: 9em; overflow: auto; }
+.fenetre-signaler label.sig-texte, .fenetre-signaler label.sig-ou { flex-direction: column; align-items: stretch; gap: 6px; }
+.fenetre-signaler textarea { font: inherit; font-size: 16px; border: 1px solid var(--trait); background: var(--fond); color: var(--texte); border-radius: 8px; padding: 8px 10px; resize: vertical; }
+.fenetre-signaler .sig-etat:empty, .fenetre-signaler [hidden] { display: none; }
+
+/* Pages en vis-à-vis dans le livret (2-3, 4-5…) : côte à côte sur un écran large, l'une sous l'autre ailleurs */
+figure.partition-piece .double-page { display: block; }
+@media screen and (min-width: 760px) {
+  figure.partition-piece .double-page { display: grid; grid-template-columns: 1fr 1fr; gap: .6em; align-items: start; }
+  figure.partition-piece .double-page img { width: 100%; max-width: none; margin: 0; }
+}
+
+/* ── Barre du haut : logo, date, aujourd'hui, Bible, export, réglages sur une seule ligne ; offices au milieu
+      sur grand écran, en dessous sinon (18/11/2026) */
+.barre { display: grid; grid-template-columns: auto 1fr auto; grid-template-areas: "gauche onglets droite"; }
+.barre-gauche { grid-area: gauche; } .barre-droite { grid-area: droite; } .onglets { grid-area: onglets; justify-self: center; }
+.avec-icone { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
+.ico { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.ico .plein { fill: currentColor; stroke: none; }
+.ico.rouge { color: var(--rouge); }
+@media (max-width: 1100px) {
+  .barre { grid-template-columns: auto auto; grid-template-areas: "gauche droite" "onglets onglets"; }
+  .onglets { justify-self: stretch; justify-content: space-between; }
+  .onglets button { flex: 1; }
+}
+@media (max-width: 760px) {
+  #aujourdhui { display: inline-flex; }
+  .barre { padding: 6px 10px; gap: 6px 4px; }
+  .barre-gauche, .barre-droite { gap: 3px; }
+  .avec-icone .lib { display: none; }
+  .avec-icone, .barre .bouton.icone { width: 32px; min-height: 34px; padding: 0; justify-content: center; }
+  .logo { font-size: 19px; margin-right: 1px; }
+  .barre input[type=date] { min-height: 34px; padding: 3px 4px; font-size: 14px; width: 118px; }
+}
+@media (max-width: 370px) {
+  .avec-icone, .barre .bouton.icone { width: 29px; }
+  .barre input[type=date] { width: 108px; font-size: 13px; }
+  .barre { padding: 6px 6px; }
+}
+
+/* Version latin-français, Office des lectures : psaumes latin (Nova Vulgata) / français (AELF), strophe par strophe */
+.office-latin .psaume-bilingue .bilingue { margin: 0 0 .7em; break-inside: avoid; }
+.office-latin .psaume-bilingue .la, .office-latin .psaume-bilingue .fr { font-size: 1em; line-height: 1.4; }
+.office-latin .psaume-bilingue .v-la { display: block; padding-left: 1.2em; text-indent: -1.2em; }
+.office-latin .psaume-bilingue .v-la .num { font-family: var(--legende, inherit); font-size: .7em; color: var(--rouge, #a01c1c); margin-right: .25em; text-indent: 0; }
+.office-latin .psaume-bilingue .fr .verse_number { font-size: .7em; color: var(--rouge, #a01c1c); vertical-align: super; }
+
+/* Logo : harpe de la couverture du Psautier (18/11/2026) */
+.logo { display: inline-flex; align-items: center; line-height: 0; }
+.logo svg.harpe { height: 26px; width: auto; display: block; }
+@media (max-width: 760px) { .logo svg.harpe { height: 23px; } }
+
+/* Bouton « À table » (18/11/2026) : sur les petits téléphones, barre resserrée pour garder une seule ligne */
+@media (max-width: 420px) {
+  .barre-gauche, .barre-droite { gap: 2px; }
+  .barre input[type=date] { padding: 5px 4px; }
+  .barre .bouton.icone, .barre .bouton.avec-icone { width: 30px; padding: 0; justify-content: center; }
+}
+
+/* Commun des saints : ligne « Commun : » de l'en-tête, provenance des parties (comme à la Messe) */
+.choix-commun label + label { margin-left: .2em; }
+.choix-commun .commun-note { display: block; color: var(--doux); font-size: .92em; margin-top: .15em; }
+.commun-choisi { text-align: center; margin: .2em 0 1em; }
+@media screen { .commun-choisi { display: none; } }
+.bloc > h3 .provenance { text-transform: none; letter-spacing: 0; font-weight: 400; color: var(--doux); }
+.intercession p.refrain { margin-left: 1.2em; }
+
+/* Recueil des communs (bouton « Communs », même disposition que le « Missel » de la Messe) */
+#ouvrir-communs[aria-pressed="true"] { background: var(--accent, #7a1f1f); color: #fff; border-color: transparent; }
+#ouvrir-communs .ico .signet { stroke: var(--rouge); }
+#ouvrir-communs[aria-pressed="true"] .ico .signet { stroke: currentColor; }
+.mode-communs #onglets { display: none; }
+.mode-communs .sommaire a[aria-current="page"] { color: var(--rouge); border-left-color: var(--rouge); }
+.mode-communs .sommaire a.retour-jour { margin-top: 12px; border-left-color: transparent; }
+.ariane-missel { font-family: var(--sans); font-size: 13px; color: var(--doux); margin: 0 0 10px; }
+.ariane-missel a { color: var(--doux); }
+.entete-missel { border-top-color: var(--rouge); }
+.aide-communs { font-family: var(--sans); font-size: 14px; color: var(--doux); margin: 0 0 16px; }
+.cartes-missel { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin: 0 0 24px; }
+.carte-missel { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border: 1px solid var(--trait); border-radius: 8px; text-decoration: none; color: inherit; }
+.carte-missel:hover, .carte-missel.actif { border-color: var(--rouge); }
+.carte-missel.actif { box-shadow: inset 3px 0 0 var(--rouge); }
+.carte-missel .t { font-family: var(--soustitre); font-size: 1.15em; color: var(--rouge); }
+.carte-missel .d { font-size: .85em; color: var(--doux); line-height: 1.35; }
+.carte-missel .n { font-family: var(--legende); font-size: .75em; color: var(--doux); margin-top: auto; }
+.notes-messe { font-family: var(--sans); font-size: 12px; color: var(--doux); margin-top: 24px; }
+.choisir-commun { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: end; font-family: var(--sans); font-size: 14px; margin: 0 0 24px; padding: 12px 14px; border: 1px solid var(--trait); border-radius: 8px; background: var(--fond-2); }
+.choisir-commun label { display: flex; flex-direction: column; gap: 3px; color: var(--doux); min-width: 0; max-width: 100%; }
+.choisir-commun select { font: inherit; padding: 5px 6px; border-radius: 6px; border: 1px solid var(--trait); background: var(--fond); color: inherit; max-width: 100%; }
+.choisir-commun .boutons { display: flex; flex-wrap: wrap; gap: 8px; }
+.apercu-commun { display: grid; grid-template-columns: 9em 1fr; gap: 4px 12px; margin: 0; }
+.apercu-commun dt { font-family: var(--legende); font-size: .8em; color: var(--doux); padding-top: .2em; }
+.apercu-commun dd { margin: 0; }
+@media (max-width: 600px) { .apercu-commun { grid-template-columns: 1fr; } .apercu-commun dd { margin-bottom: 6px; } }
+
+/* A5 : une partition plus haute que la page faisait sauter une page blanche (17,9 cm de hauteur utile) */
+@media print { .impression.format-A5 .partition-piece img { max-height: 170mm; } }
+
+/* ── Calendrier de l'Ordre (bouton « Calendrier OP », #calendrier-op) et prière du Missel de l'Ordre — 20/11/2026 */
+.ico text.ico-op { font: 700 7.4px/1 var(--sans, system-ui, sans-serif); fill: var(--rouge); stroke: none; letter-spacing: -.02em; }
+#ouvrir-cal-op[aria-pressed="true"] .ico text.ico-op { fill: currentColor; }
+.mode-cal-op .titre-groupe { font-family: var(--soustitre); font-weight: 500; font-size: 1.1em; color: var(--rouge); margin: 22px 0 4px; padding-bottom: 3px; border-bottom: 1px solid var(--trait, #ddd3c4); }
+.intro-cal-op { margin: 0 0 14px; }
+.liste-cal-op { list-style: none; margin: 0; padding: 0; }
+.cal-op { display: grid; grid-template-columns: 2.6em 1fr auto; gap: 0 10px; align-items: baseline; padding: 6px 0; border-bottom: 1px dotted var(--trait, #ddd3c4); }
+.cal-op .date { font-family: var(--legende); color: var(--doux); text-align: right; }
+.cal-op .rang { font-family: var(--legende); font-size: .82em; color: var(--rouge); white-space: nowrap; }
+.cal-op.martyrologe .nom { font-style: italic; color: var(--doux); }
+.cal-op .note-romain { font-size: .8em; color: var(--doux); font-style: italic; }
+.cal-op .provinces, .cal-op > details { grid-column: 2 / 4; }
+.cal-op .province { display: inline-block; font-size: .8em; color: var(--doux); margin-right: 1em; }
+.cal-op .province::before { content: "["; } .cal-op .province::after { content: "]"; }
+.cal-op.aujourdhui { background: color-mix(in srgb, var(--rouge) 7%, transparent); border-radius: 4px; }
+.cal-op details.priere-op > summary, .cal-op details.notice-op > summary { cursor: pointer; font-family: var(--legende); font-size: .82em; color: var(--rouge); }
+.cal-op details.priere-op[open] { padding: 4px 0 6px; }
+.cal-op details.priere-op p { margin: .4em 0; }
+.cal-op details.notice-op p { font-style: italic; color: var(--doux); font-size: .92em; }
+.cal-op .rubrique { color: var(--rouge); font-style: italic; font-size: .85em; }
+.cal-op .ou-bien { text-align: center; font-family: var(--legende); font-size: .72em; letter-spacing: .14em; text-transform: uppercase; color: var(--rouge); }
+@media (max-width: 600px) { .cal-op { grid-template-columns: 2.2em 1fr; } .cal-op .rang { grid-column: 2; white-space: normal; } }

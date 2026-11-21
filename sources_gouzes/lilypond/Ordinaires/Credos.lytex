@@ -1,0 +1,47 @@
+%!TEX TS-program = lualatex
+
+\documentclass[12pt, a4paper, twoside]{book}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage[top = 4.5em, outer=3.75em, inner=2.75em, bottom=4em]{geometry}
+\usepackage{titlesec}
+
+\geometry{a5paper}
+
+\title{\sffamily\Huge\bfseries\uppercase {Credo}}
+\author{}
+\date{}
+
+\pagestyle{empty}
+\parindent= 0pt
+
+\titleformat{\subsection}[hang]{\large\scshape\centering}{}{0pt}{}{}
+
+\def\preLilyPondExample{\par\hspace*{-3mm}}
+\newcommand{\betweenLilyPondSystem}[1]{\par\vspace{0.5ex}\hspace*{-3mm}}
+\newcommand{\postLilyPondExample}{\par}
+
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\subsection{Symbole de Nicée-Constantinople-Tolède}
+
+\begin{lilypond}
+	\include "Ft_10pt_t.ly" \include "Credo E503.ly"
+\end{lilypond}
+
+\renewcommand{\betweenLilyPondSystem}[1]{\par\hspace*{-3mm}}
+\pagebreak
+
+\subsection{Symbole des Apôtres}
+\begin{lilypond}
+	\include "Ft_10pt_.ly" \include "Credo E513.ly"
+\end{lilypond}
+
+\pagebreak
+
+\end{document}

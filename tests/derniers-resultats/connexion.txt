@@ -1,0 +1,21 @@
+  ✓ description du fournisseur
+  ✓ création de compte, refus des doublons et des formats invalides, empreinte seulement
+  ✓ page de connexion affichée
+  ✓ demandes venues d'ailleurs refusées
+  ✓ bon mot de passe : code rendu à Azure, appareil mémorisé un an
+  ✓ attestation signée, vérifiable par la clé publique (émetteur, destinataire, nonce, nom)
+  ✓ appareil reconnu : reconnexion silencieuse (form_post et query)
+  ✓ compte désactivé : appareils oubliés, connexion refusée
+  ✓ réactivation et nouveau mot de passe
+  ✓ 5 erreurs : compte bloqué 15 minutes ; déblocage par la page Comptes
+  ✓ code falsifié refusé
+  ✓ déconnexion : appareil oublié puis session Azure fermée
+  ✓ suppression d'un compte
+  ✓ page de connexion protégée contre l'injection de code
+  ✓ inscriptions fermées par défaut
+  ✓ inscriptions libres : le frère crée son compte et entre aussitôt
+  ✓ inscriptions avec code d'inscription, puis refermées
+  ✓ service à part : sites autorisés seulement, déconnexion vers le bon site
+  ✓ rôles : transmis à Azure, gestion des comptes sans clé pour qui a le rôle
+  ✓ bréviaire : rôles lus dans l'attestation ; signalements refusés sans rôle
+connexion : 20 essais réussis

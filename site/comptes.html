@@ -1,0 +1,269 @@
+<!doctype html>
+<!-- Page « Comptes » : créer, modifier, désactiver les comptes des lecteurs ; régler les inscriptions.
+     ATTENTION : cette page n'est PAS publiée avec le bréviaire (publier_azure.sh la retire) ; elle est publiée
+     avec le service de connexion, sur le petit site à part « breviaire-connexion » (outils/publier_connexion.sh).
+     Réservée au rôle « comptes » (ou à la clé d'administration). Voir docs/CONNEXION.md. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Comptes des frères</title>
+<link rel="icon" href="icone.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
+<link rel="stylesheet" href="css/polices.css?v=80">
+<link rel="stylesheet" href="css/office.css?v=80">
+<style>
+  .page-cpt { max-width: 760px; margin: 0 auto; padding: 16px 16px 48px; font-family: var(--sans); font-size: 15px; }
+  .page-cpt h1 { font-family: var(--titre); font-weight: 500; color: var(--rouge); font-size: 30px; margin: 8px 0 4px; }
+  .page-cpt h2 { font-family: var(--soustitre); font-weight: 500; font-size: 19px; margin: 0 0 10px; }
+  .page-cpt .retour { font-size: 14px; }
+  .cadre-cpt { border: 1px solid var(--trait); border-radius: 12px; background: var(--fond); padding: 14px; margin: 16px 0; }
+  .champs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 12px; }
+  .champs label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--doux); }
+  .champs .large { grid-column: 1 / -1; }
+  .page-cpt input { font: inherit; font-size: 16px; border: 1px solid var(--trait); border-radius: 8px; padding: 8px 10px; background: var(--fond); color: var(--texte); min-width: 0; }
+  .avec-bouton { display: flex; gap: 6px; }
+  .avec-bouton input { flex: 1; }
+  .actions-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
+  .compte { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--trait); }
+  .compte:first-child { border-top: 0; }
+  .compte.inactif .qui { opacity: .55; }
+  .qui strong { font-family: var(--soustitre); font-weight: 500; font-size: 17px; }
+  .qui .ident { font-family: ui-monospace, Menlo, monospace; font-size: 14px; }
+  .qui .aide { margin: 2px 0 0; }
+  .boutons-cpt { display: flex; flex-wrap: wrap; gap: 6px; }
+  .roles-cpt { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 4px 0 0; font-size: 13px; color: var(--doux); }
+  .roles-cpt label { display: inline-flex; gap: 5px; align-items: center; }
+  .boutons-cpt .bouton { font-size: 13px; min-height: 32px; padding: 4px 10px; }
+  .etiquette { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--rouge); color: var(--rouge); margin-left: 6px; }
+  .message { font-size: 14px; margin: 8px 0 0; }
+  .message.erreur { color: var(--rouge); }
+  .a-remettre { background: var(--fond-2); border-radius: 8px; padding: 10px 12px; margin-top: 10px; font-size: 15px; }
+  .a-remettre code { font-size: 16px; }
+  .choix-insc { display: flex; flex-direction: column; gap: 10px; margin: 10px 0 0; }
+  .choix-insc > label { display: flex; gap: 8px; align-items: flex-start; font-size: 15px; }
+  .choix-insc > label > input { margin-top: 4px; }
+  .code-insc { margin-top: 6px; max-width: 360px; }
+  .etiquette.douce { border-color: var(--trait); color: var(--doux); }
+  #acces[hidden], #gestion[hidden], .a-remettre[hidden] { display: none; }
+  #acces { max-width: 460px; }
+  #acces label { display: flex; flex-direction: column; gap: 6px; }
+  @media (max-width: 520px) { .champs { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main class="page-cpt">
+  <p class="retour"><a href="./">‹ Retour au bréviaire</a></p>
+  <h1>Comptes des frères</h1>
+  <p class="aide" id="resume">Chaque frère entre sur le site avec son identifiant et son mot de passe, une fois par appareil.</p>
+
+  <form id="acces" class="cadre-cpt" hidden>
+    <label>Clé d'administration
+      <input type="password" id="cle" autocomplete="current-password" required></label>
+    <p class="aide">La clé n'est demandée qu'une fois sur cet appareil. Elle est inutile si votre compte a le rôle
+      « Gère les comptes » : ouvrez cette page depuis les réglages du bréviaire, une fois connecté.</p>
+    <button class="bouton principal">Ouvrir</button>
+    <p class="message erreur" id="acces-etat" role="status"></p>
+  </form>
+
+  <div id="gestion" hidden>
+    <form id="inscriptions" class="cadre-cpt" autocomplete="off">
+      <h2>Inscriptions</h2>
+      <p class="aide">Un frère peut-il créer lui-même son compte depuis la page de connexion ?</p>
+      <div class="choix-insc">
+        <label><input type="radio" name="mode" value="fermee"> <span><strong>Fermées</strong> — seuls les comptes créés ici peuvent entrer</span></label>
+        <label><input type="radio" name="mode" value="libre"> <span><strong>Libres</strong> — toute personne qui a l'adresse du site peut se créer un compte</span></label>
+        <label><input type="radio" name="mode" value="code"> <span><strong>Avec code</strong> — il faut le code d'inscription que vous donnez
+          <span class="avec-bouton code-insc"><input id="code-insc" placeholder="code d'inscription" spellcheck="false" autocapitalize="none" maxlength="60">
+          <button type="button" class="bouton" id="proposer-code">Proposer</button></span></span></label>
+      </div>
+      <div class="actions-form"><button class="bouton principal">Enregistrer</button> <span class="message" id="insc-etat" role="status"></span></div>
+    </form>
+
+    <form id="creer" class="cadre-cpt" autocomplete="off">
+      <h2>Nouveau compte</h2>
+      <div class="champs">
+        <label>Nom affiché <input id="n-nom" placeholder="Frère Pierre" maxlength="80"></label>
+        <label>Identifiant <input id="n-id" placeholder="fr.pierre" autocapitalize="none" spellcheck="false" required maxlength="40"></label>
+        <label class="large">Mot de passe
+          <span class="avec-bouton"><input id="n-mdp" required maxlength="200" spellcheck="false" autocapitalize="none" autocomplete="new-password">
+          <button type="button" class="bouton" id="proposer">Proposer</button></span></label>
+      </div>
+      <div class="actions-form"><button class="bouton principal">Créer le compte</button></div>
+      <p class="message" id="creer-etat" role="status"></p>
+      <div class="a-remettre" id="remettre" hidden></div>
+    </form>
+
+    <section class="cadre-cpt">
+      <h2>Comptes</h2>
+      <div id="liste"></div>
+      <div class="actions-form">
+        <button type="button" class="bouton" id="actualiser">Actualiser</button>
+        <button type="button" class="bouton" id="oublier" title="Effacer la clé de cet appareil">Oublier la clé</button>
+      </div>
+    </section>
+  </div>
+</main>
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const API = "api/connexion/comptes";
+  const ROLES = [["signalements", "Voit les signalements"], ["comptes", "Gère les comptes"]];
+  const CLE = "breviaire-cle-comptes";
+  let cle = ""; try { cle = localStorage.getItem(CLE) || ""; } catch (e) { /* rien */ }
+  let comptes = [];
+  const quand = (iso) => iso ? new Date(iso).toLocaleString("fr-FR", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
+
+  // mots de passe faciles à dicter : deux mots latins et un nombre
+  // même liste que le service (api/connexion) : quatre mots et un nombre, long donc solide, facile à dicter
+  const MOTS = "gloria pax lux verbum gratia spes fides caritas laudate veritas salve agnus rosa stella sancta magnificat jubilate alleluia benedic dominus psalmus hymnus vesper matutina credo sanctus ecce venite oremus amen caelum terra aqua ignis panis vinum oliva lilium cedrus palma columba leo aquila ovis pastor rex regina mater pater frater soror filius angelus sol luna nox dies aurora mane vespera hora tempus annus via vita porta domus templum altare crux corona sceptrum lucerna oleum sal mel lac fons flumen mare mons collis vallis hortus vinea messis semen granum spica arbor folium radix flos fructus cantus organum cithara psalterium tuba campana silentium pacem lumen splendor decor honor virtus sapientia scientia consilium fortitudo pietas timor laetitia gaudium amor misericordia iustitia humilitas oboedientia patientia benignitas".split(" ");
+  const hasard = (n) => crypto.getRandomValues(new Uint32Array(1))[0] % n;
+  const proposer = () => [0, 1, 2, 3].map(() => MOTS[hasard(MOTS.length)]).join("-") + "-" + (10 + hasard(90));
+  const proposerCode = () => `${MOTS[hasard(MOTS.length)]}-${MOTS[hasard(MOTS.length)]}-${10 + hasard(90)}`;
+
+  async function appel(methode, chemin, corps) {
+    const r = await fetch(chemin, {
+      method: methode, cache: "no-store",
+      headers: { "x-cle": cle, ...(corps ? { "Content-Type": "application/json" } : {}) },
+      body: corps ? JSON.stringify(corps) : undefined,
+    }).catch(() => null);
+    if (!r) return { ok: false, status: 0, d: { erreur: "pas de connexion au réseau" } };
+    let d = {}; try { d = await r.json(); } catch (e) { /* rien */ }
+    return { ok: r.ok, status: r.status, d };
+  }
+
+  async function charger() {
+    const r = await appel("GET", API);
+    if (r.status === 401) { $("#gestion").hidden = true; $("#acces").hidden = false; $("#acces-etat").textContent = cle ? "Clé refusée." : ""; return; }
+    if (!r.ok) { $("#resume").textContent = `Le service des comptes ne répond pas (${r.status || "hors connexion"}).`; return; }
+    comptes = r.d;
+    $("#acces").hidden = true; $("#gestion").hidden = false;
+    afficher();
+    const i = await appel("GET", "api/connexion/inscription");
+    if (i.ok) {
+      document.querySelectorAll("input[name=mode]").forEach((x) => { x.checked = x.value === i.d.mode; });
+      $("#code-insc").value = i.d.code || "";
+    }
+  }
+
+  $("#proposer-code").addEventListener("click", () => {
+    $("#code-insc").value = proposerCode();
+    document.querySelector("input[name=mode][value=code]").checked = true;
+  });
+  $("#code-insc").addEventListener("input", () => { document.querySelector("input[name=mode][value=code]").checked = true; });
+  $("#inscriptions").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const mode = (document.querySelector("input[name=mode]:checked") || {}).value || "fermee";
+    const r = await appel("PUT", "api/connexion/inscription", { mode, code: $("#code-insc").value.trim() });
+    const etat = $("#insc-etat");
+    etat.className = r.ok ? "message" : "message erreur";
+    etat.textContent = r.ok ? "Enregistré." : (r.d.erreur || `Erreur ${r.status}`);
+  });
+
+  function afficher() {
+    const actifs = comptes.filter((c) => c.actif).length;
+    $("#resume").textContent = `${comptes.length} compte${comptes.length > 1 ? "s" : ""}, dont ${actifs} actif${actifs > 1 ? "s" : ""}.`;
+    $("#liste").innerHTML = comptes.length ? comptes.map((c) => `
+      <div class="compte${c.actif ? "" : " inactif"}">
+        <div class="qui"><strong>${esc(c.nom || c.id)}</strong> <span class="ident">${esc(c.id)}</span>
+          ${c.inscrit ? `<span class="etiquette douce">inscrit lui-même</span>` : ""}${c.actif ? "" : `<span class="etiquette">désactivé</span>`}${c.bloque ? `<span class="etiquette">bloqué 15 min</span>` : ""}
+          <p class="aide">${c.derniere ? "Dernière connexion : " + esc(quand(c.derniere)) : "Jamais connecté"}</p>
+          <p class="roles-cpt">${ROLES.map(([r, lib]) => `<label><input type="checkbox" data-role="${r}" data-id="${esc(c.id)}"${(c.roles || []).includes(r) ? " checked" : ""}> ${lib}</label>`).join("")}</p></div>
+        <div class="boutons-cpt">
+          <button type="button" class="bouton" data-action="mdp" data-id="${esc(c.id)}">Nouveau mot de passe</button>
+          ${c.bloque ? `<button type="button" class="bouton" data-action="debloquer" data-id="${esc(c.id)}">Débloquer</button>` : ""}
+          <button type="button" class="bouton" data-action="${c.actif ? "desactiver" : "activer"}" data-id="${esc(c.id)}">${c.actif ? "Désactiver" : "Réactiver"}</button>
+          <button type="button" class="bouton" data-action="supprimer" data-id="${esc(c.id)}">Supprimer</button>
+        </div>
+      </div>`).join("") : `<p class="aide">Aucun compte pour l'instant.</p>`;
+  }
+
+  function aRemettre(c, mdp) {
+    const el = $("#remettre");
+    el.innerHTML = `À remettre à <strong>${esc(c.nom || c.id)}</strong> : identifiant <code>${esc(c.id)}</code>, mot de passe <code>${esc(mdp)}</code>.
+      <br><span class="aide">Ce mot de passe ne sera plus jamais affiché : notez-le maintenant.</span>`;
+    el.hidden = false;
+  }
+
+  $("#proposer").addEventListener("click", () => { $("#n-mdp").value = proposer(); });
+  $("#n-nom").addEventListener("input", () => {
+    // identifiant proposé d'après le nom : « Frère Pierre-Marie » → fr.pierre-marie
+    if ($("#n-id").dataset.touche) return;
+    const base = $("#n-nom").value.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
+      .replace(/^\s*(frere|fr\.?|f\.)\s+/, "").trim().replace(/\s+/g, "-").replace(/[^a-z0-9.-]/g, "");
+    $("#n-id").value = base ? "fr." + base : "";
+  });
+  $("#n-id").addEventListener("input", () => { $("#n-id").dataset.touche = "1"; });
+
+  $("#creer").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const corps = { id: $("#n-id").value.trim(), nom: $("#n-nom").value.trim(), mdp: $("#n-mdp").value };
+    const r = await appel("POST", API, corps);
+    const etat = $("#creer-etat");
+    if (!r.ok) { etat.className = "message erreur"; etat.textContent = r.d.erreur || `Erreur ${r.status}`; return; }
+    etat.className = "message"; etat.textContent = "Compte créé.";
+    aRemettre(r.d, corps.mdp);
+    $("#creer").querySelectorAll("input").forEach((i) => { i.value = ""; });
+    delete $("#n-id").dataset.touche;
+    charger();
+  });
+
+  // rôles : « signalements » voit les signalements reçus ; « comptes » gère les comptes (pris en compte à la connexion suivante)
+  $("#liste").addEventListener("change", async (e) => {
+    const x = e.target.closest("input[data-role]");
+    if (!x) return;
+    const c = comptes.find((k) => k.id === x.dataset.id);
+    if (!c) return;
+    const roles = new Set(c.roles || []);
+    if (x.checked) roles.add(x.dataset.role); else roles.delete(x.dataset.role);
+    x.disabled = true;
+    const r = await appel("PUT", `${API}?id=${encodeURIComponent(c.id)}`, { roles: [...roles] });
+    x.disabled = false;
+    if (r.ok) c.roles = r.d.roles; else { x.checked = !x.checked; alert(r.d.erreur || `Erreur ${r.status}`); }
+  });
+
+  $("#liste").addEventListener("click", async (e) => {
+    const b = e.target.closest("button[data-action]");
+    if (!b) return;
+    const id = b.dataset.id, c = comptes.find((x) => x.id === id) || { id };
+    const chemin = `${API}?id=${encodeURIComponent(id)}`;
+    let r;
+    if (b.dataset.action === "mdp") {
+      const mdp = prompt(`Nouveau mot de passe pour ${c.nom || id}.\nSes appareils devront se reconnecter.`, proposer());
+      if (mdp === null) return;
+      r = await appel("PUT", chemin, { mdp });
+      if (r.ok) aRemettre(c, mdp);
+    } else if (b.dataset.action === "desactiver") {
+      if (!confirm(`Désactiver le compte de ${c.nom || id} ? Il ne pourra plus entrer, sur aucun appareil.`)) return;
+      r = await appel("PUT", chemin, { actif: false });
+    } else if (b.dataset.action === "activer") {
+      r = await appel("PUT", chemin, { actif: true });
+    } else if (b.dataset.action === "debloquer") {
+      r = await appel("PUT", chemin, { debloquer: true });
+    } else if (b.dataset.action === "supprimer") {
+      if (!confirm(`Supprimer définitivement le compte de ${c.nom || id} ?`)) return;
+      r = await appel("DELETE", chemin);
+    }
+    if (r && !r.ok) alert(r.d.erreur || `Erreur ${r.status}`);
+    charger();
+  });
+
+  $("#acces").addEventListener("submit", (e) => {
+    e.preventDefault();
+    cle = $("#cle").value.trim();
+    try { localStorage.setItem(CLE, cle); } catch (x) { /* rien */ }
+    charger();
+  });
+  $("#actualiser").addEventListener("click", charger);
+  $("#oublier").addEventListener("click", () => {
+    try { localStorage.removeItem(CLE); } catch (x) { /* rien */ }
+    cle = ""; comptes = []; $("#gestion").hidden = true; $("#acces").hidden = false;
+  });
+  charger();
+})();
+</script>
+</body>
+</html>

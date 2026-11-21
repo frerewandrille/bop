@@ -1,0 +1,1 @@
+window.__RT={"3874":"Mc 4,35 à 5.43; Lc 8,22-56; (Mt 8,18-34; 9,18-26)","3875":"Maîtrise du Christ sur les éléments déchaînés, sur l'homme que l'emprise du démon déchaîne (Mc 5,3-4), enfin sur la maladie ou même la mort. Pour encourager à s'en remettre plus complètement à Lui, avec une foi entière (Mc 4,40; 5,34.36).","3876":"375","3877":"il"};

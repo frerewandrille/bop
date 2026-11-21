@@ -1,0 +1,1 @@
+window.__RI={"ptisanas":[8469,10847],"ptolemaeum":[13470,154,420,600,57],"ptolemaeus":[13470,578,2,35,5,5,2,1,2,265,5,2,160,181],"ptolemaida":[13722,310,190,17979],"ptolemaidis":[13729,33],"ptolemaidam":[13994,55,1,3,51,2,95,3,644],"ptolemaidae":[14051],"ptolemaeo":[14099,230,202,40],"ptolemenses":[14204,644],"ptolemaei":[14388],"ptolemaide":[14847]};

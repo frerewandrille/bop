@@ -1,0 +1,12812 @@
+{
+"carnets": {
+"to": {
+"nom": "Temps ordinaire",
+"fichier": "Temps ordinaire-MàJ juillet 2018.pdf",
+"pages": 359
+},
+"avent": {
+"nom": "Avent",
+"fichier": "Livret-Avent-2019.pdf",
+"pages": 260
+},
+"noel": {
+"nom": "Noël et Épiphanie",
+"fichier": "livret du temps de Noël.pdf",
+"pages": 268
+},
+"careme": {
+"nom": "Carême",
+"fichier": "Livret de Careme 3.0 ODENDALL DBJL.pdf",
+"pages": 292
+},
+"paques": {
+"nom": "Temps pascal",
+"fichier": "Livret Temps Pascal-final.pdf",
+"pages": 370
+},
+"sanctoral1": {
+"nom": "Sanctoral (septembre-janvier)",
+"fichier": "Sanctoral-sept-jan.pdf",
+"pages": 347
+}
+},
+"pages": [
+{
+"carnet": "to",
+"page": 6,
+"titre": "Ires & IIes Vêpres du dimanche",
+"detail": "",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"suite": [
+7
+]
+},
+{
+"carnet": "to",
+"page": 8,
+"titre": "Vigiles - Invitatoires",
+"detail": "Dimanches I & V | Dimanches II & VI",
+"office": "lectures",
+"role": "invitatoire",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1,
+5
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 9,
+"titre": "Dimanches III & VII",
+"detail": "Dimanches IV & VIII",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3,
+7
+],
+"suite": [
+10,
+11,
+12,
+13
+]
+},
+{
+"carnet": "to",
+"page": 14,
+"titre": "Vigiles - Dimanches I & V",
+"detail": "",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1,
+5
+],
+"suite": [
+15
+]
+},
+{
+"carnet": "to",
+"page": 16,
+"titre": "Vigiles - Dimanches II & VI",
+"detail": "",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2,
+6
+],
+"suite": [
+17
+]
+},
+{
+"carnet": "to",
+"page": 18,
+"titre": "Vigiles - Dimanches III & VII",
+"detail": "",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3,
+7
+],
+"suite": [
+19
+]
+},
+{
+"carnet": "to",
+"page": 20,
+"titre": "Vigiles - Dimanches IV & VIII",
+"detail": "",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4,
+8
+],
+"suite": [
+21
+]
+},
+{
+"carnet": "to",
+"page": 22,
+"titre": "Laudes - Dimanche I",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 23,
+"titre": "Laudes - Dimanche II",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 24,
+"titre": "Laudes - Dimanche III",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 25,
+"titre": "Laudes - Dimanche IV",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 26,
+"titre": "Laudes - Dimanche V",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"suite": [
+27
+]
+},
+{
+"carnet": "to",
+"page": 28,
+"titre": "Laudes - Dimanche VI",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"suite": [
+29
+]
+},
+{
+"carnet": "to",
+"page": 30,
+"titre": "Laudes - Dimanche VII",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+7
+],
+"suite": [
+31
+]
+},
+{
+"carnet": "to",
+"page": 32,
+"titre": "Laudes - Dimanche VIII",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+8
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 33,
+"titre": "Chorals",
+"detail": "pour la fin | de l’année liturgique",
+"role": "choral",
+"suite": [
+34
+]
+},
+{
+"carnet": "to",
+"page": 35,
+"titre": "32e Dimanche A",
+"detail": "",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 36,
+"titre": "33e Dimanche A",
+"detail": "",
+"jours": [
+"dimanche"
+],
+"suite": [
+37
+]
+},
+{
+"carnet": "to",
+"page": 38,
+"titre": "33e Dimanche B",
+"detail": "",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 39,
+"titre": "33e Dimanche C",
+"detail": "",
+"jours": [
+"dimanche"
+],
+"suite": [
+40
+]
+},
+{
+"carnet": "to",
+"page": 42,
+"titre": "Laudes - Gloria semaine I",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"semaines": [
+1
+],
+"suite": [
+43
+]
+},
+{
+"carnet": "to",
+"page": 44,
+"titre": "Laudes - Gloria semaine II",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"semaines": [
+2
+],
+"suite": [
+45
+]
+},
+{
+"carnet": "to",
+"page": 46,
+"titre": "Laudes - Gloria semaine III",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"semaines": [
+3
+],
+"suite": [
+47
+]
+},
+{
+"carnet": "to",
+"page": 48,
+"titre": "Laudes - Gloria semaine IV",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"semaines": [
+4
+],
+"suite": [
+49
+]
+},
+{
+"carnet": "to",
+"page": 50,
+"titre": "Laudes - Lundi I & III",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"lundi"
+],
+"semaines": [
+1,
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 51,
+"titre": "Laudes - Mardi I & III",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"mardi"
+],
+"semaines": [
+1,
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 52,
+"titre": "Laudes - Mercredi I & III",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1,
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 53,
+"titre": "Laudes - Jeudi I & III",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1,
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 54,
+"titre": "Laudes - Vendredi I & III",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1,
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 55,
+"titre": "Laudes - Samedi I",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"samedi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 56,
+"titre": "Laudes - Samedi III",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"samedi"
+],
+"semaines": [
+3
+],
+"suite": [
+57
+]
+},
+{
+"carnet": "to",
+"page": 58,
+"titre": "Laudes - Lundi II & IV",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"lundi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 59,
+"titre": "Laudes - Mardi II & IV",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"mardi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 60,
+"titre": "Laudes - Mercredi II & IV",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 61,
+"titre": "Laudes - Jeudi II & IV",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 62,
+"titre": "Laudes - Vendredi II & IV",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2,
+4
+],
+"suite": [
+63
+]
+},
+{
+"carnet": "to",
+"page": 64,
+"titre": "Laudes - Samedi II",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"samedi"
+],
+"semaines": [
+2
+],
+"suite": [
+65
+]
+},
+{
+"carnet": "to",
+"page": 66,
+"titre": "Laudes - Samedi IV",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"samedi"
+],
+"semaines": [
+4
+],
+"suite": [
+67
+]
+},
+{
+"carnet": "to",
+"page": 68,
+"titre": "Vêpres - Lucernaire semaine I",
+"detail": "",
+"office": "vepres",
+"role": "lucernaire",
+"semaines": [
+1
+],
+"suite": [
+69
+]
+},
+{
+"carnet": "to",
+"page": 70,
+"titre": "Vêpres - Lucernaire semaine II",
+"detail": "",
+"office": "vepres",
+"role": "lucernaire",
+"semaines": [
+2
+],
+"suite": [
+71
+]
+},
+{
+"carnet": "to",
+"page": 72,
+"titre": "Vêpres - Lucernaire semaine III",
+"detail": "",
+"office": "vepres",
+"role": "lucernaire",
+"semaines": [
+3
+],
+"suite": [
+73
+]
+},
+{
+"carnet": "to",
+"page": 74,
+"titre": "Vêpres - Lucernaire semaine IV",
+"detail": "",
+"office": "vepres",
+"role": "lucernaire",
+"semaines": [
+4
+],
+"suite": [
+75
+]
+},
+{
+"carnet": "to",
+"page": 76,
+"titre": "Vêpres - Lundi I & III",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"lundi"
+],
+"semaines": [
+1,
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 77,
+"titre": "Vêpres - Mardi I & III",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"mardi"
+],
+"semaines": [
+1,
+3
+],
+"suite": [
+78
+]
+},
+{
+"carnet": "to",
+"page": 79,
+"titre": "Vêpres - Mercredi I & III",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1,
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 80,
+"titre": "Vêpres - Jeudi I & III",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1,
+3
+],
+"suite": [
+81
+]
+},
+{
+"carnet": "to",
+"page": 82,
+"titre": "Vêpres - Vendredi I & III",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1,
+3
+],
+"suite": [
+83
+]
+},
+{
+"carnet": "to",
+"page": 84,
+"titre": "Vêpres - Lundi II & IV",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"lundi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 85,
+"titre": "Vêpres - Mardi II & IV",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"mardi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 86,
+"titre": "Vêpres - Mercredi II & IV",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 87,
+"titre": "Vêpres - Jeudi II & IV",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 88,
+"titre": "Vêpres - Vendredi II & IV",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2,
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 90,
+"titre": "Lundi",
+"detail": "Laudes Dans l’unité du Saint-Esprit, | Dieu trois fois saint, nous te | Ô Père Saint, Dieu Créateur, louons. | Source éternelle de l’Amour, | Tu fis les cieux avec Sagesse",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"lundi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 91,
+"titre": "Vêpres",
+"detail": "Ô Créateur de l’Univers, | Tu établis les eaux d’en-haut | Pour donner vie et féconder : | Répands l’Esprit sur toute chair. | Que ton Esprit soit notre joie,",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"lundi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 92,
+"titre": "Mardi",
+"detail": "Laudes Avec l’Esprit consolateur, | Depuis toujours et dans les | Vers toi, Dieu, Père tout- siècles. | puissant, Au matin monte la | louange,",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"mardi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 93,
+"titre": "Vêpres Que la beauté de ta maison",
+"detail": "Soit le reflet de ta beauté, | Pasteur et roi du peuple saint Que l’Évangile de la paix | Qui lui as fait franchir les eaux Soit proclamé au monde entier. | Et l’as guidé dans le désert | Jusqu’à la t",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"mardi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 94,
+"titre": "Mercredi",
+"detail": "Laudes Vêpres | Par toi, Seigneur, Père très bon, Fils premier-né du Dieu très | L’astre du matin s’est levé, saint Vivant reflet de sa | En ton Fils, nous contemplerons splendeur, | La splendeur de t",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"mercredi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 95,
+"titre": "Jeudi",
+"detail": "Laudes | Père très saint, nous te louons, | En ta tendresse inépuisable, | Tu créas le ciel et la terre, | Que ton Esprit vient visiter.",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"jeudi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 96,
+"titre": "Vêpres Vers les eaux vives du salut,",
+"detail": "Tu remets ceux qui sont perdus | Ami des hommes, Jésus-Christ Dans la proximité de Dieu. | Tu viens marcher sur nos | chemins Tu | Tu donnes",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"jeudi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 97,
+"titre": "Louange à toi, ô Père Saint, convie",
+"detail": "Par Jésus-Christ notre Sauveur, À glorifier le Dieu très bon. | Dans l’Esprit-Saint qui nous",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 98,
+"titre": "Vendredi",
+"detail": "Laudes | Seigneur Dieu, Père très aimant, | Tu as fait l’homme à ton image, | Pour qu’il devienne ton enfant, | Et qu’il contemple ton visage.",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"vendredi"
+],
+"suite": [
+99
+]
+},
+{
+"carnet": "to",
+"page": 100,
+"titre": "Samedi",
+"detail": "Laudes I Laudes II | En ce jour, par toi sanctifié, Fils de la vierge d’Israël, | À toi l’honneur, Père très Saint, Fleur de la tige de Jessé, | En ton Fils tout est accompli, Tu as connu toute douleu",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"samedi"
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 105,
+"titre": "Hymne - Martyrs (I)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 106,
+"titre": "Hymne - Martyrs (II)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 107,
+"titre": "Hymne - Martyrs (III)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 109,
+"titre": "Hymne - Martyrs (IV)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 110,
+"titre": "Hymne - Pasteurs (I)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 111,
+"titre": "Hymne - Pasteurs (II)",
+"detail": "",
+"role": "hymne",
+"suite": [
+112
+]
+},
+{
+"carnet": "to",
+"page": 113,
+"titre": "Hymne - Pasteurs (III)",
+"detail": "",
+"role": "hymne",
+"suite": [
+114,
+115,
+116
+]
+},
+{
+"carnet": "to",
+"page": 117,
+"titre": "Hymne - Pasteurs (IV)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 118,
+"titre": "Hymne - Vierges (I)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 119,
+"titre": "Hymne - Vierges (II)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 120,
+"titre": "Hymne - Saints (I)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 121,
+"titre": "Hymne - Saints (II)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 122,
+"titre": "Hymne - Saints (III)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 123,
+"titre": "Hymne - Saints religieux",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 124,
+"titre": "Hymne - Saintes femmes",
+"detail": "de sain- te- té. | de pas- sion, | du peu- ple saint.",
+"role": "hymne",
+"suite": [
+125
+]
+},
+{
+"carnet": "to",
+"page": 127,
+"titre": "Ires Vêpres - Dimanche I",
+"detail": "Psaume 140 | Psaume 141 & NT VII p. 190",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"nt": "VII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 128,
+"titre": "Vigiles - Dimanche I",
+"detail": "Psaume 1 | Psaume 2",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"suite": [
+129
+]
+},
+{
+"carnet": "to",
+"page": 130,
+"titre": "Laudes - Dimanche I",
+"detail": "Psaume 62 & AT 49 | Psaume 149",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 131,
+"titre": "IIes Vêpres - Dimanche I",
+"detail": "Psaume 109",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"suite": [
+132
+]
+},
+{
+"carnet": "to",
+"page": 133,
+"titre": "Laudes - Lundi I",
+"detail": "Psaume 5 & AT 4 | Psaume 28",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 135,
+"titre": "Vêpres - Lundi I",
+"detail": "Psaume 10 | Psaume 14 & NT VI p. 195",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 136,
+"titre": "Laudes - Mardi I",
+"detail": "Psaume 23 & AT 6 | Psaume 32",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 137,
+"titre": "Vêpres - Mardi I",
+"detail": "Psaume 19 | Psaume 20 & NT XI p. 198",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 138,
+"titre": "Laudes - Mercredi I",
+"detail": "Psaume 35 & AT 8 | Psaume 46",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 139,
+"titre": "Vêpres - Mercredi I",
+"detail": "Psaume 26, 1-6 | Psaume 26, 7-14 & NT VIII p. 200",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 140,
+"titre": "Laudes - Jeudi I",
+"detail": "Psaume 56 & AT 44 | Psaume 47",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 141,
+"titre": "Vêpres - Jeudi I",
+"detail": "Psaume 29 | Psaume 31 & NT XII p. 203",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 142,
+"titre": "Laudes - Vendredi I",
+"detail": "Psaume 50 & AT 30 | Psaume 99",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 143,
+"titre": "Vêpres - Vendredi I",
+"detail": "Psaume 40 | Psaume 45 & NT XIII p. 206",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 144,
+"titre": "Laudes - Samedi I",
+"detail": "Psaume 118-XIX & AT 1 | Psaume 116",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 145,
+"titre": "Ires Vêpres - Dimanche II",
+"detail": "Psaume 118-XIV | Psaume 15 & NT VII p. 190",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"nt": "VII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 146,
+"titre": "Vigiles - Dimanche II",
+"detail": "Psaume 103, 1-12",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"suite": [
+147
+]
+},
+{
+"carnet": "to",
+"page": 148,
+"titre": "Laudes - Dimanche II",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"suite": [
+149
+]
+},
+{
+"carnet": "to",
+"page": 150,
+"titre": "IIes Vêpres - Dimanche II",
+"detail": "Psaume 109 | Psaume 113 B & NT XIV p. 193",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"nt": "XIV",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 151,
+"titre": "Laudes - Lundi II",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"suite": [
+152
+]
+},
+{
+"carnet": "to",
+"page": 153,
+"titre": "Vêpres - Lundi II",
+"detail": "Psaume 44, 1-10 | Psaume 44, 11-18 & NT VI p. 195",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 154,
+"titre": "Laudes - Mardi II",
+"detail": "Psaume 42 & AT 25 | Psaume 64",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 155,
+"titre": "Vêpres - Mardi II",
+"detail": "Psaume 48, 2-13 | Psaume 48, 14-21 & NT XI p. 198",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 156,
+"titre": "Laudes - Mercredi II",
+"detail": "Psaume 76 & AT 3 | Psaume 96",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 157,
+"titre": "Vêpres - Mercredi II",
+"detail": "Psaume 61",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 159,
+"titre": "Laudes - Jeudi II",
+"detail": "Psaume 79 & AT 20 | Psaume 80",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 160,
+"titre": "Vêpres - Jeudi II",
+"detail": "Psaume 71, 1-11 | Psaume 71, 12-19 | & NT XII p. 203",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 161,
+"titre": "Laudes - Vendredi II",
+"detail": "Psaume 50 & AT 57 | Psaume 147",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 162,
+"titre": "Vêpres - Vendredi II",
+"detail": "Psaume 114 | Psaume 120 & NT XIII p. 206",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 163,
+"titre": "Laudes - Samedi II",
+"detail": "Psaume 91 & AT 2 | Psaume 8",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 164,
+"titre": "Ires Vêpres - Dimanche III",
+"detail": "Psaume 112 | Psaume 115 & NT VII p. 190",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"nt": "VII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 165,
+"titre": "Vigiles - Dimanche III",
+"detail": "Psaume 144, 1-9",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"suite": [
+166
+]
+},
+{
+"carnet": "to",
+"page": 167,
+"titre": "Laudes - Dimanche III",
+"detail": "Psaume 92 & AT 49 | Psaume 148",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 168,
+"titre": "IIes Vêpres - Dimanche III",
+"detail": "Psaume 109 | Psaume 110 & NT XIV p. 193",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"nt": "XIV",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 169,
+"titre": "Laudes - Lundi III",
+"detail": "Psaume 83 & AT 17 | Psaume 95",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 170,
+"titre": "Vêpres - Lundi III",
+"detail": "Psaume 122 | Psaume 123 & NT VI p. 195",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 171,
+"titre": "Laudes - Mardi III",
+"detail": "Psaume 84 & AT 21 | Psaume 66",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 172,
+"titre": "Vêpres - Mardi III",
+"detail": "Psaume 124 | Psaume 130 & NT XI p. 198",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 173,
+"titre": "Laudes - Mercredi III",
+"detail": "Psaume 85 & AT 23 | Psaume 97",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 174,
+"titre": "Vêpres - Mercredi III",
+"detail": "Psaume 125 | Psaume 126 & NT VIII p. 200",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 175,
+"titre": "Laudes - Jeudi III",
+"detail": "Psaume 86 & AT 26 | Psaume 98",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 176,
+"titre": "Vêpres - Jeudi III",
+"detail": "Psaume 131, 1-10 | Psaume 131, 11-18 & NT XII p. 203",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 177,
+"titre": "Laudes - Vendredi III",
+"detail": "Psaume 50 & AT 42 | Psaume 99",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 178,
+"titre": "Vêpres - Vendredi III",
+"detail": "Psaume 134, 1-12 | Psaume 134, 13-21 & NT XIII p. 206 | Laudes - Samedi III",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 178,
+"titre": "Laudes - Samedi III",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+3
+],
+"suite": [
+179,
+180
+]
+},
+{
+"carnet": "to",
+"page": 181,
+"titre": "Ires Vêpres - Dimanche IV",
+"detail": "Psaume 121",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"suite": [
+182
+]
+},
+{
+"carnet": "to",
+"page": 183,
+"titre": "Vigiles - Dimanche IV",
+"detail": "Psaume 23",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"suite": [
+184
+]
+},
+{
+"carnet": "to",
+"page": 185,
+"titre": "Laudes - Dimanche IV",
+"detail": "Psaume 117 & AT 48 | Psaume 150",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 186,
+"titre": "IIes Vêpres - Dimanche IV",
+"detail": "Psaume 109 | Psaume 111 & NT XIV p. 193",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"nt": "XIV",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 187,
+"titre": "Laudes - Lundi IV",
+"detail": "Psaume 89 & AT 27 | Psaume 134",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 188,
+"titre": "Vêpres- Lundi IV",
+"detail": "Psaume 135, 1-9 | Psaume 135, 10-26 | & NT VI p. 195",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 189,
+"titre": "Laudes - Mardi IV",
+"detail": "Psaume 100 & AT 47 | Psaume 143",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 190,
+"titre": "Vêpres - Mardi IV",
+"detail": "Psaume 136 | Psaume 137 & NT XI p. 195",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 191,
+"titre": "Laudes - Mercredi IV",
+"detail": "Psaume 107 & AT 38 | Psaume 145",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 192,
+"titre": "Vêpres - Mercredi IV",
+"detail": "Psaume 138, 1-10 | Psaume 138, 11-24 & NT VIII p. 200",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 193,
+"titre": "Laudes - Jeudi IV",
+"detail": "Psaume 142 & AT 41 | Psaume 146",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 194,
+"titre": "Vêpres - Jeudi IV",
+"detail": "Psaume 143, 1-8 | Psaume 143, 9-15 & NT XII p. 203",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 195,
+"titre": "Laudes - Vendredi IV",
+"detail": "Psaume 50 & AT 7 | Psaume 147",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 196,
+"titre": "Vêpres - Vendredi IV",
+"detail": "Psaume 144,1-13a | Psaume 144, 13b-21 & NT XIII p. 206",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 197,
+"titre": "Laudes - Samedi IV",
+"detail": "Psaume 91 & AT 46 | Psaume 8",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 199,
+"titre": "Samedi (NT VII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"samedi"
+],
+"nt": "VII",
+"suite": [
+200,
+201
+]
+},
+{
+"carnet": "to",
+"page": 202,
+"titre": "Dimanche (NT XIV)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"dimanche"
+],
+"nt": "XIV",
+"suite": [
+203
+]
+},
+{
+"carnet": "to",
+"page": 204,
+"titre": "Lundi (NT VI)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"lundi"
+],
+"nt": "VI",
+"suite": [
+205,
+206
+]
+},
+{
+"carnet": "to",
+"page": 207,
+"titre": "Mardi (NT XI)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"mardi"
+],
+"nt": "XI",
+"suite": [
+208
+]
+},
+{
+"carnet": "to",
+"page": 209,
+"titre": "Mercredi (NT VIII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"mercredi"
+],
+"nt": "VIII",
+"suite": [
+210,
+211
+]
+},
+{
+"carnet": "to",
+"page": 212,
+"titre": "Jeudi (NT XII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"jeudi"
+],
+"nt": "XII",
+"suite": [
+213,
+214
+]
+},
+{
+"carnet": "to",
+"page": 215,
+"titre": "Vendredi (NT XIII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"vendredi"
+],
+"nt": "XIII",
+"suite": [
+216,
+217
+]
+},
+{
+"carnet": "to",
+"page": 219,
+"titre": "Répons - Dimanche I",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 221,
+"titre": "Répons - Dimanche II",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 223,
+"titre": "Répons - Dimanche III",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"suite": [
+224
+]
+},
+{
+"carnet": "to",
+"page": 225,
+"titre": "Répons - Dimanche IV",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 227,
+"titre": "Répons - Dimanche V",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"suite": [
+228
+]
+},
+{
+"carnet": "to",
+"page": 229,
+"titre": "Répons - Dimanche VI",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 231,
+"titre": "Répons - Dimanche VII",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+7
+],
+"suite": [
+232
+]
+},
+{
+"carnet": "to",
+"page": 233,
+"titre": "Répons - Dimanche VIII",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+8
+],
+"suite": [
+234
+]
+},
+{
+"carnet": "to",
+"page": 236,
+"titre": "Dimanche I",
+"detail": "Mt 28, 1-10 & 16-20",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 237,
+"titre": "Dimanche II",
+"detail": "Mc 16, 1-20",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 238,
+"titre": "Dimanche III",
+"detail": "Lc 24, 1-12",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 239,
+"titre": "Dimanche IV",
+"detail": "Lc 24, 13-35",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 240,
+"titre": "Dimanche V",
+"detail": "Lc 24, 35-53",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 241,
+"titre": "Dimanche VI",
+"detail": "Jn 20, 1-18",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 242,
+"titre": "Dimanche VII",
+"detail": "Jn 20, 19-31",
+"jours": [
+"dimanche"
+],
+"semaines": [
+7
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 243,
+"titre": "Dimanche VIII",
+"detail": "Jn 21, 1-14",
+"jours": [
+"dimanche"
+],
+"semaines": [
+8
+],
+"role": "alleluia",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 245,
+"titre": "Répons des laudes - Semaine I",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+1
+],
+"suite": [
+246
+]
+},
+{
+"carnet": "to",
+"page": 247,
+"titre": "Louanges & Notre Père - Semaine I",
+"detail": "",
+"role": "priere",
+"semaines": [
+1
+],
+"suite": [
+248
+]
+},
+{
+"carnet": "to",
+"page": 249,
+"titre": "Répons des laudes - Semaine II",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+2
+],
+"suite": [
+250
+]
+},
+{
+"carnet": "to",
+"page": 251,
+"titre": "Louanges & Notre Père - Semaine II",
+"detail": "",
+"role": "priere",
+"semaines": [
+2
+],
+"suite": [
+252
+]
+},
+{
+"carnet": "to",
+"page": 253,
+"titre": "Répons des laudes - Semaine III",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+3
+],
+"suite": [
+254
+]
+},
+{
+"carnet": "to",
+"page": 255,
+"titre": "Louanges & Notre Père - Semaine III",
+"detail": "",
+"role": "priere",
+"semaines": [
+3
+],
+"suite": [
+256
+]
+},
+{
+"carnet": "to",
+"page": 257,
+"titre": "Répons des laudes - Semaine IV",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+4
+],
+"suite": [
+258
+]
+},
+{
+"carnet": "to",
+"page": 259,
+"titre": "Louanges & Notre Père - Semaine IV",
+"detail": "",
+"role": "priere",
+"semaines": [
+4
+],
+"suite": [
+260
+]
+},
+{
+"carnet": "to",
+"page": 261,
+"titre": "Répons des laudes - Semaine V",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+5
+],
+"suite": [
+262
+]
+},
+{
+"carnet": "to",
+"page": 263,
+"titre": "Louanges & Notre Père - Semaine V",
+"detail": "",
+"role": "priere",
+"semaines": [
+5
+],
+"suite": [
+264
+]
+},
+{
+"carnet": "to",
+"page": 265,
+"titre": "Répons des laudes - Semaine VI",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+6
+],
+"suite": [
+266
+]
+},
+{
+"carnet": "to",
+"page": 267,
+"titre": "Louanges & Notre Père - Semaine VI",
+"detail": "",
+"role": "priere",
+"semaines": [
+6
+],
+"suite": [
+268
+]
+},
+{
+"carnet": "to",
+"page": 269,
+"titre": "Répons des laudes - Semaine VII",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+7
+],
+"suite": [
+270
+]
+},
+{
+"carnet": "to",
+"page": 271,
+"titre": "Louanges & Notre Père - Semaine VII",
+"detail": "",
+"role": "priere",
+"semaines": [
+7
+],
+"suite": [
+272
+]
+},
+{
+"carnet": "to",
+"page": 273,
+"titre": "Répons des laudes - Semaine VIII",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+8
+],
+"suite": [
+274,
+275
+]
+},
+{
+"carnet": "to",
+"page": 276,
+"titre": "Louanges & Notre Père - Semaine VIII",
+"detail": "",
+"role": "priere",
+"semaines": [
+8
+],
+"suite": [
+277
+]
+},
+{
+"carnet": "to",
+"page": 278,
+"titre": "Répons des vêpres - Semaine I",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+1
+],
+"suite": [
+279
+]
+},
+{
+"carnet": "to",
+"page": 280,
+"titre": "Intercessions & Notre Père - Semaine I",
+"detail": "",
+"role": "priere",
+"semaines": [
+1
+],
+"suite": [
+281
+]
+},
+{
+"carnet": "to",
+"page": 282,
+"titre": "Répons des vêpres - Semaine II",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "to",
+"page": 283,
+"titre": "Intercessions & Notre Père - Semaine II",
+"detail": "",
+"role": "priere",
+"semaines": [
+2
+],
+"suite": [
+284
+]
+},
+{
+"carnet": "to",
+"page": 285,
+"titre": "Répons des vêpres - Semaine III",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+3
+],
+"suite": [
+286
+]
+},
+{
+"carnet": "to",
+"page": 287,
+"titre": "Intercessions & Notre Père - Semaine III",
+"detail": "",
+"role": "priere",
+"semaines": [
+3
+],
+"suite": [
+288
+]
+},
+{
+"carnet": "to",
+"page": 289,
+"titre": "Répons des vêpres - Semaine IV",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+4
+],
+"suite": [
+290
+]
+},
+{
+"carnet": "to",
+"page": 291,
+"titre": "Intercessions & Notre Père - Semaine IV",
+"detail": "",
+"role": "priere",
+"semaines": [
+4
+],
+"suite": [
+292
+]
+},
+{
+"carnet": "to",
+"page": 293,
+"titre": "Répons des vêpres - Semaine V",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+5
+],
+"suite": [
+294
+]
+},
+{
+"carnet": "to",
+"page": 295,
+"titre": "Intercessions & Notre Père - Semaine V",
+"detail": "",
+"role": "priere",
+"semaines": [
+5
+],
+"suite": [
+296
+]
+},
+{
+"carnet": "to",
+"page": 297,
+"titre": "Répons des vêpres - Semaine VI",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+6
+],
+"suite": [
+298
+]
+},
+{
+"carnet": "to",
+"page": 299,
+"titre": "Intercessions & Notre Père - Semaine VI",
+"detail": "",
+"role": "priere",
+"semaines": [
+6
+],
+"suite": [
+300
+]
+},
+{
+"carnet": "to",
+"page": 301,
+"titre": "Répons des vêpres - Semaine VII",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+7
+],
+"suite": [
+302
+]
+},
+{
+"carnet": "to",
+"page": 303,
+"titre": "Intercessions & Notre Père - Semaine VII",
+"detail": "",
+"role": "priere",
+"semaines": [
+7
+],
+"suite": [
+304
+]
+},
+{
+"carnet": "to",
+"page": 305,
+"titre": "Répons des vêpres - Semaine VIII",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+8
+],
+"suite": [
+306
+]
+},
+{
+"carnet": "to",
+"page": 307,
+"titre": "Intercessions & Notre Père - Semaine VIII",
+"detail": "",
+"role": "priere",
+"semaines": [
+8
+],
+"suite": [
+308,
+309
+]
+},
+{
+"carnet": "to",
+"page": 311,
+"titre": "Répons - Vierge Marie",
+"detail": "",
+"role": "repons",
+"suite": [
+312
+]
+},
+{
+"carnet": "to",
+"page": 313,
+"titre": "Répons - Martyrs (I)",
+"detail": "",
+"role": "repons",
+"suite": [
+314
+]
+},
+{
+"carnet": "to",
+"page": 315,
+"titre": "Répons - Martyrs (II)",
+"detail": "",
+"role": "repons",
+"suite": [
+316
+]
+},
+{
+"carnet": "to",
+"page": 317,
+"titre": "Répons - Pasteurs & Docteurs",
+"detail": "",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 319,
+"titre": "Répons - Saints (I)",
+"detail": "Versets 1, 2, 4 & 5",
+"role": "repons",
+"suite": [
+320
+]
+},
+{
+"carnet": "to",
+"page": 321,
+"titre": "Répons - Saints (II)",
+"detail": "Versets 4 & 5",
+"role": "repons",
+"suite": [
+322,
+323
+]
+},
+{
+"carnet": "to",
+"page": 324,
+"titre": "Te Deum",
+"detail": "",
+"role": "tedeum",
+"suite": [
+325,
+326
+]
+},
+{
+"carnet": "to",
+"page": 327,
+"titre": "Cantique des créatures",
+"detail": "",
+"role": "cantique-at",
+"suite": [
+329,
+330
+]
+},
+{
+"carnet": "to",
+"page": 331,
+"titre": "Cantique des trois enfants",
+"detail": "",
+"role": "cantique-at",
+"suite": [
+332
+]
+},
+{
+"carnet": "to",
+"page": 333,
+"titre": "Antiennes mariales",
+"detail": "",
+"role": "mariale",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 334,
+"titre": "Salve Regina (ton romain)",
+"detail": "",
+"role": "mariale",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 335,
+"titre": "Nous te saluons",
+"detail": "",
+"role": "mariale",
+"suite": [
+336
+]
+},
+{
+"carnet": "to",
+"page": 337,
+"titre": "Sous ta miséricorde (Sub tuum)",
+"detail": "",
+"role": "mariale",
+"suite": []
+},
+{
+"carnet": "to",
+"page": 338,
+"titre": "Ave Regina cælorum",
+"detail": "(du 2 février au mercredi saint)",
+"role": "mariale",
+"jours": [
+"mercredi"
+],
+"semaines": [
+6
+],
+"suite": [
+339,
+340,
+341,
+342,
+343,
+344,
+345,
+346
+]
+},
+{
+"carnet": "to",
+"page": 347,
+"titre": "Ave Maria",
+"detail": "",
+"role": "mariale",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 6,
+"titre": "Lucernaire des dimanches",
+"detail": "",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"suite": [
+7
+]
+},
+{
+"carnet": "avent",
+"page": 8,
+"titre": "Hymne des vêpres",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+9,
+10,
+11
+]
+},
+{
+"carnet": "avent",
+"page": 12,
+"titre": "Ires Vêpres des dimanches",
+"detail": "1er dimanche de l’Avent : Psaume 140 | 2e dimanche de l’Avent : Psaume 118-XIV | 3e dimanche de l’Avent : Psaume 112 | 4e dimanche de l’Avent : Psaume 121",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 13,
+"titre": "1er dimanche de l’Avent : Psaume 141",
+"detail": "2e dimanche de l’Avent : Psaume 15 | 3e dimanche de l’Avent : Psaume 115 | 4e dimanche de l’Avent : Psaume 129",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 14,
+"titre": "Samedi (NT VII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"samedi"
+],
+"nt": "VII",
+"suite": [
+15,
+16,
+17
+]
+},
+{
+"carnet": "avent",
+"page": 18,
+"titre": "IIes Vêpres des dimanches",
+"detail": "Psaume 109",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 19,
+"titre": "1er dimanche de l’Avent : Psaume 113 A",
+"detail": "2e dimanche de l’Avent : Psaume 113 B | 3e dimanche de l’Avent : Psaume 110 | 4e dimanche de l’Avent : Psaume 111",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 20,
+"titre": "Dimanche (NT XIV)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"dimanche"
+],
+"nt": "XIV",
+"suite": [
+21
+]
+},
+{
+"carnet": "avent",
+"page": 22,
+"titre": "Répons des vêpres",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"suite": [
+23
+]
+},
+{
+"carnet": "avent",
+"page": 24,
+"titre": "Antiennes à Magnificat",
+"detail": "1er dimanche de l’Avent - 1res Vêpres | 1er dimanche de l’Avent - 2es Vêpres",
+"office": "vepres1",
+"role": "magnificat",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 25,
+"titre": "2e dimanche de l’Avent - 1res Vêpres",
+"detail": "2e dimanche de l’Avent - 2es Vêpres",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 26,
+"titre": "3e dimanche de l’Avent - 1res Vêpres",
+"detail": "3e dimanche de l’Avent - 2es Vêpres",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 27,
+"titre": "4e dimanche de l’Avent : Antiennes « O » p. 207 s.",
+"detail": "",
+"role": "magnificat",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 28,
+"titre": "Intercessions & Notre Père",
+"detail": "",
+"role": "priere",
+"suite": [
+29
+]
+},
+{
+"carnet": "avent",
+"page": 31,
+"titre": "Invitatoires",
+"detail": "",
+"role": "invitatoire",
+"suite": [
+32,
+33,
+34,
+35
+]
+},
+{
+"carnet": "avent",
+"page": 36,
+"titre": "Hymne des vigiles",
+"detail": "",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+37,
+38,
+39,
+40,
+41
+]
+},
+{
+"carnet": "avent",
+"page": 42,
+"titre": "1er dimanche de l’Avent : Psaume 1",
+"detail": "2e dimanche de l’Avent : Psaume 103, 1-12 | 3e dimanche de l’Avent : Psaume 144, 1-9 | 4e dimanche de l’Avent : Psaume 23",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 43,
+"titre": "1er dimanche de l’Avent : Psaume 2",
+"detail": "2e dimanche de l’Avent : Psaume 103, 13-23 | 3e dimanche de l’Avent : Psaume 144, 10-14 | 4e dimanche de l’Avent : Psaume 65, 1-12 | 1er dimanche de l’Avent : Psaume 3 | 2e dimanche de l’Avent : Psaum",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 44,
+"titre": "Répons du 1er dimanche de l’Avent",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": [
+45,
+46,
+47
+]
+},
+{
+"carnet": "avent",
+"page": 48,
+"titre": "Choral du 1er dimanche de l’Avent",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": [
+49
+]
+},
+{
+"carnet": "avent",
+"page": 50,
+"titre": "Répons du 2e dimanche de l’Avent",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": [
+51,
+52,
+53
+]
+},
+{
+"carnet": "avent",
+"page": 54,
+"titre": "Choral du 2e dimanche de l’Avent",
+"detail": "le texte",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": [
+55
+]
+},
+{
+"carnet": "avent",
+"page": 56,
+"titre": "Répons du 3e dimanche de l’Avent",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"suite": [
+57,
+58,
+59
+]
+},
+{
+"carnet": "avent",
+"page": 60,
+"titre": "Choral du 3e dimanche de l’Avent",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"suite": [
+61,
+62
+]
+},
+{
+"carnet": "avent",
+"page": 63,
+"titre": "Répons du 4e dimanche de l’Avent",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"suite": [
+64,
+65,
+66,
+67
+]
+},
+{
+"carnet": "avent",
+"page": 68,
+"titre": "Choral du 4e dimanche de l’Avent",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"suite": [
+69,
+70
+]
+},
+{
+"carnet": "avent",
+"page": 72,
+"titre": "Hymne des laudes",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+73,
+74,
+75
+]
+},
+{
+"carnet": "avent",
+"page": 76,
+"titre": "1er dimanche de l’Avent : Psaume 62 & AT 49",
+"detail": "2e dimanche de l’Avent : Psaume 117 & AT 48 | 3e dimanche de l’Avent : Psaume 92 & AT 49 | 4e dimanche de l’Avent : Psaume 117 & AT 48",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 77,
+"titre": "1er dimanche de l’Avent : Psaume 149",
+"detail": "2e dimanche de l’Avent : Psaume 150 | 3e dimanche de l’Avent : Psaume 148 | 4e dimanche de l’Avent : Psaume 150 | Répons - 1er dimanche de l’Avent : p. 42 | 2e dimanche de l’Avent : p. 48",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 1,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 78,
+"titre": "Louanges & Notre Père",
+"detail": "",
+"role": "priere",
+"suite": [
+79,
+80,
+81
+]
+},
+{
+"carnet": "avent",
+"page": 82,
+"titre": "Hymne des laudes (I)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+83
+]
+},
+{
+"carnet": "avent",
+"page": 84,
+"titre": "Hymne des laudes (II)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 85,
+"titre": "Hymne des laudes (III)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 86,
+"titre": "Hymne des laudes (IV)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 87,
+"titre": "Hymne des laudes (V)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 88,
+"titre": "Hymne des laudes (VI)",
+"detail": "Du 17 au 24 décembre",
+"office": "laudes",
+"role": "hymne",
+"date": "12-24",
+"suite": [
+89
+]
+},
+{
+"carnet": "avent",
+"page": 90,
+"titre": "Hymne des laudes (VII)",
+"detail": "Du 17 au 24 décembre",
+"office": "laudes",
+"role": "hymne",
+"date": "12-24",
+"suite": [
+91
+]
+},
+{
+"carnet": "avent",
+"page": 92,
+"titre": "Hymne des vêpres (I)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+93
+]
+},
+{
+"carnet": "avent",
+"page": 94,
+"titre": "Hymne des vêpres (II)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+95
+]
+},
+{
+"carnet": "avent",
+"page": 96,
+"titre": "Hymne des vêpres (III)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+97
+]
+},
+{
+"carnet": "avent",
+"page": 98,
+"titre": "Hymne des vêpres (IV)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+99
+]
+},
+{
+"carnet": "avent",
+"page": 100,
+"titre": "Hymne des vêpres (V)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 101,
+"titre": "Hymne des vêpres (VI)",
+"detail": "Du 17 au 24 décembre",
+"office": "vepres",
+"role": "hymne",
+"date": "12-24",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 102,
+"titre": "Hymne des vêpres (VII)",
+"detail": "Du 17 au 24 décembre",
+"office": "vepres",
+"role": "hymne",
+"date": "12-24",
+"suite": [
+103
+]
+},
+{
+"carnet": "avent",
+"page": 104,
+"titre": "Laudes - Lundi I",
+"detail": "Psaume 5 & AT 4 | Psaume 28",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 105,
+"titre": "Vêpres - Lundi I",
+"detail": "Psaume 10 | Psaume 14 & NT VI p. 147",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 106,
+"titre": "Laudes - Mardi I",
+"detail": "Psaume 23 & AT 6 | Psaume 32",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 107,
+"titre": "Vêpres - Mardi I",
+"detail": "Psaume 19 | Psaume 20 & NT XI p. 150",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 108,
+"titre": "Laudes - Mercredi I",
+"detail": "Psaume 35 & AT 8 | Psaume 46",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 109,
+"titre": "Vêpres - Mercredi I",
+"detail": "Psaume 26, 1-6 | Psaume 26, 7-14 & NT VIII p. 152",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 110,
+"titre": "Laudes - Jeudi I",
+"detail": "Psaume 56 & AT 44 | Psaume 47",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 111,
+"titre": "Vêpres - Jeudi I",
+"detail": "Psaume 29 | Psaume 31 & NT XII p. 155",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 112,
+"titre": "Laudes - Vendredi I",
+"detail": "Psaume 50 & AT 30 | Psaume 99",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 113,
+"titre": "Vêpres - Vendredi I",
+"detail": "Psaume 40 | Psaume 45 & NT XIII p. 158",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 114,
+"titre": "Laudes - Samedi I",
+"detail": "Psaume 118-XIX & AT 1 | Psaume 116",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+1
+],
+"suite": [
+115
+]
+},
+{
+"carnet": "avent",
+"page": 116,
+"titre": "Laudes - Lundi II",
+"detail": "Psaume 41 & AT 15 | Psaume 18 A",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 117,
+"titre": "Vêpres - Lundi II",
+"detail": "Psaume 44, 1-10 | Psaume 44, 11-18 & NT VI p. 147",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 118,
+"titre": "Laudes - Mardi II",
+"detail": "Psaume 42 & AT 25 | Psaume 64",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 119,
+"titre": "Vêpres - Mardi II",
+"detail": "Psaume 48, 2-13 | Psaume 48, 14-21 & NT XI p. 150",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 120,
+"titre": "Laudes - Mercredi II",
+"detail": "Psaume 76 & AT 3 | Psaume 96",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 121,
+"titre": "Vêpres - Mercredi II",
+"detail": "Psaume 61 | Psaume 66 & NT VIII p. 152",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 122,
+"titre": "Laudes - Jeudi II",
+"detail": "Psaume 79 & AT 20 | Psaume 80",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 123,
+"titre": "Vêpres - Jeudi II",
+"detail": "Psaume 71, 1-11 | Psaume 71, 12-19 | & NT XII p. 155",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 124,
+"titre": "Laudes - Vendredi II",
+"detail": "Psaume 50 & AT 57 | Psaume 147",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 125,
+"titre": "Vêpres - Vendredi II",
+"detail": "Psaume 114 | Psaume 120 & NT XIII p. 158",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 126,
+"titre": "Laudes - Samedi II",
+"detail": "Psaume 91 & AT 2 | Psaume 8",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+2
+],
+"suite": [
+127
+]
+},
+{
+"carnet": "avent",
+"page": 128,
+"titre": "Laudes - Lundi III",
+"detail": "Psaume 83 & AT 17 | Psaume 95",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 129,
+"titre": "Vêpres - Lundi III",
+"detail": "Psaume 122 | Psaume 123 & NT VI p. 147",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 130,
+"titre": "Laudes - Mardi III",
+"detail": "Psaume 84 & AT 21 | Psaume 66",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 131,
+"titre": "Vêpres - Mardi III",
+"detail": "Psaume 124 | Psaume 130 & NT XI p. 150",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 132,
+"titre": "Laudes - Mercredi III",
+"detail": "Psaume 85 & AT 23 | Psaume 97",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 133,
+"titre": "Vêpres - Mercredi III",
+"detail": "Psaume 125 | Psaume 126 & NT VIII p. 152",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 134,
+"titre": "Laudes - Jeudi III",
+"detail": "Psaume 86 & AT 26 | Psaume 98",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 135,
+"titre": "Vêpres - Jeudi III",
+"detail": "Psaume 131, 1-10 | Psaume 131, 11-18 & NT XII p. 155",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 136,
+"titre": "Laudes - Vendredi III",
+"detail": "Psaume 50 & AT 42 | Psaume 99",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 137,
+"titre": "Vêpres - Vendredi III",
+"detail": "Psaume 134, 1-12 | Psaume 134, 13-21 & NT XIII p. 158",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 138,
+"titre": "Laudes - Samedi III",
+"detail": "Psaume 118 - XIX & AT 12 | Psaume 116",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 139,
+"titre": "17-24 décembre",
+"detail": "Semaine | préparatoire à Noël",
+"date": "12-24",
+"prep": true,
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 140,
+"titre": "1er et 4e jours - Laudes",
+"detail": "Semaine III Semaine IV | Lundi : Ps 83 - AT 17 - Ps 95 Lundi : Ps 89 - AT 17 - Ps 134 | Mar. : Ps 84 - AT 21 - Ps 66 Mar. : Ps 100 - AT 21 - Ps 143 | Mer. : Ps 85 - AT 22 - Ps 97 Mer. : Ps 107 - AT 22",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi",
+"jeudi"
+],
+"semaines": [
+3
+],
+"jours_prep": [
+1,
+4
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 141,
+"titre": "1er et 4e jours - Vêpres",
+"detail": "Semaine III Semaine IV | Lun. : Ps 122 & 123 - NT VI Lundi : Ps 135, 1-9 & 10-26 | NT VI | Mar. : Ps 124 & 130 - NT XI | Mar. : Ps 136 & 137 - NT XI",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"jours_prep": [
+1,
+4
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 142,
+"titre": "2e et 5e jours - Laudes",
+"detail": "Semaine III Semaine IV | Lundi : Ps 83 - AT 17 - Ps 95 Lundi : Ps 89 - AT 17 - Ps 134 | Mar. : Ps 84 - AT 21 - Ps 66 Mar. : Ps 100 - AT 21 - Ps 143 | Mer. : Ps 85 - AT 22 - Ps 97 Mer. : Ps 107 - AT 22",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi",
+"jeudi"
+],
+"semaines": [
+3
+],
+"jours_prep": [
+2,
+5
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 143,
+"titre": "2e et 5e jours - Vêpres",
+"detail": "Semaine III Semaine IV | Lun. : Ps 122 & 123 - NT VI Lundi : Ps 135, 1-9 & 10-26 | NT VI | Mar. : Ps 124 & 130 - NT XI | Mar. : Ps 136 & 137 - NT XI",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"jours_prep": [
+2,
+5
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 144,
+"titre": "3e et 6e jours - Laudes",
+"detail": "Semaine III Semaine IV | Lundi : Ps 83 - AT 17 - Ps 95 Lundi : Ps 89 - AT 17 - Ps 134 | Mar. : Ps 84 - AT 21 - Ps 66 Mar. : Ps 100 - AT 21 - Ps 143 | Mer. : Ps 85 - AT 22 - Ps 97 Mer. : Ps 107 - AT 22",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi",
+"jeudi"
+],
+"semaines": [
+3
+],
+"jours_prep": [
+3,
+6
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 145,
+"titre": "3e et 6e jours - Vêpres",
+"detail": "Semaine III Semaine IV | Lun. : Ps 122 & 123 - NT VI Lundi : Ps 135, 1-9 & 10-26 | NT VI | Mar. : Ps 124 & 130 - NT XI | Mar. : Ps 136 & 137 - NT XI",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"jours_prep": [
+3,
+6
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 146,
+"titre": "7e jour - Laudes",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours_prep": [
+7
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 147,
+"titre": "Semaine III Semaine IV",
+"detail": "Lundi : Ps 83 - AT 17 - Ps 95 Lundi : Ps 89 - AT 17 - Ps 134 | Mar. : Ps 84 - AT 21 - Ps 66 Mar. : Ps 100 - AT 21 - Ps 143 | Mer. : Ps 85 - AT 22 - Ps 97 Mer. : Ps 107 - AT 22 - Ps 145 | Jeudi : Ps 86",
+"role": "antiennes",
+"jours": [
+"lundi",
+"jeudi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 149,
+"titre": "Lundi (NT VI)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"lundi"
+],
+"nt": "VI",
+"suite": [
+150,
+151
+]
+},
+{
+"carnet": "avent",
+"page": 152,
+"titre": "Mardi (NT XI)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"mardi"
+],
+"nt": "XI",
+"suite": [
+153
+]
+},
+{
+"carnet": "avent",
+"page": 154,
+"titre": "Mercredi (NT VIII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"mercredi"
+],
+"nt": "VIII",
+"suite": [
+155,
+156
+]
+},
+{
+"carnet": "avent",
+"page": 157,
+"titre": "Jeudi (NT XII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"jeudi"
+],
+"nt": "XII",
+"suite": [
+158,
+159
+]
+},
+{
+"carnet": "avent",
+"page": 160,
+"titre": "Vendredi (NT XIII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"vendredi"
+],
+"nt": "XIII",
+"suite": [
+161,
+162
+]
+},
+{
+"carnet": "avent",
+"page": 164,
+"titre": "Répons des laudes - Semaine I",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+1
+],
+"suite": [
+165
+]
+},
+{
+"carnet": "avent",
+"page": 166,
+"titre": "Antiennes à Benedictus",
+"detail": "Lundi I | Mardi I",
+"office": "laudes",
+"role": "benedictus",
+"jours": [
+"lundi",
+"mardi"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 167,
+"titre": "Mercredi I",
+"detail": "",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 168,
+"titre": "Jeudi I",
+"detail": "Vendredi I",
+"jours": [
+"jeudi",
+"vendredi"
+],
+"semaines": [
+1
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 169,
+"titre": "Samedi I",
+"detail": "",
+"jours": [
+"samedi"
+],
+"semaines": [
+1
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 170,
+"titre": "Répons des laudes - Semaine II",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+2
+],
+"suite": [
+171
+]
+},
+{
+"carnet": "avent",
+"page": 172,
+"titre": "Antiennes à Benedictus",
+"detail": "Lundi II | Mardi II",
+"office": "laudes",
+"role": "benedictus",
+"jours": [
+"lundi",
+"mardi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 173,
+"titre": "Mercredi II",
+"detail": "",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 174,
+"titre": "Jeudi II",
+"detail": "Vendredi II",
+"jours": [
+"jeudi",
+"vendredi"
+],
+"semaines": [
+2
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 175,
+"titre": "Samedi II",
+"detail": "",
+"jours": [
+"samedi"
+],
+"semaines": [
+2
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 176,
+"titre": "Répons des laudes - Semaine III",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+3
+],
+"suite": [
+177
+]
+},
+{
+"carnet": "avent",
+"page": 178,
+"titre": "Antiennes à Benedictus",
+"detail": "Lundi III | Mardi III",
+"office": "laudes",
+"role": "benedictus",
+"jours": [
+"lundi",
+"mardi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 179,
+"titre": "Mercredi III",
+"detail": "",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 180,
+"titre": "Jeudi III",
+"detail": "Vendredi III",
+"jours": [
+"jeudi",
+"vendredi"
+],
+"semaines": [
+3
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 181,
+"titre": "Samedi III",
+"detail": "",
+"jours": [
+"samedi"
+],
+"semaines": [
+3
+],
+"role": "benedictus",
+"office": "laudes",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 182,
+"titre": "Répons des laudes de la semaine",
+"detail": "préparatoire à Noël",
+"office": "laudes",
+"role": "repons",
+"prep": true,
+"suite": [
+183
+]
+},
+{
+"carnet": "avent",
+"page": 184,
+"titre": "Antiennes à Benedictus",
+"detail": "1er jour | 2e jour",
+"office": "laudes",
+"role": "benedictus",
+"jours_prep": [
+1
+],
+"suite": [
+185,
+186,
+187,
+188,
+189
+]
+},
+{
+"carnet": "avent",
+"page": 190,
+"titre": "Louanges & Notre Père",
+"detail": "",
+"role": "priere",
+"suite": [
+191
+]
+},
+{
+"carnet": "avent",
+"page": 192,
+"titre": "Répons des vêpres de l’Avent",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"suite": [
+193,
+194,
+195
+]
+},
+{
+"carnet": "avent",
+"page": 196,
+"titre": "Antiennes à Magnificat - Semaine I",
+"detail": "le texte",
+"office": "vepres",
+"role": "magnificat",
+"semaines": [
+1
+],
+"suite": [
+197,
+198,
+199
+]
+},
+{
+"carnet": "avent",
+"page": 200,
+"titre": "Antiennes à Magnificat - Semaine II",
+"detail": "saisir le texte",
+"office": "vepres",
+"role": "magnificat",
+"semaines": [
+2
+],
+"suite": [
+201,
+202,
+203
+]
+},
+{
+"carnet": "avent",
+"page": 204,
+"titre": "Antiennes à Magnificat - Semaine III",
+"detail": "saisir le texte",
+"office": "vepres",
+"role": "magnificat",
+"semaines": [
+3
+],
+"suite": [
+205,
+206,
+207,
+208
+]
+},
+{
+"carnet": "avent",
+"page": 209,
+"titre": "Antiennes « O »",
+"detail": "",
+"role": "magnificat",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 210,
+"titre": "17 décembre",
+"detail": "",
+"role": "magnificat",
+"date": "12-17",
+"suite": [
+211
+]
+},
+{
+"carnet": "avent",
+"page": 212,
+"titre": "18 décembre",
+"detail": "",
+"role": "magnificat",
+"date": "12-18",
+"suite": [
+213
+]
+},
+{
+"carnet": "avent",
+"page": 214,
+"titre": "19 décembre",
+"detail": "",
+"role": "magnificat",
+"date": "12-19",
+"suite": [
+215
+]
+},
+{
+"carnet": "avent",
+"page": 216,
+"titre": "20 décembre",
+"detail": "",
+"role": "magnificat",
+"date": "12-20",
+"suite": [
+217
+]
+},
+{
+"carnet": "avent",
+"page": 218,
+"titre": "21 décembre",
+"detail": "",
+"role": "magnificat",
+"date": "12-21",
+"suite": [
+219
+]
+},
+{
+"carnet": "avent",
+"page": 220,
+"titre": "22 décembre",
+"detail": "",
+"role": "magnificat",
+"date": "12-22",
+"suite": [
+221
+]
+},
+{
+"carnet": "avent",
+"page": 222,
+"titre": "23 décembre",
+"detail": "",
+"role": "magnificat",
+"date": "12-23",
+"suite": [
+223
+]
+},
+{
+"carnet": "avent",
+"page": 224,
+"titre": "Intercessions & Notre Père",
+"detail": "",
+"role": "priere",
+"suite": [
+225,
+226
+]
+},
+{
+"carnet": "avent",
+"page": 227,
+"titre": "Hymne des pasteurs",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 228,
+"titre": "Hymne des vierges",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 229,
+"titre": "Hymne des saints (I)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 230,
+"titre": "Hymne des saints (II)",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 231,
+"titre": "Hymne S. Jean de la Croix",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 232,
+"titre": "Cantique des créatures",
+"detail": "",
+"role": "cantique-at",
+"suite": [
+233,
+234,
+235
+]
+},
+{
+"carnet": "avent",
+"page": 236,
+"titre": "Cantique des trois enfants",
+"detail": "",
+"role": "cantique-at",
+"suite": [
+237,
+238,
+239,
+240,
+241
+]
+},
+{
+"carnet": "avent",
+"page": 242,
+"titre": "Traductions des hymnes grégoriennes",
+"detail": "Magnis prophetae vocibus | De leurs grandes voix les prophètes | annoncent la venue du Christ ; | la grâce qui nous racheta | nous prépare aux joies du salut.",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "avent",
+"page": 246,
+"titre": "Antiennes mariales",
+"detail": "",
+"role": "mariale",
+"suite": [
+247,
+248,
+249
+]
+},
+{
+"carnet": "noel",
+"page": 1,
+"titre": "Noël",
+"detail": "& Épiphanie | Province Dominicaine de Toulouse | Ne pas emporter - merci",
+"suite": [
+3
+]
+},
+{
+"carnet": "noel",
+"page": 4,
+"titre": "1° Vêpres de Noël",
+"detail": "Lucernaire de Noël",
+"office": "vepres",
+"role": "lucernaire",
+"suite": [
+5
+]
+},
+{
+"carnet": "noel",
+"page": 6,
+"titre": "Hymne de Noël",
+"detail": "",
+"role": "hymne",
+"suite": [
+7
+]
+},
+{
+"carnet": "noel",
+"page": 8,
+"titre": "Psaumes 112 & 147 - Cantique NT (samedi) p. 241",
+"detail": "",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"suite": [
+9
+]
+},
+{
+"carnet": "noel",
+"page": 10,
+"titre": "Répons des vêpres de Noël",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"suite": [
+11,
+12
+]
+},
+{
+"carnet": "noel",
+"page": 13,
+"titre": "Vigiles de Noël",
+"detail": "Invitatoire de Noël",
+"office": "lectures",
+"role": "invitatoire",
+"suite": [
+14,
+15,
+16,
+17
+]
+},
+{
+"carnet": "noel",
+"page": 18,
+"titre": "Hymne des vigiles de Noël",
+"detail": "",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+19,
+20,
+21,
+22,
+23,
+24,
+25
+]
+},
+{
+"carnet": "noel",
+"page": 26,
+"titre": "Répons 1 - Vigiles de Noël",
+"detail": "",
+"office": "lectures",
+"role": "repons",
+"suite": [
+27
+]
+},
+{
+"carnet": "noel",
+"page": 28,
+"titre": "Répons 2 - Vigiles de Noël",
+"detail": "",
+"office": "lectures",
+"role": "repons",
+"suite": [
+29
+]
+},
+{
+"carnet": "noel",
+"page": 30,
+"titre": "Répons 3 - Vigiles de Noël",
+"detail": "",
+"office": "lectures",
+"role": "repons",
+"suite": [
+31,
+32
+]
+},
+{
+"carnet": "noel",
+"page": 33,
+"titre": "Te Deum",
+"detail": "",
+"role": "tedeum",
+"suite": [
+34,
+35
+]
+},
+{
+"carnet": "noel",
+"page": 36,
+"titre": "Laudes de Noël",
+"detail": "",
+"office": "laudes",
+"suite": [
+37,
+38,
+39
+]
+},
+{
+"carnet": "noel",
+"page": 40,
+"titre": "Répons des laudes de Noël",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"suite": [
+41,
+42,
+43
+]
+},
+{
+"carnet": "noel",
+"page": 44,
+"titre": "2° Vêpres de Noël",
+"detail": "Lucernaire p. 4 | Hymne p. 6 | Psaume 109",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+45
+]
+},
+{
+"carnet": "noel",
+"page": 46,
+"titre": "Octave de Noël",
+"detail": "Psaume 129 & Cantique NT (mercredi) p. 251 | Répons p. 10",
+"role": "repons",
+"jours": [
+"mercredi"
+],
+"suite": [
+47,
+48,
+49
+]
+},
+{
+"carnet": "noel",
+"page": 50,
+"titre": "26 décembre - S. Etienne",
+"detail": "Vigiles | Invitatoire p. 13 | Hymne de S. Etienne",
+"office": "lectures",
+"role": "hymne",
+"date": "12-26",
+"suite": [
+51,
+52,
+53
+]
+},
+{
+"carnet": "noel",
+"page": 54,
+"titre": "Répons de S. Etienne",
+"detail": "",
+"role": "repons",
+"suite": [
+55
+]
+},
+{
+"carnet": "noel",
+"page": 56,
+"titre": "Laudes - S. Etienne",
+"detail": "Hymne p. 50 | Antiennes p. 37 & 38 ou p. 52 & 53 | Psaumes du dimanche 1 | Répons p. 54 | Vêpres - Octave de la Nativité",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 56,
+"titre": "Vêpres - Octave de la Nativité",
+"detail": "Lucernaire p. 4 ou Hymne p. 6 | Antiennes, psaumes & Cantique NT p. 44 & 46",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 57,
+"titre": "27 décembre - S. Jean",
+"detail": "Vigiles | Invitatoire p. 13",
+"office": "lectures",
+"role": "invitatoire",
+"date": "12-27",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 58,
+"titre": "Hymne de S. Jean",
+"detail": "",
+"role": "hymne",
+"suite": [
+59,
+60,
+61
+]
+},
+{
+"carnet": "noel",
+"page": 62,
+"titre": "Répons de S. Jean",
+"detail": "",
+"role": "repons",
+"suite": [
+63
+]
+},
+{
+"carnet": "noel",
+"page": 64,
+"titre": "Laudes - S. Jean",
+"detail": "Hymne p. 58 | Antiennes p. 37 & 38 ou p. 60 & 61 | Psaumes du dimanche 1 | Répons p. 62 | Vêpres - Octave de la Nativité",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 64,
+"titre": "Vêpres - Octave de la Nativité",
+"detail": "Lucernaire p. 4 ou Hymne p. 6 | Antiennes, psaumes & Cantique NT p. 44 & 46",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 65,
+"titre": "28 décembre - Les Saints Innocents",
+"detail": "Vigiles | Invitatoire p. 13",
+"office": "lectures",
+"role": "invitatoire",
+"date": "12-28",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 66,
+"titre": "Hymne des Saints Innocents",
+"detail": "",
+"role": "hymne",
+"suite": [
+67,
+68,
+69
+]
+},
+{
+"carnet": "noel",
+"page": 70,
+"titre": "Répons des Saint Innocents",
+"detail": "",
+"role": "repons",
+"suite": [
+71
+]
+},
+{
+"carnet": "noel",
+"page": 72,
+"titre": "Laudes - Saints Innocents",
+"detail": "Hymne p. 66 | Antiennes p. 37 & 38 ou p. 68 & 69 | Psaumes du dimanche 1 | Répons p. 70 | Vêpres - Octave de la Nativité",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 72,
+"titre": "Vêpres - Octave de la Nativité",
+"detail": "Lucernaire p. 4 ou Hymne p. 6 | Antiennes, psaumes & Cantique NT p. 44 & 46",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 73,
+"titre": "29 décembre - 5° jour dans l’Octave",
+"detail": "Vigiles | Invitatoire p. 13 | Hymne p. 18",
+"office": "lectures",
+"role": "hymne",
+"date": "12-29",
+"suite": [
+74,
+75
+]
+},
+{
+"carnet": "noel",
+"page": 77,
+"titre": "30 décembre - 6° jour dans l’Octave",
+"detail": "ou La Sainte Famille (p. 97) | Vigiles | Invitatoire p. 13 | Hymne p. 18",
+"office": "lectures",
+"role": "hymne",
+"date": "12-30",
+"suite": [
+78,
+79
+]
+},
+{
+"carnet": "noel",
+"page": 81,
+"titre": "31 décembre - 7° jour dans l’Octave",
+"detail": "Vigiles | Invitatoire p. 13 | Hymne p. 18",
+"office": "lectures",
+"role": "hymne",
+"date": "12-31",
+"suite": [
+82,
+83
+]
+},
+{
+"carnet": "noel",
+"page": 84,
+"titre": "Laudes - Octave de la Nativité",
+"detail": "Hymne p. 36 | Antiennes p. 37 & 38 | Psaumes du dimanche 3 | Répons p. 40",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 85,
+"titre": "1° Vêpres de Sainte Marie Mère de Dieu",
+"detail": "",
+"office": "vepres",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 86,
+"titre": "Lucernaire p. 4",
+"detail": "Hymne de la Mère de Dieu",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 87,
+"titre": "Antiennes p. 44 & 46",
+"detail": "Psaumes 112 & 147 | Cantique NT (lundi) p. 246 | Répons p. 91 & Antienne du Magniﬁcat p. 47",
+"role": "repons",
+"jours": [
+"lundi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 88,
+"titre": "Vigiles de la Mère de Dieu",
+"detail": "Invitatoire p. 13 | Hymne p. 86 | Psaume 23",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+89,
+90
+]
+},
+{
+"carnet": "noel",
+"page": 91,
+"titre": "Répons de la Mère de Dieu",
+"detail": "",
+"role": "repons",
+"suite": [
+92,
+93
+]
+},
+{
+"carnet": "noel",
+"page": 94,
+"titre": "Te Deum p. 33",
+"detail": "",
+"role": "tedeum",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 95,
+"titre": "Laudes de la Mère de Dieu",
+"detail": "Hymne p. 86 | Antiennes p. 37 & 38 | Psaumes du dimanche 1 | Répons p. 91 | 2° Vêpres de la Mère de Dieu",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": [
+96
+]
+},
+{
+"carnet": "noel",
+"page": 97,
+"titre": "La Sainte Famille",
+"detail": "(Dimanche après Noël)",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 98,
+"titre": "1° Vêpres de la Sainte Famille",
+"detail": "Lucernaire p. 4 | Hymne p. 6 | Antienne p. 8 | Psaumes 112 & 147 | Cantique NT (lundi) p. 246",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"lundi"
+],
+"suite": [
+99,
+100,
+101,
+102
+]
+},
+{
+"carnet": "noel",
+"page": 103,
+"titre": "Te Deum p. 33",
+"detail": "",
+"role": "tedeum",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 105,
+"titre": "1° Vêpres de l’Épiphanie",
+"detail": "",
+"office": "vepres",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 106,
+"titre": "Lucernaire de l’Épiphanie",
+"detail": "",
+"role": "lucernaire",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 107,
+"titre": "Lucernaire de l’Epiphanie",
+"detail": "",
+"role": "lucernaire",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 108,
+"titre": "Hymne de l’Épiphanie",
+"detail": "",
+"role": "hymne",
+"suite": [
+109,
+110
+]
+},
+{
+"carnet": "noel",
+"page": 111,
+"titre": "Vigiles de l’Épiphanie",
+"detail": "Invitatoire",
+"office": "lectures",
+"role": "invitatoire",
+"suite": [
+112,
+113,
+114
+]
+},
+{
+"carnet": "noel",
+"page": 115,
+"titre": "Hymne p. 108",
+"detail": "",
+"role": "hymne",
+"suite": [
+116,
+117
+]
+},
+{
+"carnet": "noel",
+"page": 118,
+"titre": "Répons 1 de l’Épiphanie",
+"detail": "",
+"role": "repons",
+"suite": [
+119
+]
+},
+{
+"carnet": "noel",
+"page": 120,
+"titre": "Répons 2 de l’Épiphanie",
+"detail": "",
+"role": "repons",
+"suite": [
+121
+]
+},
+{
+"carnet": "noel",
+"page": 122,
+"titre": "Répons 3 de l’Épiphanie",
+"detail": "",
+"role": "repons",
+"suite": [
+123
+]
+},
+{
+"carnet": "noel",
+"page": 124,
+"titre": "Te Deum p. 33 ou Choral de l’Épiphanie p. 136",
+"detail": "",
+"role": "choral",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 125,
+"titre": "Laudes de l’Épiphanie",
+"detail": "Hymne p. 108 | Psaume 62 & Cantique AT 49",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+126
+]
+},
+{
+"carnet": "noel",
+"page": 127,
+"titre": "2° Vêpres de l’Épiphanie",
+"detail": "Lucernaire & Hymne p. 106 & 108 | Psaume 109",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+128
+]
+},
+{
+"carnet": "noel",
+"page": 129,
+"titre": "Féries du temps de Noël",
+"detail": "Du 2 au 7 janvier avant l’Épiphanie | Du Lundi au Samedi après l’Épiphanie",
+"jours": [
+"lundi",
+"samedi"
+],
+"suite": [
+130,
+131,
+132,
+133
+]
+},
+{
+"carnet": "noel",
+"page": 134,
+"titre": "Choral de Noël",
+"detail": "",
+"role": "choral",
+"suite": [
+135
+]
+},
+{
+"carnet": "noel",
+"page": 136,
+"titre": "Choral de l’Épiphanie",
+"detail": "",
+"role": "choral",
+"suite": [
+137,
+138,
+139,
+140,
+141
+]
+},
+{
+"carnet": "noel",
+"page": 142,
+"titre": "Hymne pour le Saint Nom de Jésus",
+"detail": "",
+"role": "hymne",
+"suite": [
+143
+]
+},
+{
+"carnet": "noel",
+"page": 144,
+"titre": "Laudes - 2 janvier & lundi après l’Épiphanie",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 145,
+"titre": "Vêpres - 2 janvier & lundi après l’Épiphanie",
+"detail": "",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 146,
+"titre": "Laudes - 3 janvier & mardi après l’Épiphanie",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 147,
+"titre": "Vêpres - 3 janvier & mardi après l’Épiphanie",
+"detail": "",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 148,
+"titre": "Laudes - 4 janvier & mercredi après l’Épiphanie",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 149,
+"titre": "Vêpres - 4 janvier & mercredi après l’Épiphanie",
+"detail": "",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 150,
+"titre": "Laudes - 5 janvier & jeudi après l’Épiphanie",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 151,
+"titre": "Vêpres - 5 janvier & jeudi après l’Épiphanie",
+"detail": "",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 152,
+"titre": "Laudes - 6 janvier & vendredi après l’Épiphanie",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 153,
+"titre": "Vêpres - 6 janvier & vendredi après l’Épiphanie",
+"detail": "",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 154,
+"titre": "Laudes - 7 janvier & samedi après l’Épiphanie",
+"detail": "",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"suite": [
+155
+]
+},
+{
+"carnet": "noel",
+"page": 156,
+"titre": "Répons 1 des laudes",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"suite": [
+157
+]
+},
+{
+"carnet": "noel",
+"page": 158,
+"titre": "Répons 2 des laudes",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"suite": [
+159
+]
+},
+{
+"carnet": "noel",
+"page": 160,
+"titre": "Répons 1 des vêpres",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"suite": [
+161
+]
+},
+{
+"carnet": "noel",
+"page": 162,
+"titre": "Répons 2 des vêpres",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"suite": [
+163
+]
+},
+{
+"carnet": "noel",
+"page": 164,
+"titre": "Répons 3 des vêpres",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"suite": [
+165
+]
+},
+{
+"carnet": "noel",
+"page": 166,
+"titre": "1° Vêpres du Baptême du Seigneur",
+"detail": "Lucernaire",
+"office": "vepres",
+"role": "lucernaire",
+"suite": [
+167
+]
+},
+{
+"carnet": "noel",
+"page": 168,
+"titre": "Hymne du Baptême",
+"detail": "",
+"role": "hymne",
+"suite": [
+169,
+170
+]
+},
+{
+"carnet": "noel",
+"page": 171,
+"titre": "Vigiles du Baptême du Seigneur",
+"detail": "Invitatoire | Hymne p. 168",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+172,
+173,
+174,
+175,
+176,
+177
+]
+},
+{
+"carnet": "noel",
+"page": 178,
+"titre": "Répons du Baptême du Seigneur",
+"detail": "",
+"role": "repons",
+"suite": [
+179
+]
+},
+{
+"carnet": "noel",
+"page": 180,
+"titre": "Te Deum p. 33 ou Choral du Baptême p. 182",
+"detail": "",
+"role": "choral",
+"suite": [
+181
+]
+},
+{
+"carnet": "noel",
+"page": 182,
+"titre": "Choral du Baptême du Seigneur",
+"detail": "",
+"role": "choral",
+"suite": [
+183
+]
+},
+{
+"carnet": "noel",
+"page": 184,
+"titre": "Laudes du Baptême du Seigneur",
+"detail": "Hymne p. 168 | Psaume 62 & Cantique AT 49 | Psaume 149 | Répons p. 178",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 185,
+"titre": "2° Vêpres du Baptême du Seigneur",
+"detail": "Lucernaire & Hymne p. 166 & 168 | Psaume 109",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+186
+]
+},
+{
+"carnet": "noel",
+"page": 187,
+"titre": "Dimanche des noces de Cana",
+"detail": "2° Dimanche du Temps ordinaire - Année C",
+"jours": [
+"dimanche"
+],
+"annee": "C",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 188,
+"titre": "1° Vêpres du dimanche de Cana",
+"detail": "Lucernaire",
+"office": "vepres",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"suite": [
+189
+]
+},
+{
+"carnet": "noel",
+"page": 190,
+"titre": "Hymne de Cana",
+"detail": "",
+"role": "hymne",
+"suite": [
+191,
+192
+]
+},
+{
+"carnet": "noel",
+"page": 193,
+"titre": "Vigiles des noces de Cana",
+"detail": "Invitatoire (Psalmodie p. 112) - Hymne p. 190 | Psaume 103 (1-12)",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+194,
+195
+]
+},
+{
+"carnet": "noel",
+"page": 196,
+"titre": "Répons des Noces de Cana",
+"detail": "",
+"role": "repons",
+"suite": [
+197
+]
+},
+{
+"carnet": "noel",
+"page": 198,
+"titre": "Te Deum p. 33 ou Choral de Cana p. 200",
+"detail": "",
+"role": "choral",
+"suite": [
+199
+]
+},
+{
+"carnet": "noel",
+"page": 200,
+"titre": "Choral de Cana",
+"detail": "",
+"role": "choral",
+"suite": [
+201
+]
+},
+{
+"carnet": "noel",
+"page": 202,
+"titre": "Laudes du Dimanche de Cana",
+"detail": "Hymne p. 190 | Psaume 117 | Cantique AT 48 | Psaume 150 | Répons p. 196",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 203,
+"titre": "2° Vêpres du Dimanche de Cana",
+"detail": "Psaume 109",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"suite": [
+204
+]
+},
+{
+"carnet": "noel",
+"page": 205,
+"titre": "Dimanche de l’appel des disciples",
+"detail": "3° Dimanche du Temps ordinaire - Années A & B | 1° Vêpres du dimanche | Lucernaire p. 106",
+"office": "vepres",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 206,
+"titre": "Hymne de l’appel des disciples",
+"detail": "",
+"role": "hymne",
+"suite": [
+207,
+208
+]
+},
+{
+"carnet": "noel",
+"page": 209,
+"titre": "Vigiles de l’appel des disciples",
+"detail": "Invitatoire p. 111 | Hymne p. 206 | Psaume 144 (1-9)",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+210
+]
+},
+{
+"carnet": "noel",
+"page": 211,
+"titre": "Te Deum p. 33",
+"detail": "",
+"role": "tedeum",
+"suite": []
+},
+{
+"carnet": "noel",
+"page": 212,
+"titre": "Laudes de l’appel des disciples",
+"detail": "Hymne p. 206 | Psaume 92 & Cantique AT 49",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+213
+]
+},
+{
+"carnet": "noel",
+"page": 214,
+"titre": "2° Vêpres de l’appel des disciples",
+"detail": "Lucernaire p. 106 | Psaume 109",
+"office": "vepres",
+"role": "lucernaire",
+"suite": [
+215,
+216,
+217
+]
+},
+{
+"carnet": "noel",
+"page": 218,
+"titre": "1° Vêpres de la Présentation",
+"detail": "Lucernaire",
+"office": "vepres",
+"role": "lucernaire",
+"suite": [
+219
+]
+},
+{
+"carnet": "noel",
+"page": 220,
+"titre": "Hymne de la Présentation",
+"detail": "",
+"role": "hymne",
+"suite": [
+221,
+222,
+223,
+224
+]
+},
+{
+"carnet": "noel",
+"page": 225,
+"titre": "Vigiles de la Présentation",
+"detail": "Invitatoire",
+"office": "lectures",
+"role": "invitatoire",
+"suite": [
+226,
+227,
+228
+]
+},
+{
+"carnet": "noel",
+"page": 229,
+"titre": "Hymne p. 220",
+"detail": "",
+"role": "hymne",
+"suite": [
+230,
+231
+]
+},
+{
+"carnet": "noel",
+"page": 232,
+"titre": "Répons de la Présentation",
+"detail": "",
+"role": "repons",
+"suite": [
+233
+]
+},
+{
+"carnet": "noel",
+"page": 234,
+"titre": "Te Deum p. 33 ou Choral de la Présentation p. 236",
+"detail": "",
+"role": "choral",
+"suite": [
+235
+]
+},
+{
+"carnet": "noel",
+"page": 236,
+"titre": "Choral de la Présentation",
+"detail": "",
+"role": "choral",
+"suite": [
+237
+]
+},
+{
+"carnet": "noel",
+"page": 238,
+"titre": "Laudes de la Présentation",
+"detail": "Hymne p. 220 | Antiennes p. 230 | Psaumes du dimanche 1 | Répons p. 232 | 2° Vêpres de la Présentation",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": [
+239
+]
+},
+{
+"carnet": "noel",
+"page": 260,
+"titre": "Laudes",
+"detail": "",
+"office": "laudes",
+"suite": [
+261
+]
+},
+{
+"carnet": "noel",
+"page": 262,
+"titre": "Vêpres",
+"detail": "",
+"office": "vepres",
+"suite": [
+263,
+264,
+265
+]
+},
+{
+"carnet": "careme",
+"page": 4,
+"titre": "Invitatoires",
+"detail": "Semaine des Cendres | = 66 K 040 | Voi ci le temps fa vo ra ble, voi ci le Jour du sa lut : Ve | nez, a do rons le Sei gneur. | Première semaine",
+"role": "invitatoire",
+"semaines": [
+0
+],
+"cotes": [
+"K 040"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 5,
+"titre": "Invitatoires",
+"detail": "Troisième semaine | K 043 | Vif ( = 96) | Du Christ, no tre ro cher, ont cou lé des ﬂots d'eau vi ve : | Venez pui ser aux sour ces du sa lut ! �",
+"role": "invitatoire",
+"cotes": [
+"K 043"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 6,
+"titre": "Invitatoires",
+"detail": "Cinquième semaine | K 045 | Vif | Large ( = 84) | Ô Christ, a mi des hom mes, tu es la ré sur rection et la vi e!",
+"role": "invitatoire",
+"cotes": [
+"K 045"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 7,
+"titre": "Invitatoire : Ps. 94 - Ton du Carême",
+"detail": "",
+"role": "invitatoire",
+"suite": [
+8,
+9,
+10
+]
+},
+{
+"carnet": "careme",
+"page": 11,
+"titre": "Hymnes des Vêpres",
+"detail": "K 009 | Christ, serviteur du Dieu vivant | b.f. | \u001b | 1. Christ, ser vi teur du Dieu vi vant,",
+"office": "vepres",
+"role": "hymne",
+"cotes": [
+"K 009"
+],
+"suite": [
+12,
+13,
+14,
+15,
+16,
+17
+]
+},
+{
+"carnet": "careme",
+"page": 18,
+"titre": "Hymnes - Vêpres",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+19
+]
+},
+{
+"carnet": "careme",
+"page": 20,
+"titre": "Lucernaire des dimanches",
+"detail": "K 001",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"cotes": [
+"K 001"
+],
+"suite": [
+21
+]
+},
+{
+"carnet": "careme",
+"page": 22,
+"titre": "Lucernaire des féries",
+"detail": "K 002",
+"role": "lucernaire",
+"cotes": [
+"K 002"
+],
+"suite": [
+23
+]
+},
+{
+"carnet": "careme",
+"page": 24,
+"titre": "Hymne des Vigiles",
+"detail": "K 049",
+"office": "lectures",
+"role": "hymne",
+"cotes": [
+"K 049"
+],
+"suite": [
+25
+]
+},
+{
+"carnet": "careme",
+"page": 26,
+"titre": "Hymnes - Laudes du dimanche",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 27,
+"titre": "Hymnes - Laudes du dimanche",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 28,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "INTRODUCTION  |     |        |              | Gloire à toi, ô Christ, qui nous montres la lumiè re ! Gloire à Dieu au plus haut des cieux !",
+"role": "hymne",
+"suite": [
+29
+]
+},
+{
+"carnet": "careme",
+"page": 31,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Sainte mère de Dieu, / espoir de ceux qui te louent, | par ta prière, / délivre-moi du mal et du péché, | reçois entre tes bras ton enfant qui fait pénitence. | Bienheureuse et éternelle Trinité / du ",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 33,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Vierge sans tache, mère du créateur, | toi qui seule est louée / au-dessus de toute créature, | avec force, supplie le Dieu de bonté / pour le salut de tes enfants. | Trinité incréée, / indivisible un",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 35,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Tu lui as pardonné ses nombreux péchés / parce qu’elle a beaucoup aimé. | Accueille, ô mon Sauveur, la sincérité de mon cœur. | Prends pitié de ce que tes mains ont créé, / | ô toi qui fais sans fin m",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 36,
+"titre": "Hymne - canon de saint",
+"detail": "   André |        de |        Crête | Gloire à toi, ô Christ, qui nous montres la lumiè re ! Gloire à Dieu au plus haut des cieux ! |    ",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 37,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "À l’exemple de Loth / | fuyant le feu du ciel qui consuma la terre de Sodome, | je viens me réfugier sur la sainte montagne / de la pénitence et du repentir. | Que j’échappe à l’incendie dévorant du p",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 39,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Jeudi II | Job étendu sur sa couche / est demeuré sans reproche. | Mais je n’ai pas imité son courage / et sa fermeté dans l’épreuve, | c’est pourquoi Satan a obtenu / de m’accuser devant Dieu. | Dépo",
+"role": "hymne",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 40,
+"titre": "Hymne - canon de",
+"detail": " | saint André de Crête INTRODUCTION | Toi que le Christ a délivrée  de  |  sept  démons,   ô   | Madeleine,        ",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 41,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Dimanche III | Écoutez maintenant et voyez que je suis Dieu ! | J’ai conduit mon peuple au désert / par la puissance de mon bras. | J’ai fait pleuvoir la manne et jailli l’eau du Rocher. | Le puits où",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 42,
+"titre": "Hymne - canon de",
+"detail": " | saint André de Crête INTRODUCTION | Celui qui naît de toi, ô Marie,  / est le   berger  de nos   | âmes.        |     ",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 43,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Office des Lectures : psaume 67 | Mercredi III | Je veille dans une nuit profonde. / Au matin, Seigneur, éclaire-moi. | Guide-moi sur le sentier de tes commandements. | Enseigne-moi, ô mon Sauveur, à ",
+"office": "lectures",
+"role": "hymne",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"suite": [
+44,
+45,
+46,
+47,
+48,
+49,
+50,
+51
+]
+},
+{
+"carnet": "careme",
+"page": 52,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Mardi V | Les anges flamboyants te chantent dans les cieux. | Les chérubins et les séraphins / te louent, te bénissent et t’acclament. | Prends en pitié, Sauveur, celui qui a péché / et réveille son â",
+"role": "hymne",
+"jours": [
+"mardi"
+],
+"semaines": [
+5
+],
+"suite": [
+53
+]
+},
+{
+"carnet": "careme",
+"page": 55,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Tu t’es avancé au milieu des pécheurs / pour accomplir toute justice. | Comme l’agneau muet qui porte le péché du monde, | tu es descendu dans les flots du Jourdain / et l’Esprit est venu sur toi. | Ô",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 57,
+"titre": "Hymne - canon de saint André de Crête",
+"detail": "Le pharisien est retourné chez lui / sans être justifié. | Les villes qui n’ont pas entendu ta parole / ont été maudites. | Ô mon âme, n’imite pas leur orgueil / et reconnais ta misère. | Médiatrice e",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 58,
+"titre": "Hymnes de la Passion",
+"detail": "Voici que les étendards | timb. | 1. Voi ci que les é ten dards de no tre Roi s'a van cent. | 2. Les mains per cées de clous, les pieds et les en trail les, | 3. A lors les chants de Da vid pour lui s",
+"role": "hymne",
+"suite": [
+59,
+60
+]
+},
+{
+"carnet": "careme",
+"page": 62,
+"titre": "Hymnes de la Passion (Vêpres Samedi saint)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"jours": [
+"samedi"
+],
+"suite": [
+63
+]
+},
+{
+"carnet": "careme",
+"page": 66,
+"titre": "Laudes - Mercredi des Cendres",
+"detail": "K 091 | \u0017 | \u001a\u001a | Pesant et lent ( = 48) | \u001b \u0015",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 091",
+"K 726"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 67,
+"titre": "Vêpres - Mercredi des Cendres",
+"detail": "K 746 | \u0015 \u001b \u0018 | = 58 | \u0017 \u001b | \u0019 \u001a \u001b \u001a \u0019",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 746",
+"K 412"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 68,
+"titre": "Laudes - Jeudi des Cendres",
+"detail": "K 652 | \u0017 \u001a = 52 | \u0018 | J'é tais comme un a gneau qu'on em mène à la mort | \u001b",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 652",
+"K 644"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 69,
+"titre": "Vêpres - Jeudi des Cendres",
+"detail": "K 632 | \u0019 \u0016 | = 60 \u0014 | \u001b \u001b | \u0017\u0016 \u001a \u001b",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 632",
+"K 756"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 70,
+"titre": "Laudes - Vendredi des Cendres",
+"detail": "K 635 | \u0019 | Large ( = 60) | \u0017 | \u001a",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 635",
+"K 735"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 71,
+"titre": "Vêpres - Vendredi des Cendres",
+"detail": "\u0018 \u001b | K 714 | \u001b | \u0019 | = 52",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 714",
+"K 051"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 72,
+"titre": "Laudes - Samedi des Cendres",
+"detail": "K 311 | = 66) | Calme ( | Sei gneur, en toi est la sour ce de la vie : tu nous a breu ves | \u001b",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+0
+],
+"cotes": [
+"K 311",
+"K 626"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 73,
+"titre": "1ères Vêpres - Dimanche I",
+"detail": "K 615 | \u0017 \u001a Large ( = 56) | \u0018 \u001b\u001b \u001b | \u001b | C'est la mi sé ri cor de que je veux, et non le sa cri ﬁ ce.",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 615",
+"K 764"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 74,
+"titre": "Vigiles - Dimanche I",
+"detail": "K 111 | Large ( = 60) | Sei gneur, ma part d'hé ri tage et ma cou pe ! | L'hom me ne vit pas seu lement de pain, mais de tou te pa ro le | qui sort de ta bou che. �",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 111",
+"K 112"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 76,
+"titre": "Laudes - Dimanche I",
+"detail": "K 312 | = 54) | Léger ( | Mon âme a soif du Dieu de vi e ! �uand le ver rai- je face à fa ce ? | Psaume 62 & AT 5 (p.178)",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 312",
+"K 053"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 77,
+"titre": "2èmes Vêpres - Dimanche I",
+"detail": "= 48) K 112 | Lent ( | J'ai gar dé, Sei gneur, la Pa ro le de tes lè vres : | \u001b \u001b \u001b \u001b \u001b \u001b \u001b � | \u001b",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 112",
+"K 653"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 78,
+"titre": "Laudes - Lundi I",
+"detail": "K 731 | \u001a \u0018 | = 56 | \u001b | \u0017",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 731",
+"K 212"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 79,
+"titre": "Vêpres - Lundi I",
+"detail": "K 652 | \u0017 \u001a = 52 | \u0018 | J'é tais comme un a gneau qu'on em mène à la mort | \u001b",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 652",
+"K 655"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 80,
+"titre": "Laudes - Mardi I",
+"detail": "K 614 | \u0018 \u001b | \u0019\u001b | Si quelqu'un veut mar cher à ma sui te, qu'il prenne sa croix et me sui ve ! | \u001a \u001b \u0016",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 614",
+"K 511"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 81,
+"titre": "Vêpres - Mardi I",
+"detail": "\u0016 K 755 | \u001a\u001a | \u0017 3 | U ne fem me pour rait- elle ou bli er son en fant ? Voi ci : Je t'ai gra | \u001b",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 755",
+"K 626"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 82,
+"titre": "Laudes - Mercredi I",
+"detail": "K 654 | \u0017 | \u001a\u001a | = 60 | \u0018 \u0015",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 654",
+"K 111"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 83,
+"titre": "Vêpres - Mercredi I",
+"detail": "K 211 | \u0019 | \u001b = 50 | \u001b | \u0017 \u001a \u001b \u001b\u001b \u001b \u001b\u001b \u001b\u001b \u001b\u001b",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 211",
+"K 093"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 84,
+"titre": "Laudes - Jeudi I",
+"detail": "K 632 | \u0019 \u0016 | = 60 \u0014 | \u001b \u001b | \u0017\u0016 \u001a \u001b",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 632"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 85,
+"titre": "Vêpres - Jeudi I",
+"detail": "K 513 | \u001a = 66 \u0016 | \u001b | \u001b \u0017 | Tu as ti ré mon â me des en fers ! Tu as chan gé mon deuil en une dan se !",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 513",
+"K 624"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 86,
+"titre": "Laudes - Vendredi I",
+"detail": "= 50 K 664 | \u0015 | \u0018 | \u0019 | \u0016 \u0018 \u001b \u0019\u0019 \u0019",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 664",
+"K 016"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 87,
+"titre": "Vêpres - Vendredi I",
+"detail": "K 644 | \u0017 \u001a = 72 | \u0018 \u001b\u001b \u001b\u001b | \u001a \u001a | Guéris- moi, Sei gneur, et je se rai gué ri, car tu es mon es poir.",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 644",
+"K 092"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 88,
+"titre": "Laudes - Samedi I",
+"detail": "= 66 K 756 | \u0019 | \u0017 | \u001b | \u001a \u001b",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+1
+],
+"cotes": [
+"K 756",
+"K 734"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 89,
+"titre": "1ères Vêpres - Dimanche II",
+"detail": "K 754 | \u0017 \u0019\u0019\u0019 Très calme ( = 60) | \u0018 \u001b\u001b \u0019 | Je vous don ne rai un cœur nou veau ! Je met trai en vous mon es prit ! | \u001a \u0019\u0019\u0019 \u001b\u001b",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 754",
+"K 212"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 90,
+"titre": "Vigiles - Dimanche II",
+"detail": "Qui me suit ne mar che pas dans la nuit : Il au ra la lumiè re de la vie ! | Psaume 103, 1-12 | K 412 | \u0018 \u001b retenu | Léger et doux ( = 50)",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 412",
+"K 213"
+],
+"suite": [
+91
+]
+},
+{
+"carnet": "careme",
+"page": 92,
+"titre": "Laudes - Dimanche II",
+"detail": "K 093 | = 50) | Paisible ( | Sei gneur, re lè ve tes en fants, af fer mis- les devant ta fa ce ! | Psaume 117 & AT 5 (p.178)",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 093",
+"K 616"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 93,
+"titre": "2èmes Vêpres - Dimanche II",
+"detail": "K 716 | \u0017 = 44 | \u0015 | \u0018 \u001b | \u001a",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 716",
+"K 053"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 94,
+"titre": "Laudes - Lundi II",
+"detail": "K 312 | = 54) | Léger ( | Mon âme a soif du Dieu de vi e ! �uand le ver rai- je face à fa ce ? | Psaume 41 & AT 15",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 312",
+"K 733"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 95,
+"titre": "Vêpres - Lundi II",
+"detail": "K 092 | Lè ve- toi, Sei gneur ! Ra chè te- nous en rai son de ton a mour ! | Psaume 44, 2-10 | K 633 | \u0019 \u0017",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 092",
+"K 633"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 96,
+"titre": "Laudes - Mardi II",
+"detail": "K 651 | \u0016 \u0018 = 58 | \u001b | \u0017 \u0018 | \u001a\u001a",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 651",
+"K 313"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 97,
+"titre": "Vêpres - Mardi II",
+"detail": "K 635 | \u0019 | Large ( = 60) | \u0017 | \u001a",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 635",
+"K 636"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 98,
+"titre": "Laudes - Mercredi II",
+"detail": "K 512 | \u0018 | Lourd, pesant ( = 58) | \u0019 \u0016\u0016 | Ma vie é tait au bord des En fers, dé jà compté par mi les morts ;",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 512",
+"K 012"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 99,
+"titre": "Vêpres - Mercredi II",
+"detail": "K 734 | \u0017 \u001a = 52 \u001b \u001b\u001b | \u0018 \u001b\u001b \u001b | \u001b \u001b | Si vous gar dez ma Pa ro le, vous connaî trez la vé ri té,",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 734",
+"K 212"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 100,
+"titre": "Laudes - Jeudi II",
+"detail": "K 091 | \u0017 | \u001a | Pesant et lent ( = 48) | \u001b",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 091",
+"K 724"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 101,
+"titre": "Vêpres - Jeudi II",
+"detail": "= 48 K 733 | Cher chez le Sei gneur, et votre â me vi vra ! | Psaume 71, 1-11 | = 50 K 625 | \u0018",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 733",
+"K 625"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 102,
+"titre": "Laudes - Vendredi II",
+"detail": "K 624 | Psaume 50 & AT 57 | K 311 | = 66) | Calme (",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 624",
+"K 311"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 103,
+"titre": "Vêpres - Vendredi II",
+"detail": "K 632 | \u0019 \u0016 | = 60 \u0014 | \u001b \u001b | \u0017\u0016 \u001a \u001b",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 632",
+"K 013"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 104,
+"titre": "Laudes - Samedi II",
+"detail": "K 753 | p = 50 | De vant toi, Sei gneur, s'in cli ne ront ceux qui sont des cen dus | dans la poussiè re de la mort. | Psaume 91 & AT 2",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+2
+],
+"cotes": [
+"K 753",
+"K 113"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 105,
+"titre": "1ères Vêpres - Dimanche III",
+"detail": "K 513 | \u001a \u0016 | \u001b = 66 | \u001b \u0017 | Tu as ti ré mon â me des en fers ! Tu as chan gé mon deuil en u ne dan se !",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 513",
+"K 732"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 106,
+"titre": "Vigiles - Dimanche III année A",
+"detail": "K 311 | = 66) | Calme ( | Sei gneur, en toi est la sour ce de la vie : tu nous a breu ves | \u001b",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "A",
+"cotes": [
+"K 311",
+"K 312",
+"K 313"
+],
+"suite": [
+107
+]
+},
+{
+"carnet": "careme",
+"page": 108,
+"titre": "Vigiles - Dimanche III année B",
+"detail": "K 735 | = 56) | Violent ( | Dé trui sez ce Tem ple, et en trois jours, je le re lè ve rai ! | \u001b",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "B",
+"cotes": [
+"K 735",
+"K 724",
+"K 716"
+],
+"suite": [
+109
+]
+},
+{
+"carnet": "careme",
+"page": 110,
+"titre": "Vigiles - Dimanche III année C",
+"detail": "K 654 | \u0017 \u001a | = 60 | \u0015 | \u0018 \u001a",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "C",
+"cotes": [
+"K 654",
+"K 625",
+"K 655"
+],
+"suite": [
+111
+]
+},
+{
+"carnet": "careme",
+"page": 112,
+"titre": "Laudes - Dimanche III",
+"detail": "K 053 | \u0019 | Libre ( = 72) | \u001a | Je suis sor ti du Pè re et ve nu dans le mon de.",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 053",
+"K 113"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 113,
+"titre": "2èmes Vêpres - Dimanche III",
+"detail": "K 016 | \u0019 \u001b | \u001b | \u001a | Vif ( = 120) Élargir ( = 66)",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 016",
+"K 616"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 114,
+"titre": "Laudes - Lundi III",
+"detail": "K 725 | = 63 | Ils t'ont a ban don né, toi la sour ce d'eau vi ve, pour des puits des sé chés. | Psaume 83 & AT 17 | K 636",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 725",
+"K 636"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 115,
+"titre": "Vêpres - Lundi III",
+"detail": "K 092 | Léger ( = 60) | Lè ve- toi, Sei gneur, dans ta ten dres se pour Si on ! | \u001b | L'heure est ve nue de nous prendre en pi tié !",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 092",
+"K 744"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 116,
+"titre": "Laudes - Mardi III",
+"detail": "K 755 | \u0016 | \u001a\u001a | \u0017 3 | U ne fem me pour rait- elle ou bli er son en fant ? Voi ci : Je t'ai gra",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 755",
+"K 211"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 117,
+"titre": "Vêpres - Mardi III",
+"detail": "K 734 | \u0017 \u001a = 52 \u001b \u001b\u001b | \u0018 \u001b\u001b \u001b | \u001b \u001b | Si vous gar dez ma Pa ro le, vous connaî trez la vé ri té,",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 734",
+"K 631"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 118,
+"titre": "Laudes - Mercredi III",
+"detail": "K 714 | \u0018 \u001b \u001b | \u0019 | = 52 | Nous étions morts, et nous sommes re venus à la vi e. Nous étions per dus,",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 714",
+"K 656"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 119,
+"titre": "Vêpres - Mercredi III",
+"detail": "K 634 | \u0019 \u001b | \u0017 \u001a\u001a | Celui qui perd sa vie à cau se de moi la sauve ra, et sa chair reﬂeu ri ra ! | \u0016\u001b \u001a",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 634",
+"K 744"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 120,
+"titre": "Laudes - Jeudi III",
+"detail": "Lent ( = 44) K 745 | \u0015 | \u001a \u001b \u0019 \u001a\u001a | \u0016 \u0018 \u001a\u001a | Il fal lait qu'un seul hom me meu re pour tout le peu ple.",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 745",
+"K 213"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 121,
+"titre": "Vêpres - Jeudi III",
+"detail": "K 752 | = 54 | \u0016 \u0019 | \u0017 \u0019 \u001a | \u001a\u001a",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 752",
+"K 011"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 122,
+"titre": "Laudes - Vendredi III",
+"detail": "K 615 | \u0017 \u001a Large ( = 56) | \u0018 \u001b\u001b \u001b | \u001b | C'est la mi sé ri cor de que je veux, et non le sa cri ﬁ ce.",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 615",
+"K 753"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 123,
+"titre": "Vêpres - Vendredi III",
+"detail": "K 511 | = 52 | celui qui vit et croit en toi. | Psaume 134, 1-12 | K 636",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 511",
+"K 636"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 124,
+"titre": "Laudes - Samedi III",
+"detail": "K 646 | f | Marqué ( = 63) | Ils ont éprou vé le Jus te par des ou tra ges ! Nous a vons con nu sa dou ceur. | Psaume 118-XIX & AT 12",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+3
+],
+"cotes": [
+"K 646",
+"K 756"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 125,
+"titre": "1ères Vêpres - Dimanche IV",
+"detail": "K 015 | pp p | = 100 | Voi ci que nous mon tons à Jé ru sa lem, où le Fils de l'hom me se ra | f mf � mf",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 015",
+"K 513"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 126,
+"titre": "Vigiles - Dimanche IV année A",
+"detail": "K 411 | ff | \u001b = 48 | Des té nè bres, le Sei gneur a fait son voi le : Je t'in vo que, Sei gneur, | pp",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "A",
+"cotes": [
+"K 411",
+"K 412",
+"K 413"
+],
+"suite": [
+127
+]
+},
+{
+"carnet": "careme",
+"page": 128,
+"titre": "Vigiles - Dimanche IV année B",
+"detail": "K 726 | Vif ( = 80) | Large | Ce lui qui fait la vé ri té vient à la lu miè re. | \u001b",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "B",
+"cotes": [
+"K 726",
+"K 734",
+"K 656"
+],
+"suite": [
+129
+]
+},
+{
+"carnet": "careme",
+"page": 130,
+"titre": "Vigiles - Dimanche IV année C",
+"detail": "K 715 | Vif ( = 66) | \u0019 | Calme | \u0017",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "C",
+"cotes": [
+"K 715",
+"K 714",
+"K 625"
+],
+"suite": [
+131
+]
+},
+{
+"carnet": "careme",
+"page": 132,
+"titre": "Laudes - Dimanche IV",
+"detail": "K 093 | = 50) | Paisible ( | Sei gneur, re lè ve tes en fants, af fer mis- les devant ta fa ce ! | Psaume 117 & AT 5 (p.178)",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 093",
+"K 616"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 133,
+"titre": "2èmes Vêpres - Dimanche IV",
+"detail": "K 716 | \u0017 = 44 | \u0015 | \u0018 \u001b | \u001a",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 716",
+"K 726"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 134,
+"titre": "Laudes - Lundi IV",
+"detail": "K 411 | ff | \u001b | = 48 | Des té nè bres, le Sei gneur a fait son voi le : Je t'in vo que, Sei gneur,",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 411",
+"K 655"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 135,
+"titre": "Vêpres - Lundi IV",
+"detail": "K 092 | Léger ( = 60) | Lè ve- toi, Sei gneur, dans ta ten dres se pour Si on ! | \u001b | L'heure est ve nue de nous prendre en pi tié !",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 092",
+"K 012"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 136,
+"titre": "Laudes - Mardi IV",
+"detail": "= 48) K 112 | Lent ( | J'ai gar dé, Sei gneur, la Pa ro le de tes lè vres : | \u001b | \u001b \u001b \u001b \u001b \u001b \u001b \u001b �",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 112",
+"K 043"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 137,
+"titre": "Vêpres - Mardi IV",
+"detail": "K 654 | \u0017 | \u001a\u001a | = 60 | \u0018 \u0015",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 654",
+"K 656"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 138,
+"titre": "Laudes - Mercredi IV",
+"detail": "K 211 | \u0019 | \u001b = 50 | \u001b | \u0017 \u001a \u001b \u001b\u001b \u001b \u001b\u001b \u001b\u001b \u001b\u001b",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 211",
+"K 726"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 139,
+"titre": "Vêpres - Mercredi IV",
+"detail": "K 645 | = 56 | Je vais te con duire au dé sert, et je par le rai à ton cœur. | Psaume 138, 1-10 | K 512",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 645",
+"K 512"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 140,
+"titre": "Laudes - Jeudi IV",
+"detail": "K 652 | \u0017 \u001a | = 52 | \u0018 | J'é tais comme un a gneau qu'on em mène à la mort",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 652",
+"K 764"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 141,
+"titre": "Vêpres - Jeudi IV",
+"detail": "K 632 | \u0019 \u0016 | = 60 \u0014 | \u001b \u001b | \u0017\u0016 \u001a \u001b",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 632",
+"K 756"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 142,
+"titre": "Laudes - Vendredi IV",
+"detail": "K 635 | \u0019 | Large ( = 60) | \u0017 | \u001a",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 635",
+"K 735"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 143,
+"titre": "Vêpres - Vendredi IV",
+"detail": "K 714 | \u0018 \u001b \u001b | \u0019 | = 52 | Nous étions morts, et nous sommes re venus à la vi e. Nous étions per dus,",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 714",
+"K 311"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 144,
+"titre": "Laudes - Samedi IV",
+"detail": "K 653 | = 50 | Je suis le Dieu vi vant : Je ne veux pas la mort du pécheur, | \u001a | mais qu'il vi ve ! �",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+4
+],
+"cotes": [
+"K 653",
+"K 626"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 145,
+"titre": "1ères Vêpres - Dimanche V",
+"detail": "K 733 | = 48 | Cher chez le Sei gneur, et votre â me vi vra ! | Psaume 140 | K 412",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 733",
+"K 412"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 146,
+"titre": "Vigiles - Dimanche V année A",
+"detail": "K 511 | = 52 | celui qui vit et croit en toi. | Psaume 1 | K 512",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "A",
+"cotes": [
+"K 511",
+"K 512",
+"K 513"
+],
+"suite": [
+147
+]
+},
+{
+"carnet": "careme",
+"page": 148,
+"titre": "Vigiles - Dimanche V année B",
+"detail": "K 754 | \u0017 \u0019\u0019\u0019 | Très calme ( = 60) | \u0018 \u001b\u001b \u0019 | Je vous don ne rai un cœur nou veau ! Je met trai en vous mon es prit !",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "B",
+"cotes": [
+"K 754",
+"K 724",
+"K 653"
+],
+"suite": [
+149
+]
+},
+{
+"carnet": "careme",
+"page": 150,
+"titre": "Vigiles - Dimanche V année C",
+"detail": "K 644 | \u0017 \u001a | = 72 | \u0018 \u001b\u001b \u001b\u001b | \u001a \u001a",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "C",
+"cotes": [
+"K 644",
+"K 645"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 152,
+"titre": "Laudes - Dimanche V",
+"detail": "K 312 | = 54) | Léger ( | Mon âme a soif du Dieu de vi e ! �uand le ver rai- je face à fa ce ? | Psaume 62 & AT 5 (p.178)",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 312",
+"K 015"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 153,
+"titre": "2èmes Vêpres - Dimanche V",
+"detail": "K 752 | = 54 | \u0016 \u0019 | \u0017 \u0019 \u001a | \u001a\u001a \u001a",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 752",
+"K 736"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 154,
+"titre": "Laudes - Lundi V",
+"detail": "K 731 | \u001a \u0018 | = 56 | \u001b | \u0017",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 731",
+"K 212"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 155,
+"titre": "Vêpres - Lundi V",
+"detail": "K 725 | = 63 | Ils t'ont a ban don né, toi la sour ce d'eau vi ve, pour des puits des sé chés. | Psaume 10 | K 733",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 725",
+"K 733"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 156,
+"titre": "Laudes - Mardi V",
+"detail": "K 614 | \u0018 \u001b | \u0019\u001b | Si quelqu'un veut mar cher à ma sui te, qu'il prenne sa croix et me sui ve ! | \u001a \u001b \u0016",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 614",
+"K 511"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 157,
+"titre": "Vêpres - Mardi V",
+"detail": "K 752 | = 54 | \u0016 \u0019 | \u0017 \u0019 \u001a | \u001a\u001a \u001a",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 752",
+"K 097"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 158,
+"titre": "Laudes - Mercredi V",
+"detail": "K 745 | Lent ( = 44) | \u0015 | \u001a \u001b \u0019 \u001a\u001a | \u0016 \u0018 \u001a\u001a",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 745",
+"K 715"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 159,
+"titre": "Vêpres - Mercredi V",
+"detail": "K 211 | \u0019 | \u001b = 50 | \u001b | \u0017 \u001a \u001b \u001b\u001b \u001b \u001b\u001b",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 211",
+"K 093"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 160,
+"titre": "Laudes - Jeudi V",
+"detail": "K 411 | ff | \u001b | = 48 | Des té nè bres, le Sei gneur a fait son voi le : Je t'in vo que, Sei gneur,",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 411",
+"K 735"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 161,
+"titre": "Vêpres - Jeudi V",
+"detail": "K 715 | Vif ( = 66) | \u0019 | Calme | \u0017",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 715",
+"K 633"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 162,
+"titre": "Laudes - Vendredi V",
+"detail": "K 754 | \u0017 \u0019\u0019\u0019 Très calme ( = 60) | \u0019 | \u0018 \u001b\u001b | Je vous don ne rai un cœur nou veau ! Je met trai en vous mon es prit !",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 754",
+"K 413"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 163,
+"titre": "Vêpres - Vendredi V",
+"detail": "K 633 | \u0019 \u0017 | = 46 | \u001a | Tu m'as ca ché, Sei gneur, au se cret de ta fa ce.",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 633",
+"K 311"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 164,
+"titre": "Laudes - Samedi V",
+"detail": "K 111 | Large ( = 60) | Sei gneur, ma part d'hé ri tage et ma cou pe ! | L'hom me ne vit pas seu lement de pain, mais de tou te pa ro le | qui sort de ta bou che. �",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+5
+],
+"cotes": [
+"K 111",
+"K 653"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 165,
+"titre": "1ères Vêpres - Dimanche des Rameaux",
+"detail": "K 013 | Psaume 118-XIV | K 014 | Très large ( = 52) | Hom me de dou leur, bro yé par la souffran ce, il a é té transper cé",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"K 013",
+"K 014"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 166,
+"titre": "Vigiles - Dimanche des Rameaux",
+"detail": "L 041 | Ho san na ! Qu'il en tre, le Roi de gloi re, | le Sei gneur, le vail lant des com bats : Jé sus, le Roi d'Is ra ël ! | Ho san na ! au plus haut des cieux ! | Psaume 103, 1-12",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 041",
+"L 043"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 168,
+"titre": "Laudes - Dimanche des Rameaux",
+"detail": "L 061 | La foule im men se des en fants des Hé breux | por taient des bran ches d'o li vier dans leurs mains. | Ils cour raient au de vant du Sei gneur en chan tant et en pro cla mant : | rall.",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 061",
+"L 041"
+],
+"suite": [
+169
+]
+},
+{
+"carnet": "careme",
+"page": 170,
+"titre": "2èmes Vêpres - Dimanche des Rameaux",
+"detail": "L 081 | pp p | = 100 | Voi ci que nous mon tons à Jé ru sa lem, où le Fils de l'hom me se ra | f mf � mf",
+"office": "vepres2",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 081",
+"L 232"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 171,
+"titre": "Laudes - Lundi Saint",
+"detail": "L 042 | \u0018 \u001b | Lent | \u0016 | \u0019 \u001b",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 042",
+"L 212"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 172,
+"titre": "Vêpres - Lundi Saint",
+"detail": "L 331 | Psaume 44, 2-10 | L 341 | Psaume 44, 11-18 | & NT V p. 184",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 331",
+"L 341"
+],
+"nt": "V",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 173,
+"titre": "Laudes - Mardi Saint",
+"detail": "L 242 | Psaume 42 & AT 25 | L 441 | Psaume 64",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 242",
+"L 441"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 174,
+"titre": "Vêpres - Mardi Saint",
+"detail": "L 312 | Psaume 48, 2-13 | L 431 | Psaume 48, 14-21 | & NT IV p. 182",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 312",
+"L 431"
+],
+"nt": "IV",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 175,
+"titre": "Laudes - Mercredi Saint",
+"detail": "L 411 | Psaume 76 & AT 3 | L 413 | Psaume 96",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 411",
+"L 413"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 176,
+"titre": "Vêpres - Mercredi Saint",
+"detail": "L 412 | Psaume 61 | L 231 | Psaume 66 | & NT X p. 180",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+6
+],
+"cotes": [
+"L 412",
+"L 231"
+],
+"nt": "X",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 177,
+"titre": "Cantiques",
+"detail": "",
+"role": "antiennes",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 178,
+"titre": "Cantique de Néhémie",
+"detail": "  = 120   |  |           |  | Ce jour est saint pour no tre Dieu :",
+"role": "cantique-at",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 180,
+"titre": "Cantiques du Nouveau Testament",
+"detail": "",
+"role": "cantique",
+"suite": [
+181,
+182,
+183,
+184,
+185
+]
+},
+{
+"carnet": "careme",
+"page": 186,
+"titre": "Cantiques du Nouveau Testament",
+"detail": "Samedi (NT VII) | C 501 |    |               |      ",
+"role": "cantique",
+"jours": [
+"samedi"
+],
+"cotes": [
+"C 501"
+],
+"nt": "VII",
+"suite": [
+187
+]
+},
+{
+"carnet": "careme",
+"page": 188,
+"titre": "Cantiques du Nouveau Testament",
+"detail": "Lundi (NT VI) | C 503 |     | rall. | ",
+"role": "cantique",
+"jours": [
+"lundi"
+],
+"cotes": [
+"C 503"
+],
+"nt": "VI",
+"suite": [
+189,
+190
+]
+},
+{
+"carnet": "careme",
+"page": 191,
+"titre": "Cantiques du Nouveau Testament",
+"detail": "Mardi (NT XI) | C 504 |       |     | rall.",
+"role": "cantique",
+"jours": [
+"mardi"
+],
+"cotes": [
+"C 504"
+],
+"nt": "XI",
+"suite": [
+192
+]
+},
+{
+"carnet": "careme",
+"page": 193,
+"titre": "Cantiques du Nouveau Testament",
+"detail": "Mercredi (NT VIII) |    | C 505     |  |          ",
+"role": "cantique",
+"jours": [
+"mercredi"
+],
+"cotes": [
+"C 505"
+],
+"nt": "VIII",
+"suite": [
+194,
+195
+]
+},
+{
+"carnet": "careme",
+"page": 196,
+"titre": "Cantiques du Nouveau Testament",
+"detail": "Jeudi (NT XII) | C 506      |          | rall. |  ",
+"role": "cantique",
+"jours": [
+"jeudi"
+],
+"cotes": [
+"C 506"
+],
+"nt": "XII",
+"suite": [
+197,
+198
+]
+},
+{
+"carnet": "careme",
+"page": 199,
+"titre": "Cantiques du Nouveau Testament",
+"detail": "Vendredi (NT XIII) | C 507 |     | accel. |    ",
+"role": "cantique",
+"jours": [
+"vendredi"
+],
+"cotes": [
+"C 507"
+],
+"nt": "XIII",
+"suite": [
+200
+]
+},
+{
+"carnet": "careme",
+"page": 201,
+"titre": "Répons",
+"detail": "",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 202,
+"titre": "Répons Mercredi des Cendres",
+"detail": "",
+"role": "repons",
+"jours": [
+"mercredi"
+],
+"semaines": [
+0
+],
+"suite": [
+203
+]
+},
+{
+"carnet": "careme",
+"page": 204,
+"titre": "Répons Laudes - Semaine I",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+1
+],
+"suite": [
+205,
+206,
+207
+]
+},
+{
+"carnet": "careme",
+"page": 208,
+"titre": "Répons Laudes - Semaine II",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+2
+],
+"suite": [
+209
+]
+},
+{
+"carnet": "careme",
+"page": 210,
+"titre": "Répons Laudes - Semaine III",
+"detail": "K 823",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+3
+],
+"cotes": [
+"K 823"
+],
+"suite": [
+211
+]
+},
+{
+"carnet": "careme",
+"page": 212,
+"titre": "Répons Laudes - Semaine des Cendres et IV",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+0
+],
+"suite": [
+213
+]
+},
+{
+"carnet": "careme",
+"page": 214,
+"titre": "Répons Laudes - Semaine V",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+5
+],
+"suite": [
+215
+]
+},
+{
+"carnet": "careme",
+"page": 216,
+"titre": "Répons Laudes - Semaine Sainte",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+6
+],
+"suite": [
+217
+]
+},
+{
+"carnet": "careme",
+"page": 218,
+"titre": "Répons Vêpres - Semaine I",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+1
+],
+"suite": [
+219
+]
+},
+{
+"carnet": "careme",
+"page": 220,
+"titre": "Répons Vêpres - Semaine II",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+2
+],
+"suite": [
+221
+]
+},
+{
+"carnet": "careme",
+"page": 222,
+"titre": "Répons Vêpres - Semaine III",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+3
+],
+"suite": [
+223
+]
+},
+{
+"carnet": "careme",
+"page": 224,
+"titre": "Répons Vêpres - Semaine des Cendres et IV",
+"detail": "K 834",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+0
+],
+"cotes": [
+"K 834"
+],
+"suite": [
+225
+]
+},
+{
+"carnet": "careme",
+"page": 226,
+"titre": "Répons Vêpres - Semaine V",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+5
+],
+"suite": [
+227
+]
+},
+{
+"carnet": "careme",
+"page": 228,
+"titre": "Répons Vêpres - Semaine Sainte",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+6
+],
+"suite": [
+229
+]
+},
+{
+"carnet": "careme",
+"page": 230,
+"titre": "Acclamation de l’Évangile",
+"detail": "K 072 |            |   |              |            ",
+"role": "acclamation",
+"cotes": [
+"K 072"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 231,
+"titre": "Répons des Dimanches & Semaine Sainte",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 232,
+"titre": "Répons Dimanche I",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 233,
+"titre": "Acclamation de l’Évangile p. 230",
+"detail": "",
+"role": "acclamation",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 234,
+"titre": "Choral Dimanche I",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+1
+],
+"suite": [
+235
+]
+},
+{
+"carnet": "careme",
+"page": 236,
+"titre": "Répons Dimanche II",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 237,
+"titre": "Acclamation de l’Évangile p. 230",
+"detail": "",
+"role": "acclamation",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 238,
+"titre": "Choral Dimanche II",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+2
+],
+"suite": [
+239
+]
+},
+{
+"carnet": "careme",
+"page": 240,
+"titre": "Répons Dimanche III année A",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "A",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 241,
+"titre": "Acclamation de l’Évangile p. 230",
+"detail": "",
+"role": "acclamation",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 242,
+"titre": "Choral Dimanche III année A",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "A",
+"suite": [
+243
+]
+},
+{
+"carnet": "careme",
+"page": 244,
+"titre": "Répons Dimanche III année B",
+"detail": "K 815 répons pour l'année B avec couplets adaptés |  = 70   |   |  |   ",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "B",
+"cotes": [
+"K 815"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 246,
+"titre": "Choral Dimanche III année B",
+"detail": "Jésus-Christ, pierre angulaire |  = 116 |   |          | 1. Jé sus Christ, pierre an gu lai re,",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "B",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 248,
+"titre": "Répons Dimanche III année C",
+"detail": "K 814 répons pour l'année C avec couplets adaptés |  = 48  très large |      |                 | Vous tous qui ê tes nés de l'eau et de l'Es prit, c'est",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "C",
+"cotes": [
+"K 814"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 250,
+"titre": "Choral Dimanche III année C",
+"detail": "À Toi mon Dieu, mon cœur monte |    |     |    |     ",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+3
+],
+"annee": "C",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 252,
+"titre": "Répons Dimanche IV année A",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "A",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 253,
+"titre": "Acclamation de l’Évangile p. 230",
+"detail": "",
+"role": "acclamation",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 254,
+"titre": "Choral Dimanche IV année A",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "A",
+"suite": [
+255
+]
+},
+{
+"carnet": "careme",
+"page": 256,
+"titre": "Répons Dimanche IV année B",
+"detail": "K 816 répons pour l'année B avec couplets adaptés |  = 60 large |    | cresc. | ",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "B",
+"cotes": [
+"K 816"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 260,
+"titre": "Répons Dimanche IV année C",
+"detail": "K 811 répons pour l'année C avec couplets adaptés |    |  = 72 |             |     ",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "C",
+"cotes": [
+"K 811"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 262,
+"titre": "Choral Dimanche IV année C",
+"detail": "Seigneur Jésus, viens nous sauver | M. : J.S. Bach | Choral Machs mit mir BWV 377 | P. : Fr. Gilles Danroc, op |  = 70",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+4
+],
+"annee": "C",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 264,
+"titre": "Répons Dimanche V année A",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "A",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 265,
+"titre": "Acclamation de l’Évangile p. 230",
+"detail": "",
+"role": "acclamation",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 266,
+"titre": "Choral Dimanche V année A",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "A",
+"suite": [
+267
+]
+},
+{
+"carnet": "careme",
+"page": 268,
+"titre": "Répons Dimanche V année B",
+"detail": "K 814 répons pour l'année B avec couplets adaptés |  = 48  très large |     |                  | Vous tous qui ê tes nés de l'eau et de l'Es prit, c'est",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "B",
+"cotes": [
+"K 814"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 270,
+"titre": "Choral Dimanche V année B",
+"detail": "Seigneur Jésus, viens nous sauver | M. : J.S. Bach | Choral Machs mit mir BWV 377 | P. : Fr. Gilles Danroc, op |  = 70",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "B",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 272,
+"titre": "Répons Dimanche V année C",
+"detail": "K 812 répons pour l'année C avec couplets adaptés |   |  = 58 lent |    |                   ",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "C",
+"cotes": [
+"K 812"
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 274,
+"titre": "Choral Dimanche V année C",
+"detail": "Jésus soit mon espoir | T : Anonyme du XVIIe (1, 2 et 3) | M : Goudimel | fr. Guy Touton, o.p. (4, 5 et 6) |   ",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"semaines": [
+5
+],
+"annee": "C",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 276,
+"titre": "Répons Dimanche des Rameaux",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"semaines": [
+6
+],
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 277,
+"titre": "Acclamation de l’Évangile p. 230",
+"detail": "",
+"role": "acclamation",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 278,
+"titre": "Te Deum",
+"detail": "Hymn. | 3. | T E De- um laudá-mus : � te Dóminum confi-témur. | Te aetérnum Patrem omnis terra vene- rá- tur. Ti- bi omnes | Ange- li, ti- bi Cae- li et uni- vérsae Pot- está- tes : Ti- bi",
+"role": "tedeum",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 282,
+"titre": "Preces et Notre Père",
+"detail": "     |  |       | 1. En paix, prions le Sei gneur ! | 2. En paix, louons et bénissons le Sei gneur !",
+"role": "priere",
+"suite": []
+},
+{
+"carnet": "careme",
+"page": 284,
+"titre": "Ave Regina caelorum",
+"detail": "Ant. | 6. | A | - ve Re- gí- na caeló- rum, � Ave Dómi- na Ange- ló- | rum : Salve ra- dix, salve porta, Ex qua mundo lux est or-",
+"role": "mariale",
+"suite": [
+285
+]
+},
+{
+"carnet": "paques",
+"page": 6,
+"titre": "Hymne - Laudes de Pâques",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+7
+]
+},
+{
+"carnet": "paques",
+"page": 8,
+"titre": "Hymne - Octave de Pâques (I)",
+"detail": "",
+"role": "hymne",
+"suite": [
+9
+]
+},
+{
+"carnet": "paques",
+"page": 10,
+"titre": "Hymne - Octave de Pâques (II)",
+"detail": "",
+"role": "hymne",
+"suite": [
+11,
+12
+]
+},
+{
+"carnet": "paques",
+"page": 13,
+"titre": "Jour de Pâques, mercredi & 2e dimanche : Psaume 62 & AT 49",
+"detail": "Lundi, jeudi & samedi : Psaume 117 & AT 48 | Mardi & vendredi : Psaume 92 & AT 49 | Pour le cantique de l’Ancien Testament, on peut prendre aussi le | Cantique de Moïse AT 1 (p. 14 & 15)",
+"role": "antiennes",
+"jours": [
+"lundi",
+"mardi",
+"mercredi",
+"jeudi",
+"vendredi",
+"samedi",
+"dimanche"
+],
+"dimanche": 2,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 14,
+"titre": "Cantique de Moïse",
+"detail": "AT 1",
+"suite": [
+15
+]
+},
+{
+"carnet": "paques",
+"page": 16,
+"titre": "Dimanche de Pâques, mercredi & 2e dimanche : Psaume 149",
+"detail": "Lundi, jeudi & samedi : Psaume 150 | Mardi & vendredi : Psaume 148",
+"role": "antiennes",
+"jours": [
+"lundi",
+"mardi",
+"mercredi",
+"jeudi",
+"vendredi",
+"samedi",
+"dimanche"
+],
+"dimanche": 2,
+"suite": [
+17
+]
+},
+{
+"carnet": "paques",
+"page": 18,
+"titre": "Répons - Laudes de Pâques",
+"detail": "& Octave | 2e dimanche comme le jour de Pâques ou répons p. 82",
+"office": "laudes",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": [
+19,
+20,
+21,
+22,
+23
+]
+},
+{
+"carnet": "paques",
+"page": 24,
+"titre": "Lucernaire pascal",
+"detail": "",
+"role": "lucernaire",
+"suite": [
+25,
+26
+]
+},
+{
+"carnet": "paques",
+"page": 27,
+"titre": "Hymne - Vêpres de Pâques",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+28,
+29,
+30,
+31,
+32,
+33
+]
+},
+{
+"carnet": "paques",
+"page": 34,
+"titre": "Répons - Vêpres de Pâques",
+"detail": "Tapez | & Octave | pour | Tapez | 2e Dimanche comme le jour de Pâques ou répons p. 82",
+"office": "vepres",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": [
+35,
+36,
+37,
+38,
+39,
+40,
+41
+]
+},
+{
+"carnet": "paques",
+"page": 42,
+"titre": "Ires Vêpres des dimanches de Pâques",
+"detail": "Lucernaire",
+"office": "vepres1",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"suite": [
+43
+]
+},
+{
+"carnet": "paques",
+"page": 44,
+"titre": "2e dimanche de Pâques : Vêpres de Pâques p. 30",
+"detail": "Ires Vêpres - Schéma A | 3e dimanche de Pâques : Psaume 112 | 5e dimanche de Pâques : Psaume 140",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 44,
+"titre": "Ires Vêpres - Schéma A",
+"detail": "3e dimanche de Pâques : Psaume 112 | 5e dimanche de Pâques : Psaume 140",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 45,
+"titre": "3e dimanche de Pâques : Psaume 115",
+"detail": "5e dimanche de Pâques : Psaume 141 | Cantique NT VII p. 48",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"nt": "VII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 46,
+"titre": "Ires Vêpres - Schéma B",
+"detail": "4e dimanche de Pâques : Psaume 121 | 6e dimanche de Pâques : Psaume 118 - XIV",
+"office": "vepres1",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 47,
+"titre": "4e dimanche de Pâques : Psaume 129",
+"detail": "6e dimanche de Pâques : Psaume 15 | Cantique NT VII p. 48",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"nt": "VII",
+"suite": [
+48,
+49
+]
+},
+{
+"carnet": "paques",
+"page": 50,
+"titre": "3e dimanche de Pâques : Répons p. 86 (88 & 90)",
+"detail": "4e dimanche de Pâques : Répons p. 94 | 5e dimanche de Pâques : Répons p. 98 | 6e dimanche de Pâques : Répons p. 104",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 51,
+"titre": "Vigiles des dimanches de Pâques",
+"detail": "Tapez | pour | Tapez",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"suite": [
+52,
+53,
+54,
+55,
+56,
+57
+]
+},
+{
+"carnet": "paques",
+"page": 58,
+"titre": "Hymne des vigiles",
+"detail": "",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+59,
+60
+]
+},
+{
+"carnet": "paques",
+"page": 61,
+"titre": "2e & 5e dimanches de Pâques : Psaume 1",
+"detail": "3e dimanche de Pâques : Psaume 144, 1-9 | 4e dimanche de Pâques : Psaume 23 | 6e dimanche de Pâques : Psaume 103, 1-12",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 5,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 62,
+"titre": "2e & 5e dimanches de Pâques : Psaume 2",
+"detail": "3e dimanche de Pâques : Psaume 144, 10-14 | 4e dimanche de Pâques : Psaume 65, 1-12 | 6e dimanche de Pâques : Psaume 103, 13-23",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 5,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 63,
+"titre": "2e & 5e dimanches de Pâques : Psaume 3",
+"detail": "3e dimanche de Pâques : Psaume 144, 15-21 | 4e dimanche de Pâques : Psaume 65, 13-20 | 6e dimanche de Pâques : Psaume 103, 24-35 | 2e dimanche de Pâques : Répons p. 82 | 3e dimanche de Pâques : Répons",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 5,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 64,
+"titre": "Acclamation de l’Evangile",
+"detail": "",
+"role": "acclamation",
+"suite": [
+65
+]
+},
+{
+"carnet": "paques",
+"page": 70,
+"titre": "Laudes des dimanches de Pâques",
+"detail": "Hymne",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": [
+71
+]
+},
+{
+"carnet": "paques",
+"page": 72,
+"titre": "2e & 5e dimanches de Pâques : Psaume 62 & AT 49",
+"detail": "3e dimanche de Pâque : Psaume 92 & AT 49 | 4e & 6e dimanches de Pâque : Psaume 117 & AT 48",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 5,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 73,
+"titre": "2e & 5e dimanches : Psaume 149",
+"detail": "3e dimanche : Psaume 148 | 4e & 6e dimanches : Psaume 150 | 2e dimanche de Pâques : Répons p. 18 ou p. 82 | 3e dimanche de Pâques : Répons p. 86 (88 & 90) | 4e dimanche de Pâques : Répons p. 94",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 5,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 74,
+"titre": "IIes Vêpres des dimanches de Pâques",
+"detail": "Lucernaire p. 42 | 2e dimanche de Pâques : Vêpres de Pâques p. 30 | Schéma A | 3e & 5e dimanches de Pâques : Psaume 109",
+"office": "vepres2",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 75,
+"titre": "3e dimanche de Pâques : Psaume 110",
+"detail": "5e dimanche de Pâques : Psaume 113 A | Cantique NT XIV p. 78",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"nt": "XIV",
+"suite": [
+76
+]
+},
+{
+"carnet": "paques",
+"page": 77,
+"titre": "4e dimanche de Pâques : Psaume 111",
+"detail": "6e dimanche de Pâques : Psaume 113 B | Cantique NT XIV p. 78",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"nt": "XIV",
+"suite": [
+78,
+79
+]
+},
+{
+"carnet": "paques",
+"page": 80,
+"titre": "2e dimanche de Pâques : Répons p. 34 ou p. 82",
+"detail": "3e dimanche de Pâques : Répons p. 86 (88 & 90) | 4e dimanche de Pâques : Répons p. 94 | 5e dimanche de Pâques : Répons p. 98 | 6e dimanche de Pâques : Répons p. 104",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 81,
+"titre": "Répons & chorals",
+"detail": "Dimanches | du | temps pascal",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 82,
+"titre": "Répons du 2e dimanche de Pâques",
+"detail": "Tapez",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": [
+83
+]
+},
+{
+"carnet": "paques",
+"page": 84,
+"titre": "Choral du 2e dimanche de Pâques",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 2,
+"suite": [
+85
+]
+},
+{
+"carnet": "paques",
+"page": 86,
+"titre": "Répons du 3e dimanche de Pâques",
+"detail": "Tapez",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"suite": [
+87,
+88,
+89,
+90,
+91
+]
+},
+{
+"carnet": "paques",
+"page": 92,
+"titre": "Choral du 3e dimanche de Pâques",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 3,
+"suite": [
+93
+]
+},
+{
+"carnet": "paques",
+"page": 94,
+"titre": "Répons du 4e dimanche de Pâques",
+"detail": "Tapez",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"suite": [
+95
+]
+},
+{
+"carnet": "paques",
+"page": 96,
+"titre": "Choral du 4e dimanche de Pâques",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 4,
+"suite": [
+97
+]
+},
+{
+"carnet": "paques",
+"page": 98,
+"titre": "Répons du 5e dimanche de Pâques",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 5,
+"suite": [
+99
+]
+},
+{
+"carnet": "paques",
+"page": 100,
+"titre": "Choral du 5e dimanche de Pâques",
+"detail": "Tapez | Tapez",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 5,
+"suite": [
+101,
+102,
+103
+]
+},
+{
+"carnet": "paques",
+"page": 104,
+"titre": "Répons du 6e dimanche de Pâques",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 6,
+"suite": [
+105
+]
+},
+{
+"carnet": "paques",
+"page": 106,
+"titre": "Choral du 6e dimanche de Pâques",
+"detail": "",
+"role": "choral",
+"jours": [
+"dimanche"
+],
+"dimanche": 6,
+"suite": [
+107,
+108
+]
+},
+{
+"carnet": "paques",
+"page": 110,
+"titre": "Hymne (laudes I)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+111
+]
+},
+{
+"carnet": "paques",
+"page": 112,
+"titre": "Hymne (laudes II)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 113,
+"titre": "Hymne (laudes III)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 114,
+"titre": "Hymne (laudes IV)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 115,
+"titre": "Hymne (laudes V)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 116,
+"titre": "Hymne (laudes VI)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+117
+]
+},
+{
+"carnet": "paques",
+"page": 118,
+"titre": "Hymne (vêpres I)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+119
+]
+},
+{
+"carnet": "paques",
+"page": 120,
+"titre": "Hymne (vêpres II)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+121,
+122
+]
+},
+{
+"carnet": "paques",
+"page": 123,
+"titre": "Hymne (vêpres III)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 124,
+"titre": "Hymne (vêpres IV)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+125
+]
+},
+{
+"carnet": "paques",
+"page": 126,
+"titre": "Hymne (vêpres V)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+127
+]
+},
+{
+"carnet": "paques",
+"page": 128,
+"titre": "Hymne (vêpres VI)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 129,
+"titre": "Hymne (vêpres VII)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 130,
+"titre": "Laudes - Lundi II & VI",
+"detail": "Tapez | Psaume 41 & AT 15 | Psaume 18 A",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2,
+6
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 131,
+"titre": "Vêpres - Lundi II & VI",
+"detail": "Psaume 44, 1-10 | Psaume 44, 11-18 & NT VI p. 329",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+2,
+6
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 132,
+"titre": "Laudes - Mardi II & VI",
+"detail": "Psaume 42 & AT 25 | Psaume 64",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2,
+6
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 133,
+"titre": "Vêpres - Mardi II & VI",
+"detail": "Psaume 48, 2-13 | Psaume 48, 14-21 & NT XI p.",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+2,
+6
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 134,
+"titre": "Laudes - Mercredi II & VI",
+"detail": "Psaume 76 & AT 3 | Psaume 96",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2,
+6
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 135,
+"titre": "Vêpres - Mercredi II & VI",
+"detail": "Psaume 61 | Psaume 66 & NT VIII p. 334",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+2,
+6
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 136,
+"titre": "Laudes - Jeudi II",
+"detail": "Psaume 79 & AT 20 | Psaume 80",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 137,
+"titre": "Vêpres - Jeudi II",
+"detail": "Psaume 71, 1-11 | Psaume 71, 12-19 & NT XII p. 337",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+2
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 138,
+"titre": "Laudes - Vendredi II",
+"detail": "Psaume 50 & AT 57 | Psaume 147",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 139,
+"titre": "Vêpres - Vendredi II",
+"detail": "Psaume 114 | Psaume 120 | & NT XIII p. 340",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+2
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 140,
+"titre": "Laudes - Samedi II",
+"detail": "Psaume 91 & AT 2 | Psaume 8",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+2
+],
+"suite": [
+141
+]
+},
+{
+"carnet": "paques",
+"page": 142,
+"titre": "Laudes - Lundi III",
+"detail": "Psaume 83 & AT 17 | Psaume 95",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 143,
+"titre": "Vêpres - Lundi III",
+"detail": "Psaume 122 | Psaume 123 & NT VI p. 329",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+3
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 144,
+"titre": "Laudes - Mardi III",
+"detail": "Psaume 84 & AT 21 | Psaume 66",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 145,
+"titre": "Vêpres - Mardi III",
+"detail": "Psaume 124 | Psaume 130 & NT XI p. 332",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+3
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 146,
+"titre": "Laudes - Mercredi III",
+"detail": "Psaume 85 & AT 23 | Psaume 97",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 147,
+"titre": "Vêpres - Mercredi III",
+"detail": "Psaume 125 | Psaume 126 | & NT VIII p. 334",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+3
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 148,
+"titre": "Laudes - Jeudi III",
+"detail": "Psaume 86 & AT 26 | Psaume 98",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 149,
+"titre": "Vêpres - Jeudi III",
+"detail": "Psaume 131, 1-10 | Psaume 131, 11-18 & NT XII p. 337",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+3
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 150,
+"titre": "Laudes - Vendredi III",
+"detail": "Psaume 50 & AT 42 | Psaume 99",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 151,
+"titre": "Vêpres - Vendredi III",
+"detail": "Psaume 134, 1-12 | Psaume 134, 13-21 & NT XIII p. 340",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+3
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 152,
+"titre": "Laudes - Samedi III",
+"detail": "Psaume 118 - XIX & AT 12 | Psaume 116",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+3
+],
+"suite": [
+153
+]
+},
+{
+"carnet": "paques",
+"page": 154,
+"titre": "Laudes - Lundi IV",
+"detail": "Psaume 89 & AT 27 | Psaume 134",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 155,
+"titre": "Vêpres - Lundi IV",
+"detail": "Psaume 135, 1-9 | Psaume 135, 10-26 & NT VI p. 329",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+4
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 156,
+"titre": "Laudes - Mardi IV",
+"detail": "Psaume 100 & AT 47 | Psaume 143",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 157,
+"titre": "Vêpres - Mardi IV",
+"detail": "Psaume 136 | Psaume 137 & NT XI p. 332",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+4
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 158,
+"titre": "Laudes - Mercredi IV",
+"detail": "Psaume 107 & AT 38 | Psaume 145",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 159,
+"titre": "Vêpres - Mercredi IV",
+"detail": "Psaume 138, 1-10 | Psaume 138, 11-24 | & NT VIII p. 334",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+4
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 160,
+"titre": "Laudes - Jeudi IV",
+"detail": "Psaume 142 & AT 41 | Psaume 146",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 161,
+"titre": "Vêpres - Jeudi IV",
+"detail": "Psaume 143, 1-8 | Psaume 143, 9-15 | & NT XII p. 337",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+4
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 162,
+"titre": "Laudes - Vendredi IV",
+"detail": "Psaume 50 & AT 7 | Psaume 147",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 163,
+"titre": "Vêpres - Vendredi IV",
+"detail": "Psaume 144, 1-13a",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+4
+],
+"suite": [
+164
+]
+},
+{
+"carnet": "paques",
+"page": 165,
+"titre": "Laudes - Samedi IV",
+"detail": "Psaume 91 & AT 46 | Psaume 8",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+4
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 166,
+"titre": "Laudes - Lundi V",
+"detail": "Psaume 5 & AT 4 | Psaume 28",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+5
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 167,
+"titre": "Vêpres - Lundi V",
+"detail": "Psaume 10 | Psaume 14 & NT VI p. 329",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+5
+],
+"nt": "VI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 168,
+"titre": "Laudes - Mardi V",
+"detail": "Psaume 23 & AT 6 | Psaume 32",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+5
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 169,
+"titre": "Vêpres - Mardi V",
+"detail": "Psaume 19 | Psaume 20 & NT XI p. 332",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+5
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 170,
+"titre": "Laudes - Mercredi V",
+"detail": "Psaume 35 & AT 8 | Psaume 46",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+5
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 171,
+"titre": "Vêpres - Mercredi V",
+"detail": "Psaume 26, 1-6 | Psaume 26, 7-14 & NT VIII p. 334",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+5
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 172,
+"titre": "Laudes - Jeudi V",
+"detail": "Psaume 56 & AT 44 | Psaume 47",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+5
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 173,
+"titre": "Vêpres - Jeudi V",
+"detail": "Psaume 29 | Psaume 31 & NT XII p. 337",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+5
+],
+"nt": "XII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 174,
+"titre": "Laudes - Vendredi V",
+"detail": "Psaume 50 & AT 30 | Psaume 99",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+5
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 175,
+"titre": "Vêpres - Vendredi V",
+"detail": "Psaume 40 | Psaume 45 & NT XIII p.",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+5
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 176,
+"titre": "Laudes - Samedi V",
+"detail": "Psaume 118 - XIX & AT 1 | Psaume 116",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+5
+],
+"suite": [
+177
+]
+},
+{
+"carnet": "paques",
+"page": 178,
+"titre": "Répons des laudes (semaines II & V)",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"suite": [
+179
+]
+},
+{
+"carnet": "paques",
+"page": 180,
+"titre": "Répons des laudes (semaines III & VI)",
+"detail": "Tapez",
+"office": "laudes",
+"role": "repons",
+"suite": [
+181
+]
+},
+{
+"carnet": "paques",
+"page": 182,
+"titre": "Répons des laudes (semaine IV)",
+"detail": "Tapez",
+"office": "laudes",
+"role": "repons",
+"semaines": [
+4
+],
+"suite": [
+183
+]
+},
+{
+"carnet": "paques",
+"page": 184,
+"titre": "Répons des vêpres (semaine II)",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+2
+],
+"suite": [
+185
+]
+},
+{
+"carnet": "paques",
+"page": 186,
+"titre": "Répons des vêpres (semaine III)",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+3
+],
+"suite": [
+187
+]
+},
+{
+"carnet": "paques",
+"page": 188,
+"titre": "Répons des vêpres (semaine IV)",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+4
+],
+"suite": [
+189
+]
+},
+{
+"carnet": "paques",
+"page": 190,
+"titre": "Répons des vêpres (semaine V)",
+"detail": "Tapez",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+5
+],
+"suite": [
+191
+]
+},
+{
+"carnet": "paques",
+"page": 192,
+"titre": "Répons des vêpres (semaine VI)",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"semaines": [
+6
+],
+"suite": [
+193,
+194
+]
+},
+{
+"carnet": "paques",
+"page": 196,
+"titre": "Ires Vêpres de l’Ascension",
+"detail": "Lucernaire",
+"office": "vepres1",
+"role": "lucernaire",
+"suite": [
+197,
+198
+]
+},
+{
+"carnet": "paques",
+"page": 199,
+"titre": "Hymne de l ‘Ascension",
+"detail": "",
+"role": "hymne",
+"suite": [
+200,
+201,
+202,
+203,
+204,
+205
+]
+},
+{
+"carnet": "paques",
+"page": 206,
+"titre": "Répons des Ires vêpres",
+"detail": "",
+"office": "vepres1",
+"role": "repons",
+"suite": [
+207,
+208
+]
+},
+{
+"carnet": "paques",
+"page": 209,
+"titre": "Vigiles de l’Ascension",
+"detail": "Vigiles du 7e dimanche de Pâques",
+"office": "lectures",
+"role": "antiennes",
+"jours": [
+"dimanche"
+],
+"dimanche": 7,
+"suite": [
+210,
+211,
+212,
+213,
+214,
+215
+]
+},
+{
+"carnet": "paques",
+"page": 216,
+"titre": "Répons des vigiles (I)",
+"detail": "",
+"office": "lectures",
+"role": "repons",
+"suite": [
+217
+]
+},
+{
+"carnet": "paques",
+"page": 218,
+"titre": "Répons des vigiles (II)",
+"detail": "",
+"office": "lectures",
+"role": "repons",
+"suite": [
+219
+]
+},
+{
+"carnet": "paques",
+"page": 220,
+"titre": "Répons des vigiles (III)",
+"detail": "",
+"office": "lectures",
+"role": "repons",
+"suite": [
+221
+]
+},
+{
+"carnet": "paques",
+"page": 222,
+"titre": "Acclamation de l’Evangile",
+"detail": "",
+"role": "acclamation",
+"suite": [
+223
+]
+},
+{
+"carnet": "paques",
+"page": 224,
+"titre": "Te Deum (p. 67) ou choral",
+"detail": "",
+"role": "choral",
+"suite": [
+225
+]
+},
+{
+"carnet": "paques",
+"page": 226,
+"titre": "Laudes de l’Ascension",
+"detail": "Hymne p. 199 | Psaume 62 & AT 49 (Ascension) | Psaume 92 & AT 49 (7e dimanche de Pâques)",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"dimanche": 7,
+"suite": [
+227
+]
+},
+{
+"carnet": "paques",
+"page": 228,
+"titre": "IIes Vêpres de l’Ascension",
+"detail": "Lucernaire p. 196 | Hymne p. 199 | Psaume 109",
+"office": "vepres2",
+"role": "hymne",
+"suite": [
+229,
+230,
+231
+]
+},
+{
+"carnet": "paques",
+"page": 232,
+"titre": "Hymne (laudes I)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+233
+]
+},
+{
+"carnet": "paques",
+"page": 234,
+"titre": "Hymne (laudes II)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+235
+]
+},
+{
+"carnet": "paques",
+"page": 236,
+"titre": "Hymne (laudes III)",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+237,
+238,
+239
+]
+},
+{
+"carnet": "paques",
+"page": 240,
+"titre": "Hymne (vêpres I)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+241
+]
+},
+{
+"carnet": "paques",
+"page": 242,
+"titre": "Hymne (vêpres II)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+243
+]
+},
+{
+"carnet": "paques",
+"page": 244,
+"titre": "Hymne (vêpres III)",
+"detail": "",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+245
+]
+},
+{
+"carnet": "paques",
+"page": 246,
+"titre": "Laudes - Vendredi VI après l’Ascension",
+"detail": "Psaume 50 & AT 57 | Psaume 147",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+6
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 247,
+"titre": "Vêpres - Vendredi VI après l’Ascension",
+"detail": "Psaume 114 | Psaume 120 & NT XIII p. 340",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+6
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 248,
+"titre": "Répons - Vendredi après l’Ascension",
+"detail": "Tapez",
+"role": "repons",
+"jours": [
+"vendredi"
+],
+"suite": [
+249
+]
+},
+{
+"carnet": "paques",
+"page": 250,
+"titre": "Laudes - Samedi VI après l’Ascension",
+"detail": "Psaume 91 & AT 2 | Psaume 8",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+6
+],
+"suite": [
+251
+]
+},
+{
+"carnet": "paques",
+"page": 252,
+"titre": "Répons - Samedi après l’Ascension",
+"detail": "",
+"role": "repons",
+"jours": [
+"samedi"
+],
+"suite": [
+253,
+254
+]
+},
+{
+"carnet": "paques",
+"page": 255,
+"titre": "Ires Vêpres - 7e dimanche de Pâques",
+"detail": "Lucernaire p. 196 | Veni Creator p. 242 ou 244 | Psaume 112",
+"office": "vepres1",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"dimanche": 7,
+"suite": [
+256
+]
+},
+{
+"carnet": "paques",
+"page": 257,
+"titre": "Vigiles - 7e dimanche de Pâques",
+"detail": "Invitatoire p. 209 | Hymne | Tapez",
+"office": "lectures",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"dimanche": 7,
+"suite": [
+258,
+259,
+260,
+261
+]
+},
+{
+"carnet": "paques",
+"page": 262,
+"titre": "Répons - 7e dimanche de Pâques",
+"detail": "",
+"role": "repons",
+"jours": [
+"dimanche"
+],
+"dimanche": 7,
+"suite": [
+263
+]
+},
+{
+"carnet": "paques",
+"page": 264,
+"titre": "Acclamation de l’Evangile",
+"detail": "Te Deum p. 67",
+"role": "tedeum",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 266,
+"titre": "Laudes - Lundi VII",
+"detail": "Psaume 83 & AT 17",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+7
+],
+"suite": [
+267
+]
+},
+{
+"carnet": "paques",
+"page": 268,
+"titre": "Vêpres - Lundi VII",
+"detail": "Psaume 122",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"lundi"
+],
+"semaines": [
+7
+],
+"suite": [
+269
+]
+},
+{
+"carnet": "paques",
+"page": 270,
+"titre": "Répons - Lundi (semaine VII)",
+"detail": "",
+"role": "repons",
+"jours": [
+"lundi"
+],
+"semaines": [
+7
+],
+"suite": [
+271
+]
+},
+{
+"carnet": "paques",
+"page": 272,
+"titre": "Laudes - Mardi VII",
+"detail": "Psaume 84 & AT 21 | Psaume 66",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+7
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 273,
+"titre": "Vêpres - Mardi VII",
+"detail": "Psaume 124 | Psaume 130 & NT XI p. 332",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mardi"
+],
+"semaines": [
+7
+],
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 274,
+"titre": "Répons - Mardi (semaine VII)",
+"detail": "",
+"role": "repons",
+"jours": [
+"mardi"
+],
+"semaines": [
+7
+],
+"suite": [
+275
+]
+},
+{
+"carnet": "paques",
+"page": 276,
+"titre": "Laudes - Mercredi VII",
+"detail": "Psaume 85 & AT 23 | Psaume 97",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+7
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 277,
+"titre": "Vêpres - Mercredi VII",
+"detail": "Psaume 125 | Psaume 126 & NT VIII p. 334",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"mercredi"
+],
+"semaines": [
+7
+],
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 278,
+"titre": "Répons - Mercredi (semaine VII)",
+"detail": "Tapez",
+"role": "repons",
+"jours": [
+"mercredi"
+],
+"semaines": [
+7
+],
+"suite": [
+279
+]
+},
+{
+"carnet": "paques",
+"page": 280,
+"titre": "Laudes - Jeudi VII",
+"detail": "Psaume 86 & AT 26 | Psaume 98",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+7
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 281,
+"titre": "Vêpres - Jeudi VII",
+"detail": "Psaume 131, 1-10",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"jeudi"
+],
+"semaines": [
+7
+],
+"suite": [
+282,
+283
+]
+},
+{
+"carnet": "paques",
+"page": 284,
+"titre": "Répons - Jeudi (semaine VII)",
+"detail": "Tapez",
+"role": "repons",
+"jours": [
+"jeudi"
+],
+"semaines": [
+7
+],
+"suite": [
+285
+]
+},
+{
+"carnet": "paques",
+"page": 286,
+"titre": "Laudes - Vendredi VII",
+"detail": "Psaume 50 & AT 42 | Psaume 99",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+7
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 287,
+"titre": "Vêpres - Vendredi VII",
+"detail": "Psaume 134, 1-12 | Psaume 134, 13-21 & NT XIII p. 340",
+"office": "vepres",
+"role": "antiennes",
+"jours": [
+"vendredi"
+],
+"semaines": [
+7
+],
+"nt": "XIII",
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 288,
+"titre": "Répons - Vendredi (semaine VII)",
+"detail": "",
+"role": "repons",
+"jours": [
+"vendredi"
+],
+"semaines": [
+7
+],
+"suite": [
+289
+]
+},
+{
+"carnet": "paques",
+"page": 290,
+"titre": "Laudes - Samedi VII",
+"detail": "Psaume 118, XIX & AT 12 | Psaume 116",
+"office": "laudes",
+"role": "antiennes",
+"jours": [
+"samedi"
+],
+"semaines": [
+7
+],
+"suite": [
+291
+]
+},
+{
+"carnet": "paques",
+"page": 292,
+"titre": "Répons - Samedi (semaine VII)",
+"detail": "Tapez",
+"role": "repons",
+"jours": [
+"samedi"
+],
+"semaines": [
+7
+],
+"suite": [
+293
+]
+},
+{
+"carnet": "paques",
+"page": 294,
+"titre": "Ires Vêpres - Dimanche de la Pentecôte",
+"detail": "Lucernaire",
+"office": "vepres1",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"suite": [
+295,
+296
+]
+},
+{
+"carnet": "paques",
+"page": 297,
+"titre": "Hymne - Pentecôte",
+"detail": "Tapez",
+"role": "hymne",
+"suite": [
+298,
+299,
+300
+]
+},
+{
+"carnet": "paques",
+"page": 301,
+"titre": "Vigiles - Dimanche de la Pentecôte",
+"detail": "Invitatoire | Hymne p. 297 ou p. 242",
+"office": "lectures",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": [
+302,
+303,
+304,
+305,
+306,
+307,
+308,
+309
+]
+},
+{
+"carnet": "paques",
+"page": 310,
+"titre": "Répons des vigiles (I)",
+"detail": "Tapez",
+"office": "lectures",
+"role": "repons",
+"suite": [
+311
+]
+},
+{
+"carnet": "paques",
+"page": 312,
+"titre": "Répons des vigiles (II)",
+"detail": "",
+"office": "lectures",
+"role": "repons",
+"suite": [
+313
+]
+},
+{
+"carnet": "paques",
+"page": 314,
+"titre": "Répons des vigiles (III)",
+"detail": "Tapez",
+"office": "lectures",
+"role": "repons",
+"suite": [
+315
+]
+},
+{
+"carnet": "paques",
+"page": 316,
+"titre": "Acclamation de l’Evangile",
+"detail": "",
+"role": "acclamation",
+"suite": [
+317
+]
+},
+{
+"carnet": "paques",
+"page": 318,
+"titre": "Te Deum (p. 67) ou choral",
+"detail": "",
+"role": "choral",
+"suite": [
+319
+]
+},
+{
+"carnet": "paques",
+"page": 320,
+"titre": "Laudes - Dimanche de la Pentecôte",
+"detail": "Hymne p. 234 ou p. 242 | ou Choral p. 318 | Psaume 62 & AT 49",
+"office": "laudes",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": [
+321
+]
+},
+{
+"carnet": "paques",
+"page": 322,
+"titre": "IIes Vêpres - Dimanche de la Pentecôte",
+"detail": "Lucernaire p. 294 | Hymne p. 297 ou p. 242 | Psaume 109 & 113 A - Cantique NT XIV p. 327 | Répons p. 314",
+"office": "vepres2",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": []
+},
+{
+"carnet": "paques",
+"page": 324,
+"titre": "Samedi (NT VII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"samedi"
+],
+"nt": "VII",
+"suite": [
+325,
+326
+]
+},
+{
+"carnet": "paques",
+"page": 327,
+"titre": "Dimanche (NT XIV)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"dimanche"
+],
+"nt": "XIV",
+"suite": [
+328
+]
+},
+{
+"carnet": "paques",
+"page": 329,
+"titre": "Lundi (NT VI)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"lundi"
+],
+"nt": "VI",
+"suite": [
+330,
+331
+]
+},
+{
+"carnet": "paques",
+"page": 332,
+"titre": "Mardi (NT XI)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"mardi"
+],
+"nt": "XI",
+"suite": [
+333
+]
+},
+{
+"carnet": "paques",
+"page": 334,
+"titre": "Mercredi (NT VIII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"mercredi"
+],
+"nt": "VIII",
+"suite": [
+335,
+336
+]
+},
+{
+"carnet": "paques",
+"page": 337,
+"titre": "Jeudi (NT XII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"jeudi"
+],
+"nt": "XII",
+"suite": [
+338,
+339
+]
+},
+{
+"carnet": "paques",
+"page": 340,
+"titre": "Vendredi (NT XIII)",
+"detail": "",
+"role": "cantique",
+"jours": [
+"vendredi"
+],
+"nt": "XIII",
+"suite": [
+341
+]
+},
+{
+"carnet": "paques",
+"page": 342,
+"titre": "Répons complémentaire (I)",
+"detail": "",
+"role": "repons",
+"suite": [
+343
+]
+},
+{
+"carnet": "paques",
+"page": 344,
+"titre": "Répons complémentaire (II)",
+"detail": "",
+"role": "repons",
+"suite": [
+345
+]
+},
+{
+"carnet": "paques",
+"page": 346,
+"titre": "Répons complémentaire (III)",
+"detail": "Tapez",
+"role": "repons",
+"suite": [
+347
+]
+},
+{
+"carnet": "paques",
+"page": 348,
+"titre": "Répons complémentaire (IV)",
+"detail": "",
+"role": "repons",
+"suite": [
+349
+]
+},
+{
+"carnet": "paques",
+"page": 350,
+"titre": "Laudes - Prière litanique",
+"detail": "",
+"office": "laudes",
+"role": "cantique",
+"suite": [
+351
+]
+},
+{
+"carnet": "paques",
+"page": 352,
+"titre": "Vêpres - Prière litanique",
+"detail": "",
+"office": "vepres",
+"role": "cantique",
+"suite": [
+353,
+354
+]
+},
+{
+"carnet": "paques",
+"page": 355,
+"titre": "Antiennes mariales",
+"detail": "",
+"role": "mariale",
+"suite": [
+356,
+357
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 6,
+"titre": "Psaume 62 & AT 49",
+"detail": "",
+"role": "antiennes",
+"suite": [
+7
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 8,
+"titre": "Vêpres - Nativité B.V.M.",
+"detail": "",
+"office": "vepres",
+"suite": [
+9,
+10,
+11
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 12,
+"titre": "Répons de la Nativité B.V.M.",
+"detail": "",
+"role": "repons",
+"suite": [
+13,
+14
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 15,
+"titre": "Invitatoire",
+"detail": "Psaume 94 p. 317",
+"role": "invitatoire",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 16,
+"titre": "Hymne 1 - Croix glorieuse",
+"detail": "",
+"role": "hymne",
+"suite": [
+17
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 18,
+"titre": "Hymne 2 - Croix glorieuse",
+"detail": "",
+"role": "hymne",
+"suite": [
+19
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 20,
+"titre": "Hymne 3 - Croix glorieuse",
+"detail": "",
+"role": "hymne",
+"suite": [
+21
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 22,
+"titre": "Ires Vêpres - Croix glorieuse",
+"detail": "(si la fête est célébrée un dimanche) | Lucernaire p. 284 | Psaume 146",
+"office": "vepres1",
+"role": "lucernaire",
+"jours": [
+"dimanche"
+],
+"suite": [
+23
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 24,
+"titre": "Vigiles - Croix glorieuse",
+"detail": "Invitatoire p. 15 | Hymne p. 16 | Psaume 2",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+25
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 26,
+"titre": "Laudes - Croix glorieuse",
+"detail": "Psaume 62 & AT 49 | Psaume 149 - Répons p. 28 s.",
+"office": "laudes",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 27,
+"titre": "IIes Vêpres - Croix glorieuse",
+"detail": "Psaume 109 | Psaume 115 & NT XI p. 299",
+"office": "vepres2",
+"role": "antiennes",
+"nt": "XI",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 28,
+"titre": "Répons 1 - Croix glorieuse",
+"detail": "",
+"role": "repons",
+"suite": [
+29
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 30,
+"titre": "Répons 2 - Croix glorieuse",
+"detail": "",
+"role": "repons",
+"suite": [
+31
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 32,
+"titre": "Répons 3 - Croix glorieuse",
+"detail": "",
+"role": "repons",
+"suite": [
+33
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 34,
+"titre": "Acclamation de l’Evangile",
+"detail": "Verset : | Nous t'adorons, ô Christ, et nous te bénissons : | par ta Croix, tu as racheté le monde. | Évangile : Jn 3, 13 & 17",
+"role": "acclamation",
+"suite": [
+35
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 36,
+"titre": "Te Deum",
+"detail": "ou | Choral",
+"role": "choral",
+"suite": [
+37,
+38,
+39,
+40,
+41
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 42,
+"titre": "Vêpres - N.-D. des Douleurs",
+"detail": "",
+"office": "vepres",
+"suite": [
+43,
+44
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 45,
+"titre": "Répons - N.-D. des Douleurs",
+"detail": "",
+"role": "repons",
+"suite": [
+46,
+47,
+48,
+49,
+50,
+51
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 52,
+"titre": "Vêpres - S. Matthieu",
+"detail": "",
+"office": "vepres",
+"suite": [
+53,
+54,
+55
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 56,
+"titre": "Répons - S. Matthieu",
+"detail": "",
+"role": "repons",
+"suite": [
+57,
+58,
+59
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 60,
+"titre": "Vêpres - S. Guillaume Courtet",
+"detail": "",
+"office": "vepres",
+"suite": [
+61
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 62,
+"titre": "Répons des martyrs",
+"detail": "",
+"role": "repons",
+"suite": [
+63,
+64
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 65,
+"titre": "Hymne 2 - Archanges",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 66,
+"titre": "Hymne 3 - Archanges",
+"detail": "",
+"role": "hymne",
+"suite": [
+67
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 68,
+"titre": "Laudes - Archanges",
+"detail": "Psaume 62 & AT 49 | Psaume 149",
+"office": "laudes",
+"role": "antiennes",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 69,
+"titre": "Vêpres - Archanges",
+"detail": "Psaume 8 | Psaume 137",
+"office": "vepres",
+"role": "antiennes",
+"suite": [
+70,
+71,
+72,
+73
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 74,
+"titre": "Antiennes ad libitum",
+"detail": "Psaumes de la férie",
+"role": "antiennes",
+"suite": [
+75
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 76,
+"titre": "Vêpres - Ste Thérèse",
+"detail": "",
+"office": "vepres",
+"suite": [
+77
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 78,
+"titre": "Antiennes ad libitum",
+"detail": "Psaumes de la férie",
+"role": "antiennes",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 79,
+"titre": "Répons - Ste Thérèse",
+"detail": "",
+"role": "repons",
+"suite": [
+80,
+81,
+82,
+83
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 84,
+"titre": "Répons des Anges gardiens",
+"detail": "",
+"role": "repons",
+"suite": [
+85,
+86,
+87
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 88,
+"titre": "Laudes - S. François d’A.",
+"detail": "Psaume 62 & AT 49 | Psaume 62 & AT 49",
+"office": "laudes",
+"role": "antiennes",
+"suite": [
+89
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 90,
+"titre": "Vêpres - S. François d’A.",
+"detail": "Psaume 14 | Psaume 111 | Cantique NT XIII p. 304",
+"office": "vepres",
+"role": "antiennes",
+"nt": "XIII",
+"suite": [
+91
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 92,
+"titre": "Répons S. François d’A.",
+"detail": "",
+"role": "repons",
+"suite": [
+93,
+94,
+95
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 96,
+"titre": "Laudes - N.-D. du Rosaire",
+"detail": "",
+"office": "laudes",
+"suite": [
+97,
+98,
+100
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 101,
+"titre": "Répons des laudes - N.-D. du Rosaire",
+"detail": "",
+"office": "laudes",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 103,
+"titre": "Vêpres - N.-D. du Rosaire",
+"detail": "",
+"office": "vepres",
+"suite": [
+104,
+105,
+106
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 107,
+"titre": "Répons des vêpres - N.-D. du Rosaire",
+"detail": "",
+"office": "vepres",
+"role": "repons",
+"suite": [
+108,
+109,
+110,
+111,
+112
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 113,
+"titre": "Vêpres - S. Luc",
+"detail": "Lucernaire p. 52 | Psaume 115",
+"office": "vepres",
+"role": "lucernaire",
+"suite": [
+114
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 115,
+"titre": "Répons - S. Luc",
+"detail": "",
+"role": "repons",
+"suite": [
+116,
+117,
+118,
+119,
+120
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 121,
+"titre": "Vêpres - Ss. Simon & Jude",
+"detail": "",
+"office": "vepres",
+"suite": [
+122,
+123,
+124
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 125,
+"titre": "Répons - Ss. Simon & Jude",
+"detail": "",
+"role": "repons",
+"suite": [
+126,
+127
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 128,
+"titre": "Hymne 1 - Toussaint",
+"detail": "",
+"role": "hymne",
+"suite": [
+129
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 131,
+"titre": "Hymne 2 - Toussaint",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 132,
+"titre": "Hymne 3 - Toussaint",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 133,
+"titre": "Hymne 4 - Toussaint",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 134,
+"titre": "Ires Vêpres - Toussaint",
+"detail": "Lucernaire p. 284 | Psaume 112",
+"office": "vepres1",
+"role": "lucernaire",
+"suite": [
+135,
+136
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 137,
+"titre": "Vigiles - Toussaint",
+"detail": "Invitatoire p. 126 | Hymne p. 127 | Psaume 8",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+138
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 139,
+"titre": "Laudes - Toussaint",
+"detail": "Psaume 62 & AT 49 | Psaume 150 | Psaume 149 | Répons p. 146",
+"office": "laudes",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 140,
+"titre": "IIes Vêpres - Toussaint",
+"detail": "Psaume 109",
+"office": "vepres2",
+"role": "antiennes",
+"suite": [
+141
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 142,
+"titre": "Répons 1 - Toussaint",
+"detail": "",
+"role": "repons",
+"suite": [
+143,
+144
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 145,
+"titre": "Répons 2 - Toussaint",
+"detail": "",
+"role": "repons",
+"suite": [
+146
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 147,
+"titre": "Répons 3 - Toussaint",
+"detail": "",
+"role": "repons",
+"suite": [
+148
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 149,
+"titre": "Acclamation de l’Évangile",
+"detail": "",
+"role": "acclamation",
+"suite": [
+150
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 151,
+"titre": "Choral - Toussaint",
+"detail": "",
+"role": "choral",
+"suite": [
+152,
+153,
+154,
+155,
+156
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 157,
+"titre": "Vêpres - Défunts",
+"detail": "",
+"office": "vepres",
+"suite": [
+158,
+159,
+160
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 161,
+"titre": "Répons 1 - Défunts",
+"detail": "",
+"role": "repons",
+"suite": [
+162
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 163,
+"titre": "Répons 2 - Défunts",
+"detail": "",
+"role": "repons",
+"suite": [
+164,
+165
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 166,
+"titre": "Laudes - S. Martin de P.",
+"detail": "",
+"office": "laudes",
+"suite": [
+167,
+168
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 169,
+"titre": "Vêpres - S. Martin de P.",
+"detail": "",
+"office": "vepres",
+"suite": [
+170
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 171,
+"titre": "Répons 1 - S. Martin de P.",
+"detail": "",
+"role": "repons",
+"suite": [
+172
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 173,
+"titre": "Répons 2 - S. Martin de P.",
+"detail": "",
+"role": "repons",
+"suite": [
+174,
+175
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 176,
+"titre": "Vêpres",
+"detail": "Hymne p. 127 s. | Psaumes 88, 2-19 & 97 | Cantique NT VIII p. 296 | Répons p. 176",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 177,
+"titre": "Répons - Toussaint O.P.",
+"detail": "",
+"role": "repons",
+"suite": [
+178,
+179,
+180
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 181,
+"titre": "Invitatoire 1 [psaume 94 p. 317]",
+"detail": "Invitatoire 2",
+"role": "invitatoire",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 182,
+"titre": "Hymne 1 - Dédicace",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 183,
+"titre": "Hymne 2 - Dédicace",
+"detail": "",
+"role": "hymne",
+"suite": [
+184
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 185,
+"titre": "Hymne 3 - Dédicace",
+"detail": "",
+"role": "hymne",
+"suite": [
+186
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 187,
+"titre": "Ires Vêpres - Dédicace",
+"detail": "Lucernaire p. 284 | Psaume 146",
+"office": "vepres1",
+"role": "lucernaire",
+"suite": [
+188
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 189,
+"titre": "Vigiles - Dédicace",
+"detail": "Invitatoire p. 180 | Hymne p. 181 s. | Psaume 23",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+190
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 191,
+"titre": "Laudes - Dédicace",
+"detail": "Psaume 62 & AT 49 | Psaume 149 - Répons p. 192 s.",
+"office": "laudes",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 192,
+"titre": "IIes Vêpres - Dédicace",
+"detail": "Psaume 45 | Psaume 121 & NT XIV p. 306",
+"office": "vepres2",
+"role": "antiennes",
+"nt": "XIV",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 193,
+"titre": "Répons 1 - Dédicace",
+"detail": "La gloi-re du Sei-gneur res-plen-dit dans tes murs | 1.(Vig.)Approchons-nous du Christ, la pier- re vi-vante, | 2. Montez à la montagne et rebâtissez la mai-son, dit le Sei- gneur, | 3.(Ld.) Heureux l",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 195,
+"titre": "Répons 2 - Dédicace",
+"detail": "",
+"role": "repons",
+"suite": [
+196
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 197,
+"titre": "Acclamation de l’Evangile",
+"detail": "Verset : Jésus dit : « Détruisez ce Temple, et en trois | jours je le relèverai». | Évangiles au choix : Jn 2, 13- 22 | ou bien : Mt 16, 13-19 | Lc 19, 1-10",
+"role": "acclamation",
+"suite": [
+198
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 199,
+"titre": "Choral - S. Martin de T.",
+"detail": "",
+"role": "choral",
+"suite": [
+200
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 201,
+"titre": "Hymne - S. Martin de T.",
+"detail": "",
+"role": "hymne",
+"suite": [
+202,
+203
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 204,
+"titre": "Laudes - S. Martin de T.",
+"detail": "Psaume 62 & AT 49 | Psaume 149 - Répons p. 172",
+"office": "laudes",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 205,
+"titre": "Vêpres - S. Martin de T.",
+"detail": "Psaume 14",
+"office": "vepres",
+"role": "antiennes",
+"suite": [
+206,
+207,
+208
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 209,
+"titre": "Vêpres - S. Albert le G.",
+"detail": "Hymne p. 60 | Psaume 14",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+210
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 211,
+"titre": "Répons - S. Albert le G.",
+"detail": "",
+"role": "repons",
+"suite": [
+213,
+214
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 215,
+"titre": "Psaumes de la férie",
+"detail": "",
+"role": "antiennes",
+"suite": [
+216
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 217,
+"titre": "Vêpres - Présentation B.V.M.",
+"detail": "Hymne p. 96 | Psaumes de la férie",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+218
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 219,
+"titre": "Répons - Présentation B.V.M.",
+"detail": "",
+"role": "repons",
+"suite": [
+220,
+221,
+222,
+223,
+224
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 225,
+"titre": "Vêpres - S. André",
+"detail": "Hymne p. 52 | Psaume 115",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+226
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 227,
+"titre": "Répons - S. André",
+"detail": "",
+"role": "repons",
+"suite": [
+228
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 229,
+"titre": "34e Dimanche du Temps ordinaire",
+"detail": "Le Christ Roi de l’univers | Invitatoire [psaume 94 p. 317] | Hymne 1 - Christ Roi",
+"role": "hymne",
+"jours": [
+"dimanche"
+],
+"suite": [
+230
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 232,
+"titre": "Hymne 3 - Christ Roi",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 233,
+"titre": "Ires Vêpres - Christ Roi",
+"detail": "Lucernaire p. 284 | Psaume 142 & AT 41 | Psaume 112 | Psaume 116 & NT XI p. 299 | Répons p. 238",
+"office": "vepres1",
+"role": "lucernaire",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 234,
+"titre": "Vigiles - Christ Roi",
+"detail": "Invitatoire p. 228 - Hymne p. 228 s. | Psaume 2 | Psaume 71, 1-11",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+235
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 236,
+"titre": "Laudes - Christ Roi",
+"detail": "Psaume 62 & AT 49 | Psaume 149 - Répons p. 238",
+"office": "laudes",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 237,
+"titre": "IIes Vêpres - Christ Roi",
+"detail": "Psaume 109 | Psaume 144 | & NT XIV p. 306",
+"office": "vepres2",
+"role": "hymne",
+"suite": [
+238
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 239,
+"titre": "Répons - Christ Roi",
+"detail": "",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 241,
+"titre": "Acclamation de l’Evangile",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 242,
+"titre": "8 décembre",
+"detail": "L’Immaculée Conception | de la Vierge Marie | Ires Vêpres | Lucernaire p. 8 | Psaumes 112 & 147",
+"office": "vepres1",
+"role": "lucernaire",
+"date": "12-08",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 243,
+"titre": "Vigiles - Immaculée Conception",
+"detail": "Invitatoire [psaume 94 p. 317] | Hymne",
+"office": "lectures",
+"role": "hymne",
+"suite": [
+244,
+245,
+246
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 247,
+"titre": "Laudes - Immaculée Conception",
+"detail": "Hymne p. 96 | Psaume 62 & AT 49",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+248
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 249,
+"titre": "IIes Vêpres - Immaculée Conception",
+"detail": "Lucernaire p. 246 | Psaume 121",
+"office": "vepres2",
+"role": "lucernaire",
+"suite": [
+250
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 251,
+"titre": "Répons - Immaculée Conception",
+"detail": "",
+"role": "repons",
+"suite": [
+252,
+253
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 254,
+"titre": "Acclamation de l’Evangile",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 255,
+"titre": "26 décembre",
+"detail": "Saint Etienne, premier martyr | 27 décembre | Saint Jean, Apôtre et évangéliste | 28 décembre | Les Saints Innocents, martyrs",
+"role": "magnificat",
+"date": "12-26",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 256,
+"titre": "21 janvier",
+"detail": "Sainte Agnès, vierge et martyre | Laudes",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+257,
+258
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 259,
+"titre": "Vêpres - Sainte Agnès",
+"detail": "Hymne p. 58 | Psaume 114 | Psaume 115 & NT XI p. 299 | Répons p. 62",
+"office": "vepres",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 260,
+"titre": "25 janvier",
+"detail": "Conversion de saint Paul, Apôtre",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 261,
+"titre": "Laudes - Conversion s. Paul",
+"detail": "",
+"office": "laudes",
+"role": "hymne",
+"suite": [
+262,
+263,
+264
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 265,
+"titre": "Vêpres - Conversion s. Paul",
+"detail": "Hymne p. 120 | ou | Psaume 115",
+"office": "vepres",
+"role": "hymne",
+"suite": [
+266,
+267
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 268,
+"titre": "Répons - Conversion s. Paul",
+"detail": "",
+"role": "repons",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 270,
+"titre": "28 janvier",
+"detail": "Saint Thomas d’Aquin, docteur",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 271,
+"titre": "Hymne 1 - Saint Thomas d’A.",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 272,
+"titre": "Hymne 2 - Saint Thomas d’A.",
+"detail": "1. Loué sois-tu Jésus, toi le témoin fidèle | Pour saint Thomas que tu as revêtu de ton Esprit | Tu l’as mené sur le chemin de ton Royaume | Et dans ton amour des hommes / tu as fait route avec lui. |",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 274,
+"titre": "Hymne 3 - Saint Thomas d’A.",
+"detail": "",
+"role": "hymne",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 275,
+"titre": "Choral - Saint Thomas d’A.",
+"detail": "",
+"role": "choral",
+"suite": [
+276
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 277,
+"titre": "Laudes - Saint Thomas d’A.",
+"detail": "Psaume 62 & AT 49 | Psaume 149 - Répons p. 278 s.",
+"office": "laudes",
+"role": "repons",
+"suite": [
+278
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 279,
+"titre": "Vêpres - Saint Thomas d’A.",
+"detail": "Psaume 126 | Psaume 110 & NT VIII p. 296",
+"office": "vepres",
+"role": "antiennes",
+"nt": "VIII",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 280,
+"titre": "[ autres antiennes au choix ]",
+"detail": "",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 281,
+"titre": "Répons 1 - Saint Thomas d’A.",
+"detail": "",
+"role": "repons",
+"suite": [
+282
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 283,
+"titre": "Répons 2 - Saint Thomas d’A.",
+"detail": "",
+"role": "repons",
+"suite": [
+284,
+285
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 287,
+"titre": "Lucernaire festif",
+"detail": "",
+"role": "lucernaire",
+"suite": [
+288
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 289,
+"titre": "Lucernaire marial (1)",
+"detail": "",
+"role": "lucernaire",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 291,
+"titre": "Lucernaire marial (2)",
+"detail": "",
+"role": "lucernaire",
+"suite": [
+293,
+294,
+295,
+296,
+297,
+298,
+299,
+300,
+301,
+302,
+303,
+304,
+305,
+306,
+307,
+308,
+309,
+310
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 311,
+"titre": "Cantique des créatures",
+"detail": "",
+"role": "cantique-at",
+"suite": [
+313,
+314
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 315,
+"titre": "Cantique des trois enfants",
+"detail": "",
+"role": "cantique-at",
+"suite": [
+316
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 317,
+"titre": "Invitatoires des solennités",
+"detail": "La Croix glorieuse | Toussaint",
+"role": "invitatoire",
+"suite": [
+318,
+319,
+320,
+321,
+322,
+323
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 324,
+"titre": "Te Deum",
+"detail": "",
+"role": "tedeum",
+"suite": [
+325,
+326
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 327,
+"titre": "Louanges & Notre Père - VI° mode",
+"detail": "",
+"role": "priere",
+"suite": [
+328
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 329,
+"titre": "Intercessions & Notre Père - VI° mode",
+"detail": "",
+"role": "priere",
+"suite": [
+330
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 331,
+"titre": "Antiennes mariales",
+"detail": "",
+"role": "mariale",
+"suite": []
+},
+{
+"carnet": "sanctoral1",
+"page": 332,
+"titre": "Nous te saluons",
+"detail": "",
+"role": "mariale",
+"suite": [
+333
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 334,
+"titre": "Sous ta miséricorde (Sub tuum)",
+"detail": "",
+"role": "mariale",
+"suite": [
+335,
+336,
+337
+]
+},
+{
+"carnet": "sanctoral1",
+"page": 344,
+"titre": "Répons",
+"detail": "Aujourd’hui la Vierge Sainte p. 218 | Béni sois-tu, Seigneur Jésus p. 160 | Bienheureux les coeurs purs p. 141 | Cette pierre ferme p. 194 | Ce que vous avez fait p. 172",
+"role": "repons",
+"suite": []
+}
+]
+}

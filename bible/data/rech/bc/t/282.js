@@ -1,0 +1,1 @@
+window.__RT={"5850":"4 ▸ 2 R 12,10-13; 1R 17,12-15; 2 Co 8,13-14; 9,8-9 — La leçon est trop claire pour nécessiter un commentaire. Il faut plutôt en tirer personnellement la conclusion pratique, sagement (▸ 2 Co 8,13), mais généreusement..."};

@@ -1,0 +1,1 @@
+window.__RI={"pythones":[3311,12,2070,4734,64,1723,10243],"pythonicus":[3344],"pygargum":[5293],"pythonem":[7950,24080],"pythone":[7951],"pythonissam":[10673],"pyramidas":[14238],"pythonibus":[21976],"pythonis":[22347],"pyra":[22400,10030],"pyram":[25426],"pyrrhi":[32160]};

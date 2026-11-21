@@ -1,0 +1,1 @@
+window.__CONC={"G41395":[["MAT19.19","prochain"],["MAT22.39","prochain"],["MRK12.31","prochain"],["MRK12.33","prochain"],["LUK10.27","prochain"],["LUK10.29","prochain ?"],["LUK10.36","prochain"],["ACT7.27","prochain"],["ROM13.9","prochain"],["GAL5.14","prochain"],["JAS2.8","prochain"],["JAS4.12","prochain ?"]]};

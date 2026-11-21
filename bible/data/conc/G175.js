@@ -1,0 +1,1 @@
+window.__CONC={"G17595":[["MAT17.20","d'ici"],["LUK16.26","d'ici"]],"G17525":[["MAT18.12","quatre-vingt-dix"],["MAT18.13","quatre-vingt-dix"],["LUK15.4","quatre-vingt-dix"],["LUK15.7","quatre-vingt-dix"]]};

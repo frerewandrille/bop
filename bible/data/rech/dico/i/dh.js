@@ -1,0 +1,1 @@
+window.__RI={"dhorme":[909,4495,775,1852],"dhiab":[1329],"dhiban":[2076,1392,15073],"dhahariyeh":[2118],"dhat":[2963],"dhoheriye":[6486],"dhoul":[11438],"dhou":[11614],"dhul":[13050],"dhana":[17562],"dheibe":[18538],"dhahiriya":[18722]};

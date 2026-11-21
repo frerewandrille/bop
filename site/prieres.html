@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- Recueil « Prières et formules » (Compendium du Catéchisme, français / latin), rangé comme un livre,
+     sans rapport avec la date. Logique : js/prieres.js ; données : donnees/prieres.json (outils/construire_prieres.py). -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prières et formules</title>
+<meta name="description" content="Prières communes et formules de la doctrine catholique, en français et en latin (Compendium du Catéchisme).">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#7a1f1f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icone.svg?v=2" type="image/svg+xml">
+<link rel="stylesheet" href="css/polices.css?v=86">
+<link rel="stylesheet" href="css/office.css?v=102">
+<link rel="stylesheet" href="css/table.css?v=11">
+<link rel="stylesheet" href="css/menu.css?v=9">
+</head>
+<body class="page-table page-prieres">
+<script src="js/menu.js?v=8"></script>
+<header class="barre barre-table">
+  <div class="barre-gauche">
+    <label class="cache" for="recherche">Chercher une prière</label>
+    <input type="search" id="recherche" placeholder="Chercher une prière (Salve, credo, dons…)" autocomplete="off">
+  </div>
+  <div class="barre-droite">
+    <div class="langues" role="group" aria-label="Langue">
+      <button data-langue="fr">Français</button><button data-langue="deux">Les deux</button><button data-langue="la">Latin</button>
+    </div>
+    <span class="bouton icone cale" aria-hidden="true"></span>
+  </div>
+  <nav class="onglets pages-annexes" aria-label="Bibliothèque"></nav>
+</header>
+
+<main class="contenu table-contenu" id="page" aria-live="polite"><p class="chargement">Chargement…</p></main>
+
+<script src="js/bibliotheque.js?v=2"></script>
+<script src="js/prieres.js?v=2"></script>
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  let pref = { taille: 18, theme: "auto", prieresLangue: "deux" };
+  try { pref = { ...pref, ...JSON.parse(localStorage.getItem("breviaire-pref") || "{}") }; } catch (e) { /* rien */ }
+  const sauver = () => {
+    try { const p = JSON.parse(localStorage.getItem("breviaire-pref") || "{}"); p.prieresLangue = pref.prieresLangue; localStorage.setItem("breviaire-pref", JSON.stringify(p)); } catch (e) { /* rien */ }
+  };
+  if (pref.theme && pref.theme !== "auto") document.documentElement.setAttribute("data-theme", pref.theme);
+  document.documentElement.style.setProperty("--taille", (pref.taille || 18) + "px");
+  let D = null, idx = null;
+
+  // adresse : « # » = table des matières ; « #chapitre/<id> » = un chapitre ; « #<id> » = une prière.
+  // Une date (#AAAA-MM-JJ, venue des autres onglets) mène à la table des matières.
+  function afficher(defiler = true) {
+    document.querySelectorAll(".langues button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.langue === pref.prieresLangue));
+    Bibliotheque.onglets("prieres", null);
+    const q = $("#recherche").value.trim();
+    const h = decodeURIComponent(location.hash.slice(1));
+    let corps = null, titre = "Prières et formules";
+    if (q) corps = Prieres.resultats(D, Prieres.chercher(idx, q), q);
+    else if (h.startsWith("chapitre/")) { corps = Prieres.chapitre(D, h.slice(9), pref.prieresLangue); titre = (D.groupes.find((g) => g.id === h.slice(9)) || {}).titre || titre; }
+    else if (h && !/^\d{4}-\d{2}-\d{2}$/.test(h)) {
+      corps = Prieres.piece(D, h, pref.prieresLangue);
+      const p = D.groupes.flatMap((g) => g.pieces).find((x) => x.id === h);
+      if (p) titre = p.titre;
+    }
+    if (!corps) corps = `<header class="entete-table"><h1>Prières et formules</h1>`
+      + `<p class="sous-titre">d'après le Compendium du Catéchisme de l'Église catholique</p></header>` + Prieres.sommaire(D);
+    $("#page").innerHTML = corps + `<p class="source">${esc(D.source)} — ${esc(D.droits)}.</p>`;
+    document.title = titre === "Prières et formules" ? titre : `${titre} — Prières`;
+    if (defiler) window.scrollTo(0, 0);
+  }
+
+  document.querySelectorAll(".langues button").forEach((b) => b.onclick = () => { pref.prieresLangue = b.dataset.langue; sauver(); afficher(false); });
+  $("#recherche").addEventListener("input", () => afficher(false));
+  window.addEventListener("hashchange", () => { $("#recherche").value = ""; afficher(); });
+
+  fetch("donnees/prieres.json", { cache: "no-cache" }).then((r) => r.json())
+    .then((prieres) => { D = prieres; idx = Prieres.index(D); afficher(); document.body.dataset.pret = "1"; })
+    .catch(() => { $("#page").innerHTML = `<p class="chargement">Les prières n'ont pas pu être chargées.</p>`; });
+
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

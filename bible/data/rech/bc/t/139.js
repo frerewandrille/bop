@@ -1,0 +1,1 @@
+window.__RT={"3873":"Mc 3, 31-35) ▸ Lc 2,48-50; Dt 6,3; Jn 14,23 — Voir explications au § 122. Qu'il soit placé avant le chapitre des paraboles (Mt-Mc) ou après (Lc), cet épisode témoigne de ce qu'enseignent ces paraboles: non seulement écouter, mais faire la volonté de Dieu. En Lc 11,27-28, épisode du même type (voir § 199*)."};

@@ -1,0 +1,1839 @@
+[
+{
+"office": "lectures",
+"semaine": 1,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 1",
+"ids": [
+"1"
+],
+"partition": [
+"sb/laudes-1-002-1-1.jpg"
+]
+},
+{
+"office": "lectures",
+"semaine": 1,
+"jour": "dimanche",
+"k": 2,
+"titre": "Psaume 2",
+"ids": [
+"2"
+],
+"partition": [
+"sb/laudes-1-003-1-2.jpg",
+"sb/laudes-1-004-2-2.jpg"
+]
+},
+{
+"office": "lectures",
+"semaine": 1,
+"jour": "dimanche",
+"k": 3,
+"titre": "Psaume 3",
+"ids": [
+"3"
+],
+"partition": [
+"sb/laudes-1-005-1-3.jpg",
+"sb/laudes-1-006-2-3.jpg"
+]
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 62",
+"ids": [
+"62"
+],
+"partition": [
+"sb/laudes-1-007-1-4.jpg"
+],
+"ant": "Mon âme a soif du Dieu de vie, quand Le verrai-je face à face",
+"cote": "K 312"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "dimanche",
+"k": 2,
+"titre": "Cantique des créatures (Dn 3)",
+"ids": [
+"AT49"
+],
+"partition": [
+"sb/laudes-1-008-1-5.jpg",
+"sb/laudes-1-009-2-5.jpg"
+],
+"ant": null,
+"cote": null
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "dimanche",
+"k": 3,
+"titre": "Psaume 149",
+"ids": [
+"149"
+],
+"partition": [
+"sb/laudes-1-012-1-6.jpg"
+],
+"ant": "Alléluia.",
+"cote": "B 406"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 5",
+"ids": [
+"5"
+],
+"partition": [
+"sb/laudes-1-016-1-3.jpg"
+],
+"ant": "Au matin Seigneur, je viens dans ta maison, Alléluia.",
+"cote": "B 211"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 28",
+"ids": [
+"28"
+],
+"partition": [
+"sb/laudes-1-019-1-5.jpg"
+],
+"ant": "Acclamez le Seigneur ! Que toute la terre tressaille devant sa gloire !",
+"cote": "B 214"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 23",
+"ids": [
+"23"
+],
+"partition": [
+"sb/laudes-1-024-1-3.jpg"
+],
+"ant": "Toutes les nations viendront te rendre gloire, rassemble nos cœurs, pour qu'ils t'adorent",
+"cote": "B 242"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 32",
+"ids": [
+"32"
+],
+"partition": [
+"sb/laudes-1-027-1-4.jpg"
+],
+"ant": "En toi la joie de notre cœur, car tu a sauvé notre âme de la mort !",
+"cote": "B 216"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 35",
+"ids": [
+"35"
+],
+"partition": [
+"sb/laudes-1-033-1-2.jpg"
+],
+"ant": "Dans la lumière de ta Pâque, ô Christ, nous avons vu la lumière !",
+"cote": "B 221"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "mercredi",
+"k": 2,
+"titre": "Psaume 46",
+"ids": [
+"46"
+],
+"partition": [
+"sb/laudes-1-036-1-4.jpg"
+],
+"ant": "Que tous les peuples battent des mains, le Christ est Roi par toute la terre !",
+"cote": "B 223"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 56",
+"ids": [
+"56"
+],
+"partition": [
+"sb/laudes-1-040-1-1.jpg",
+"sb/laudes-1-041-2-1.jpg"
+],
+"ant": "Ton chant de joie, Ô Christ ressuscité, a réveillé l'aurore !",
+"cote": "B 226"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 47",
+"ids": [
+"47"
+],
+"partition": [
+"sb/laudes-1-043-1-3.jpg"
+],
+"ant": "Que Sion exulte de joie, par ta victoire sur la mort !",
+"cote": "B 224"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 50",
+"ids": [
+"50"
+],
+"partition": [
+"sb/laudes-1-049-1-1.jpg",
+"sb/laudes-1-050-2-1.jpg"
+],
+"ant": "Jésus Christ, mort pour nos péchés, mets en nos cœurs l'allégresse de ton Salut !",
+"cote": "B 215"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 99",
+"ids": [
+"99"
+],
+"partition": [
+"sb/laudes-1-054-1-2.jpg"
+],
+"ant": "Chante au Seigneur toute la terre, chante au Seigneur Alléluia !",
+"cote": "B 306"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 118 - xix",
+"ids": [
+"118-19"
+],
+"partition": [
+"sb/laudes-1-058-1-3.jpg"
+],
+"ant": "Je suis là, et Je T'appelle, et Tu réponds, mon Dieu.",
+"cote": "C 105"
+},
+{
+"office": "laudes",
+"semaine": 1,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 116",
+"ids": [
+"116"
+],
+"partition": [
+"sb/laudes-1-061-1-4.jpg"
+],
+"ant": "Alléluia!",
+"cote": "B 401"
+},
+{
+"office": "lectures",
+"semaine": 2,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 103",
+"ids": [
+"103"
+],
+"partition": [
+"sb/laudes-2-002-1-1.jpg",
+"sb/laudes-2-004-2-1.jpg",
+"sb/laudes-2-005-3-1.jpg"
+],
+"ant": "Le Seigneur s'est levé du tombeau",
+"cote": "A 801"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 117",
+"ids": [
+"117"
+],
+"partition": [
+"sb/laudes-2-008-1-2.jpg",
+"sb/laudes-2-008-2-2.jpg",
+"sb/laudes-2-008-3-2.jpg"
+],
+"ant": "Voici le jour que fit le Seigneur, jour d'allégresse et jour de joie, Alléluia !",
+"cote": "B 121"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "dimanche",
+"k": 2,
+"titre": "Cantique des trois enfants (Dn 3)",
+"ids": [
+"AT48"
+],
+"partition": [
+"sb/laudes-2-011-1-3.jpg"
+],
+"ant": null,
+"cote": null
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "dimanche",
+"k": 3,
+"titre": "Psaume 150",
+"ids": [
+"150"
+],
+"partition": [
+"sb/laudes-2-013-1-4.jpg"
+],
+"ant": "Alléluia!",
+"cote": "B 113"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 41",
+"ids": [
+"41"
+],
+"partition": [
+"sb/laudes-2-017-1-1.jpg"
+],
+"ant": "Viens à mon aide, j'ai soif de ton salut !",
+"cote": "B 233"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 18 a",
+"ids": [
+"18A"
+],
+"partition": [
+"sb/laudes-2-020-1-3.jpg",
+"sb/laudes-2-021-2-3.jpg"
+],
+"ant": "Ô Christ, Soleil Levant ! Le ciel chante la lumière de ta Résurrection !",
+"cote": "B 213"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 42",
+"ids": [
+"42"
+],
+"partition": [
+"sb/laudes-2-026-1-2.jpg"
+],
+"ant": "J'irai vers le Dieu de ma Joie : j'exulterai, je Le louerai sans fin !",
+"cote": "F 101"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 64",
+"ids": [
+"64"
+],
+"partition": [
+"sb/laudes-2-029-1-4.jpg"
+],
+"ant": "Au matin, Tu as visité la terre, et Tu l'a fait danser de joie !",
+"cote": "B 231"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 76",
+"ids": [
+"76"
+],
+"partition": [
+"sb/laudes-2-035-1-3.jpg"
+],
+"ant": "Toi le Dieu, qui fait merveille, Tu as baptisé Ton peuple, par le feu et par l'eau.",
+"cote": "C 208"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "mercredi",
+"k": 2,
+"titre": "Psaume 96",
+"ids": [
+"96"
+],
+"partition": [
+"sb/laudes-2-039-1-5.jpg",
+"sb/laudes-2-039-2-5.jpg"
+],
+"ant": "Le Seigneur est Roi ! Que toute la terre exulte de joie !",
+"cote": "B 303"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 79",
+"ids": [
+"79"
+],
+"partition": [
+"sb/laudes-2-044-1-2.jpg"
+],
+"ant": "Ô Christ Sauveur, Tu as fait briller sur nous, la lumière de ta face !",
+"cote": "B 234"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 80",
+"ids": [
+"80"
+],
+"partition": [
+"sb/laudes-2-047-1-4.jpg"
+],
+"ant": "Écoute, ô mon peuple, Je suis le Seigneur ton Dieu, c'est la miséricorde que Je veux, et non le sacrifice.",
+"cote": "A 402"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 50",
+"ids": [
+"50"
+],
+"partition": [
+"sb/laudes-2-051-1-1.jpg"
+],
+"ant": "Par ta résurrection, tu fais danser de joie, les ossements brisés !",
+"cote": "B 225"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 147",
+"ids": [
+"147"
+],
+"partition": [
+"sb/laudes-2-056-1-2.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 405"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 91",
+"ids": [
+"91"
+],
+"partition": [
+"sb/laudes-2-060-1-1.jpg",
+"sb/laudes-2-061-2-1.jpg"
+],
+"ant": "Au matin Seigneur, que je chante ton amour. Alléluia !",
+"cote": "B 301"
+},
+{
+"office": "laudes",
+"semaine": 2,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 8",
+"ids": [
+"8"
+],
+"partition": [
+"sb/laudes-2-064-1-2.jpg"
+],
+"ant": "La gloire de ton Nom, resplendit, sur la terre comme au ciel.",
+"cote": "B 212"
+},
+{
+"office": "lectures",
+"semaine": 3,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 144",
+"ids": [
+"144"
+],
+"partition": [
+"sb/laudes-3-002-1-1.jpg"
+]
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 92",
+"ids": [
+"92"
+],
+"partition": [
+"sb/laudes-3-005-1-2.jpg"
+],
+"ant": "Le Seigneur est vêtu de gloire, il établit son trône à jamais, à lui revient la victoire, à Lui la gloire et l'honneur !",
+"cote": "B 111"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "dimanche",
+"k": 2,
+"titre": "Cantique des créatures (Dn 3)",
+"ids": [
+"AT49"
+],
+"partition": [
+"sb/laudes-3-006-1-3.jpg",
+"sb/laudes-3-007-2-3.jpg"
+],
+"ant": null,
+"cote": null
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "dimanche",
+"k": 3,
+"titre": "Psaume 148",
+"ids": [
+"148"
+],
+"partition": [
+"sb/laudes-3-010-1-4.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 113"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 83",
+"ids": [
+"83"
+],
+"partition": [
+"sb/laudes-3-015-1-2.jpg"
+],
+"ant": "Mon cœur et ma chair, ont crié de joie ! Devant ta face !",
+"cote": "B 236"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 95",
+"ids": [
+"95"
+],
+"partition": [
+"sb/laudes-3-018-1-4.jpg"
+],
+"ant": "Chantez pour le Seigneur, le cantique nouveau, annoncez de jour en jour, la nouvelle de son salut !",
+"cote": "B 302"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 84",
+"ids": [
+"84"
+],
+"partition": [
+"sb/laudes-3-024-1-2.jpg"
+],
+"ant": "Tu nous a fait revivre, Seigneur Jésus, Toi qui nous donnes le salut !",
+"cote": "B 241"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 66",
+"ids": [
+"66"
+],
+"partition": [
+"sb/laudes-3-027-1-4.jpg"
+],
+"ant": "Que ton visage, s'illumine pour nous !",
+"cote": "B 232"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 85",
+"ids": [
+"85"
+],
+"partition": [
+"sb/laudes-3-033-1-2.jpg"
+],
+"ant": "Toutes les nations viendront te rendre gloire, rassemble nos cœurs, pour qu'ils t'adorent !",
+"cote": "B 242"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "mercredi",
+"k": 2,
+"titre": "Psaume 97",
+"ids": [
+"97"
+],
+"partition": [
+"sb/laudes-3-036-1-4.jpg"
+],
+"ant": "Chantez au Seigneur car il a fait des merveilles, Alléluia !",
+"cote": "B 304"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 86",
+"ids": [
+"86"
+],
+"partition": [
+"sb/laudes-3-042-1-3.jpg"
+],
+"ant": "Église Sainte, Jérusalem aimée de Dieu, Mère de tous les hommes, bénie sois-tu !",
+"cote": "B 243"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 98",
+"ids": [
+"98"
+],
+"partition": [
+"sb/laudes-3-045-1-5.jpg"
+],
+"ant": "Le Seigneur est Roi ! Que tous les peuples célèbrent son Nom !",
+"cote": "B 305"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 50",
+"ids": [
+"50"
+],
+"partition": [
+"sb/laudes-3-051-1-2.jpg"
+],
+"ant": "Ô Christ ressuscité, tu as recréé notre cœur, en nous donnant ton Esprit Saint !",
+"cote": "B 235"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 99",
+"ids": [
+"99"
+],
+"partition": [
+"sb/laudes-3-054-1-4.jpg"
+],
+"ant": "Chante au Seigneur toute la terre, chante au Seigneur Alléluia !",
+"cote": "B 306"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 118 - xix",
+"ids": [
+"118-19"
+],
+"partition": [
+"sb/laudes-3-060-1-2.jpg"
+],
+"ant": "Tu es au milieu de ton Eglise, quand se lève l'aurore !",
+"cote": "B 222"
+},
+{
+"office": "laudes",
+"semaine": 3,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 116",
+"ids": [
+"116"
+],
+"partition": [
+"sb/laudes-3-063-1-3.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 401"
+},
+{
+"office": "lectures",
+"semaine": 4,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 23",
+"ids": [
+"23"
+],
+"partition": [
+"sb/laudes-4-002-1-1.jpg"
+],
+"ant": "Ôuvrez-vous, Portes éternelles",
+"cote": "A 203"
+},
+{
+"office": "lectures",
+"semaine": 4,
+"jour": "dimanche",
+"k": 2,
+"titre": "Psaume 65",
+"ids": [
+"65"
+],
+"partition": [
+"sb/laudes-4-004-1-2.jpg"
+],
+"ant": "Père, Je viens en ta maison",
+"cote": "A 502"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 117",
+"ids": [
+"117"
+],
+"partition": [
+"sb/laudes-4-007-1-3.jpg",
+"sb/laudes-4-007-2-3.jpg",
+"sb/laudes-4-007-3-3.jpg"
+],
+"ant": "Dansez devant la face de Dieu, alléluia, alléluia, Lui qui se lève comme un feu, et qui disperse l'ennemi.",
+"cote": "A 601"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "dimanche",
+"k": 2,
+"titre": "Psaume 150",
+"ids": [
+"150"
+],
+"partition": [
+"sb/laudes-4-012-1-5.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 113"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 89",
+"ids": [
+"89"
+],
+"partition": [
+"sb/laudes-4-017-1-2.jpg"
+],
+"ant": "Au matin de ta Pâques, Tu nous a rassasiés Seigneur, de ton amour.",
+"cote": "B 244"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 134 - i",
+"ids": [
+"134"
+],
+"partition": [
+"sb/laudes-4-020-1-4.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 402"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 100",
+"ids": [
+"100"
+],
+"partition": [
+"sb/laudes-4-025-1-2.jpg"
+],
+"ant": "Je suis là, et Je T'appelle, et Tu réponds, mon Dieu.",
+"cote": "C 105"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 143 - i",
+"ids": [
+"143"
+],
+"partition": [
+"sb/laudes-4-029-1-4.jpg"
+],
+"ant": "Incline les cieux, Seigneur",
+"cote": "A 301"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 107",
+"ids": [
+"107"
+],
+"partition": [
+"sb/laudes-4-034-1-2.jpg"
+],
+"ant": "Dès le matin, mon cœur est prêt pour te chanter, Alléluia !",
+"cote": "B 246"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "mercredi",
+"k": 2,
+"titre": "Psaume 145",
+"ids": [
+"145"
+],
+"partition": [
+"sb/laudes-4-038-1-4.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 403"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 142",
+"ids": [
+"142"
+],
+"partition": [
+"sb/laudes-4-043-1-2.jpg"
+],
+"ant": "Je suis descendu dans les ténèbres de la mort. Au matin, que j'entende ton Amour !",
+"cote": "C 414"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 146",
+"ids": [
+"146"
+],
+"partition": [
+"sb/laudes-4-046-1-4.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 404"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 50",
+"ids": [
+"50"
+],
+"partition": [
+"sb/laudes-4-051-1-1.jpg"
+],
+"ant": "En ta grande tendresse, tu t'es offert en sacrifice, pour nous laver de nos péchés.",
+"cote": "B 245"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 147",
+"ids": [
+"147"
+],
+"partition": [
+"sb/laudes-4-054-1-2.jpg"
+],
+"ant": "Alléluia !",
+"cote": "B 405"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 91",
+"ids": [
+"91"
+],
+"partition": [
+"sb/laudes-4-059-1-2.jpg"
+],
+"ant": "Au matin Seigneur, que je chante ton amour. Alléluia, alléluia !",
+"cote": "B 301"
+},
+{
+"office": "laudes",
+"semaine": 4,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 8",
+"ids": [
+"8"
+],
+"partition": [
+"sb/laudes-4-062-1-4.jpg"
+],
+"ant": "La gloire de ton Nom, resplendit, sur la terre comme au ciel.",
+"cote": "B 212"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 140",
+"ids": [
+"140"
+],
+"partition": [
+"sb/vepres-1-002-1-1.jpg"
+],
+"ant": "Au soir de la Pâque, Toi l'Agneau immolé, Tu as étendu les mains sur la Croix.",
+"cote": "C 410"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 141",
+"ids": [
+"141"
+],
+"partition": [
+"sb/vepres-1-004-1-2.jpg"
+],
+"ant": "Père, entre tes mains je remets mon esprit.",
+"cote": "C 413"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 109",
+"ids": [
+"109"
+],
+"partition": [
+"sb/vepres-1-006-1-4.jpg"
+],
+"ant": "Dieu notre Père, a établi Jésus Seigneur. En le ressuscitant d'entre les morts Alléluia Alléluia. Il le fait asseoir à sa droite, dans les cieux!",
+"cote": "C 103"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "dimanche",
+"k": 2,
+"titre": "Psaume 113 a",
+"ids": [
+"113A"
+],
+"partition": [
+"sb/vepres-1-008-1-5.jpg"
+],
+"ant": "La terre tremble Pâque du Seigneur, la mer retourne en arrière, le peuple de Dieu marche vers le Royaume.",
+"cote": "C 304"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 10",
+"ids": [
+"10"
+],
+"partition": [
+"sb/vepres-1-010-1-7.jpg"
+],
+"ant": "Dieu n'a pas envoyé son Fils pour condamner le monde, mais pour que le monde soit sauvé par lui.",
+"cote": "A 403"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 14",
+"ids": [
+"14"
+],
+"partition": [
+"sb/vepres-1-012-1-8.jpg"
+],
+"ant": "Celui qui fait la vérité, vient à la lumière.",
+"cote": "K 726"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 19",
+"ids": [
+"19"
+],
+"partition": [
+"sb/vepres-1-014-1-10.jpg"
+],
+"ant": "Tout ce que vous demanderez à mon Père en mon Nom, il vous l'accordera",
+"cote": "C 107"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 20",
+"ids": [
+"20"
+],
+"partition": [
+"sb/vepres-1-015-1-11.jpg"
+],
+"ant": "Père, glorifie ton Fils, pour que ton Fils Te glorifie.",
+"cote": "C108"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 26 - i",
+"ids": [
+"26"
+],
+"partition": [
+"sb/vepres-1-018-1-13.jpg"
+],
+"ant": "Je suis la Lumière du monde, si vous croyez en moi, vous serez fils de la Lumière.",
+"cote": "C 111"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "mercredi",
+"k": 2,
+"titre": "Psaume 26 - ii",
+"ids": [
+"26"
+],
+"partition": [
+"sb/vepres-1-019-1-14.jpg"
+],
+"ant": "Tes serviteurs contempleront ta Face, et ton Nom sera sur leur front.",
+"cote": "C 112"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 29",
+"ids": [
+"29"
+],
+"partition": [
+"sb/vepres-1-022-1-16.jpg"
+],
+"ant": "Le Seigneur m'a fait revivre quand j'allais à la mort",
+"cote": "A 401"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 31",
+"ids": [
+"31"
+],
+"partition": [
+"sb/vepres-1-024-1-17.jpg"
+],
+"ant": "Seigneur Jésus, Fils du Dieu Vivant, prends pitié de moi pécheur !",
+"cote": "C 113"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 40",
+"ids": [
+"40"
+],
+"partition": [
+"sb/vepres-1-027-1-19.jpg"
+],
+"ant": "L'ami qui partageait mon pain m'a livré à la mort. Père, sauve moi de cette heure !",
+"cote": "C 114"
+},
+{
+"office": "vepres",
+"semaine": 1,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 45",
+"ids": [
+"45"
+],
+"partition": [
+"sb/vepres-1-029-1-20.jpg"
+],
+"ant": "Ô mon Père, garde en ton amour, ceux que tu m'as donnés !",
+"cote": "C 310"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 118 - xiv",
+"ids": [
+"118-14"
+],
+"partition": [
+"sb/vepres-2-002-1-1.jpg"
+],
+"ant": "Lumière sur ma route, ta Parole, Seigneur !",
+"cote": "F232"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 15",
+"ids": [
+"15"
+],
+"partition": [
+"sb/vepres-2-003-1-2.jpg"
+],
+"ant": "Ton ami, Seigneur, n'a pas connu la corruption. Tu lui as ouvert le chemin de la vie, Alleluia",
+"cote": "A 202"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 109",
+"ids": [
+"109"
+],
+"partition": [
+"sb/vepres-2-006-1-4.jpg"
+],
+"ant": "tu es mon Fils, bien aimé, alléluia! De mon sein, je T'ai engendré, avant l'étoile du matin, alléluia!",
+"cote": "C 203"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "dimanche",
+"k": 2,
+"titre": "Psaume 113 b",
+"ids": [
+"113B"
+],
+"partition": [
+"sb/vepres-2-007-1-5.jpg"
+],
+"ant": "Vous les vivants bénissez Dieu, le Seigneur du ciel et de la terre",
+"cote": "C 305"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 44 - i",
+"ids": [
+"44"
+],
+"partition": [
+"sb/vepres-2-010-1-7.jpg"
+],
+"ant": "O Christ ressuscité, Tu es le plus beau des enfants des hommes! La grâce est répandue sur tes lêvres.",
+"cote": "C 201"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 44 - ii",
+"ids": [
+"44"
+],
+"partition": [
+"sb/vepres-2-011-1-8.jpg"
+],
+"ant": "Eglise du Seigneur, Epouse bien aimée, le Roi désire ta beauté.",
+"cote": "C 202"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 48 - i",
+"ids": [
+"48"
+],
+"partition": [
+"sb/vepres-2-014-1-10.jpg"
+],
+"ant": "Je suis la Voie, la Vérité et la Vie, et nul ne vient au Père que par Moi.",
+"cote": "C 109"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 48 - ii",
+"ids": [
+"48"
+],
+"partition": [
+"sb/vepres-2-016-1-11.jpg"
+],
+"ant": "Le Fils de l'Homme est venu chercher et sauver ceux qui étaient perdus.",
+"cote": "C 110"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "mardi",
+"k": 3,
+"titre": "Cantique",
+"ids": [
+"NT11"
+],
+"partition": [
+"sb/vepres-2-018-1-12.jpg"
+],
+"ant": "Puissance, honneur et gloire, à l’Agneau de Dieu !",
+"cote": "C 504"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 66",
+"ids": [
+"66"
+],
+"partition": [
+"sb/vepres-2-020-1-14.jpg"
+],
+"ant": "Au réveil, je me rassasierai de ton visage !",
+"cote": "C 106"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 71 - i",
+"ids": [
+"71"
+],
+"partition": [
+"sb/vepres-2-022-1-16.jpg"
+],
+"ant": "Comme la pluie qui descend sur la terre, le Seigneur a béni son peuple dans la paix.",
+"cote": "C 205"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 71 - ii",
+"ids": [
+"71"
+],
+"partition": [
+"sb/vepres-2-023-1-17.jpg"
+],
+"ant": "Tu as sauvé la vie des pauvres, en Toi seront bénis tous les peuples de la terre.",
+"cote": "C 206"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 114",
+"ids": [
+"114"
+],
+"partition": [
+"sb/vepres-2-026-1-19.jpg"
+],
+"ant": "Seigneur tu as sauvé mon âme de la mort, je marche en ta présence sur la terre des vivants.",
+"cote": "C 404"
+},
+{
+"office": "vepres",
+"semaine": 2,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 120",
+"ids": [
+"120"
+],
+"partition": [
+"sb/vepres-2-028-1-20.jpg"
+],
+"ant": "Le gardien d'Israël, ne s'est pas endormi, dans la nuit du tombeau.",
+"cote": "C 211"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 112",
+"ids": [
+"112"
+],
+"partition": [
+"sb/vepres-3-002-1-1.jpg"
+],
+"ant": "Le Seigneur s'est abaissé sous la forme de l'esclave, Il nous fait asseoir près de Lui dans la gloire !",
+"cote": "C 204"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 115",
+"ids": [
+"115"
+],
+"partition": [
+"sb/vepres-3-003-1-2.jpg"
+],
+"ant": "Seigneur, je suis ton serviteur, je viens t'offrir le sacrifice d'action de grâce.",
+"cote": "C 306"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 109",
+"ids": [
+"109"
+],
+"partition": [
+"sb/vepres-3-006-1-4.jpg"
+],
+"ant": "Seigneur Ressuscité, Prêtre pour l'éternité, intercède pour nous, que Tu as sauvé sur l'autel de la croix !",
+"cote": "C 303"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "dimanche",
+"k": 2,
+"titre": "Psaume 110",
+"ids": [
+"110"
+],
+"partition": [
+"sb/vepres-3-007-1-5.jpg"
+],
+"ant": "Le Seigneur a envoyé un Sauveur à son peuple, Alléluia. Il donne à son Eglise les nations en héritage.",
+"cote": "C 104"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 122",
+"ids": [
+"122"
+],
+"partition": [
+"sb/vepres-3-010-1-7.jpg"
+],
+"ant": "Les yeux levés vers Toi Seigneur, tes serviteurs attendent ton retour !",
+"cote": "C 212"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 123",
+"ids": [
+"123"
+],
+"partition": [
+"sb/vepres-3-011-1-8.jpg"
+],
+"ant": "Sans Moi, vous ne pouvez rien faire, si vous gardez ma Parole, vous ne verrez jamais la mort.",
+"cote": "C 213"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 124",
+"ids": [
+"124"
+],
+"partition": [
+"sb/vepres-3-014-1-10.jpg"
+],
+"ant": "Voici que je pose en Sion, une pierre angulaire, qui se confie en elle, ne sera pas déçu.",
+"cote": "C 214"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 130",
+"ids": [
+"130"
+],
+"partition": [
+"sb/vepres-3-016-1-11.jpg"
+],
+"ant": "Comme un petit enfant, dans les bras de sa mère, j'ai gardé près de Toi , le silence et la paix.",
+"cote": "C 309"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 125",
+"ids": [
+"125"
+],
+"partition": [
+"sb/vepres-3-018-1-13.jpg"
+],
+"ant": "Christ notre Pâques, tu as semé dans les larmes, et moissoné dans la joie de ta Sainte résurrection.",
+"cote": "C 302"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "mercredi",
+"k": 2,
+"titre": "Psaume 126",
+"ids": [
+"126"
+],
+"partition": [
+"sb/vepres-3-019-1-14.jpg"
+],
+"ant": "Fais grandir Seigneur, ton Église, et garde la cité !",
+"cote": "C 307"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 131 - i",
+"ids": [
+"131"
+],
+"partition": [
+"sb/vepres-3-022-1-16.jpg"
+],
+"ant": "Le Christ s'est levé du tombeau, entrons avec Lui au lieu de son repos.",
+"cote": "C 311"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 131 - ii",
+"ids": [
+"131"
+],
+"partition": [
+"sb/vepres-3-023-1-17.jpg"
+],
+"ant": "Le Seigneur, a fait brillé la lumière du Christ, et nos cœurs ont jubilé de joie !",
+"cote": "C 312"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 134 - i",
+"ids": [
+"134"
+],
+"partition": [
+"sb/vepres-3-026-1-19.jpg"
+],
+"ant": "Mon serviteur a porté le joug de vos péchés, le grain jeté en terre, portera beaucoup de fruit !",
+"cote": "C 313"
+},
+{
+"office": "vepres",
+"semaine": 3,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 134 - ii",
+"ids": [
+"134"
+],
+"partition": [
+"sb/vepres-3-028-1-20.jpg"
+],
+"ant": "Voici l'heure, où le Fils de l'homme est livré aux mains des pécheurs.",
+"cote": "C 409"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "samedi",
+"k": 1,
+"titre": "Psaume 121",
+"ids": [
+"121"
+],
+"partition": [
+"sb/vepres-4-002-1-1.jpg"
+],
+"ant": "Jérusalem! En toi Dieu rassemble tes enfants dispersés, Jérusalem, pour célébrer le Nom du Seigneur, Jérusalem.",
+"cote": "C 301"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "samedi",
+"k": 2,
+"titre": "Psaume 129",
+"ids": [
+"129"
+],
+"partition": [
+"sb/vepres-4-003-1-2.jpg"
+],
+"ant": "Dans les profondeurs de la mort, le Seigneur a veillé, il s'est relevé, Lumière des cœurs droits.",
+"cote": "C 314"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "dimanche",
+"k": 1,
+"titre": "Psaume 109",
+"ids": [
+"109"
+],
+"partition": [
+"sb/vepres-4-006-1-4.jpg"
+],
+"ant": "Dieu a placé l'ennemi sous tes pieds, Tu as relevé la tête au matin de ta Pâque",
+"cote": "C 403"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "dimanche",
+"k": 2,
+"titre": "Psaume 111",
+"ids": [
+"111"
+],
+"partition": [
+"sb/vepres-4-008-1-5.jpg"
+],
+"ant": "Le Seigneur s'est levé, lumière des cœurs droits.",
+"cote": "C 209"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "lundi",
+"k": 1,
+"titre": "Psaume 135 - i",
+"ids": [
+"135"
+],
+"partition": [
+"sb/vepres-4-010-1-7.jpg"
+],
+"ant": "Rendez grâce au Seigneur qui a fait toutes choses nouvelles dans le Christ, car éternel est son amour.",
+"cote": "C 401"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "lundi",
+"k": 2,
+"titre": "Psaume 135 - ii",
+"ids": [
+"135"
+],
+"partition": [
+"sb/vepres-4-011-1-8.jpg"
+],
+"ant": "Rendez grâce au Seigneur qui conduit son Eglise vers la terre promise, car éternel est son amour.",
+"cote": "C 402"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "mardi",
+"k": 1,
+"titre": "Psaume 136",
+"ids": [
+"136"
+],
+"partition": [
+"sb/vepres-4-014-1-10.jpg"
+],
+"ant": "Jérusalem, Jérusalem, que Dieu essuie toute larme de vos yeux.",
+"cote": "C 405"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "mardi",
+"k": 2,
+"titre": "Psaume 137",
+"ids": [
+"137"
+],
+"partition": [
+"sb/vepres-4-016-1-11.jpg"
+],
+"ant": "Père, je Te rends grâce de m'avoir exaucé !",
+"cote": "C 406"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "mercredi",
+"k": 1,
+"titre": "Psaume 138 - i",
+"ids": [
+"138"
+],
+"partition": [
+"sb/vepres-4-018-1-13.jpg"
+],
+"ant": "Pour notre joie tu es ressuscité, et la nuit comme le jour illumine !",
+"cote": "C 407"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "mercredi",
+"k": 2,
+"titre": "Psaume 138 - ii",
+"ids": [
+"138"
+],
+"partition": [
+"sb/vepres-4-019-1-14.jpg"
+],
+"ant": "Père je te rends grâce de m'avoir exaucé",
+"cote": "C 408"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "jeudi",
+"k": 1,
+"titre": "Psaume 143 - i",
+"ids": [
+"143"
+],
+"partition": [
+"sb/vepres-4-022-1-16.jpg"
+],
+"ant": "Le Fils de l'Homme a pris notre faiblesse pour être notre force.",
+"cote": "C 411"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "jeudi",
+"k": 2,
+"titre": "Psaume 143 - ii",
+"ids": [
+"143"
+],
+"partition": [
+"sb/vepres-4-023-1-17.jpg"
+],
+"ant": "Dieu a donné le salut à son Christ : heureux le peuple, que le Seigneur a béni !",
+"cote": "C 412"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "vendredi",
+"k": 1,
+"titre": "Psaume 144 - i",
+"ids": [
+"144"
+],
+"partition": [
+"sb/vepres-4-026-1-19.jpg"
+],
+"ant": "Tu es béni Père du ciel et de la terre, Tu nous a révélé ta Gloire, en Ton Fils Bien Aimé !",
+"cote": "C 101"
+},
+{
+"office": "vepres",
+"semaine": 4,
+"jour": "vendredi",
+"k": 2,
+"titre": "Psaume 144 - ii",
+"ids": [
+"144"
+],
+"partition": [
+"sb/vepres-4-027-1-20.jpg"
+],
+"ant": "Que Ton Nom sois Béni, Seigneur ! Et que ton Règne vienne !",
+"cote": "C 102"
+}
+]

@@ -1,0 +1,1 @@
+window.__CONC={"G36405":[["MRK1.19","un peu"],["MRK6.31","un peu."],["LUK5.3","un peu ;"],["LUK7.47","peu"],["1PE1.6","pour un peu / un peu"],["1PE5.10","un peu"],["REV17.10","peu"]],"G36435":[["2PE2.18","réellement / de peu"]]};

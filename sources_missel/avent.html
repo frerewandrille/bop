@@ -1,0 +1,1304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Author" content="Philippe">
+  <meta name="CreationTime" content="2021-11-09T18:15:00Z">
+  <meta name="ModificationTime" content="2021-11-09T18:15:00Z">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2775.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 28.0px 'Times New Roman'; color: #ff0000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px 'Times New Roman'; color: #ff0000; min-height: 32.0px}
+    p.p4 {margin: 6.0px 0.0px 6.0px 0.0px; text-align: center; font: 24.0px 'Times New Roman'}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Times New Roman'; min-height: 27.0px}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'Times New Roman'}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Times New Roman'; min-height: 16.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 18.0px 'Times New Roman'}
+    p.p9 {margin: 6.0px 0.0px 6.0px 0.0px; font: 14.0px 'Times New Roman'; color: #ff0000}
+    p.p10 {margin: 0.0px 0.0px 0.0px 35.5px; font: 14.0px 'Times New Roman'}
+    p.p11 {margin: 6.0px 0.0px 6.0px 0.0px; font: 12.0px 'Times New Roman'; color: #ff0000}
+    p.p12 {margin: 6.0px 0.0px 6.0px 0.0px; font: 16.0px 'Times New Roman'; color: #ff0000}
+    p.p13 {margin: 0.0px 0.0px 0.0px 35.5px; font: 65.0px 'Times New Roman'; color: #ff0000}
+    p.p14 {margin: 0.0px 0.0px 0.0px 35.5px; font: 16.0px 'Times New Roman'}
+    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'}
+    p.p16 {margin: 0.0px 0.0px 0.0px 35.5px; font: 64.0px 'Times New Roman'; color: #ff0000}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 16.0px 'Times New Roman'}
+    p.p18 {margin: 0.0px 0.0px 6.0px 0.0px; text-align: justify; font: 16.0px 'Times New Roman'}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 73.0px 'Times New Roman'; color: #ff0000}
+    p.p20 {margin: 0.0px 0.0px 0.0px 35.5px; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p21 {margin: 0.0px 0.0px 0.0px 35.5px; text-align: justify; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 44.5px 'Times New Roman'; color: #ff0000}
+    p.p23 {margin: 6.0px 0.0px 6.0px 0.0px; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p24 {margin: 0.0px 0.0px 0.0px 35.5px; font: 73.5px 'Times New Roman'; color: #ff0000}
+    p.p25 {margin: 6.0px 0.0px 6.0px 0.0px; font: 14.0px 'Times New Roman'; color: #ff0000; min-height: 16.0px}
+    p.p26 {margin: 6.0px 0.0px 6.0px 0.0px; text-align: center; font: 18.0px 'Times New Roman'}
+    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; font: 71.5px 'Times New Roman'}
+    p.p28 {margin: 0.0px 0.0px 0.0px 0.0px; font: 73.5px 'Times New Roman'}
+    p.p29 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p30 {margin: 0.0px 0.0px 0.0px 0.0px; font: 74.5px 'Times New Roman'}
+    p.p31 {margin: 0.0px 0.0px 0.0px 35.5px; font: 71.5px 'Times New Roman'}
+    p.p32 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Times New Roman'}
+    p.p33 {margin: 0.0px 0.0px 0.0px 35.5px; font: 74.5px 'Times New Roman'; color: #ff0000}
+    p.p34 {margin: 0.0px 0.0px 0.0px 0.0px; font: 74.5px 'Times New Roman'; color: #ff0000}
+    p.p35 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Times New Roman'; color: #ff0000; min-height: 16.0px}
+    p.p36 {margin: 0.0px 0.0px 0.0px 0.0px; font: 56.5px 'Times New Roman'}
+    p.p37 {margin: 0.0px 0.0px 0.0px 35.5px; font: 16.0px 'Times New Roman'; color: #ff0000}
+    p.p38 {margin: 6.0px 0.0px 6.0px 0.0px; text-align: justify; font: 14.0px 'Times New Roman'; color: #ff0000}
+    p.p39 {margin: 6.0px 0.0px 6.0px 35.5px; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p40 {margin: 6.0px 0.0px 6.0px 35.5px; font: 14.0px 'Times New Roman'; color: #ff0000}
+    p.p41 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p42 {margin: 0.0px 0.0px 0.0px 0.0px; font: 73.0px 'Times New Roman'}
+    p.p43 {margin: 6.0px 0.0px 6.0px 35.5px; font: 16.0px 'Times New Roman'; color: #ff0000}
+    p.p44 {margin: 0.0px 0.0px 0.0px 0.0px; font: 56.0px 'Times New Roman'}
+    p.p45 {margin: 6.0px 0.0px 6.0px 0.0px; text-align: center; font: 16.0px 'Times New Roman'; color: #ff0000}
+    span.s1 {font: 12.0px Helvetica}
+    span.s2 {color: #000000}
+    span.s3 {vertical-align: -6.5px}
+    span.s4 {color: #ff0000}
+    span.s5 {vertical-align: -6.0px}
+    span.s6 {font: 14.0px 'Times New Roman'; color: #000000}
+    span.s7 {vertical-align: -3.0px}
+    span.s8 {vertical-align: -7.0px}
+    span.s9 {vertical-align: -7.5px}
+    span.s10 {vertical-align: 3.5px}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2">MISSEL ROMAIN</p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p3"><br></p>
+<p class="p4"><b>TEMPS DE L’AVENT</b></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p5"><b></b><br></p>
+<p class="p6">2021</p>
+<p class="p7"><br></p>
+<p class="p7"><br></p>
+<p class="p7"><br></p>
+<p class="p7"><br></p>
+<p class="p8"><b>PREMIER DIMANCHE DE L’AVENT</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ps 24,1-3</p>
+<p class="p10"><b>Vers toi, Seigneur, j’élève mon âme.<span class="Apple-converted-space"> </span></b></p>
+<p class="p10"><b>Mon Dieu, je m’appuie sur toi :<br>
+épargne-moi la honte ;<br>
+ne laisse pas triompher mon ennemi. <br>
+Pour qui espère en toi, pas de honte.</b></p>
+<p class="p11">On ne dit pas le <span class="s2">Gloria</span> (il en est ainsi chaque fois que le <span class="s2">Gloria</span> n’est pas indiqué).</p>
+<p class="p12">PRIÈRE</p>
+<p class="p13"><span class="s3">D</span></p>
+<p class="p14"><b>onne à tes fidèles, Dieu tout-puissant, <br>
+la volonté d’aller par les chemins de la justice <br>
+à la rencontre de celui qui vient, le Christ *</b></p>
+<p class="p14"><b>afin qu’ils soient admis à sa droite /<br>
+et méritent d’entrer en possession du royaume des Cieux.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p15"><span class="s4"><b>R/. </b></span><b>Amen.</b></p>
+<p class="p9">Credo.</p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p16"><span class="s5">N</span></p>
+<p class="p14"><b>ous t’offrons, Seigneur, ces dons <br>
+prélevés sur les bienfaits reçus de toi : + <br>
+nous t’en prions, accueille-les ; *</b></p>
+<p class="p14"><b>puisse la célébration fervente,<br>
+que tu nous donnes d’accomplir dans le temps présent, /<br>
+nous obtenir la rédemption éternelle.</b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p15"><span class="s4"><b>R/. </b></span><b>Amen.</b></p>
+<p class="p12">PREFACE<span class="Apple-converted-space">                                      </span><span class="s6"><i>Les deux avènements du Christ</i></span></p>
+<p class="p15"><b>Le Seigneur soit avec vous. <br>
+</b><span class="s4">R/.<b> </b></span><b>Et avec votre esprit.</b></p>
+<p class="p17"><b>Élevons notre cœur.</b></p>
+<p class="p17"><span class="s4">R/.<b> </b></span><b>Nous le tournons vers le Seigneur.</b></p>
+<p class="p17"><b>Rendons grâce au Seigneur notre Dieu.<span class="Apple-converted-space"> </span></b></p>
+<p class="p18"><span class="s4">R/.<b> </b></span><b>Cela est juste et bon.</b></p>
+<p class="p19"><span class="s3">V</span></p>
+<p class="p14"><b>raiment, il est juste et bon, <br>
+pour ta gloire et notre salut, <br>
+de t’offrir notre action de grâce,<br>
+toujours et en tout lieu,</b></p>
+<p class="p14"><b>Seigneur, Père très saint, Dieu éternel et tout-puissant,<br>
+par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p14"><b>Car il est déjà venu,<br>
+en assumant l’humble condition de notre chair, <br>
+pour accomplir l’éternel dessein de ton amour <br>
+et nous ouvrir à jamais le chemin du salut ;</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p14"><b>il viendra de nouveau,<br>
+revêtu de sa gloire,<br>
+afin que nous possédions dans la pleine lumière<br>
+les biens que tu nous as promis<br>
+et que nous attendons en veillant dans la foi.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p14"><b>C’est pourquoi, avec les anges et les archanges,<br>
+avec les puissances d’en haut et tous les esprits bienheureux, <br>
+nous chantons l’hymne de ta gloire<br>
+et sans fin nous proclamons :</b></p>
+<p class="p21"><b></b><br></p>
+<p class="p22"><span class="s7">S</span></p>
+<p class="p14"><b>aint ! Saint ! Saint, le Seigneur, Dieu de l’univers !</b></p>
+<p class="p23"><b></b><br></p>
+<p class="p9">Prière eucharistique : textes propres « le dimanche » (I, p. 464 ; II, p. 479;<span class="Apple-converted-space">  </span>III, p. 489).</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Ps 84, 13</p>
+<p class="p10"><b>Le Seigneur donnera ses bienfaits, <br>
+et notre terre donnera son fruit.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p24"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, <br>
+fais fructifier en nous <br>
+les mystères que nous avons célébrés : *</b></p>
+<p class="p14"><b>tandis que nous marchons dans ce monde qui passe,<br>
+tu nous enseignes par eux<br>
+à aimer dès maintenant les biens du ciel, /<br>
+et à nous attacher à ceux qui demeurent.</b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p15"><span class="s4"><b>R/. </b></span><b>Amen.</b></p>
+<p class="p9">On peut prendre une formule de bénédiction solennelle, p. 526.</p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p26"><b>LUNDI DE LA PREMIÈRE SEMAINE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Jr 31, 10 ; Is 35, 4</p>
+<p class="p10"><b>Écoutez, nations, la parole du Seigneur !<br>
+Annoncez-la jusqu’aux extrémités de la terre : <br>
+Voici notre Sauveur qui vient, ne craignez plus.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur notre Dieu, nous t’en prions :+ <br>
+accorde-nous d’attendre sans faiblir la venue de ton Fils, *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>pour qu’au jour où il viendra frapper à notre porte,<br>
+il nous trouve vigilants dans la prière, /<br>
+joyeux de chanter sa louange.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’offrons, Seigneur, ces dons <br>
+prélevés sur les bienfaits reçus de toi : + <br>
+nous t’en prions, accueille-les ; *</b></p>
+<p class="p14"><b>puisse la célébration fervente,<br>
+que tu nous donnes d’accomplir dans le temps présent, /<br>
+nous obtenir la rédemption éternelle.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Ps 105, 4-5 ; Is 38, 3</p>
+<p class="p10"><b>Viens, Seigneur, nous visiter dans la paix,<br>
+afin que, de tout cœur, nous nous réjouissions devant toi.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, <br>
+fais fructifier en nous <br>
+les mystères que nous avons célébrés : *</b></p>
+<p class="p14"><b>tandis que nous marchons dans ce monde qui passe,<br>
+tu nous enseignes par eux<br>
+à aimer dès maintenant les biens du ciel, /<br>
+et à nous attacher à ceux qui demeurent.</b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>MARDI DE LA PREMIÈRE SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Za 14, 5.7</p>
+<p class="p10"><b>Voici que le Seigneur viendra, <br>
+et tous les saints avec lui ;</b></p>
+<p class="p10"><b>on verra, ce jour-là, une grande lumière.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>ois favorable à nos supplications, Seigneur Dieu ; + <br>
+nous t’en prions : accorde le secours de ta tendresse <br>
+à ceux qui sont dans l’épreuve, *</b></p>
+<p class="p14"><b>afin que, réconfortés par la présence<br>
+de ton Fils qui doit venir, /</b></p>
+<p class="p14"><b>nous soyons préservés de la dégradation du péché.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p30"><span class="s9">L</span></p>
+<p class="p14"><b>aisse-toi fléchir, Seigneur, <br>
+par nos offrandes et nos humbles prières ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous ne pouvons pas invoquer nos mérites, /<br>
+viens par ta grâce à notre secours.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. 2 Tm 4, 8</p>
+<p class="p10"><b>Le Seigneur, le juste juge, remettra la couronne de justice <br>
+à tous ceux qui désirent avec amour sa Manifestation glorieuse.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>omblés par cette nourriture spirituelle, <br>
+nous te supplions, Seigneur : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>quand nous participons à ce mystère,<br>
+apprends-nous à évaluer avec sagesse <br>
+les réalités de ce monde /<br>
+et à nous attacher aux biens du ciel. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>MERCREDI DE LA PREMIÈRE SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ha 2, 3 ; 1 Co 4, 5</p>
+<p class="p10"><b>Le Seigneur va venir sans tarder <br>
+éclairer ce que voilent nos ténèbres <br>
+et se manifester à toutes les nations.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">P</span></p>
+<p class="p14"><b>répare nos cœurs, Seigneur notre Dieu, <br>
+par ta puissance divine, *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>pour qu’à la venue du Christ, ton Fils,<br>
+nous soyons trouvés dignes<br>
+de prendre part au banquet de la vie éternelle /<br>
+et de recevoir, de sa main, la nourriture du ciel.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, + <br>
+accorde-nous de t’offrir toujours <br>
+ce sacrifice d’un cœur généreux : *</b></p>
+<p class="p14"><b>qu’il réalise le mystère sacré que tu as institué, /<br>
+et opère en nous ton salut avec puissance.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Is 40, 10 ; cf. 35, 5</p>
+<p class="p10"><b>Voici le Seigneur notre Dieu qui vient avec puissance ; <br>
+il vient illuminer le regard de ceux qui le servent.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous implorons, Seigneur, ta bonté : * <br>
+que ce réconfort divin<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous délivre de nos penchants mauvais /<br>
+et nous prépare aux fêtes qui approchent. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>JEUDI DE LA PREMIÈRE SEMAINE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ps 118, 151-152</p>
+<p class="p10"><b>Toi, Seigneur, tu es proche,<br>
+tout dans tes ordres est vérité.</b></p>
+<p class="p10"><b>Depuis longtemps je le sais :<br>
+tu as fondé pour toujours tes exigences.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">R</span></p>
+<p class="p14"><b>éveille, Seigneur, ta puissance, <br>
+et viens à notre secours avec grande force, *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>afin que le salut retardé par nos fautes /<br>
+soit hâté par la grâce de ton pardon.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’offrons, Seigneur, ces dons<br>
+<span class="Apple-converted-space"> </span>prélevés sur les bienfaits reçus de toi : + <br>
+nous t’en prions, accueille-les ; *</b></p>
+<p class="p14"><b>puisse la célébration fervente,<br>
+que tu nous donnes d’accomplir dans le temps présent, /<br>
+nous obtenir la rédemption éternelle.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b><span class="Apple-converted-space"> </span></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Tt 2, 12-13</p>
+<p class="p10"><b>Vivons dans le temps présent<br>
+avec justice et piété,</b></p>
+<p class="p10"><b>attendant que se réalise la bienheureuse espérance<br>
+la manifestation de la gloire de notre grand Dieu.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, <br>
+fais fructifier en nous <br>
+les mystères que nous avons célébrés : *</b></p>
+<p class="p14"><b>tandis que nous marchons dans ce monde qui passe,<br>
+tu nous enseignes par eux<br>
+à aimer dès maintenant les biens du ciel, /<br>
+et à nous attacher à ceux qui demeurent.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>VENDREDI DE LA PREMIÈRE SEMAINE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE</p>
+<p class="p10"><b>Voici que le Seigneur viendra avec splendeur,<br>
+pour visiter son peuple dans la paix <br>
+et lui donner la vie éternelle.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">R</span></p>
+<p class="p14"><b>éveille, Seigneur, ta puissance, et viens : * <br>
+afin que, sous ta protection,<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous puissions être délivrés des dangers imminents<br>
+où nous mettent nos péchés, /<br>
+et sauvés par toi, notre libérateur.</b></p>
+<p class="p14"><b>Toi qui vis et règnes avec le Père dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p30"><span class="s9">L</span></p>
+<p class="p14"><b>aisse-toi fléchir, Seigneur, <br>
+par nos offrandes et nos humbles prières ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous ne pouvons pas invoquer nos mérites, /<br>
+viens par ta grâce à notre secours.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Ph 3, 20-21</p>
+<p class="p10"><b>Nous attendons comme Sauveur le Seigneur Jésus Christ, <br>
+lui qui transformera nos pauvres corps <br>
+à l’image de son corps glorieux.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p31"><span class="s3">C</span></p>
+<p class="p14"><b>omblés par cette nourriture spirituelle, <br>
+nous te supplions, Seigneur : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>quand nous participons à ce mystère, <br>
+apprends-nous à évaluer avec sagesse <br>
+les réalités de ce monde / <br>
+et à nous attacher aux biens du ciel.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>SAMEDI DE LA PREMIÈRE SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ps 79, 4.2</p>
+<p class="p10"><b>Viens, Seigneur,<br>
+toi qui sièges au-dessus des Kéroubim ;</b></p>
+<p class="p10"><b>montre-nous ton visage, <br>
+et nous serons sauvés.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur Dieu, + <br>
+tu as envoyé ton Fils unique dans ce monde <br>
+pour libérer le genre humain de sa condition périssable ; *</b></p>
+<p class="p14"><b>à ceux qui t’appellent du fond du cœur,<br>
+accorde généreusement la grâce de ta tendresse /</b></p>
+<p class="p14"><b>pour qu’ils parviennent à la vraie liberté.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, + <br>
+accorde-nous de t’offrir toujours <br>
+ce sacrifice d’un cœur généreux : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>qu’il réalise le mystère sacré que tu as institué, /<br>
+et opère en nous ton salut avec puissance.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Ap 22, 12</p>
+<p class="p32"><b>Voici que je viens sans tarder, dit le Seigneur, <br>
+et j’apporte avec moi le salaire<br>
+que je vais donner à chacun selon ce qu’il a fait.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous implorons, Seigneur, ta bonté : * <br>
+que ce réconfort divin<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous délivre de nos penchants mauvais /<br>
+et nous prépare aux fêtes qui approchent.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>DEUXIÈME DIMANCHE DE L’AVENT</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Is 30, 19.30</p>
+<p class="p10"><b>Peuple de Sion, voici que le Seigneur va venir <br>
+pour sauver les nations.</b></p>
+<p class="p10"><b>Il fera entendre sa voix majestueuse <br>
+pour la joie de vos cœurs.</b></p>
+<p class="p9">On ne dit pas le <span class="s2">Gloria.<span class="Apple-converted-space"> </span></span></p>
+<p class="p12">PRIÈRE</p>
+<p class="p33"><span class="s9">D</span></p>
+<p class="p14"><b>ieu de puissance et de miséricorde, + <br>
+ne laisse pas le souci de nos tâches présentes <br>
+entraver la marche de ceux qui se hâtent<br>
+à la rencontre de ton Fils ; *</b></p>
+<p class="p14"><b>mais forme-nous à la sagesse d’en-haut, /<br>
+qui nous fait entrer en communion avec lui.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p9">Credo.</p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p34"><span class="s9">L</span></p>
+<p class="p14"><b>aisse-toi fléchir, Seigneur, <br>
+par nos offrandes et nos humbles prières ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous ne pouvons pas invoquer nos mérites, /<br>
+viens par ta grâce à notre secours.</b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Ba 5, 5 ; 4, 36</p>
+<p class="p10"><b>Debout, Jérusalem, tiens-toi sur la hauteur, <br>
+et vois l’allégresse qui te vient de ton Dieu.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>omblés par cette nourriture spirituelle, <br>
+nous te supplions, Seigneur : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>quand nous participons à ce mystère, <br>
+apprends-nous à évaluer avec sagesse <br>
+les réalités de ce monde / <br>
+et à nous attacher aux biens du ciel.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">On peut prendre une formule de bénédiction solennelle, p. 526.</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p26"><b>LUNDI DE LA DEUXIÈME SEMAINE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Jr 31, 10 ; Is 35, 4</p>
+<p class="p10"><b>Écoutez, nations, la parole du Seigneur !<br>
+Annoncez-la jusqu’aux extrémités de la terre : <br>
+voici notre Sauveur qui vient, ne craignez plus.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p36"><span class="s10">Q</span></p>
+<p class="p14"><b>ue monte en ta présence, Seigneur,</b></p>
+<p class="p14"><b>notre prière instante, *</b></p>
+<p class="p14"><b>pour que les désirs de tes serviteurs s’accordent en toute pureté /<br>
+au grand mystère de l’incarnation de ton Fils unique.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’offrons, Seigneur, ces dons <br>
+prélevés sur les bienfaits reçus de toi : + <br>
+nous t’en prions, accueille-les ; *</b></p>
+<p class="p14"><b>puisse la célébration fervente,<br>
+que tu nous donnes d’accomplir dans le temps présent, / <br>
+nous obtenir la rédemption éternelle.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur</b>.<span class="Apple-converted-space"> </span></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Ps 105, 4-5 ; Is 38, 3</p>
+<p class="p10"><b>Viens, Seigneur, nous visiter dans la paix ; <br>
+en ta présence nous goûterons la joie.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, <br>
+fais fructifier en nous <br>
+les mystères que nous avons célébrés : *</b></p>
+<p class="p14"><b>tandis que nous marchons dans ce monde qui passe,<br>
+tu nous enseignes par eux<br>
+à aimer dès maintenant les biens du ciel, /<br>
+et à nous attacher à ceux qui demeurent.</b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>MARDI DE LA DEUXIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Za 14, 5.7</p>
+<p class="p10"><b>Voici que le Seigneur viendra, <br>
+et tous les saints avec lui ;</b></p>
+<p class="p10"><b>on verra, ce jour-là, une grande lumière.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur Dieu, + <br>
+tu as manifesté jusqu’aux extrémités de la terre <br>
+celui qui apporte ton salut ; *</b></p>
+<p class="p14"><b>nous t’en prions, accorde-nous d’attendre dans la joie /<br>
+le jour glorieux de sa naissance.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p30"><span class="s9">L</span></p>
+<p class="p14"><b>aisse-toi fléchir, Seigneur, <br>
+par nos offrandes et nos humbles prières ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous ne pouvons pas invoquer nos mérites, /<br>
+viens par ta grâce à notre secours.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. 2 Tm 4, 8</p>
+<p class="p10"><b>Le Seigneur, le juste juge, remettra la couronne de justice <br>
+à tous ceux qui désirent avec amour sa Manifestation glorieuse.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>omblés par cette nourriture spirituelle, <br>
+nous te supplions, Seigneur : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>quand nous participons à ce mystère, <br>
+apprends-nous à évaluer avec sagesse <br>
+les réalités de ce monde /<br>
+et à nous attacher aux biens du ciel. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>MERCREDI DE LA DEUXIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ha 2, 3 ; 1 Co 4, 5</p>
+<p class="p10"><b>Le Seigneur va venir sans tarder <br>
+éclairer ce que voilent nos ténèbres <br>
+et se manifester à toutes les nations.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">D</span></p>
+<p class="p14"><b>ieu tout-puissant, + <br>
+tu nous demandes de préparer <br>
+le chemin du Christ, le Seigneur ; *</b></p>
+<p class="p14"><b>dans ta bonté, ne permets pas que la faiblesse nous accable, /<br>
+nous qui attendons d’être réconfortés<br>
+par la présence du médecin qui vient du ciel.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p37">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, + <br>
+accorde-nous de t’offrir toujours <br>
+ce sacrifice d’un cœur généreux : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>qu’il réalise le mystère sacré que tu as institué, /<br>
+et opère en nous ton salut avec puissance.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Is 40, 10 ; cf. 34, 5</p>
+<p class="p10"><b>Voici le Seigneur Dieu qui vient avec puissance ; <br>
+il vient illuminer le regard de ceux qui le servent.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous implorons, Seigneur, ta bonté : * <br>
+que ce réconfort divin<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous délivre de nos penchants mauvais /<br>
+et nous prépare aux fêtes qui approchent. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>JEUDI DE LA DEUXIÈME SEMAINE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ps 118, 151-152</p>
+<p class="p10"><b>Toi, Seigneur, tu es proche,<br>
+tout dans tes ordres est vérité.</b></p>
+<p class="p10"><b>Depuis longtemps je le sais :<br>
+tu as fondé pour toujours tes exigences.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">R</span></p>
+<p class="p14"><b>éveille-nos cœurs, Seigneur, <br>
+pour préparer les chemins de ton Fils unique, * <br>
+afin que, par son avènement, /</b></p>
+<p class="p14"><b>nous puissions te servir d’un esprit purifié.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’offrons, Seigneur, ces dons <br>
+prélevés sur les bienfaits reçus de toi : + <br>
+nous t’en prions, accueille-les ; *</b></p>
+<p class="p14"><b>puisse la célébration fervente,<br>
+que tu nous donnes d’accomplir dans le temps présent, /<br>
+nous obtenir la rédemption éternelle.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Tt 2, 12-13</p>
+<p class="p10"><b>Vivons dans le temps présent<br>
+avec justice et piété,</b></p>
+<p class="p10"><b>attendant que se réalise bienheureuse espérance<br>
+la manifestation de la gloire de notre grand Dieu.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, <br>
+fais fructifier en nous <br>
+les mystères que nous avons célébrés : *</b></p>
+<p class="p14"><b>tandis que nous marchons dans ce monde qui passe,<br>
+tu nous enseignes par eux<br>
+à aimer dès maintenant les biens du ciel, /<br>
+et à nous attacher à ceux qui demeurent.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p14"><span class="s4"><b>R/. </b></span><b>Amen.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>VENDREDI DE LA DEUXIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE</p>
+<p class="p10"><b>Voici que le Seigneur viendra avec splendeur, <br>
+pour visiter son peuple dans la paix <br>
+et lui donner la vie éternelle.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Dieu tout-puissant, + <br>
+accorde à ton peuple d’attendre avec une grande vigilance <br>
+l’avènement de ton Fils unique ; *</b></p>
+<p class="p14"><b>puissions-nous, comme l’enseigne notre Sauveur,<br>
+rester en éveil et nous hâter à sa rencontre /<br>
+avec nos lampes allumées.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p30"><span class="s9">L</span></p>
+<p class="p14"><b>aisse-toi fléchir, Seigneur, <br>
+par nos offrandes et nos humbles prières ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous ne pouvons pas invoquer nos mérites, /<br>
+viens par ta grâce à notre secours.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Ph 3, 20-21</p>
+<p class="p10"><b>Nous attendons comme Sauveur le Seigneur Jésus Christ, <br>
+lui qui transformera nos pauvres corps <br>
+à l’image de son corps glorieux.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>omblés par cette nourriture spirituelle, <br>
+nous te supplions, Seigneur : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>quand nous participons à ce mystère, <br>
+apprends-nous à évaluer avec sagesse <br>
+les réalités de ce monde / <br>
+et à nous attacher aux biens du ciel.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>SAMEDI DE LA DEUXIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ps 79, 4.2</p>
+<p class="p10"><b>Viens, Seigneur,<br>
+toi qui sièges au-dessus des Kéroubim ;</b></p>
+<p class="p10"><b>montre-nous ton visage,<br>
+et nous serons sauvés.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p36"><span class="s10">Q</span></p>
+<p class="p14"><b>ue se lève en nos cœurs la splendeur de ta gloire,</b></p>
+<p class="p14"><b>nous t’en prions, Dieu tout-puissant ; *</b></p>
+<p class="p14"><b>ainsi, l’avènement de ton Fils unique,<br>
+dissipant les ombres de la nuit, /<br>
+fera voir au grand jour<br>
+que nous sommes fils de la lumière.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, + <br>
+accorde-nous de t’offrir toujours <br>
+ce sacrifice d’un cœur généreux : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>qu’il réalise le mystère sacré que tu as institué, /<br>
+et opère en nous ton salut avec puissance.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Ap 22, 12</p>
+<p class="p10"><b>Voici que je viens sans tarder, dit le Seigneur, <br>
+et j’apporte avec moi le salaire<br>
+que je vais donner à chacun selon ce qu’il a fait.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous implorons, Seigneur, ta bonté : * <br>
+que ce réconfort divin<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous délivre de nos penchants mauvais /<br>
+et nous prépare aux fêtes qui approchent.<span class="Apple-converted-space"> </span></b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>TROISIÈME DIMANCHE DE L’AVENT</b></p>
+<p class="p9">Pour cette messe, on utilise le violet ou le rose comme couleur liturgique.</p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ph 4, 4.5</p>
+<p class="p10"><b>Soyez toujours dans la joie du Seigneur ; <br>
+je le redis : soyez dans la joie. <br>
+Le Seigneur est proche.</b></p>
+<p class="p9">On ne dit pas le <span class="s2">Gloria.<span class="Apple-converted-space"> </span></span></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">T</span></p>
+<p class="p14"><b>u le vois, Seigneur Dieu, + <br>
+ton peuple attend avec foi <br>
+la fête de la naissance de ton Fils ; *</b></p>
+<p class="p14"><b>nous t’en prions, accorde-nous<br>
+de parvenir au bonheur d’un tel salut, /<br>
+et de le célébrer solennellement avec une joie toujours nouvelle.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p9">Credo.</p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, + <br>
+accorde-nous de t’offrir toujours <br>
+ce sacrifice d’un cœur généreux : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>qu’il réalise le mystère sacré que tu as institué, /<br>
+et opère en nous ton salut avec puissance.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1 ou 2, p. 3 ou 28.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Is 35, 4</p>
+<p class="p10"><b>Dites aux esprits abattus :<br>
+«  Soyez forts, ne craignez pas. <br>
+Voici notre Dieu :<br>
+Il vient et va nous sauver.</b></p>
+<p class="p12">PRIÈRE APRES LA COMMUNION</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous implorons, Seigneur, ta bonté : * <br>
+que ce réconfort divin<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous délivre de nos penchants mauvais /<br>
+et nous prépare aux fêtes qui approchent. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p9">On peut prendre une formule de bénédiction solennelle, p. 526.</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p26"><b>LUNDI DE LA TROISIÈME SEMAINE</b></p>
+<p class="p38">Quand on dit, pendant cette semaine, une messe de la férie, on emploie les textes proposés ici, à moins qu’il ne s’agisse des féries de l’Avent du 17 au 24 décembre (voir p. 31).</p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Jr 31, 10 ; Is 35, 4</p>
+<p class="p10"><b>Écoutez, nations, la parole du Seigneur !<br>
+Annoncez-la jusqu’aux extrémités de la terre : <br>
+voici notre Sauveur qui vient, ne craignez plus.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">D</span></p>
+<p class="p14"><b>ans ta tendresse, nous t’en prions, Seigneur, + <br>
+prête l’oreille à notre voix : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>éclaire les ténèbres de nos cœurs, /<br>
+par la grâce de ton Fils qui vient nous visiter.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’offrons, Seigneur, ces dons <br>
+prélevés sur les bienfaits reçus de toi : + <br>
+nous t’en prions, accueille-les ; *</b></p>
+<p class="p14"><b>puisse la célébration fervente,<br>
+que tu nous donnes d’accomplir dans le temps présent, /<br>
+nous obtenir la rédemption éternelle.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Ps 105, 4-5 ; Is 38, 3</p>
+<p class="p10"><b>Viens, Seigneur, nous visiter dans la paix ; <br>
+en ta présence nous goûterons la joie.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, <br>
+fais fructifier en nous <br>
+les mystères que nous avons célébrés : *</b></p>
+<p class="p14"><b>tandis que nous marchons dans ce monde qui passe,<br>
+tu nous enseignes par eux</b></p>
+<p class="p14"><b>à aimer dès maintenant les biens du ciel, /<br>
+et à nous attacher à ceux qui demeurent.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>MARDI DE LA TROISIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Za 14, 5.7</p>
+<p class="p10"><b>Voici que le Seigneur viendra, <br>
+et tous les saints avec lui ;</b></p>
+<p class="p10"><b>on verra, ce jour-là, une grande lumière.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur Dieu, <br>
+tu as fait de nous une créature nouvelle dans ton Fils unique ; + <br>
+regarde avec bonté les œuvres de ta miséricorde, *</b></p>
+<p class="p14"><b>et lors de la venue de ton Fils, /<br>
+purifie-nous de la dégradation des péchés.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p30"><span class="s9">L</span></p>
+<p class="p14"><b>aisse-toi fléchir, Seigneur, <br>
+par nos offrandes et nos humbles prières ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous ne pouvons pas invoquer nos mérites, /<br>
+viens par ta grâce à notre secours.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. 2 Tm 4, 8</p>
+<p class="p10"><b>Le Seigneur, le juste juge, remettra la couronne de justice <br>
+à tous ceux qui désirent avec amour sa Manifestation glorieuse.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>omblés par cette nourriture spirituelle, <br>
+nous te supplions, Seigneur : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>quand nous participons à ce mystère,<br>
+apprends-nous à évaluer avec sagesse <br>
+les réalités de ce monde /<br>
+et à nous attacher aux biens du ciel. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>MERCREDI DE LA TROISIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ha 2, 3 ; 1 Co 4, 5</p>
+<p class="p10"><b>Le Seigneur va venir sans tarder <br>
+éclairer ce que voilent nos ténèbres <br>
+et se manifester à toutes les nations.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Dieu tout-puissant : * <br>
+que la fête prochaine de la venue de ton Fils<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous procure la guérison pour la vie présente /<br>
+et nous assure une récompense éternelle.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, + <br>
+accorde-nous de t’offrir toujours <br>
+ce sacrifice d’un cœur généreux : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>qu’il réalise le mystère sacré que tu as institué, /<br>
+et opère en nous ton salut avec puissance.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Is 40, 10 ; cf. 34, 5</p>
+<p class="p10"><b>Voici le Seigneur Dieu qui vient avec puissance ; <br>
+il vient illuminer le regard de ceux qui le servent.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous implorons, Seigneur, ta bonté : * <br>
+que ce réconfort divin<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous délivre de nos penchants mauvais /<br>
+et nous prépare aux fêtes qui approchent. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>JEUDI DE LA TROISIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ps 118, 151-152</p>
+<p class="p10"><b>Toi, Seigneur, tu es proche,<br>
+tout dans tes ordres est vérité.</b></p>
+<p class="p10"><b>Depuis longtemps je le sais :<br>
+tu as fondé pour toujours tes exigences.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur, nous sommes pour toi des serviteurs indignes, <br>
+attristés par la conscience de nos fautes ; * <br>
+nous t’en prions :</b></p>
+<p class="p14"><b>réjouis-nous par l’avènement de ton Fils unique, /<br>
+qui apporte le salut.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’offrons, Seigneur, ces dons <br>
+prélevés sur les bienfaits reçus de toi : + <br>
+nous t’en prions, accueille-les ; *</b></p>
+<p class="p14"><b>puisse la célébration fervente,<br>
+que tu nous donnes d’accomplir dans le temps présent, /<br>
+nous obtenir la rédemption éternelle.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b><span class="Apple-converted-space"> </span></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Tt 2, 12-13</p>
+<p class="p10"><b>Vivons dans le temps présent<br>
+avec justice et piété,</b></p>
+<p class="p10"><b>attendant comme bienheureuse espérance<br>
+la manifestation de la gloire de notre grand Dieu.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, <br>
+fais fructifier en nous <br>
+les mystères que nous avons célébrés : *</b></p>
+<p class="p14"><b>tandis que nous marchons dans ce monde qui passe,<br>
+tu nous enseignes par eux<br>
+à aimer dès maintenant les biens du ciel, /<br>
+et à nous attacher à ceux qui demeurent.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p39"><b></b><br></p>
+<p class="p39"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>VENDREDI DE LA TROISIÈME SEMAINE<span class="Apple-converted-space"> </span></b></p>
+<p class="p9">ANTIENNE D’OUVERTURE</p>
+<p class="p10"><b>Voici que le Seigneur viendra avec splendeur, <br>
+pour visiter son peuple dans la paix <br>
+et lui donner la vie éternelle.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p36"><span class="s10">Q</span></p>
+<p class="p14"><b>ue ta grâce, Dieu tout-puissant,</b></p>
+<p class="p14"><b>nous devance et nous accompagne toujours, *</b></p>
+<p class="p14"><b>afin que nous obtenions des secours<br>
+pour la vie présente et pour la vie future, /<br>
+nous qui attendons et désirons de tout cœur<br>
+la venue de ton Fils unique.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p30"><span class="s9">L</span></p>
+<p class="p14"><b>aisse-toi fléchir, Seigneur, <br>
+par nos offrandes et nos humbles prières ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous ne pouvons pas invoquer nos mérites, /<br>
+viens par ta grâce à notre secours.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 1, p. 3.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Ph 3, 20-21</p>
+<p class="p10"><b>Nous attendons comme Sauveur le Seigneur Jésus Christ, <br>
+lui qui transformera nos pauvres corps <br>
+à l’image de son corps glorieux.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION<span class="Apple-converted-space"> </span></p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>omblés par cette nourriture spirituelle, <br>
+nous te supplions, Seigneur : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>quand nous participons à ce mystère, <br>
+apprends-nous à évaluer avec sagesse <br>
+les réalités de ce monde / <br>
+et à nous attacher aux biens du ciel.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>QUATRIÈME DIMANCHE DE L’AVENT</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Is 45, 8 (Vg)</p>
+<p class="p10"><b>Cieux, distillez d’en haut votre rosée, <br>
+que descende le Juste, comme une pluie,<br>
+que la terre s’ouvre, et que germe le Sauveur.</b></p>
+<p class="p12">PRIÈRE<span class="Apple-converted-space"> </span></p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous te prions, Seigneur : <br>
+de répandre ta grâce en nos cœurs ; +</b></p>
+<p class="p14"><b>par le message de l’Ange, tu nous as fait connaître<br>
+l’incarnation de ton Fils bien-aimé ;<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>conduis-nous par sa passion et par sa croix /<br>
+jusqu’à la gloire de la résurrection.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p40">Credo.</p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>es offrandes déposées sur ton autel, Seigneur, <br>
+que l’Esprit les sanctifie, / <br>
+lui dont la puissance a fécondé <br>
+le sein de la bienheureuse Marie.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p12">PRÉFACE <span class="Apple-converted-space">                                  </span><span class="s6"><i>L’attente des deux avènements du Christ</i></span></p>
+<p class="p15"><b>Le Seigneur soit avec vous. <br>
+</b><span class="s4">R/.<b> </b></span><b>Et avec votre esprit.</b></p>
+<p class="p17"><b>Élevons notre cœur.</b></p>
+<p class="p17"><span class="s4">R/.<b> </b></span><b>Nous le tournons vers le Seigneur.</b></p>
+<p class="p17"><b>Rendons grâce au Seigneur notre Dieu.<span class="Apple-converted-space"> </span></b></p>
+<p class="p18"><span class="s4">R/.<b> </b></span><b>Cela est juste et bon.</b></p>
+<p class="p41"><b></b><br></p>
+<p class="p19"><span class="s3">V</span></p>
+<p class="p14"><b>raiment, il est juste et bon, <br>
+pour ta gloire et notre salut,<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>de t’offrir notre action de grâce,<br>
+toujours et en tout lieu,</b></p>
+<p class="p14"><b>Seigneur, Père très saint, <br>
+Dieu éternel et tout-puissant,<br>
+par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p14"><b>Il est celui que tous les prophètes avaient annoncé, <br>
+celui que la Vierge Mère attendait dans le secret de son amour, <br>
+celui dont Jean Baptiste a proclamé la venue <br>
+et révélé manifesté la présence.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p14"><b>C’est lui qui nous donne la joie<br>
+d’entrer déjà dans le mystère de Noël,<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>pour qu’il nous trouve, quand il viendra, vigilants dans la prière<br>
+et remplis d’allégresse.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p14"><b>C’est pourquoi, avec les anges et les archanges,<br>
+avec les puissances d’en haut et tous les esprits bienheureux, nous<br>
+chantons l’hymne de ta gloire<br>
+et sans fin nous proclamons :</b></p>
+<p class="p41"><b></b><br></p>
+<p class="p22"><span class="s7">S</span></p>
+<p class="p14"><b>aint ! Saint ! Saint, le Seigneur, Dieu de l’univers !</b></p>
+<p class="p23"><b></b><br></p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Is 7, 14 (Mt 1, 23)</p>
+<p class="p10"><b>Voici que la Vierge concevra, <br>
+elle enfantera un fils,</b></p>
+<p class="p10"><b>auquel on donnera le nom d’Emmanuel : <br>
+Dieu-avec-nous.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p42"><span class="s9">A</span></p>
+<p class="p14"><b>près avoir reçu le gage de la rédemption éternelle, <br>
+Dieu tout-puissant, nous te prions : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>à mesure qu’approche le jour où nous fêterons le salut,<br>
+donne-nous une ferveur de plus en plus grande, /<br>
+pour célébrer dignement le mystère de la nativité de ton Fils.</b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+<p class="p9">On peut prendre une formule de bénédiction solennelle, p. (é- ;</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p26"><b>FÉRIES DE L’AVENT DU 17 AU 24 DÉCEMBRE</b></p>
+<p class="p38">Chacun des jours qui précèdent Noël, on prend les textes ci-dessous, sauf le dimanche, qui garde son formulaire propre, p. 27 ;</p>
+<p class="p26"><b>17 DÉCEMBRE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Is 49, 13</p>
+<p class="p10"><b>Cieux, criez de joie ! Terre, exulte ! <br>
+car le Seigneur vient ;</b></p>
+<p class="p10"><b>de ses pauvres, il a compassion.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">D</span></p>
+<p class="p14"><b>ieu, créateur et rédempteur du genre humain, +<br>
+<span class="Apple-converted-space"> </span>tu as voulu que ton Verbe prenne chair <br>
+dans le sein de Marie toujours vierge ; *</b></p>
+<p class="p14"><b>sois favorable à notre prière : /<br>
+que ton Fils unique, qui a pris notre humanité,<br>
+nous donne part à sa vie divine.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>anctifie, Seigneur, les dons de ton Église, * <br>
+et accorde-nous, dans ces mystères que nous vénérons, / <br>
+le pain du ciel qui refera nos forces.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28 ;</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Ag 2, 8 (Vg)</p>
+<p class="p10"><b>Il vient, celui que tous les peuples attendent ; <br>
+la maison du Seigneur va se remplir de gloire.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p30"><span class="s9">R</span></p>
+<p class="p14"><b>assasiés par le don qui vient de toi, <br>
+nous te prions, Dieu tout-puissant : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>entretiens en nous le désir<br>
+de brûler au feu de ton Esprit /</b></p>
+<p class="p14"><b>pour briller comme de vives lumières<br>
+lorsque viendra le Christ.</b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>18 DÉCEMBRE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE</p>
+<p class="p10"><b>Il vient, le Christ, notre Roi ; <br>
+Jean lui rend témoignage :<br>
+Voici l’Agneau qui devait venir.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Dieu tout-puissant : + <br>
+nous ployons sous le joug du péché <br>
+qui depuis longtemps nous réduit en esclavage,</b></p>
+<p class="p14"><b>accorde-nous d’être délivrés, /<br>
+nous qui attendons la naissance incomparable de ton Fils unique.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b><span class="Apple-converted-space"> </span></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p36"><span class="s10">Q</span></p>
+<p class="p14"><b>ue le sacrifice célébré pour toi, Seigneur,<br>
+nous rende agréables à ton nom ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous pourrons ainsi partager l’éternité<br>
+de celui qui nous a guéris de la mort /<br>
+en prenant notre condition mortelle.</b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Mt 1, 23 (cf. Is 7, 14)</p>
+<p class="p10"><b>On lui donnera le nom d’Emmanuel, <br>
+qui se traduit : Dieu-avec-nous.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p30"><span class="s9">P</span></p>
+<p class="p14"><b>uissions-nous, Seigneur, + <br>
+accueillir ta miséricorde au milieu de ton temple, *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>et préparer, en t’honorant comme il convient, /<br>
+la fête prochaine de notre rédemption.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>19 DÉCEMBRE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. He 10, 37</p>
+<p class="p10"><b>Celui qui doit venir arrivera, <br>
+il ne tardera pas ;</b></p>
+<p class="p10"><b>alors, plus de crainte sur notre terre, <br>
+car il est notre Sauveur.</b></p>
+<p class="p43">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur Dieu, + <br>
+par la maternité de la Vierge sainte, <br>
+tu as voulu révéler au monde la splendeur de ta gloire ; *</b></p>
+<p class="p14"><b>nous t’en prions : accorde-nous de vénérer<br>
+le mystère si grand de l’incarnation<br>
+dans la pureté de la foi /<br>
+et de le célébrer toujours dans l’obéissance du cœur.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p30"><span class="s9">R</span></p>
+<p class="p14"><b>egarde avec bonté, <br>
+nous t’en prions, Seigneur, <br>
+les offrandes apportées à ton autel : *</b></p>
+<p class="p14"><b>que les dons présentés par nous, dans notre faiblesse, /<br>
+soient consacrés par ta puissance.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28 ;</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Lc 1, 78-79</p>
+<p class="p10"><b>L’Astre d’en haut nous visitera<br>
+pour conduire nos pas au chemin de la paix.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous te rendons grâce, Dieu tout-puissant, <br>
+pour les bienfaits déjà reçus ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>dans ta bonté, fais-nous désirer<br>
+ceux que tu vas nous donner bientôt ; /<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>nous accueillerons alors d’un esprit purifié<br>
+la naissance admirable de notre Sauveur.<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>20 DÉCEMBRE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Is 11, 1 ; 40, 5 ; Lc 3, 6</p>
+<p class="p10"><b>Un rameau sortira de la souche de Jessé, <br>
+la gloire du Seigneur remplira toute la terre, <br>
+et tout être de chair verra le salut de Dieu.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">D</span></p>
+<p class="p14"><b>ieu d’éternelle majesté, + <br>
+à l’annonce de l’Ange, <br>
+la Vierge immaculée accueillit ton Verbe indicible,<br>
+et, devenue la demeure de Dieu,<br>
+elle fut remplie de la lumière de l’Esprit Saint ; *</b></p>
+<p class="p14"><b>nous te demandons qu’à son exemple /<br>
+nous puissions nous attacher humblement à ta volonté.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p28"><span class="s8">N</span></p>
+<p class="p14"><b>ous t’en prions, Seigneur, + <br>
+regarde ce sacrifice unique, *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>et, par notre communion à ce mystère,<br>
+accorde-nous de recevoir les biens que nous attendons /<br>
+et que notre foi nous donne d’espérer.</b></p>
+<p class="p14"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28 ;</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Lc 1, 31</p>
+<p class="p10"><b>L’Ange dit à Marie :</b><span class="s4"><br>
+</span><b>Voici que tu vas concevoir et enfanter un fils ; <br>
+tu lui donneras le nom de Jésus.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>eux que tu renouvelles par le don venu du ciel, <br>
+garde-les, Seigneur, en ta divine protection : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>qu’ils trouvent, en communiant à tes mystères, /<br>
+la joie dans la paix véritable.</b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>21 DÉCEMBRE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Is 7, 14 ; 8, 10</p>
+<p class="p10"><b>Voici venir le Seigneur Souverain : <br>
+il aura pour nom Emmanuel c<br>
+car il sera : Dieu avec nous.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p44"><span class="s9">É</span></p>
+<p class="p14"><b>coute avec bonté, Seigneur, la prière de ton peuple <br>
+qui se réjouit de la venue de ton Fils unique en notre chair; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>puissions-nous, quand il viendra en majesté, /<br>
+obtenir la récompense de la vie éternelle.</b></p>
+<p class="p14"><b>Par Jésus Christ, ton Fils, notre Seigneur, +<br>
+qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES<span class="Apple-converted-space"> </span></p>
+<p class="p42"><span class="s9">A</span></p>
+<p class="p14"><b>ccueille favorablement, Seigneur, ces présents <br>
+que, dans ta miséricorde, tu as donnés à ton Église <br>
+pour qu’elle puisse te les offrir ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>fais qu’ils deviennent, par ta puissance /<br>
+le sacrement de notre salut. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>cf. Lc 1, 45</p>
+<p class="p10"><b>Heureuse, toi qui as cru,</b></p>
+<p class="p10"><b>car s’accompliront les paroles<br>
+qui te furent dites de la part du Seigneur.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p36"><span class="s10">Q</span></p>
+<p class="p14"><b>ue la participation aux divins mystères, Seigneur, <br>
+garde à jamais ton peuple : *</b></p>
+<p class="p14"><b>qu’en s’attachant pleinement au service de ta gloire, / <br>
+il reçoive en abondance le salut de l’âme et du corps. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p20"><b></b><br></p>
+<p class="p26"><b>22 DÉCEMBRE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>Ps 23, 7</p>
+<p class="p10"><b>Portes, levez vos frontons ! <br>
+élevez-vous, portes éternelles :<span class="Apple-converted-space"> </span></b></p>
+<p class="p10"><b>qu’il entre, le roi de gloire !</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur Dieu, + <br>
+par la venue de ton Fils Unique, <br>
+tu as voulu racheter l’homme déchu,<br>
+que tu voyais soumis à la mort ; *</b></p>
+<p class="p14"><b>accorde à ceux qui reconnaissent humblement <br>
+le mystère de son incarnation, /<br>
+de mériter aussi d’avoir part aussi à la vie d’un tel Rédempteur.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p27"><span class="s3">C</span></p>
+<p class="p14"><b>onfiants dans ta tendresse, Seigneur, + <br>
+nous approchons de ton autel avec respect <br>
+en apportant nos présents : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>puissions-nous, par un effet de ta grâce, qui nous purifie<br>
+être renouvelés par ces mystères que nous célébrons. <br>
+Par le Christ, notre Seigneur.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Lc 1, 46.49</p>
+<p class="p10"><b>Mon âme exalte le Seigneur :<br>
+le Puissant fit pour moi des merveilles.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p36"><span class="s10">Q</span></p>
+<p class="p15"><b>ue la communion à ton sacrement</b></p>
+<p class="p15"><b>nous fortifie, Seigneur, *</b></p>
+<p class="p15"><b>afin que nous puissions, en faisant le bien,<br>
+aller au-devant du Sauveur qui vient /<br>
+et mériter ainsi la récompense du bonheur promis.</b></p>
+<p class="p15"><b>Par le Christ, notre Seigneur.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>23 DÉCEMBRE</b></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Is 9, 5 ; Ps 71, 17</p>
+<p class="p10"><b>Un enfant va naître pour nous ; on l’appellera Dieu Fort : <br>
+en lui seront bénies toutes les familles de la terre.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p30"><span class="s9">D</span></p>
+<p class="p14"><b>ieu éternel et tout-puissant, + <br>
+tandis que nous voyons approcher <br>
+la naissance de ton Fils selon la chair,<br>
+nous te prions : *</b></p>
+<p class="p14"><b>que ton Verbe fasse miséricorde<br>
+aux indignes serviteurs que nous sommes, /</b></p>
+<p class="p14"><b>lui, Jésus le Christ, notre Seigneur,<br>
+qui daigna prendre chair de la Vierge Marie<br>
+et habiter parmi nous.</b></p>
+<p class="p14"><b>Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p36"><span class="s10">Q</span></p>
+<p class="p14"><b>ue cette offrande te soit agréable, Seigneur, +<br>
+elle qui nous introduit dans la plénitude du culte divin ; *</b></p>
+<p class="p14"><b>puissions-nous ainsi célébrer avec un esprit purifié /<br>
+la naissance de notre Rédempteur.</b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Ap 3, 20</p>
+<p class="p10"><b>Voici que je me tiens à la porte<br>
+et je frappe, dit le Seigneur ;</b></p>
+<p class="p10"><b>Si quelqu’un entend ma voix et ouvre la porte<br>
+j’entrerai chez lui,<br>
+je prendrai mon repas avec lui,<br>
+et lui avec moi.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p30"><span class="s9">D</span></p>
+<p class="p14"><b>ans ta bonté, accorde ta paix, Seigneur, <br>
+à ceux que tu as rassasiés d’un aliment venu du ciel, *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>pour que, gardant nos lampes allumées,<br>
+nous puissions attendre la rencontre /<br>
+avec ton Fils bien-aimé qui vient.</b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+<p class="p29"><b></b><br></p>
+<p class="p29"><b></b><br></p>
+<p class="p26"><b>24 DÉCEMBRE</b></p>
+<p class="p45"><i>MESSE DU MATIN</i></p>
+<p class="p9">ANTIENNE D’OUVERTURE<span class="Apple-tab-span">	</span>cf. Ga 4, 4</p>
+<p class="p10"><b>Voici maintenant venue la plénitude des temps : <br>
+Dieu a envoyé son Fils sur la terre.</b></p>
+<p class="p12">PRIÈRE</p>
+<p class="p27"><span class="s3">S</span></p>
+<p class="p14"><b>eigneur Jésus, nous t’en prions, <br>
++ hâte-toi, ne tarde plus : *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>que ton avènement réconforte et relève /<br>
+ceux qui ont foi dans ta tendresse.</b></p>
+<p class="p14"><b>Toi qui vis et règnes avec le Père dans l’unité du Saint-Esprit, /<br>
+Dieu, pour les siècles des siècles.</b></p>
+<p class="p12">PRIÈRE SUR LES OFFRANDES</p>
+<p class="p30"><span class="s9">D</span></p>
+<p class="p14"><b>ans ta bonté, Seigneur, + <br>
+accepte les dons qui te sont offerts, *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>pour qu’en y communiant,<br>
+nous soyons délivrés de nos péchés /</b></p>
+<p class="p14"><b>et puissions attendre d’un cœur pur<br>
+la venue glorieuse de ton Fils.</b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+<p class="p9">Préface de l’Avent, n° 2, p. 28.</p>
+<p class="p9">ANTIENNE DE LA COMMUNION<span class="Apple-tab-span">	</span>Lc 1, 68</p>
+<p class="p10"><b>Béni soit le Seigneur, le Dieu d’Israël, <br>
+qui a visité et racheté son peuple.</b></p>
+<p class="p12">PRIÈRE APRÈS LA COMMUNION</p>
+<p class="p30"><span class="s9">T</span></p>
+<p class="p14"><b>u nous as recréés, Seigneur, <br>
+par ce don merveilleux qui vient de toi ; *<span class="Apple-converted-space"> </span></b></p>
+<p class="p14"><b>puisque nous célébrons déjà la naissance adorable de ton Fils,  /<br>
+donne-nous d’accueillir dans la joie<br>
+les biens éternels qu’il nous offre.</b></p>
+<p class="p14"><b>Lui qui vit et règne pour les siècles des siècles.</b></p>
+</body>
+</html>

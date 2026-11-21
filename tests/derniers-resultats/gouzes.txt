@@ -1,0 +1,23 @@
+temps | office : jours avec psalmodie / litanie / répons / hymne, sur le total
+  avent           lectures  49/53 psalmodie, 0 litanie, 8 répons, 53 hymne
+  avent           laudes    53/53 psalmodie, 53 litanie, 53 répons, 53 hymne
+  avent           vepres    53/53 psalmodie, 51 litanie, 53 répons, 53 hymne
+  noel            lectures  13/33 psalmodie, 0 litanie, 0 répons, 0 hymne
+  noel            laudes    0/33 psalmodie, 18 litanie, 0 répons, 0 hymne
+  noel            vepres    0/33 psalmodie, 22 litanie, 0 répons, 0 hymne
+  ordinaire       lectures  335/457 psalmodie, 0 litanie, 63 répons, 0 hymne
+  ordinaire       laudes    387/457 psalmodie, 455 litanie, 457 répons, 0 hymne
+  ordinaire       vepres    383/457 psalmodie, 455 litanie, 457 répons, 0 hymne
+  careme          lectures  75/78 psalmodie, 0 litanie, 10 répons, 78 hymne
+  careme          laudes    78/78 psalmodie, 78 litanie, 0 répons, 0 hymne
+  careme          vepres    78/78 psalmodie, 78 litanie, 0 répons, 78 hymne
+  semaine sainte  lectures  2/8 psalmodie, 0 litanie, 2 répons, 8 hymne
+  semaine sainte  laudes    8/8 psalmodie, 8 litanie, 0 répons, 0 hymne
+  semaine sainte  vepres    8/8 psalmodie, 8 litanie, 0 répons, 8 hymne
+  triduum         lectures  6/6 psalmodie, 0 litanie, 0 répons, 0 hymne
+  triduum         laudes    0/6 psalmodie, 0 litanie, 0 répons, 0 hymne
+  triduum         vepres    0/6 psalmodie, 2 litanie, 0 répons, 0 hymne
+  paques          lectures  80/100 psalmodie, 0 litanie, 0 répons, 0 hymne
+  paques          laudes    74/100 psalmodie, 100 litanie, 0 répons, 0 hymne
+  paques          vepres    88/100 psalmodie, 100 litanie, 0 répons, 0 hymne
+Toutes les pièces citées existent dans le psautier.

@@ -1,0 +1,1 @@
+window.__CONC={"G14555":[["LUK18.1","perdre courage, / se relâcher,"],["2CO4.1","nous perdons courage,"],["2CO4.16","nous perdons courage"],["GAL6.9","perdons courage / que nous nous relâchions"],["EPH3.13","perdre courage"],["2TH3.13","vous perdiez courage / vous vous relâchiez"]]};

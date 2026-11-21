@@ -1,0 +1,217 @@
+/* Page « Bénédiction de la table » (table.html) — s'appuie sur les couleurs et la barre d'office.css */
+.table-contenu { max-width: 36em; margin: 0 auto; padding: 24px 16px 48px; }
+.entete-table { text-align: center; margin-bottom: 28px; }
+.entete-table .date { margin: 0; font-family: var(--legende); color: var(--doux); font-size: .85em; text-transform: uppercase; letter-spacing: .06em; }
+.entete-table h1 { margin: .15em 0; font-family: var(--titre); font-weight: 500; font-size: 1.7em; color: var(--rouge); line-height: 1.15; }
+.entete-table .sous-titre { margin: 0; font-style: italic; color: var(--doux); }
+
+.repas { margin: 0 0 28px; }
+.repas h2 { font-family: var(--soustitre); font-weight: 500; font-size: 1.25em; color: var(--rouge); margin: 0 0 .5em;
+  border-bottom: 1px solid var(--trait); padding-bottom: .2em; }
+.repas h2 span { font-family: var(--legende); font-size: .65em; color: var(--doux); text-transform: uppercase; letter-spacing: .06em; margin-left: .4em; }
+.repas .intitule { margin: 1em 0 .2em; font-family: var(--legende); font-size: .78em; color: var(--rouge); text-transform: uppercase; letter-spacing: .05em; }
+.repas .formule { margin: 0 0 .6em; }
+.repas .rouge { color: var(--rouge); }
+.repas details.autres { margin-top: .8em; border-top: 1px dashed var(--trait); padding-top: .4em; }
+.repas details.autres summary { cursor: pointer; font-family: var(--legende); color: var(--doux); font-size: .9em; padding: .3em 0; }
+.source { font-family: var(--legende); font-size: .8em; color: var(--doux); text-align: center; margin-top: 32px; }
+
+@media (max-width: 760px) {
+  .page-table .barre-table .lib { display: none; }
+  .table-contenu { padding-top: 16px; }
+}
+
+@media print {
+  @page { size: A5; margin: 14mm 13mm 14mm; }
+  .barre, .repas details.autres, .source { display: none !important; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .table-contenu { max-width: none; padding: 0; }
+  .entete-table h1, .repas h2, .repas .intitule, .repas .rouge { color: #a3201c; }
+  .repas { break-inside: avoid; }
+}
+@media (max-width: 760px) {
+  .page-table #imprimer { display: none; }
+  .page-table .barre-table { flex-wrap: nowrap; }
+  .page-table .barre-gauche { gap: 4px; }
+}
+
+/* Onglets des pages annexes (À table, Martyrologe…) : seconde ligne de la barre */
+.page-table .barre-table { flex-wrap: wrap; }
+.pages-annexes { flex-basis: 100%; justify-content: center; margin: 0 auto; max-width: 30em; }
+.pages-annexes a { flex: 1; text-align: center; text-decoration: none; color: var(--doux); padding: 6px 12px; border-radius: 7px; }
+.pages-annexes a[aria-current="page"] { background: var(--accent); color: #fff; }
+@media (max-width: 760px) { .page-table .barre-table { flex-wrap: wrap; } .page-table .barre-gauche { flex-wrap: nowrap; } }
+
+/* Martyrologe */
+.entete-table .edition { display: inline-block; margin-top: 12px; font-family: var(--sans); font-size: 14px; color: var(--doux); }
+.entete-table .edition select { max-width: 100%; }
+.page-martyrologe .mobile, .page-martyrologe .eloges, .page-martyrologe .defunts { margin: 0 0 28px; }
+.page-martyrologe h2 { font-family: var(--soustitre); font-weight: 500; font-size: 1.2em; color: var(--rouge); margin: 0 0 .5em;
+  border-bottom: 1px solid var(--trait); padding-bottom: .2em; }
+.page-martyrologe .mobile p { margin: 0 0 .5em; }
+.page-martyrologe .eloges p { margin: 0 0 .8em; text-align: justify; hyphens: auto; }
+.page-martyrologe .eloges b { font-weight: 600; }
+.page-martyrologe .annonce { font-style: italic; color: var(--rouge); text-align: left !important; }
+.page-martyrologe .conclusion { font-style: italic; }
+.page-martyrologe .rubrique { font-style: italic; color: var(--rouge); font-size: .92em; }
+.page-martyrologe .defunts ul { list-style: none; padding: 0; margin: 0 0 .8em; }
+.page-martyrologe .defunts li { padding: .25em 0; border-bottom: 1px dotted var(--trait); }
+.page-martyrologe .defunts .detail { color: var(--doux); }
+.page-martyrologe .defunts .note { display: block; font-size: .85em; font-style: italic; color: var(--rouge); }
+.page-martyrologe .legende { font-family: var(--legende); font-size: .78em; color: var(--doux); }
+@media print {
+  .pages-annexes, .entete-table .edition { display: none !important; }
+  .page-martyrologe .eloges p { font-size: 10.5pt; }
+}
+.entete-table .edition { display: block; max-width: 22em; margin: 12px auto 0; }
+.entete-table .edition select { width: 100%; }
+.page-martyrologe .mobile p { margin: 0 0 .15em; }
+
+/* ── Prières et formules (prieres.html) */
+.page-prieres #recherche { font: inherit; font-size: 15px; border: 1px solid var(--trait); background: var(--fond); color: var(--texte);
+  border-radius: 8px; padding: 6px 10px; min-height: 36px; width: 18em; max-width: 100%; }
+.langues { display: inline-flex; border: 1px solid var(--trait); border-radius: 8px; overflow: hidden; background: var(--fond); }
+.langues button { font: inherit; font-size: 14px; border: 0; background: none; color: var(--doux); padding: 6px 10px; cursor: pointer; min-height: 34px; }
+.langues button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.page-prieres .resultat { text-align: center; color: var(--doux); font-family: var(--sans); font-size: 14px; }
+
+.aujourdhui-boite { border: 1px solid var(--trait); background: var(--fond-2); border-radius: 10px; padding: 10px 16px; margin: 0 0 20px; }
+.aujourdhui-boite h2 { margin: 0 0 4px; font-family: var(--legende); font-size: .75em; text-transform: uppercase; letter-spacing: .06em; color: var(--rouge); font-weight: 500; }
+.aujourdhui-boite ul { list-style: none; margin: 0; padding: 0; }
+.aujourdhui-boite li { padding: 2px 0; }
+.aujourdhui-boite li span { color: var(--doux); font-size: .88em; }
+
+.sommaire-prieres { columns: 2 15em; column-gap: 24px; margin: 0 0 32px; padding: 14px 16px; border-top: 1px solid var(--trait); border-bottom: 1px solid var(--trait); }
+.groupe-sommaire { break-inside: avoid; margin-bottom: 12px; }
+.groupe-sommaire .titre-groupe { display: block; font-family: var(--legende); font-size: .78em; text-transform: uppercase; letter-spacing: .05em; color: var(--rouge); text-decoration: none; margin-bottom: 2px; }
+.groupe-sommaire ul { list-style: none; margin: 0; padding: 0; }
+.groupe-sommaire li a { color: var(--texte); text-decoration: none; display: block; padding: 2px 0; font-size: .95em; }
+.groupe-sommaire li a:hover { color: var(--accent); }
+
+.page-prieres .groupe > h2 { font-family: var(--titre); font-weight: 500; font-size: 1.45em; color: var(--rouge); margin: 36px 0 6px;
+  border-bottom: 1px solid var(--trait); padding-bottom: 4px; }
+.page-prieres .groupe .intro { color: var(--doux); font-style: italic; font-size: .92em; margin: 0 0 12px; }
+.priere { margin: 22px 0 26px; scroll-margin-top: 120px; }
+.priere h3 { font-family: var(--soustitre); font-weight: 500; font-size: 1.15em; margin: 0 0 4px; color: var(--texte); }
+.priere h3 .titre-latin { font-style: italic; color: var(--doux); font-size: .85em; margin-left: .3em; }
+.priere.de-saison h3::after { content: "de saison"; font-family: var(--sans); font-size: 11px; color: #fff; background: var(--accent);
+  border-radius: 6px; padding: 1px 6px; margin-left: 8px; vertical-align: middle; }
+.priere .infos { margin: 0 0 8px; font-family: var(--legende); font-size: .8em; color: var(--doux); }
+.priere p { margin: 0 0 .7em; }
+.priere .role { color: var(--rouge); font-weight: 600; }
+.priere .rubrique { color: var(--rouge); font-style: italic; font-size: .9em; }
+.priere a.renvoi { color: inherit; text-decoration: underline dotted var(--doux); font-style: italic; }
+.priere .la, .priere p.la { color: var(--texte); }
+.priere .sans-latin { color: var(--doux); font-style: italic; font-size: .85em; }
+.priere .aujourdhui, .priere .regard.aujourdhui { background: var(--fond-2); border-left: 3px solid var(--accent); padding-left: 10px; border-radius: 4px; }
+.priere .source-latin { display: block; font-family: var(--legende); font-size: .75em; color: var(--doux); margin-bottom: 4px; }
+.formules .priere p { line-height: 1.6; }
+
+/* français et latin en regard : ligne à ligne, ou deux colonnes */
+.regard { margin: 0 0 .8em; }
+.regard.lignes { display: grid; grid-template-columns: 1fr 1fr; column-gap: 24px; row-gap: 1px; }
+.regard.blocs { display: grid; grid-template-columns: 1fr 1fr; column-gap: 24px; }
+.regard .la { font-style: italic; }
+@media (max-width: 640px) {
+  .regard.lignes { grid-template-columns: 1fr; row-gap: 0; }
+  .regard.lignes .la { color: var(--doux); font-size: .92em; margin-bottom: 5px; }
+  .regard.blocs { grid-template-columns: 1fr; }
+  .regard.blocs .la { color: var(--doux); border-left: 2px solid var(--trait); padding-left: 10px; }
+  .page-prieres #recherche { width: 100%; }
+  .page-prieres .barre-gauche { flex: 1; min-width: 0; }
+  .langues button { padding: 6px 7px; font-size: 13px; }
+  .sommaire-prieres { columns: 1; }
+}
+.haut { position: fixed; right: 16px; bottom: 16px; width: 40px; height: 40px; border-radius: 50%; background: var(--accent); color: #fff;
+  display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: var(--ombre); font-family: var(--sans); }
+@media print {
+  .page-prieres .barre, .sommaire-prieres, .aujourdhui-boite, .haut, .priere.de-saison h3::after { display: none !important; }
+  .priere { break-inside: avoid; }
+}
+.regard.lignes > div, .priere p.fr, .priere p.la { padding-left: 1em; text-indent: -1em; }
+.priere.prose-bloc p, .regard.blocs p { text-indent: 0; padding-left: 0; }
+
+/* ── Bibliothèque (accueil) */
+.rayons { display: grid; grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); gap: 14px; margin-top: 8px; }
+.rayon { display: flex; gap: 14px; align-items: flex-start; padding: 16px; border: 1px solid var(--trait); border-radius: 12px;
+  background: var(--fond); color: var(--texte); text-decoration: none; transition: border-color .15s, background .15s; }
+.rayon:hover { border-color: var(--accent); background: var(--fond-2); }
+.rayon-ico { width: 34px; height: 34px; flex: none; fill: none; stroke: var(--rouge); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; margin-top: 2px; }
+.rayon-texte { display: flex; flex-direction: column; gap: 3px; }
+.rayon-texte b { font-family: var(--soustitre); font-weight: 500; font-size: 1.2em; color: var(--rouge); }
+.rayon-texte span { font-size: .9em; color: var(--doux); line-height: 1.35; }
+.rayon-texte em { font-family: var(--legende); font-style: normal; font-size: .82em; color: var(--texte); margin-top: 4px; }
+.page-bibliotheque .table-contenu { max-width: 44em; }
+
+/* ── Frères défunts */
+.page-defunts .de-profundis, .page-defunts .repos, .page-defunts .necrologe { margin: 0 0 28px; }
+.page-defunts h2 .ref { font-family: var(--legende); font-size: .65em; color: var(--doux); margin-left: .4em; }
+.page-defunts .de-profundis p { margin: 0 0 .7em; }
+.page-defunts .de-profundis .la { font-style: italic; }
+.page-defunts .gloria { font-style: italic; color: var(--doux); }
+.page-defunts #cherche-frere { font: inherit; font-size: 15px; width: 100%; border: 1px solid var(--trait); border-radius: 8px; padding: 7px 10px;
+  background: var(--fond); color: var(--texte); margin: 4px 0 10px; }
+.page-defunts .resultat { color: var(--doux); font-family: var(--sans); font-size: 14px; margin: 0 0 8px; }
+.necrologe details.mois { border-bottom: 1px solid var(--trait); }
+.necrologe details.mois summary { cursor: pointer; padding: 8px 0; font-family: var(--soustitre); font-size: 1.05em; }
+.necrologe details.mois summary span { font-family: var(--legende); font-size: .8em; color: var(--doux); margin-left: .3em; }
+.necrologe details.mois ul { list-style: none; padding: 0; margin: 0 0 10px; font-size: .95em; }
+.necrologe details.mois li { padding: .2em 0; border-bottom: 1px dotted var(--trait); }
+.necrologe .detail { color: var(--doux); }
+@media print { .page-defunts .necrologe { display: none; } }
+.pages-annexes { max-width: 36em; }
+.pages-annexes a { white-space: nowrap; }
+@media (max-width: 480px) { .pages-annexes a { padding: 6px 6px; font-size: 14px; } }
+
+/* ── Unification avec les offices (19/11/2026) : même barre (grille « date · onglets · actions »), même en-tête
+      (filet de la couleur liturgique, date en petites capitales, titre rouge), même largeur de texte. */
+
+.pages-annexes { flex-basis: auto; max-width: none; margin: 0; }
+.table-contenu { max-width: 40em; padding: 24px 16px 48px; }
+.entete-table { text-align: left; border-left: 5px solid var(--couleur, var(--accent)); padding: 2px 0 2px 16px; margin-bottom: 24px; }
+.entete-table .date { font-size: .72em; letter-spacing: .08em; }
+.entete-table h1 { font-size: 1.9em; margin: .1em 0; }
+.entete-table .sous-titre { font-style: normal; font-size: 1.1em; color: var(--texte); }
+.entete-table .edition { margin: 10px 0 0; max-width: 24em; }
+.page-bibliotheque .table-contenu { max-width: 44em; }
+@media (max-width: 760px) { .table-contenu { padding-top: 12px; } }
+
+/* ── Prières : une bibliothèque (table des matières, chapitre, prière) — 19/11/2026 */
+.table-matieres { columns: 2 17em; column-gap: 36px; margin: 8px 0 24px; }
+.chapitre-sommaire { break-inside: avoid; margin: 0 0 22px; }
+.chapitre-sommaire h2 { margin: 0 0 4px; font-family: var(--soustitre); font-weight: 500; font-size: 1.15em; border-bottom: 1px solid var(--trait); padding-bottom: 3px; }
+.chapitre-sommaire h2 a { color: var(--rouge); text-decoration: none; }
+.chapitre-sommaire h2 a:hover { text-decoration: underline; }
+.chapitre-sommaire .numero, .titre-chapitre .numero { font-family: var(--legende); color: var(--doux); }
+.chapitre-sommaire .intro { margin: 0 0 4px; font-size: .85em; font-style: italic; color: var(--doux); }
+.chapitre-sommaire ol { list-style: none; margin: 0; padding: 0; }
+.chapitre-sommaire li a { display: block; padding: 3px 0; color: var(--texte); text-decoration: none; }
+.chapitre-sommaire li a:hover { color: var(--accent); }
+.chapitre-sommaire .titre-latin, .resultats .titre-latin { font-style: italic; color: var(--doux); font-size: .85em; }
+.fil { font-family: var(--sans); font-size: 13px; color: var(--doux); margin: 0 0 16px; }
+.fil a { color: var(--doux); }
+.titre-chapitre { border-left: 5px solid var(--accent); padding: 2px 0 2px 16px; margin-bottom: 20px; }
+.titre-chapitre .numero { margin: 0; font-size: .72em; letter-spacing: .08em; text-transform: uppercase; }
+.titre-chapitre h1 { margin: .1em 0; font-family: var(--titre); font-weight: 500; font-size: 1.9em; color: var(--rouge); }
+.titre-chapitre .intro { margin: 0; color: var(--doux); font-style: italic; }
+.lecture-priere .priere h1 { font-family: var(--titre); font-weight: 500; font-size: 1.9em; color: var(--rouge); margin: 0 0 6px;
+  border-left: 5px solid var(--accent); padding-left: 16px; }
+.lecture-priere .priere h1 .titre-latin { display: block; font-size: .5em; font-family: var(--soustitre); color: var(--doux); font-style: italic; margin: 2px 0 0; }
+.lecture-priere .priere { margin-top: 0; }
+.voisins { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; margin: 36px 0 8px; padding-top: 14px; border-top: 1px solid var(--trait); font-family: var(--sans); font-size: 14px; }
+.voisins a { color: var(--accent); text-decoration: none; }
+.voisins .precedent, .voisins .suivant { display: flex; flex-direction: column; gap: 2px; }
+.voisins .suivant { text-align: right; }
+.voisins .sens { font-size: 12px; color: var(--doux); }
+.voisins .titre { font-family: var(--soustitre); font-size: 15px; }
+.voisins .retour { font-size: 13px; color: var(--doux); }
+.resultats { list-style: none; padding: 0; margin: 0; }
+.resultats li a { display: block; padding: 8px 0; border-bottom: 1px solid var(--trait); color: var(--texte); text-decoration: none; }
+.resultats li a:hover b { color: var(--accent); }
+.resultats .chap { display: block; font-family: var(--legende); font-size: .78em; color: var(--doux); }
+@media (max-width: 640px) {
+  .table-matieres { columns: 1; }
+  .voisins { grid-template-columns: 1fr 1fr; }
+  .voisins .retour { grid-column: 1 / -1; grid-row: 2; text-align: center; }
+}
+@media print { .fil, .voisins, .table-matieres .intro { display: none !important; } }

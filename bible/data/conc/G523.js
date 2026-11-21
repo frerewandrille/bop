@@ -1,0 +1,1 @@
+window.__CONC={"G52365":[["2CO11.5","super / au-delà de l'extrême"],["2CO12.11","super / au-delà de l'extrême"]],"G52385":[["EPH3.20","infiniment au-delà de / excessivement au-delà"],["1TH3.10","très instamment / excessivement au-delà"],["1TH5.13","infiniment / excessivement au-delà"]]};

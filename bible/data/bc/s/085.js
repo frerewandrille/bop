@@ -1,0 +1,1 @@
+window.__BC={"n":"85-86","titre":"Guérison de la belle-mère de Pierre","page":"316","partie":"I. PRELUDES:","section":"SECTION 3, L'ÉVANGÉLISATION DES FOULES","refs_texte":"Mt 8,14-17","refs":[["MAT",8,14,8,17]],"paras":[{"t":"Commentaire et notes aux § 34-35*.","page":"316","k":"texte"}],"i":"085"};

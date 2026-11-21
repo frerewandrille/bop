@@ -1,0 +1,20 @@
+\documentclass[11pt, openany]{book}
+\usepackage{luatextra}
+\usepackage[french]{babel}
+\usepackage{geometry}
+
+\geometry{a5paper, margin = 0.04\paperwidth, bottom = 0.08\paperwidth, top = 0.08\paperwidth}
+
+\setmainfont[Numbers={Lowercase, Proportional, OldStyle}, Ligatures={Common,Rare,Historic}]{EB Garamond}
+
+\begin{document}
+	
+\begin{lilypond}
+	\include "Ft_Gar_11pt_.ly" \include "Veillée pascale/ExultetRefGloire M120.ly" 
+\end{lilypond}
+
+\begin{lilypond}
+	\include "Ft_Gar_11pt_.ly" \include "Veillée pascale/ExultetRefLe_Christ M120.ly" 
+\end{lilypond}
+
+\end{document}

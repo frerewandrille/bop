@@ -1,0 +1,189 @@
+{
+ "01-03": {
+  "nom": "Saint Nom de Jésus",
+  "rang": "mémoire facultative"
+ },
+ "01-04": {
+  "nom": "Ste Zdislava de Lemberk",
+  "rang": "mémoire facultative"
+ },
+ "01-07": {
+  "nom": "S. Raymond de Peñafort, prêtre",
+  "rang": "mémoire"
+ },
+ "01-18": {
+  "nom": "Ste Marguerite de Hongrie, vierge",
+  "rang": "mémoire facultative"
+ },
+ "01-28": {
+  "nom": "S. Thomas d'Aquin, prêtre et docteur de l'Église",
+  "rang": "fête"
+ },
+ "02-04": {
+  "nom": "Ste Catherine de Ricci, vierge",
+  "rang": "mémoire facultative"
+ },
+ "02-07": {
+  "nom": "Anniversaire des pères et mères défunts",
+  "rang": "anniversaire"
+ },
+ "02-13": {
+  "nom": "Bx Jourdain de Saxe, prêtre",
+  "rang": "mémoire"
+ },
+ "02-18": {
+  "nom": "Bx Fra Angelico (Jean de Fiesole), prêtre",
+  "rang": "mémoire facultative"
+ },
+ "04-20": {
+  "nom": "Ste Agnès de Montepulciano, vierge",
+  "rang": "mémoire facultative"
+ },
+ "04-29": {
+  "nom": "Ste Catherine de Sienne, vierge et docteur de l'Église",
+  "rang": "fête"
+ },
+ "04-30": {
+  "nom": "S. Pie V, pape",
+  "rang": "mémoire"
+ },
+ "05-05": {
+  "nom": "S. Vincent Ferrier, prêtre",
+  "rang": "mémoire"
+ },
+ "05-10": {
+  "nom": "S. Antonin de Florence, évêque",
+  "rang": "mémoire facultative"
+ },
+ "05-15": {
+  "nom": "B. André Abellon, prêtre",
+  "rang": "mémoire facultative",
+  "province": "Province de Toulouse"
+ },
+ "05-19": {
+  "nom": "S. François Coll Guitart, prêtre",
+  "rang": "mémoire facultative"
+ },
+ "05-24": {
+  "nom": "Translation de S. Dominique, prêtre",
+  "rang": "mémoire"
+ },
+ "05-29": {
+  "nom": "Bb. Guillaume Arnaud et ses compagnons, martyrs",
+  "rang": "mémoire facultative",
+  "province": "Province de Toulouse",
+  "couleur": "Rouge"
+ },
+ "06-04": {
+  "nom": "S. Pierre de Vérone, prêtre et martyr",
+  "rang": "mémoire",
+  "couleur": "Rouge"
+ },
+ "06-08": {
+  "nom": "Bses Diane et Cécile, vierges",
+  "rang": "mémoire facultative"
+ },
+ "07-04": {
+  "nom": "S. Pier Giorgio Frassati ; Bse Catherine Jarrige, vierge",
+  "rang": "mémoire facultative"
+ },
+ "07-09": {
+  "nom": "S. Jean de Cologne, prêtre, et ses compagnons, martyrs ; Ss. François Fernández de Capillas, prêtre, Pierre Sanz, évêque, Augustin Zhao Rong, prêtre, et leurs compagnons, martyrs",
+  "rang": "mémoire facultative",
+  "couleur": "Rouge"
+ },
+ "08-02": {
+  "nom": "Bse Jeanne, mère de S. Dominique",
+  "rang": "mémoire facultative"
+ },
+ "08-08": {
+  "nom": "S. Dominique, prêtre",
+  "rang": "solennité"
+ },
+ "08-12": {
+  "nom": "B. Jean-Georges Rhem, prêtre et martyr",
+  "rang": "mémoire facultative",
+  "province": "Province de Toulouse",
+  "couleur": "Rouge"
+ },
+ "08-17": {
+  "nom": "S. Hyacinthe de Pologne, prêtre",
+  "rang": "mémoire"
+ },
+ "08-18": {
+  "nom": "Bx Mannès, prêtre, frère de S. Dominique",
+  "rang": "mémoire facultative"
+ },
+ "08-23": {
+  "nom": "Ste Rose de Lima, vierge",
+  "rang": "mémoire"
+ },
+ "08-28": {
+  "nom": "S. Augustin, évêque et docteur de l'Église",
+  "rang": "fête"
+ },
+ "09-05": {
+  "nom": "Anniversaire des proches et bienfaiteurs défunts",
+  "rang": "anniversaire"
+ },
+ "09-06": {
+  "nom": "B. Bertrand de Garrigues, prêtre",
+  "rang": "mémoire facultative",
+  "province": "Province de Toulouse"
+ },
+ "09-18": {
+  "nom": "S. Jean Macías, religieux",
+  "rang": "mémoire facultative"
+ },
+ "09-28": {
+  "nom": "S. Dominique Ibáñez de Erquicia, prêtre, S. Laurent Ruiz, Bx Alphonse Navarrete, prêtre, et leurs compagnons, martyrs",
+  "rang": "mémoire facultative",
+  "couleur": "Rouge"
+ },
+ "10-04": {
+  "nom": "S. François d'Assise, diacre",
+  "rang": "fête"
+ },
+ "10-05": {
+  "nom": "Bx Raymond de Capoue, prêtre",
+  "rang": "mémoire facultative"
+ },
+ "10-07": {
+  "nom": "Notre-Dame du Rosaire",
+  "rang": "fête"
+ },
+ "10-09": {
+  "nom": "S. Louis Bertrand, prêtre",
+  "rang": "mémoire facultative"
+ },
+ "10-22": {
+  "nom": "Anniversaire de la dédicace de l’église dont on ignore le jour de la consécration",
+  "rang": "mémoire facultative"
+ },
+ "11-03": {
+  "nom": "S. Martin de Porrès, religieux",
+  "rang": "fête"
+ },
+ "11-06": {
+  "nom": "Bx Bonaventure García Paredes, Hyacinthe Serrano López, prêtres, et leurs compagnons, martyrs",
+  "rang": "mémoire facultative",
+  "couleur": "Rouge"
+ },
+ "11-07": {
+  "nom": "Tous les saints de l'Ordre des Prêcheurs",
+  "rang": "fête"
+ },
+ "11-08": {
+  "nom": "Anniversaire de tous les frères et sœurs défunts",
+  "rang": "anniversaire"
+ },
+ "11-15": {
+  "nom": "S. Albert le Grand, évêque et docteur de l'Église",
+  "rang": "mémoire"
+ },
+ "11-24": {
+  "nom": "Ss. Ignace Delgado, évêque, Vincent Liem, prêtre, Dominique An-Kham, laïc, André Dung-Lac, prêtre, et leurs compagnons, martyrs",
+  "rang": "mémoire",
+  "couleur": "Rouge"
+ }
+}

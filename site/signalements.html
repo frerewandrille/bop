@@ -1,0 +1,137 @@
+<!doctype html>
+<!-- Page « Signalements » : liste des erreurs signalées par les lecteurs (bouton « Signaler », js/signaler.js),
+     à marquer « traitées ». Réservée au rôle « signalements » (connexion par compte, docs/CONNEXION.md) ;
+     lit et modifie la table Azure par api/signalements. En local, outils/serveur.py joue ce rôle. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Signalements reçus</title>
+<link rel="icon" href="icone.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
+<link rel="stylesheet" href="css/polices.css?v=80">
+<link rel="stylesheet" href="css/office.css?v=80">
+<style>
+  .page-sig { max-width: 820px; margin: 0 auto; padding: 16px 16px 48px; font-family: var(--sans); font-size: 15px; }
+  .page-sig h1 { font-family: var(--titre); font-weight: 500; color: var(--rouge); font-size: 30px; margin: 8px 0 4px; }
+  .page-sig .retour { font-size: 14px; }
+  .outils-sig { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 16px 0; }
+  .outils-sig .onglets button { font-size: 14px; }
+  .sig { border: 1px solid var(--trait); border-radius: 12px; background: var(--fond); padding: 12px 14px; margin: 0 0 12px; }
+  .sig.traite { opacity: .6; }
+  .sig-tete { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; justify-content: space-between; }
+  .sig-tete strong { font-family: var(--soustitre); font-weight: 500; font-size: 17px; }
+  .sig-lieu { color: var(--doux); font-size: 14px; margin: 2px 0 8px; }
+  .etiquette { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--fond-2); border: 1px solid var(--trait); color: var(--doux); }
+  .etiquette.aelf { color: var(--rouge); border-color: var(--rouge); }
+  .sig blockquote { margin: 0 0 8px; padding: 6px 12px; border-left: 3px solid var(--rouge); background: var(--fond-2); border-radius: 0 8px 8px 0; font-family: var(--serif); font-size: 16px; }
+  .sig .remarque { margin: 0 0 8px; font-size: 15px; }
+  .sig .details { color: var(--doux); font-size: 12px; margin: 0 0 8px; word-break: break-word; }
+  .sig-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  a.bouton { text-decoration: none; display: inline-flex; align-items: center; }
+  .vide { color: var(--doux); padding: 24px 0; }
+  #acces[hidden], #liste[hidden] { display: none; }
+  #acces { border: 1px solid var(--trait); border-radius: 12px; padding: 14px; max-width: 460px; }
+  #acces label { display: flex; flex-direction: column; gap: 6px; }
+  #acces input { font: inherit; border: 1px solid var(--trait); border-radius: 8px; padding: 8px 10px; background: var(--fond); color: var(--texte); }
+</style>
+</head>
+<body>
+<main class="page-sig">
+  <p class="retour"><a href="./">‹ Retour au bréviaire</a></p>
+  <h1>Signalements reçus</h1>
+  <p class="aide" id="resume"></p>
+
+  <form id="acces" hidden>
+    <label>Clé de lecture
+      <input type="password" id="cle" autocomplete="current-password" required></label>
+    <p class="aide">La clé n'est demandée qu'une fois sur cet appareil.</p>
+    <button class="bouton principal">Ouvrir</button>
+    <p class="aide" id="acces-etat" role="status"></p>
+  </form>
+
+  <div id="liste" hidden>
+    <div class="outils-sig">
+      <nav class="onglets" aria-label="Filtre">
+        <button type="button" data-filtre="atraiter" aria-current="page">À traiter</button>
+        <button type="button" data-filtre="traites">Traités</button>
+        <button type="button" data-filtre="tous">Tous</button>
+      </nav>
+      <button type="button" class="bouton" id="actualiser">Actualiser</button>
+      <button type="button" class="bouton" id="oublier" title="Effacer la clé de cet appareil">Oublier la clé</button>
+    </div>
+    <div id="cartes"></div>
+  </div>
+</main>
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const CLE = "breviaire-cle-signalements";
+  let cle = ""; try { cle = localStorage.getItem(CLE) || ""; } catch (e) { /* rien */ }
+  let tous = [], filtre = "atraiter";
+  const NOMS = { lectures: "Office des lectures", laudes: "Laudes", milieu: "Milieu du jour", vepres: "Vêpres", complies: "Complies" };
+  const jour = (iso) => iso ? new Date(iso + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" }) : "";
+  const quand = (iso) => iso ? new Date(iso).toLocaleString("fr-FR", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "";
+
+  async function charger() {
+    $("#resume").textContent = "Chargement…";
+    const r = await fetch("api/signalements", { headers: { "x-cle": cle }, cache: "no-store" }).catch(() => null);
+    if (!r) { $("#resume").textContent = "Pas de connexion."; return; }
+    if (r.status === 401) { $("#liste").hidden = true; $("#acces").hidden = false; $("#resume").textContent = ""; $("#acces-etat").textContent = cle ? "Clé refusée." : ""; return; }
+    if (!r.ok) { $("#resume").textContent = `Le service ne répond pas (${r.status}).`; return; }
+    tous = await r.json();
+    $("#acces").hidden = true; $("#liste").hidden = false;
+    afficher();
+  }
+
+  function afficher() {
+    const n = tous.filter((s) => !s.traite).length;
+    $("#resume").textContent = `${tous.length} signalement${tous.length > 1 ? "s" : ""} reçu${tous.length > 1 ? "s" : ""}, dont ${n} à traiter.`;
+    document.querySelectorAll("[data-filtre]").forEach((b) => b.setAttribute("aria-current", b.dataset.filtre === filtre ? "page" : "false"));
+    const l = tous.filter((s) => filtre === "tous" || (filtre === "traites" ? s.traite : !s.traite));
+    $("#cartes").innerHTML = l.length ? l.map(carte).join("") : `<p class="vide">Rien ici.</p>`;
+  }
+
+  function carte(s) {
+    const lieu = [s.section, s.piece].filter(Boolean).join(" — ");
+    const lien = s.date ? `./#${encodeURIComponent(s.date)}/${encodeURIComponent(s.office || "")}` : "";
+    return `<article class="sig${s.traite ? " traite" : ""}">
+      <div class="sig-tete"><strong>${esc(NOMS[s.office] || s.office || "Office")} — ${esc(jour(s.date))}</strong>
+        <span class="aide">reçu le ${esc(quand(s.cree || s.recu))}</span></div>
+      <p class="sig-lieu">${esc(lieu || "Dans tout l'office")} ${s.provenance ? `<span class="etiquette${s.provenance === "AELF" ? " aelf" : ""}">${esc(s.provenance)}</span>` : ""}
+        ${s.version ? `<span class="etiquette">version ${esc(s.version)}</span>` : ""}</p>
+      ${s.passage ? `<blockquote>${esc(s.passage)}</blockquote>` : ""}
+      ${s.commentaire ? `<p class="remarque">${esc(s.commentaire)}</p>` : `<p class="remarque aide">(sans remarque)</p>`}
+      ${(s.partitions && s.partitions.length) || s.cle ? `<p class="details">${s.partitions && s.partitions.length ? "Partitions : " + esc(s.partitions.join(", ")) + ". " : ""}${s.cle ? "Clé : " + esc(s.cle) : ""}</p>` : ""}
+      <div class="sig-actions">
+        ${lien ? `<a class="bouton" href="${lien}">Ouvrir l'office</a>` : ""}
+        <button type="button" class="bouton${s.traite ? "" : " principal"}" data-id="${esc(s.id)}" data-mois="${esc(s.mois)}" data-traite="${s.traite ? 0 : 1}">${s.traite ? "Remettre à traiter" : "Marquer comme traité"}</button>
+      </div></article>`;
+  }
+
+  $("#acces").addEventListener("submit", (e) => {
+    e.preventDefault();
+    cle = $("#cle").value.trim();
+    try { localStorage.setItem(CLE, cle); } catch (x) { /* rien */ }
+    charger();
+  });
+  $("#actualiser").addEventListener("click", charger);
+  $("#oublier").addEventListener("click", () => { try { localStorage.removeItem(CLE); } catch (x) { /* rien */ } cle = ""; tous = []; $("#liste").hidden = true; $("#acces").hidden = false; $("#resume").textContent = ""; });
+  document.addEventListener("click", async (e) => {
+    const f = e.target.closest("[data-filtre]");
+    if (f) { filtre = f.dataset.filtre; afficher(); return; }
+    const b = e.target.closest("button[data-id]");
+    if (!b) return;
+    b.disabled = true;
+    const r = await fetch(`api/signalements?id=${encodeURIComponent(b.dataset.id)}&mois=${encodeURIComponent(b.dataset.mois)}&traite=${b.dataset.traite}`, { method: "PUT", headers: { "x-cle": cle } }).catch(() => null);
+    if (r && r.ok) { const s = tous.find((x) => x.id === b.dataset.id); if (s) s.traite = b.dataset.traite === "1"; afficher(); }
+    else { b.disabled = false; alert("La modification n'a pas pu être enregistrée."); }
+  });
+  charger();
+})();
+</script>
+</body>
+</html>
